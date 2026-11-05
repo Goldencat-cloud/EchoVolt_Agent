@@ -1,0 +1,325 @@
+{
+  "schema_version": "2.3",
+  "post_id": "272c280f94f3a4a6",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 800km 四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "CT5",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "CT5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "5月份的时候我弟弟买了一台ct5"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "蔚来",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "像蔚来的车啊"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "小鹏",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "小鹏的都试驾过"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7 Max落地价约为32.6万元，其中裸车价29.99万元，选配车漆、轮毂和冰箱共计1.5万元，保险7000多元，加上1299元无忧包及30元上牌费。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我当时的小米落地的话应该是314,900。裸车的价格来到了299,900，选配了一个车漆7000一个轮毂6000还有一个冰箱2000...保险的话7000多，然后加了一个1299的一个无忧包。上牌费的话就30块钱...最后落地价格应该在326000这样"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为虽然CT5加速感强，但其鸡腿档把令人反感，且整体驾乘体验不如小米SU7。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Ct5的脚感也很棒加速感也比较强，但是实在不喜欢他的那个鸡腿档把...整体的驾乘体验感，我觉得还是不如小米SU7。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "整体的驾乘体验感，我觉得还是不如小米SU7。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7的座椅舒适性不如蔚来和小鹏，是其美中不足之处。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "我觉得唯一美中不足的点可能就是座椅的舒适性不是很好，你会不会是想过别的车型的车，像蔚来的车啊，小鹏的都试驾过他们的座椅舒适性可能要比小米好一点。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "空间与舒适性",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T7",
+                "source_type": "text",
+                "quote": "像蔚来的车啊...他们的座椅舒适性可能要比小米好一点。"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "空间与舒适性",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T7",
+                "source_type": "text",
+                "quote": "小鹏的都试驾过他们的座椅舒适性可能要比小米好一点。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者对小米SU7的内饰质感和科技感表示满意，认为旋转仪表盘充满科技感，座椅包裹性好，中控大屏界面亲切。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "内饰的质感远超我的预期，旋转仪表盘充满了科技感，座椅的包裹性也很好，坐上去非常舒服。启动车辆，中控大屏自动亮起，熟悉的小米系统界面让我感觉特别亲切。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者在交付中心提车时体验车辆内饰。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "提车这天，我早早来到了交付中心...坐进车内"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者表示小米SU7已成为其生活好伙伴，每天开车上下班心情舒畅，周末可用于周边游玩。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在，我的小米SU7已经成为了我生活中的好伙伴。每天开着它上下班，心情都格外舒畅。周末的时候，还能开着它去周边游玩。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在城市通勤及周末周边游玩时使用车辆。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "每天开着它上下班...周末的时候，还能开着它去周边游玩。"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "2025.10.12对我来说是个超特别的日子，因为今天我终于提到了心心念念的小米酥妻MAX!"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "现在，我的小米SU7已经成为了我生活中的好伙伴。"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好电车而非油车",
+      "重视城市通勤实用性",
+      "追求最佳配置（买最好的）"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 Max的提车日记，记录了选车理由、费用明细（落地约32.6万）及提车过程。作者对比了CT5，认为SU7驾乘体验更佳，并对内饰科技感给予高度评价，但指出座椅舒适性不及蔚来和小鹏。目前车辆主要用于城市通勤和周末出游。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

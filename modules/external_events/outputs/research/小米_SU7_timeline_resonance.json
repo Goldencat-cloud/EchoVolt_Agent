@@ -1,0 +1,518 @@
+{
+  "schema_version": 2,
+  "window_days": 14,
+  "sample_per_window": 40,
+  "generated_at": "2026-10-06T20:29:03",
+  "summary": {
+    "n_events": 17,
+    "median_pp": 10.0,
+    "q1_pp": 0.0,
+    "q3_pp": 28.3,
+    "mean_pp": 13.3,
+    "share_positive": 0.647,
+    "n_skipped_low_sample": 0
+  },
+  "skipped_events": [],
+  "events": [
+    {
+      "event_id": "47b1e4b8e9fc",
+      "event_date": "2024-03-18",
+      "title": "小米汽车超级工厂揭幕 2023年投入67亿",
+      "media_coverage": {
+        "source_count": 6,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.15,
+      "related_rate_after": 0.625,
+      "resonance_pp": 47.5,
+      "examples": [
+        {
+          "post_id": "b621010573cbbbed",
+          "text": "高于20谁会买？一个手机都做的那样的企业能造的好车？靠铺天盖地的广告来掩盖那尴尬的产品力？ 高于20谁会买？一个手机都做的那样的企业能造的好车？靠铺天盖",
+          "note": "讨论SU7定价"
+        },
+        {
+          "post_id": "e7ae5aad1870ac03",
+          "text": "上周五去静态体验的小米 SU7 视频剪辑出来了，雷总三年磨一剑，这是一辆能让年轻人心里有梦、眼里有光的汽车，小米汽车未来可期！ 小米 SU7 静态体验：让年轻人",
+          "note": "体验SU7"
+        },
+        {
+          "post_id": "595abacda16c5c2c",
+          "text": "小米汽车SU7别高兴太早？小米SU7背后的危机是什么？机遇是什么？小米汽车会给新能源领域带来什么影响？小米SU7真的是特斯拉的强劲对手么？ 小米SU7别高兴太早",
+          "note": "讨论SU7影响"
+        }
+      ]
+    },
+    {
+      "event_id": "be8b556d6dfb",
+      "event_date": "2025-09-19",
+      "title": "小米召回超11.6万辆SU7标准版",
+      "media_coverage": {
+        "source_count": 9,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.0,
+      "related_rate_after": 0.4,
+      "resonance_pp": 40.0,
+      "examples": [
+        {
+          "post_id": "db4008d5e1670ca8",
+          "text": "看到小米召回SU7标准版的消息，我也有些个人想法，纯粹是交流，大家不喜勿喷。从官方公布的召回原因来看，是部分车辆在L2高速领航辅助驾驶功能开启时，对极端特殊场景",
+          "note": "讨论召回原因"
+        },
+        {
+          "post_id": "dad62ee889fb8897",
+          "text": "起码人家是召回，而不是有些品牌智慧升级连召回都不敢说 起码人家是召回，而不是有些品牌智慧升级连召回都不敢说",
+          "note": "评价召回行为"
+        },
+        {
+          "post_id": "5c02f6f2aaedf0e5",
+          "text": "说实话，看到小米SU7这一波操作，我这心里还挺五味杂陈的。想当初它刚出道那会儿，凭着赛道上横着走的狠劲儿，被冠上“地表最强四门车”的名号，确实让人服气——零百加",
+          "note": "回应智驾隐患"
+        }
+      ]
+    },
+    {
+      "event_id": "5521b63cd988",
+      "event_date": "2025-10-13",
+      "title": "成都小米SU7事故救援中车门无法打开",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.0,
+      "related_rate_after": 0.3,
+      "resonance_pp": 30.0,
+      "examples": [
+        {
+          "post_id": "551bad0fe77c3d38",
+          "text": "又是起火，又是车门打不开。如果路过的车主有个破窗锤，是不是就能避免一起惨案 又是起火，又是车门打不开。破窗锤必备。",
+          "note": "车门打不开"
+        },
+        {
+          "post_id": "e781bae03d119dad",
+          "text": "我也认为在洗，洗得明显！首先，油车起火再多，致死率却十分低；而电车起火致死率高得吓人。第二，开车违法和打不开车门没有必然的联系吧？第三，汽车除了在专业跑道上的专",
+          "note": "质疑车门安全"
+        },
+        {
+          "post_id": "0e991f06deda6e6d",
+          "text": "图片已删除 关于昨天评论区探讨的问题……阐述我的理解，关于是否自动落锁的问题哈…… 成都事故相对完整的视频，结合相关通报做一些分析： 酒驾，超速，碰撞，翻滚。超",
+          "note": "成都事故分析"
+        }
+      ]
+    },
+    {
+      "event_id": "69addaee6a28",
+      "event_date": "2026-01-04",
+      "title": "雷军官宣新一代小米SU7 4月上市",
+      "media_coverage": {
+        "source_count": 7,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        32,
+        40
+      ],
+      "related_rate_before": 0.031,
+      "related_rate_after": 0.325,
+      "resonance_pp": 29.4,
+      "examples": [
+        {
+          "post_id": "59f2f9aadeb1ca95",
+          "text": "1月7日上午，小米汽车官方宣布新一代SU7正式开启小订，并公布预售价为22.99万元起，预计将于2026年4月正式上市。然而，有细心的网友发现，在官方发布的首批",
+          "note": "讨论新一代预售"
+        },
+        {
+          "post_id": "cdf967263cb8868a",
+          "text": "今年小米官宣小米su7改款来了，时隔一年九个月，终于改款来了。 一款两年前的车，能卖了快两年的时间，也是很不错。按照其他车企估计半年就改款，su7能坚持到现在，",
+          "note": "讨论SU7改款"
+        },
+        {
+          "post_id": "847364e32bb3c489",
+          "text": "作为一直关注小米汽车的车友，今天雷军官宣新一代SU7的消息直接炸了我的朋友圈，2026款新车预计4月上市，预售22.99万起的价格也让不少人直呼意外。手里握着老",
+          "note": "讨论新一代SU7"
+        }
+      ]
+    },
+    {
+      "event_id": "908fe9572a1a",
+      "event_date": "2023-12-28",
+      "title": "小米汽车技术发布 SU7正式亮相",
+      "media_coverage": {
+        "source_count": 5,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        12,
+        40
+      ],
+      "related_rate_before": 0.667,
+      "related_rate_after": 0.95,
+      "resonance_pp": 28.3,
+      "examples": [
+        {
+          "post_id": "007c357ff19ce4a6",
+          "text": "做经得起时间校验的好设计——来自小米设计师作为一名米粉，小米手机用了多代，一直很关注小米汽车的动态，今天，它来了！今天是小米汽车苏7的预发布会，整车的大部分内容",
+          "note": "小米SU7发布会"
+        },
+        {
+          "post_id": "23967cba605cca86",
+          "text": "小米发布会，大家应该都看了，小米汽车还是延续了小米手机的优良传统，参数没输过，体验没赢过。雷军发布会各种数据世界领先，相信各个零部件或者三电包括一体压铸工艺都不",
+          "note": "发布会SU7评价"
+        },
+        {
+          "post_id": "251e45f931e11071",
+          "text": "在科技与创新的浪潮中，小米汽车应运而生，为未来出行描绘出一幅全新的蓝图。然而，总有那么一些人，以“抄袭”之名对小米汽车进行无端的指责。今天，我们就来为小米汽车正",
+          "note": "回应抄袭争议"
+        }
+      ]
+    },
+    {
+      "event_id": "27cf0b7f4e5a",
+      "event_date": "2026-03-18",
+      "title": "新一代小米SU7正式上市",
+      "media_coverage": {
+        "source_count": 12,
+        "max_tier": "T2",
+        "level": "high"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.35,
+      "related_rate_after": 0.625,
+      "resonance_pp": 27.5,
+      "examples": [
+        {
+          "post_id": "0790bd31878cb09a",
+          "text": "小米新款su7今日上市，估计又要爆单了 小米新款su7今日上市，估计又要爆单了",
+          "note": "谈新SU7上市"
+        },
+        {
+          "post_id": "4ee2b6af5cc4cba9",
+          "text": "最近想换车，之前是雷克萨斯ES250 2015款。 对于轿跑还是suv无所谓，主要是Max版的新舒淇比御妻功能和智能配置、舒适性、空间有多大提升？ 各位大佬请赐",
+          "note": "对比新SU7选车"
+        },
+        {
+          "post_id": "9bf242ecb99d9629",
+          "text": "新一代小米SU7直接21.99万起售，官方还一口气拿出了差不多100项升级，从配置、用料到细节体验都拉满了，光看清单确实诚意很足，也能看出来小米这次是真下功夫了",
+          "note": "评新SU7价格"
+        }
+      ]
+    },
+    {
+      "event_id": "7a366a282535",
+      "event_date": "2024-03-25",
+      "title": "小米SU7正式发布 标准版售21.59万元",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T3",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.6,
+      "related_rate_after": 0.725,
+      "resonance_pp": 12.5,
+      "examples": [
+        {
+          "post_id": "d32bcf1801bf7ebf",
+          "text": "追求性价比买个比亚迪汉，追求智驾买个问界M7和阿维塔12它不香吗？为啥买个小米？追求高速跑250吊销驾照吗？用小米手机，坐看小米汽车暴死。雷布斯还是老套路，先对",
+          "note": "议定价与营销"
+        },
+        {
+          "post_id": "2858144efa6f77a3",
+          "text": "小米价格盲猜最低配18.9万起，立帖为证 小米价格盲猜最低配18.9万起，立帖为证",
+          "note": "盲猜售价"
+        },
+        {
+          "post_id": "8a4073fa7dfea38a",
+          "text": "我这有消息称 大概率限时送1w权益 相当于23.99w起售 雷总连夜睡服高管 不过听内部消息还在争论当中 起售是一定要降，只是降幅到底是1.5w 还是1w 还是",
+          "note": "爆料起售价"
+        }
+      ]
+    },
+    {
+      "event_id": "372189ad6df8",
+      "event_date": "2026-02-26",
+      "title": "成都小米SU7事故报告曝光引发安全争议",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        30,
+        40
+      ],
+      "related_rate_before": 0.0,
+      "related_rate_after": 0.125,
+      "resonance_pp": 12.5,
+      "examples": [
+        {
+          "post_id": "27e411d7695b526f",
+          "text": "是是是，人全是挖来的，之前小米车死的车主们就该死是吧？你可真是真诚 是是是，人全是挖来的，之前小米车死的车主们就该死是吧？你可真",
+          "note": "提及小米车死亡"
+        },
+        {
+          "post_id": "082a6a84ae4a89dd",
+          "text": "鉴定结果出来了，车速 167km/h 碰撞，低压系统断电，车门 没外置机械拉手 ，直接打不开，人没逃出来。 酒驾超速肯定是主要原因，这点没洗。但作为开车的人，我",
+          "note": "事故鉴定细节"
+        },
+        {
+          "post_id": "f140968f00e37878",
+          "text": "之前小米汽车事故，第一财经就一直不停的发文。现在小米四川事故司法鉴定出炉，第一财经又开始密集发力。前天天连发3篇关于小米这起事故的说明，昨天又发文声称小米应该主",
+          "note": "四川事故鉴定"
+        }
+      ]
+    },
+    {
+      "event_id": "1538d4a1fd13",
+      "event_date": "2025-01-24",
+      "title": "小米召回超3万辆SU7标准版",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.0,
+      "related_rate_after": 0.1,
+      "resonance_pp": 10.0,
+      "examples": [
+        {
+          "post_id": "9fe2c426cbc7a7ce",
+          "text": "这次看来厂里受不了那么多索赔，开始召回了，当今社会口碑很重要，比起骂声一片，影响销量，不如主动售后赢得掌声，增加信誉度和销量，何乐而不为之。 车企正规，谁为百姓",
+          "note": "评论召回事件"
+        },
+        {
+          "post_id": "01b9ff7a27ec6938",
+          "text": "最近，小米SU7召回的消息闹得沸沸扬扬，其实只要大家经常关注汽车圈就会发现，最近不只是小米，好多车企都在搞召回，那我们今天抽空专门和大家聊聊召回这个事。我们先来",
+          "note": "详述召回信息"
+        },
+        {
+          "post_id": "003b308eec87a915",
+          "text": "雷军发文：“春节出行无忧，任何原因抛锚或事故，小米免费提供道路救援，并赠送500元打车券（5日有效)，免费送车到指定城市。 并且这次被召回3w辆——估计销量就这",
+          "note": "提及召回3万辆"
+        }
+      ]
+    },
+    {
+      "event_id": "58ed31da06ee",
+      "event_date": "2026-08-17",
+      "title": "小米SU7系列累计交付破50万台",
+      "media_coverage": {
+        "source_count": 5,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.0,
+      "related_rate_after": 0.025,
+      "resonance_pp": 2.5,
+      "examples": [
+        {
+          "post_id": "7a2ba46787018d6e",
+          "text": "前两天小米刚官宣Su7系列交付超过50万台，用时28.5个月。这是小米第一款车，这交付速度前无古人，大概率也后无来者。今天就像打擂台一样，鸿蒙智行发海报，交付超",
+          "note": "讨论交付破50万"
+        }
+      ]
+    },
+    {
+      "event_id": "88f7ac811709",
+      "event_date": "2026-08-21",
+      "title": "小米SU7系列因门把手隐患启动召回",
+      "media_coverage": {
+        "source_count": 5,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.0,
+      "related_rate_after": 0.025,
+      "resonance_pp": 2.5,
+      "examples": [
+        {
+          "post_id": "35b90460c4153084",
+          "text": "国家市场监管总局集中发布了一批召回公告，特斯拉、小米、零跑、小鹏、极氪、奇瑞新能源、东风、北汽蓝谷麦格纳、中国一汽九家车企榜上有名，召回原因高度一致——车内应急",
+          "note": "直接谈召回"
+        }
+      ]
+    },
+    {
+      "event_id": "da36b4123c1b",
+      "event_date": "2025-11-25",
+      "title": "小米汽车推送OTA冬季大版本",
+      "media_coverage": {
+        "source_count": 4,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        39,
+        40
+      ],
+      "related_rate_before": 0.0,
+      "related_rate_after": 0.0,
+      "resonance_pp": 0.0,
+      "examples": []
+    },
+    {
+      "event_id": "4b99857462a3",
+      "event_date": "2026-09-07",
+      "title": "小米澎程系列上市 4分钟锁单破万",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.025,
+      "related_rate_after": 0.025,
+      "resonance_pp": 0.0,
+      "examples": [
+        {
+          "post_id": "1668920d7f046236",
+          "text": "9月15日，小米澎系列的最新终端购车数据出炉，看了结果之后不得不佩服雷军的研发思路，这波精准避开自家SU7、YU7的用户圈层，凭借澎程系列成功拿下了全新消费群体",
+          "note": "澎程终端数据"
+        }
+      ]
+    },
+    {
+      "event_id": "c3fdb2299f33",
+      "event_date": "2026-09-21",
+      "title": "尚界Z7预售 24小时销量破2.5万",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.0,
+      "related_rate_after": 0.0,
+      "resonance_pp": 0.0,
+      "examples": []
+    },
+    {
+      "event_id": "a16ebf8c121b",
+      "event_date": "2026-09-26",
+      "title": "新一代小米SU7上市 21.99万起",
+      "media_coverage": {
+        "source_count": 8,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        33
+      ],
+      "related_rate_before": 0.2,
+      "related_rate_after": 0.182,
+      "resonance_pp": -1.8,
+      "examples": [
+        {
+          "post_id": "c59316ab9300ca36",
+          "text": "我SU7后驱版开了快两年了，当时选了轮毂和内饰配色，落地小25万。最近家里添了二胎，这车不够坐了，考虑换台六座SUV。但我看小米新车出得挺快，怕我这老款到时候卖",
+          "note": "新车影响老款残值"
+        },
+        {
+          "post_id": "66cb7919fbd65043",
+          "text": "我买的是小米2026款SU7，靛石绿颜色，选配20寸梅花轮毂+科技包。我最初看车时，看上的是卡布里蓝，感觉这个颜色很时尚，也很亮眼。不过我看到这个靛石绿的时候感",
+          "note": "新款SU7提车"
+        },
+        {
+          "post_id": "8ed6a9a7c81644e4",
+          "text": "我这大学毕业工作一年了，一直想买个代步车，当时父母给我预算20万，我当时看了至境L7，都已经到最后签合同了，就在这时候我看了小米发布会，一发不可收拾，就是喜欢这",
+          "note": "看发布会后选车"
+        }
+      ]
+    },
+    {
+      "event_id": "9fbe40933a7b",
+      "event_date": "2026-01-08",
+      "title": "新款小米SU7开启小订，22.99万起",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        40
+      ],
+      "related_rate_before": 0.35,
+      "related_rate_after": 0.275,
+      "resonance_pp": -7.5,
+      "examples": [
+        {
+          "post_id": "b28e155890dc32bd",
+          "text": "新一代小米SU7官方预售价为标准版22.99万、Pro版25.99万、Max版30.99万。2026年1月7日10点开启小订，意向金1000元可退，4月正式上市",
+          "note": "讨论新SU7价格"
+        },
+        {
+          "post_id": "c1e16448956803b6",
+          "text": "sU7销量连续下滑，这就是为什么改款的主因了！ 改款后会再火吗？ su7升级后再火吗",
+          "note": "讨论改款原因"
+        },
+        {
+          "post_id": "15dccbf06f4de289",
+          "text": "刷到小米新一代SU7 Max 24小时居然能跑了4264km的消息，大为震撼！！评论区吵翻了天，让我这个蔚来ET5车主也有点心痒。 说实话，4264km这个数字",
+          "note": "新SU7性能测试"
+        }
+      ]
+    },
+    {
+      "event_id": "d51f86a12767",
+      "event_date": "2026-09-30",
+      "title": "小米SU7 Ultra与2026款产品信息",
+      "media_coverage": {
+        "source_count": 9,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "n_sampled": [
+        40,
+        15
+      ],
+      "related_rate_before": 0.075,
+      "related_rate_after": 0.0,
+      "resonance_pp": -7.5,
+      "examples": []
+    }
+  ]
+}

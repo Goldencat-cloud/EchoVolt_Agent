@@ -1,0 +1,347 @@
+{
+  "post_id": "a19ce2a002a996f7",
+  "state": "CONTRACT_PASS",
+  "cache_key": "91645434060b543ad19c892331c209034d318ba0738976dfd33882ba4ae66b34",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "a19ce2a002a996f7",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米YU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "YU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "作为去年发布YU7当天锁单，半年后提车的老司机"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "真是羡慕新SU7的准车主们"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米YU9",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "YU9",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "有些米粉可能在等小米的新款车型，比如大六座的YU9"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "特斯拉",
+        "entity_level": "品牌",
+        "brand": "特斯拉",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这个情况也将会是今后的常态，就像目前的特斯拉"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者自述在去年YU7发布当天锁单，并在半年后提车。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "作为去年发布YU7当天锁单，半年后提车的老司机"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者认为新SU7的提车周期较短，部分情况下可快速提到现车，相比去年YU7需等待半年且准新车多为高配的情况有明显改善。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "真是羡慕新SU7的准车主们，终于不用等那么久再提车了，甚至手稍微快一点的，可以很快就提到现车，包括三种型号。而去年的YU7，准新车只有高配的版本。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P2",
+            "P1"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "服务与交付",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "真是羡慕新SU7的准车主们，终于不用等那么久再提车了...而去年的YU7，准新车只有高配的版本。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "作者指出新SU7在37分钟内达成15000锁单，这一数据远低于去年6月YU7发布时的火爆程度。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "37分钟，15000锁单，比起去年6月YU7的火爆，相去甚远"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "明确影响判断",
+        "aspect": "政策与市场",
+        "content": "作者认为新SU7订单量不及预期，主要原因包括前期销量消耗了大量潜在米粉、现有车主短期内不会换车、工厂产能提升消化了旧订单、目标客群需拓展至非米粉群体、部分用户在等待新车型YU9，以及潜在车主在等待智驾能力提升。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "但是订单不如意，个人认为原因有以下几点： 1、之前60万的销量，已经消耗了大多数有购车实力和购车（换车）欲望的米粉； 2、绝大多数现车主，特别是老款SU7的车主，不可能在1-2年内换车... 3、小米汽车工厂的生产速度大幅度提升... 4、小米下一步需要吸引不是米粉的买家... 6、有些米粉可能在等小米的新款车型，比如大六座的YU9； 6、潜在车主在等待小米汽车智驾的大幅度提升..."
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者建议购车者不应过分依赖网络评价和大V观点，应以实际试驾体验和自身需求为主要决策依据，并可参考汽车之家等平台的真实车主口碑。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "另外就是不要太在意网络上的看法，包括那些大V和博主们...所以试驾才是硬道理，当然也可以参考一下之家里的口碑，这里面真正的车主还是多一些。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "作者预测随着小米汽车工厂生产速度提升，未来将不再出现长期等待订单的情况，这种销售模式将成为常态，类似于目前的特斯拉。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "随着小米汽车工厂生产速度的提升，基本上不会再出现前两年需要长期等待订单的情况...这个情况也将会是今后的常态，就像目前的特斯拉。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "新SU7上市初期订单情况",
+        "event_type": "市场竞争与行业数据",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P2"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "37分钟，15000锁单"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "新SU7在上市后短时间内（37分钟）获得15000个锁单，作者认为这一数据相较于去年YU7发布时的火爆程度有所回落。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为去年发布YU7当天锁单，半年后提车的老司机"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为一个不是米粉的YU7车主"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "一位小米YU7车主对比了新SU7与去年YU7的交付速度和订单热度，认为新SU7订单量不及预期是由于前期销量透支、产能提升及用户观望等多种因素所致。作者建议消费者以试驾为准，并预测小米汽车的销售模式将逐渐走向类似特斯拉的常态化。",
+    "post_topic": "行业政策与市场",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C5/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10479,
+    "completion_tokens": 3020,
+    "total_tokens": 13499,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 12.872680800006492,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

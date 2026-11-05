@@ -1,0 +1,323 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9592b0d9d8252647",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "【深度体验】小米SU7 Max提车全记录"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 800km 四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者自述为十年油车司机，换车需求明确为30万预算内选择兼具智能化与驾驶体验的纯电轿跑，以规避燃油车年检并利用电车免检及绿牌优势。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为一名十年油车老司机，我的换车需求非常明确：30万预算内，选择一台兼具智能化与驾驶体验的纯电轿跑，同时规避燃油车每年繁琐的年检流程。电车十年免检政策叠加一线城市绿牌优势明显。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出了详细的购车费用清单，包括裸车价299,900元、保险9,500元、充电桩3,999元及上牌杂费120元，总计313,519元，并指出自行办理上牌比4S店代办节省279元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "裸车价 299,900 SU7 Max标配双电机四驱版 保险费用 9,500 2025年新政后全险（含车损险） 充电桩 3,999 小米7kW家用桩（含安装） 上牌杂费 120 自行办理，耗时1.5小时 总计 313,519 较4S店代上牌省下279元"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者描述了提车过程，称交付中心提供“管家式服务”，销售讲解各项流程，全程仅需20分钟，并建议在验车时重点观察纳米级车漆的接缝工艺。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "交付中心采用「管家式服务」：销售逐项讲解胎压监测、漆面检查、车机激活等流程，全程仅需20分钟。值得注意的是，SU7 Max标配的纳米级车漆在强光下呈现细腻金属质感，建议验车时重点观察接缝工艺。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者评价车辆外观设计，指出低趴轿跑造型、无框车门及主动式尾翼使其风阻系数低至0.195Cd，且在停车场回头率高。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外观设计：低趴轿跑造型+无框车门，搭配主动式尾翼，实测风阻系数低至0.195Cd，停车场回头率爆表。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者体验了智能座舱，称16.1英寸3K中控屏支持三端互联，且小爱同学语音控制响应速度在0.5秒以内。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智能座舱：16.1英寸3K中控屏支持「手机-车机-智能家居」三端互联，小爱同学语音控制响应速度≤0.5秒。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者评价车辆性能，指出双电机495kW输出功率在运动模式下推背感强烈，且空气悬挂在过减速带时的滤震表现优于预期。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "性能表现：双电机495kW输出功率，运动模式下推背感强烈，空气悬挂在过减速带时滤震表现优于预期。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在运动模式下驾驶，经过减速带。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "运动模式下推背感强烈，空气悬挂在过减速带时滤震表现优于预期。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者分享了续航与能耗数据，称CLTC工况752km续航适合长三角城际通勤，实测城市道路电耗约15kWh/100km（空调23℃自动模式），800V超充30分钟可补能至80%，但高速工况电耗会升至18kWh/100km左右。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "续航与能耗 CLTC工况752km续航足够应对长三角城际通勤，实测城市道路电耗约15kWh/100km（空调23℃自动模式），800V超充30分钟可补能至80%。需注意高速工况电耗会升至18kWh/100km左右。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在长三角地区进行城际通勤，城市道路行驶时空调设为23℃自动模式，并在高速工况下行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "CLTC工况752km续航足够应对长三角城际通勤，实测城市道路电耗约15kWh/100km（空调23℃自动模式），800V超充30分钟可补能至80%。需注意高速工况电耗会升至18kWh/100km左右。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出了车辆的槽点：运动风格座椅虽然包裹性强但填充物偏硬，连续驾驶2小时后腰部有明显疲劳感；此外，车顶天幕隔热性能一般，建议南方用户选配原厂遮阳帘。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "槽点反馈 运动风格座椅虽包裹性强，但填充物偏硬，连续驾驶2小时后腰部有明显疲劳感，建议后期加装腰托。此外，车顶天幕隔热性能一般，南方用户建议选配原厂遮阳帘。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者连续驾驶2小时，且身处南方地区。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "连续驾驶2小时后腰部有明显疲劳感...南方用户建议选配原厂遮阳帘。"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "提车全记录"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "用车初体验"
+      },
+      {
+        "block_id": "I2",
+        "source_type": "image_summary",
+        "quote": "恭喜您成为SU7 Max车主！"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "30万",
+    "preferences": [
+      "智能化",
+      "驾驶体验",
+      "纯电轿跑",
+      "规避年检"
+    ]
+  },
+  "post_summary": "作者详细记录了小米SU7 Max的提车全过程，包括选车理由、费用明细、交付体验及初期用车感受。作者肯定了车辆在外观、智能座舱、性能和续航方面的表现，但也指出了座椅偏硬和天幕隔热一般的缺点。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

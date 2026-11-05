@@ -1,0 +1,23 @@
+# 运行期与本地环境产物（auto-042 6.1）
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 数据与产出（运行期以只读卷挂载，不进入镜像）
+data/
+reports/
+logs/
+*.log
+_tmp_*
+
+# 版本控制与本地编排文件
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# 测试与夹具不进入运行镜像
+tests/

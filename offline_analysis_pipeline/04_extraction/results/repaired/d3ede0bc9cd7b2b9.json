@@ -1,0 +1,150 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d3ede0bc9cd7b2b9",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7侧翻起火事件"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "作者转述称，2025年1月2日在吉林辽源市发生一起交通事故，一辆小米SU7与出租车相撞后侧翻并起火，现场情况惨烈，有人员被困后被救出。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025年1月2日，吉林辽源市的一起交通事故让人心惊胆战。看到网上流传的视频，一辆小米SU7在与出租车相撞后发生了侧翻并起火，现场真是惨烈，几个年轻人被热心群众从车里抬出来之后，放下躺在冰冷的地面上不动，看着是真吓人，不知道伤情咋样。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者提出车辆侧翻后的自救建议：保持冷静，检查伤情，拨打110或122；在车辆未稳时不解开安全带，确认静止后再解开；若车门变形，用应急锤或头枕敲击车窗边缘逃生；若起火需远离火源并用衣物捂住口鼻防烟；等待救援时节省体力。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "首先，事故发生时，咱得尽量冷静，别慌... 1. 安全带先别急着解： 车辆侧翻后，别急着解开安全带，以防车子没稳住，你被甩出去。确认车子暂时不会动了，再解开安全带..."
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "2. 找逃生的路： ... 3. 远离火源： ..."
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "4. 节省体力： ..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者认为驾驶员应遵守交通规则，谨慎驾驶，避免超速，并定期检查车辆安全性能；特别指出在驾驶性能动力较强的汽车时，不应过分自信，应将安全放在第一位。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "这事儿也提醒咱们，开车时一定要守规矩，别开得太快，小心驾驶，避免出事。同时，定期检查一下车子的安全性能，确保在紧急情况下能应对得来。"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "最最想说的，还有“珍爱生命，别光想着速度与激情的刺激，别太相信自己的技术，尤其是在开性能动力太强的汽车时，安全第一是准绳”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "吉林辽源小米SU7侧翻起火事故",
+      "event_type": "交通事故与公共安全",
+      "event_time": "2025-01-02",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025年1月2日，吉林辽源市的一起交通事故让人心惊胆战。看到网上流传的视频，一辆小米SU7在与出租车相撞后发生了侧翻并起火"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "2025年1月2日，吉林辽源市一辆小米SU7与出租车相撞后发生侧翻并起火，造成人员伤亡。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子针对2025年1月2日吉林辽源一起小米SU7侧翻起火事故进行评论，详细列举了车辆侧翻后的自救技巧，并呼吁驾驶员谨慎驾驶，特别是在驾驶高性能车辆时应将安全放在首位。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

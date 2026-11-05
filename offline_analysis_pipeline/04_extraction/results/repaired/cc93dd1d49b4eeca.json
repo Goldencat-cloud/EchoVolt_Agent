@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.3",
+  "post_id": "cc93dd1d49b4eeca",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米YU7首年上市即拿下大型纯电动SUV双项第一"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "第一代SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "第一代",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "🏆第一代SU7连续两年包揽大型纯电动轿车双项第一"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者陈述J.D Power 2026年度榜单中，第一代SU7连续两年获得大型纯电动轿车双项第一，小米YU7首年上市获得大型纯电动SUV双项第一。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "J.D Power 2026年度质量与魅力榜单出炉: 🏆第一代SU7连续两年包揽大型纯电动轿车双项第一 🏆小米YU7首年上市即拿下大型纯电动SUV双项第一"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "J.D Power 2026年度质量与魅力榜单发布",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "J.D Power 2026年度质量与魅力榜单出炉"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "J.D Power发布了2026年度质量与魅力榜单，文中提及第一代SU7和小米YU7在该榜单特定细分市场中获得第一名。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分享了J.D Power 2026年度质量与魅力榜单的结果，指出第一代SU7连续两年在大型纯电动轿车领域获得双项第一，小米YU7在首年上市即在大型纯电动SUV领域获得双项第一。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

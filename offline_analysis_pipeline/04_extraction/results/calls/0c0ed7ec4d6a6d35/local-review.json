@@ -1,0 +1,99 @@
+{
+  "post_id": "0c0ed7ec4d6a6d35",
+  "state": "FAILED",
+  "cache_key": "19ae65ffa0613e7459881580aaa7ec12528aef428f457f1e3712c904971900ef",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0c0ed7ec4d6a6d35",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "这是一张在商场展厅内拍摄的小米SU7 Max版实车照片。"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "图片说明描述了小米SU7 Max在商场展厅内的实拍情况，包括蓝绿色车身、开启的电动尾门、贯穿式尾灯、红黑双色内饰、双辐式方向盘及显示HyperOS界面的中控大屏。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "画面主体为一辆蓝绿色（海湾蓝）轿车尾部，后备箱盖处于开启状态，展示了电动尾门结构。"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "内饰采用了红黑双色搭配...中控台右侧配备了一块大尺寸悬浮式触控屏...显示着系统设置界面，其中可见“Xiaomi HyperOS”字样"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子包含两张小米SU7 Max在商场展厅的实拍图，分别展示了车辆外观细节（如电动尾门、尾灯）和内饰配置（如方向盘、中控屏及HyperOS系统）。",
+    "post_topic": "产品功能与技术",
+    "analysis_value": "低"
+  },
+  "errors": [
+    "claims/C1/evidence/1:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10309,
+    "completion_tokens": 697,
+    "total_tokens": 11006,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 3.3659817000007024,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

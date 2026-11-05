@@ -1,0 +1,150 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0fd86bde7906a847",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米su7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "所以我买了一辆小米su7"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者因结婚需求购买了小米su7，此前因单程100公里左右的通勤距离，最多一周回家一次，月邮费约300-400元。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "本人是因为通勤距离单程100公里左右，所以买车之前我最多一个星期回家一趟，这样子我一个月的邮费大概就是300-400块钱。 但是为了结婚，所以我买了一辆小米su7"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者提车两个多月以来，近30天平均能耗为10.9 kWh/100km，最佳能耗7.1 kWh/100km，自述超越了99%的江西车主。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "得益于这样的脚法，我提车两个多月以来，成功超越了99%的江西车主"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "近30天能耗显示平均能耗为10.9 kWh/100km，最佳能耗为7.1 kWh/100km...该表现超越了99%的江西车友"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出车辆全景天幕导致露天停车时车内气温较高，计划购买遮阳帘进行改善。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "但是我这块全景天幕只能停在露天的停车场，因为我的单位是露天的，没有地下停车场，这就导致我的车内气温会比较较高。接下来我可能会买一个，这样连来改善一下这样的情况"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者将车停放在单位的露天停车场。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "因为我的单位是露天的，没有地下停车场"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "所以我买了一辆小米su7"
+      },
+      {
+        "block_id": "T3",
+        "source_type": "text",
+        "quote": "我提车两个多月以来"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了购买小米su7前后的用车对比。购车前因通勤远主要依赖邮寄物品，购车后每周多次往返，虽然通勤时间长但用车成本低。作者展示了较低的能耗数据并引以为豪，但也指出了全景天幕在露天停放时导致车内高温的问题，计划加装遮阳帘。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

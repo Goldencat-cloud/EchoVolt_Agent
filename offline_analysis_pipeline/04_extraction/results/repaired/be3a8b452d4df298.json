@@ -1,0 +1,495 @@
+{
+  "schema_version": "2.3",
+  "post_id": "be3a8b452d4df298",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 830km 后驱超长续航高阶智驾Pro版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 830km 后驱超长续航高阶智驾Pro版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "Model 3 后驱版",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": "后驱版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Model 3 后驱版 ： 续航(CLTC)-606km，零百加速-6.1s ，智能硬件 -纯视觉方案，悬架类型-双叉臂+多连杆"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小鹏P7i",
+      "entity_level": "具体配置",
+      "brand": "小鹏",
+      "series": "P7i",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小鹏P7i： 续航（CLTC）-702km ，零百加速-6.4s ，智能硬件-激光雷达×2 ，悬架类型-双叉臂+五连杆"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "极氪001 WE版",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": "WE版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪001 WE版 ： 续航（CLTC）-741km ，零百加速-6.9s ，智能硬件-无，悬架类型-空气悬架"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购车预算为25-35万元，核心需求包括市区通勤与周末短途自驾（续航≥600km）、高智能配置（≥L2.5级）以及兼顾操控与家用舒适性。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算区间：25-35万元（新能源车免购置税省下2万+） 核心诉求： ✓ 市区通勤+周末短途自驾（续航≥600km） ✓ 科技配置拉满（智能驾驶≥L2.5级） ✓ 兼顾操控性与家用舒适性"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者列举了四款车型的参数进行横向对比：SU7 Pro CLTC续航830km、零百5.7s；Model 3后驱版CLTC续航606km、零百6.1s；小鹏P7i CLTC续航702km、零百6.4s；极氪001 WE版CLTC续航741km、零百6.9s。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7 Pro 长续航版： 续航(CLTC)-830km，零百加速-5.7s... Model 3 后驱版 ： 续航(CLTC)-606km，零百加速-6.1s... 小鹏P7i： 续航（CLTC）-702km ，零百加速-6.4s... 极氪001 WE版 ： 续航（CLTC）-741km ，零百加速-6.9s"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "SU7 Pro 长续航版： 续航(CLTC)-830km... Model 3 后驱版 ： 续航(CLTC)-606km"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "SU7 Pro 长续航版： 续航(CLTC)-830km... 小鹏P7i： 续航（CLTC）-702km"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "SU7 Pro 长续航版： 续航(CLTC)-830km... 极氪001 WE版 ： 续航（CLTC）-741km"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者试驾后认为SU7 Pro转向精准无虚位，CDC电磁悬架过减速带干脆，语音助手响应快；相比之下，Model 3操控犀利但座椅偏硬，极氪001空间优势明显但车机偶发卡顿。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7 Pro：转向精准无虚位，CDC电磁悬架过减速带干脆；语音助手响应速度≤0.5秒； Model 3:操控犀利但座椅偏硬，AP功能成熟但需额外选装； 极氪001:空间优势明显，但车机偶发卡顿。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者最终因SU7 Pro的“跑车颜值”和“运动基因”而决定购买。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最终因SU7 Pro的「跑车颜值」+「运动基因」敲定。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出了详细的购车费用清单：基础版24.59万元，加上20英寸轮毂(+8000)、Nappa座椅(+8000)、城市NOA包(+26000)和电动尾翼(+6000)，裸车价合计25.99万元；加上保险(7578元)和上牌费(398元)，落地总价为26.78万元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "①配置单 - 基础版：24.59万元 - 选配项： ✓ 20英寸梅花轮毂+高性能胎：+8000元 ✓ 高级Nappa真皮座椅：+8000元 （限时赠送） ✓ 城市NOA高阶智驾包：+26000元（限时赠送） ✓ 电动尾翼：+6000元 ②落地总账 | 项目 | 金额 | 备注 | |------------|-----------|---------| | 裸车价 | 25.99万元 | 含选配后| | 保险 | 7578元 | 车损+200万三责+交强| | 上牌费 | 398元 | 代办服务| | **总计** | **26.78万元**"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者提车后对静态体验感到满意，认为无框车门和隐藏式门把手科技感强，内饰氛围灯效果好，无线充电板散热优秀（实测1小时充入35%）；但也指出车漆指纹留存明显，需常备擦车布。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "①静态体验 外观：无框车门+隐藏式门把手科技感拉满，但指纹留存明显需常备擦车布。颜值无话可说，每次停好车都的回头多看几眼。 内饰：灰内晚上氛围灯氛围拉满，启动旋转屏仪式感满分，无线充电板散热优秀（实测1小时充入35%）"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在700公里初体验中记录了能耗数据：市区通勤（空调24℃）为15.3kWh/100km，高速120km/h巡航时升至18.6kWh/100km。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "②动态表现 能耗：市区通勤15.3kWh/100km（空调24℃），高速120km/h巡航时升至18.6kWh"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者进行了市区通勤（空调24℃）和高速120km/h巡航驾驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "市区通勤15.3kWh/100km（空调24℃），高速120km/h巡航时升至18.6kWh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者评价高速NOA超车果断，但在施工路段需要人工接管。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智驾：高速NOA超车果断，但施工路段需人工接管"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在高速及施工路段使用了智能驾驶功能。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "高速NOA超车果断，但施工路段需人工接管"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者对400V充电速度表示满意，称10%-80%仅需30分钟。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "✓ 满意：400V充电（10%-80%仅30分钟）"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者指出待优化的问题包括：应用商店生态待丰富、前备箱希望能电动关闭、后排阅读灯晚上光线较暗。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "✓ 待优化：应用商店生态待丰富，前备箱能电动关就好了，后排开阅读灯晚上光线仍较暗。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "Dream Car-Su7Pro 提车日记分享"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "用车初体验 700公里初体验：满意与待改进"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "25-35万元",
+    "preferences": [
+      "市区通勤+周末短途自驾",
+      "续航≥600km",
+      "智能驾驶≥L2.5级",
+      "兼顾操控性与家用舒适性",
+      "跑车颜值",
+      "运动基因"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 Pro的提车日记，详细记录了选车理由、与其他三款热门车型的参数对比、试驾感受以及最终的购车决策。文中列出了详细的费用清单（落地约26.78万元）和提车流程，并对用车初期的静态体验、能耗数据、智能驾驶表现及不足之处进行了评价。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

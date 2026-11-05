@@ -1,0 +1,214 @@
+{
+  "post_id": "4b45a7895e85964d",
+  "state": "CONTRACT_PASS",
+  "cache_key": "c52965acf0910ad8b42e75f86aed6c965ac583f7d989e8d54dd80c8134ed6337",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "4b45a7895e85964d",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米汽车",
+        "entity_level": "品牌",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "表示小米汽车从未主动联系他们"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "文中提到涉事车辆为“小米汽车”"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "安全与质量",
+        "content": "3月29日一名女孩在车辆事故中身亡，疑似车辆撞击后发生起火或爆炸。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "3月29日，一位女孩在车辆事故中不幸身亡，疑似车辆撞击后发生起火或爆炸"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "服务与交付",
+        "content": "家属公开质疑小米汽车在事故后从未主动联系家属，也未就事故给出任何说法。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "家属连续几天公开发声，表示小米汽车从未主动联系他们，也未就事故给出任何说法"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "发帖人重点质疑小米官方处理态度，称虽然小米宣布成立调查组，但从未联系过家属，也没有慰问电话"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "安全与质量",
+        "content": "家属对车辆撞击护栏后自燃以及车门为何会锁等问题提出质疑。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "文中红框高亮了...“为什么车辆撞到护栏后会自燃？”、“车门为什么会锁？”等疑问"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "其他",
+        "content": "作者提出争议焦点：出车祸后家属第一时间找车企是否正确，以及厂家是否有必须回应的义务，并询问读者看法。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "🎯 那么问题来了 发生交通事故后，责任认定本应由交警与权威鉴定机构来调查。车企到底该不该“主动站出来”？还是说，这种做法其实是情绪性的错位发力？ 🚥 争议焦点： 1. 出车祸后，第一时间找车企对吗？ 2. 厂家是否有“必须回应”的义务？ 3. 如果你是家属，你会怎么做？ 大家怎么看？？欢迎投票+评论"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "提问",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "3月29日小米汽车事故致人死亡及家属维权争议",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "3月29日，一位女孩在车辆事故中不幸身亡，疑似车辆撞击后发生起火或爆炸，家属第一时间接到警察电话赶到现场。悲痛之余，家属连续几天公开发声，表示小米汽车从未主动联系他们，也未就事故给出任何说法"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "发帖人“诗雨370491153”于25-4-1 13:42发布...正文讲述了其女儿在3月29日晚10点45分发生一起车祸，导致三名学生死亡。文中提到涉事车辆为“小米汽车”...发帖人重点质疑小米官方处理态度"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "3月29日发生了一起涉及小米汽车的严重交通事故，造成人员死亡。事后家属因不满车企未主动联系和回应而公开发声，引发关于车企在事故后应对义务的舆论争议。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子讨论了一起发生在3月29日的致命交通事故，涉事车辆疑似为小米汽车。家属因车企未主动联系和回应而公开发声，引发公众对于车企在事故后是否应当“主动站出来”以及这种维权方式是否合理的争议。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "events/E1/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10624,
+    "completion_tokens": 1927,
+    "total_tokens": 12551,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 8.225693699991098,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

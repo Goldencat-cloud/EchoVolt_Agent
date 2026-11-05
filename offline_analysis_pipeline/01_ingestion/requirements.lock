@@ -1,0 +1,4 @@
+# Runtime lock: zero third-party dependencies.
+# Tested interpreter: CPython 3.11.9, Windows.
+# Python standard-library versions are supplied by the interpreter.
+# Docker interpreter/image digest will be locked in task 7.1.

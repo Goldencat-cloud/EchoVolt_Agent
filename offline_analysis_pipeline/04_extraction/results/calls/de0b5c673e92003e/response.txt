@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.3",
+  "post_id": "de0b5c673e92003e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "纯电车型其实也就特斯拉一家"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "可能影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为如果宁德时代在美国建厂，由于美国纯电市场竞争较小且主要对手仅为特斯拉，这将提高美国对中国新能源车型的接纳度，从而有利于国内新能源车企。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "假如您的时代在美国建厂的情况下，那么我觉得对于国内的新能源电车车企还是有利的...所以我觉得在宁德时代，如果说能进入美国去建厂投资的话，这种情况下对于国内的新能源车型来说是一个比较利好的消息。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "可能影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为宁德时代在美国建厂将带动当地对纯电车型的接纳程度，有助于中国国内新能源车型在美国获得市场地位。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "所以在美国投资建厂的话，其实宁德时代，它主要以是以电池，电机，电芯为主嘛，所以它会带动当地的这个对于纯电车型的接纳程度，所以也会让中国国内的新能源车型在美国有一席之地。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "宁德时代拟在美国建厂",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "假如您的时代在美国建厂的情况下"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "summary": "帖子基于假设前提讨论宁德时代在美国投资建厂的可能性及其潜在影响。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者基于宁德时代可能在美建厂的假设，分析了其对国内新能源车企的利好影响，认为此举能提升美国市场对纯电车型的接纳度，帮助中国品牌在美立足。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

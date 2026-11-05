@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5c10617cb5d67bf1",
+  "products": [
+    {
+      "id": "P1",
+      "name": "最低配款",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": "最低配",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车是最低配款"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者分享了自己驾驶最低配款车型一周的电耗记录，并询问自己的驾驶习惯（脚法）表现如何。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我开了一星期，几次电耗记录...我这脚法还可以吧"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者独自驾驶车辆一周，期间大部分时间空调设定为23度2档风量，有一次未开空调。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "空调有一次没开，其他都是23度2挡风"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "图片说明描述了车辆多次行程的能耗数据，包括单次行程约11.0-13.4 kWh/100km，以及生涯总计3293km、综合能耗13.4 kWh/100km等信息。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "生涯总计：总里程3,293km，总耗电量469kWh，怠速耗电26kWh，综合行驶能耗13.4 kWh/100km。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我开了一星期"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享了自己驾驶最低配款车型一周的电耗记录，展示了不同行程下的能耗数据，并询问自己的驾驶习惯表现。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

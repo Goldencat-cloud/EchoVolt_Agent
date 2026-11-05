@@ -1,0 +1,442 @@
+{
+  "schema_version": "2.3",
+  "post_id": "feecd84210762a1d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "理想MEGA",
+      "entity_level": "具体配置",
+      "brand": "理想",
+      "series": "MEGA",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "理想MEGA以79.8%的保值率占据第1 名"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "极氪009",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "009",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第二名是76.5%的极氪009"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7重回前五"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Model 3与小米SU7挤进前五"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Model 3与小米SU7挤进前五"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "冠军从Model X换成了Model 3"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "问界M9",
+      "entity_level": "具体配置",
+      "brand": "问界",
+      "series": "M9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "问界M9、firefly萤火虫、小鹏G6在一年车龄榜单中，退步明显"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "问界M9从第5名一下掉出前15"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "firefly萤火虫",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "firefly萤火虫",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "问界M9、firefly萤火虫、小鹏G6在一年车龄榜单中，退步明显"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "firefly萤火虫从第4名掉到了第15名"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "小鹏G6",
+      "entity_level": "具体配置",
+      "brand": "小鹏",
+      "series": "G6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "问界M9、firefly萤火虫、小鹏G6在一年车龄榜单中，退步明显"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小鹏G6也从第12名掉出了榜单"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P8",
+      "name": "蔚来",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "蔚来在一年车龄纯电保值率榜单中有两款车型上榜；在三年车龄的榜单中也有三款车挤进榜单。而蔚来的换电模式大大降低了消费者对电池寿命的忧虑"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P9",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "在品牌保值率榜单中，保时捷6月品牌保值率从60.5%降至58.5%"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P10",
+      "name": "Taycan",
+      "entity_level": "车系",
+      "brand": "保时捷",
+      "series": "Taycan",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "保时捷Taycan排名有所进步，但前几日据媒体报道，大众集团计划将Taycan列入停产名单"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "2026年6月纯电动车一年车龄保值率榜单中，理想MEGA以79.8%居首，极氪009以76.5%居第二，Model 3与小米SU7进入前五。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "理想MEGA以79.8%的保值率占据第1 名，第二名是76.5%的极氪009... Model 3与小米SU7挤进前五"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "2026年6月纯电动车一年车龄保值率榜单中，问界M9、firefly萤火虫、小鹏G6排名退步明显，其中firefly萤火虫跌至第15名，问界M9和小鹏G6跌出前15。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "问界M9、firefly萤火虫、小鹏G6在一年车龄榜单中，退步明显"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "firefly萤火虫从第4名掉到了第15名... 问界M9从第5名一下掉出前15，小鹏G6也从第12名掉出了榜单"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "2026年6月纯电动车三年车龄保值率榜单中，特斯拉包揽前三名，冠军由Model X变为Model 3。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在6月纯电动车型保值率（三年车龄）榜单中， 依旧是被特斯拉独揽前三 ，冠军从Model X换成了Model 3。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P8",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "作者认为蔚来的换电模式降低了消费者对电池寿命的忧虑，从而影响了其在保值率榜单中的表现。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "而蔚来的换电模式大大降低了消费者对电池寿命的忧虑"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P9",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P10",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "尽管保时捷Taycan排名有所进步，但据媒体报道大众集团计划将其列入停产名单，且保时捷6月品牌保值率从60.5%降至58.5%。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "保时捷Taycan排名有所进步，但前几日据媒体报道，大众集团计划将Taycan列入停产名单，在品牌保值率榜单中，保时捷6月品牌保值率从60.5%降至58.5%"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "2026年6月纯电动车保值率榜单发布",
+      "event_type": "市场竞争与行业数据",
+      "event_time": "2026-06-30",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "6月，纯电动保值率对比上月整体有所下降"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "数据统计时间为2026年6月"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "中国汽车流通协会和精真估发布了2026年6月纯电动车保值率数据，显示整体下滑，部分车型排名波动较大。"
+    },
+    {
+      "id": "E2",
+      "name": "大众集团计划停产Taycan报道",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [
+        "P9",
+        "P10"
+      ],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "前几日据媒体报道，大众集团计划将Taycan列入停产名单"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "媒体报道称大众集团计划将保时捷Taycan列入停产名单。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "非个人旅程或泛行业讨论",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了2026年6月纯电动车保值率数据，指出整体下滑背景下，小米SU7重回前五，而问界M9、firefly萤火虫、小鹏G6等车型排名退步明显。文章还讨论了蔚来换电模式对保值率的潜在积极影响，以及保时捷Taycan面临停产传闻和品牌保值率下降的情况。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "高"
+}

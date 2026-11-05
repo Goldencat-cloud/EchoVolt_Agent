@@ -1,0 +1,178 @@
+{
+  "post_id": "06a6e58cee65975d",
+  "state": "FAILED",
+  "cache_key": "08f9f9806d82ab2363953d19217c58de7c8f9d3cd5cfb2894333d680353d8b1e",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "06a6e58cee65975d",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "和su7车载设计的手电筒好像差不多粗"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者发现冒险家便携式剃须刀的粗细与小米SU7车载设计的手电筒差不多，且长度略短，因此更容易从车载储物位置取出。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "想着和su7车载设计的手电筒好像差不多粗。 然后就拿来试了下，你还别说刚刚好，只是比手电筒要短，但短了更好抠出来。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者在车内尝试将剃须刀放入原本放置手电筒的车载储物位置。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "直接就拿来试了下"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为将手电筒替换为兼具剃须、照明和充电功能的剃须刀非常便利，解决了此前剃须刀无处安放的问题。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "直接把手电筒替换成这个，不仅是剃须刀还是手电筒，还是一个充电宝。简直是太方便了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者早晨忘记剃须或见客户前需要在车内进行应急整理。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "主要是用于早晨忘了剃须，应急使用，或者见客户的时候提前收拾一下自己。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者期待小米生态后续推出更多适配车载储藏位置的产品，以促进更多生态产品上车。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "也期待小米生态后续多出一些适配车载储藏位置的产品，让更多的生态上车"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "以前车里放着一款(图三)便携式剃须刀，没有位置，就放在了水杯架的位置"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "希望车载配件能适配车载储藏位置"
+      ]
+    },
+    "post_summary": "作者分享了将一款多功能便携式剃须刀放入小米SU7车载储物格的体验，认为其尺寸合适且功能集成度高，解决了以往车内收纳不便的问题，并期待小米生态推出更多适配车载空间的产品。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "C1/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "C1/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10907,
+    "completion_tokens": 1376,
+    "total_tokens": 12283,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.85471939999843,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

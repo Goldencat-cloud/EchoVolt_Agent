@@ -1,0 +1,260 @@
+{
+  "post_id": "d5a3bc4dfa934e41",
+  "state": "FAILED",
+  "cache_key": "2cbb89e3a2ce70fa4c8a079c3e7629e6438af4c6b73066f4b36ba617d4217ed8",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "d5a3bc4dfa934e41",
+    "products": [
+      {
+        "id": "P1",
+        "name": "新一代SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "新一代SU7"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "新一代小米SU7"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "初代SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "初代SU7"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "其他",
+        "content": "作者称新一代小米SU7将于3月19日19点上市。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今天军哥终于官宣新一代小米SU7上市的时间了，就在3月19日19点"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "作者认为近两年纯电运动轿车市场竞争激烈，众多竞品将小米SU7作为主要对标对象，使其成为该细分市场的行业基准。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这两年二三十万的纯电运动轿车赛道简直卷出了火星子...小米SU7硬生生把自己活成了一个“行业度量衡”"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者指出SU7去年9月单月交付量达2万台，而今年2月销量降至200多台，并推测这是因为消费者在等待新一代SU7上市。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "去年9月份，SU7的单月交付量直接了2万台...今年2月份，SU7的销量突然断崖式掉到了只有200多台...这200多台的数据背后，是无数个正把钱攥在手里，等着看雷总怎么再次“掀桌子”的准车主"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "图片说明描述了新一代SU7的多项全系标配配置，包括防晒隔热玻璃、四门静音夹胶玻璃、座椅舒适度升级、三重安全冗余门把手、9个安全气囊、激光雷达及辅助驾驶系统、底盘升级（前双叉臂+后五连杆独立悬架等）以及V6s Plus超级电机。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "海报主要宣传“全系标配防晒隔热玻璃”"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "“全系标配”、“四门静音夹胶玻璃”"
+          },
+          {
+            "block_id": "I2",
+            "source_type": "image_summary",
+            "quote": "“全系座椅舒适度升级”"
+          },
+          {
+            "block_id": "I3",
+            "source_type": "image_summary",
+            "quote": "“全系标配 三重安全冗余门把手”"
+          },
+          {
+            "block_id": "I4",
+            "source_type": "image_summary",
+            "quote": "“全系标配 9个安全气囊”"
+          },
+          {
+            "block_id": "I5",
+            "source_type": "image_summary",
+            "quote": "“全系标配激光雷达”"
+          },
+          {
+            "block_id": "I6",
+            "source_type": "image_summary",
+            "quote": "“底盘大升级”"
+          },
+          {
+            "block_id": "I7",
+            "source_type": "image_summary",
+            "quote": "“全系标配 V6s Plus 超级电机”"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "新一代小米SU7上市时间官宣",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "计划或预告",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今天军哥终于官宣新一代小米SU7上市的时间了，就在3月19日19点"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米官方宣布新一代SU7将于3月19日19点上市。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子讨论了新一代小米SU7定于3月19日上市的消息，并结合近期销量波动分析了市场对其关注度。文中通过多张图片展示了新车在玻璃、座椅、安全、智驾、底盘及电机等方面的全系标配升级，强调了其在竞争激烈的纯电轿车市场中作为行业标杆的地位。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "claims/C4/evidence/7:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C4/evidence/3:non_contiguous_quote",
+    "claims/C4/evidence/4:non_contiguous_quote",
+    "claims/C4/evidence/7:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11820,
+    "completion_tokens": 2127,
+    "total_tokens": 13947,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 21.01756939999177,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

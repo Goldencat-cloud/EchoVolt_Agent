@@ -1,0 +1,889 @@
+{
+  "rows": 798,
+  "unique_ids": 798,
+  "baseline_n": 798,
+  "missing_ids": [],
+  "counts": {
+    "trimmed_records": 43,
+    "requested_expansion": 4,
+    "applied_expansion": 0,
+    "success": 797,
+    "relevance_有关": 630,
+    "relevance_无关": 161,
+    "relevance_证据不足": 6,
+    "technical_failure": 1
+  },
+  "integrity_errors": [],
+  "invalid_citations_count": 46,
+  "invalid_citations": [
+    {
+      "image_id": "img_12dd5361192a8631_009",
+      "quotes": [
+        "其实是用两节没电的电池"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_15798e3b915dace1_001",
+      "quotes": [
+        "Wei Shan Good Food"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_262718373414a5dd_003",
+      "quotes": [
+        "旅途中遇到合适地点跟喜欢风景，大家可以下车拍照"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_344e789389bd760d_001",
+      "quotes": [
+        "RED",
+        "RICE"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_39152f771f764a3a_003",
+      "quotes": [
+        "而拯救小米的是汽车...这才有了24年-25年的经营数据再次快速翻红。"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_3ac09fbec53b416c_005",
+      "quotes": [
+        "大家在聊天，有的在散步拍照"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_404b7903928e846a_004",
+      "quotes": [
+        "vivo X Fold5 | ZEISS"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_503e0bb53f9275fe_006",
+      "quotes": [
+        "小米官方并未对家长对xiaomi su7碰撞后车门锁死...未作出回应"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_52a26ae9a138e0de_001",
+      "quotes": [
+        "但是，这个价格真的是太高了吧"
+      ],
+      "judgment": "无关"
+    },
+    {
+      "image_id": "img_55b953c6a889451e_002",
+      "quotes": [
+        "开了我心爱的小米SU7，去了鄂尔多斯的吉劳庆川湿地公园"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_69f237788575cc6e_002",
+      "quotes": [
+        "看了眼雷总同款皮衣的价格……",
+        "今晚小米 SU7 Ultra 发布会上，雷总穿了一件挺好看的咖啡色皮衣",
+        "查询了下价格四千多一件"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_70bca63e4687cca4_001",
+      "quotes": [
+        "#双11你会在网上买车吗#"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_70bca63e4687cca4_002",
+      "quotes": [
+        "#双11你会在网上买车吗#"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_7679cebde06254eb_007",
+      "quotes": [
+        "所以我现在基本一有时间就出去玩，也跑了很多地方"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_78b6f4f86826b3bd_004",
+      "quotes": [
+        "雷军不再担任金山云董事长"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_81f00d7198e50322_001",
+      "quotes": [
+        "2024.08.05",
+        "XIAOMI 13"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_836c4f001809c228_031",
+      "quotes": [
+        "连厕所都建得如此古香古色"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_8ba62ab248b0fb54_004",
+      "quotes": [
+        "ATOM"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_8ba62ab248b0fb54_005",
+      "quotes": [
+        "TECNO AI"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_8c259b486bdae081_002",
+      "quotes": [
+        "低价是否等同于偷工减料的讨论沸沸扬扬"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_8c770c8426c73ab9_001",
+      "quotes": [
+        "雷军说，“这是我人生最后一次重大的创业项目”"
+      ],
+      "judgment": "无关"
+    },
+    {
+      "image_id": "img_a3cdfb7e2391d7e6_001",
+      "quotes": [
+        "旅游的多样性"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_a6c162f54f7c8b8d_005",
+      "quotes": [
+        "雷军向武大捐赠13亿现金",
+        "雷军13个亿的捐款也真是落到实处了"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_aea1fa92c1b5ecbd_001",
+      "quotes": [
+        "《财富》更不能因为雷军的“顺为资本”关联的顺势而为而怀疑雷军开拓科技边界精神吧？"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_b7f9b9d9abd7b3b3_003",
+      "quotes": [
+        "雷军以3000亿的身价超越农夫山泉的钟睒睒"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_b7f9b9d9abd7b3b3_004",
+      "quotes": [
+        "雷军以3000亿的身价超越农夫山泉的钟睒睒登顶中国首富"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_ceefd9444f9f861c_006",
+      "quotes": [
+        "索道平台"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_ceefd9444f9f861c_011",
+      "quotes": [
+        "罗浮山山下景点（景区大门-人间仙境-东江纵队纪念馆-冲虚古观..."
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_cf600e84225611bf_013",
+      "quotes": [
+        "AI本身并非洪水猛兽...失控的滥用才是信任撕裂的根源"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_cf68a838826455a5_001",
+      "quotes": [
+        "全国首例小米汽车“未交车催收尾款”案败诉"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_d1b4a3e1c349ad19_004",
+      "quotes": [
+        "李斌已经把自己名下所有的易车股份...全部出售"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_d8ba6a65ec75dddf_001",
+      "quotes": [
+        "华为折叠屏电脑Matebook fold据说用的华星光电的屏幕"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_d8ba6a65ec75dddf_002",
+      "quotes": [
+        "华为折叠屏电脑Matebook fold据说用的华星光电的屏幕"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_e025c3a4e459d18f_008",
+      "quotes": [
+        "这次活动是福膜和3W共同举办的"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_e2c2b65696a98f00_007",
+      "quotes": [
+        "photo was taken in Harbin"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_e6bf151ad28b42a2_004",
+      "quotes": [
+        "可以参照下图（假设中间的电芯热失控，导电物质则会弥散在其他电芯上..."
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_e7f9b4c624b0c1da_002",
+      "quotes": [
+        "was taken in harbin"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_e7f9b4c624b0c1da_004",
+      "quotes": [
+        "photo was taken in Harbin"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_e7f9b4c624b0c1da_007",
+      "quotes": [
+        "photo was taken in Harbin"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_ed0da954ae59c278_025",
+      "quotes": [
+        "✅酒店位置绝佳，近各大景点（步行：...东山寺2分钟..."
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_eeab0bc976ca0efb_001",
+      "quotes": [
+        "追觅最近在品牌建设上放了一记大招"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_fc0c48b59c66c6df_016",
+      "quotes": [
+        "浓浓的美国农场风格"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_fc0c48b59c66c6df_017",
+      "quotes": [
+        "浓浓的美国农场风格"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_fc0c48b59c66c6df_018",
+      "quotes": [
+        "浓浓的美国农场风格"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_fc0c48b59c66c6df_019",
+      "quotes": [
+        "浓浓的美国农场风格"
+      ],
+      "judgment": "有关"
+    },
+    {
+      "image_id": "img_fc0c48b59c66c6df_027",
+      "quotes": [
+        "第一波福利又来了"
+      ],
+      "judgment": "有关"
+    }
+  ],
+  "insufficient": [
+    {
+      "image_id": "img_23ffcb9b681a6feb_001",
+      "requested": true,
+      "blocked": "no_relevant_remaining_text",
+      "trimmed": false
+    },
+    {
+      "image_id": "img_2904e804fd51f92e_002",
+      "requested": true,
+      "blocked": "no_relevant_remaining_text",
+      "trimmed": false
+    },
+    {
+      "image_id": "img_2904e804fd51f92e_003",
+      "requested": true,
+      "blocked": "no_relevant_remaining_text",
+      "trimmed": false
+    },
+    {
+      "image_id": "img_50ac639baf26ceb8_001",
+      "requested": false,
+      "blocked": null,
+      "trimmed": false
+    },
+    {
+      "image_id": "img_50ac639baf26ceb8_003",
+      "requested": false,
+      "blocked": null,
+      "trimmed": false
+    },
+    {
+      "image_id": "img_9d99536f7cf3917a_003",
+      "requested": true,
+      "blocked": "no_relevant_remaining_text",
+      "trimmed": false
+    }
+  ],
+  "type_count": 462,
+  "type_counts": {
+    "product_advertisement": 4,
+    "product_promotional_image": 3,
+    "text_screenshot": 5,
+    "pets_outdoors": 1,
+    "signage": 11,
+    "night_scenery_architecture": 3,
+    "night_architecture_photography": 1,
+    "night_architecture_photo": 2,
+    "screenshot": 8,
+    "water_birds": 1,
+    "animal_landscape": 1,
+    "animals": 2,
+    "product_photo_toilet": 1,
+    "laptop_and_software_interface": 1,
+    "product_photo": 23,
+    "landscape_amusement_park": 1,
+    "landscape": 32,
+    "job_listing_screenshot": 1,
+    "aquarium_performance": 2,
+    "aquarium_dolphins": 1,
+    "animal_photo": 1,
+    "rusty_train_engine": 2,
+    "rusty_tracked_vehicle": 1,
+    "rusty_old_vehicle": 1,
+    "corporate_building_logo": 3,
+    "food": 25,
+    "person_speaking": 1,
+    "video_screenshot": 1,
+    "hand_and_coins": 1,
+    "architecture": 26,
+    "temple_architecture": 1,
+    "hotel_interior_view": 1,
+    "interior_facility": 1,
+    "screenshot_of_commerce_listing": 1,
+    "landscape_tea_plantation": 1,
+    "food_collage": 1,
+    "food_cooking": 1,
+    "street_market": 1,
+    "food_and_shopfront": 1,
+    "building with corporate logo": 1,
+    "military_vehicle_model": 1,
+    "marketing_poster_screenshot": 1,
+    "skyline_with_text_overlay": 1,
+    "food_and_drinks": 2,
+    "news_screenshot": 6,
+    "mobile_ui_screenshot": 1,
+    "corporate_signage": 1,
+    "exhibition_display": 1,
+    "indoor_event": 1,
+    "food_and_table_setting": 1,
+    "interior_decoration": 2,
+    "racing_scene": 1,
+    "person": 3,
+    "f1_pit_stop_action": 1,
+    "blank_image": 1,
+    "promotional_banner": 2,
+    "scratch_ticket": 1,
+    "people_and_objects": 1,
+    "night_scene_light_source": 1,
+    "night_sky_stars": 1,
+    "night_sky_landscape": 1,
+    "nature_sky_trees": 1,
+    "scenic_landscape": 3,
+    "night_scenery_hotel": 1,
+    "night_scenery": 1,
+    "night_cityscape": 2,
+    "night_cityscape_hotel": 1,
+    "night_landscape": 1,
+    "qr_code": 2,
+    "illustration": 2,
+    "corporate_display": 1,
+    "architecture_landmark": 7,
+    "landmark": 1,
+    "coffee_and_nature": 1,
+    "market_scene": 1,
+    "people_photo": 1,
+    "product_display": 5,
+    "food_display": 2,
+    "people_and_food": 1,
+    "furniture": 1,
+    "portrait": 7,
+    "food_photo": 1,
+    "pet_portrait": 4,
+    "cat_photo": 2,
+    "pets": 2,
+    "night_landscape_waterfront": 1,
+    "product_rendering": 1,
+    "infographic": 9,
+    "product_comparison_infographic": 1,
+    "social_media_screenshot": 13,
+    "product_photo_tv_back": 1,
+    "document": 4,
+    "person_exercise": 3,
+    "sky_and_buildings": 1,
+    "potted_plant": 1,
+    "website_screenshot": 1,
+    "surveillance_equipment": 1,
+    "street_scene_with_hanging_bag": 1,
+    "logo": 5,
+    "food_dinner_table": 1,
+    "accident_scene": 3,
+    "student_id_card": 1,
+    "workplace_desk": 1,
+    "urban_landscape_weather": 1,
+    "stormy_sea_landscape": 1,
+    "app_screenshot": 1,
+    "portrait_photo": 2,
+    "social_media_post_screenshot": 2,
+    "fireworks_display": 1,
+    "landscape_wind_turbines_sunset": 1,
+    "chart": 3,
+    "industrial_equipment_rendering": 1,
+    "drone_equipment": 1,
+    "airplane wing and aerial landscape": 1,
+    "airplane_window_view": 2,
+    "airplane_interior": 1,
+    "financial_app_screenshot": 1,
+    "aerial_view_industrial_landscape": 2,
+    "aerial_view_landscape": 1,
+    "mobile_document_interface": 1,
+    "seized_electronic_devices": 1,
+    "conceptual_illustration": 1,
+    "hand_and_product": 1,
+    "animal_photo_water_reflection": 1,
+    "museum_exhibit_photo": 1,
+    "building": 3,
+    "person_in_formal_setting": 1,
+    "food_drink": 1,
+    "airplane": 1,
+    "activity": 1,
+    "screenshot_of_video_showing_injury": 1,
+    "medical_xray": 1,
+    "industrial_facade_road_view": 1,
+    "portrait_of_woman_painting": 1,
+    "aerial view of a car carrier ship and port terminal": 1,
+    "stock_chart": 5,
+    "city_skyline_weather": 1,
+    "cityscape_night": 1,
+    "corporate_building": 2,
+    "nature_leaf_closeup": 1,
+    "scenic_spot_aerial_view": 1,
+    "amusement_ride": 1,
+    "scenery": 17,
+    "animal": 2,
+    "people": 1,
+    "night_fireworks": 1,
+    "night_performance": 1,
+    "product_image": 1,
+    "landmark_signage": 1,
+    "street_activity": 1,
+    "market_stall_food": 1,
+    "outdoor_market_display": 1,
+    "outdoor_market_scene": 1,
+    "market_fruit_display": 1,
+    "cityscape": 1,
+    "aerial_cityscape": 1,
+    "data_chart": 1,
+    "nature_flower": 1,
+    "recruitment_list": 1,
+    "sunset_sailing_boat": 1,
+    "book_cover": 3,
+    "night_landscape_architecture": 1,
+    "building_signage": 1,
+    "sunset_landscape_palm_trees": 1,
+    "road_maintenance_scene": 1,
+    "mobile_app_screenshot": 1,
+    "interior_layout_diagram": 1,
+    "outdoor_scene": 1,
+    "product_tool": 1,
+    "tool": 1,
+    "tools_and_materials": 1,
+    "car_window_view": 1,
+    "scenic_landmark": 1,
+    "meme": 1,
+    "building_exterior": 4,
+    "scenic_view": 7,
+    "scenic_architecture": 9,
+    "urban_landmark": 1,
+    "landscape_sunset": 2,
+    "landscape_construction_site": 1,
+    "product_screenshot": 1,
+    "flowers": 3,
+    "nature_flowers": 1,
+    "UFC_mma_match_result": 1,
+    "cat_closeup": 1,
+    "building_logo": 3,
+    "infographic_advertisement": 1,
+    "gambling_table": 1,
+    "landscape_and_animals": 1,
+    "animal_grazing": 1,
+    "person_in_landscape": 1,
+    "sunflower_seed_head_closeup": 2,
+    "sunflower_heads": 1,
+    "text graphic": 1,
+    "industrial_scene": 1,
+    "promotional_poster": 2,
+    "financial_report_infographic": 1,
+    "product_package": 3,
+    "textile_pattern": 1,
+    "picnic_food": 1,
+    "sports_athlete_portrait": 1,
+    "water_surface": 1,
+    "flower_field": 1,
+    "people_street_food": 1,
+    "object": 1,
+    "landscape_nature": 1,
+    "event_poster": 2,
+    "news_article_screenshot": 4,
+    "person_portrait_news_screenshot": 1,
+    "military_training": 1,
+    "interior_office_space": 1,
+    "night_architecture_person": 1,
+    "calendar_screenshot": 1,
+    "corporate_announcement_document": 1,
+    "news_graphic": 1,
+    "construction_site": 4,
+    "travel_collage": 1,
+    "landmark_architecture": 2,
+    "building_architecture": 8,
+    "street_market_vendor": 1,
+    "cityscape_landscape": 1,
+    "fire_incident_scene": 1,
+    "cat_portrait_artwork": 1,
+    "stock_market_chart": 1,
+    "building_facade": 6,
+    "document_photo": 2,
+    "coastal_landscape": 5,
+    "seascape": 1,
+    "coastal landscape": 1,
+    "scenery_sunset_seaview": 1,
+    "seascape_view_from_deck": 1,
+    "street_art_mural": 1,
+    "event_performance": 1,
+    "document_text": 2,
+    "architecture_landscapes": 1,
+    "architecture_landscaping": 1,
+    "landscape_architecture": 1,
+    "architecture_and_statues": 1,
+    "sculpture_and_architecture": 3,
+    "religious_site_interior": 1,
+    "architecture_and_statue": 2,
+    "architecture_and_people": 1,
+    "scenic_photo": 1,
+    "scenery_and_animals": 1,
+    "kitchen_sink": 1,
+    "text_quote": 1,
+    "person_and_product_display": 1,
+    "people_and_storefront": 1,
+    "consumer electronics": 2,
+    "product_photo_appliance": 1,
+    "office_desk_setup": 1,
+    "wildlife": 1,
+    "celebrity_portrait": 1,
+    "screenshot_of_social_media_post_with_photo_of_machine": 1,
+    "movie_poster": 5,
+    "movie_still_character": 1,
+    "logo_signage": 1,
+    "blueprint": 1,
+    "fruit_and_landscape": 1,
+    "hand_holding_orange": 1,
+    "produce_display": 1,
+    "roadside_objects": 1,
+    "accident_scene_debris": 1,
+    "product_promotion": 2,
+    "cartoon": 1,
+    "fruit_harvesting_scene": 1,
+    "stock_market_sentiment_chart": 1,
+    "historical_portrait": 1,
+    "calligraphy_artwork": 1,
+    "person_with_bicycle_in_nature": 1,
+    "forest_landscape": 1,
+    "religious_statue_landscape": 1,
+    "sculpture_and_landmark": 1,
+    "stone_statue": 1,
+    "architecture_landscape": 1,
+    "architecture_detail": 1,
+    "sculpture": 1,
+    "landscape_flowers_under_bridge": 1,
+    "urban_landscape_flowers": 1,
+    "landscape_flowers_sky": 1,
+    "outdoor_playground": 2,
+    "park_scene": 1,
+    "outdoor_facility": 1,
+    "abstract_glow": 1,
+    "architecture_skyline": 1,
+    "laptop with note": 1,
+    "weather_landscape": 1,
+    "robot_display": 2,
+    "stock_chart_illustration": 1,
+    "social_media_profile_screenshot": 1,
+    "interior_construction_site": 1,
+    "balloon_with_cartoon_character": 1,
+    "landscape_park_view": 1,
+    "landscape_view_from_building_interior": 1,
+    "map": 2,
+    "reflection": 1,
+    "aquarium fish": 1,
+    "aquarium_fish": 2,
+    "hiking_nature_person": 1,
+    "marketing_poster": 1,
+    "product_closeup": 1,
+    "product_photo_game_case": 1,
+    "packaged_food": 1,
+    "file_list_screenshot": 1,
+    "guide_map": 1,
+    "scenery_and_equipment": 1,
+    "night_scenery_bridge": 1,
+    "landscape_water_view": 1,
+    "food_dish": 1,
+    "restaurant_interior": 6,
+    "game_promotional_artwork": 1,
+    "fireworks": 2,
+    "fireworks_night_sky": 1,
+    "editorial_cartoon": 1,
+    "people_in_park": 1,
+    "screenshot_of_news_post_and_event_photo": 1,
+    "campfire": 1,
+    "night_landscape_moon_reflection": 1,
+    "person_with_camera_equipment": 1,
+    "airplane_wing_view": 2,
+    "product_logo": 1,
+    "scenic_architecture_person": 1,
+    "pet_photo": 1,
+    "person_and_pet": 1,
+    "screenshot_product_page": 1,
+    "cats_group_photo": 1,
+    "satellite_earth_view": 1,
+    "text_overlay_on_photo_of_chips": 1,
+    "snowman": 1,
+    "indoor_plant": 1,
+    "person_and_clothing": 1,
+    "ancient_village_architecture": 1,
+    "ancient_tower_architecture": 1,
+    "illustrated_map": 1,
+    "park_landscape": 2,
+    "coastal_lighthouse_scenery": 1,
+    "building_and_products": 1,
+    "interior_cafe_bakery": 1,
+    "text_document": 5,
+    "corporate_logo": 1,
+    "aerial_landscape": 1,
+    "infographic_table": 11,
+    "informational_table": 1,
+    "animal_portrait_rooster": 1,
+    "advertising_poster": 2,
+    "crowded_office_interior": 1,
+    "office_interior_with_computers_and_people": 1,
+    "dining_scene": 1,
+    "plush_toy": 1,
+    "sunset_cityscape": 1,
+    "sculpture_artwork": 1,
+    "snowy_pavement": 1,
+    "outdoor_snowy_park": 1,
+    "street_architecture_landmark": 1,
+    "street_architecture": 1,
+    "corporate_facade": 1,
+    "event_seating_chart": 1,
+    "landscape_flowers": 1,
+    "news_screenshot_building": 2,
+    "news_screenshot_office_scene": 1,
+    "outdoor_scene_signage": 1,
+    "sky_clouds": 1,
+    "sky_landscape": 2,
+    "building_with_logo": 2,
+    "landmark_monument": 2,
+    "industrial_smokestacks": 1,
+    "child_in_karting_car": 1,
+    "artwork": 1,
+    "scenic_spot_collage": 1,
+    "scenic_statue": 1,
+    "architecture_and_landscaping": 1,
+    "scenic architecture": 1,
+    "product_tool_kit": 1,
+    "handheld_walkie_talkie": 1,
+    "resume_profile": 1,
+    "scenery_view_from_observation_deck": 1,
+    "signage_map": 1,
+    "landmark_photo": 1,
+    "scenic_spot_photo": 1,
+    "scenic_spot_photo_collage": 1,
+    "map_and_scenery": 1,
+    "rocket_launch": 1,
+    "courtroom_scene": 1,
+    "frozen_river_scene_with_people": 1,
+    "street_scene_people": 1,
+    "handheld_gold_objects": 1,
+    "cityscape_night_view": 1,
+    "nature_flower_closeup": 1,
+    "winter_landscape_icefall": 1,
+    "scenic landmark sign": 1,
+    "hand_gesture": 1,
+    "sky_skyline": 1,
+    "architecture_and_person": 2,
+    "sculpture_and_street_signs": 1,
+    "night_camping_scene_with_people": 1,
+    "wall_detail_with_lamp_and_text": 1,
+    "night_commercial_street_view": 1,
+    "electrical_panel": 1,
+    "game_artwork": 1,
+    "surveillance_footage_people": 1,
+    "urban_architecture_sculpture": 1,
+    "urban_architecture_landmark": 1,
+    "cityscape_sunset": 1,
+    "amusement_park_facility": 1,
+    "museum_exhibit": 1,
+    "ceramic_artifact": 1,
+    "scenic_aerial_view": 1,
+    "event_stage": 1,
+    "corporate_presentation_slide": 1,
+    "新闻截图": 1,
+    "scenic_view_city_river": 1,
+    "scenery_bridge_river": 1,
+    "bridge_structure_pedestrians": 1,
+    "scenery_boat": 1,
+    "animal_portrait": 1,
+    "ground_texture": 1,
+    "smartphone_comparison_graphic": 1,
+    "food_closeup_crab": 1,
+    "water_sports_activity": 1,
+    "person_on_horseback": 1,
+    "drone_shot_water_activity": 1,
+    "slogan_text": 1,
+    "schematic_diagram": 1,
+    "logo_collection": 1,
+    "dog_portrait": 1,
+    "scenery_signage": 1,
+    "hotel_courtyard": 1,
+    "courtyard_architecture": 1,
+    "hotel_interior": 2,
+    "outdoor_courtyard_facility": 1,
+    "map_guide": 1,
+    "traditional_architecture_and_person": 1,
+    "street_scene": 2,
+    "ancient_town_street": 2,
+    "building_facade_with_logo": 1,
+    "street_view": 1,
+    "product_promotional_item": 1,
+    "industrial_machinery": 1,
+    "indoor_facility_lab": 1,
+    "people_and_catch": 1,
+    "collision_damage_scene": 1,
+    "gold_artifacts": 1,
+    "product_promo": 1,
+    "gas_station_price_board": 1,
+    "document_notice": 1,
+    "people_holding_signs_outdoors": 1,
+    "person_speaking_at_event": 1,
+    "document_screenshot": 1,
+    "text_banner": 1,
+    "coupon": 1,
+    "landscape_wind_turbines": 1,
+    "seascape_wind_turbines": 1,
+    "portrait_reading": 1,
+    "interior_decor": 3,
+    "cafe_interior_menu_board": 1,
+    "person_pouring_coffee": 1,
+    "coffee_brewing_equipment": 1,
+    "coffee_brewing": 2,
+    "people_interior_scene": 1,
+    "video_summary_screenshot": 1,
+    "product_unboxing": 1,
+    "rural_house_building": 1
+  },
+  "mean_final_round_elapsed_s": 21.249958594730238,
+  "context_relevance_samples": [
+    {
+      "image_id": "img_00ef81f06bddc2f4_001",
+      "title": "小米宣发炉火纯青，小米17海报小字有惊喜！",
+      "role": "营销物料解析 / 话题引子",
+      "limits": "虽然图片内容是手机而非汽车，但作为汽车之家论坛的跨品类科技讨论，该图直接对应了帖子标题和正文的核心论点。"
+    },
+    {
+      "image_id": "img_00ef81f06bddc2f4_003",
+      "title": "小米宣发炉火纯青，小米17海报小字有惊喜！",
+      "role": "话题配图/营销素材分析",
+      "limits": "虽然图片主体是手机而非汽车，但在汽车之家论坛语境下，此类跨品类科技产品的营销手法讨论属于常见的社区闲聊或跨界话题。"
+    },
+    {
+      "image_id": "img_00ef81f06bddc2f4_004",
+      "title": "小米宣发炉火纯青，小米17海报小字有惊喜！",
+      "role": "营销细节佐证",
+      "limits": "图片内容为静态文字，缺乏对海报整体设计的展示。"
+    },
+    {
+      "image_id": "img_02d3fa561f55a943_002",
+      "title": "一天3款新车上市，造手机的都沉默了：10家车企利润之和不敌宁德",
+      "role": "核心论据配图",
+      "limits": null
+    },
+    {
+      "image_id": "img_03290faf9deec7e5_003",
+      "title": "我站雷军，张雪机车犀利评价雷军，真诚“杠”真诚",
+      "role": "论点佐证配图",
+      "limits": "图片仅展示了雷军的个人言论，缺乏与其造车理念或争议事件（如文中提到的挖孔机盖）的直接视觉联系。"
+    },
+    {
+      "image_id": "img_03878cbb17341de1_003",
+      "title": "雷军影响力下滑，小米这是要推新人顶替吗？",
+      "role": "用于佐证帖子关于‘小米推新人顶替雷军做宣传’的论点，提供所谓演讲金句作为素材",
+      "limits": "图片为纯文字截图，缺乏时间戳、来源水印或原始链接，无法独立验证其真实性；且与汽车产品本身无直接关联"
+    }
+  ]
+}

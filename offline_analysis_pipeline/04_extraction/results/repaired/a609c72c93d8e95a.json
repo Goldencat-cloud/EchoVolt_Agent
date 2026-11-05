@@ -1,0 +1,535 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a609c72c93d8e95a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "线下探店小米SU7和阿维塔06，有点拿不定主意"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "阿维塔06",
+      "entity_level": "车系",
+      "brand": "阿维塔",
+      "series": "06",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "线下探店小米SU7和阿维塔06，有点拿不定主意"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者因朋友反馈小米充电方便且日常省钱，决定购买电动汽车，目前在线下对比小米SU7和阿维塔06，感到纠结，计划下周试驾以决定购买哪一款。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "身边朋友都说现在充电最后盯上了小米方便，日常开着也省钱，我就琢磨着买辆电车。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "现在就是心里有点纠结，不知道买哪辆比较好...打算下周去试试驾，看看开起来哪个顺手。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者在小米门店实地查看SU7，认为其实车比图片显大，车身低趴，前脸圆润，侧面线条流畅，车漆在灯光下显得油亮漂亮。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "说实话，这车看着比图片显大，车身低趴趴的，前脸圆圆的，像只蓄势待发的小野兽。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车身侧面线条很流畅，从车头一直延伸到车尾，没有多余的凸起，看着就很舒服。车漆也是很漂亮，在灯光下油亮油亮的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者坐进SU7驾驶座体验，认为视野开阔，座椅手感不错且支撑性好，电动调节顺滑；后排空间比预想中大，膝盖离前排有一拳多距离。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "第一感觉是视野挺开阔。 座椅摸着手感不错，虽然有点硬，但支撑性很好，坐久了也不会觉得累。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "后排空间也比我想象的大，坐进去膝盖离前排还有一拳多距离。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者评价SU7的16.1英寸中控大屏显示清晰，操作顺手如同家用平板。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "中控台就一块大平板，16.1英寸的屏幕很大，看着就很过瘾，显示效果很清晰，操作起来跟家里平板差不多顺手。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者关注SU7长续航版，根据店员说法预计实际续航约为标称值的八折，认为该续航水平令人喜欢，足以满足一周使用需求。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "我之前在网上了解过，这车的长续航版能到700多，就是不知道实际会打多少折。店员的意思是一般最多也就打八折，算下来感觉充一次用一周都是绰绰有余了，感觉这个长续航还是挺喜欢的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7的价格略微超出其预算。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "就是价格比我的预算稍微超了点。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者欣赏阿维塔06的云紫色车漆和溜背造型，认为其F形日行灯辨识度高，但指出该颜色需要加价。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "第一眼就看到那辆云紫色的，这颜色真好看，就是得加钱，大概就是美丽的代价。车身线条溜溜溜的，特别是车顶从后门开始往下溜，看着特别动感。最显眼的是车头那对F形日行灯，老远就能认出来。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者体验阿维塔06座椅，形容其皮质柔软如陷进沙发，并尝试了前排腰部按摩功能，认为力度舒适。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "座椅是那种软软的皮质，坐上去像陷进沙发里。销售说前排还带按摩功能，试了下腰部按摩，力道还挺舒服。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为阿维塔06的中控屏比小米SU7小，但系统操作流畅顺手，作者推测这可能与其使用华为手机有关，因此对该系统较为信任。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "中控屏比小米SU7小了些，不过系统用着挺顺手，流畅度超级好，功能切换很丝滑啊~~也可能是因为我现在用的是华为手机吧，对这系统还是挺信任的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "智能座舱与车机",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "中控屏比小米SU7小了些"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者对比两款车的续航，指出阿维塔06纯电版有600km和650km版本，比小米SU7长续航版略短，但差距不大，属于够用范围。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "续航方面，纯电版有600公里的和650公里的，比SU7长续航版少点，但也没有少很多，算是够用范围吧。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "续航与能耗",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "比SU7长续航版少点"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为阿维塔06的价格比小米SU7更便宜，这一点让其感到心动。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "价格上阿维塔06更便宜一些，比较让我心动的是..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "价格上阿维塔06更便宜一些"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者指出阿维塔06的高速智驾辅助是标配，而小米SU7的高速智驾是选配，这一配置差异让作者对阿维塔06感到心动。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "比较让我心动的是这车在高速上的智驾辅助是标配的，而小米SU7的高速智驾是选配。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "智能驾驶",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "这车在高速上的智驾辅助是标配的，而小米SU7的高速智驾是选配"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我就琢磨着买辆电车。"
+      },
+      {
+        "block_id": "T4",
+        "source_type": "text",
+        "quote": "打算下周去试试驾，看看开起来哪个顺手。"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "充电方便",
+      "日常使用成本低",
+      "长续航",
+      "高速智驾辅助标配",
+      "价格实惠"
+    ]
+  },
+  "post_summary": "作者因看好电动车的便利性和经济性，线下探访了小米SU7和阿维塔06。文中详细记录了实车外观、内饰空间、车机系统及续航配置的对比体验，指出SU7续航更长但价格稍超预算，阿维塔06价格更低且高速智驾为标配。作者目前处于纠结状态，计划通过试驾进一步决策。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

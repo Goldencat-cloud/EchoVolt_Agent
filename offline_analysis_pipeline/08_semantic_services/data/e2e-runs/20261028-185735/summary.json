@@ -1,0 +1,68 @@
+{
+ "langsmith_project": "deep-agents-action",
+ "tracing": true,
+ "runs": [
+  {
+   "scenario": "detail",
+   "status": "failed",
+   "wall_s": 30.2,
+   "clarify": 0,
+   "outline_steps": 3,
+   "regenerates": null,
+   "tool_calls": null,
+   "tool_errors": null,
+   "code_failures": null,
+   "gate_rejections": null,
+   "elapsed_ms": null,
+   "error": {
+    "error": "RuntimeError: 'decisions'；最近工具调用：[]"
+   }
+  },
+  {
+   "scenario": "vague",
+   "status": "failed",
+   "wall_s": 36.1,
+   "clarify": 1,
+   "outline_steps": 3,
+   "regenerates": null,
+   "tool_calls": null,
+   "tool_errors": null,
+   "code_failures": null,
+   "gate_rejections": null,
+   "elapsed_ms": null,
+   "error": {
+    "error": "RuntimeError: 'decisions'；最近工具调用：[]"
+   }
+  },
+  {
+   "scenario": "compare",
+   "status": "failed",
+   "wall_s": 33.1,
+   "clarify": 3,
+   "outline_steps": 3,
+   "regenerates": null,
+   "tool_calls": null,
+   "tool_errors": null,
+   "code_failures": null,
+   "gate_rejections": null,
+   "elapsed_ms": null,
+   "error": {
+    "error": "RuntimeError: 'decisions'；最近工具调用：[]"
+   }
+  },
+  {
+   "scenario": "trap",
+   "status": "clarify_loop_no_cap",
+   "wall_s": 21.1,
+   "clarify": 3,
+   "outline_steps": 0,
+   "regenerates": null,
+   "tool_calls": null,
+   "tool_errors": null,
+   "code_failures": null,
+   "gate_rejections": null,
+   "elapsed_ms": null,
+   "error": null
+  }
+ ]
+}

@@ -1,0 +1,650 @@
+{
+  "schema_version": "2.3",
+  "post_id": "27b0b371cbdd3c91",
+  "products": [
+    {
+      "id": "P1",
+      "name": "保时捷Macan S",
+      "entity_level": "具体配置",
+      "brand": "保时捷",
+      "series": "Macan",
+      "model_year": null,
+      "version": "S",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一次租车是保时捷macan s，2.0T的发动机，配置属于中配"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Model 3焕新版",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": "焕新版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第二次租车是特斯拉model 3焕新版，24年2月份租车公司购买的"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "小米SU 7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU 7",
+      "model_year": null,
+      "version": "长续航款",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第三次租车换的车型是小米的SU 7，非常新的车，今年6月份才上牌的，里程才6800公里，长续航款"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为保时捷Macan S内饰豪华，音响效果很好，重低音效果好，主机功率大。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最大感受是内饰豪华，音响效果很好，稍微调大一点音量，那声音就变得很大，重低音效果很好，应该是音响设备的主机功率很大"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为保时捷Macan S驾驶体验不错，路感清晰，转弯反馈好，方向盘助力随速增益设计合理。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驾驶体验还是不错的，路感清晰，转弯反馈很好，方向盘助力很好，低速下很轻，高速加重一些，让驾驶者更有信心"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者指出保时捷Macan S在低速3档以下有轻微顿挫，涡轮增压导致加速线性度一般，高速超车需深踩油门降档，信心一般。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "低速下特别是3档下方，顿挫感是有的，但不太明显，不过因为是涡轮增压发动机，加速的线性度一般，高速100公里再提速超车需要深踩油门降档后才有力量超车，高速超车信心一般"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为保时捷Macan S车机系统一般，中控屏尺寸小，自带导航不好用，连接CarPlay后导航体验提升。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "不过车机系统一般，那个中控屏尺寸有点小，自带的导航不太好用，后面用carplay链接苹果手机的高德地图后，导航舒适度提高很多"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者描述特斯拉Model 3焕新版采用屏幕换挡和按键式转向灯，初期需视觉确认，后期可盲操，作者认为屏幕换挡比怀挡好用。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "没有怀挡，没有机械拨杆转向灯，换挡操作在中控屏的左上方，转向灯在方向盘的左边按键盘那里...换挡操作在中控屏，也是挺方便的，我甚至觉得比怀挡还好用"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为特斯拉Model 3焕新版操控体验非常好，转向精准，路感清晰，加速有力且线性，无顿挫感。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驾驶model 3焕新版，操控体验非常好，转向精准，路感清晰，加速有力，因为发动机是电机，动力输出的线性度非常好，没有油车的顿挫感"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为特斯拉Model 3焕新版减震较老款软但仍偏硬，内饰有氛围灯，座椅支撑好但材料质感不如Macan。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "焕新版的减震明显没有老款那么硬了，不过比普通车型还是会硬一点...焕新版的内饰比老款好一些，有氛围灯...座椅支撑度不错，包裹性好，但材料差一些"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为特斯拉车机系统丝滑好用，界面易上手，自带导航比手机高德地图好用，提示及时且指示清晰。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特斯拉的车机系统丝滑好用，界面容易上手...导航系统我觉得比手机上的高德地图好用一些，路口导航提示语音及时，地图上指示清晰不容易看错"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者前往荣昌天主堂往返行驶220公里，全程使用特斯拉自带导航。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我去荣昌天主堂那天来回行驶了220公里，都是用的特斯拉自带的导航，非常好用"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU 7外观拉风引人注目，内饰层次感不错但用材一般。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU 7的外观确实拉风，经常有路人和驾驶员侧目而视，内饰虽然层次感不错，但用材一般"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU 7车机系统不错且丝滑好用，主界面布局包含行驶、导航和娱乐信息。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "倒是车机系统还不错，也比较丝滑好用，主界面是三个功能，包含行驶信息，导航信息和娱乐信息"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为小米SU 7续航里程长是其最大亮点，充满电实际可跑550公里，比Model 3多100公里，缓解里程焦虑。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "个人觉得续航里程长是小米这款车的最大亮点，充满电实际跑550公里完全没有问题，比特斯拉model 3多出100公里，对里程焦虑的朋友来说是福音"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P2",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "比特斯拉model 3多出100公里"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU 7操控性是三款车中最差的，方向盘虚位大，指向准度一般，路感不好，悬架过软，高速表现差强人意。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米最大弱点是驾驶体验，操控性是三个车型里面最差的，虽然车身重心最低，但方向盘虚位有点大，指向准确度一般，路感不好，悬架有点过软了...但高速跑起来明显差强人意一点"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P1",
+            "aspect": "驾驶与操控",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "操控性是三个车型里面最差的"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P2",
+            "aspect": "驾驶与操控",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "操控性是三个车型里面最差的"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C13",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为小米SU 7音响效果不错，介于Macan和Model 3之间；自带导航尚可但略逊于特斯拉。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米的音响效果还不错，比macan差一些，但比model 3好。小米自带的导航系统耶还可以，但个人还是觉得比特斯拉的差一点"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P1",
+            "aspect": "配置与功能",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "比macan差一些"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P2",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "但比model 3好"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C14",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者总结认为Model 3操控性优于Macan，Macan优势在于内饰豪华、用料讲究和音响效果。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "ma­c­an是保时捷的中级SUV车型，操控性在油车里面算很好的了，但与mo­d­el 3比较起来个人觉得还是特斯拉的操控性更好一些，ma­c­an的主要优势是内饰豪华，用料讲究，音响效果特别好"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "与mo­d­el 3比较起来个人觉得还是特斯拉的操控性更好一些"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C15",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为电动车品牌首选特斯拉，将电动车分为特斯拉和其他两类；选择保时捷体现身份地位；小米在25万档次性价比高。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "电动车品牌第一推荐还是特斯拉，我觉得电动车品牌分类就是特斯拉和其他两种，选择保时捷体现的是身份地位...小米总体评价是外观拉风，内饰一般，车机系统还不错，续航里程长，在25万档次的电动车里性价比确实不错"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "为了交通方便就租车了三次"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视操控性",
+      "重视续航里程",
+      "偏好豪华内饰与音响"
+    ]
+  },
+  "post_summary": "作者在重庆旅游期间先后租用了保时捷Macan S、特斯拉Model 3焕新版和小米SU 7长续航版进行对比体验。作者详细评价了三车在内饰、操控、车机、续航等方面的优缺点，认为Model 3操控最佳，Macan内饰豪华，小米SU 7续航长但操控较弱，并最终表达了对特斯拉品牌的推崇及对保时捷的身份象征定位的看法。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

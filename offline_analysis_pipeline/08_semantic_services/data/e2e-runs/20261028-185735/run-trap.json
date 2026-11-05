@@ -1,0 +1,56 @@
+{
+ "scenario": "trap",
+ "question": "用数据证明 SU7 是同级别加速最快的车",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "93406ff927a34a2697a15d81be9949e6",
+  "status": "running",
+  "status_url": "/api/agent/report/93406ff927a34a2697a15d81be9949e6",
+  "request_id": "5f72e84c6098"
+ },
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 12.0,
+   "status": "clarifying",
+   "phase": "澄清中"
+  }
+ ],
+ "clarify_count": 3,
+ "outline": null,
+ "regenerate_used": 0,
+ "job_id": "93406ff927a34a2697a15d81be9949e6",
+ "clarify_questions": [
+  {
+   "field": "topic",
+   "question": "“加速最快”具体关注哪些指标或场景（如0-100km/h、0-60mph、零四加速、中途加速等）？"
+  },
+  {
+   "field": "compare",
+   "question": "“同级别”按什么维度界定（如价格区间、车身形式、尺寸级别、动力类型等）？"
+  }
+ ],
+ "clarify_responses": [
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "compare"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "compare"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "compare"
+  }
+ ],
+ "fatal": "clarify_loop_no_cap",
+ "wall_s": 21.1
+}

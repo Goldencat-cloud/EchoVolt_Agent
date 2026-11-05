@@ -1,0 +1,369 @@
+{
+  "schema_version": "2.3",
+  "post_id": "156a0e1646547138",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "车头悬挂白色展示牌，上面印有“XIAOMI SU7”字样，明确了品牌与车型身份。"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "右下角标有“SU7 Max”型号铭牌。"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7底盘硬、转向准、高速贴地不飘，零百加速快，电门跟脚不窜，定位为运动操控纯电中大型轿跑，底盘素质和车身刚性在同级中拔尖，操控灵活无笨重感，极限稳定性远超同级家用轿车。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "底盘硬转向准高速贴地不飘，零百加速越级电门跟脚不窜 小米SU7定位运动操控纯电中大型轿跑，底盘素质车身刚性同级拔尖。转向虚位极小指向精准，车身跟随性强变道掉头干脆利落，车虽大但操控灵活没笨重感。高速贴地感强底盘支撑充足，过弯侧倾极小极限稳定性远超同级家用轿车。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7车机流畅度高、功能拓展性好、智能辅助配置丰富，全系标配高阶智驾，科技体验出众。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车机流畅度功能拓展性智能辅助配置拉满，全系高阶智驾标配科技体验出众。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7溜背轿跑造型风阻优秀，颜值辨识度高，风格年轻化。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "溜背轿跑造型风阻优秀颜值辨识度极高，风格年轻化可盐可雅。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7溜背车身结构压缩后排头部空间，高个子乘坐压抑，不适合满载家用；底盘调校偏运动硬朗，过减速带坑洼烂路震动过滤不柔和，后排舒适性差；座椅包裹性强但整体偏硬，长途久坐容易疲惫。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "溜背车身结构压缩后排头部空间，高个子乘坐压抑不适合满载家用。底盘调校偏运动硬朗，过减速带坑洼烂路震动过滤不柔和，颠簸直接传入车内后排舒适性差。...座椅包裹性强但整体偏硬，长途久坐容易疲惫。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7无框车门密封性有限，高速风噪明显，搭配胎噪使高速行驶车内嘈杂感突出。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "无框车门密封性有限高速风噪明显搭配胎噪，高速行驶车内嘈杂感突出。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "高速行驶",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "高速行驶车内嘈杂感突出"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者指出部分小米SU7车辆车机多任务运行偶发卡顿、辅助驾驶感应偶尔失灵。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "部分车辆车机多任务运行偶发卡顿、辅助驾驶感应偶尔失灵。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者指出小米SU7售后网点覆盖不足，三四线城市维保便利性一般。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "售后网点覆盖不足三四线城市维保便利性一般。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为相比同级家用纯电轿车，小米SU7底盘操控全面领先、动力更足、高速更稳，但后排空间、储物能力及驾乘舒适性不如传统家用车，适配场景更单一，是用部分家用舒适和实用属性换取了越级操控、颜值和智能体验。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "对比同级家用纯电轿车，底盘操控全面领先动力更足高速更稳，但后排空间储物能力驾乘舒适性不如传统家用车，适配场景更单一。用部分家用舒适和实用属性换取了越级操控颜值和智能体验。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者建议小米SU7适合年轻个人用户和小两口家庭，日常市区通勤短途代步，看重颜值操控质感和智能科技体验，极少满载多人出行；不适合多人口刚需家用、经常全家满载出行、老人小孩久坐后排的家庭，也不适合常年行驶乡村烂路、极度追求车内静谧性和柔软舒适驾乘体验、刚需强储物实用性经常装载大件物品的用户。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米SU7适合年轻个人用户和小两口家庭，日常市区通勤短途代步个人自驾为主，看重颜值操控质感和智能科技体验，极少满载多人出行。...不适合多人口刚需家用经常全家满载出行老人小孩久坐后排的家庭...不适合常年行驶乡村烂路颠簸路段、极度追求车内静谧性和柔软舒适驾乘体验、刚需强储物实用性经常装载大件物品的用户。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结小米SU7核心优势在于底盘操控、动力、智能生态、续航能耗及外观，短板在于后排空间、底盘舒适性、风噪、座椅硬度、车漆厚度及售后覆盖。建议以个人代步或小两口出行为主、看重颜值操控和智能体验且能接受家用实用性妥协的用户入手；多人口主力家用车用户建议优先选择传统舒适取向家用轿车。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米SU7核心优势在底盘操控优秀高速稳过弯准、动力充沛电门跟脚不窜、全系高阶智驾标配智能生态完善、续航扎实能耗低养车省钱、溜背轿跑外观高级耐看。短板在后排头部空间局促底盘偏硬舒适性差、无框车门高速风噪大静谧性一般、座椅偏硬长途易疲劳、车漆薄售后网点覆盖不足。如果以个人代步小两口出行为主看重颜值操控和智能体验能接受家用实用性的妥协，这台车非常值得入手。如果是多人口主力家用车优先后排舒适满载体验全能路况适配和高实用性，建议优先选择传统舒适取向家用轿车。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子详细分析了小米SU7的优缺点，指出其在底盘操控、动力、智能体验和外观方面具有显著优势，但在后排空间、舒适性、风噪及售后覆盖等方面存在短板。作者建议该车适合年轻个人或双职工家庭作为代步车，而不适合多人口满载家用的场景。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

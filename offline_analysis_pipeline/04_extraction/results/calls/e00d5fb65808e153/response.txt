@@ -1,0 +1,243 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e00d5fb65808e153",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 Pro车型可选装电动尾翼"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "助力小米SU7 Max版100km/h-0制动33.3m的优异性能"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7热点集中问题官方解答（第十三期)"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "官方宣布4月30日之前下定小米SU7 Pro版本的用户，免费送电动尾翼，交付时同步配备四个物理按键。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月30日之前下定小米SU7 Pro版本的用户，免费送电动尾翼，交付时同步配备四个物理按键。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "官方说明小米SU7在方向盘和仪表屏之间有用于检测驾驶员状态的摄像头，系统仅在车机本地进行行为判断和提醒，图像数据不会记录或对外传输，且用户可在设置中关闭该功能或摄像头权限。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在方向盘和仪表屏之间有一颗用于检测驾驶员状态的摄像头。...该系统仅在车机本地进行行为判断和提醒，图像数据不会记录或对外传输，充分保护用户的隐私安全。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "官方介绍超级省电模式的作用是通过关闭智驾、限制空调等功能来降低功耗增加续航，当预估续航低于50km时触发提示，充电预估里程大于300km后自动退出。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "超级省电模式是指车辆通过关闭智驾辅助功能、关闭或限制空调、座椅加热等舒适性功能、限制最高车速和整车加速性能，以达到降低整车功耗，增加更多续航里程。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "官方解释小米SU7采用DPB+ESP10.0全解耦制动系统，相比传统机械真空制动系统可实现更快建压速度，缩短制动距离，并提供四重制动冗余以消除刹车失灵风险。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相比传统机械真空制动系统，DPB全解耦制动系统可实现更快的建压速度，可有效缩短制动距离...DPB和ESP双建压模块的设计可互为冗余，结合动能回收可实现四重制动冗余功能，最大限度消除刹车失灵风险"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "官方指出现阶段智能驾驶皆为辅助驾驶，在使用智能泊车辅助APA及代客泊车辅助AVP功能时，驾驶员仍需观察周边环境情况，如遇特殊情况需随时进行接管。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现阶段智能驾驶皆为辅助驾驶，在使用智能泊车辅助APA及代客泊车辅助AVP功能时，驾驶员仍需观察周边环境情况，如遇特殊情况需随时进行接管。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Pro赠送电动尾翼及物理按键调整",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月30日之前下定小米SU7 Pro版本的用户，免费送电动尾翼，交付时同步配备四个物理按键。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米汽车针对SU7 Pro车型选装电动尾翼后的物理按键缺失问题进行产品调整，并为4月30日前定购用户提供免费电动尾翼权益。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "该帖子为小米SU7热点问题的官方解答汇总，涵盖了Pro版电动尾翼选装权益、驾驶模式调节、隐私摄像头机制、超级省电模式、胎压标准、全解耦制动系统优势、智能泊车注意事项及应急机械开启方法等内容。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

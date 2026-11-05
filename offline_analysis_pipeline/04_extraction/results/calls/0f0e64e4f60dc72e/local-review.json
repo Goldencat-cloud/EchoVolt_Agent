@@ -1,0 +1,331 @@
+{
+  "post_id": "0f0e64e4f60dc72e",
+  "state": "CONTRACT_PASS",
+  "cache_key": "78ad6e4841aa4df815ce44fc01b0e795fa27c43656ad9b3d4e4139237bf4345c",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0f0e64e4f60dc72e",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相关车型:小米SU7 2024款 四驱超长续航高阶智驾Max版"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者购车预算锁定在30万左右，最终通过置换补贴等方式，以约30.1万的落地总价购买了该车。",
+        "sentiment": "正面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "预算锁定30万左右"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "落地总价30.1万"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为该车动力响应快，底盘调校紧致且兼顾舒适，转向手感良好，驾驶体验符合预期。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "动力随叫随到，舒适模式平顺通勤，运动模式超车干脆"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "底盘调校紧致却不颠簸，低速转向轻盈、高速沉稳"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在日常通勤及高速行驶中使用该车。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "舒适模式平顺通勤"
+            },
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "高速开智驾辅助"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为车内空间表现优秀，前后排头部和腿部空间充足，后备箱容积较大，能满足家庭出行需求。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "空间表现惊艳，前后排头部腿部余量充足"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "105L前备箱+517L后备厢轻松放下全家出行行李"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者进行全家出行装载行李。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "轻松放下全家出行行李"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者实测该车在城市通勤和长途行驶中的电耗较低，续航里程扎实，待机功耗低，无续航焦虑。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "电耗实测城市通勤22kWh/100km，长途能降到18kWh左右"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "101度大电池续航扎实，哨兵模式三天仅耗6-7度电，完全不用焦虑"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在城市通勤、长途行驶及车辆静止开启哨兵模式下使用。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "电耗实测城市通勤22kWh/100km，长途能降到18kWh左右"
+            },
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "哨兵模式三天仅耗6-7度电"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者表示该车行驶43000公里期间未出现故障，但存在低速风噪略明显、车机偶尔需重启的小瑕疵。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "行驶里程43000公里，没有一点故障出现"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小遗憾是低速风噪略明显，车机偶尔需重启优化"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者累计行驶43000公里的日常使用中。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "行驶里程43000公里"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者对提车体验感到满意，认为交付流程顺畅、服务细致，并对车辆的整体价值持高度认可态度。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "后悔了！后悔没有早点提车"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "提车流程超顺畅...拿到钥匙的瞬间...让等待的煎熬瞬间消散"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "用车一年多完全符合预期"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "行驶里程43000公里"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": "30万左右",
+      "preferences": [
+        "注重日常通勤省心",
+        "喜欢周末自驾激情",
+        "偏好流畅车身设计",
+        "看重超长轴距",
+        "关注超级电机技术",
+        "追求颜值、性能与智能的平衡"
+      ]
+    },
+    "post_summary": "车主分享小米SU7 Max的购车及用车一年多的体验。文章详细介绍了选车理由、费用明细、提车过程以及日常使用感受，肯定了车辆的驾驶质感、空间和续航表现，同时也指出了低速风噪和车机偶发重启的小缺点，整体评价积极。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C2/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11526,
+    "completion_tokens": 2698,
+    "total_tokens": 14224,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 12.006495699999505,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

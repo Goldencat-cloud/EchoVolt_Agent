@@ -1,0 +1,161 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7088cf69aed28591",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米现在只有2款车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特斯拉也就主打2款"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看看比亚迪有多少款车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "比亚迪唐新能源",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "唐新能源",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "以比亚迪唐新能源就足足有10个配置"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为小米和特斯拉专注少数几款车能节省大量重复成本，从而降低成本、提升产品性价比和利润率；相比之下，比亚迪车型众多且配置复杂，导致单车销量分散，零部件规模效应较弱，成本可能更高。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米现在只有2款车、特斯拉也就主打2款，每款仅4个配置，这可以剩下大量的重复成本（研发、供应链、销售等等），成本低了才可以将产品做得更好、更具性价比、更高的利润率，不要以为那些不挣钱的企业都是良心、性价比高。看看比亚迪有多少款车，足足47款，每款车还有贼多配置，以比亚迪唐新能源就足足有10个配置。 2025年比亚迪平均下来每款车销量不足1万，小米超过20万，特斯拉超过75万，这什么概念呢？相同一个零件，年产量1万、20万、75万，家里开厂的应该知道成本能差多少？"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "小米现在只有2款车...成本低了才可以将产品做得更好、更具性价比、更高的利润率...看看比亚迪有多少款车，足足47款...2025年比亚迪平均下来每款车销量不足1万，小米超过20万"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P3",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "特斯拉也就主打2款...2025年比亚迪平均下来每款车销量不足1万...特斯拉超过75万"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者批评部分汽车品牌车型过多导致成本高企，认为小米和特斯拉通过精简车型和配置实现了规模效应和成本控制，而比亚迪车型繁杂、单车销量低，不利于成本优化和产品竞争力。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

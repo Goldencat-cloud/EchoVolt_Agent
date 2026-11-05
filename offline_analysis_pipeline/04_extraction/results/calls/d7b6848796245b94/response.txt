@@ -1,0 +1,317 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d7b6848796245b94",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米“抄袭”保时捷造了部SU7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "尚界Z7",
+      "entity_level": "具体配置",
+      "brand": "华为",
+      "series": "尚界",
+      "model_year": null,
+      "version": "Z7",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "华为就造了部外观看起来与SU7差不多的尚界Z7"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "车牌位置标有“尚界 Z7”字样"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "小米YU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这车跟小米YU7很像"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "华为智界RX",
+      "entity_level": "具体配置",
+      "brand": "华为",
+      "series": "智界",
+      "model_year": null,
+      "version": "RX",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "过些天华为智界RX又要上市了"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "智界R7",
+      "entity_level": "具体配置",
+      "brand": "华为",
+      "series": "智界",
+      "model_year": null,
+      "version": "R7",
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "右下角标有“智界 R7”字样"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为华为对小米非常在乎，并以小米开店后华为紧随其后开设门店为例进行佐证。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "事实证明华为对小米其实非常在乎！"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米在这里开了家店，华为立马跟进"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者指出华为尚界Z7的外观设计与小米SU7看起来非常相似，并暗示华为在设计上跟随了小米。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "华为就造了部外观看起来与SU7差不多的尚界Z7"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "外观与内饰",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "外观看起来与SU7差不多"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者指出即将上市的华为智界RX与小米YU7外观相似，并质疑华为为何选择与小米YU7的设计对象相似的款式。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这车跟小米YU7很像"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "华为法拉利设计师干嘛非要选中小米YU7“抄袭”的对象这一款操刀设计呢？"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P4",
+            "object_product_id": "P3",
+            "aspect": "外观与内饰",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "这车跟小米YU7很像"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者引用余承东在公开场合关于竞争对手销量及品牌力量的言论，以此佐证华为对小米的关注和竞争心态。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "余承东之前的含沙射影就不说了"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "余承东：‘你们看，别的行业的企业一进来，只做一款车，就卖爆了...'"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "余承东在2025未来汽车先行者大会上发表言论",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "#2025未来汽车先行者大会#"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "余承东：‘你们看，别的行业的企业一进来，只做一款车，就卖爆了...'"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "图片显示余承东在2025未来汽车先行者大会上发表了关于竞争对手销量和品牌力量的言论。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子通过对比小米与华为门店选址、尚界Z7与小米SU7以及智界RX与小米YU7的外观相似度，并结合余承东的公开言论，论证华为对小米保持高度关注和竞争态势。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

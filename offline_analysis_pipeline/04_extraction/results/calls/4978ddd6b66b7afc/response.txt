@@ -1,0 +1,142 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4978ddd6b66b7afc",
+  "products": [
+    {
+      "id": "P1",
+      "name": "苏七",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "苏七买不起"
+        }
+      ],
+      "confidence": 0.3
+    },
+    {
+      "id": "P2",
+      "name": "苏五",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "坐等苏五"
+        }
+      ],
+      "confidence": 0.3
+    },
+    {
+      "id": "P3",
+      "name": "苏三",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "坐等苏三"
+        }
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者表示“苏七”买不起。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "苏七买不起"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者表示等待“苏五”和“苏三”。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "坐等苏五和苏三"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "苏七买不起，坐等苏五和苏三"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者表示“苏七”买不起，正在等待“苏五”和“苏三”。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "低"
+}

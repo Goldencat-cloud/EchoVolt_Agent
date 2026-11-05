@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.3",
+  "post_id": "6b6c0419964bb5bc",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "给女朋友发了小米SU7的照片"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我说是保时捷"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者讲述女友在被告知车辆是保时捷时称赞其帅气，但在得知实为小米SU7后态度发生巨大转变，认为不再好看。作者以此为例说明女性购车并非只看颜值，而是受到品牌认知的影响。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "给女朋友发了小米SU7的照片，我说是保时捷，她说这车帅，然后我说其实是小米，这态度180度大转变啊。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "右侧发送者首先询问“保时捷新车，好看吗”，左侧接收者回复“好看！”。随后右侧发送者透露“其实是小米新车…”，左侧接收者随即改口称“不咋好看了”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了一段关于女友对小米SU7看法的经历。女友起初误以为该车是保时捷并表示喜欢，得知真相后态度迅速转为负面。作者借此指出女性购车决策中品牌因素的重要性。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

@@ -1,0 +1,461 @@
+{
+  "post_id": "33d9394748477284",
+  "state": "CONTRACT_PASS",
+  "cache_key": "d8c4c870098ebe1e76719ae47a6e801e405e341246c392c793c4de8b7a7c7fd1",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "33d9394748477284",
+    "products": [
+      {
+        "id": "P1",
+        "name": "极越07",
+        "entity_level": "具体配置",
+        "brand": "极越",
+        "series": "07",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "极越07"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P3",
+        "name": "极越07 2024款长续航版",
+        "entity_level": "具体配置",
+        "brand": "极越",
+        "series": "07",
+        "model_year": "2024",
+        "version": "长续航版",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "2024款长续航版"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为极越07的性价比高于小米SU7，尽管其知名度较低。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "要说性价比的话，我感觉极越07性价比更高...知名度确实没有小米SU7高"
+          },
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "虽然知名度没有小米SU7大，但是他的性价比要更高"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为极越07的外观颜值相比小米SU7毫不逊色，且原创度更高、更有个性。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "这个颜值相比小米SU7，个人感觉毫不逊色...个人感觉极越07的原创度更高，更有个性"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者实测极越07后排空间大于小米SU7，后备箱容积及开口也更大，更适合装载大件物品。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "但是后排空间极越07更大...相比小米SU7，后备箱容积更大，开口也更大"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "空间与舒适性",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "但是后排空间极越07更大"
+                },
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "相比小米SU7，后备箱容积更大，开口也更大"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者身高1米72，在前排调整后测量第二排腿部空间及乘坐感受。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "我身高1米72，前排调整好以后，第二排腿部空间能有三拳多"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "作者指出小米SU7的动力性能（最大功率、扭矩、加速）优于极越07，但极越07的续航里程更长。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "所以小米SU7动力更有优势，但是续航极越07更有优势"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "动力与性能",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T8",
+                  "source_type": "text",
+                  "quote": "所以小米SU7动力更有优势"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "续航与能耗",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T8",
+                  "source_type": "text",
+                  "quote": "但是续航极越07更有优势"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为极越07的智能化水平与小米SU7不相上下，并列举了其智驾系统及功能。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "个人感觉与小米SU7不相上下"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "智能驾驶",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T9",
+                  "source_type": "text",
+                  "quote": "个人感觉与小米SU7不相上下"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者推荐购买极越07 2024款长续航版，认为其相比入门版性价比高，且不建议购买顶配车型。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "个人更推荐的是2024款长续航版...所以长续航版性价比更高"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者评价极越07内饰具有未来感，35.6英寸6K屏幕流畅度高，皮质包裹质感好。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "坐进车内的一瞬间，很有未来感...整个流畅度真的很好...极越07内饰的质感也很好"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者坐进车内体验内饰设计与屏幕操作。",
+          "evidence": [
+            {
+              "block_id": "T5",
+              "source_type": "text",
+              "quote": "坐进车内的一瞬间"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者评价小米SU7内饰设计常规，但小米生态使其在使用便利性上具有优势，且质感不错。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "他的优势是小米生态...整个质感也不错"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今天我们来详细了解一下"
+        },
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "哪款配置值得买呢？"
+        }
+      ],
+      "confidence": 0.8,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子对比了极越07与小米SU7，作者认为极越07在性价比、空间、续航及智能化方面具有优势，尤其推荐2024款长续航版。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C3/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 13490,
+    "completion_tokens": 3588,
+    "total_tokens": 17078,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 11776
+    }
+  },
+  "elapsed_s": 15.342864400008693,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

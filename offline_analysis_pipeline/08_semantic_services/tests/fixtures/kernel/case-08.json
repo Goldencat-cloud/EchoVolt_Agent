@@ -1,0 +1,122 @@
+{
+  "id": "case-08",
+  "source": "synthetic",
+  "note": "仅证据步骤",
+  "input": {
+    "question": "证据多一点",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "evidence",
+      "aspect": "智能化",
+      "result": {
+        "data": [
+          {
+            "claim_id": "c-301",
+            "aspect": "智能化",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-301",
+            "date": "2026-08-01",
+            "title": "观点 c-301"
+          },
+          {
+            "claim_id": "c-302",
+            "aspect": "智能化",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-302",
+            "date": "2026-08-01",
+            "title": "观点 c-302"
+          },
+          {
+            "claim_id": "c-303",
+            "aspect": "智能化",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-303",
+            "date": "2026-08-01",
+            "title": "观点 c-303"
+          },
+          {
+            "claim_id": "c-304",
+            "aspect": "智能化",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-304",
+            "date": "2026-08-01",
+            "title": "观点 c-304"
+          },
+          {
+            "claim_id": "c-305",
+            "aspect": "智能化",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-305",
+            "date": "2026-08-01",
+            "title": "观点 c-305"
+          }
+        ]
+      }
+    }
+  ],
+  "final_text": "智能化方面共有 5 条可用证据。",
+  "expected": {
+    "answer": "智能化方面共有 5 条可用证据。",
+    "stats": [],
+    "evidence": [
+      {
+        "claim_id": "c-301",
+        "aspect": "智能化",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-301",
+        "date": "2026-08-01",
+        "title": "观点 c-301"
+      },
+      {
+        "claim_id": "c-302",
+        "aspect": "智能化",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-302",
+        "date": "2026-08-01",
+        "title": "观点 c-302"
+      },
+      {
+        "claim_id": "c-303",
+        "aspect": "智能化",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-303",
+        "date": "2026-08-01",
+        "title": "观点 c-303"
+      },
+      {
+        "claim_id": "c-304",
+        "aspect": "智能化",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-304",
+        "date": "2026-08-01",
+        "title": "观点 c-304"
+      },
+      {
+        "claim_id": "c-305",
+        "aspect": "智能化",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-305",
+        "date": "2026-08-01",
+        "title": "观点 c-305"
+      }
+    ],
+    "applied_filters": {
+      "aspects": []
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 1
+  }
+}

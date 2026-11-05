@@ -1,0 +1,350 @@
+{
+  "schema_version": "2.3",
+  "post_id": "868697c2150fd077",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "到小米就会引发争议"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "智己汽车",
+      "entity_level": "品牌",
+      "brand": "智己",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智己汽车联席CEO刘涛"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小鹏汽车",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小鹏汽车 2014年成立"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "蔚来汽车",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "蔚来汽车2014年成立"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "理想汽车",
+      "entity_level": "品牌",
+      "brand": "理想",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "理想汽车2015年成立"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "帖子标题指出雷军疑似回怼智己汽车CEO。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "雷军回怼智己CEO！ 【雷军疑似”回怼“智几汽车CEO】"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "雷军在社交媒体发文表示对汽车工业充满敬畏，尊重客观规律，并认为新势力造车速度快与组织效率和决策流程有关。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军在社交媒体发文称：我们对汽车工业一直充满敬畏之心，我们会尊重客观规律，竭尽全力把车做好!新势力造车之所以快，其实还和新势力在组织效率、决策流程等息息相关。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "雷军转发博主博文，列举小鹏、蔚来、理想成立时间及首款车量产时间，指出它们均在约3年内完成量产交付，而其他品牌无争议，唯独小米引发争议，原因是“小米是原罪”。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同时雷军还转发了一位博主的博文，该博文提到：小鹏汽车 2014年成立，2017年量产第一款车；蔚来汽车2014年成立，2018年量产第一款车；理想汽车2015年成立，2018年量产第一款车。大家都是3年左右的时间完成第一款的量产交付，其他品牌没有问题，到小米就会引发争议，所以没有原因，只因为“小米是原罪”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "品牌与口碑",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "大家都是3年左右的时间完成第一款的量产交付，其他品牌没有问题，到小米就会引发争议"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "品牌与口碑",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "大家都是3年左右的时间完成第一款的量产交付，其他品牌没有问题，到小米就会引发争议"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P5",
+            "aspect": "品牌与口碑",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "大家都是3年左右的时间完成第一款的量产交付，其他品牌没有问题，到小米就会引发争议"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E3",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "智己汽车联席CEO刘涛在社交媒体发文，承认小米汽车速度快，三年从平台开始做出第一辆整车，并对小米如何做到如此高效和高速表示疑惑。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月6日下午，智己汽车联席CEO刘涛在社交媒体发文称：小米汽车速度确实是快，三年就从平台开始干出了第一辆整车，从原生平台开始做研发，2-3年时间纷繁复杂的整车和零部件试验和验证计划，随便怎么优化似乎也不够排啊，谁知道是怎么做到的如此高效和高速的？"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "雷军疑似回怼智己CEO",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "雷军回怼智己CEO！ 【雷军疑似”回怼“智几汽车CEO】"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "帖子标题称雷军疑似回怼智己汽车CEO。"
+    },
+    {
+      "id": "E2",
+      "name": "雷军回应造车速度与争议",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "刚刚，雷军在社交媒体发文称：我们对汽车工业一直充满敬畏之心...同时雷军还转发了一位博主的博文..."
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "雷军在社交媒体发文表达对汽车工业的敬畏，并转发博文对比新势力造车周期，暗示小米遭遇不公争议。"
+    },
+    {
+      "id": "E3",
+      "name": "智己CEO刘涛评论小米造车速度",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2024-04-06",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2",
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月6日下午，智己汽车联席CEO刘涛在社交媒体发文称：小米汽车速度确实是快..."
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "智己汽车联席CEO刘涛于4月6日发文，对小米汽车三年完成首辆整车的高效研发速度表示惊讶和疑惑。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了雷军针对智己汽车CEO关于小米造车速度的言论进行回应的舆论事件。雷军发文表示尊重客观规律，并转发博文对比其他新势力造车周期，指出小米因品牌因素遭受特殊争议。智己CEO刘涛此前发文表达了对小米高效研发速度的疑惑。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

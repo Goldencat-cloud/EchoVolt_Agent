@@ -1,0 +1,183 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f0406ec91ff6c134",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "海报上印有“小米汽车”Logo、“SU7”字样"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "如果每个车型都能跟特斯拉一样"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "大厅里有我们的小米和一台新model3"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者记录了对3W全TPE注塑脚垫工厂的考察过程，包括模具车间、生产线、实验室及仓储环节。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "刚好前几天有一个机会我替大家去3W的全TPE注塑脚垫工厂做一番考察"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "作者指出注塑TPE脚垫与吸塑工艺的区别：注塑可双面成型、厚度定制且无需胶水，而吸塑单面成型、片材薄易变形且成本低。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "吸塑的只有单面成型...注塑则是表面和底部可以制作出不同的形状"
+        },
+        {
+          "block_id": "T15",
+          "source_type": "text",
+          "quote": "注塑TPE脚垫生产过程中无需粘合剂和胶水"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为3W在注塑TPE脚垫领域占据大部分市场份额，原因是其覆盖了五百多个车型，且模具投入巨大（一个多亿），形成了较高的行业壁垒。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "已经有五百多个车型了，第二名的品牌只有二三十个车型"
+        },
+        {
+          "block_id": "T25",
+          "source_type": "text",
+          "quote": "3W则占了一大半...模具投入就一个多亿"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者评价3W脚垫的侧面绒面设计不易脏，其初衷是吸附粉尘防止空调开启后扬尘，并认为若担心绒面脏污可选择360软包。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T25",
+          "source_type": "text",
+          "quote": "侧面绒面真的不会容易脏，而且绒面的设计初衷也只不过是为了吸附粉尘颗粒"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者以杭州小米车友会群主身份，记录了一次针对3W全TPE注塑脚垫工厂的深度考察。文中详细描述了工厂的模具制造、注塑生产工艺、质量检测实验室及仓储物流体系，分析了注塑与吸塑工艺的技术差异及3W在细分市场的垄断地位和高投入壁垒。最后作者表达了对中国制造崛起的认可，并澄清此次考察虽为商业合作但旨在客观展示产品优劣。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "高"
+}

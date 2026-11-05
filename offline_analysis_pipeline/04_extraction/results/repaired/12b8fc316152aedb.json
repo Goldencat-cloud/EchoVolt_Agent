@@ -1,0 +1,284 @@
+{
+  "schema_version": "2.3",
+  "post_id": "12b8fc316152aedb",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7上市遭维权 回应消费者无法退定金"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3月28日晚，小米SU7正式上市"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7创始版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "创始版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "5000辆小米SU7创始版也已经全部售罄"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "文章指出小米SU7上市后遭遇维权，部分消费者在维权平台投诉5000元汽车定金无法退款。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对此，有部分消费者却在维权平台上发起了投诉，表示5000元汽车定金无法退款。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "文章引述小米方面回应称，定金7日内支持无理由退款，超过7日或订单锁定后定金不退；创始版因配置已锁定，支付2万元定金后订单视为锁定，定金无法退还。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米方面对此回应称：定金7日内支持无理由退款，超过7日后，车辆配置会自动锁定，消费者也可以提前主动锁定配置的。一旦订单锁定，车辆将进入生产阶段，配置无法再修改，定金不退。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对于创始版车型，小米方面进一步解释，由于这些车型的配置已经锁定，消费者在支付 2 万元定金后，订单即被视为锁定状态，因此定金也无法退还。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "文章报道卢伟冰转发微博澄清网上有关小米SU7销量的杜撰内容，提醒以官方信息为准，并配图展示了一张数据为“81分钟大定突破九万台”的假战报。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3月29日凌晨，小米集团合伙人、总裁卢伟冰转发微博表示：“目前发现网上有关于小米SU7销量的杜撰内容流传。关于小米SU7大定、销量等相关数据，各位请以公司官方统一出口小米汽车官微宣布的信息为准。”微博配图为一张小米汽车的假战报，数据为“81分钟大定突破九万台”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章指出小米SU7上市27分钟大定突破5万辆，5000辆创始版售罄，创始版定金每辆2万元且不可退，意味着仅创始版定金已收到1亿元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当晚小米汽车官方微博连续发布捷报，“上市27分钟，大定突破5万辆。” 小米汽车APP显示，5000辆小米SU7创始版也已经全部售罄，创始版的定金为每辆2万元，且不可退，这意味着小米汽车在28日晚仅创始版的定金就已收到1亿元。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章提到部分下定车主表示交付定金能够提前排队试驾，购车决策还将受到实际试驾体验影响。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "部分下定车主表示，交付定金能够提前排队试驾，购车决策还将受到实际试驾体验影响。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章观察到二手平台上已有转让小米SU7订单的情况，价格从150至5000元不等。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上游新闻注意到，目前一些二手平台上已经有人转让小米SU7订单，价格从150至5000元不等。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7上市定金退款争议",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对此，有部分消费者却在维权平台上发起了投诉，表示5000元汽车定金无法退款。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米方面对此回应称：定金7日内支持无理由退款..."
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米SU7上市后，部分消费者投诉定金无法退款，小米方面回应称7日内可退，超期或锁定后不退，创始版定金因配置锁定不可退。"
+    },
+    {
+      "id": "E2",
+      "name": "卢伟冰澄清小米SU7销量谣言",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2024-03-29",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3月29日凌晨，小米集团合伙人、总裁卢伟冰转发微博表示：“目前发现网上有关于小米SU7销量的杜撰内容流传..."
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "卢伟冰于3月29日凌晨发微博澄清网上流传的小米SU7销量杜撰内容，提醒以官方信息为准。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了小米SU7上市后引发的定金退款争议，包括消费者投诉、小米官方的退款规则解释、创始版定金不可退的原因，以及卢伟冰澄清销量谣言和二手平台订单转让现象。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

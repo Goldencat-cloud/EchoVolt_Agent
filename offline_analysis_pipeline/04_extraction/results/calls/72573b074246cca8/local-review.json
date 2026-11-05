@@ -1,0 +1,504 @@
+{
+  "post_id": "72573b074246cca8",
+  "state": "CONTRACT_PASS",
+  "cache_key": "ca2e5f6bff678d7ec65723a8e07f1c6011edb3da9da86664c145e55420d12c75",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "72573b074246cca8",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "xiaomi SU7 标准版"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米su7只有顶配才有800v快充"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "极氪007",
+        "entity_level": "车系",
+        "brand": "极氪",
+        "series": "007",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "便宜一万可以买极氪007"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P3",
+        "name": "银河E8",
+        "entity_level": "车系",
+        "brand": "吉利银河",
+        "series": "E8",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "再便宜还有银河E8"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "启源A07",
+        "entity_level": "车系",
+        "brand": "长安启源",
+        "series": "A07",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "再便宜还有银河E8，启源A07"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "凯迪拉克CT5",
+        "entity_level": "车系",
+        "brand": "凯迪拉克",
+        "series": "CT5",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "还不如凯迪拉克ct5的后排空间"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "价格与成本",
+        "content": "作者认为小米SU7定价非常不值，指出价格更低一档的极氪007、银河E8和启源A07也是可选竞品。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "非常不值，便宜一万可以买极氪007，再便宜还有银河E8，启源"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "价格与成本",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T0",
+                  "source_type": "text",
+                  "quote": "便宜一万可以买极氪007"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "价格与成本",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T0",
+                  "source_type": "text",
+                  "quote": "再便宜还有银河E8"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P4",
+              "aspect": "价格与成本",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T0",
+                  "source_type": "text",
+                  "quote": "再便宜还有银河E8，启源"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为极氪007、银河E8、启源A07与小米SU7配置一样高，加速都是6秒，但前者有大厂加持，造车经验比不过小米。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "配置一样高，加速都是6秒，但是极氪007，银河E8，启源A07都有大厂的加持，造车经验就比不了"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "配置与功能",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "配置一样高，加速都是6秒"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "配置与功能",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "配置一样高，加速都是6秒"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P4",
+              "aspect": "配置与功能",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "配置一样高，加速都是6秒"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者指出极氪007全系标配800V快充，而小米SU7只有顶配才有800V快充。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "尤其是极氪007，全系标配800v快充，小米su7只有顶配才有800v快充"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "充电与补能",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "尤其是极氪007，全系标配800v快充，小米su7只有顶配才有800v快充"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为小米SU7宣传是C级车但实际空间是A级车水平，不如凯迪拉克CT5的后排空间，且座椅太矮，坐着像坐马扎。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "空间更比不了，宣传是C级车，实际上空间是A级车的水平，还不如凯迪拉克ct5的后排空间，座椅太矮，跟坐马扎一样"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P5"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P5",
+              "aspect": "空间与舒适性",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "还不如凯迪拉克ct5的后排空间"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者抱怨小米SU7销售套路多，选装包必须在4月底前才能免费，且有很多颜色需要加钱。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "而且套路很多，选装包必须4月底前才能免费，有很多颜色还要加钱"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米是第一次造车，建议消费者慎重考虑购买小米SU7。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米是第一次造车，建议慎重考虑"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7标准版发布会公布售价",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "这是一张发布会现场的照片...大屏幕...显示着清晰的白色和橙色文字：“xiaomi SU7 标准版”以及巨大的数字“21.59”，旁边标注单位“万元”。"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "图片说明描述了小米SU7标准版发布会现场，大屏幕显示售价为21.59万元。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "建议慎重考虑"
+        }
+      ],
+      "confidence": 0.8,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者针对小米SU7标准版21.59万元的售价表示不满，认为其性价比低。作者将其与极氪007、银河E8、启源A07进行对比，指出竞品在大厂背书、800V快充普及率及空间表现上更具优势，并批评小米SU7的销售策略及首次造车经验不足，建议消费者慎重考虑。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "events/E1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10267,
+    "completion_tokens": 3965,
+    "total_tokens": 14232,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 16.740259900005185,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

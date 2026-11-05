@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.3",
+  "post_id": "628cf00bfd6e51be",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款后驱标准续航版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "后驱标准续航版",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "18.5W 小米SU7 2024款后驱标准续航版"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "【车辆配置】2024款后驱标准续航版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "发布者提供了一辆二手小米SU7 2024款后驱标准续航版的交易信息，报价为18.5万元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "18.5W 小米SU7 2024款后驱标准续航版"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "发布者提供的车辆详细信息显示，该车为2025年3月上牌的非营运车辆，表显里程2.1万公里，无抵押，过户0次，外观0投面，全车原钣但有1处补漆，已通过第三方检测达到双S级。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "【上牌时间】2025年3月 【出厂日期】2025年3月 【车辆性质】非营运 【抵押状态】无 【表显里程】2.1万公里 【内外颜色】绿外/黑内 【交强险到期】2027年3月 【选装情况】Xiaomi Pilot Pro智驾、20寸梅花大轮毂、Nappa真皮 【过户次数】0 【外观投面】0 【车况描述】已过第三方检测双S级，全车原钣，1处补漆"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "图片说明描述该车辆选装了橄榄绿金属漆、20英寸梅花轮毂和Nappa真皮，基础价格为215,900元，最终车辆总价为223,900元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "I11",
+          "source_type": "image_summary",
+          "quote": "选装了“橄榄绿金属漆”、“20英寸梅花轮毂”（标价 ¥ 8,000）、“Nappa真皮”（原价 ¥ 8,000，标注有“材质限时免费”标签）。底部显示最终“车辆总价”为“¥ 223,900”"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子发布了一辆二手小米SU7 2024款后驱标准续航版的销售信息，报价18.5万元。文中详细列出了车辆的上牌时间、里程、车况检测结果及选装配置，并附带了车辆外观、内饰及配置价格页面的图片。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

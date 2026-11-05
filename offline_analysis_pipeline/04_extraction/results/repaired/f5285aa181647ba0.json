@@ -1,0 +1,504 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f5285aa181647ba0",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我买的是 pro 版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "保时捷Panamera",
+      "entity_level": "车系",
+      "brand": "保时捷",
+      "series": "Panamera",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外观有点像帕美"
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "P3",
+      "name": "宾利Gostone",
+      "entity_level": "车系",
+      "brand": "宾利",
+      "series": "Gostone",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "坐过古斯特到 480 等更好的车"
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "id": "P4",
+      "name": "宝马i4",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "i4",
+      "model_year": null,
+      "version": "M50",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "坐过古斯特到 480 等更好的车"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "P5",
+      "name": "林肯冒险家",
+      "entity_level": "车系",
+      "brand": "林肯",
+      "series": "冒险家",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "像林肯冒险家"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "林肯Z",
+      "entity_level": "车系",
+      "brand": "林肯",
+      "series": "Z",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "林肯 z"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "宝马5系",
+      "entity_level": "车系",
+      "brand": "宝马",
+      "series": "5系",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "换代的 56e"
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "id": "P8",
+      "name": "路虎",
+      "entity_level": "品牌",
+      "brand": "路虎",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "路虎全系"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P9",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "像 001"
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "P10",
+      "name": "智己LS6",
+      "entity_level": "车系",
+      "brand": "智己",
+      "series": "LS6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Is6"
+        }
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7的外观类似保时捷Panamera，虽然存在区别，但带来的情绪价值和心理满足度让其感到满意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外观：大家常调侃这是“宝石米”，实话说，当初买它是因外观有点像帕美...不过仔细瞧久了，和帕美还是有区别的。但不管怎么说，它给我带来的情绪价值和心理满足度，让我挺满意的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "外观有点像帕美...不过仔细瞧久了，和帕美还是有区别的"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7的内饰质感不错，没有明显的塑料感，考虑到其二十几万的价位，表现令人满意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "没觉得像有些网友说的有塑料感，该软的地方也软，质感还行。坐过古斯特到 480 等更好的车，但毕竟这才二十几万，能做到这样，我觉得不错。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者身高约172-173cm，认为前排乘坐舒适；182cm的同事反馈后排空间较大。作者认为车辆宽度较宽，需注意驾驶，但整体空间对其家庭需求足够。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我身高大概 172 - 173 左右，前排坐着舒适，后排坐个 182 的同事，他也说空间挺大。车宽一米九多，是挺宽的...空间对我来说够了，挺好。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者本人及182cm同事在车内乘坐体验。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "前排坐着舒适，后排坐个 182 的同事"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者选择了20寸梅花轮毂，预计会影响续航。作为新手，电耗约为16kWh/100km，估算满电850km续航可行驶600多公里。作者认为对于日常使用足够，长途出行倾向于乘坐飞机。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "选了 20 寸梅花轮毂，续航肯定受影响。我开车不算猛（毕竟新手），电耗大概 16 左右，估计满电 850 能跑六百多，正常情况这样也够了。跑远路就坐飞机动车..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者日常驾驶，自述开车不猛，为新手司机。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我开车不算猛（毕竟新手）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者试用了自动泊车和代客泊车功能，认为非常好用，基本一把停好，360全景对新手友好。尚未尝试ICC和NOA，不想过度依赖。作者认可雷军先做好底盘操控再完善智驾的思路，认为辅助驾驶方便但仍以人为驾驶主。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前就试过自动泊车和代客泊车，非常好用，基本一把就能停好，360 全景对新手也很友好。Icc 和 noa 还没试过...感觉雷总造车思路对...辅助驾驶在某些时候确实方便不少，但还是以人驾驶为主。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者感觉方向盘过于灵敏且较轻，有时会出现偏差，但推测可能是自己不熟悉所致，认为影响不大，需后续适应。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "感觉方向盘有点太灵敏，而且比较轻，有时会偏，不过可能是我的问题，后续再看看，应该多熟悉熟悉就好，影响不大。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P8",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P9",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P10",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者毕业三年后开始认真选车，先后考察了林肯冒险家、林肯Z、宝马5系、路虎全系、极氪001、智己LS6等车型。最初对小米关注度不高甚至有过负面看法，后因观看B站视频被内饰吸引，于4月19日冲动下单。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从油车开始看，像林肯冒险家、林肯 z，还有换代的 56e、路虎全系等。今年又关注电车，像 001、Is6、ix3、eqe 等，最后选了小米。说实话，小米刚发布时没太吸引我，我还跟风黑过它。结果有天凌晨睡不着，看了 b 站一个介绍 su7 内饰的视频，头脑一热就下订了，当时是 4 月 19 号"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买的是Pro版，利用4月权益，裸车价约26.09万元。选配了颜色、20寸梅花轮毂等，加价约1.5万元。保险在APP购买尊享版花费6700元，官方无忧险1200元，上牌费300元，此外还改装了碳纤维机盖和车衣。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我买的是 pro 版，4 月权益挺多...选完加了 1.5 万左右，裸车大概 26.09 万...保险在 app 买的，pro 尊享版拉满 6.7 千...还买了官方的无忧险 1.2 千，上牌找别人花了 300，改了个碳纤维机盖...车衣贴的是 bop 的风狂者"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "su7我的提车分享"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我买的是 pro 版"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "注重外观颜值",
+      "注重内饰质感",
+      "偏好低调中带点张扬的风格"
+    ]
+  },
+  "post_summary": "车主分享小米SU7 Pro提车体验，表达了对外观、内饰质感和空间表现的满意，同时也指出了方向盘手感偏轻灵敏的问题。文章详细回顾了从燃油车到电动车的选车历程，以及最终的购车价格和配置选择。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

@@ -1,0 +1,194 @@
+{
+  "post_id": "674af4269b9653c2",
+  "state": "CONTRACT_PASS",
+  "cache_key": "cf9a4eb7e5d3e41fddcf005074cde85d4af46e402c595b8b311ab5aeafccc187",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "674af4269b9653c2",
+    "products": [
+      {
+        "id": "P1",
+        "name": "yU7",
+        "entity_level": "未明确",
+        "brand": null,
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今天在光谷广场看到了yU7"
+          }
+        ],
+        "confidence": 0.6
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者在光谷广场看到yU7，认为其外观设计流畅，具有设计感。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今天在光谷广场看到了yU7，流畅的外观设计感"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在光谷广场实地查看车辆。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "今天在光谷广场看到了yU7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为yU7起步快且稳。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "起步又快又稳一骑绝尘"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为yU7售价21.99万元物超所值。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这款车21.99万绝对物超所值"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为yU7在外观和配饰方面优于同级电动汽车，甚至媲美百万级豪车。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "不管是外观还是配饰，都吊打一众同级别的电车！媲美百万级豪车"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今天在光谷广场看到了yU7"
+        }
+      ],
+      "confidence": 0.5,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者在光谷广场看到yU7，对其流畅的外观设计和起步表现给予高度评价，认为21.99万元的售价物超所值，且在外观和配饰上优于同级电动车。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "C4:comparison_unknown_product"
+  ],
+  "usage": {
+    "prompt_tokens": 10062,
+    "completion_tokens": 1402,
+    "total_tokens": 11464,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.111193699995056,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

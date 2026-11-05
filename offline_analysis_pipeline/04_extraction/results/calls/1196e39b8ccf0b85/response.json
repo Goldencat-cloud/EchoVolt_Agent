@@ -1,0 +1,640 @@
+{
+  "schema_version": "2.3",
+  "post_id": "1196e39b8ccf0b85",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米YU7 GT",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": "GT",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "矛头对准的，是刚刚完成工信部申报、即将量产交付的小米YU7 GT。"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "SU7发布时，保时捷Taycan的影子就挥之不去"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model Y Performance",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": "Performance",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "参数 YU7 GT ModelY Performance"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "宝马X4",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "X4",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "有人说像宝马X4"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "奥迪Q8 Sportback",
+      "entity_level": "具体配置",
+      "brand": "奥迪",
+      "series": "Q8",
+      "model_year": null,
+      "version": "Sportback",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "有人说像奥迪Q8 Sportback"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "兰博基尼Urus",
+      "entity_level": "具体配置",
+      "brand": "兰博基尼",
+      "series": "Urus",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "还有人搬出了兰博基尼Urus的侧面线条做逐帧对比"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "保时捷Taycan",
+      "entity_level": "具体配置",
+      "brand": "保时捷",
+      "series": "Taycan",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "SU7发布时，保时捷Taycan的影子就挥之不去"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P8",
+      "name": "宝马iX3",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "iX3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "向上： 抢食宝马iX3、蔚来ES6的潜在客户"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P9",
+      "name": "蔚来ES6",
+      "entity_level": "具体配置",
+      "brand": "蔚来",
+      "series": "ES6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "向上： 抢食宝马iX3、蔚来ES6的潜在客户"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P10",
+      "name": "极氪001",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "向下： 与极氪001、特斯拉Model Y Performance正面硬刚"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者指出宝马中国在小米YU7 GT造型图刷屏期间发布微博“经典，从不怕被看见”，虽未点名但被解读为针对小米YU7 GT的设计争议。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "宝马中国官方微博发出的这条内容，发布时间精准卡在小米YU7 GT造型图全网刷屏的48小时之内"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "矛头对准的，是刚刚完成工信部申报、即将量产交付的小米YU7 GT。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者指出奥迪中国发布Q系列设计手稿并配文“每一笔线条，都有来处”，被视为对小米YU7 GT设计争议的回应。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "奥迪官方账号发布了一组Q系列车型的设计手稿，配文\"每一笔线条，都有来处\"——语气克制，但指向性极强。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为在电动化和智能化背景下，设计语言成为传统豪华品牌难以被快速复制的核心资产和品牌溢价锚点，因此对新势力车型“像”经典设计感到焦虑。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "设计语言几乎成了传统豪华品牌唯一不可被快速复制的核心资产。"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "如果消费者觉得\"花20万就能买到80万的设计\"，那品牌溢价的逻辑就被瓦解了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者指出汽车设计知识产权保护的灰色地带使得“设计抄袭”在法律上难以认定，因此宝马和奥迪选择舆论战而非法律途径。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "法律上，\"设计抄袭\"几乎无法认定"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "宝马和奥迪选择在微博上\"表态\"而非走法律途径，本身就说明了问题的实质： 这是一场舆论战，不是法律战。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为电动化时代的工程约束（如低风阻、电池布局、安全法规）导致不同品牌车身轮廓趋同，但这不能解释细节设计语言的雷同。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "电动化时代，车辆设计受到前所未有的工程约束"
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "\"工程趋同\"只能解释车身比例的相似，却解释不了 细节设计语言的高度雷同。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者根据工信部申报信息指出小米YU7 GT尺寸约为4999×1996×1600mm，轴距约3000mm，属于中大型SUV，相比Model Y在尺寸上全面超越。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "身尺寸 约4999×1996×1600mm ... 轴距 约3000mm ... 对比Model Y，它在长、宽、轴距上全面超越"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T7",
+                "source_type": "text",
+                "quote": "对比Model Y，它在长、宽、轴距上全面超越"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者指出小米YU7 GT系统综合功率约508kW（691马力），0-100km/h加速预计3.2-3.5秒，在纯电SUV中属于第一梯队。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "系统综合功率 约508kW（约691马力） ... 0-100km/h 预计3.2-3.5秒"
+        },
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "这个数据放在纯电SUV里属于第一梯队。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出小米YU7 GT预计搭载101kWh电池，CLTC续航预计620-680km，但提醒实际使用中CLTC数据通常打7-8折，实际续航预期约500km。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "电池容量 预计101kWh ... CLTC续航 预计620-680km"
+        },
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "CLTC工况的续航数据在实际使用中通常要打7-8折... 实际续航500km左右是一个更现实的预期。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者指出小米YU7 GT预计搭载激光雷达+Orin-X的高阶智驾方案，支持城市NOA，并认为其在L2+级别体验上已有初步验证，但仍需保持注意力。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "YU7 GT预计搭载激光雷达+英伟达Orin-X芯片的高阶智驾方案，支持城市NOA"
+        },
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "任何车企宣传的\"城市领航\"，本质上仍是L2+辅助驾驶，驾驶员必须全程保持注意力。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P8",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P9",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P10",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米YU7 GT的真正竞争对手不仅是Model Y Performance，还包括极氪001、蔚来ES6和宝马iX3，其预估定价28-35万旨在实现“上下通吃”的市场策略。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "YU7 GT的真正对手可能是： ... 价格区间（预估） 28-35万"
+        },
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "这个\"上下通吃\"的野心，是小米汽车的一贯策略"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者总结认为设计争议虽然重要，但长期来看产品力（如驾驶质感、智驾实用性、电池衰减、售后网络）才是决定胜负的关键，小米需要通过产品力重新定义游戏规则。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "重要，但没有产品力重要。"
+        },
+        {
+          "block_id": "T13",
+          "source_type": "text",
+          "quote": "真正决定胜负的是： ① 小米YU7 GT的实际驾驶质感..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "宝马中国官微回应小米YU7 GT设计争议",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "宝马中国官方微博发出的这条内容，发布时间精准卡在小米YU7 GT造型图全网刷屏的48小时之内"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "宝马中国官方微博发布“经典，从不怕被看见”的博文，被广泛解读为对小米YU7 GT设计争议的隐晦回应。"
+    },
+    {
+      "id": "E2",
+      "name": "奥迪中国官微回应小米YU7 GT设计争议",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P5"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "奥迪官方账号发布了一组Q系列车型的设计手稿，配文\"每一笔线条，都有来处\""
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "奥迪中国官方账号发布Q系列设计手稿并配文“每一笔线条，都有来处”，被视为对小米YU7 GT设计争议的回应。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "文章分析了宝马和奥迪针对小米YU7 GT设计争议的微博回应，探讨了汽车设计中“像”与“抄”的法律、商业及消费者心智层面的复杂性。同时，基于工信部申报信息详细解读了小米YU7 GT的尺寸、动力、续航、智驾等核心产品力参数，并将其与Model Y、极氪001等竞品进行了对比，认为产品力将是决定其市场成败的关键。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

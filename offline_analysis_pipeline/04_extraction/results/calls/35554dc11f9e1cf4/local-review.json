@@ -1,0 +1,470 @@
+{
+  "post_id": "35554dc11f9e1cf4",
+  "state": "FAILED",
+  "cache_key": "3eb59887d7701aaf473826b27b779c6d408be91eae79d0ac935632efecd87743",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "35554dc11f9e1cf4",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "前宝马设计师的较量：小米SU7与阿维塔12的设计之争"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "阿维塔12",
+        "entity_level": "具体配置",
+        "brand": "阿维塔",
+        "series": "12",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "前宝马设计师的较量：小米SU7与阿维塔12的设计之争"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P3",
+        "name": "宝马i8",
+        "entity_level": "具体配置",
+        "brand": "宝马",
+        "series": "i8",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "阿维塔的设计师Aader设计了宝马7系和我一直很喜欢的宝马i8敞篷跑车"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "保时捷Taycan",
+        "entity_level": "具体配置",
+        "brand": "保时捷",
+        "series": "Taycan",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "特别是前脸部分，两者深凹的造型设计呈现出高度的相似性，甚至在我尝试使用手机应用程序进行图像识别时，小米SU7一度被误识别为Taycan"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "极氪001",
+        "entity_level": "具体配置",
+        "brand": "极氪",
+        "series": "001",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "再定价方面如果不能对比极氪001或者阿维塔12有绝对优势的话"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P6",
+        "name": "红米K30 Ultra",
+        "entity_level": "具体配置",
+        "brand": "红米",
+        "series": "K30",
+        "model_year": null,
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "我个人唯一用过的一款小米手机是红米的k30ultra"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者自称是阿维塔12的车主。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我个人是阿维塔12的车主"
+          }
+        ],
+        "confidence": 0.98,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者表示宝马i8是其见过第一眼就感到惊艳的车，虽已停产但仍希望其持续更新换代。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "因为宝马i8是我第一款见到就让我两眼放光的车，虽然已经停产了，但我还是蛮希望这款车能够一直更新换代下去"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者观察到小米SU7与保时捷Taycan在前脸设计上高度相似，甚至曾被APP误识别为Taycan，但同时也承认小米SU7整体美感引人注目。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "特别是前脸部分，两者深凹的造型设计呈现出高度的相似性，甚至在我尝试使用手机应用程序进行图像识别时，小米SU7一度被误识别为Taycan。然而，即便如此，小米SU7的整体美感不容忽视"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P4",
+              "aspect": "外观与内饰",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "特别是前脸部分，两者深凹的造型设计呈现出高度的相似性"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米SU7在设计上的独立创新表达尚有提升空间，指出仅靠模仿缺乏原创性不足以支撑可持续发展。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "不过，对于小米在设计上的独立创新表达，我认为尚存提升空间"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "仅依靠模仿而缺乏原创性的路径并不足以支撑一个可持续发展的未来"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者称赞阿维塔12的车机系统得益于鸿蒙系统加持，在流畅度和动画表现上非常丝滑稳定。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "在这里不得不夸一下阿维塔12的车机系统，有着鸿蒙系统的加持不管在流畅度还是动画上都非常丝滑稳定"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P6",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者回忆使用红米K30 Ultra时遇到严重的动画掉帧问题，因此对小米未来的车机系统持怀疑态度。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "当时买来当备用机，但是买来一天就被我挂咸鱼卖掉了，因为这个系统让人一言难尽，10秒钟有8秒动画在掉帧...但是我对小米的系统还是有一点点的怀疑"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为小米品牌难以摆脱性价比印象，若定价不能对比极氪001或阿维塔12具备绝对优势，仅凭粉丝热情难以支撑长期发展；同时推测小米汽车高配价格可能在30万以上，并希望其有合适价格。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "再定价方面如果不能对比极氪001或者阿维塔12有绝对优势的话，我觉得仅凭米粉对小米汽车的热爱很难撑起小米长期的发展。从爆料来看，小米的汽车不出意外高配价格会定在30万以上，但是我还是希望小米能有一个合适的价格来一战"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "其他",
+        "content": "作者对阿维塔即将发布的“从超冲到秒冲”技术表示好奇，并猜测这可能是华为全液冷超充技术，同时盲猜会推出低价增程版。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "是不是已经迫不及待想要知道这背后的秘密？盲猜这是华为的全液冷超冲技术将助力阿维塔实现充电速度的飞跃。在版本上盲猜会出一款增程版的12，以更低的价格来迎接市场"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "阿维塔春季发布会预告",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "计划或预告",
+        "related_product_ids": [
+          "P2"
+        ],
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "今晚过后的明天29号还有阿维塔12的发布会，阿维塔官方独家爆料，这次发布会将带来前所未有的技术突破——“从超冲到秒冲”"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "阿维塔计划在29日举行发布会，官方爆料将展示“从超冲到秒冲”的技术突破。"
+      },
+      {
+        "id": "E2",
+        "name": "小米SU7上市发布会",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "计划或预告",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今晚小米su7就要发布了"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米SU7定于当晚举行上市发布会。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我个人是阿维塔12的车主"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "喜欢宝马i8的设计风格",
+        "重视车机系统流畅度"
+      ]
+    },
+    "post_summary": "身为阿维塔12车主的作者，在小米SU7和阿维塔12发布会前夕，对比了两车前宝马设计师的背景及个人偏好。作者肯定了小米SU7的外观美感但批评其设计缺乏原创性，并基于过往红米手机体验对小米车机表示担忧，同时高度评价阿维塔12的车机流畅度。此外，作者对小米的定价策略提出质疑，并对阿维塔即将发布的新技术和增程版车型表示期待。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "products/P4/evidence/0:non_contiguous_quote",
+    "claims/C3/evidence/0:non_contiguous_quote",
+    "C3/comparison/0/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C3/evidence/0:non_contiguous_quote",
+    "C3/comparison/0/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11536,
+    "completion_tokens": 4075,
+    "total_tokens": 15611,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 17.36175739999453,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

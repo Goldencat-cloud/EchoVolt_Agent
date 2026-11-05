@@ -1,0 +1,125 @@
+{
+  "post_id": "b91d62bfda17ae1e",
+  "state": "FAILED",
+  "cache_key": "bc5779326311e4e2dec1044e5895956428913448e486a7cfb5ff0d981c71d7a7",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "b91d62bfda17ae1e",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "背景大屏幕上清晰显示了“xiaomi su7 标准版”字样"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者观看直播后认为造车用心，因此产生了购买意向，计划奋斗两年后购买。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "真的感觉是用心的造车 被种草了 好好奋斗 二年"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "被种草了 好好奋斗 二年后买一部"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7标准版价格发布",
+        "event_type": "价格与销售政策",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "表明这是小米SU7标准版的官方定价发布环节...巨大的数字“21.59万元”"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "图片说明描述了小米SU7标准版在发布会上公布价格为21.59万元的场景。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "二年后买一部"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者观看了小米SU7的直播发布会，对造车态度表示认可并产生购买兴趣，计划两年后购买。图片展示了SU7标准版21.59万元的定价发布画面。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "events/E1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "events/E1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10107,
+    "completion_tokens": 855,
+    "total_tokens": 10962,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 3.9525901000015438,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

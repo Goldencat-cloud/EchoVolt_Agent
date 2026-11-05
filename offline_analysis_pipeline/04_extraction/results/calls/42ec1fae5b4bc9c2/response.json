@@ -1,0 +1,240 @@
+{
+  "schema_version": "2.3",
+  "post_id": "42ec1fae5b4bc9c2",
+  "products": [
+    {
+      "id": "P1",
+      "name": "领克10+",
+      "entity_level": "具体配置",
+      "brand": "领克",
+      "series": "领克10",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "人生的第一台纯电车，订了领克10+"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "之前考虑过小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "尚界Z7",
+      "entity_level": "车系",
+      "brand": "尚界",
+      "series": "Z7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "尚界Z7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "小鹏P7",
+      "entity_level": "车系",
+      "brand": "小鹏",
+      "series": "P7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小鹏P7"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "价格与成本",
+      "content": "作者在对比多款20多万纯电轿车后，认为领克10+的优势最明显，并因发布会公布的价格较预售期便宜、权益优惠力度大而决定下单预订。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "客观的对比之后，觉得它的优势最明显...最关键的就是发布会上看了价格以及权益，感觉还是挺实惠，价格比预售期便宜了好几万，权益选配那些还有33000的羊毛可以薅，于是拍板把车订了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为领克10+在颜值方面具有明显优势，特别是大尾翼和锻造轮毂的设计。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "首先是颜值好看，大尾翼跟锻造轮毂"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为领克10+的性能在同级别中最高，具体表现为925马力。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其次是性能好，925马力这级别最高了"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "领克10系列上市发布会",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张发布会现场照片，背景大屏幕上展示了“领克”品牌旗下多款新能源车型的售价信息。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "#领克10#领克10上市"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "领克举办了新品上市发布会，公布了领克10 EM-P和领克10等多款车型的售价及配置信息。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "订了领克10+"
+      },
+      {
+        "block_id": "I2",
+        "source_type": "image_summary",
+        "quote": "顶部显示“预订完成”，提示经销商会在24小时内联系。"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "注重车辆颜值（大尾翼、锻造轮毂）",
+      "注重高性能（925马力）",
+      "关注性价比与购车权益"
+    ]
+  },
+  "post_summary": "作者分享了人生首台纯电车预订领克10+的经历。经过与小米SU7、小鹏P7等同级车型的对比，作者认为领克10+在颜值、性能（925马力）以及上市后更具竞争力的价格和权益方面优势明显，因此决定下单。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

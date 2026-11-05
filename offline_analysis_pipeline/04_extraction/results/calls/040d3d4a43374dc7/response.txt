@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.3",
+  "post_id": "040d3d4a43374dc7",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7改装"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为安装Ultra前杠后，车身显得更流畅且更具美观。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "装上Ultra前杠，更显车身流畅，更具美观"
+        }
+      ],
+      "confidence": 0.9
+    ,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "装上Ultra前杠"
+      }
+    ],
+    "confidence": 0.85
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了小米SU7改装Ultra前杠后的效果，认为此举使车身更加流畅美观。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "低"
+}

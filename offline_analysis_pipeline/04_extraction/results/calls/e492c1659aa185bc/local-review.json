@@ -1,0 +1,392 @@
+{
+  "post_id": "e492c1659aa185bc",
+  "state": "FAILED",
+  "cache_key": "bf3ecf116f4ec3519e3319e09c8c7a8bdfe79163525a08c9aed3b65e9018cffe",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "e492c1659aa185bc",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 2024款 后驱长续航智驾版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "后驱长续航智驾版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相关车型:小米SU7 2024款 后驱长续航智驾版"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者表示一开始看到小米的外观就被迷住，因此定下了购买目标。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一开始看到小米的外观就被迷住了，于是就定下了目标"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者列出购车费用清单，落地价约24-25万元，保险费约9000元，另购买小米无忧包约1200元。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "落地大概24-25w\n保险：9000左右\n另外买了小米的无忧包（1200左右）"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者于1月26日下定，经过110天等待，于5月25日在深圳小米交付中心提车。工作人员耐心讲解电车使用规范，作者对此感到满意。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "1.26号下定经过了110天的等待，终于在5月25号提车了，去深圳小米交付中心的路上心情十分激动，小米的工作人员很耐心的讲解了电车的使用规范，优势等等，非常靠谱"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者初次驾驶感受方向盘很轻，油门刹车灵敏，车身过弯稳定，整体易于驾驶。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第一次开回家的时候感觉方向盘很轻，跟开玩具车一样，真的很好开，油门和刹车也很灵敏...过弯道时我稍微打了把方向盘，车身稳得很"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者首次将车开回家的驾驶体验。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "第一次开回家的时候"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出车辆行驶安静，相比之前的燃油车噪音更小，甚至能听到导航提示音。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第一次踩电门，后背被座椅轻轻推了一下，车速平稳往上爬，却几乎听不到噪音——之前开燃油车时总抱怨发动机“嘶吼”，这会儿安静得能听见导航里的提示音。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "空间与舒适性",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "之前开燃油车时总抱怨发动机“嘶吼”，这会儿安静得能听见导航里的提示音。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在城市道路上低速起步行驶。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "第一次踩电门，后背被座椅轻轻推了一下，车速平稳往上爬"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者在上路时忘记调节后视镜，通过语音助手“小爱同学”成功解决。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "还有第一次上路的时候忘记调后视镜了，直接叫小爱同学就解决了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者首次上路驾驶。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "第一次上路的时候"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者的老婆表示乘坐小米SU7比家里的旧车（燃油车）舒服得多。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "连平时晕车的老婆都夸：“比家里那辆车舒服多了。”"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "空间与舒适性",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "比家里那辆车舒服多了。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者携带妻子一同乘车出行。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "连平时晕车的老婆都夸"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者建议车友在使用辅助驾驶时手握方向盘，充电时使用正规充电桩并注意接口干燥，雨天行车需降低车速并保持车距，以确保安全。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在使用辅助驾驶的过程中应该手握方向盘，安全第一，充电的时候要使用正规的充电桩...在雨天行车，路面湿滑，车辆的制动距离会明显增加。此时应降低车速，保持安全车距"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "终于在5月25号提车了"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一次开回家的时候"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": "24-25w",
+      "preferences": [
+        "偏好小米外观设计"
+      ]
+    },
+    "post_summary": "作者分享了购买小米SU7 2024款后驱长续航智驾版的经历，包括因外观吸引而下单、110天等待后的提车过程及费用明细。文中详细描述了初次驾驶的操控、静谧性及智能座舱体验，并与家中旧车进行了舒适度对比，最后给出了关于辅助驾驶、充电及雨天行车的安全建议。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "C5:comparison_unknown_product",
+    "C7:unknown_target",
+    "C7:comparison_unknown_product"
+  ],
+  "original_errors": [
+    "C6:comparison_unknown_product"
+  ],
+  "usage": {
+    "prompt_tokens": 11552,
+    "completion_tokens": 3262,
+    "total_tokens": 14814,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 13.838827900006436,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

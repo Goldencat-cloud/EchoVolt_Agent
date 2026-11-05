@@ -1,0 +1,352 @@
+{
+  "schema_version": "2.3",
+  "post_id": "68906556a2cba776",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米第三款车型",
+      "entity_level": "未明确",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米第三款车型曝光"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "左侧是一辆轿车，车牌位置标有“XIAOMI SU7”字样"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "跟前脸来看跟SU7的前脸是一模一样"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小米YU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "右侧是一辆SUV，车牌位置标有“XIAOMI YU7”字样"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "新款小米yu7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最难受的就是比亚迪了"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "焕新的modey",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "能与焕新的modey有一拼"
+        }
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者转述消息称小米第三款车型曝光，预计定价15万，可能是增程车或SUV，上市时间可能在明年六七月份。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近日，小米第三款车型曝光，预计15万，这回是增程车了定价15万还是SUV。新车上市的时间可能会在明年六七月份上市"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为小米新车定价15万左右将对比亚迪造成压力，因为该价位是比亚迪的重要销量来源。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "信息准确的估计最难受的就是比亚迪了，毕竟15万左右的车型是比亚迪的重要销量来源。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者指出此前关于小米第三款车型的谣言已被辟谣，但假消息仍多次登上热搜，且许多消费者不了解增程技术，购车主要看外观和价格。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其实9月份的时候已经辟谣了，但是假消息不能上两次热搜啊，好多人还不了解增程车有啥技术，说句实话买车的人也不可能都看技术大部分都是看外观好不好看，又是油又是电的，谁便宜好看就买谁呗！"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为新款小米YU7的前脸设计与SU7一模一样。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "新款小米yu7从前脸来看跟SU7的前脸是一模一样"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "新款小米yu7从前脸来看跟SU7的前脸是一模一样"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者称小米YU7车长4999mm，属于中大型SUV，认为其能与焕新的Mode Y相媲美。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车长4999 妥妥的中大型SUV能与焕新的modey有一拼"
+        }
+      ],
+      "confidence": 0.8,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P5",
+            "aspect": "空间与舒适性",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "车长4999 妥妥的中大型SUV能与焕新的modey有一拼"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者预测明年汽车市场会出现激烈竞争，并认为未来新能源市场价格会更令人惊喜。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "明年的汽车市场还会出现咔咔乱杀的情况。不得不说雷总是闷声干大事，未来的新能源市场价格一定会更惊喜。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米第三款车型曝光",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近日，小米第三款车型曝光"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "网传小米第三款车型曝光，预计定价15万，可能为增程SUV，计划明年六七月份上市，但该消息曾被辟谣。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了网传小米第三款车型（疑似增程SUV）的曝光信息，包括预计15万的定价和明年上市的传闻。作者分析了该车型可能对比亚迪销量的冲击，并评论了消费者对增程技术的认知现状。此外，作者还对比了小米YU7与SU7的外观相似度，以及与Model Y的尺寸竞争力，并对未来新能源汽车市场的价格走势持乐观态度。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

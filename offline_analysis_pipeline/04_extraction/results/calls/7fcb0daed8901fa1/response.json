@@ -1,0 +1,174 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7fcb0daed8901fa1",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米高管称有人向KOL派发抹黑小米SU7商单"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "小米汽车副总裁李肖爽表示，小米SU7上市后受到广泛欢迎，但也发生了与产品无关的风波，其中包括有人向KOL派发抹黑小米SU7的商单。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近日，小米汽车副总裁李肖爽发文表示...也有人向KOL派发抹黑小米SU7的商单"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "李肖爽指出，关于删除合影的事项是因为闭门交流约定保密所致，与小米SU7发布无关，并认为对此事的炒作令人匪夷所思。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "关于删除合影事项...这与小米SU7的发布完全无关"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "李肖爽称已初步掌握部分证据，将对派发抹黑商单等行为追究法律责任。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我们已初步掌握部分证据，将坚决追究其法律责任"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者询问读者认为派发抹黑商单的人群是来自同行还是跨界。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "你觉得这群抹黑的是来自同行还是跨界呢？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米高管回应SU7舆论风波及抹黑商单",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车副总裁李肖爽发文表示...我们就统一简要作答"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米汽车副总裁李肖爽发文回应小米SU7上市后的舆论争议，澄清删除合影原因，并披露有人向KOL派发抹黑商单，表示将追究法律责任。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子转述了小米汽车副总裁李肖爽关于小米SU7上市后舆论风波的回应，包括澄清删除合影事宜，并揭露有人向KOL派发抹黑商单，小米方面表示将追究法律责任。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

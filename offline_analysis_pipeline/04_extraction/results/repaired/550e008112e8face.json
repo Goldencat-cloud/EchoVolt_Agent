@@ -1,0 +1,122 @@
+{
+  "schema_version": "2.3",
+  "post_id": "550e008112e8face",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米的空调到底怎么样？"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "Y",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有没有类似于Y的生化模式？"
+        }
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者询问小米汽车的空调性能、滤芯类型（能否过滤PM2.5）以及是否有类似“Y”车型的生化模式。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1、小米的空调到底怎么样？什么样子的滤芯，能不能过滤PM2.5？ 有没有类似于Y的生化模式？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者询问小米汽车在左右转向时是否有后方来车预警功能，并表示该功能很有必要。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2、左右转向的时候，有没有后方来车预警？这个功能还是很有必要的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "问两个问题，没看到有相关宣传资料。"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "关注空气过滤功能",
+      "关注后方来车预警功能"
+    ]
+  },
+  "post_summary": "用户在购车前咨询小米汽车的两项具体配置：一是空调系统的滤芯能力及是否有类似“Y”车型的生化模式；二是转向时是否有后方来车预警功能。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

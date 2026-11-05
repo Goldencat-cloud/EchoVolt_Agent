@@ -1,0 +1,707 @@
+{
+  "schema_version": "2.3",
+  "post_id": "780f197675268ae7",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "我提了小米SU7，上海提车分享，小米SU7车主实拍"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "智界S7",
+      "entity_level": "车系",
+      "brand": "智界",
+      "series": "S7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在网上对比看了竞品智界s7"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7的价格（21.59万）低于智界S7（24.98万），在价格方面更具优势。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "首先价格小米su70价格21.59w，智界s7价格24.98w，小米在价格这部分还是比较有优势一点的。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "首先价格小米su70价格21.59w，智界s7价格24.98w，小米在价格这部分还是比较有优势一点的。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者更倾向于小米SU7的外观，认为其回头率高，对标百万豪车，而智界S7基本没有回头率。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但我更倾向于最近热度比较火爆的小米su7,毕竟开智界车基本不会有回头率，而小米su7回头率对标百万豪车。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "但我更倾向于最近热度比较火爆的小米su7,毕竟开智界车基本不会有回头率，而小米su7回头率对标百万豪车。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出智界S7在安全辅助驾驶和800V平台上有优势，而小米SU7在Nappa真皮座椅、操控驾驶和手机车机互联上有优势，两者互有胜负。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "再有配置部分两辆车智界s7优势点为安全辅助驾驶以及800v平台，而小米优势点为nappa真皮座椅，更好的操控驾驶，更好的手机车机互联，互有胜负。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "智能驾驶",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "再有配置部分两辆车智界s7优势点为安全辅助驾驶以及800v平台"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "而小米优势点为nappa真皮座椅，更好的操控驾驶，更好的手机车机互联"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7虽为C级车大小但做出了B级车的空间，考虑到自家两口之家的用车需求，前排空间足够大即可，不影响其用车需求。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7为c级车的大小，为了运动风格做出b级车的空间，但完全不会影响到我的用车需求。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者最终选择小米SU7是因为其亲民级别带来的更好操控体验击中了其痛点。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "综合下来我更喜欢小米su7，更亲民的级别带来更好的操控体验击中我的痛点。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者在订购次日前往上海小米交付中心试驾，但因人数多且仅能试驾Max版本（与普通版动力不同），未能留下深刻印象。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "再订购完创始版su7后的第二天就到上海小米交付中心预约试驾，一来试驾的人数太多，匆匆忙忙试驾了一圈就结束了，二来交付中心还没有普通版本的试驾车，试驾max版本对于我来说没有参考意义，动力再快也不是普通版本的动力，所以就没有留下深刻印象。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "在上海小米交付中心进行试驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "再订购完创始版su7后的第二天就到上海小米交付中心预约试驾"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买了小米SU7标准版寒武岩灰创始版，裸车价215900元，加上保险5556.29元和上牌费120元，合计花费221576.29元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我定的是超su7标准版寒武岩灰创始版，裸车215900，保险5556.29，上牌120 合计221576.29元"
+        }
+      ],
+      "confidence": 0.98
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者描述了提车过程：上午9点到交付中心，销售协助申请临牌并带领验车（查看漆面、附件如雷军签名证书、钥匙等），讲解功能，确认后打卡拍照，待临牌办好即可提车。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "提车过程:早晨9点到交付中心提供证件给销售，销售会帮忙去申请临牌，过程半小时左右，期间销售会带领去交付车间验车，主要是查看漆面有无划痕磕碰，随车附件有无遗漏(创始版有雷军签名证书，车遥控，帽子) 三脚架 ，安全背心，以及两把车钥匙。随后销售会详细讲解车子的主要功能，带着熟悉车机系统，注意事项。全部确认无误后把车停在交付点打卡拍照，然后等待销售领取到临牌就可以提车开走了。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "在交付中心办理提车手续。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "早晨9点到交付中心提供证件给销售"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者非常喜欢小米SU7的外观，称赞其跑车造型、流线型线条、溜背设计和空气套件侧裙，但遗憾其没有采用掀背型后备箱。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "外观颜值是我最喜欢的一个点，从整体的造型，流线型的线条，性感的溜背，两侧微微隆起的前机盖，空气套件的侧裙，这些元素融合在一起成就小米跑车型的外观设计。还有太多值得称道的点，但唯一不足的是没有做掀背型的后备箱，目前国内厂商也有不少在做掀背，也不知道为啥小米不跟进掀背。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者选择了黑色内饰，原因是喜欢沉稳风格，不喜欢张扬的橙紫色，且认为灰色太容易脏。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "内饰颜色我选择的是沉稳的黑色，我不太喜欢张扬的颜色，橙色紫色就pass了，还有一个灰色太容易脏，就直接定了黑色内饰。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者提到全车限时赠送Nappa真皮座椅和冰箱，认为Nappa真皮细腻柔软，夏天用冰箱喝冰可乐很惬意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "全车限时送的nappa真皮细腻柔软，还送了一个冰箱，夏天用他喝喝冰可乐也是非常惬意。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "夏季使用车载冰箱。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "夏天用他喝喝冰可乐也是非常惬意"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者评价标准版的高速领航辅助和代客泊车辅助功能很好，高速NOA跟车超车果断、变道丝滑，能降低疲劳；自动泊车基本一把进，能完全解放双手。给予这两个功能90分的评价。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "功能：标准版支持高速领航辅助和代客泊车辅助，高速noa的体验很不错，在跟车和超车的时候很果断，变道丝滑，在闸道口可以自动变道虽说不能完全解放双手，但是是完全可以降低驾驶员的疲劳程度。自动泊车功能也是完全解放双手，只要不是特别窄的车位基本都是一把进。这两个辅助驾驶功能能给90分。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "在高速公路上使用领航辅助，以及在车位使用自动泊车。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "高速noa的体验很不错...自动泊车功能也是完全解放双手"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C13",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为车辆操控手感一流，转向精准灵敏，虚位少，底盘调教有韧性，过坑过坎干净利落，偏向运动风格。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "操控：操控手感一流，转向精准灵敏，虚位较少，指哪打打，底盘调教很有韧性，过个坑过个坎干净利落，偏向运动调教风格。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "日常驾驶，经过颠簸路面。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "过个坑过个坎干净利落"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C14",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者表示普通版后驱299马力，5秒破百，运动模式有推背感，虽然不如Max狂暴，但家用完全够用。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "动力：普通版本后驱299马力，5秒破百，运动模式下还是能体验一下推背感的，只是没有max那么狂暴，家用完完全全够用了。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "家用驾驶，体验运动模式。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "运动模式下还是能体验一下推背感的...家用完完全全够用了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C15",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者目前行驶350公里，平均电耗在12.5左右，但认为样本量太少，不具有说服力，待后续里程增加后再更新。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "电耗：目前跑了350公里，平均电耗在12.5左右，当然样本量还是太少，不具有说服力，等后续里程数高了以后再更新"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "累计行驶350公里。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "目前跑了350公里"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C16",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为在前排舒适坐姿下，后排坐姿局促且平，大腿无承托，膝盖距前排两拳，175cm身高头部空间4指，体验不好，类似坐小板凳，但因其家后排不常坐人，仅作参考。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "空间：在前排舒适的坐姿下，后排坐姿比较局促，而且坐姿比较平，大腿部没有足够承托，膝盖距离前排两拳，头部空间175身高还有4指，像是坐小板凳，体验不是很好，不过前面也说过我家后排不做人，仅仅作为参考。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "前排舒适坐姿下的后排乘坐体验。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "在前排舒适的坐姿下，后排坐姿比较局促"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "我提了小米SU7"
+      },
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "我定的是超su7标准版寒武岩灰创始版"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "20w",
+    "preferences": [
+      "偏好运动风格",
+      "重视操控体验",
+      "偏好沉稳内饰颜色"
+    ]
+  },
+  "post_summary": "作者分享了在上海提车小米SU7创始版的经历，包括与智界S7的对比决策过程、提车费用明细、交付中心提车流程及上牌经验。作者对车辆的外观、操控、智能驾驶功能和内饰配置给予了高度评价，但也指出了后排空间局促和缺乏掀背设计的不足。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

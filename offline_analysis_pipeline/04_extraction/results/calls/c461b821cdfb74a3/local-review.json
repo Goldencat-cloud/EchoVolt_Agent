@@ -1,0 +1,255 @@
+{
+  "post_id": "c461b821cdfb74a3",
+  "state": "FAILED",
+  "cache_key": "614c617d120ac359607ac364defd78507e813e04b968e7dbff231ffa87e4950c",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "c461b821cdfb74a3",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "标准版虽然没有cdc和双腔空簧以及双电机四驱，但驾驶起来依旧是很爽"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "图片展示了一辆停放在室内交付中心的小米SU7轿车正前方视角"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7标准版虽然缺少CDC、双腔空簧及双电机四驱配置，但驾驶体验依然爽快，操控感强。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "标准版虽然没有cdc和双腔空簧以及双电机四驱，但驾驶起来依旧是很爽，操控感十足"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者实测小米SU7标准版续航达到566km，认为三电技术优秀，且仪表盘显示的剩余电量比实际消耗更少。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "标准版实际续航也能有566km，三电技术很棒，表显掉的比实际开的还少"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者指出小米辅助驾驶在高速和高架路段表现尚可，但在城区路况下表现极差，存在习惯性靠右和乱变道现象，基本不可用。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米的辅助驾驶高速高架还算可以，但城区现在依旧是一坨，基本不能用，先不说习惯性的靠右，乱变道就蛮吓人的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "作者在城区及高速高架路段使用辅助驾驶功能。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "小米的辅助驾驶高速高架还算可以，但城区现在依旧是一坨"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为小米汽车的自动泊车功能识别车位能力较弱，无法识别没有画线的车位。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "同时自动泊车识别车位能力还是比较弱，没有画线的车位目前识别不出"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者批评随车赠送的25扬声器音响效果差，相比上一代没有提升，与其他同级车型相比差距大，仅能听到声音而无音质可言。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "首发权益送的25扬声器，相较于上一代就被大家吐槽跟其他同级别的车内音响比简直拉完了，这代还一样，没有什么提升，只能说听个响"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "配置与功能",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "跟其他同级别的车内音响比简直拉完了"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "标准版实际续航也能有566km"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "图片展示了一辆停放在室内交付中心的小米SU7轿车...表明这是新车交付仪式的场景"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "车主分享小米SU7标准版的用车体验，肯定了其驾驶操控感和566km的实际续航表现，但强烈批评了城区辅助驾驶的稳定性、自动泊车的识别能力以及车载音响的低劣音质。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "C5:comparison_unknown_product"
+  ],
+  "original_errors": [
+    "C5:comparison_unknown_product"
+  ],
+  "usage": {
+    "prompt_tokens": 10285,
+    "completion_tokens": 2091,
+    "total_tokens": 12376,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 9.404181000005337,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

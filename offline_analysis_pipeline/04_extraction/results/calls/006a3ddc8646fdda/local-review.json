@@ -1,0 +1,112 @@
+{
+  "post_id": "006a3ddc8646fdda",
+  "state": "FAILED",
+  "cache_key": "e77d98bedb448d7956c4bd93f8e7fbd37023a4c1394d611aa220a0126e0213b1",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "006a3ddc8646fdda",
+    "products": [],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为在车内平板上操作360影像等功能较为繁琐，因此购买了第三方快捷按钮来简化操作流程。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "每次要打开360影像或者其他什么功能的时候要在车的平板上面操作半天… 我买了一个快捷按钮"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者介绍了其配置的快捷按钮功能：短按打开地图，长按打开座椅按摩，认为这种设计避免了驾驶时分心操作平板，提升了便利性。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我现在设置的是按一下是打开地图，长按是打开座椅按摩，我觉得还是很方便！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在驾驶过程中使用该快捷按钮。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "然后再开车的时候就可以不用分心，只需要按下这个按钮"
+            }
+          ]
+        }
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我买了一个快捷按钮...然后在开车的时候就可以不用分心"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "偏好便捷的交互方式以减少驾驶分心"
+      ]
+    },
+    "post_summary": "车主分享了使用第三方快捷按钮优化车内交互的体验。针对平板操作复杂的问题，作者通过预设按钮实现一键打开地图和座椅按摩等功能，认为能有效减少驾驶时的注意力分散，提升便利性。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10042,
+    "completion_tokens": 814,
+    "total_tokens": 10856,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 5.921010899997782,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

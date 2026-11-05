@@ -1,0 +1,406 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e2fd989d4af80984",
+  "products": [
+    {
+      "id": "P1",
+      "name": "特斯拉Model Y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "特斯拉Model Y已上新"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米YU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米YU7还值得等待吗？"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "SU7的成功就在眼前"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米YU7的外观设计具有较高的颜值，其子弹头形大灯、熏黑进气口及运动化车身线条使其在视觉上不逊色于新款特斯拉Model Y。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "颜值较高，特别是它的子弹头形的大灯组...显得精气神十足"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "单论颜值，YU7丝毫不比Model Y逊色。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "外观与内饰",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "单论颜值，YU7丝毫不比Model Y逊色。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "根据文中提供的尺寸数据，小米YU7在长宽高及轴距上均大于新款特斯拉Model Y，作者推测YU7的舱内空间宽敞度可能会胜过新款Model Y。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "YU7的尺寸要比新款Model Y更具优势，这也是等待YU7上市的一个重要原因：说不定YU7的舱内空间宽敞度会胜过新款Model Y"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "空间与舒适性",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T5",
+                "source_type": "text",
+                "quote": "YU7的长/宽/高分别为4999/1996/1608mm，轴距为3000mm；作为对比，新款Model Y的长/宽/高分别为4797/1920/1624mm，轴距尺寸是2890mm。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "文章指出新款Model Y全轮驱动版零百加速为4.3秒，并推测小米YU7有望搭载双电机系统（峰值功率508kW）或单电机版（235kW），其动力性能足以与新款Model Y竞争。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "新款Model Y全轮驱动版的动力性能变得更强劲，零百加速时间仅需4.3秒。预计YU7的动力性能也不赖...足以和新款Model Y全轮驱动版一较高下。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "动力与性能",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T5",
+                "source_type": "text",
+                "quote": "足以和新款Model Y全轮驱动版一较高下"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "由于FSD尚未在中国落地，新款Model Y的智驾表现暂居国内第二梯队；作者认为若YU7的纯视觉智驾方案能达到高度“类人化”体验，将在智驾方面对新款Model Y形成优势。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "新款Model Y的智驾表现暂未跻身国内第一梯队。也就是说，YU7可能采用的纯视觉智驾方案...那YU7对比新款Model Y就有一定优势了"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "智能驾驶",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T6",
+                "source_type": "text",
+                "quote": "那YU7对比新款Model Y就有一定优势了"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者看好小米YU7的智能座舱潜力，认为其有望基于小米澎湃OS系统，利用“小爱同学”等生态优势，打造以人为中心的“人车家全生态”座舱体验。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "YU7有望继续基于小米澎湃OS系统，打造以人为中心的智能座舱，大概率会带来「人车家全生态」的座舱体验。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者建议如果不急于用车，可以考虑等待小米YU7上市，因为其潜在的产品力和合理的定价可能使其在与新款Model Y的竞争中占据上风。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "如果你不着急用车，确实可以等一等。"
+        },
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "如果YU7产品力过硬，定价还合理，那新款Model Y不一定能赢过YU7。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "特斯拉新款Model Y发布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "特斯拉Model Y已上新"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "Model Y就迎来了新款"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "特斯拉推出了新款Model Y，该车型在动力性能等方面有所提升，被视为对现有中高端新能源SUV市场格局的改变因素。"
+    },
+    {
+      "id": "E2",
+      "name": "小米YU7外观曝光",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米首款SUV车型YU7“露出庐山真面目”，就直接冲上热搜"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "小米首款SUV车型YU7的外观设计正式曝光，引发社交媒体热议，被视为Model Y的有力竞争对手。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T3",
+        "source_type": "text",
+        "quote": "如果你不着急用车，确实可以等一等。"
+      }
+    ],
+    "confidence": 0.6,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "本文分析了在特斯拉新款Model Y上市后，消费者是否还应等待小米YU7上市的决策问题。文章从外观设计、车身尺寸、动力性能、智能驾驶及智能座舱五个维度对比了两款车型，认为YU7在空间和智能化方面具有潜在优势，建议不急用车的用户可以等待YU7上市。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

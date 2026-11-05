@@ -1,0 +1,415 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e33a2bd19b9bf5ef",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 后驱超长续航高阶智驾Pro版"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我选的是小米su7 pro加了颜色霞光紫，尾翼，音响，一共裸车是26.49万"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉毛豆y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "毛豆y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我嫂子买的特斯拉毛豆y"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "宝马3系",
+      "entity_level": "车系",
+      "brand": "宝马",
+      "series": "3系",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我本人本来一直喜欢宝马3系"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买了小米SU7 Pro，选择了霞光紫颜色、尾翼和音响配置，裸车价格为26.49万元，保险费7000元，无忧包1499元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我选的是小米su7 pro加了颜色霞光紫，尾翼，音响，一共裸车是26.49万，保险7000，无忧包1499"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为小米SU7的交付流程非常流畅，没有任何纠纷，交付人员非常耐心。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "交付流程非常流畅，没有任何纠纷，交付人员也非常耐心"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7在城区行驶时非常稳，高速行驶时灵活且方向盘灵敏，底盘稳固，密封性好，车内噪音低。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在城区的时候非常的稳...跑高速的体验感更好，非常灵活，方向盘几乎是指哪打哪，非常灵敏，底盘非常的稳"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "封密性也比较好，放歌没有噪音"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在城区和高速公路驾驶车辆。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在城区的时候非常的稳...跑高速的体验感更好"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7的舒适性非常好，特别是红色内饰提供了很高的情绪价值，车内几乎没有左右摇摆或颠簸感。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "舒适性也是非常好，我选了红内，给我的情绪价值非常高"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "坐在车内几乎没有什么左右摇摆或者颠簸感"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的自动泊车和自动泊出功能非常实用，特别适合新手司机。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "自动泊车，自动泊出，真的超级好实用，我老婆刚拿驾照没多久，这几个功能非常适合新手"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者非常喜欢小米SU7的外观，尤其是尾翼设计和霞光紫颜色，认为其车身线条和尾翼极具吸引力，提供了很高的情绪价值。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外观更加不用说，我非常喜欢...无论是车身线条还是尾翼，都是我最喜欢的，我选了霞光紫的外观颜色，非常的有韵味，非常耐看"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者提到其嫂子购买的特斯拉毛豆y也喜欢自动泊车功能，暗示两款车在该功能上都有良好表现或受到用户喜爱。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我嫂子买的特斯拉毛豆y，她也非常喜欢这个车的造型和自动泊车"
+        }
+      ],
+      "confidence": 0.8
+    ,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "智能座舱与车机",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "我嫂子买的特斯拉毛豆y，她也非常喜欢这个车的造型和自动泊车"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者原本喜欢宝马3系，但因看到小米SU7的尾翼设计而决定购买小米SU7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我本人本来一直喜欢宝马3系，但是自从看了一眼小米的尾翼，我就一发不可收拾直接下定了"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者认为小米SU7整体目前没有不喜欢的地方，虽然等待了139天提车，但认为这一瞬间是值得的，小米SU7不会辜负大家的等待。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "整体目前我还没有不喜欢的地方...一共等了139天提车，但是提车的那一瞬间是值得的"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7值得大家等待，也不会辜负大家等待那么久的时间"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "自从提了小米后，几乎天天在外面跑"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车的那一瞬间都值得的"
+      }
+    ],
+    "confidence": 0.98
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好运动风格外观",
+      "重视自动泊车功能",
+      "偏好红色内饰"
+    ]
+  },
+  "post_summary": "作者分享了购买并使用小米SU7 Pro的经历，详细描述了选车心路、费用明细、流畅的交付过程以及用车后的积极体验。作者特别称赞了车辆的操控性、舒适性、外观设计及智能泊车功能，认为其值得等待，并对比了自己此前偏爱的宝马3系及亲友使用的特斯拉Model Y。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

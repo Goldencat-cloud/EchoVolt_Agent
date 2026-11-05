@@ -1,0 +1,233 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0170262d6a0afb5d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "速腾",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "速腾",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一辆油车速腾8年了"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米yu7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "yu7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "全款选择了小米yu7"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我买的标准版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "极氪",
+      "entity_level": "品牌",
+      "brand": "极氪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "从极氪到byd到理想"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "从极氪到byd到理想"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "理想",
+      "entity_level": "品牌",
+      "brand": "理想",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "从极氪到byd到理想"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因通勤路程远，决定在30岁时全款购买小米yu7。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但这个夏天还是决定购买一辆电车，通勤路程很远"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在我30岁这年还是在能力范围内全款选择了小米yu7"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者在对比极氪、比亚迪、理想后，因担心未来看到路上的小米车会产生遗憾，最终选择小米。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "用了两天从极氪到byd到理想，最终还是走到了第一次看车的地方小米，因为确实被网络上一句话影响，或许这次不选择小米，那路上看到的每一辆小米我都会感到遗憾。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者购买的小米yu7标准版预估续航约470公里，作者认为长续航版会更便利，但短程通勤一周一充也够用。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我买的标准版开了几天还是建议购买长续航版，会更加方便一点，因为预估续航大概在470左右...当然短程通勤应该完全没有压力，一周一冲完全够用"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者进行短程通勤，一周一充。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "短程通勤应该完全没有压力，一周一冲完全够用"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "我买的标准版开了几天"
+      }
+    ],
+    "confidence": 0.95,
+    "age": 30,
+    "budget": null,
+    "preferences": [
+      "尊重内心真实想法",
+      "关注续航便利性"
+    ]
+  },
+  "post_summary": "作者因通勤距离较远，在对比多家品牌后，出于情感因素全款购买了小米yu7标准版。作者反馈该车预估续航约470公里，虽建议购买长续航版以提升便利性，但认为短途通勤一周一充足够。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

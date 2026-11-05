@@ -1,0 +1,244 @@
+{
+  "schema_version": "2.3",
+  "post_id": "69f237788575cc6e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7 ultra火了"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7 ultra大降30万起售"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者称小米SU7 Ultra大幅降价，起售价降至30万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7 ultra大降30万起售"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者称小米SU7 Ultra开售2小时大定订单超过1万台，并认为这一成绩非常出色。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看雷军发文，2个小时大定过万。要知道这可是50万的性能车，小众中的小众，能有这个订单里，也是NB了。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "文案内容为：“开售2小时，大定突破10000台，达成一个关键目标，感谢大家！晚安！”"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E3",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者指出雷军在小米SU7 Ultra发布会上穿着皮衣，改变了以往的风格，并将其与黄仁勋的标志性着装进行类比，认为这种营销方式有助于提升关注度。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "另外雷军发布会一改之前雷布斯的风格，开始穿皮衣了，这你能受得了么？要知道皮衣专属大佬之前可是黄仁勋，皮衣不离身。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷军穿衣风格也从学习乔布斯的牛仔裤走向了学习黄仁勋的皮衣。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E4",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者认为雷军登顶中国首富是实至名归，并称赞其愿意放下身段通过模仿名人穿搭等方式制造话题、拉动流量，从而推动小米成功。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷军昨天刚登顶中国首富也算实至名归的千亿霸总，就凭这舍得放下身段来学习别人穿衣风格造话题拉流量的态度，小米不火都说不过去！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra降价上市",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7 ultra大降30万起售"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米SU7 Ultra以30万元的起售价进行销售，相比此前有所下调。"
+    },
+    {
+      "id": "E2",
+      "name": "小米SU7 Ultra开售2小时大定破万",
+      "event_type": "市场竞争与行业数据",
+      "event_time": "2025-02-28",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "发布者为“雷军”，发布时间显示为“25-2-28 00:27”。文案内容为：“开售2小时，大定突破10000台..."
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "雷军发文称小米SU7 Ultra开售2小时后，大定订单量突破10000台。"
+    },
+    {
+      "id": "E3",
+      "name": "雷军在小米SU7 Ultra发布会穿皮衣",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "另外雷军发布会一改之前雷布斯的风格，开始穿皮衣了"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "下半部分画面中，雷军（小米创始人）同样身穿深棕色皮夹克搭配黑色内搭，面带微笑站在舞台上。"
+        }
+      ],
+      "confidence": 0.85,
+      "summary": "雷军在小米SU7 Ultra发布会上身着皮衣亮相，引发了关于其着装风格变化的讨论。"
+    },
+    {
+      "id": "E4",
+      "name": "雷军登顶中国首富",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷军昨天刚登顶中国首富"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "雷军登上中国首富榜单。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了小米SU7 Ultra降价至30万起售及开售2小时大定破万的市场表现。作者重点分析了雷军在发布会上改穿皮衣的营销策略，将其与黄仁勋的标志性形象相联系，认为这种制造话题的方式有助于提升品牌影响力，并对雷军登顶首富及小米的成功表示认可。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

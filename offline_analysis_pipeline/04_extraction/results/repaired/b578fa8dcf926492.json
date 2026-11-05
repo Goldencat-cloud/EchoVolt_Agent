@@ -1,0 +1,364 @@
+{
+  "schema_version": "2.3",
+  "post_id": "b578fa8dcf926492",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最终被小米SU7的轿跑美学和科技基因打动"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "领克09",
+      "entity_level": "具体配置",
+      "brand": "领克",
+      "series": "09",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在对比了领克09、特斯拉Model Y等车型后"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model Y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在对比了领克09、特斯拉Model Y等车型后"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者预算25万左右，对比领克09和特斯拉Model Y后，因小米SU7的外观设计和试驾体验（加速、姿态）选择购买小米SU7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算设定在25万左右...在对比了领克09、特斯拉Model Y等车型后，最终被小米SU7的轿跑美学和科技基因打动。尤其试驾时，流畅的加速体验和低趴运动姿态彻底征服了我和家人"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买小米SU7标准版，裸车价21万多，加装8k梅花轮毂，保险花费5千，上牌费200元，落地总价22万。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我选择标准版（裸车价21w出头），加装8k梅花轮毂，保险对比多家后选定交强险+300万三者险+车损险组合（5k），上牌费200元，落地总价22w"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者实测小米SU7标准版夏季开空调续航600km，冬季约500km，每周一充可满足通勤。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "实测夏季开空调续航600km，冬季约500km，每周一充即可满足通勤"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在日常通勤中使用，夏季开空调，冬季使用。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "实测夏季开空调续航600km，冬季约500km，每周一充即可满足通勤"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的Hyper OS车机与小爱同学联动顺畅，自动泊车成功率高，离车泊车功能便捷。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Hyper OS车机与小爱同学无缝联动，自动泊车成功率达90%，尤其更新离车泊车功能后更加便捷"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者认为小米SU7工艺品质好，钢铝混合车身强度高，缝隙控制优于同级豪华品牌，防晒玻璃隔热效果好。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "钢铝混合车身（高强度材料占比90%），缝隙控制优于同级豪华品牌，防晒玻璃在夏日暴晒下车内温度仅上升5℃"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "夏日暴晒环境下。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "防晒玻璃在夏日暴晒下车内温度仅上升5℃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7后驱标准版动力线性，起步快，高速超车有信心。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后驱标准版动力线性，红绿灯起步稳超燃油车，高速超车信心十足"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "城市道路起步及高速公路行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "红绿灯起步稳超燃油车，高速超车信心十足"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者建议意向车友关注需求匹配，若追求操控和智能体验，SU7是同价位优秀选择；若注重后排舒适或长途，需试驾后决策。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "若追求极致操控与智能体验，SU7是同价位断层式选择；若注重后排舒适或频繁长途出行，建议试驾后再决策"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者指出后驱车型在雨雪天容易打滑，建议开启雪地模式并更换冬季胎。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后驱车型雨雪天易打滑，建议开启“雪地模式”并更换冬季胎"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "雨雪天气驾驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "后驱车型雨雪天易打滑"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米提车分享"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "拿到钥匙时，白色车身的金属光泽与经典内饰的碰撞感，让全家人欢呼雀跃"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "25万左右",
+    "preferences": [
+      "纯电车型",
+      "轿跑美学",
+      "科技感",
+      "流畅加速体验"
+    ]
+  },
+  "post_summary": "作者分享了购买小米SU7标准版的经历，包括选车对比、费用明细、提车验车过程及初期用车体验。作者对车辆的动力、续航、智能化和工艺品质表示满意，并给出了针对特定需求的购车建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

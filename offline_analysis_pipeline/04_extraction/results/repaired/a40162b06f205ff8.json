@@ -1,0 +1,407 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a40162b06f205ff8",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 750km 四驱Max创始版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max创始版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 750km 四驱Max创始版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "极氪",
+      "entity_level": "品牌",
+      "brand": "极氪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "身边朋友推荐我看看极氪"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "BYD以及其他新势力外形内饰也没有小米那么汽车"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因今年出勤公里数增加开始关注电车，恰逢小米发布，被营销吸引后直接盲订了创始版MAX海湾蓝。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "本来没有考虑换电车的，无奈今年开始出勤公里数陡增，才开始关注电车，正好碰上小米发布，被强大营销洗脑，直接盲订创始版MAX海湾蓝"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为极氪的跨界掀背造型不符合其审美，且比亚迪及其他新势力的外形内饰不如小米具有汽车感。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "身边朋友推荐我看看极氪，但是跨界掀背不在我的审美之上，BYD以及其他新势力外形内饰也没有小米那么汽车"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "跨界掀背不在我的审美之上"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "BYD以及其他新势力外形内饰也没有小米那么汽车"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者在南京小米中心实地查看后发现车辆比想象中更长更宽，理解了车评人所说后排空间小的原因，但因个人很少搭载外人且同伴身高不高，故认为空间要求可忽略。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "先去南京小米新的中心看了外观内饰，比想象中长，宽，这才理解了很多车评人说，后排空间小的原因，但本人基本不带外人，身边人都没大高个，所以空间要求几乎可以忽略。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在南京小米中心实地查看车辆外观内饰。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "先去南京小米新的中心看了外观内饰"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者记录了购车费用，裸车价为29.99万元，并指出杭州地区车险价格较贵。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "29.99万裸车+保险，只能说，杭州的车险是真贵.."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为小米的交付流程比较随意，需要先交完所有手续款项才能看车，但由于是创始版限量5000台，没有其他选择。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米的交付比较随意，先把所有手续钱都交完了才给看车，不过创始5000台，也没得选"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者描述了车辆内饰简洁，配备一大一小两个屏幕及HUD，并购买了大量小米生态产品如氛围灯、拾音设备、小钟、实体按键和香氛等。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "跑车的外形，简洁的内饰，一个大屏一个小屏，一个HUD，该省省该花花，买了一堆小米生态，氛围灯拾音，小钟，实体按键，香氛一应俱全。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者表示自己和车友都觉得车辆比较省电，特别是在夏季油耗较高的时期，但对冬季表现尚不确定，仅知厂家称已做相关优化。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "自己还是车友都感觉挺省电的，最起码在这个夏天对于油车来说很费的时候，就是不知道冬天怎么样，雷神说冬天也都已经做了相关努力"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "夏季日常使用。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "最起码在这个夏天"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者最满意车辆的外形，包括颜色和尾翼设计，认为30万元买到具备跑车外观和3秒破百性能的车型很有价值。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这辆车最满意的就是外形，不光颜色以及尾翼，都彰显跑车的调调，30万，买个跑车+3秒0-100公里，何乐而不为。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者最不满意的点是左右后视镜，指出其不具备防炫目功能和变道辅助功能，且外形与其他车辆不同。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "那我最不满意的，就是左右后视镜了，不带防炫目，不带变道辅助，就是外形看上去跟其他车不一样。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "我提了小米SU7"
+      },
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "页面顶部显示提车时间为2024-05-26...全款方案付款明细...均已支付"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好跑车外形",
+      "重视外观设计"
+    ]
+  },
+  "post_summary": "作者分享了购买并提车小米SU7 Max创始版的经历，详细记录了盲订原因、费用清单、交付过程及初期用车体验。作者对车辆的外观、性能和生态配套表示满意，但也指出了交付流程繁琐、后视镜功能缺失等不足之处。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": "2.3",
+  "post_id": "025409da5e67aa44",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7，从外观上来讲，还是比较喜欢这种“动感+灵动”的外观设计感觉"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "因而俺就多聊聊这台Max版的感受"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为该车外观设计具有动感和灵动，但指出提车后外观主要供他人观看，内饰和驾乘感才是与其日常使用关系最大的部分。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7，从外观上来讲，还是比较喜欢这种“动感+灵动”的外观设计感觉"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "毕竟车门一关，坐进车里，外观就是给别人看的了，与开车和坐车关系最大、最多的，就是内饰和乘坐了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者评价该车内饰以大面积红色为主调，配合黑色部件显得既热烈又稳重，材质多为真皮且触感良好，缝线平整，整体舒适感和高级感令人满意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "以大面积红色（官方称其为暮光红）为主调的内饰，给人热烈，欢腾的感觉，而黑色的方向盘、仪表台、棚顶，较好地中和了一部分偏女性的红色...增加了稳重感"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "内饰材质，除了座椅、方向盘、仪表台、车门都是真皮的...缝线平整，很有舒适感和高级感，对这方面还是比较满意的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为车内屏幕分辨率高、画质细腻、触摸反应灵敏且色彩真实，符合其喜好。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驾驶位和中间的屏幕，分辨率不低，画质挺细腻，触摸反应灵敏，色彩自然真实，按时比较喜欢的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出车内环保等级达到母婴级别，新车无异味，是其认可的加分项。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车内的环保是加分项，母婴级别，新车也没有化学、塑料的味道"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为车顶玻璃没有调色功能是一个大遗憾。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车顶玻璃没有调色功能，绝对是一个大遗憾，当然这是对俺来说"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为该车尺寸较大，除车高外超过其家中SUV，轴距达3米，因此乘坐舒适性较好，后备箱装载能力强。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "首先是外观的尺寸真心不小，除了车高之外，都超过了俺家SUV的数据，轴距达到了3米，因而乘坐的舒适性自然不会差，后备箱也能装下不少的东东"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者评价座椅偏软，舒适感不错，但支撑度不足，长途驾驶容易感到疲劳。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "座椅属于偏向柔软型的，舒适感不错，只是长途出门看世界会觉得有些累，支撑度不足"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者提及长途出行的场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "只是长途出门看世界会觉得有些累"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出前排座椅有通风和加热，后排座椅有加热，提升了舒适性；但后排无通风且所有座椅无按摩功能，被视为减分项。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "前排座椅有通风、加热，后排座椅加热，给乘坐的舒适性加了分，但后排座椅没有通风，还有就是所有座椅均没有按摩功能，实属不应该啊，这方面减分处理哈"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为配备空气悬架提升了乘坐舒适感，但推测后期维护成本会增加。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这台配备了空悬，乘坐的舒适感提升不少，加分项，只是后期的维护估计要多花银两了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者指出该车在运动+模式下容易产生晕车现象，因此在乘坐电动车时禁止使用运动模式或猛踩电门。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同样电动车容易产生晕车的通病也存在，特别是当调整为运动+的状态下，所以俺坐电动车时，禁止使用运动模式，也不能猛踩电门"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在车内乘坐，涉及运动+驾驶模式。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特别是当调整为运动+的状态下，所以俺坐电动车时"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "提车之后外观是给别人看的"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "这台车就是负责市内通勤使用为主的"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视内饰质感",
+      "重视乘坐舒适性",
+      "偏好环保无味的新车"
+    ]
+  },
+  "post_summary": "车主分享了小米SU7 Max的提车体验，认为虽然外观吸引人，但内饰设计和驾乘感受更为重要。作者详细评价了内饰材质、屏幕素质、空间尺寸及座椅舒适度，肯定了空气悬架带来的舒适性，但也指出了座椅支撑不足、缺乏按摩功能以及运动模式下易晕车等问题。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

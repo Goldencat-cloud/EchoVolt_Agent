@@ -1,0 +1,367 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d15d2ab4056e6009",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小鹏P7",
+      "entity_level": "车系",
+      "brand": "小鹏",
+      "series": "P7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "体验全新小鹏P7"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "我看的这个小鹏P7是在11号馆"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "像不像小米SU7的内饰"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小鹏G7",
+      "entity_level": "车系",
+      "brand": "小鹏",
+      "series": "G7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "跟他兄弟G7用的是同款AR-HUD"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "乐道L90",
+      "entity_level": "车系",
+      "brand": "乐道",
+      "series": "L90",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "乐道L90就是单腔"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为全新小鹏P7的外观设计非常帅气，符合其审美，特别是剪刀门设计很有吸引力，认为其颜值在未来5年内不会过时，体现了小鹏汽车的个性和新能源车应有的样子。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "这次新款P7颜值那是相当在线，我看很帅的，符合我的审美，尤其是那个剪刀门，哪个男生看了不迷糊"
+        },
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "起码这个颜值放在5年后我感觉都不会过时...这才是新能源车该有的样子"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者观察到新款小鹏P7的内饰设计与小米SU7相似，并评价其内饰营造感不错，包括动感方向盘、模式切换动画、随音乐变动的氛围灯以及座椅包裹性等方面提供了良好的情绪价值和舒适性。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "新款P7的内饰有没有似曾相识的感觉，我要是把车logo挡住，像不像小米SU7的内饰。内饰营造感很不错...座椅包裹性不错"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T9",
+                "source_type": "text",
+                "quote": "像不像小米SU7的内饰"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者评价新款小鹏P7的后排腿部空间够用，但头部空间一般，认为是轿跑车型的通病，需要在颜值和空间之间做出取舍。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "这车后排腿部空间够用了，就是头部空间一般，轿跑车通病，总要为了颜值牺牲点空间"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为新款小鹏P7起售价21.98万元，但配置丰富且诚意足，入门版即配备87寸大HUD、前四活塞卡钳、可调大屏幕、5C超充电池、800V碳化硅平台及双腔空悬等高端配置，因此表示如果想换车可以考虑购买一辆。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "新款P7起售价21.98万，但配置上是真不吝啬，挺有诚意的...我要是想换车可以考虑整一辆玩玩"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出新款小鹏P7入门版配备的87寸AR-HUD与小鹏G7同款，但P7增加了仪表盘，作者推测这可能是听取了之前G7车主关于HUD眩晕问题的反馈所做的改进，认为这对部分消费者更友好。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "入门配87寸的大HUD，这个跟他兄弟G7用的是同款AR-HUD，但是这次是有仪表盘，估计是听了之前G7的劝...毕竟会有一部分消费者因为HUD看着晕"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者对比了小鹏P7的双腔双阀门空气悬挂与乐道L90的单腔悬挂，认为两者存在区别，并推测乐道L90可能没有阀门，以此凸显P7在硬件配置上的优势。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "双腔双阀门和双腔单阀门是有区别的，我没记错的话，乐道L90就是单腔，有没有阀门还不一定"
+        }
+      ],
+      "confidence": 0.8
+    ,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T10",
+                "source_type": "text",
+                "quote": "双腔双阀门和双腔单阀门是有区别的...乐道L90就是单腔"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "2025成都车展",
+      "event_type": "展会与行业活动",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "【2025成都车展】"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今天在成都车展逛了一天"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "作者在2025年成都车展期间参观了多个展台，重点体验了全新小鹏P7，并分享了逛展感受和车辆细节。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T8",
+        "source_type": "text",
+        "quote": "我要是想换车可以考虑整一辆玩玩"
+      }
+    ],
+    "confidence": 0.8
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好高颜值/运动风格",
+      "重视配置性价比"
+    ]
+  },
+  "post_summary": "作者分享了在2025成都车展体验全新小鹏P7的感受。他高度赞扬了新P7的外观设计和丰富的入门配置（如大HUD、空悬等），认为其性价比高且符合其审美，甚至产生了换车购买的念头。同时，他也指出了后排头部空间一般的缺点，并将内饰设计与小米SU7进行了类比。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

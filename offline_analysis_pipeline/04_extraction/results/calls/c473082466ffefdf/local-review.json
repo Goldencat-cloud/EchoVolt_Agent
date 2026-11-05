@@ -1,0 +1,270 @@
+{
+  "post_id": "c473082466ffefdf",
+  "state": "CONTRACT_PASS",
+  "cache_key": "c575dae43ca7dab43c5096c8f8da67340a1214c18c02f2e26eb6f9ba459ba611",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "c473082466ffefdf",
+    "products": [
+      {
+        "id": "P1",
+        "name": "新款小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "新款小米SU7"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "新款小米SU7正式上市"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "老款小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "相比老款起售价21.59万元"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "老款SU7一个比较有争议的点"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "新款小米SU7于3月19日上市，官方指导价为21.99万-30.39万元，相比老款起售价21.59万元上涨了4000元。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "3月19日，新款小米SU7正式上市，官方指导价21.99-30.39万元，相比老款起售价21.59万元，只涨了4000元。"
+          }
+        ],
+        "confidence": 0.98,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为新款小米SU7通过全系标配激光雷达、800V级高压平台和9安全气囊，实现了“加量不加价”的升级，解决了老款高低配配置割裂的问题，使入门版具备接近顶配的核心体验。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "看似小幅调价，实则是一次“加量不加价”的硬核升级——全系标配激光雷达、800V级高压平台、9安全气囊，直接把老款中高配才有的核心配置，下放到入门版。"
+          },
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "只涨价4000元，就实现了全系激光雷达、全系800V高压平台、全系9安全气囊三大核心配置下放，直接抹平了老款高低配之间的差距，让21.99万的入门版也拥有了接近顶配的核心体验。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者指出新款小米SU7全系标配激光雷达，配合4D毫米波雷达等形成完整感知系统，提升了雨雾天、夜间及复杂路况下的识别能力和NOA表现，降低了驾驶疲劳。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "新款直接一步到位：全系标配激光雷达，再配上4D毫米波雷达、高清摄像头、超声波雷达，组成一套非常完整的感知系统。"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "对日常通勤、跑高速、长途自驾的人来说，智驾真的能大幅降低疲劳。"
+          }
+        ],
+        "confidence": 0.92,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者认为新款小米SU7全系迈入800V级高压平台，相比老款高低压混用，提升了充电速度和高速能耗表现，消除了低配用户为了快充必须购买高配的痛点。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "新款直接统一路线：全系迈入800V级高压时代。"
+          },
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "不用再为了快充去买高配，低配也能享受到高压平台的便利，这才是真正的实用升级。"
+          }
+        ],
+        "confidence": 0.92,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者评价新款小米SU7将安全气囊从7个增加到9个，新增后排侧气囊，并强化了车身用料和电池防护，提升了全家出行的安全性。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "新款SU7在安全上很实在，直接从7气囊升到9气囊，新增后排侧气囊，加上侧气帘、远端气囊，对车上每一个人都更负责。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "新款小米SU7上市",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "3月19日，新款小米SU7正式上市"
+          }
+        ],
+        "confidence": 0.98,
+        "summary": "新款小米SU7于3月19日正式上市，提供标准版、Pro版和Max版三种配置，价格区间为21.99万-30.39万元。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "文章深度解读新款小米SU7的上市信息，指出其在仅涨价4000元的情况下，通过全系标配激光雷达、800V高压平台和9安全气囊，实现了核心配置的下放和老款高低配差距的抹平。作者认为这一升级在智驾、补能和安全方面具有显著优势，体现了较高的性价比和技术普惠。",
+    "post_topic": "产品功能与技术",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C6/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 14510,
+    "completion_tokens": 2442,
+    "total_tokens": 16952,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 11776
+    }
+  },
+  "elapsed_s": 10.730397899998934,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,76 @@
+{
+  "implementation": {
+    "package_version": "0.2.0",
+    "python_version": "3.11.9",
+    "source_sha256": "bbce71d674d8964484fd0321ffc3e8546e1b14e270c6881469accea9f4d9bad0",
+    "runtime_dependencies": "stdlib-only"
+  },
+  "credential_file": false,
+  "target_count": 30,
+  "request_budget": 120,
+  "actual_requests": 115,
+  "within_budget": true,
+  "api_jobs": [],
+  "posts": {
+    "total": 30,
+    "published_at_parsed": 24,
+    "publication_parse_rate": 0.8,
+    "with_segments": 30,
+    "order_status": {
+      "ordered": 30
+    }
+  },
+  "users": {
+    "total": 26,
+    "with_home_fields": 24
+  },
+  "products": {
+    "specs": 9,
+    "parameters": 2619
+  },
+  "http_statuses": {
+    "200": 91,
+    "301": 24
+  },
+  "snapshot_credential_states": {
+    "absent": 1,
+    "provided": 114
+  },
+  "redirects_recorded": 24,
+  "redirect_targets": [
+    "https://i.autohome.com.cn/180668178",
+    "https://i.autohome.com.cn/18099928",
+    "https://i.autohome.com.cn/18230033",
+    "https://i.autohome.com.cn/215624190",
+    "https://i.autohome.com.cn/252862873",
+    "https://i.autohome.com.cn/252862896",
+    "https://i.autohome.com.cn/252863332",
+    "https://i.autohome.com.cn/252863336",
+    "https://i.autohome.com.cn/252863373",
+    "https://i.autohome.com.cn/252863377"
+  ],
+  "failure_codes": {
+    "author_card_counters_missing": 4,
+    "request_budget_exhausted": 1
+  },
+  "checkpoints": [],
+  "idempotent_duplicate_same_job": null,
+  "storage_checks": {
+    "ok": true,
+    "counts": {
+      "posts": 30,
+      "users": 26,
+      "product_specs": 9,
+      "product_parameters": 2619,
+      "source_snapshots": 115,
+      "collection_runs": 3,
+      "collection_failures": 5,
+      "collection_checkpoints": 0
+    }
+  },
+  "limitations": [
+    "Single forum page window per probe",
+    "max_attempts=1, no retry",
+    "Cookie values never persisted; only provided/absent state recorded"
+  ]
+}

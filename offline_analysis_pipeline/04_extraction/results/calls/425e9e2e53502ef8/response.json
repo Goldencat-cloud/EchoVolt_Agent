@@ -1,0 +1,306 @@
+{
+  "schema_version": "2.3",
+  "post_id": "425e9e2e53502ef8",
+  "products": [
+    {
+      "id": "P1",
+      "name": "混动车",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "买了台混动小汽车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "纯电车",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "换了纯电车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "长安UNI-V",
+      "entity_level": "具体配置",
+      "brand": "长安",
+      "series": "UNI-V",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "车尾左侧有“长安”品牌Logo，右侧贴有“UNI-V”字样的标识"
+        }
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为之前购买的混动车纯电续航不到100公里，无法满足需求，稍远距离行驶需启动发动机。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "纯电续航才100公里不到，根本不够用，稍微跑远点发动机就得启动"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为混动车在发动机启动时噪音和震动明显，不如纯电车安静顺滑。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "稍微跑远点发动机就得启动，噪音、震动立马就来了，哪还有电车的安静和顺滑？"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者抱怨混动车保养复杂，4S店频繁建议更换部件，费用比纯油车更高。",
+      "sentiment": "负面",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "混动车充电 更头疼的是保养——发动机和电机两套系统，4S店动不动就说这要查那要换，费用比纯油车还高。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为纯电车加速快、驾驶安静，使用体验省心。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "换成纯电之后才明白什么叫省心。加速快、驾驶安静"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在家中使用充电桩，晚上充电，白天满电出发。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "家里有充电桩，晚上插上，白天满电出发"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者表示纯电车每月电费约一百多元，相比加油节省大量费用。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "一个月电费一百出头，比加油省太多了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者认为纯电车高速充电体验尚可，半小时快充基本充满。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "高速充电也还行，半小时快充，上个厕所喝杯咖啡，基本就满了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在高速公路进行充电。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "高速充电也还行"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为混动技术是被营销包装的“伪解决方案”，仅是车企转型期产物，纯电才是未来。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "混动可能只是车企转型期的产物。真要用车体验，纯电才是未来。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "今年换了纯电车，开了半年"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好纯电驱动体验",
+      "重视用车经济性"
+    ]
+  },
+  "post_summary": "作者分享从混动车换到纯电车半年的体验，指出混动车续航短、噪音大、保养贵等缺点，对比纯电车在静谧性、经济性及充电便利性上的优势，进而质疑混动技术的必要性，认为其仅为车企转型期的营销产物。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

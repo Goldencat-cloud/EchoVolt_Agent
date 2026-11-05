@@ -1,0 +1,652 @@
+{
+  "schema_version": "2.3",
+  "post_id": "348b4faf94a898ed",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新一代小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新款小米SU7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "新一代SU7 标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "标准版21.99万"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "新一代SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "Pro版24.99万"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "新一代SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "Max版30.39万"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "老款小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比老款低4千"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "特斯拉Model 3",
+      "entity_level": "车系",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "比特斯拉Model 3销量还高"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者指出新款小米SU7共有三款配置，其中入门版价格比老款低4千元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "先说最关注的新款小米SU7价格，一共三款配置，入门比老款低4千。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者称标准版售价为21.99万元，比老款低4千元，且在5月5日前下定可享受多项免费权益，作者认为性价比很高。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "标准版21.99万，比老款价格还低4千，加上权益那是加量不加价...跟老款比太香了也。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者列举Pro版24.99万、Max版30.39万的价格，认为对比老款价格区间配置升级明显，容易吸引消费者。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "Pro版24.99万，Max版30.39万，这个价格对比老款21.59-29.99万比很香啊...很难让米粉们不心动啊。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "外观与内饰",
+      "content": "作者提到新车提供9款外观色（3款免费）和4款内饰色，相比老款新增了蓝、红、绿三种外观色。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "一共9款外观色，3款免费色，相比老款新增蓝色、红色、绿色。内饰配色共4款选择..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "外观与内饰",
+      "content": "作者认为提供6款轮毂选择比较少见，并特别称赞21寸花瓣锻造轮毂颜值不错。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "有6款轮毂样式选择，很少有车企发布这么多新车轮毂的，我看21寸的花瓣锻造轮毂颜值不错。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者评价科技舒享套装价格划算，性价比高。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "这个科技舒享套装很香啊，价格很划算。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者观察到多位竞争对手车企高管出席发布会，认为这种场面少见，并称赞雷军人际关系好。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "小米发布会现场竟然邀请了好几位车企行业大佬齐聚...这也就小米发布会能看到这个场面，雷总的人缘是真好"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者称小米SU7在上市2年多时间内拿下2025年20万以上轿车销量冠军，销量高于特斯拉Model 3，认为其产品力和流量优势使其不愁卖。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "小米SU7上市2年多时间内，就拿下的25年20万以上的轿车销量冠军，比特斯拉Model 3销量还高...注定产品不愁卖。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P6"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P6",
+            "aspect": "品牌与口碑",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T8",
+                "source_type": "text",
+                "quote": "比特斯拉Model 3销量还高"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "配置与功能",
+      "content": "作者列举新款SU7新增的运动座椅调节、主动侧翼支撑、更多收纳位、压缩机冰箱及全系标配9气囊等配置，认为相比老款入门配置有明显提升。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "新增18调节项运动座椅...全写标配9个气囊...这跟老款入门配置爽多了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "续航与能耗",
+      "content": "作者指出SU7 Pro纯电续航达902km，比老款提升近100km，且续航长度超过Model 3后驱长续航版。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "SU7 Pro纯电续航达到了902km，跟老款提升了近100km...比Model 3后驱长续航还要长"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P6"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P6",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T8",
+                "source_type": "text",
+                "quote": "比Model 3后驱长续航还要长"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "配置与功能",
+      "content": "作者认为新款SU7全系标配V6s Plus电机、长续航、激光雷达等高阶配置，体现了厂家的诚意。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "这几项都是全系标配，诚意确实足。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "驾驶与操控",
+      "content": "作者介绍新款SU7采用小米蛟龙底盘，配备前双叉臂后五连杆结构、空气悬挂及多种智能底盘功能，认为其能胜任城市和常规赛道路况。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "看完了才知道...用了小米蛟龙底盘...总之就是很牛的样子。对于路况来说，完全可以胜任城市路况和常规赛道。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C13",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "智能驾驶",
+      "content": "作者解读全系标配HAD及XLA认知大模型意味着具备辅助驾驶前提及自主控制生态，认为这是目前行业先进的配置。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "全系标配HAD还有XLA认知大模型...算是目前行业很先进的技术配置了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C14",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "作者认为新款SU7在主被动安全、辅助驾驶及电池安全等方面均有提升，并认可发布会上对此的讲解。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "新款SU7从主安全到被动安全，再到辅助驾驶、电池安全等都有提升了。这一点在发布会雷总讲的很是透彻。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C15",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者提示下定规则为支付5000元定金，3天内未锁单可退，锁单后可限时改配置但不能改版本，并预测该车将成为爆款。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T14",
+          "source_type": "text",
+          "quote": "今晚21:30 支付5.000元定金...我推测这车又是爆款"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米新一代SU7发布会",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "来看今晚小米发布会都提到了哪些干货"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米举办发布会，公布新一代SU7系列车型的价格、配置及权益信息。"
+    },
+    {
+      "id": "E2",
+      "name": "多家车企高管出席小米发布会",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "小米发布会现场竟然邀请了好几位车企行业大佬齐聚"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "比亚迪、理想、蔚来等多家车企负责人现身小米SU7发布会现场。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "博主壮壮同学详细解读了小米新一代SU7发布会内容，涵盖价格策略、配置升级、底盘技术及安全性能。作者认为新车在保持竞争力的同时增加了大量标配权益，性价比极高，并预测其将继续取得高销量。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

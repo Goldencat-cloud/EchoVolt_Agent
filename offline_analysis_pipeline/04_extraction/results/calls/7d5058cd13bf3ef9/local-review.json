@@ -1,0 +1,544 @@
+{
+  "post_id": "7d5058cd13bf3ef9",
+  "state": "FAILED",
+  "cache_key": "08166f2cb7db5ab239fe8b97176e91d8dc19831047a2838bf7732c6c091243a3",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "7d5058cd13bf3ef9",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "先说第一款产品也就是su7"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "su7max每次开都很累"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米SU7 Ultra",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "最后简单讲一下ultra"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "小米YU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "YU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "yu7当我第一次看见的时候就被迷到了"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P5",
+        "name": "小米YU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "YU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "我定的是max版本"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P6",
+        "name": "小米SU7L",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7L",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "目前比较透明的就是su7L"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7的中低配与高配在驾驶体验上差异巨大，中低配缺乏运动基因，而高配的底盘调校可与同价位双电机顶配车型媲美。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "中低配和高配完完全全两个车...高配无论是调教和最终呈现的底盘感受，是可以和同价位区间其他品牌的双电机顶配对比不落下风的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者指出SU7 Max在城市激烈驾驶下的电耗接近40kWh/100km，认为能耗表现取决于驾驶方式。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "后驱版我在城市激烈驾驶也能到将近四十的电耗"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在城市进行激烈驾驶。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "我在城市激烈驾驶"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为SU7的辅助驾驶表现较差，在市区使用端到端功能时频繁违章，仅建议在高速勉强使用，整体水平处于行业二三梯队。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "我在市区用端到端挑战不接管，五六公里违章三次...智驾水平属于行业二三梯队"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "作者在市区使用端到端辅助驾驶，行驶约五六公里。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "我在市区用端到端挑战不接管，五六公里违章三次"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为SU7的内饰设计过于落后，无论是与YU7对比还是与其他品牌相比都存在差距，因此不建议购买即将换代的SU7。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "su7内饰太落后了不管是和yu7对比还是和其他品牌，所以不建议买因为要换代了"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者评价SU7 Ultra外观和内饰极具战斗感，碳纤维和翻毛皮质感优秀，三电机动力强劲，适合赛道玩家或作为大玩具，普通驾驶需求Max已足够。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "非常非常战斗...三电机所带来的动力不能用够用来形容...正常喜欢驾驶，对操控有需求max的表现足够"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P4",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者表示YU7的外观设计和全新内饰打动了他，使其在上市前就产生了强烈的购买意向并最终下单。",
+        "sentiment": "正面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "见到后没话了，呆住了...确实是被外观打动了再加上全新的内饰设计，当然在下定之后正常开启了每个人都一样的漫长等待"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P4",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为YU7虽然外观运动，但实际底盘偏舒适，不符合其对硬邦邦操控的需求，感到失望，但承认其适合大众市场。",
+        "sentiment": "负面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "我发现yu7是一台有着运动外观实际上内在很舒服的一台车，非常失望...我不喜欢这种感觉，喜欢硬邦邦的底盘"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者通过日常试驾和长期使用体验车辆。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "随着时间每天带试驾去开去试"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P4",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为YU7的辅助驾驶水平优于SU7，但仍未达到第一梯队，建议仅在高速路段使用。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "yu7的辅助驾驶吧，比su7强，但还是到不了第一梯队，按我自己的体验yu7的辅助驾驶建议你们只在高速使用"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P4",
+            "P1"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P4",
+              "object_product_id": "P1",
+              "aspect": "智能驾驶",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "yu7的辅助驾驶吧，比su7强"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P4",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者提醒用户YU7橙色内饰夜间依赖氛围灯效果不佳，且Max版本的碳纤维方向盘在夏季反光严重，影响体验。",
+        "sentiment": "负面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "橙色内饰白天好看，但是夜晚很吃氛围灯不建议选，max千万不要选碳纤维方向盘，夏天反光太刺眼了"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在夏季使用碳纤维方向盘，以及在夜间使用橙色内饰。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "max千万不要选碳纤维方向盘，夏天反光太刺眼了"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者建议喜欢SU7轿车的用户暂缓购买，因为SU7即将换代，且小米正转向现车模式，未来可能有更多新车发布。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "喜欢su7轿车的暂时一定先别买了，之后就是明年要出增程的车型"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C11",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P5",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者表示虽然已订购YU7 Max，但由于其舒适取向与自己追求的驾控感存在距离，可能会影响最终的提车决定。",
+        "sentiment": "正负混合",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "觉得yu7和我理想中的感觉还是有点距离可能会左右最终的想法"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "已订未提",
+      "current_journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "我定的是max版本"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "当然后面确实是下定了"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "偏好运动操控",
+        "喜欢硬邦邦的底盘",
+        "重视驾驶乐趣"
+      ]
+    },
+    "post_summary": "作者作为前小米汽车销售及车主，详细分享了SU7和YU7的驾驶体验。他认为SU7高配操控优秀但内饰过时，YU7外观惊艳但底盘偏舒适不符合其运动需求。尽管已订购YU7 Max，但因驾控感不符预期，作者表示可能会重新考虑，并建议潜在买家关注即将发布的换代车型。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C6/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C3/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12961,
+    "completion_tokens": 4555,
+    "total_tokens": 17516,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 28.582526600002893,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

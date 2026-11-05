@@ -1,0 +1,32 @@
+{
+ "scenario": "detail",
+ "question": "SU7 充电补能体验的负面反馈集中在哪些议题？请给出 3 条原文佐证。",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "b101a551b4cb400688f0e798eec4c4f3",
+  "status": "running",
+  "status_url": "/api/agent/report/b101a551b4cb400688f0e798eec4c4f3",
+  "request_id": "f6fb73706915"
+ },
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "failed",
+   "phase": "失败"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": null,
+ "regenerate_used": 0,
+ "job_id": "b101a551b4cb400688f0e798eec4c4f3",
+ "final_status": "failed",
+ "result": null,
+ "error": {
+  "error": "RuntimeError: No module named 'langchain_openai'；最近工具调用：[]"
+ },
+ "job": {
+  "status": "failed",
+  "phase": "失败"
+ },
+ "wall_s": 3.1
+}

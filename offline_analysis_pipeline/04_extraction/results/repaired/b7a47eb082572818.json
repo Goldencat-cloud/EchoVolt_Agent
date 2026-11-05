@@ -1,0 +1,545 @@
+{
+  "schema_version": "2.3",
+  "post_id": "b7a47eb082572818",
+  "products": [
+    {
+      "id": "P1",
+      "name": "方程豹S GT",
+      "entity_level": "具体配置",
+      "brand": "方程豹",
+      "series": "S",
+      "model_year": null,
+      "version": "GT",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "便宜两万块，方程豹S GT真能撬动小米SU7？"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "便宜两万块，方程豹S GT真能撬动小米SU7？"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "方程豹S",
+      "entity_level": "车系",
+      "brand": "方程豹",
+      "series": "S",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预售23到28万，方程豹S设了高低功率后驱加四驱三个配置"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近半年销量数据摆在那，小米SU7和YU7的曲线都值得警惕。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "启境GT7",
+      "entity_level": "车系",
+      "brand": "启境",
+      "series": "GT7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同价位还有启境GT7这些对手"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "特斯拉Model 3",
+      "entity_level": "车系",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "连特斯拉Model 3都开始促销"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "比亚迪汉EV",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "汉EV",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "参考汉EV 705km闪充尊荣型CLTC 705km"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P8",
+      "name": "比亚迪汉L EV",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "汉L EV",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "汉L EV 601四驱版才601km"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P9",
+      "name": "小米N90",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "N90",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "N90和N70要是能热卖"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P10",
+      "name": "小米N70",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "N70",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "N90和N70要是能热卖"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为方程豹S GT预售价比小米SU7便宜约2万元，这一价格策略使其成为小米SU7的有力竞争者，但能否凭借此优势赢得市场尚存疑问。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "便宜两万块，方程豹S GT真能撬动小米SU7？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这价格一出来，明眼人都看得出来，冲着小米SU7去的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T0",
+                "source_type": "text",
+                "quote": "便宜两万块"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出方程豹S GT车身长度比小米SU7长28mm，但轴距短40mm，车高更高。虽然空间高度可能略占优，但40mm的轴距差距会影响后排膝部空间，需实车对比确认空间是否缩水。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "方程豹S GT车长比SU7多28mm，轴距短40mm，车高更高，车内空间高度可能略占优...但40mm膝部空间不是小数目，后排常坐人的得实车对比。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "空间与舒适性",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "方程豹S GT车长比SU7多28mm，轴距短40mm，车高更高"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为方程豹S GT若想吸引小米SU7的目标客群，纯电续航必须达到800km以上。作者参考比亚迪汉EV和汉L EV的续航及销量情况，推测S GT目前的续航可能不足，且消费者更关注实际续航而非单纯的快充速度。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "所以S GT想把目标客群拉过来，纯电续航必须往800km以上冲。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "大概率就是纯电续航不够长。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者指出方程豹S GT的后轮规格为245/45R19，而小米SU7的后轮规格为265/45R19。作者认为S GT后轮较窄，行驶性能硬件配置不如SU7齐全，若不选装更宽轮胎，难以在运动性能上与SU7抗衡。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "但S GT前轮245/45R19跟SU7一致，后轮还是245/45R19，SU7后轮265/45R19。后轮窄了，行驶性能硬件没码齐..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "驾驶与操控",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T3",
+                "source_type": "text",
+                "quote": "后轮窄了，行驶性能硬件没码齐"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者对比了两者的补能方案：小米SU7使用宁德时代三元锂电池，10%-80%补能需12分钟；方程豹S GT预计使用第二代刀片电池，宣称5分钟充好9分钟充饱。作者认为S GT补能速度可能占优，但三元锂低温性能更好，且实际体验取决于充电桩功率。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "SU7用宁德时代三元锂...10%到80%补能12分钟。S GT应该上第二代刀片电池，5分钟充好9分钟充饱，补能速度可能稍占优。但三元锂低温性能通常更好...补能快是优势，但实际体验看桩"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "充电与补能",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "补能速度可能稍占优。但三元锂低温性能通常更好"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为方程豹S GT的掀背尾门设计在装载便利性上优于小米SU7，尤其是GT版优势更明显。但在情绪价值和品牌吸引力方面，作者认为小米SU7更具优势，方程豹S GT难以提供同等程度的情绪价值。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "S GT未必能提供SU7那种无可替代的情绪价值...S搭载掀背尾门，装载便利比SU7稍占优，GT版优势更明显。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "S搭载掀背尾门，装载便利比SU7稍占优"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "品牌与口碑",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "S GT未必能提供SU7那种无可替代的情绪价值"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者观察到近期小米SU7和YU7的销量曲线值得警惕，认为随着竞争对手增多和价格战加剧，仅靠情怀和生态难以维持市场竞争力，可能需要依靠新产品（如澎程系列）来支撑市场地位。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近半年销量数据摆在那，小米SU7和YU7的曲线都值得警惕。...但SU7这边，对手越来越多，价格战越打越凶，光靠情怀和生态，未必扛得住。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子深入分析了方程豹S GT与小米SU7的竞争关系。作者指出S GT虽在价格、补能速度和装载便利性上有一定优势，但在轴距、后轮规格、续航能力及品牌情绪价值等方面存在短板。文章探讨了S GT能否凭借低价和后发优势撼动SU7的市场地位，并对小米面临的竞争压力进行了评估。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

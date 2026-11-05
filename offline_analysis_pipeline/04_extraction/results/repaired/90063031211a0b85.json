@@ -1,0 +1,168 @@
+{
+  "schema_version": "2.3",
+  "post_id": "90063031211a0b85",
+  "products": [
+    {
+      "id": "P1",
+      "name": "2026款SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2026款SU7标准版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者在小米4S店进行首次保养，流程透明，可通过手机查看进度，沟通顺畅且无强制消费。",
+      "sentiment": "正面",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车间透明，进度手机可看，沟通顺畅无强制消费"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在小米4S店进行车辆保养",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "打卡小米4S店保养"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者本次自费保养花费1342元，项目包括更换空调滤芯和冷却液。",
+      "sentiment": "中性",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "本次自费保养花了1342元，更换空调滤芯，冷却液"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "服务项总价”为¥1,342.00，“用户自费”金额也为¥1,342.00"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "在小米4S店进行车辆保养",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "打卡小米4S店保养"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者认为保养后整车状态稳定，日常用车养车压力不大，心里更踏实。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "保养后整车状态稳定，电车养车压力不大，日常用车心里更踏实了"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "保养后的日常用车感受",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "保养后整车状态稳定"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米su7第一次保养"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "按照里程预约维保"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享2026款小米SU7标准版的首次保养经历，记录了1342元的自费保养项目及透明的服务流程，表达了对车辆稳定性和养车成本的满意。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

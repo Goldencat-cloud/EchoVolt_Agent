@@ -1,0 +1,213 @@
+{
+  "post_id": "79094f1818f495a6",
+  "state": "CONTRACT_PASS",
+  "cache_key": "06825017a4a23fb69c35f9a88f3d6a82043a2a297da8b3602aa2baf7d984bdfc",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "79094f1818f495a6",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "旁边果然还有小字SU7 max"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "红旗HS5",
+        "entity_level": "具体配置",
+        "brand": "红旗",
+        "series": "HS5",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一辆红旗HS5"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者观察到路边一辆小米SU7 Max车身颜色一般，认为不如蓝色、绿色和红色好看，但也可能是车辆长时间未清洗所致。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "感觉实车一个颜色一般（也可能是长时间没洗的原因），没有蓝色、绿色和红色的好看"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7 Max的底盘高度与普通轿车差不多，甚至高于作者之前的车辆，正常行驶时不会担心刮蹭底盘。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "底盘还是足够的...今天一看，跟普通的轿车差不多，比我之前的车子的底盘都高多了。正常行驶毫无压力"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在上班途中道路上观察车辆行驶状态。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "今天早上上班，看到了两辆有意思的车"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者表达了对小米SU7的喜爱，并计划在将来经济条件允许时购买一辆来体验。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "啥时候有钱了也搞辆su7崩一下"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者推测车主未在车尾悬挂小米标志是因为定制了带有雷军特色标语“ARE YOU OK”的装饰，以增加回头率。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "至于为什么后面不挂小米的标，估计是定制的...搞个有雷总特色的标，在路上也能赚些回头率"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "啥时候有钱了也搞辆su7崩一下"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "喜欢小米SU7"
+      ]
+    },
+    "post_summary": "作者分享了在上班路上偶遇一辆贴有“ARE YOU OK”标语的小米SU7 Max的经历。作者评价该车底盘高度适中，消除了对轿跑易刮底的顾虑，虽然觉得实车颜色一般，但仍表达了未来购买该车型的强烈意向。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C2/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10301,
+    "completion_tokens": 1658,
+    "total_tokens": 11959,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 7.627324600005522,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

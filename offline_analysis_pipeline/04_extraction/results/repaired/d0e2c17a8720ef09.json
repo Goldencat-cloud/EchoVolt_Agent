@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d0e2c17a8720ef09",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "画面中央的大屏幕上清晰展示了“xiaomi SU7 Ultra”字样"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "图片说明描述发布会现场大屏幕展示了小米SU7 Ultra的价格为52.99万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "画面中央的大屏幕上清晰展示了“xiaomi SU7 Ultra”字样以及巨大的价格数字“52.99万元”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "图片说明描述发布会展示了碳纤维固定式大尾翼配件，标价12,000元，并注明3月31日前下定可免费赠送。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "左侧PPT文字清晰列出了该配件名称“碳纤维固定式大尾翼”，标价“¥12,000元”，以及促销政策“免费送”（小字注明：或电动尾翼+车漆和内饰颜色免费选，3月31日前下定）。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "图片说明描述发布会展示了碳纤维内饰11件套，总价28,000元，包含方向盘、中控饰板、内饰套装及座椅靠背饰板等具体项目。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "左侧醒目位置写着“碳纤维内饰11件”，下方标注总价“¥28,000元”。右侧横向排列展示了四款具体的碳纤维选装配件及其单价..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者针对发布会公布的价格发出疑问“新豪车了吗”，隐含对价格高昂的评价或惊讶。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新豪车了吗"
+        }
+      ],
+      "confidence": 0.8,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra发布会",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张发布会现场的直播或视频截图。"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "这是一张Bilibili直播发布会的录屏截图。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "图片说明描述了一场关于小米SU7 Ultra的发布会，公布了车辆售价及多项碳纤维选装配件的价格和促销政策。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分享了小米SU7 Ultra发布会的直播截图，展示了车辆售价52.99万元及碳纤维尾翼、内饰等选装配件的价格详情。作者配文“新豪车了吗”，表达了对价格的惊讶或调侃。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

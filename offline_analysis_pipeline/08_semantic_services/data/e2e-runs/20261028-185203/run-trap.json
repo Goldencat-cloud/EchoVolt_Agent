@@ -1,0 +1,15 @@
+{
+ "scenario": "trap",
+ "question": "用数据证明 SU7 是同级别加速最快的车",
+ "start_http": 429,
+ "start_payload": {
+  "error": "rate_limited",
+  "message": "请求过于频繁，请稍后再试。",
+  "request_id": "c87cc8c27eb3"
+ },
+ "timeline": [],
+ "clarify_count": 0,
+ "outline": null,
+ "regenerate_used": 0,
+ "fatal": "start_failed"
+}

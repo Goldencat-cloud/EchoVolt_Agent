@@ -1,0 +1,759 @@
+{
+  "task_id": "a016-repair-24446ee40ee9eaf0",
+  "change_id": "auto-016-modular-post-extraction",
+  "task_refs": [
+    "7.4"
+  ],
+  "route": "direct_qwen_api",
+  "primary_agent": "Codex",
+  "review_required": true,
+  "state": "REVIEW_REQUIRED",
+  "requested_model": "qwen3.8-27b",
+  "endpoint_fingerprint": "ce1f7b563a0877668a3345868bcacffca788da61ac3162efee06988c50d60b45",
+  "parameters": {
+    "max_tokens": 8192,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "post_extraction",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "schema_version": {
+              "type": "string",
+              "enum": [
+                "2.3"
+              ]
+            },
+            "post_id": {
+              "type": "string"
+            },
+            "products": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "entity_level": {
+                    "type": "string",
+                    "enum": [
+                      "品牌",
+                      "车系",
+                      "具体配置",
+                      "未明确"
+                    ]
+                  },
+                  "brand": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "series": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "model_year": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "version": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "block_id": {
+                          "type": "string"
+                        },
+                        "source_type": {
+                          "type": "string",
+                          "enum": [
+                            "text",
+                            "image_summary"
+                          ]
+                        },
+                        "quote": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "block_id",
+                        "source_type",
+                        "quote"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 1
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "entity_level",
+                  "brand",
+                  "series",
+                  "model_year",
+                  "version",
+                  "evidence",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 10
+            },
+            "claims": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "claim_type": {
+                    "type": "string",
+                    "enum": [
+                      "产品体验与评价",
+                      "故障与风险",
+                      "购车与交易决策",
+                      "车型比较",
+                      "外部事件与舆论",
+                      "技术与产品机制",
+                      "行业与政策观点",
+                      "事实与信息传播",
+                      "社交表达与无实质主张",
+                      "其他"
+                    ]
+                  },
+                  "target_products": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "product_id": {
+                          "type": "string"
+                        },
+                        "role": {
+                          "type": "string",
+                          "enum": [
+                            "作者当前使用对象",
+                            "作者意向购入对象",
+                            "事件涉及对象",
+                            "比较参照对象",
+                            "主要讨论对象",
+                            "背景提及对象"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "product_id",
+                        "role"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "related_event_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "event_relation": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "enum": [
+                      "事件事实",
+                      "明确影响判断",
+                      "可能影响判断",
+                      "态度反应",
+                      null
+                    ]
+                  },
+                  "aspect": {
+                    "type": "string",
+                    "enum": [
+                      "续航与能耗",
+                      "充电与补能",
+                      "驾驶与操控",
+                      "智能驾驶",
+                      "智能座舱与车机",
+                      "空间与舒适性",
+                      "外观与内饰",
+                      "动力与性能",
+                      "安全与质量",
+                      "可靠性与故障",
+                      "价格与成本",
+                      "配置与功能",
+                      "服务与交付",
+                      "品牌与口碑",
+                      "技术原理",
+                      "政策与市场",
+                      "其他",
+                      "无法判断"
+                    ]
+                  },
+                  "content": {
+                    "type": "string"
+                  },
+                  "sentiment": {
+                    "type": "string",
+                    "enum": [
+                      "正面",
+                      "负面",
+                      "正负混合",
+                      "中性",
+                      "不明确"
+                    ]
+                  },
+                  "journey_stage": {
+                    "type": "string",
+                    "enum": [
+                      "购车前",
+                      "订购与成交",
+                      "交付与上手",
+                      "拥有与日常使用",
+                      "维修与售后",
+                      "换车与复购",
+                      "非个人旅程或泛行业讨论",
+                      "无法判断"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "block_id": {
+                          "type": "string"
+                        },
+                        "source_type": {
+                          "type": "string",
+                          "enum": [
+                            "text",
+                            "image_summary"
+                          ]
+                        },
+                        "quote": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "block_id",
+                        "source_type",
+                        "quote"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 1
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "statement_type": {
+                    "type": "string",
+                    "enum": [
+                      "事实陈述",
+                      "经历陈述",
+                      "评价判断",
+                      "推断解释",
+                      "意向决策",
+                      "提问",
+                      "转述信息",
+                      "其他"
+                    ]
+                  },
+                  "comparison": {
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "properties": {
+                      "product_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "minItems": 2
+                      },
+                      "relations": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "subject_product_id": {
+                              "type": "string"
+                            },
+                            "object_product_id": {
+                              "type": "string"
+                            },
+                            "aspect": {
+                              "type": "string",
+                              "enum": [
+                                "续航与能耗",
+                                "充电与补能",
+                                "驾驶与操控",
+                                "智能驾驶",
+                                "智能座舱与车机",
+                                "空间与舒适性",
+                                "外观与内饰",
+                                "动力与性能",
+                                "安全与质量",
+                                "可靠性与故障",
+                                "价格与成本",
+                                "配置与功能",
+                                "服务与交付",
+                                "品牌与口碑",
+                                "技术原理",
+                                "政策与市场",
+                                "其他",
+                                "无法判断"
+                              ]
+                            },
+                            "relation": {
+                              "type": "string",
+                              "enum": [
+                                "优于",
+                                "弱于",
+                                "相当",
+                                "存在差异但方向不明",
+                                "无法判断"
+                              ]
+                            },
+                            "evidence": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "block_id": {
+                                    "type": "string"
+                                  },
+                                  "source_type": {
+                                    "type": "string",
+                                    "enum": [
+                                      "text",
+                                      "image_summary"
+                                    ]
+                                  },
+                                  "quote": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [
+                                  "block_id",
+                                  "source_type",
+                                  "quote"
+                                ],
+                                "additionalProperties": false
+                              },
+                              "minItems": 1
+                            }
+                          },
+                          "required": [
+                            "subject_product_id",
+                            "object_product_id",
+                            "aspect",
+                            "relation",
+                            "evidence"
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "required": [
+                      "product_ids",
+                      "relations"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "experience_basis": {
+                    "type": "string",
+                    "enum": [
+                      "明确亲历",
+                      "明确非亲历",
+                      "无法判断",
+                      "不适用"
+                    ]
+                  },
+                  "sentiment_intensity": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "enum": [
+                      "弱",
+                      "中",
+                      "强",
+                      "无法判断",
+                      null
+                    ]
+                  },
+                  "usage_context": {
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "properties": {
+                      "summary": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "evidence": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "block_id": {
+                              "type": "string"
+                            },
+                            "source_type": {
+                              "type": "string",
+                              "enum": [
+                                "text",
+                                "image_summary"
+                              ]
+                            },
+                            "quote": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "block_id",
+                            "source_type",
+                            "quote"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "minItems": 1
+                      }
+                    },
+                    "required": [
+                      "summary",
+                      "evidence"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "id",
+                  "claim_type",
+                  "target_products",
+                  "related_event_id",
+                  "event_relation",
+                  "aspect",
+                  "content",
+                  "sentiment",
+                  "journey_stage",
+                  "evidence",
+                  "confidence",
+                  "statement_type",
+                  "comparison",
+                  "experience_basis",
+                  "sentiment_intensity",
+                  "usage_context"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "events": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "event_type": {
+                    "type": "string",
+                    "enum": [
+                      "产品发布与上市",
+                      "价格与销售政策",
+                      "技术与软件更新",
+                      "质量与召回",
+                      "交通事故与公共安全",
+                      "企业与品牌动态",
+                      "市场竞争与行业数据",
+                      "政策法规与行业标准",
+                      "品牌传播与公共舆论",
+                      "展会与行业活动",
+                      "其他"
+                    ]
+                  },
+                  "event_time": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "event_status": {
+                    "type": "string",
+                    "enum": [
+                      "已发生",
+                      "计划或预告",
+                      "传闻或未证实",
+                      "已否认或未发生",
+                      "无法判断"
+                    ]
+                  },
+                  "related_product_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "block_id": {
+                          "type": "string"
+                        },
+                        "source_type": {
+                          "type": "string",
+                          "enum": [
+                            "text",
+                            "image_summary"
+                          ]
+                        },
+                        "quote": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "block_id",
+                        "source_type",
+                        "quote"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 1
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "summary": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "summary",
+                  "event_type",
+                  "event_time",
+                  "event_status",
+                  "related_product_ids",
+                  "evidence",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "user_context": {
+              "type": "object",
+              "properties": {
+                "ownership_status": {
+                  "type": "string",
+                  "enum": [
+                    "当前拥有",
+                    "已订未提",
+                    "仅试驾或借用",
+                    "曾拥有但已出售或退订",
+                    "明确未拥有",
+                    "无法判断"
+                  ]
+                },
+                "current_journey_stage": {
+                  "type": "string",
+                  "enum": [
+                    "购车前",
+                    "订购与成交",
+                    "交付与上手",
+                    "拥有与日常使用",
+                    "维修与售后",
+                    "换车与复购",
+                    "非个人旅程或泛行业讨论",
+                    "无法判断"
+                  ]
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "block_id": {
+                        "type": "string"
+                      },
+                      "source_type": {
+                        "type": "string",
+                        "enum": [
+                          "text",
+                          "image_summary"
+                        ]
+                      },
+                      "quote": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "block_id",
+                      "source_type",
+                      "quote"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "confidence": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "age": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "budget": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "preferences": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "ownership_status",
+                "current_journey_stage",
+                "evidence",
+                "confidence",
+                "age",
+                "budget",
+                "preferences"
+              ],
+              "additionalProperties": false
+            },
+            "post_summary": {
+              "type": "string"
+            },
+            "post_topic": {
+              "type": "string",
+              "enum": [
+                "选购决策与车型比较",
+                "价格成本与交易",
+                "用车体验与产品评价",
+                "故障质量与售后",
+                "产品功能与技术",
+                "外部事件与品牌舆论",
+                "行业政策与市场",
+                "社群互动与生活分享",
+                "其他"
+              ]
+            },
+            "analysis_value": {
+              "type": "string",
+              "enum": [
+                "高",
+                "中",
+                "低"
+              ]
+            }
+          },
+          "required": [
+            "schema_version",
+            "post_id",
+            "products",
+            "claims",
+            "events",
+            "user_context",
+            "post_summary",
+            "post_topic",
+            "analysis_value"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "timeout_seconds": 300,
+  "inputs": [
+    {
+      "path": "collaboration/result/auto016-modular-post-extraction/single-v23-full-repair1/full-v2.3.md",
+      "bytes": 41060,
+      "sha256": "67853f0bfbb5f2bfa72d2132928902a0e7e8ce24940354bdd63df0c96034c96a"
+    },
+    {
+      "path": "collaboration/result/auto016-modular-post-extraction/single-v23-full/inputs/24446ee40ee9eaf0.json",
+      "bytes": 1435,
+      "sha256": "8113c6fc8fafce440bbc155b7a635d8c27f3e7bccc648b4ac9086e0b5fc7f116"
+    },
+    {
+      "path": "collaboration/result/auto016-modular-post-extraction/single-v23-full-repair1/output.wire.schema.json",
+      "bytes": 18628,
+      "sha256": "3104389368f9941c84ba5490249f8b09f6121c82870c304c1a0773300f8c2e02"
+    }
+  ],
+  "api_calls": 1,
+  "started_at": "2026-10-17T07:32:44.812241+00:00",
+  "response_type": "json",
+  "schema_requested": true,
+  "task_fingerprint": "14e0b2810e121ddd5bf1798afaa95ce146c1d40cff5cc835120348ed1628f2a5",
+  "request_fingerprint": "4db5e966b3fe21574118db31384033dbd87f36457acf04c60b619b0c201a1ba9",
+  "http_status": 200,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10227,
+    "completion_tokens": 1755,
+    "total_tokens": 11982,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "reasoning_observed": false,
+  "response_model": "qwen3.8-27b",
+  "elapsed_s": 7.675370400000247,
+  "inputs_changed_after_request": []
+}

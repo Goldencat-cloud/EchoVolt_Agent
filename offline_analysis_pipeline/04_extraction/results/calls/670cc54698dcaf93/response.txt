@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.3",
+  "post_id": "670cc54698dcaf93",
+  "products": [
+    {
+      "id": "P1",
+      "name": "Xiaomi SU7 标准版",
+      "entity_level": "具体配置",
+      "brand": "Xiaomi",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "背景大屏幕上清晰展示了“Xiaomi SU7 标准版”字样"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者认为该车型的价格很亲民。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "价格很亲民"
+        }
+      ],
+      "confidence": 0.9
+    ,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "不适用",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "Xiaomi SU7 标准版发布会公布价格",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张发布会现场照片...巨大的价格数字“21.59万元”"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "图片说明描述了一场发布会现场，屏幕展示了Xiaomi SU7 标准版及21.59万元的价格。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子包含一张发布会现场图片，显示Xiaomi SU7 标准版价格为21.59万元，作者评论称价格很亲民。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

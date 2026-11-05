@@ -1,0 +1,74 @@
+{
+  "id": "case-03",
+  "source": "synthetic",
+  "note": "方法行含 claim_id",
+  "input": {
+    "question": "空间与舒适性有哪些负向体验？",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "method",
+      "aspect": "空间与舒适性",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "空间与舒适性",
+            "negative_share": 0.31,
+            "negative": 13,
+            "total_claims": 52,
+            "claim_id": "c-1001",
+            "url": "https://example.invalid/c-1001"
+          }
+        ]
+      }
+    }
+  ],
+  "final_text": "空间与舒适性负面占比 31%，例如后排坐垫偏短[c-1001]。",
+  "expected": {
+    "answer": "空间与舒适性负面占比 31%，例如后排坐垫偏短。",
+    "stats": [
+      {
+        "aspect": "空间与舒适性",
+        "negative_share": 0.31,
+        "negative": 13,
+        "total_claims": 52,
+        "claim_id": "c-1001",
+        "url": "https://example.invalid/c-1001",
+        "negativeShare": 0.31,
+        "negative_claims": 13
+      }
+    ],
+    "evidence": [
+      {
+        "aspect": "空间与舒适性",
+        "negative_share": 0.31,
+        "negative": 13,
+        "total_claims": 52,
+        "claim_id": "c-1001",
+        "url": "https://example.invalid/c-1001",
+        "negativeShare": 0.31,
+        "negative_claims": 13
+      }
+    ],
+    "applied_filters": {
+      "aspects": [
+        "空间与舒适性"
+      ]
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 1
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "schema_version": "2.3",
+  "post_id": "b8226a788609c430",
+  "products": [
+    {
+      "id": "P1",
+      "name": "海鸥",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "海鸥",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "所谓的海鸥"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "宋PLUS新能源",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "宋PLUS新能源",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "宋PLUS新能源"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "宝马i5",
+      "entity_level": "车系",
+      "brand": "宝马",
+      "series": "i5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "宝马i5"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "小鹏MONA M03",
+      "entity_level": "具体配置",
+      "brand": "小鹏",
+      "series": "MONA",
+      "model_year": null,
+      "version": "M03",
+      "evidence": [
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "小鹏 MONA M03"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "配置与功能",
+      "content": "作者建议在冬季测试中增加针对隐藏式门把手在冰雪天气下冻结情况的测试，特别是验证在没有预约加热功能时车门是否能打开，以避免用户被迫敲碎冰块。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "要多做类似隐藏门把手的测试，尤其是我们平常使用的时候，冬天遇见冰雪天气造成的。车门冻住无法打开。门把手，不要一说他有预热功能，那如果没有预约的时间，这个车门就无法打开了吗？必须敲碎冰才可以吗？"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "续航与能耗",
+      "content": "作者认为冬季续航测试不应仅使用新车，因为新车电池和电机处于最佳状态，不能代表普通用户长期使用后的真实水平。建议使用4S店展车、试驾车或行驶里程较长、年限较久的车辆进行测试，以更真实地反映电池衰减和容错率。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "这里主要说的是不要去诠释新车的状态，要拿4s店的类似展车或者是车主的车来做测试，拿全新的车型来去试，个人感觉意义不大，因为它的车的电池还有续航，电机各个方面都属于一个饱和状态。全新车型车辆这样测试下的结果。不是一个正常老百姓使用几年或者多少公里之后的一个状态。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "续航与能耗",
+      "content": "作者指出海鸥等低价爆款车型虽然销量好且配置性价比高，但需关注其在冬季极寒天气下的续航能力、电池耗尽后的剩余行驶里程以及保电策略等细节，以贴合日常家用场景。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "还有测试普通家用的，例如爆款车型，所谓的海鸥，它的销量是这么好，他为什么卖这么好呢？就是因为它的便宜以及配置相对来说比较好，但是它在冬季最主要的续航能力呢，还有极端天气上的一些问题，在电池耗尽的情况下，他还能跑多少公里？有没有一个保电等各方面的类似的测试"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "充电与补能",
+      "content": "作者建议测试车辆在普通充电桩上的实际充电速度和功率，验证宣传的高电压（如800V）充电功率是否能在日常场景中实现，并检查充电枪和充电口的正常与非正常使用状况。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "4.第4点就是测试车辆充电的情况，还有充电速度的情况，还有宣传时的充电功率是否在普通充电桩上可以实现800V也好，多少伏也好的充电功率以及速度，还有充电枪和充电口是否有正常使用和非正常使用的情况的一个状况"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "其他",
+      "content": "作者认为夏季测试对电动车意义不大，因为电池、电芯和电机的性能主要在冬季低温下才能充分暴露；同时认为零百加速测试对日常使用缺乏实质意义，因为电动车本身响应快，且用户很少参加赛道比赛。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "我想说的是不要去测试所谓夏天的一个序号没有任何意义，电池毕竟是在冬天才会表现出来这款电动车的电池，电芯，电机等方面的表现在冬天暴露无疑，而在夏天没有任何意义，还有所谓测试什么？零百加速，电动车本来就没有是一个零延迟的状态，加大电机。让他跑的更快，零百，更快，又有什么实质性的意义呢？又不去天天上赛道，所以我感觉完全没必要去测试所谓的零百加速等等。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "汽车之家2024冬季首测",
+      "event_type": "展会与行业活动",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "主标题为“有用的冬测”，副标题包含英文“COLD WEATHER EV”、“-30°C”以及“2024 AUTOMOBILE SUPER TEST”。下方标签注明“50+车型冬季首测”。"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "主题为“2024冬季首测”。...列出了从12月4日至12月7日的各项测试安排"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "汽车之家举办2024年冬季新能源汽车测试活动，涵盖50多款主流车型，旨在评估车辆在极寒天气下的表现。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者针对汽车之家2024年冬季新能源车测试提出改进建议，主张增加对隐藏门把手防冻、老旧车辆真实续航、低价车型极寒表现及日常充电场景的测试，并批评夏季测试和零百加速测试对普通用户缺乏实用价值。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

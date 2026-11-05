@@ -1,0 +1,1090 @@
+{
+  "surface": "report",
+  "title": "外观吸引关注，舒适性暴露改进线索",
+  "generatedAt": "2026-10-18T12:20:00Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "report": {
+    "asOf": "2026-10-03"
+  },
+  "filters": [],
+  "queries": {
+    "scope": {
+      "rows": [
+        {
+          "cohort": "全部关联SU7",
+          "claims": 18087,
+          "posts": 6058
+        },
+        {
+          "cohort": "SU7主对象且引文通过（无比较）",
+          "claims": 7024,
+          "posts": 3377
+        },
+        {
+          "cohort": "产品体验或风险",
+          "claims": 3356,
+          "posts": 1810
+        },
+        {
+          "cohort": "明确亲历体验或风险",
+          "claims": 942,
+          "posts": 465
+        },
+        {
+          "cohort": "当前拥有且亲历使用",
+          "claims": 297,
+          "posts": 148
+        },
+        {
+          "cohort": "明确未拥有的购车前表达",
+          "claims": 522,
+          "posts": 255
+        },
+        {
+          "cohort": "已订未提表达",
+          "claims": 140,
+          "posts": 76
+        }
+      ],
+      "source": {
+        "label": "逐层筛选结果",
+        "files": [
+          "AUTO-016 V2.3 repair1/contract-passed.jsonl",
+          "AUTO-018 V2/delivery-r3/mention-mapping.jsonl",
+          "004_A4_图片策展_主链路终版.csv",
+          "AUTO-016 frozen inputs/<post_id>.json"
+        ],
+        "filters": [
+          "现有修复数据；原数据只读；SU7明确主要对象；比较Claim不混入单车情感统计",
+          "引文须可在同一命名block及同类型来源中定位（忽略空白和大小写）"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "口径",
+            "definition": "Claims是表达数，posts是该层去重帖子数；层之间嵌套，不可相加。"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "读取与连接",
+            "detail": "按post_id与局部product_id连接既有映射，不按标题连接。"
+          },
+          {
+            "title": "计算与复现",
+            "detail": "运行同目录analyze.py；analysis/input-manifest.json保存源文件和冻结原文SHA256。"
+          },
+          {
+            "title": "证据边界",
+            "detail": "结构和引文定位不证明语义正确；作者身份、车型归属及技术归因未全量人工验收。"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "复现：python collaboration/result/auto018-product-entity-normalization/report-v1/analyze.py（analysis目录须不存在）；精确规则见随附脚本。"
+        }
+      ]
+    },
+    "aspects": {
+      "rows": [
+        {
+          "aspect": "外观与内饰",
+          "claims": 717,
+          "posts": 635,
+          "positive": 575,
+          "negative": 63,
+          "neutral": 49,
+          "other": 30,
+          "negative_posts": 62,
+          "negativeShare": 0.08786610878661087
+        },
+        {
+          "aspect": "品牌与口碑",
+          "claims": 291,
+          "posts": 282,
+          "positive": 217,
+          "negative": 45,
+          "neutral": 11,
+          "other": 18,
+          "negative_posts": 45,
+          "negativeShare": 0.15463917525773196
+        },
+        {
+          "aspect": "智能座舱与车机",
+          "claims": 301,
+          "posts": 278,
+          "positive": 236,
+          "negative": 23,
+          "neutral": 31,
+          "other": 11,
+          "negative_posts": 22,
+          "negativeShare": 0.07641196013289037
+        },
+        {
+          "aspect": "配置与功能",
+          "claims": 284,
+          "posts": 258,
+          "positive": 157,
+          "negative": 59,
+          "neutral": 64,
+          "other": 4,
+          "negative_posts": 52,
+          "negativeShare": 0.20774647887323944
+        },
+        {
+          "aspect": "空间与舒适性",
+          "claims": 302,
+          "posts": 239,
+          "positive": 118,
+          "negative": 131,
+          "neutral": 18,
+          "other": 35,
+          "negative_posts": 113,
+          "negativeShare": 0.4337748344370861
+        },
+        {
+          "aspect": "续航与能耗",
+          "claims": 268,
+          "posts": 238,
+          "positive": 174,
+          "negative": 31,
+          "neutral": 53,
+          "other": 10,
+          "negative_posts": 31,
+          "negativeShare": 0.11567164179104478
+        },
+        {
+          "aspect": "驾驶与操控",
+          "claims": 223,
+          "posts": 205,
+          "positive": 154,
+          "negative": 37,
+          "neutral": 25,
+          "other": 7,
+          "negative_posts": 34,
+          "negativeShare": 0.16591928251121077
+        },
+        {
+          "aspect": "安全与质量",
+          "claims": 188,
+          "posts": 168,
+          "positive": 97,
+          "negative": 66,
+          "neutral": 22,
+          "other": 3,
+          "negative_posts": 59,
+          "negativeShare": 0.35106382978723405
+        },
+        {
+          "aspect": "智能驾驶",
+          "claims": 152,
+          "posts": 143,
+          "positive": 88,
+          "negative": 42,
+          "neutral": 13,
+          "other": 9,
+          "negative_posts": 40,
+          "negativeShare": 0.27631578947368424
+        },
+        {
+          "aspect": "动力与性能",
+          "claims": 137,
+          "posts": 137,
+          "positive": 123,
+          "negative": 4,
+          "neutral": 8,
+          "other": 2,
+          "negative_posts": 4,
+          "negativeShare": 0.029197080291970802
+        },
+        {
+          "aspect": "价格与成本",
+          "claims": 144,
+          "posts": 134,
+          "positive": 91,
+          "negative": 42,
+          "neutral": 5,
+          "other": 6,
+          "negative_posts": 40,
+          "negativeShare": 0.2916666666666667
+        },
+        {
+          "aspect": "服务与交付",
+          "claims": 132,
+          "posts": 122,
+          "positive": 46,
+          "negative": 62,
+          "neutral": 22,
+          "other": 2,
+          "negative_posts": 55,
+          "negativeShare": 0.4696969696969697
+        },
+        {
+          "aspect": "可靠性与故障",
+          "claims": 98,
+          "posts": 90,
+          "positive": 12,
+          "negative": 54,
+          "neutral": 26,
+          "other": 6,
+          "negative_posts": 52,
+          "negativeShare": 0.5510204081632653
+        },
+        {
+          "aspect": "充电与补能",
+          "claims": 64,
+          "posts": 61,
+          "positive": 38,
+          "negative": 13,
+          "neutral": 13,
+          "other": 0,
+          "negative_posts": 13,
+          "negativeShare": 0.203125
+        },
+        {
+          "aspect": "其他",
+          "claims": 54,
+          "posts": 53,
+          "positive": 24,
+          "negative": 13,
+          "neutral": 15,
+          "other": 2,
+          "negative_posts": 13,
+          "negativeShare": 0.24074074074074073
+        },
+        {
+          "aspect": "技术原理",
+          "claims": 1,
+          "posts": 1,
+          "positive": 1,
+          "negative": 0,
+          "neutral": 0,
+          "other": 0,
+          "negative_posts": 0,
+          "negativeShare": 0.0
+        }
+      ],
+      "source": {
+        "label": "SU7体验与风险表达的属性分布",
+        "files": [
+          "AUTO-016 V2.3 repair1/contract-passed.jsonl",
+          "AUTO-018 V2/delivery-r3/mention-mapping.jsonl",
+          "004_A4_图片策展_主链路终版.csv",
+          "AUTO-016 frozen inputs/<post_id>.json"
+        ],
+        "filters": [
+          "现有修复数据；原数据只读；SU7明确主要对象；比较Claim不混入单车情感统计",
+          "引文须可在同一命名block及同类型来源中定位（忽略空白和大小写）"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "口径",
+            "definition": "每方面按帖子去重；同帖可涉及多个方面。negativeShare=该方面负面Claim数/该方面全部Claim数，含中性和正负混合；不是车主不满意比例。"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "读取与连接",
+            "detail": "按post_id与局部product_id连接既有映射，不按标题连接。"
+          },
+          {
+            "title": "计算与复现",
+            "detail": "运行同目录analyze.py；analysis/input-manifest.json保存源文件和冻结原文SHA256。"
+          },
+          {
+            "title": "证据边界",
+            "detail": "结构和引文定位不证明语义正确；作者身份、车型归属及技术归因未全量人工验收。"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "复现：python collaboration/result/auto018-product-entity-normalization/report-v1/analyze.py（analysis目录须不存在）；精确规则见随附脚本。"
+        }
+      ]
+    },
+    "owner_aspects": {
+      "rows": [
+        {
+          "aspect": "外观与内饰",
+          "claims": 68,
+          "posts": 60,
+          "positive": 55,
+          "negative": 6,
+          "neutral": 2,
+          "other": 5,
+          "negative_posts": 5,
+          "negativeShare": 0.08823529411764706
+        },
+        {
+          "aspect": "空间与舒适性",
+          "claims": 44,
+          "posts": 33,
+          "positive": 16,
+          "negative": 21,
+          "neutral": 1,
+          "other": 6,
+          "negative_posts": 18,
+          "negativeShare": 0.4772727272727273
+        },
+        {
+          "aspect": "智能座舱与车机",
+          "claims": 37,
+          "posts": 32,
+          "positive": 27,
+          "negative": 5,
+          "neutral": 2,
+          "other": 3,
+          "negative_posts": 5,
+          "negativeShare": 0.13513513513513514
+        },
+        {
+          "aspect": "驾驶与操控",
+          "claims": 29,
+          "posts": 26,
+          "positive": 24,
+          "negative": 3,
+          "neutral": 2,
+          "other": 0,
+          "negative_posts": 3,
+          "negativeShare": 0.10344827586206896
+        },
+        {
+          "aspect": "配置与功能",
+          "claims": 22,
+          "posts": 20,
+          "positive": 12,
+          "negative": 4,
+          "neutral": 5,
+          "other": 1,
+          "negative_posts": 3,
+          "negativeShare": 0.18181818181818182
+        },
+        {
+          "aspect": "续航与能耗",
+          "claims": 18,
+          "posts": 17,
+          "positive": 13,
+          "negative": 2,
+          "neutral": 2,
+          "other": 1,
+          "negative_posts": 2,
+          "negativeShare": 0.1111111111111111
+        },
+        {
+          "aspect": "智能驾驶",
+          "claims": 18,
+          "posts": 16,
+          "positive": 9,
+          "negative": 7,
+          "neutral": 1,
+          "other": 1,
+          "negative_posts": 6,
+          "negativeShare": 0.3888888888888889
+        },
+        {
+          "aspect": "可靠性与故障",
+          "claims": 14,
+          "posts": 13,
+          "positive": 3,
+          "negative": 7,
+          "neutral": 4,
+          "other": 0,
+          "negative_posts": 7,
+          "negativeShare": 0.5
+        },
+        {
+          "aspect": "品牌与口碑",
+          "claims": 12,
+          "posts": 12,
+          "positive": 8,
+          "negative": 2,
+          "neutral": 0,
+          "other": 2,
+          "negative_posts": 2,
+          "negativeShare": 0.16666666666666666
+        },
+        {
+          "aspect": "充电与补能",
+          "claims": 9,
+          "posts": 9,
+          "positive": 4,
+          "negative": 3,
+          "neutral": 2,
+          "other": 0,
+          "negative_posts": 3,
+          "negativeShare": 0.3333333333333333
+        },
+        {
+          "aspect": "服务与交付",
+          "claims": 9,
+          "posts": 9,
+          "positive": 5,
+          "negative": 3,
+          "neutral": 1,
+          "other": 0,
+          "negative_posts": 3,
+          "negativeShare": 0.3333333333333333
+        },
+        {
+          "aspect": "价格与成本",
+          "claims": 6,
+          "posts": 6,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 0,
+          "other": 0,
+          "negative_posts": 2,
+          "negativeShare": 0.3333333333333333
+        },
+        {
+          "aspect": "动力与性能",
+          "claims": 6,
+          "posts": 6,
+          "positive": 6,
+          "negative": 0,
+          "neutral": 0,
+          "other": 0,
+          "negative_posts": 0,
+          "negativeShare": 0.0
+        },
+        {
+          "aspect": "其他",
+          "claims": 3,
+          "posts": 3,
+          "positive": 2,
+          "negative": 1,
+          "neutral": 0,
+          "other": 0,
+          "negative_posts": 1,
+          "negativeShare": 0.3333333333333333
+        },
+        {
+          "aspect": "安全与质量",
+          "claims": 2,
+          "posts": 2,
+          "positive": 2,
+          "negative": 0,
+          "neutral": 0,
+          "other": 0,
+          "negative_posts": 0,
+          "negativeShare": 0.0
+        }
+      ],
+      "source": {
+        "label": "当前拥有＋亲历使用候选分布",
+        "files": [
+          "AUTO-016 V2.3 repair1/contract-passed.jsonl",
+          "AUTO-018 V2/delivery-r3/mention-mapping.jsonl",
+          "004_A4_图片策展_主链路终版.csv",
+          "AUTO-016 frozen inputs/<post_id>.json"
+        ],
+        "filters": [
+          "现有修复数据；原数据只读；SU7明确主要对象；比较Claim不混入单车情感统计",
+          "引文须可在同一命名block及同类型来源中定位（忽略空白和大小写）"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "口径",
+            "definition": "当前拥有是模型的帖子级标签，不等于持有SU7；297条/148帖仅是候选集合，未经语义修正。"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "读取与连接",
+            "detail": "按post_id与局部product_id连接既有映射，不按标题连接。"
+          },
+          {
+            "title": "计算与复现",
+            "detail": "运行同目录analyze.py；analysis/input-manifest.json保存源文件和冻结原文SHA256。"
+          },
+          {
+            "title": "证据边界",
+            "detail": "结构和引文定位不证明语义正确；作者身份、车型归属及技术归因未全量人工验收。"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "复现：python collaboration/result/auto018-product-entity-normalization/report-v1/analyze.py（analysis目录须不存在）；精确规则见随附脚本。"
+        }
+      ]
+    },
+    "pre_aspects": {
+      "rows": [
+        {
+          "aspect": "外观与内饰",
+          "claims": 117,
+          "posts": 100,
+          "positive": 98,
+          "negative": 9,
+          "neutral": 5,
+          "other": 5,
+          "negative_posts": 9,
+          "negativeShare": 0.07692307692307693
+        },
+        {
+          "aspect": "价格与成本",
+          "claims": 92,
+          "posts": 77,
+          "positive": 30,
+          "negative": 32,
+          "neutral": 29,
+          "other": 1,
+          "negative_posts": 28,
+          "negativeShare": 0.34782608695652173
+        },
+        {
+          "aspect": "智能座舱与车机",
+          "claims": 41,
+          "posts": 38,
+          "positive": 32,
+          "negative": 3,
+          "neutral": 4,
+          "other": 2,
+          "negative_posts": 3,
+          "negativeShare": 0.07317073170731707
+        },
+        {
+          "aspect": "配置与功能",
+          "claims": 39,
+          "posts": 38,
+          "positive": 22,
+          "negative": 15,
+          "neutral": 2,
+          "other": 0,
+          "negative_posts": 15,
+          "negativeShare": 0.38461538461538464
+        },
+        {
+          "aspect": "空间与舒适性",
+          "claims": 38,
+          "posts": 35,
+          "positive": 12,
+          "negative": 19,
+          "neutral": 2,
+          "other": 5,
+          "negative_posts": 16,
+          "negativeShare": 0.5
+        },
+        {
+          "aspect": "品牌与口碑",
+          "claims": 35,
+          "posts": 32,
+          "positive": 17,
+          "negative": 10,
+          "neutral": 6,
+          "other": 2,
+          "negative_posts": 10,
+          "negativeShare": 0.2857142857142857
+        },
+        {
+          "aspect": "续航与能耗",
+          "claims": 28,
+          "posts": 28,
+          "positive": 15,
+          "negative": 4,
+          "neutral": 5,
+          "other": 4,
+          "negative_posts": 4,
+          "negativeShare": 0.14285714285714285
+        },
+        {
+          "aspect": "智能驾驶",
+          "claims": 25,
+          "posts": 25,
+          "positive": 12,
+          "negative": 8,
+          "neutral": 4,
+          "other": 1,
+          "negative_posts": 8,
+          "negativeShare": 0.32
+        },
+        {
+          "aspect": "驾驶与操控",
+          "claims": 25,
+          "posts": 24,
+          "positive": 14,
+          "negative": 5,
+          "neutral": 6,
+          "other": 0,
+          "negative_posts": 5,
+          "negativeShare": 0.2
+        },
+        {
+          "aspect": "动力与性能",
+          "claims": 19,
+          "posts": 19,
+          "positive": 16,
+          "negative": 1,
+          "neutral": 1,
+          "other": 1,
+          "negative_posts": 1,
+          "negativeShare": 0.05263157894736842
+        },
+        {
+          "aspect": "服务与交付",
+          "claims": 19,
+          "posts": 19,
+          "positive": 4,
+          "negative": 10,
+          "neutral": 5,
+          "other": 0,
+          "negative_posts": 10,
+          "negativeShare": 0.5263157894736842
+        },
+        {
+          "aspect": "安全与质量",
+          "claims": 16,
+          "posts": 14,
+          "positive": 8,
+          "negative": 5,
+          "neutral": 3,
+          "other": 0,
+          "negative_posts": 5,
+          "negativeShare": 0.3125
+        },
+        {
+          "aspect": "其他",
+          "claims": 14,
+          "posts": 13,
+          "positive": 4,
+          "negative": 0,
+          "neutral": 9,
+          "other": 1,
+          "negative_posts": 0,
+          "negativeShare": 0.0
+        },
+        {
+          "aspect": "可靠性与故障",
+          "claims": 9,
+          "posts": 9,
+          "positive": 0,
+          "negative": 5,
+          "neutral": 4,
+          "other": 0,
+          "negative_posts": 5,
+          "negativeShare": 0.5555555555555556
+        },
+        {
+          "aspect": "充电与补能",
+          "claims": 4,
+          "posts": 4,
+          "positive": 1,
+          "negative": 1,
+          "neutral": 2,
+          "other": 0,
+          "negative_posts": 1,
+          "negativeShare": 0.25
+        },
+        {
+          "aspect": "技术原理",
+          "claims": 1,
+          "posts": 1,
+          "positive": 1,
+          "negative": 0,
+          "neutral": 0,
+          "other": 0,
+          "negative_posts": 0,
+          "negativeShare": 0.0
+        }
+      ],
+      "source": {
+        "label": "明确未拥有＋购车前表达",
+        "files": [
+          "AUTO-016 V2.3 repair1/contract-passed.jsonl",
+          "AUTO-018 V2/delivery-r3/mention-mapping.jsonl",
+          "004_A4_图片策展_主链路终版.csv",
+          "AUTO-016 frozen inputs/<post_id>.json"
+        ],
+        "filters": [
+          "现有修复数据；原数据只读；SU7明确主要对象；比较Claim不混入单车情感统计",
+          "引文须可在同一命名block及同类型来源中定位（忽略空白和大小写）"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "口径",
+            "definition": "255帖/522条；只描述未购者表达，不代表总体购买意向。"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "读取与连接",
+            "detail": "按post_id与局部product_id连接既有映射，不按标题连接。"
+          },
+          {
+            "title": "计算与复现",
+            "detail": "运行同目录analyze.py；analysis/input-manifest.json保存源文件和冻结原文SHA256。"
+          },
+          {
+            "title": "证据边界",
+            "detail": "结构和引文定位不证明语义正确；作者身份、车型归属及技术归因未全量人工验收。"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "复现：python collaboration/result/auto018-product-entity-normalization/report-v1/analyze.py（analysis目录须不存在）；精确规则见随附脚本。"
+        }
+      ]
+    },
+    "comparators": {
+      "rows": [
+        {
+          "brand": "特斯拉",
+          "series": "Model 3",
+          "posts": 201
+        },
+        {
+          "brand": "极氪",
+          "series": "001",
+          "posts": 73
+        },
+        {
+          "brand": "极氪",
+          "series": "007",
+          "posts": 63
+        },
+        {
+          "brand": "比亚迪",
+          "series": "汉",
+          "posts": 38
+        },
+        {
+          "brand": "保时捷",
+          "series": "Taycan",
+          "posts": 31
+        },
+        {
+          "brand": "尚界",
+          "series": "Z7",
+          "posts": 29
+        },
+        {
+          "brand": "特斯拉",
+          "series": "Model S",
+          "posts": 28
+        },
+        {
+          "brand": "阿维塔",
+          "series": "12",
+          "posts": 27
+        }
+      ],
+      "source": {
+        "label": "SU7比较Claim共同提及的车系",
+        "files": [
+          "AUTO-016 V2.3 repair1/contract-passed.jsonl",
+          "AUTO-018 V2/delivery-r3/mention-mapping.jsonl",
+          "004_A4_图片策展_主链路终版.csv",
+          "AUTO-016 frozen inputs/<post_id>.json"
+        ],
+        "filters": [
+          "现有修复数据；原数据只读；SU7明确主要对象；比较Claim不混入单车情感统计",
+          "引文须可在同一命名block及同类型来源中定位（忽略空白和大小写）"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "口径",
+            "definition": "既有comparison非空且Claim连接SU7与该车系，按帖子去重；是比较相关共提及，不保证该两车构成直接比较对，也不是市场竞品认定。"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "读取与连接",
+            "detail": "按post_id与局部product_id连接既有映射，不按标题连接。"
+          },
+          {
+            "title": "计算与复现",
+            "detail": "运行同目录analyze.py；analysis/input-manifest.json保存源文件和冻结原文SHA256。"
+          },
+          {
+            "title": "证据边界",
+            "detail": "结构和引文定位不证明语义正确；作者身份、车型归属及技术归因未全量人工验收。"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "复现：python collaboration/result/auto018-product-entity-normalization/report-v1/analyze.py（analysis目录须不存在）；精确规则见随附脚本。"
+        }
+      ]
+    },
+    "evidence": {
+      "rows": [
+        {
+          "case": "后排支撑与长途舒适",
+          "key": "0e9d99b0abd6f19a:C5",
+          "aspect": "空间与舒适性",
+          "date": "2024-10-16 00:10:11",
+          "title": "年轻人的第一台小米SU7",
+          "url": "https://club.autohome.com.cn/bbs/thread/0e9d99b0abd6f19a/109466958-1.html",
+          "quote": "后排座椅对大腿的支撑性不佳，而且座椅有点偏硬，长期乘坐可能不舒适",
+          "blocks": "T1",
+          "sentiment": "负面",
+          "source_status": "试驾体验，不是SU7持有证明",
+          "observation": "作者明确提到开自己的A3并简单试驾SU7；保留后排支撑的试驾观察，不计作长期车主反馈。",
+          "need": "让不同身高的后排乘客在长时间乘坐中获得足够腿部支撑。",
+          "boundary": "分析推导；长途后果在这条原文中是预期，不是已发生的长期体验。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "后排身高适配",
+          "key": "4d2d1ce29103cdc6:C4",
+          "aspect": "空间与舒适性",
+          "date": "2026-03-17 17:03:50",
+          "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+          "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html",
+          "quote": "后排空间对1米8以上的朋友不算宽裕",
+          "blocks": "T1",
+          "sentiment": "负面",
+          "source_status": "自述主力用车；叙事真实性未核验",
+          "observation": "表达了高个乘客的后排空间约束；全文同时有车评式宣传表达，不据此认证真实车主。",
+          "need": "看车与试驾环节提供可感知的身高—坐姿适配信息。",
+          "boundary": "分析推导；不能由单帖推成所有高个乘客结论。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "HUD可读性与信息提前量",
+          "key": "79aba2b132c3f554:C1",
+          "aspect": "智能座舱与车机",
+          "date": "2024-05-06 22:02:51",
+          "title": "SU7 MAX 的 HUD 是一个很大的槽点。",
+          "url": "https://club.autohome.com.cn/bbs/thread/79aba2b132c3f554/108175112-1.html",
+          "quote": "SU7 MAX 的 HUD 是一个很大的槽点。\n\n第一感受就是不太清晰，有点模糊。或者说分辨率很低。\n\n导致显示效果低，有些让人晕。虽然不至于挡车与人的视线，但如果前面路况不好，会影响看路上的一些情况，比如坑洼之类的，这个 HUD 基本可以完美挡住。",
+          "blocks": "T0, T1, T1",
+          "sentiment": "负面",
+          "source_status": "主观体验；持有状态不单独确证",
+          "observation": "原文同时提到模糊、视觉负担、路面观察及连续路口提示不足；并肯定空悬与座椅。",
+          "need": "让驾驶员在复杂道路和连续分叉路口看得清、看得早，减少遮挡感。",
+          "boundary": "分析推导；分辨率低是作者解释，不是测量结论。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "导航中语音响应",
+          "key": "4d2d1ce29103cdc6:C5",
+          "aspect": "智能座舱与车机",
+          "date": "2026-03-17 17:03:50",
+          "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+          "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html",
+          "quote": "澎湃OS偶尔会有点“小脾气”，导航时语音唤醒会慢半拍",
+          "blocks": "T1",
+          "sentiment": "负面",
+          "source_status": "自述使用体验",
+          "observation": "导航时语音唤醒“慢半拍”是具体任务障碍；同帖也肯定语音控空调和播放音乐。",
+          "need": "保留自然语音交互优势，同时提高导航任务下响应的一致性。",
+          "boundary": "分析推导；未测量延迟，也未确认软件版本。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "遥控泊车中断",
+          "key": "e024a801eee64c1f:C2",
+          "aspect": "智能驾驶",
+          "date": "2025-09-15 01:16:28",
+          "title": "SU7控车值多少，一起聊聊",
+          "url": "https://club.autohome.com.cn/bbs/thread/e024a801eee64c1f/112892669-1.html",
+          "quote": "我试过一次，中途蓝牙突然断了，结果车子直接停在半道不动了，吓得我赶紧走过去看。所以提醒大家，用这功能一定要等车完全停稳、停好之后再离开，不然真有风险。",
+          "blocks": "T2",
+          "sentiment": "负面",
+          "source_status": "自述一次尝试",
+          "observation": "作者称蓝牙中断后车辆停在半道；这是异常中止及恢复体验，不证明车辆失控。",
+          "need": "连接中断时清楚说明车辆状态、停止原因及下一步恢复方式。",
+          "boundary": "分析推导；风险判断来自作者，不认定技术缺陷或事故原因。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "自动泊车与售后责任",
+          "key": "9f09473f23bafc55:C1",
+          "aspect": "智能驾驶",
+          "date": "2026-07-07 17:44:35",
+          "title": "这是小米su7自动泊车出现的尾部撞损。居然以雷达位置低，后面",
+          "url": "https://club.autohome.com.cn/bbs/thread/9f09473f23bafc55/115561944-1.html",
+          "quote": "这是小米su7自动泊车出现的尾部撞损",
+          "blocks": "T1",
+          "sentiment": "负面",
+          "source_status": "单方事故归因陈述",
+          "observation": "同帖称自动泊车后尾部撞损并被拒绝维修责任；图片说明却描述疑似前部局部，需单列图文不一致。",
+          "need": "为泊车争议提供可回查的过程记录、功能边界和清晰责任处理流程。",
+          "boundary": "分析推导；碰撞过程、责任、图中位置均未核验。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "充电功率信息解释",
+          "key": "a3f7ae73d505588a:C1",
+          "aspect": "充电与补能",
+          "date": "2026-01-16 21:50:28",
+          "title": "为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充",
+          "url": "https://club.autohome.com.cn/bbs/thread/a3f7ae73d505588a/114155185-1.html",
+          "quote": "为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充了14.1度电，结果到了车上就只有峰值6.7kw，平均6.6kw，我那400w去哪了？\n\n从小米自己自己的充电时间看，确实没有7kw",
+          "blocks": "T1, T1",
+          "sentiment": "负面",
+          "source_status": "带数值的用户疑问",
+          "observation": "作者比较桩侧7kW与车端6.6–6.7kW显示，询问差异；不把疑问直接认作少充电或质量故障。",
+          "need": "在桩端、车辆端及计费数据间提供清晰的口径与损耗解释。",
+          "boundary": "分析推导；没有测量或账单验证。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "冬季租车的补能预期",
+          "key": "e3322fb90b3349d5:C7",
+          "aspect": "续航与能耗",
+          "date": "2026-01-08 22:14:32",
+          "title": "在北京租一天SU7去慕田峪长城真实感受！",
+          "url": "https://club.autohome.com.cn/bbs/thread/e3322fb90b3349d5/114085737-1.html",
+          "quote": "因为今天北京早上最低温度零下9度，下午最热温度6度，所以取暖的情况下，百公里大约电耗19度电。\n\n一天下来大约跑了165公里，充电花费89元。每公里也要5毛2的电费。\n\n但是今天每公里花费5毛2电费，着实不省钱。",
+          "blocks": "T6, T6, T8",
+          "sentiment": "负面",
+          "source_status": "明确租车一天，不是长期持有",
+          "observation": "北京冬季租车、暖风、165公里和公充费用构成具体场景；费用由作者自述，不能从一次经历外推车型电耗。",
+          "need": "按温度、暖风、路线和补能方式展示可理解的用车成本预期。",
+          "boundary": "分析推导；公充账单不等于同一行程的真实耗电。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "交付承诺一致性",
+          "key": "de660a335338f489:C4",
+          "aspect": "品牌与口碑",
+          "date": "2025-12-15 14:14:08",
+          "title": "一次心酸的小米SU7提车记：被区别对待的“后妈生的”客户 今",
+          "url": "https://club.autohome.com.cn/bbs/thread/de660a335338f489/113849811-1.html",
+          "quote": "这早已不是几件礼品的小事，而是一种被轻视、被区别对待的感受。\n\n我希望小米汽车能对此给出一个真正合理、诚恳的解释和补救措施。",
+          "blocks": "T1, T1",
+          "sentiment": "负面",
+          "source_status": "自述提车争议",
+          "observation": "作者将礼包承诺未兑现解释为被区别对待，并明确要求解释和补救；这是服务公平感，不只是赠品价值。",
+          "need": "把销售承诺、提前提车条件与交付清单提前说清，并保持执行一致。",
+          "boundary": "作者明确要求解释与补救；具体流程方案为分析推导。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "售后可达性影响购车顾虑",
+          "key": "013c71a6c3d9fc56:C2",
+          "aspect": "服务与交付",
+          "date": "2024-03-29 10:14:01",
+          "title": "关于小米SU7你怎么看",
+          "url": "https://club.autohome.com.cn/bbs/thread/013c71a6c3d9fc56/107897049-1.html",
+          "quote": "离我最近的小米提车交付店在北京1000多公里买台车只能用板车拉回来，在自己的城市开有点什么小毛病都没售后处理的地方，还有就是维修时效，眼下小米售后这一块就还没落实",
+          "blocks": "T1",
+          "sentiment": "负面",
+          "source_status": "未购者的历史顾虑",
+          "observation": "作者称最近交付店相距一千多公里，担心当地维修时效；这是帖时点的感知，不是当前网点事实。",
+          "need": "在购车前明确当地服务覆盖、故障送修路径及预计处理时效。",
+          "boundary": "分析推导；须按用户城市和当下服务覆盖再验证。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        },
+        {
+          "case": "权益形式与实用价值",
+          "key": "170a414efc11ae8f:C1",
+          "aspect": "价格与成本",
+          "date": "2024-03-29 09:18:02",
+          "title": "我说点你们没注意的~~~",
+          "url": "https://club.autohome.com.cn/bbs/thread/170a414efc11ae8f/107896577-1.html",
+          "quote": "1.冰箱2000元，你花个2-300在TB上面买个冰箱不好么？带滚轮和拉杆箱的，可以在下车后去公园，去其他地方携带方便，容量也大啊，建议给个折现吧。",
+          "blocks": "T1",
+          "sentiment": "负面",
+          "source_status": "未购者的权益偏好",
+          "observation": "作者明确建议把冰箱权益折现，认为便携式产品对自己的场景更实用。",
+          "need": "提供与个人使用场景匹配、可理解的权益选择。",
+          "boundary": "作者明确提出折现；不是所有用户都偏好现金优惠。",
+          "review": "Codex定向原文复核；不是人类语义验收"
+        }
+      ],
+      "source": {
+        "label": "定向原文复核的具体问题样例",
+        "files": [
+          "AUTO-016 V2.3 repair1/contract-passed.jsonl",
+          "AUTO-018 V2/delivery-r3/mention-mapping.jsonl",
+          "004_A4_图片策展_主链路终版.csv",
+          "AUTO-016 frozen inputs/<post_id>.json"
+        ],
+        "filters": [
+          "现有修复数据；原数据只读；SU7明确主要对象；比较Claim不混入单车情感统计",
+          "引文须可在同一命名block及同类型来源中定位（忽略空白和大小写）"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "口径",
+            "definition": "有目的选择的11个案例，不是随机样本；不能用它估计总体比例或准确率。"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "读取与连接",
+            "detail": "按post_id与局部product_id连接既有映射，不按标题连接。"
+          },
+          {
+            "title": "计算与复现",
+            "detail": "运行同目录analyze.py；analysis/input-manifest.json保存源文件和冻结原文SHA256。"
+          },
+          {
+            "title": "证据边界",
+            "detail": "结构和引文定位不证明语义正确；作者身份、车型归属及技术归因未全量人工验收。"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "复现：python collaboration/result/auto018-product-entity-normalization/report-v1/analyze.py（analysis目录须不存在）；精确规则见随附脚本。"
+        }
+      ]
+    },
+    "quality": {
+      "rows": [
+        {
+          "check": "passed",
+          "claims": 22971
+        },
+        {
+          "check": "needs_review",
+          "claims": 3965
+        }
+      ],
+      "source": {
+        "label": "原文引文定位检查",
+        "files": [
+          "AUTO-016 V2.3 repair1/contract-passed.jsonl",
+          "AUTO-018 V2/delivery-r3/mention-mapping.jsonl",
+          "004_A4_图片策展_主链路终版.csv",
+          "AUTO-016 frozen inputs/<post_id>.json"
+        ],
+        "filters": [
+          "现有修复数据；原数据只读；SU7明确主要对象；比较Claim不混入单车情感统计",
+          "引文须可在同一命名block及同类型来源中定位（忽略空白和大小写）"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "口径",
+            "definition": "逐条Claim要求所有引文在指定原文block和来源类型中可定位；未过者暂不进入本报告统计，不等于全部抽取错误。"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "读取与连接",
+            "detail": "按post_id与局部product_id连接既有映射，不按标题连接。"
+          },
+          {
+            "title": "计算与复现",
+            "detail": "运行同目录analyze.py；analysis/input-manifest.json保存源文件和冻结原文SHA256。"
+          },
+          {
+            "title": "证据边界",
+            "detail": "结构和引文定位不证明语义正确；作者身份、车型归属及技术归因未全量人工验收。"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "复现：python collaboration/result/auto018-product-entity-normalization/report-v1/analyze.py（analysis目录须不存在）；精确规则见随附脚本。"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "schema_version": "2.3",
+  "post_id": "1ccce05f7e836615",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "终于可以亲身感受小米su7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "加上酷似保时捷的外形"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "奥迪A6L",
+      "entity_level": "具体配置",
+      "brand": "奥迪",
+      "series": "A6L",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "不过比起A6L好一些，A6L后排中间顶脑袋"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "问界",
+      "entity_level": "品牌",
+      "brand": "问界",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "与问界的智驾系统可能还有一定的差距"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7实车外观比图片更好看，线条感强，虽车长近5米但视觉上不显大，颜值很高。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "实车外观要比网上看到的图片更加好看...可以说“保时米”这造型可不是白叫的。单纯靠这外观颜值绝对吸粉无数。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在小米4S店近距离观看实车。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "与销售对接后便是看车，这还是近距离接触SU7。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的高配车型抬头显示会影响驾驶视线，但方向盘电动调节功能舒适且实用。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "高配车型拥有抬头显示，而且能够上下调节，可能是用车习惯的原因抬头显示感觉很影响自己的驾驶。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "比较值得推荐的是方向盘的电动调节，很舒服，能够满足不同人的驾驶习惯。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在店内体验车内功能。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "然后感受车内的氛围"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者作为乘客体验时，认为小米SU7隔音效果好、空气悬挂滤震舒适，但全景天幕隔热体验不佳且易显脏，降低了体验感。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "1.隔音：小米的隔音确实很好，很安静..."
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "2.悬挂：小米SU7由于是空气悬挂,车里面的颠簸感也很小..."
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "3.全景天幕：对于全景天幕真心喜欢不起来...直接拉低了体验感。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者作为乘客进行试驾体验。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "先谈一谈作为乘客的感觉。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7的后排座椅中间头部空间比奥迪A6L好，A6L后排中间会顶头，而小米还有一定头部空间。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "不过比起A6L好一些，A6L后排中间顶脑袋，小米还能有一点头部空间。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T5",
+                "source_type": "text",
+                "quote": "不过比起A6L好一些，A6L后排中间顶脑袋，小米还能有一点头部空间。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者对比两款车的后排乘坐空间。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "后排座椅中间部分后背挺硬，不过比起A6L好一些"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者亲自驾驶后认为小米SU7各模式起步跟脚，BOSS模式加速推背感强，方向盘轻盈且操控精准，但底盘偏硬，转弯不够柔和。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "1.速度：感受了各个模式...特别是BOSS模式，不到三秒的百米提速推背感特别强。"
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "2.方向控制：方向盘的控制很轻，而且操控性很棒，指哪打哪。"
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "3.底盘：地盘稳定性感觉并不是特别优秀，有些便硬...在转弯的时候感受不是特别柔和。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者亲自驾驶车辆进行试驾。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "之后开始自己驾驶"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者未亲身体验小米SU7智驾，但观察到销售人员信心不高，并推测其智驾系统与问界相比可能存在差距。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "5.智驾：智驾没有亲身体会，不过销售对于智驾的信心度好像也不太高。与问界的智驾系统可能还有一定的差距。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "智能驾驶",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T6",
+                "source_type": "text",
+                "quote": "与问界的智驾系统可能还有一定的差距。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结认为小米SU7适合路况好的地区、外观颜值控以及追求速度与激情的用户，不适合所有人。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "总结：总体来讲小米SU7是一辆不错的轿车，但是并不是适合所有人。第一，平时出行路面条件要好...第二，颜值控...第三，喜欢追求激情和速度的..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "之前附近一直没有小米的4S店，所以也没有机会试驾。最近听说济南有了小米汽车体验店，及时在小米之家APP联系了试驾。"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视外观颜值",
+      "不喜欢全景天幕"
+    ]
+  },
+  "post_summary": "作者分享了在济南首次试驾小米SU7的经历。他高度评价了车辆的外观颜值、隔音效果和加速性能，但也指出了底盘偏硬、全景天幕体验不佳以及智驾信心不足等问题，并与奥迪A6L的空间和问界的智驾进行了对比。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

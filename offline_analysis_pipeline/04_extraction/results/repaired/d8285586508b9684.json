@@ -1,0 +1,604 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d8285586508b9684",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "下方标注车型为“SU7 Max”，价格为¥306,900"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "蔚来ET5",
+      "entity_level": "具体配置",
+      "brand": "蔚来",
+      "series": "ET5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最先考虑的是颜值比较合我心意的蔚来et5"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model 3 Performance",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": "Performance",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其次考虑的是特斯拉model3p"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "小鹏P7i",
+      "entity_level": "具体配置",
+      "brand": "小鹏",
+      "series": "P7",
+      "model_year": null,
+      "version": "i",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "还考虑了小鹏p7i"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "丰田雷凌",
+      "entity_level": "车系",
+      "brand": "丰田",
+      "series": "雷凌",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一直开爸爸的小雷凌"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "雷克萨斯",
+      "entity_level": "品牌",
+      "brand": "雷克萨斯",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "老公的雷克萨斯"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者基于个人年薪约25万元、家庭年收入约50万元的收入情况，确定了约30万元的购车预算。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前个人年薪25w左右，家庭年入50w左右，综合下来我的购车预算基本是30w左右"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为之前驾驶的日系燃油车（雷凌、雷克萨斯）虽然舒适但动力欠缺，且每月1000多元的油费较贵，加上单位充电方便，因此坚定从燃油车转为电动车。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "日系车的确舒适但动力欠缺...每个月加油大约要1k+，实在是觉得有些贵，再加上工作单位充电很方便，就更坚定了油转电的决心"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "工作日通勤20公里，周末回家120公里。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在工作日通勤20公里+周末回家120公里的情况下"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在选车时首先考虑蔚来ET5，但因续航无法满足长途需求而放弃；试驾后发现其底盘因换电模块存在而较高，最终转向小米SU7。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最先考虑的是颜值比较合我心意的蔚来et5，但是续航劝退"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在看车阶段试驾了蔚来et5，一方面是续航不能满足我的长途需求，另一方面是底盘由于换电模块的存在而比较高，这些因素都让我转向小米"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "续航与能耗",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "续航不能满足我的长途需求...让我转向小米"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者考虑过特斯拉Model 3 Performance，但因其内饰简陋（形容为“毛坯房”）而未能接受。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其次考虑的是特斯拉model3p，但是无法接受毛坯房一样的内饰"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者考虑过小鹏P7i，但因为不喜欢其品牌名称而未选择。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "还考虑了小鹏p7i，但是品牌名字不太喜欢哈哈"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7凭借出色的外观、突出的续航、优惠的配置和合适的价格，使其在发布会后立即决定购买。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "所以su7刚开发布会时，凭借出色的外观+突出的续航+优惠的配置+合适的价格，我马上就决定要买它"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者评价小米SU7双电机动力强劲，在路上几乎没有对手，这使得驾驶心态更加轻松自在，无需与他人比拼速度。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "双电机的马力路上基本无车能敌（不过正是因为无车能敌，反而开车比较轻松自在慢悠悠，不需要跟他人比快，因为我就是最快~）"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7的空间足以满足三口之家的日常出行，偶尔乘坐五人也能容纳。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "空间足够小三口之家日常出行，偶尔坐五个人也是绰绰有余"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者评价小米SU7的高速NOA智能化程度高，变道加速逻辑合理且安全，自动泊车辅助能在一定程度上解放双手。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "高速NOA智能化程度高、变道加速逻辑合理又安全；自动泊车辅助能一定程度解放双手"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者表示凭借良好的驾驶习惯（“黄金右脚”），能将小米SU7的电耗控制在14 kWh/100km左右。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开惯日系车养成的黄金右脚让我能开出14的电耗"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出小米SU7存在一些缺点，包括无内置ETC、杯架直径太小、车身太宽导致窄路会车过度依赖360影像、自动泊车辅助偶尔原地打方向等，但认为整体瑕不掩瑜。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "虽然缺点也不少，例如无内置ETC、杯架直径太小、车身太宽导致窄路会车过度依赖360影像、自动泊车辅助偶尔原地打方向等等，但是整体而言瑕不掩瑜"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者车辆在地下车库出车时，因360影像未拍到离地约1.5米高的消防柜，导致车身发生刮蹭。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在某地下车库由于消防柜悬挂在离地一米半左右的高度，360没有拍到它，出车时狠狠刮蹭了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在地下车库出车时。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在某地下车库...出车时狠狠刮蹭了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C13",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出了详细的购车费用清单，包括发票价306,900元、保险8,536.35元、无忧服务包1,299元、上牌费398元，以及加装的威固隔热膜、隐形车衣、拾音氛围灯、遥控钥匙和全景天幕遮阳帘等费用。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "发票价格306900元（选配霞光紫），保险8536.35元...加装威固隔热膜7000元、威固隐形车衣8800元..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C14",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者评价小米的提车流程简洁，人员培训到位，各环节讲解流畅，销售协助拍照等服务细致。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "整个提车流程还是很简洁的，能看出小米的人员培训很到位，各个环节讲解都很流畅"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "陪伴我安全走过半个孕期"
+      },
+      {
+        "block_id": "I2",
+        "source_type": "image_summary",
+        "quote": "顶部显示“已提车”状态，提车时间为2024-07-13"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "30w左右",
+    "preferences": [
+      "偏好动力强的轿车",
+      "注重性价比与用车成本",
+      "偏好高颜值外观",
+      "重视内饰质感"
+    ]
+  },
+  "post_summary": "作者分享了从燃油车转为电动车的购车心路历程，基于30万左右的预算，对比了蔚来ET5、特斯拉Model 3和小鹏P7i后，选择了小米SU7 Max。文章详细介绍了购车费用、提车体验、日常用车感受（包括动力、空间、智驾、能耗等）以及车辆的一次轻微剐蹭维修经历，整体对车辆持高度认可态度。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

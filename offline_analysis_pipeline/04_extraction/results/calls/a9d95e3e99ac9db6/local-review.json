@@ -1,0 +1,553 @@
+{
+  "post_id": "a9d95e3e99ac9db6",
+  "state": "CONTRACT_PASS",
+  "cache_key": "b92e39d26f4794b9e1b31af3f483b544f70ae7c0d357889198628f600cbdc243",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "a9d95e3e99ac9db6",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7静态体验"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "沃尔沃S60",
+        "entity_level": "具体配置",
+        "brand": "沃尔沃",
+        "series": "S60",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T13",
+            "source_type": "text",
+            "quote": "沃尔沃S60的总重达2230kg"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小鹏P7",
+        "entity_level": "车系",
+        "brand": "小鹏",
+        "series": "P7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I11",
+            "source_type": "image_summary",
+            "quote": "展示了一本展开的小鹏P7（Xiaopeng P7）官方宣传画册"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米SU7在安全方面的重视程度或表现落后于沃尔沃，指出其宣传手册和用户手册中安全内容的优先级较低。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "安全方面仍然落后沃尔沃"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "全域安全放在了倒数第二页，对安全的重视程度优先级仅仅高于内饰设计"
+          },
+          {
+            "block_id": "T26",
+            "source_type": "text",
+            "quote": "用户手册里的安全并不是排在前面，优先级依然靠后。而在沃尔沃的车主手册中，安全的优先级高于一切"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为小米SU7的后备箱空间一般，但前备箱空间较大。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "先看后备箱，空间一般"
+          },
+          {
+            "block_id": "T20",
+            "source_type": "text",
+            "quote": "前备箱空间蛮大的，这点倒是不错"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7未使用隐藏式门把手这一设计值得好评。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "没有使用隐藏式门把手，这个好评"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为小米SU7自带的音响效果与宝华韦健相比差距较大。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T14",
+            "source_type": "text",
+            "quote": "小米自己的音响，听了一下，距离宝华韦健差距蛮大的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为小米SU7搭载的高德地图比较精确，车机系统流畅度没有问题。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T15",
+            "source_type": "text",
+            "quote": "地图是高德地图，比较精确"
+          },
+          {
+            "block_id": "T23",
+            "source_type": "text",
+            "quote": "车机系统是安卓12，骁龙8295的芯片，流畅度没什么问题"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7前后底盘用料良心，采用前双叉臂后五连杆独立悬架，支撑性和底盘平整度较好。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T17",
+            "source_type": "text",
+            "quote": "前后底盘用料还是比较良心的，使用了前双叉臂后五连杆的独立悬架，支撑性还是可以的，底盘平整度ok"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7的大灯设计抄袭了沃尔沃的雷神之锤大灯，但也加入了一些原创元素。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "这车灯我只能说抄袭雷神之锤大灯，同时加了点原创"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者认为小米SU7的安全带介绍详细，具备5个安全气囊和2个侧气帘，且碰撞后车窗自动降下功能有助于逃生。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T27",
+            "source_type": "text",
+            "quote": "安全带的介绍，还算详细。 小米SU7总共有5个安全气囊，2个侧气帘...不过它的发生碰撞后，车窗自动降下是比较重要的，方便逃生"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者认为小米SU7车门儿童锁和儿童座椅的介绍详细，功能完善。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T28",
+            "source_type": "text",
+            "quote": "车门儿童锁和儿童座椅的介绍也比较详细，功能很完善"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者提醒使用小米SU7哨兵模式时需遵循规章制度以保护隐私。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T29",
+            "source_type": "text",
+            "quote": "哨兵模式使用还是要遵循相关规章制度，保护双方隐私"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为小米SU7使用的禾赛科技激光雷达虽与Luminar有差距，但考虑到车价比较良心。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T30",
+            "source_type": "text",
+            "quote": "小米的激光雷达是来自禾赛科技，不过距离Luminar还是有一定差距，考虑到车价，这个也是比较良心"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C12",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者对小米SU7的总体评价是外观好看，内饰颜色看个人喜好，但座椅包裹性不够且车内有味，因此表示“你买我推荐，真买我不买”，并计划试驾后再分享动态体验。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T31",
+            "source_type": "text",
+            "quote": "静态体验总体评价：外观总体好看，内饰颜色看个人喜好，米内不错。座椅的包裹性不够，车内稍微有点味道。你买我推荐，真买我不买，等试驾完分享一下动态体验"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C13",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者描述了宁波小米交付中心的地理位置、预约难度、展厅装修风格、试驾车紧张状况、休息区卫生状况以及一站式上牌服务。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "宁波的小米交付中心设在宁波书城，停车相对方便。试驾比较难预约...装修风格是北欧极简"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "门口四台试驾车，都约满了！！！"
+          },
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "交付保养休息区，还比较干净"
+          },
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "买完车就可以上牌，一站式服务"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者在宁波小米交付中心进行静态体验和参观。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "宁波的小米交付中心设在宁波书城"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C14",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为小米SU7的车模售价499元不贵，制作精致，但App已售罄，希望未来推出1/64比例。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "499元一个车模，真心不贵，制作挺精致的，app售罄了，希望以后推出1/64的"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T31",
+          "source_type": "text",
+          "quote": "你买我推荐，真买我不买，等试驾完分享一下动态体验"
+        }
+      ],
+      "confidence": 0.8,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者分享了在宁波小米交付中心对小米SU7的静态体验，详细点评了车辆的空间、底盘、车机、安全配置及周边产品，并对比了沃尔沃在安全理念上的差异。尽管认可其设计和部分配置，但因座椅舒适性和气味等问题，作者表示不会亲自购买，计划后续分享动态试驾体验。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "products/P3/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 17356,
+    "completion_tokens": 4779,
+    "total_tokens": 22135,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 14720
+    }
+  },
+  "elapsed_s": 20.64156059999368,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

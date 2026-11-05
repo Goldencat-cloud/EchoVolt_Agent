@@ -1,0 +1,256 @@
+{
+  "schema_version": "2.3",
+  "post_id": "2cc54eb6a32a9fce",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车 2026款 SU7"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为该车外观颜值高，流线型设计回头率高，符合其审美。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "最大的优点无疑是颜值，保时捷同款的流线型设计开在街上回头率极高，整车外观十分契合我的审美。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者作为小米生态用户，认为车机与手机互联无缝流畅，导航流转和全场景语音操控顺滑，提升了驾驶专注度。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "其次是智能生态带来的极大便利，我是小米生态用户，小米澎湃OS车机与手机的互联无缝且流畅，上车导航自动流转，全场景语音操控车窗空调非常顺滑，极大提升了驾驶时的专注度。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为底盘紧致有韧性，动力响应快，日常超车并线干脆利落，驾驶过程有信心。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "驾控方面，底盘很紧致有韧性，动力随叫随到，日常超车并线干脆利落，整个驾驶过程很有信心和底气，真正让开车变成了一种享受。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出由于溜背造型，身高超过180cm的乘客坐在后排会感觉头部空间略显压抑。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "首先是后排头部空间，由于溜背造型的妥协，如果后排乘坐身高超过180cm的乘客，会感觉头部空间略显压抑。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者发现中控台下方50W无线快充区域，放置大屏手机时容易误触下方空调实体按键，需要适应盲操。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "内饰细节方面，中控台下方虽然配备了50W无线快充，但放置大屏手机时，偶尔手指会误触到下方的空调实体按键，需要一段时间去适应盲操。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为售后网络尚在完善中，最近的服务中心路程较远，日常保养或检修需花费更多路上时间。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "另外，作为小米的第一款车，售后网络目前还在不断完善中，距离我最近的服务中心路程相对远一点，日常保养或检修需要多花些路上时间。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者总结认为该车在外观、智能化和驾驶体验上的优势掩盖了小缺点，推荐追求科技感和驾趣的年轻人入手。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "总而言之，小米SU7的缺点在日常通勤中对我这种主驾开车的用户影响微乎其微，而它在外观、智能化以及驾驶体验上带来的巨大便利性，完全掩盖了这些小遗憾。如果你是个追求科技感和驾趣的年轻人，这台车绝对值得入手！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米SU7真实用车分享"
+      },
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "日常通勤中对我这种主驾开车的用户影响微乎其微"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "追求科技感",
+      "追求驾趣",
+      "年轻群体"
+    ]
+  },
+  "post_summary": "作者分享了2026款小米SU7的真实用车体验，肯定了其在外观、智能生态互联及驾驶操控方面的优势，同时也指出了后排头部空间受限、无线快充易误触按键以及售后网点较远等不足。总体而言，作者认为该车适合追求科技感和驾趣的年轻用户。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

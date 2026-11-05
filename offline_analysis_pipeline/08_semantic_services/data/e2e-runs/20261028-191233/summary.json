@@ -1,0 +1,62 @@
+{
+ "langsmith_project": "deep-agents-action",
+ "tracing": true,
+ "runs": [
+  {
+   "scenario": "detail",
+   "status": "done",
+   "wall_s": 81.4,
+   "clarify": 0,
+   "outline_steps": 3,
+   "regenerates": null,
+   "tool_calls": 7,
+   "tool_errors": 1,
+   "code_failures": 0,
+   "gate_rejections": 1,
+   "elapsed_ms": 57998,
+   "error": null
+  },
+  {
+   "scenario": "vague",
+   "status": "done",
+   "wall_s": 99.4,
+   "clarify": 1,
+   "outline_steps": 3,
+   "regenerates": null,
+   "tool_calls": 8,
+   "tool_errors": 1,
+   "code_failures": 0,
+   "gate_rejections": 1,
+   "elapsed_ms": 84039,
+   "error": null
+  },
+  {
+   "scenario": "compare",
+   "status": "done",
+   "wall_s": 90.3,
+   "clarify": 1,
+   "outline_steps": 3,
+   "regenerates": null,
+   "tool_calls": 8,
+   "tool_errors": 1,
+   "code_failures": 0,
+   "gate_rejections": 1,
+   "elapsed_ms": 75898,
+   "error": null
+  },
+  {
+   "scenario": "trap",
+   "status": "done",
+   "wall_s": 111.4,
+   "clarify": 2,
+   "outline_steps": 3,
+   "regenerates": null,
+   "tool_calls": 8,
+   "tool_errors": 1,
+   "code_failures": 0,
+   "gate_rejections": 1,
+   "elapsed_ms": 85682,
+   "error": null
+  }
+ ]
+}

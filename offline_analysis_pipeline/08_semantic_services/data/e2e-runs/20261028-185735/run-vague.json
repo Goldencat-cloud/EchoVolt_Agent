@@ -1,0 +1,220 @@
+{
+ "scenario": "vague",
+ "question": "分析一下 SU7 怎么样",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "9aea885de4f74c5c8855eecaf5f93582",
+  "status": "running",
+  "status_url": "/api/agent/report/9aea885de4f74c5c8855eecaf5f93582",
+  "request_id": "e84a04514389"
+ },
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 9.0,
+   "status": "clarifying",
+   "phase": "澄清中"
+  },
+  {
+   "t": 12.0,
+   "status": "running",
+   "phase": "数据探索中"
+  },
+  {
+   "t": 33.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 36.1,
+   "status": "failed",
+   "phase": "失败"
+  }
+ ],
+ "clarify_count": 1,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"先以全量声明级口径排出各议题负向占比，锁定三个负向热点（可靠性与故障、服务与交付、空间与舒适性）；再对这三个热点取负向说法原文作为可核验证据；最后看首要热点的月度走势与拥车结构，判断问题是否在恶化以及声音来自车主还是观望者\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"各议题负向观点占比（按观点条数）如何排序，哪些议题是负向热点\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"各议题负面观点占比排序（全量声明级）\"}},{\"id\":\"w2\",\"question\":\"可靠性与故障议题下最主要的负向说法是什么（用户原话）\",\"dimension\":\"aspect\",\"aspect\":\"可靠性与故障\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w3\",\"question\":\"服务与交付议题下最主要的负向说法是什么（用户原话）\",\"dimension\":\"aspect\",\"aspect\":\"服务与交付\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w4\",\"question\":\"空间与舒适性议题下最主要的负向说法是什么（用户原话）\",\"dimension\":\"aspect\",\"aspect\":\"空间与舒适性\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w5\",\"question\":\"可靠性与故障的负向说法随时间（按月）如何变化，是否在恶化\",\"dimension\":\"time\",\"aspect\":\"可靠性与故障\",\"method\":\"negative_claims_by_month\",\"requires_evidence\":false,\"visualization\":{\"type\":\"line\",\"x\":\"month\",\"y\":\"negative_claims\",\"title\":\"可靠性与故障负面观点月度走势（精选子集）\"}},{\"id\":\"w6\",\"question\":\"可靠性与故障议题的声音来自车主还是观望者，亲历与非亲历结构如何\",\"dimension\":\"ownership\",\"aspect\":\"可靠性与故障\",\"method\":\"ownership_experience_mix\",\"requires_evidence\":false}]}",
+    "plan": {
+     "coverage": "先以全量声明级口径排出各议题负向占比，锁定三个负向热点（可靠性与故障、服务与交付、空间与舒适性）；再对这三个热点取负向说法原文作为可核验证据；最后看首要热点的月度走势与拥车结构，判断问题是否在恶化以及声音来自车主还是观望者",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "各议题负向观点占比（按观点条数）如何排序，哪些议题是负向热点",
+       "dimension": "aspect",
+       "aspect": null,
+       "method": "negative_share_by_aspect",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "bar",
+        "x": "aspect",
+        "y": "negative_share",
+        "title": "各议题负面观点占比排序（全量声明级）"
+       }
+      },
+      {
+       "id": "w2",
+       "question": "可靠性与故障议题下最主要的负向说法是什么（用户原话）",
+       "dimension": "aspect",
+       "aspect": "可靠性与故障",
+       "method": "top_negative_claims",
+       "requires_evidence": true
+      },
+      {
+       "id": "w3",
+       "question": "服务与交付议题下最主要的负向说法是什么（用户原话）",
+       "dimension": "aspect",
+       "aspect": "服务与交付",
+       "method": "top_negative_claims",
+       "requires_evidence": true
+      },
+      {
+       "id": "w4",
+       "question": "空间与舒适性议题下最主要的负向说法是什么（用户原话）",
+       "dimension": "aspect",
+       "aspect": "空间与舒适性",
+       "method": "top_negative_claims",
+       "requires_evidence": true
+      },
+      {
+       "id": "w5",
+       "question": "可靠性与故障的负向说法随时间（按月）如何变化，是否在恶化",
+       "dimension": "time",
+       "aspect": "可靠性与故障",
+       "method": "negative_claims_by_month",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "line",
+        "x": "month",
+        "y": "negative_claims",
+        "title": "可靠性与故障负面观点月度走势（精选子集）"
+       }
+      },
+      {
+       "id": "w6",
+       "question": "可靠性与故障议题的声音来自车主还是观望者，亲历与非亲历结构如何",
+       "dimension": "ownership",
+       "aspect": "可靠性与故障",
+       "method": "ownership_experience_mix",
+       "requires_evidence": false
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"先以全量声明级口径排出各议题负向占比，锁定三个负向热点（可靠性与故障、服务与交付、空间与舒适性）；再对这三个热点取负向说法原文作为可核验证据；最后看首要热点的月度走势与拥车结构，判断问题是否在恶化以及声音来自车主还是观望者\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"各议题负向观点占比（按观点条数）如何排序，哪些议题是负向热点\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"各议题负面观点占比排序（全量声明级）\"}},{\"id\":\"w2\",\"question\":\"可靠性与故障议题下最主要的负向说法是什么（用户原话）\",\"dimension\":\"aspect\",\"aspect\":\"可靠性与故障\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w3\",\"question\":\"服务与交付议题下最主要的负向说法是什么（用户原话）\",\"dimension\":\"aspect\",\"aspect\":\"服务与交付\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w4\",\"question\":\"空间与舒适性议题下最主要的负向说法是什么（用户原话）\",\"dimension\":\"aspect\",\"aspect\":\"空间与舒适性\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w5\",\"question\":\"可靠性与故障的负向说法随时间（按月）如何变化，是否在恶化\",\"dimension\":\"time\",\"aspect\":\"可靠性与故障\",\"method\":\"negative_claims_by_month\",\"requires_evidence\":false,\"visualization\":{\"type\":\"line\",\"x\":\"month\",\"y\":\"negative_claims\",\"title\":\"可靠性与故障负面观点月度走势（精选子集）\"}},{\"id\":\"w6\",\"question\":\"可靠性与故障议题的声音来自车主还是观望者，亲历与非亲历结构如何\",\"dimension\":\"ownership\",\"aspect\":\"可靠性与故障\",\"method\":\"ownership_experience_mix\",\"requires_evidence\":false}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "各议题负向观点占比（按观点条数）如何排序，哪些议题是负向热点",
+     "aspect": null,
+     "method": "negative_share_by_aspect",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "bar",
+      "title": "各议题负面观点占比排序（全量声明级）"
+     }
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "可靠性与故障议题下最主要的负向说法是什么（用户原话）",
+     "aspect": "可靠性与故障",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": null
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "服务与交付议题下最主要的负向说法是什么（用户原话）",
+     "aspect": "服务与交付",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": null
+    },
+    {
+     "order": 4,
+     "id": "w4",
+     "question": "空间与舒适性议题下最主要的负向说法是什么（用户原话）",
+     "aspect": "空间与舒适性",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": null
+    },
+    {
+     "order": 5,
+     "id": "w5",
+     "question": "可靠性与故障的负向说法随时间（按月）如何变化，是否在恶化",
+     "aspect": "可靠性与故障",
+     "method": "negative_claims_by_month",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "line",
+      "title": "可靠性与故障负面观点月度走势（精选子集）"
+     }
+    },
+    {
+     "order": 6,
+     "id": "w6",
+     "question": "可靠性与故障议题的声音来自车主还是观望者，亲历与非亲历结构如何",
+     "aspect": "可靠性与故障",
+     "method": "ownership_experience_mix",
+     "requires_evidence": false,
+     "visualization": null
+    }
+   ]
+  },
+  "plan": null,
+  "history_len": 1
+ },
+ "regenerate_used": 0,
+ "job_id": "9aea885de4f74c5c8855eecaf5f93582",
+ "clarify_questions": [
+  {
+   "field": "topic",
+   "question": "研究主题的范围界定：希望重点分析 SU7 的哪些议题维度或使用场景？例如外观内饰、空间舒适、动力操控、续航补能、智能座舱/辅助驾驶、安全与质量、购车用车成本、车主口碑等，可多选或补充。"
+  },
+  {
+   "field": "compare",
+   "question": "对比意图：是否需要对比分析？若需要，期望以什么作为参照基准类型（如同价位纯电轿车整体、行业平均水平、市场整体等）？只需说明基准类型，不需指定具体竞品。"
+  }
+ ],
+ "clarify_responses": [
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "compare"
+  }
+ ],
+ "outline_decisions": [
+  {
+   "http": 202,
+   "body": {
+    "action": "confirm"
+   },
+   "resp": {
+    "job_id": "9aea885de4f74c5c8855eecaf5f93582",
+    "status": "running",
+    "status_url": "/api/agent/report/9aea885de4f74c5c8855eecaf5f93582",
+    "request_id": "7f3c851a489e"
+   }
+  }
+ ],
+ "final_status": "failed",
+ "result": null,
+ "error": {
+  "error": "RuntimeError: 'decisions'；最近工具调用：[]"
+ },
+ "job": {
+  "status": "failed",
+  "phase": "失败"
+ },
+ "wall_s": 36.1
+}

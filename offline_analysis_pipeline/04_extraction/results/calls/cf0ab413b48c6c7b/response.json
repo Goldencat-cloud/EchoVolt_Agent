@@ -1,0 +1,542 @@
+{
+  "schema_version": "2.3",
+  "post_id": "cf0ab413b48c6c7b",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "保时米SU7探店试驾"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米的首款车型"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "4台不同颜色试驾车都是顶配SU7MAX"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "MAX加速都相当迅猛"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7实车颜值很高，外观设计时尚、充满现代感与科技气息，低趴设计和犀利的大灯造型符合其审美。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "不得不说小米SU7实车颜值确实更好看"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "su7还是非常注重外观设计，整车充满了现代感与科技气息，低趴设计也是特别酷的一点"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在苏州园区永旺小米商超店进行探店和静态观察。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "去试驾体验一下这款车的驾驶感受，没想到我到苏州园区永旺小米商超店"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者试驾SU7 Max后认为其加速迅猛，驾驶乐趣强烈，高速行驶和转弯时稳定性较好。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "MAX加速都相当迅猛,让我体验到强烈的驾驶乐趣，行驶过程中稳定性也挺好，即使在高架行驶或转弯时也能保持平稳"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行了短途试驾，期间在高架上行驶并转弯，车速超过80km/h。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "即使在高架行驶或转弯时也能保持平稳"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "车辆行驶到80码以后"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者感觉SU7 Max的刹车有点偏紧，推测可能是因为第一次驾驶该款车还不习惯，或者试驾行程较短所致。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "刹车有点偏紧，有可能是我第一次加速这款车还有点不习惯，比较试驾体验行程也挺短的"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者首次驾驶该车型进行短途试驾。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "有可能是我第一次加速这款车还有点不习惯，比较试驾体验行程也挺短的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为SU7在车速达到80km/h后内饰静谧性尚可，并未感受到网上所说的噪音问题，但承认可能因为未达到100km/h以上速度。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "车辆行驶到80码以后感觉内饰的静音还好啊，没有像网上那样所说，有可能是我没有行驶到100以上吧！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者试驾时车速超过80km/h但未超过100km/h。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "车辆行驶到80码以后感觉内饰的静音还好啊，没有像网上那样所说，有可能是我没有行驶到100以上吧！"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为SU7虽然轴距达到3米，但车内空间感不佳，头部高度略显压抑，不适合家用需求。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T15",
+          "source_type": "text",
+          "quote": "看到整个车身尺寸还是不小轴距也达到3米，不过我乘坐进去它的空间感不是太好，特别是高度有点憋屈，家用觉得还是差点意思"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者亲自坐进车内体验空间。",
+        "evidence": [
+          {
+            "block_id": "T15",
+            "source_type": "text",
+            "quote": "我乘坐进去它的空间感不是太好"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出SU7的前备箱开口虽大但深度较浅，容量有限，只能存放少量小物品。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "虽然有前备厢，不过这前备厢属实有点浅，容纳不了多少东西，开口面积是很大，容量太小只能放置一点小物品。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为SU7后排空间勉强够用，但因高度限制装载能力有限，不过后排配备的挂钩对于放置不便平放的物品（如带水物品）比较实用。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T16",
+          "source_type": "text",
+          "quote": "后排的空间只能说是够用，有点高容纳不了太多的东西，不过后排配备了挂钩，这点还是很不错的，在生活当中还是很实用"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者称赞SU7内饰科技感强，采用环绕式座舱设计，配备HUD、液晶仪表和大屏，且中控台皮质材料和缝线细节精致。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "内饰采用了环绕式座舱设计，HUD抬头显示 液晶仪表盘 智能中控大屏，在科技这块SU7发挥的还是非常到位，还有就是整个中控台采用了大量皮质质的材料，提升了内饰的整体质感"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者喜欢SU7的可翻转仪表盘设计，认为其很酷。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T13",
+          "source_type": "text",
+          "quote": "可翻转仪表盘 这是我最喜欢的一个设计，很酷"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认可SU7保留实体按键的设计，认为其在驾驶尤其是紧急情况下能提供更高的操作准确性和响应速度。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "保留一部分实体按键功能，实体按键具有更高的操作准确性和响应速度，在驾驶过程中，尤其是在紧急情况下，驾驶者可以通过实体按键快速便捷。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为SU7的车机系统（16.1英寸3K大屏）功能强大，得益于小米在手机科技领域的积累，表现领先。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "16.1英寸3K悬浮式设计，支持多种主题和界面风格的切换...比较小米是做手机的科技这款也是遥遥领先。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者欣赏SU7的电动尾翼设计，认为其能在不同角度间切换且支持语音控制，增加了运动感和豪华感。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T17",
+          "source_type": "text",
+          "quote": "尾翼还是很帅吗，能够在0度、5度、15度、25度四个角度之间自由切换...曾经是豪车上才有的配置SU7上面都能体验到"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C13",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者总结认为SU7优点较多，性价比高，非常适合年轻人作为人生第一辆车，但作为家用车稍显不足。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T18",
+          "source_type": "text",
+          "quote": "对于年轻人来说，选择小米汽车SU7作为人生的第一辆车是一个相当不错的选择...不过作为家用我感觉还是有点不太适合（仅代表个人观点），SU7还具有较高的性价比！！！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C14",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者指出试驾SU7需要提前预约，直接到店可能无法当天体验，并提醒想试驾的用户务必提前预约以免跑空。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "试驾都得提前预约排期，如果直接到店是没有办法当天能试驾...想体验驾驶感受的车友们，记得一定要提前预约千万别跑空！！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "去试驾体验一下这款车的驾驶感受"
+      },
+      {
+        "block_id": "T18",
+        "source_type": "text",
+        "quote": "选择小米汽车SU7作为人生的第一辆车"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车辆颜值和设计",
+      "关注驾驶乐趣和操控性",
+      "偏好实体按键操作",
+      "看重车机科技感"
+    ]
+  },
+  "post_summary": "作者分享了在苏州小米门店探店试驾SU7 Max的经历。他高度评价了车辆的外观设计、加速性能、内饰科技感和车机系统，认为其非常适合年轻人作为首辆车且性价比高。但也指出了空间（特别是头部空间和前备箱容量）对于家用需求的局限性，并提醒潜在买家试驾需提前预约。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

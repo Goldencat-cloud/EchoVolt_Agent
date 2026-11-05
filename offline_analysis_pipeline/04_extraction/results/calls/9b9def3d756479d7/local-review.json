@@ -1,0 +1,251 @@
+{
+  "post_id": "9b9def3d756479d7",
+  "state": "FAILED",
+  "cache_key": "4e638338d9e6346f631ae9c4fcf76624c4dfbf8cf71f33d42e06f80c735e0b2c",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "9b9def3d756479d7",
+    "products": [
+      {
+        "id": "P1",
+        "name": "2026款小米SU7 Pro",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2026",
+        "version": "Pro",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我买的是 2026 款小米 SU7 Pro 版本"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者于3月28日订购并于4月16日提车，自认为属于较快的一批生产批次。",
+        "sentiment": "中性",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "3 月 28 日订车，4 月 16 日提车的。我算是比较快的一批生产了吧"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者选择了卡布里蓝配色，认为该颜色回头率极高，同事能在远处看到车辆。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我订的是卡布里蓝...回头率特别特别的高，我同事离老远就看到我的车了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者实测续航为709公里，因未选装特定轮毂，实际续航可达700公里以上。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "续航实际 709...我也没选轮毂，所以续航实际能跑 700➕"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者使用两个月，基本每天行驶100公里。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "开了两个月了 ，基本每天 100 公里"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为电车出行成本远低于油车（电费几分钱/公里 vs 油费一块多/公里），因此电车成为首选，家中油车闲置。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "电费划成一公里几分钱，油车一公里一块多，所以电车出行成了我现在的首选了，家里面的油车都在家里放着"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者认为电池衰减是电车不可避免的缺点，令人烦心。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第一电池衰减，这个不可避免，不管多厉害的电池都会衰减，所以这个也是一个烦心的事"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为电车保值率低、贬值速度快，且目前油车也存在类似大幅贬值现象。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第二个就是电车掉价太快，这个不仅仅是电车，现在油车也是，打骨折"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我买的是 2026 款小米 SU7 Pro 版本...4 月 16 日提车的"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开了两个月了 ，基本每天 100 公里"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "偏好高回头率的外观颜色"
+      ]
+    },
+    "post_summary": "车主分享2026款小米SU7 Pro的用车体验，包括快速交付、卡布里蓝配色的视觉效果、709km的实际续航表现以及低廉的使用成本。同时指出了电池衰减和车辆贬值快这两个电动车的普遍痛点。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C4/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C4/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10759,
+    "completion_tokens": 2087,
+    "total_tokens": 12846,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 9.113650699990103,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

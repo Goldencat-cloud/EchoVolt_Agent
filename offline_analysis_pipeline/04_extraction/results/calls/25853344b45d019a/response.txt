@@ -1,0 +1,450 @@
+{
+  "schema_version": "2.3",
+  "post_id": "25853344b45d019a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1??小米SU7 新鲜刚发布，当红电车，小爱同学，人车家全生态打通，车内周边配件全，高配里程800+km。缺点智驾还在ppt阶段，普通版400v平台高配才有800v注意甄别，保时米造型。"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小鹏P7i",
+      "entity_level": "车系",
+      "brand": "小鹏",
+      "series": "P7i",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2??小鹏P7i，经典造型，多少人的第一台纯电轿跑！车门带翅膀吸引力100%，全栈自研XNGP智能驾驶实际道路验证。缺点400v平台稍旧，不过续航达成率不错。"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "蔚来ET5",
+      "entity_level": "车系",
+      "brand": "蔚来",
+      "series": "ET5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3??蔚来ET5，可充电可换电，内饰有高级感，双电机提速快！无忧服务好评，牛屋也是加分项。缺点兔子耳朵造型。"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在20万至30万元预算范围内寻找适合女性驾驶的紫色纯电轿跑车，并在小米SU7、小鹏P7i和蔚来ET5三款车中进行选择。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "适合女生开的车，20~30w价位，紫色，选哪个呢？"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7具备人车家全生态打通的特点，车内周边配件丰富，且高配车型续航里程超过800公里。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小爱同学，人车家全生态打通，车内周边配件全，高配里程800+km。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者指出小米SU7的智能驾驶功能目前仍处于概念阶段（PPT阶段）。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "缺点智驾还在ppt阶段"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者提醒小米SU7普通版采用400V平台，只有高配版本才配备800V平台，需注意甄别。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "普通版400v平台高配才有800v注意甄别"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小鹏P7i造型经典，其电动剪刀门设计极具吸引力。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "经典造型...车门带翅膀吸引力100%"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为小鹏P7i的全栈自研XNGP智能驾驶经过了实际道路验证。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "全栈自研XNGP智能驾驶实际道路验证"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者指出小鹏P7i的400V平台略显老旧，但其续航达成率表现良好。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "缺点400v平台稍旧，不过续航达成率不错。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者认为蔚来ET5支持充电和换电两种补能方式。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "可充电可换电"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为蔚来ET5的内饰具有高级感。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "内饰有高级感"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为蔚来ET5的双电机配置使其加速性能较快。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "双电机提速快！"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者对蔚来ET5的无忧服务和牛屋社区给予好评，视为加分项。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "无忧服务好评，牛屋也是加分项。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为蔚来ET5的造型（兔子耳朵）是其缺点。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "缺点兔子耳朵造型。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "适合女生开的车，20~30w价位，紫色，选哪个呢？"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "20~30w",
+    "preferences": [
+      "适合女生开",
+      "紫色",
+      "纯电轿跑"
+    ]
+  },
+  "post_summary": "楼主在20-30万预算下寻求适合女性驾驶的紫色纯电轿跑，对比了小米SU7、小鹏P7i和蔚来ET5三款车。帖子详细列举了三款车型在智能驾驶、补能平台、外观设计及服务等方面的优缺点，并向网友征求选择建议。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

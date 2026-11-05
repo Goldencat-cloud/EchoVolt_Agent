@@ -1,0 +1,261 @@
+{
+  "schema_version": "2.3",
+  "post_id": "838d0f1dcd762572",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "虽然Su7停产"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "第一代小米SU7正式停产"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米Yu7也拿到了车型销量第一的宝座"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "排名第一的是小米YU7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "问界",
+      "entity_level": "品牌",
+      "brand": "问界",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "超越问界"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第3的“问界”"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者指出小米SU7已经停产，且月交付量仅一千出头。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "要知道小米Su7已经停产，月交付量只有1千出头"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米1月销量（约4万台）超过问界（3.88万台），位居新能源车企第二。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "1月交付量接近4万台，超过问界的3.88万排在新能源车企第二名位置"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "小米销量为3.91万辆...问界销量为3.88万辆"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P3",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "超过问界的3.88万"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出小米YU7凭借近4万的销量获得2026年1月全国乘用车零售销量第一名，且是全品牌第一。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米Yu7也拿到了车型销量第一的宝座。是不分能源形式、不分车身尺寸、不加任何定语的真正全品牌第一！"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "排名第一的是小米YU7，销量为37869辆"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者反驳网络上对小米的唱衰言论，认为尽管网上舆论不佳，但小米销量表现依然强劲。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "虽然网上很多人看不上小米、唱衰小米，但是还是那句话网上没赢过、销量没输过"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "第一代小米SU7停产",
+      "event_type": "产品发布与上市",
+      "event_time": "2026-02-10",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "2月10日晚间...第一代小米SU7正式停产"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "图片说明称，2026年2月10日雷军在直播中宣布第一代小米SU7正式停产，总交付超36万辆，部分产线正在改造为新一代SU7做准备。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了2026年1月小米汽车销量超越问界的现象。作者指出在SU7停产的情况下，小米依靠YU7车型取得了品牌销量第二和车型销量第一的成绩，并以此反驳网络上的唱衰言论。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

@@ -1,0 +1,4065 @@
+[
+  {
+    "aspect": "外观与内饰",
+    "counts": {
+      "aspect": "外观与内饰",
+      "claims": 68,
+      "posts": 60,
+      "positive": 55,
+      "negative": 6,
+      "neutral": 2,
+      "other": 5,
+      "negative_posts": 5,
+      "negativeShare": 0.08823529411764706
+    },
+    "examples": [
+      {
+        "key": "76b727f67abdd42c:C1",
+        "post_id": "76b727f67abdd42c",
+        "claim_id": "C1",
+        "aspect": "外观与内饰",
+        "sentiment": "负面",
+        "content": "作者认为小米SU7方向盘上使用“xiaomi”字样显得低端（low），建议改为与引擎盖一致的“mi”品牌Logo。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "方向盘xiaomi就不能改改？"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "最优方案难道不是和“引擎盖”上的mi品牌logo一致吗？"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "问题就是出在方向盘上，看的是越看越low。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-03-15 12:48:07",
+        "title": "方向盘xiaomi就不能改改？",
+        "url": "https://club.autohome.com.cn/bbs/thread/76b727f67abdd42c/107783950-1.html"
+      },
+      {
+        "key": "59154aae1631a44b:C13",
+        "post_id": "59154aae1631a44b",
+        "claim_id": "C13",
+        "aspect": "外观与内饰",
+        "sentiment": "负面",
+        "content": "作者认为小米SU7的内饰对于20万元级别的车来说尚可接受，但对于30万元级别则显得不足。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "内饰对于20W的车说得过去，对于30W就……"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-07-28 15:40:53",
+        "title": "雷总，对不住了",
+        "url": "https://club.autohome.com.cn/bbs/thread/59154aae1631a44b/108809782-1.html"
+      },
+      {
+        "key": "91929e62cec79584:C2",
+        "post_id": "91929e62cec79584",
+        "claim_id": "C2",
+        "aspect": "外观与内饰",
+        "sentiment": "负面",
+        "content": "作者认为SU7的实体按键容易磕到腿，底盘氛围灯和拾音灯设计过于花哨，不符合其审美偏好。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "实体按键很容易磕到腿，底盘氛围灯和拾音灯我觉得都太花里胡哨了"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2026-08-26 15:21:11",
+        "title": "SU7车载好物-小挂钩",
+        "url": "https://club.autohome.com.cn/bbs/thread/91929e62cec79584/115949490-1.html"
+      },
+      {
+        "key": "a347c586fb07e335:C1",
+        "post_id": "a347c586fb07e335",
+        "claim_id": "C1",
+        "aspect": "外观与内饰",
+        "sentiment": "负面",
+        "content": "作者认为SU7的贯穿式尾灯设计不协调，降低了车辆的整体颜值，并将其视为设计败笔。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "su7的贯穿尾灯看着非常的不协调，降低整个车的颜值"
+          },
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "尾灯是败笔"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2024-01-23 11:09:57",
+        "title": "尾灯是败笔，一定要改",
+        "url": "https://club.autohome.com.cn/bbs/thread/a347c586fb07e335/107450249-1.html"
+      },
+      {
+        "key": "6ee894965e1c4c47:C4",
+        "post_id": "6ee894965e1c4c47",
+        "claim_id": "C4",
+        "aspect": "外观与内饰",
+        "sentiment": "负面",
+        "content": "作者认为小米SU7内饰容易脏，不建议选择白色内饰。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "整车的内饰还是比较容易脏的，如果头脑冲动千万别选白色内饰"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-04-03 14:05:50",
+        "title": "小米SU7是不是典型的中看不中用呢！",
+        "url": "https://club.autohome.com.cn/bbs/thread/6ee894965e1c4c47/107935014-1.html"
+      },
+      {
+        "key": "d1aa098a504906ee:C2",
+        "post_id": "d1aa098a504906ee",
+        "claim_id": "C2",
+        "aspect": "外观与内饰",
+        "sentiment": "正面",
+        "content": "作者观察到新款SU7内饰豪华感提升，方向盘样式与YU7同款更精致，中控台取消运动缝线改为仿皮软包，副中控台按键改为横置便于盲操，杯架增加弹性压钩防止水瓶晃动。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "内饰的豪华感提升是肉眼可见的，方向盘换成了和YU7同款更精致的样式，中控台上那些刻意烘托运动感的缝线被取消了，直接换成了一整块视觉更完整的仿皮软包。最让我欣慰的是副中控台，按键从纵置改成了横置，盲操更顺手。杯架里多了带弹性的压钩，水瓶不再晃荡。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "新款小米SU7"
+          },
+          {
+            "brand": "小米",
+            "series": "YU7",
+            "role": "比较参照对象",
+            "raw_name": "YU7"
+          }
+        ],
+        "date": "2026-06-16 18:55:34",
+        "title": "新SU7不运动了？但它更接近完美了",
+        "url": "https://club.autohome.com.cn/bbs/thread/d1aa098a504906ee/115391051-1.html"
+      },
+      {
+        "key": "0dcee894aea53d33:C1",
+        "post_id": "0dcee894aea53d33",
+        "claim_id": "C1",
+        "aspect": "外观与内饰",
+        "sentiment": "正面",
+        "content": "作者评价小米SU7贴上PET鹦鹉绿改色膜后的视觉效果极佳，认为高饱和度绿色提升了原厂线条的凌厉感，材质通透且质感高级，在阳光下呈现独特光泽。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "原厂线条的凌厉感，被这抹高饱和绿直接拉满✨ PET材质的通透感绝了，阳光下像浸了油的翡翠，暗角处又透着低调的深邃，质感直接封神！"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-11-19 12:39:11",
+        "title": "小米SU7×PET鹦鹉绿｜回头率焊死在99% 谁懂啊！小米S",
+        "url": "https://club.autohome.com.cn/bbs/thread/0dcee894aea53d33/113578011-1.html"
+      },
+      {
+        "key": "f6ff6cc17853b294:C1",
+        "post_id": "f6ff6cc17853b294",
+        "claim_id": "C1",
+        "aspect": "外观与内饰",
+        "sentiment": "中性",
+        "content": "作者计划或正在将其小米SU7改装为类似Ultra的外观风格，具体选用了碳纤维雷神机盖、Ultra原厂大尾翼和原厂金标。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7改Ultra"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "选用碳纤维雷神机盖，Ultra原厂大尾翼，原厂金标"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "作者当前使用对象",
+            "raw_name": "小米SU7"
+          },
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Ultra"
+          }
+        ],
+        "date": "2025-12-21 15:35:20",
+        "title": "小米SU7改Ultra",
+        "url": "https://club.autohome.com.cn/bbs/thread/f6ff6cc17853b294/113913152-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "空间与舒适性",
+    "counts": {
+      "aspect": "空间与舒适性",
+      "claims": 44,
+      "posts": 33,
+      "positive": 16,
+      "negative": 21,
+      "neutral": 1,
+      "other": 6,
+      "negative_posts": 18,
+      "negativeShare": 0.4772727272727273
+    },
+    "examples": [
+      {
+        "key": "cf23c37260d957a3:C8",
+        "post_id": "cf23c37260d957a3",
+        "claim_id": "C8",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者指出小米SU7标准版悬架偏运动，过烂路时后排颠簸感明显；高速时A柱风噪略大；全景天幕隔热偏弱导致夏天车内升温快；入门版后排无通风导致夏季闷热。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "过烂路、高速行驶、夏季高温环境",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "过烂路后排颠簸感明显，高速a柱风噪略大...夏天车内升温快得像烤箱"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "标准版悬架偏运动过烂路后排颠簸感明显，高速a柱风噪略大静谧性还有提升空间。全景天幕原厂隔热偏弱夏天车内升温快得像烤箱。入门版后排没通风夏季闷热感明显"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2026-06-22 17:27:37",
+        "title": "21万买轿跑，小米这波把Model 3逼到墙角了",
+        "url": "https://club.autohome.com.cn/bbs/thread/cf23c37260d957a3/115433416-1.html"
+      },
+      {
+        "key": "d1aa098a504906ee:C4",
+        "post_id": "d1aa098a504906ee",
+        "claim_id": "C4",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者指出新款SU7副驾坐姿存在遗憾，感觉防火墙靠后导致腿部蜷缩，但赠送的零重力座椅能缓解此问题。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "副驾的坐姿有点遗憾，感觉防火墙更靠后，腿有点蜷缩，好在现在零重力座椅也是送的，能缓解不少。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "新款小米SU7"
+          }
+        ],
+        "date": "2026-06-16 18:55:34",
+        "title": "新SU7不运动了？但它更接近完美了",
+        "url": "https://club.autohome.com.cn/bbs/thread/d1aa098a504906ee/115391051-1.html"
+      },
+      {
+        "key": "59154aae1631a44b:C2",
+        "post_id": "59154aae1631a44b",
+        "claim_id": "C2",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者认为小米SU7第二排空间一般，不符合近5米车身的预期，且座椅靠背角度不可调，舒适性较差。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第二排空间一般，不像接近5米的车，且座椅靠背角度不可调，舒适性差评！"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-07-28 15:40:53",
+        "title": "雷总，对不住了",
+        "url": "https://club.autohome.com.cn/bbs/thread/59154aae1631a44b/108809782-1.html"
+      },
+      {
+        "key": "6e24d01513af8f43:C2",
+        "post_id": "6e24d01513af8f43",
+        "claim_id": "C2",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者指出杯托版香氛机的缺点是占用一个杯托空间，如果车内经常放置饮料或奶茶，可能不太合适。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者提到如果车上经常放饮料或者奶茶的情况。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "如果车上经常放饮料或者奶茶"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "缺点就是要占一个杯托的空间，如果车上经常放饮料或者奶茶，可能就没有那么合适了"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2026-09-20 09:26:40",
+        "title": "su7车载好物",
+        "url": "https://club.autohome.com.cn/bbs/thread/6e24d01513af8f43/116193513-1.html"
+      },
+      {
+        "key": "769f093706c571b6:C1",
+        "post_id": "769f093706c571b6",
+        "claim_id": "C1",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者认为该车尺寸过大，导致在拥堵路况下行驶困难且倒车不便，建议驾驶技术不佳的人慎重考虑。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者在拥堵路段驾驶，并尝试倒车。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "开起来有时候路堵的时候非常痛苦...倒车也不方便"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "点就是太大了。c级车真的非常大。开起来有时候路堵的时候非常痛苦，还要想想过不过的去。倒车也不方便。所以技术差的要先想想c级车能不能开起来。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2026-08-07 12:39:25",
+        "title": "su7优缺点。",
+        "url": "https://club.autohome.com.cn/bbs/thread/769f093706c571b6/115798798-1.html"
+      },
+      {
+        "key": "0e9d99b0abd6f19a:C5",
+        "post_id": "0e9d99b0abd6f19a",
+        "claim_id": "C5",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者指出小米SU7后排座椅对大腿支撑性不佳且偏硬，长期乘坐可能不舒适。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "后排座椅对大腿的支撑性不佳，而且座椅有点偏硬，长期乘坐可能不舒适"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-10-16 00:10:11",
+        "title": "年轻人的第一台小米SU7",
+        "url": "https://club.autohome.com.cn/bbs/thread/0e9d99b0abd6f19a/109466958-1.html"
+      },
+      {
+        "key": "a742b1b92a333d21:C2",
+        "post_id": "a742b1b92a333d21",
+        "claim_id": "C2",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者指出小米su7的主要噪声源为路噪和胎噪，且在高速行驶时尤为明显。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "事实陈述",
+        "usage_context": {
+          "summary": "高速行驶",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "高速行驶时尤为明显"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "原车的噪声主要为路噪和胎噪，这种类型的噪声在高速行驶时尤为明显"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米su7"
+          }
+        ],
+        "date": "2026-07-02 09:19:53",
+        "title": "让噪声住嘴 小米su7&路噪、胎噪解决方案",
+        "url": "https://club.autohome.com.cn/bbs/thread/a742b1b92a333d21/115518026-1.html"
+      },
+      {
+        "key": "6ee894965e1c4c47:C1",
+        "post_id": "6ee894965e1c4c47",
+        "claim_id": "C1",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者认为小米SU7后排座椅较平，乘坐时间长易疲劳且无法支撑大腿。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米SU7后排的座椅比较平，像小板凳一样坐在上面，坐时间长了会很累根本撑不住大腿。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-04-03 14:05:50",
+        "title": "小米SU7是不是典型的中看不中用呢！",
+        "url": "https://club.autohome.com.cn/bbs/thread/6ee894965e1c4c47/107935014-1.html"
+      },
+      {
+        "key": "1d927c5b458360c8:C4",
+        "post_id": "1d927c5b458360c8",
+        "claim_id": "C4",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者指出小米SU7后排座椅短小、腿部悬空，对高个子人群不友好。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "后排座椅短小，腿部悬空，对高个不友好"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-05-01 13:56:05",
+        "title": "蔚来车主浅谈小米SU7优劣势",
+        "url": "https://club.autohome.com.cn/bbs/thread/1d927c5b458360c8/108143796-1.html"
+      },
+      {
+        "key": "906335b4087a6ff5:C2",
+        "post_id": "906335b4087a6ff5",
+        "claim_id": "C2",
+        "aspect": "空间与舒适性",
+        "sentiment": "负面",
+        "content": "作者认为小米su7的空间有些局促，稍微挺直腰杆就会碰到车顶。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "但是唯一遗憾的是空间有点局促 稍微挺直腰杆就会碰到车顶"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米su7"
+          }
+        ],
+        "date": "2026-09-20 09:59:21",
+        "title": "试驾体验感受",
+        "url": "https://club.autohome.com.cn/bbs/thread/906335b4087a6ff5/116193929-1.html"
+      },
+      {
+        "key": "ee731c44c2671c69:C6",
+        "post_id": "ee731c44c2671c69",
+        "claim_id": "C6",
+        "aspect": "空间与舒适性",
+        "sentiment": "正面",
+        "content": "作者认为新一代SU7的后排空间变化不大，但增加了后排屏幕、萌宠流转功能以及具备加热功能（最高约45度）的冰箱，提升了后排舒适度和功能性。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "原来小米YU7后排的一个屏，也挪到了这一代SU7的后面"
+          },
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "后排还配有冰箱，这一代的冰箱有加热的功能，最高大概到45度"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "新一代小米SU7 Max"
+          }
+        ],
+        "date": "2026-03-22 14:17:55",
+        "title": "试驾新一代小米SU7，Ultra的青春版？",
+        "url": "https://club.autohome.com.cn/bbs/thread/ee731c44c2671c69/114649568-1.html"
+      },
+      {
+        "key": "c46f9599e31c5112:C1",
+        "post_id": "c46f9599e31c5112",
+        "claim_id": "C1",
+        "aspect": "空间与舒适性",
+        "sentiment": "正面",
+        "content": "作者称通过对小米SU7进行隔音降噪改装，提升了车内舒适性，并有效解决了风噪、胎噪、路噪及发动机噪音问题，实现了静谧的驾驶体验。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "全面提升车内的舒适性。通过在不同部位搭配不同材料，有效解决了风噪、胎噪、路噪以及发动机噪音的困扰，在行驶中享受到静谧的驾驶体验。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-07-07 21:28:04",
+        "title": "小米su7隔音降噪改装升级",
+        "url": "https://club.autohome.com.cn/bbs/thread/c46f9599e31c5112/108640604-1.html"
+      },
+      {
+        "key": "f0c540ddca6d0f9e:C2",
+        "post_id": "f0c540ddca6d0f9e",
+        "claim_id": "C2",
+        "aspect": "空间与舒适性",
+        "sentiment": "中性",
+        "content": "作者认为苏7车身较宽，加上旁边有电线杆，导致停车位置尴尬，车主不敢挪车以免压坏胎压传感器。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "苏7本身就有点宽，边上又有电线杆，车主大概怕压坏胎压传感器，也不敢挪车"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "苏7"
+          }
+        ],
+        "date": "2025-04-19 18:47:44",
+        "title": "路遇苏七关键位置爆胎",
+        "url": "https://club.autohome.com.cn/bbs/thread/f0c540ddca6d0f9e/111426046-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "智能座舱与车机",
+    "counts": {
+      "aspect": "智能座舱与车机",
+      "claims": 37,
+      "posts": 32,
+      "positive": 27,
+      "negative": 5,
+      "neutral": 2,
+      "other": 3,
+      "negative_posts": 5,
+      "negativeShare": 0.13513513513513514
+    },
+    "examples": [
+      {
+        "key": "79aba2b132c3f554:C1",
+        "post_id": "79aba2b132c3f554",
+        "claim_id": "C1",
+        "aspect": "智能座舱与车机",
+        "sentiment": "负面",
+        "content": "作者认为SU7 MAX的HUD清晰度低、分辨率低，显示效果不佳，甚至可能导致视觉疲劳或在路况复杂时遮挡视线，是较大的缺点。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "SU7 MAX 的 HUD 是一个很大的槽点。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第一感受就是不太清晰，有点模糊。或者说分辨率很低。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "导致显示效果低，有些让人晕。虽然不至于挡车与人的视线，但如果前面路况不好，会影响看路上的一些情况，比如坑洼之类的，这个 HUD 基本可以完美挡住。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7 MAX"
+          }
+        ],
+        "date": "2024-05-06 22:02:51",
+        "title": "SU7 MAX 的 HUD 是一个很大的槽点。",
+        "url": "https://club.autohome.com.cn/bbs/thread/79aba2b132c3f554/108175112-1.html"
+      },
+      {
+        "key": "560ba054758a7469:C2",
+        "post_id": "560ba054758a7469",
+        "claim_id": "C2",
+        "aspect": "智能座舱与车机",
+        "sentiment": "负面",
+        "content": "作者经历了一次OTA更新导致刹车参数重置，险些引发事故，由此意识到“软件定义汽车”带来的风险。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一次刹车参数重置的更新险些引发事故，让我意识到“软件定义汽车”的风险。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Pro"
+          }
+        ],
+        "date": "2025-06-24 18:01:58",
+        "title": "每日分享6",
+        "url": "https://club.autohome.com.cn/bbs/thread/560ba054758a7469/112104937-1.html"
+      },
+      {
+        "key": "6ee894965e1c4c47:C3",
+        "post_id": "6ee894965e1c4c47",
+        "claim_id": "C3",
+        "aspect": "智能座舱与车机",
+        "sentiment": "负面",
+        "content": "作者抱怨小米SU7前排冰箱需手动打开，语音助手“小爱同学”无法协助操作。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "前排的中间的冰箱，只能手动打开好麻烦，因为小爱同学帮不了我。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-04-03 14:05:50",
+        "title": "小米SU7是不是典型的中看不中用呢！",
+        "url": "https://club.autohome.com.cn/bbs/thread/6ee894965e1c4c47/107935014-1.html"
+      },
+      {
+        "key": "4d2d1ce29103cdc6:C5",
+        "post_id": "4d2d1ce29103cdc6",
+        "claim_id": "C5",
+        "aspect": "智能座舱与车机",
+        "sentiment": "负面",
+        "content": "作者反馈澎湃OS系统偶尔不稳定，导航时语音唤醒响应较慢。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "使用导航功能时。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "导航时语音唤醒会慢半拍"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "澎湃OS偶尔会有点“小脾气”，导航时语音唤醒会慢半拍"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2026-03-17 17:03:50",
+        "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+        "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html"
+      },
+      {
+        "key": "e00b9aa091996875:C2",
+        "post_id": "e00b9aa091996875",
+        "claim_id": "C2",
+        "aspect": "智能座舱与车机",
+        "sentiment": "负面",
+        "content": "作者认为演唱者功能可能需要通过OTA进行升级。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "但演唱者还需要OTA升级一下"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-05-04 22:13:35",
+        "title": "随拍感受一下小米SU7的音响和暗光下氛围灯效果，麦克风很小巧",
+        "url": "https://club.autohome.com.cn/bbs/thread/e00b9aa091996875/108162081-1.html"
+      },
+      {
+        "key": "ec3c7450a42f3a19:C1",
+        "post_id": "ec3c7450a42f3a19",
+        "claim_id": "C1",
+        "aspect": "智能座舱与车机",
+        "sentiment": "正面",
+        "content": "作者认为小米SU7的哨兵模式功能强大，具备六路影像实时查看、利用外部扬声器进行远程实时喊话、远程鸣笛和开灯等功能，并对该功能的实现效果给予正面评价。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7这哨兵模式有点厉害啊"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "六路影像可以实时查看 而且之前的外部扬声器，竟然是可以远程实时喊话用的…还能远程鸣笛和开灯 这功能，给小米做明白了"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-04-07 19:38:48",
+        "title": "小米SU7这哨兵模式有点厉害啊",
+        "url": "https://club.autohome.com.cn/bbs/thread/ec3c7450a42f3a19/107960935-1.html"
+      },
+      {
+        "key": "852adac9a9a65348:C4",
+        "post_id": "852adac9a9a65348",
+        "claim_id": "C4",
+        "aspect": "智能座舱与车机",
+        "sentiment": "正面",
+        "content": "作者提到新款上线了舒淇专属语音彩蛋，包含上车欢迎语、小憩模式和超速提示，作者认为声音温柔，并对老车未来能通过OTA获得类似功能抱有期待。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "现在还上线了专属语音彩蛋，上车欢迎语、小憩模式、超速提示都有她的声音，听着还挺温柔的。"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "实话有点羡慕新款的语音彩蛋，但老车也不差，等后续OTA说不定也能更上。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "新一代SU7"
+          }
+        ],
+        "date": "2026-03-24 08:15:38",
+        "title": "小米SU7交付现场，老车主路过感慨两句",
+        "url": "https://club.autohome.com.cn/bbs/thread/852adac9a9a65348/114665444-1.html"
+      },
+      {
+        "key": "3ebd953cacf9b9a2:C7",
+        "post_id": "3ebd953cacf9b9a2",
+        "claim_id": "C7",
+        "aspect": "智能座舱与车机",
+        "sentiment": "中性",
+        "content": "作者建议在车机安全辅助中，老司机将前方防碰撞辅助设置为较晚，新手设置为尽早或适中，以避免急刹惊吓或追尾。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "另外在车机-安全辅助，前方防碰撞辅助功能选项里，如果是老司机就设置较晚，那新手就设置尽早或适中。宁可被它急刹吓死！也不能去亲别家车的屁股"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-02-12 18:14:00",
+        "title": "小米Su7驾驭心得",
+        "url": "https://club.autohome.com.cn/bbs/thread/3ebd953cacf9b9a2/110660810-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "驾驶与操控",
+    "counts": {
+      "aspect": "驾驶与操控",
+      "claims": 29,
+      "posts": 26,
+      "positive": 24,
+      "negative": 3,
+      "neutral": 2,
+      "other": 0,
+      "negative_posts": 3,
+      "negativeShare": 0.10344827586206896
+    },
+    "examples": [
+      {
+        "key": "cf23c37260d957a3:C7",
+        "post_id": "cf23c37260d957a3",
+        "claim_id": "C7",
+        "aspect": "驾驶与操控",
+        "sentiment": "负面",
+        "content": "作者指出小米SU7底盘离地间隙偏小，在下地库、过减速带、乡村坑洼路及碎石路面时需要减速避让，容易蹭底盘。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "下地库、过减速带、乡村坑洼路及碎石路面",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "下地库过减速带得减速避让，乡村坑洼路碎石路面容易蹭底盘"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "底盘离地间隙偏小下地库过减速带得减速避让，乡村坑洼路碎石路面容易蹭底盘"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2026-06-22 17:27:37",
+        "title": "21万买轿跑，小米这波把Model 3逼到墙角了",
+        "url": "https://club.autohome.com.cn/bbs/thread/cf23c37260d957a3/115433416-1.html"
+      },
+      {
+        "key": "6ee894965e1c4c47:C6",
+        "post_id": "6ee894965e1c4c47",
+        "claim_id": "C6",
+        "aspect": "驾驶与操控",
+        "sentiment": "负面",
+        "content": "作者认为小米SU7在0至130km/h区间内方向盘手感偏轻（飘），减震效果不佳。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者驾驶车辆加速至130km/h。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "从0码到130之间"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "从0码到130之间方向盘比较飘，减震还是比较拉胯的。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-04-03 14:05:50",
+        "title": "小米SU7是不是典型的中看不中用呢！",
+        "url": "https://club.autohome.com.cn/bbs/thread/6ee894965e1c4c47/107935014-1.html"
+      },
+      {
+        "key": "b574e5431f64b990:C1",
+        "post_id": "b574e5431f64b990",
+        "claim_id": "C1",
+        "aspect": "驾驶与操控",
+        "sentiment": "负面",
+        "content": "作者认为小米SU7 Pro的底盘高度较低。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "众所周知，小米的底盘太低了"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Pro"
+          }
+        ],
+        "date": "2025-02-14 08:32:28",
+        "title": "探讨一下换轮胎的问题",
+        "url": "https://club.autohome.com.cn/bbs/thread/b574e5431f64b990/110674759-1.html"
+      },
+      {
+        "key": "59154aae1631a44b:C8",
+        "post_id": "59154aae1631a44b",
+        "claim_id": "C8",
+        "aspect": "驾驶与操控",
+        "sentiment": "正面",
+        "content": "作者称赞小米SU7的提速、刹车和变线响应迅速精准，操控感受轻盈灵活，不像笨重的大型电动车，表现出优秀的C级车尺寸下的A级车操控水平。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "提速，刹车，变线要怎么样就来怎么样的反应，开起来让人安心放心，完全不像开台笨重的大电车，C级车尺寸，A级车操控，优秀！"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-07-28 15:40:53",
+        "title": "雷总，对不住了",
+        "url": "https://club.autohome.com.cn/bbs/thread/59154aae1631a44b/108809782-1.html"
+      },
+      {
+        "key": "1ddff589e861ddea:C3",
+        "post_id": "1ddff589e861ddea",
+        "claim_id": "C3",
+        "aspect": "驾驶与操控",
+        "sentiment": "正面",
+        "content": "作者在实际驾驶中认为小米SU7动力响应迅速、加速平顺，在城市街道和高速公路上都能轻松应对，满足了对速度的追求。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "作者在城市街道和高速公路进行实际驾驶。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "无论是城市街道还是高速公路，都能轻松应对。"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在实际驾驶中，动力响应迅速，加速平顺，无论是城市街道还是高速公路，都能轻松应对。满足了驾驶者对于速度的追求。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-04-25 05:44:11",
+        "title": "小米SU7值得拥有",
+        "url": "https://club.autohome.com.cn/bbs/thread/1ddff589e861ddea/111490633-1.html"
+      },
+      {
+        "key": "3ebd953cacf9b9a2:C5",
+        "post_id": "3ebd953cacf9b9a2",
+        "claim_id": "C5",
+        "aspect": "驾驶与操控",
+        "sentiment": "中性",
+        "content": "作者建议提车后首先磨合刹车片，关闭或调低动力回收，利用临牌期多跑路面以熟悉刹车脚感和性能。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "交付与上手",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "新车提车初期，使用临牌期间进行路面行驶以磨合刹车。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "提到新车，第一件重要事一定要先磨合刹车片！把动力回收全关或者设置为5-10%，充分利用好临牌的周期，多跑跑地面"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "提到新车，第一件重要事一定要先磨合刹车片！把动力回收全关或者设置为5-10%，充分利用好临牌的周期，多跑跑地面，多试着去调整自己的刹车脚感！尽快熟悉自己爱车的刹车性能。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-02-12 18:14:00",
+        "title": "小米Su7驾驭心得",
+        "url": "https://club.autohome.com.cn/bbs/thread/3ebd953cacf9b9a2/110660810-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "配置与功能",
+    "counts": {
+      "aspect": "配置与功能",
+      "claims": 22,
+      "posts": 20,
+      "positive": 12,
+      "negative": 4,
+      "neutral": 5,
+      "other": 1,
+      "negative_posts": 3,
+      "negativeShare": 0.18181818181818182
+    },
+    "examples": [
+      {
+        "key": "c05d74ec91836426:C5",
+        "post_id": "c05d74ec91836426",
+        "claim_id": "C5",
+        "aspect": "配置与功能",
+        "sentiment": "负面",
+        "content": "作者认为小米SU7原厂音响音质一般，仅能满足基础听歌，追求好音质会失望。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "原厂音响音质比较一般，只能满足基础听歌，追求好音质会失望"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2026-09-02 05:44:14",
+        "title": "1.?小米SU7真实感受：颜值操控打动我，音响和遮阳帘留遗憾",
+        "url": "https://club.autohome.com.cn/bbs/thread/c05d74ec91836426/116008823-1.html"
+      },
+      {
+        "key": "7feaaa6d771f39fa:C2",
+        "post_id": "7feaaa6d771f39fa",
+        "claim_id": "C2",
+        "aspect": "配置与功能",
+        "sentiment": "负面",
+        "content": "作者建议不要在小米SU7上使用香片，暗示香片可能与异味有关或加重异味。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "不要再用香片啦"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-01-13 09:50:38",
+        "title": "小米su7车上有异味，不要再用香片啦",
+        "url": "https://club.autohome.com.cn/bbs/thread/7feaaa6d771f39fa/110398439-1.html"
+      },
+      {
+        "key": "6d727d7f70db0b3c:C8",
+        "post_id": "6d727d7f70db0b3c",
+        "claim_id": "C8",
+        "aspect": "配置与功能",
+        "sentiment": "负面",
+        "content": "作者指出快慢充接口只有一个盖子且没有防丢绳，容易丢失且不易察觉。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "比如说，快慢充接口就留了一个盖子，也没有防丢绳，掉了都可能没注意到。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Max"
+          }
+        ],
+        "date": "2024-06-13 21:30:33",
+        "title": "雅灰+暮山红，SU7颜值是真能打！",
+        "url": "https://club.autohome.com.cn/bbs/thread/6d727d7f70db0b3c/108454751-1.html"
+      },
+      {
+        "key": "a6d09133074c8e35:C2",
+        "post_id": "a6d09133074c8e35",
+        "claim_id": "C2",
+        "aspect": "配置与功能",
+        "sentiment": "正面",
+        "content": "卖家宣称该车配备宁德时代电池、续航830公里、Nappa真皮座椅（含按摩/通风/加热/记忆功能）、Xiaomi Pilot Max高阶智驾（支持城市/高速NOA）及骁龙8295芯片，并选装了电动尾翼。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "事实陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "宁德时代电池，续航830公里，Nap真皮座椅，座椅按摩通风加热记忆， xiaomi Pilot max高阶智驾，城市和高速NOA；晓龙8295芯片；智能流畅，选装：电动尾翼"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 后驱超长续航Pro版"
+          }
+        ],
+        "date": "2026-07-09 16:39:47",
+        "title": "新到小米Su7 ，后驱超长续航pro版，个人一手，原版原漆，",
+        "url": "https://club.autohome.com.cn/bbs/thread/a6d09133074c8e35/115577166-1.html"
+      },
+      {
+        "key": "af46e000d9639a3b:C2",
+        "post_id": "af46e000d9639a3b",
+        "claim_id": "C2",
+        "aspect": "配置与功能",
+        "sentiment": "正面",
+        "content": "作者列举车辆的高阶配置，包括抬头显示、空气悬架、电吸门、电动尾翼、前备箱、800V超快充、真皮座椅/方向盘、宁德时代磷酸铁锂电池、白色外观、21英寸熏黑米型轮毂及车载冰箱等，强调配置齐全。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "事实陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "配置一应俱全: 抬头显示，空气悬架，电吸门，电动尾翼，前备箱，续航800公里，支持800V超快充，真皮座椅，真皮方向盘，搭载宁德时代磷酸铁锂电池 选装 白色外观，21英寸熏黑米型轮毂，车载冰箱等"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "2024款 小米SU7 Max"
+          }
+        ],
+        "date": "2026-09-16 22:08:51",
+        "title": "2024款 四驱超长续航高阶智驾Max版",
+        "url": "https://club.autohome.com.cn/bbs/thread/af46e000d9639a3b/116160603-1.html"
+      },
+      {
+        "key": "9f4b4b7af42aac96:C1",
+        "post_id": "9f4b4b7af42aac96",
+        "claim_id": "C1",
+        "aspect": "配置与功能",
+        "sentiment": "中性",
+        "content": "作者展示了对小米SU7进行刹车系统改装的方案，将原厂19寸轮毂改为迈拓MX6高性能街道版六活塞卡钳，并搭配378打孔盘。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "事实陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7 原厂19寸改迈拓MX6 高性能街道版六活塞卡钳 搭配378打孔盘"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-04-08 18:03:12",
+        "title": "小米SU7 原厂19寸改迈拓MX6 高性能街道版六活塞卡钳",
+        "url": "https://club.autohome.com.cn/bbs/thread/9f4b4b7af42aac96/111290631-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "续航与能耗",
+    "counts": {
+      "aspect": "续航与能耗",
+      "claims": 18,
+      "posts": 17,
+      "positive": 13,
+      "negative": 2,
+      "neutral": 2,
+      "other": 1,
+      "negative_posts": 2,
+      "negativeShare": 0.1111111111111111
+    },
+    "examples": [
+      {
+        "key": "e3322fb90b3349d5:C7",
+        "post_id": "e3322fb90b3349d5",
+        "claim_id": "C7",
+        "aspect": "续航与能耗",
+        "sentiment": "负面",
+        "content": "作者在北京冬季低温（早-9℃，午6℃）且开启暖风的情况下，驾驶小米SU7 PRO行驶约165公里，百公里电耗约为19度，充电花费89元，折合每公里电费5毛2，认为成本不低。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "北京冬季，气温低至零下9度，最高6度，开启暖风，行驶约165公里。",
+          "evidence": [
+            {
+              "block_id": "T6",
+              "source_type": "text",
+              "quote": "因为今天北京早上最低温度零下9度，下午最热温度6度，所以取暖的情况下"
+            },
+            {
+              "block_id": "T6",
+              "source_type": "text",
+              "quote": "一天下来大约跑了165公里"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "因为今天北京早上最低温度零下9度，下午最热温度6度，所以取暖的情况下，百公里大约电耗19度电。"
+          },
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "一天下来大约跑了165公里，充电花费89元。每公里也要5毛2的电费。"
+          },
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "但是今天每公里花费5毛2电费，着实不省钱。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 PRO"
+          }
+        ],
+        "date": "2026-01-08 22:14:32",
+        "title": "在北京租一天SU7去慕田峪长城真实感受！",
+        "url": "https://club.autohome.com.cn/bbs/thread/e3322fb90b3349d5/114085737-1.html"
+      },
+      {
+        "key": "d0a15a987d349ae8:C2",
+        "post_id": "d0a15a987d349ae8",
+        "claim_id": "C2",
+        "aspect": "续航与能耗",
+        "sentiment": "负面",
+        "content": "作者指出该车电耗偏高，日常通勤能耗不理想。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者进行日常通勤。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "日常通勤能耗不算理想"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "美中不足电耗偏高，日常通勤能耗不算理想"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": true,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 2026标准版"
+          }
+        ],
+        "date": "2026-08-17 23:07:24",
+        "title": "su7",
+        "url": "https://club.autohome.com.cn/bbs/thread/d0a15a987d349ae8/115878046-1.html"
+      },
+      {
+        "key": "60321b040305696e:C1",
+        "post_id": "60321b040305696e",
+        "claim_id": "C1",
+        "aspect": "续航与能耗",
+        "sentiment": "正面",
+        "content": "作者指出小米SU7充满73.6度电池消耗了87.86度电，并类比新手机电池健康度下降后续航感知的变化，认为这种出厂预充至超过额定容量的做法思路正确，且大多数人不会在意额外的电费成本。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "【小米SU7充满73.6度电池，费了87.86度电】"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "100的电池包，出厂预制到105，思路是对的，大家都满意，相信没人在乎这10来度的电费吧？"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-05-22 09:27:16",
+        "title": "【小米SU7充满73.6度电池，费了87.86度电】 就跟新",
+        "url": "https://club.autohome.com.cn/bbs/thread/60321b040305696e/108284375-1.html"
+      },
+      {
+        "key": "bda013863fdf7971:C5",
+        "post_id": "bda013863fdf7971",
+        "claim_id": "C5",
+        "aspect": "续航与能耗",
+        "sentiment": "正面",
+        "content": "作者总结认为该车在日常使用中非常省电，动力随叫随到，在深圳气候条件下能发挥大部分实力，建议潜在买家无需担心四驱费电问题。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "如果你也在看这款车，不用担心四驱费电。日常当普通车开，它很省；想爽一下的时候，动力随时都在。在深圳这种气候好的地方，这车基本能发挥出八九成的实力。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Max"
+          }
+        ],
+        "date": "2026-04-21 10:23:29",
+        "title": "【真实能耗报告】小米SU7 Max四驱长测双电机也能这么省",
+        "url": "https://club.autohome.com.cn/bbs/thread/bda013863fdf7971/114920592-1.html"
+      },
+      {
+        "key": "0d69f5d8d5db56d6:C3",
+        "post_id": "0d69f5d8d5db56d6",
+        "claim_id": "C3",
+        "aspect": "续航与能耗",
+        "sentiment": "中性",
+        "content": "作者对比了不同驾驶策略下的能耗表现，认为若要获得满分安全分，能耗通常会高于采用激进能量回收策略的情况。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "推断解释",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "当然也有0动能回收选手 那真的要彻底佛系开车 100的安全分 能耗才下得来"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "su7"
+          }
+        ],
+        "date": "2025-09-24 11:55:28",
+        "title": "炫耀一下su7的能耗",
+        "url": "https://club.autohome.com.cn/bbs/thread/0d69f5d8d5db56d6/112990725-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "智能驾驶",
+    "counts": {
+      "aspect": "智能驾驶",
+      "claims": 18,
+      "posts": 16,
+      "positive": 9,
+      "negative": 7,
+      "neutral": 1,
+      "other": 1,
+      "negative_posts": 6,
+      "negativeShare": 0.3888888888888889
+    },
+    "examples": [
+      {
+        "key": "05d393e87e7928d6:C2",
+        "post_id": "05d393e87e7928d6",
+        "claim_id": "C2",
+        "aspect": "智能驾驶",
+        "sentiment": "负面",
+        "content": "作者对小米Su7的辅助驾驶表现感到失望，质疑其在特定路况下的应对逻辑，认为正常保持和变道虽成熟，但在极端偶发事件面前可能存在应对不足。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米Su7的辅助驾驶让我失望了"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "像现在的辅助驾驶水平，正常的保持、变道等很成熟，一个新的品牌新的系统，是否在一些极端偶发事件面前会应对不足。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米Su7"
+          }
+        ],
+        "date": "2024-08-12 21:26:50",
+        "title": "小米Su7的辅助驾驶让我失望了",
+        "url": "https://club.autohome.com.cn/bbs/thread/05d393e87e7928d6/108925799-1.html"
+      },
+      {
+        "key": "3ebd953cacf9b9a2:C9",
+        "post_id": "3ebd953cacf9b9a2",
+        "claim_id": "C9",
+        "aspect": "智能驾驶",
+        "sentiment": "负面",
+        "content": "作者认为在雨天、地库及车位线模糊场景下应谨慎使用自动泊车，因其功能Bug较多，三款配置识别率都不高，且倒车速度默认为快需调整为标准。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "在雨天、地下车库及车位线模糊的场景下尝试使用自动泊车。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "下雨天，地库，还有车位线模糊的场景，请谨慎使用自动泊车功能"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "下雨天，地库，还有车位线模糊的场景，请谨慎使用自动泊车功能（倒车速度设置成标准，默认是快），自动泊车这块的功能bug也是真多[汗颜R]三款配置里识别率都不高。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-02-12 18:14:00",
+        "title": "小米Su7驾驭心得",
+        "url": "https://club.autohome.com.cn/bbs/thread/3ebd953cacf9b9a2/110660810-1.html"
+      },
+      {
+        "key": "bb5e00a580ccaa37:C6",
+        "post_id": "bb5e00a580ccaa37",
+        "claim_id": "C6",
+        "aspect": "智能驾驶",
+        "sentiment": "负面",
+        "content": "作者体验小米SU7标配智能辅助驾驶系统时，感觉开启简单，但驾驶流畅度和舒适性一般，表现为提速过快、推背感明显且停车急刹不够柔和。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "作者在实际驾驶过程中开启了智能辅助驾驶系统进行体验。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "体验标配的智能辅助驾驶系统，在体验过程感觉开启的方式很简单"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "驾驶过程中感觉驾驶体验的流畅度和舒适性比较一般，有点生猛，开启后提速太快了，推背感明显，停车时最后会来上一下急刹，不够柔和。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-09-24 23:13:17",
+        "title": "买小米SU7别指望它的智能辅助驾驶！",
+        "url": "https://club.autohome.com.cn/bbs/thread/bb5e00a580ccaa37/112997919-1.html"
+      },
+      {
+        "key": "e024a801eee64c1f:C2",
+        "post_id": "e024a801eee64c1f",
+        "claim_id": "C2",
+        "aspect": "智能驾驶",
+        "sentiment": "负面",
+        "content": "作者在尝试遥控泊车功能时遇到蓝牙连接中断，导致车辆在行驶过程中停止，作者认为使用该功能存在风险，建议等待车辆完全停稳后再离开。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "作者在使用遥控泊车功能时，手机与车机蓝牙连接中断。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "我试过一次，中途蓝牙突然断了"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我试过一次，中途蓝牙突然断了，结果车子直接停在半道不动了，吓得我赶紧走过去看。所以提醒大家，用这功能一定要等车完全停稳、停好之后再离开，不然真有风险。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2025-09-15 01:16:28",
+        "title": "SU7控车值多少，一起聊聊",
+        "url": "https://club.autohome.com.cn/bbs/thread/e024a801eee64c1f/112892669-1.html"
+      },
+      {
+        "key": "5895b51bcebf2c13:C4",
+        "post_id": "5895b51bcebf2c13",
+        "claim_id": "C4",
+        "aspect": "智能驾驶",
+        "sentiment": "负面",
+        "content": "作者认为该车辅助驾驶在高速高架尚可，但城区表现极差，存在习惯性靠右、乱变道等吓人现象，且自动泊车识别无画线车位的能力较弱。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者在高速高架及城区道路使用辅助驾驶，并尝试在无画线车位进行自动泊车。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "小米的辅助驾驶高速高架还算可以，但城区现在依旧是一坨...没有画线的车位目前识别不出。"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米的辅助驾驶高速高架还算可以，但城区现在依旧是一坨，基本不能用，先不说习惯性的靠右，乱变道就蛮吓人的，同时自动泊车识别车位能力还是比较弱，没有画线的车位目前识别不出。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "新一代小米SU7标准版"
+          }
+        ],
+        "date": "2026-08-07 10:15:27",
+        "title": "新一代小米su7标准版优缺点",
+        "url": "https://club.autohome.com.cn/bbs/thread/5895b51bcebf2c13/115797229-1.html"
+      },
+      {
+        "key": "9f09473f23bafc55:C1",
+        "post_id": "9f09473f23bafc55",
+        "claim_id": "C1",
+        "aspect": "智能驾驶",
+        "sentiment": "负面",
+        "content": "作者称小米SU7在自动泊车过程中出现了尾部撞损。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这是小米su7自动泊车出现的尾部撞损"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2026-07-07 17:44:35",
+        "title": "这是小米su7自动泊车出现的尾部撞损。居然以雷达位置低，后面",
+        "url": "https://club.autohome.com.cn/bbs/thread/9f09473f23bafc55/115561944-1.html"
+      },
+      {
+        "key": "e3322fb90b3349d5:C2",
+        "post_id": "e3322fb90b3349d5",
+        "claim_id": "C2",
+        "aspect": "智能驾驶",
+        "sentiment": "正面",
+        "content": "作者首次体验小米SU7 PRO的自动驾驶功能，认为其在京承高速及北京二环等复杂路况下表现强劲，易于上瘾，但遇到其他车辆不让行时需人工介入变道。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "从京承高速行驶至北京二环，期间遭遇严重交通拥堵。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "从京承高速，一直用到北京的二环"
+            },
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "北京二环三环超级堵车"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "真的很好用啊，从京承高速，一直用到北京的二环，自动驾驶都能工作，真的太强了！"
+          },
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "用了自动驾驶，真的会上瘾，人会偷懒。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 PRO"
+          }
+        ],
+        "date": "2026-01-08 22:14:32",
+        "title": "在北京租一天SU7去慕田峪长城真实感受！",
+        "url": "https://club.autohome.com.cn/bbs/thread/e3322fb90b3349d5/114085737-1.html"
+      },
+      {
+        "key": "ee731c44c2671c69:C11",
+        "post_id": "ee731c44c2671c69",
+        "claim_id": "C11",
+        "aspect": "智能驾驶",
+        "sentiment": "正面",
+        "content": "作者指出新一代SU7标配激光雷达并更新了XLA智驾版本，实际体验中变道更果断，决策能力提升，令老款车主羡慕。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "现在最基本的标准版它都标配了激光雷达，同时这一次新一代小米SU7上了XLA的更新版本"
+          },
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "从实际的体验来看，比之前变道更果断，还有它在决策上面的一些倾向，确确实实有非常多的提高。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "新一代小米SU7 Max"
+          }
+        ],
+        "date": "2026-03-22 14:17:55",
+        "title": "试驾新一代小米SU7，Ultra的青春版？",
+        "url": "https://club.autohome.com.cn/bbs/thread/ee731c44c2671c69/114649568-1.html"
+      },
+      {
+        "key": "a978e1d4810074cf:C4",
+        "post_id": "a978e1d4810074cf",
+        "claim_id": "C4",
+        "aspect": "智能驾驶",
+        "sentiment": "中性",
+        "content": "作者尝试开启智驾，发现默认开启的是车道保持，未能体验到NOA功能，推测可能需要考试解锁。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "作者在租赁车辆上尝试操作智驾功能。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "因为是租的车，账号是车行的我也就没研究"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "智驾按下去开启的是车道保持，NOA没体验出来，大概是要考试才能用？"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2024-10-27 13:45:52",
+        "title": "SU7租车试驾有感",
+        "url": "https://club.autohome.com.cn/bbs/thread/a978e1d4810074cf/109583115-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "可靠性与故障",
+    "counts": {
+      "aspect": "可靠性与故障",
+      "claims": 14,
+      "posts": 13,
+      "positive": 3,
+      "negative": 7,
+      "neutral": 4,
+      "other": 0,
+      "negative_posts": 7,
+      "negativeShare": 0.5
+    },
+    "examples": [
+      {
+        "key": "6d78e7b270ae826f:C3",
+        "post_id": "6d78e7b270ae826f",
+        "claim_id": "C3",
+        "aspect": "可靠性与故障",
+        "sentiment": "负面",
+        "content": "作者指出在上传自定义音频时，若文件格式编码不兼容或体积过大可能导致上传失败或无法播放，建议使用第三方工具转换为标准格式。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "但这里有个坑——很多手机导出的音频看着是MP3，实际编码可能不兼容，或者文件体积太大导致上传失败。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "Q：为什么上传的音频播放不了？\nA：大概率是格式或编码问题。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2026-07-15 23:17:31",
+        "title": "小米SU7隐藏玩法！锁车音效还能这么玩，手把手教你设置",
+        "url": "https://club.autohome.com.cn/bbs/thread/6d78e7b270ae826f/115619917-1.html"
+      },
+      {
+        "key": "5eda7e45286a68d8:C2",
+        "post_id": "5eda7e45286a68d8",
+        "claim_id": "C2",
+        "aspect": "可靠性与故障",
+        "sentiment": "负面",
+        "content": "作者担心小米SU7灰白内饰材质的耐污性能，因为其孩子弄脏东西的能力很强，并表示后续要一起见证。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "推断解释",
+        "usage_context": {
+          "summary": "作者家中有小孩，可能会造成内饰污渍。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "我儿的能量是很大的！"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "就是不知道小米这材质耐污性能怎么样，我儿的能量是很大的！后续咱们一起见证吧。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-04-13 17:47:20",
+        "title": "五彩斑斓的白，小米SU7这灰白内饰真好看",
+        "url": "https://club.autohome.com.cn/bbs/thread/5eda7e45286a68d8/108003617-1.html"
+      },
+      {
+        "key": "f0c540ddca6d0f9e:C4",
+        "post_id": "f0c540ddca6d0f9e",
+        "claim_id": "C4",
+        "aspect": "可靠性与故障",
+        "sentiment": "负面",
+        "content": "作者质疑苏7轮胎是否过于脆弱，指出事发道路条件良好且车速不会快，具体爆胎原因未知。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "提问",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "苏7的轮胎有这么脆弱吗，这条路肯定开不快，道路条件也不错，具体原因不知道了"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "苏7"
+          }
+        ],
+        "date": "2025-04-19 18:47:44",
+        "title": "路遇苏七关键位置爆胎",
+        "url": "https://club.autohome.com.cn/bbs/thread/f0c540ddca6d0f9e/111426046-1.html"
+      },
+      {
+        "key": "3ebd953cacf9b9a2:C8",
+        "post_id": "3ebd953cacf9b9a2",
+        "claim_id": "C8",
+        "aspect": "可靠性与故障",
+        "sentiment": "负面",
+        "content": "作者指出小米SU7在大灯总成损坏时，维修费用高达5500-6500元。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "维修与售后",
+        "statement": "事实陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一套大灯总成5500-6500。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-02-12 18:14:00",
+        "title": "小米Su7驾驭心得",
+        "url": "https://club.autohome.com.cn/bbs/thread/3ebd953cacf9b9a2/110660810-1.html"
+      },
+      {
+        "key": "35a3503035fa3465:C1",
+        "post_id": "35a3503035fa3465",
+        "claim_id": "C1",
+        "aspect": "可靠性与故障",
+        "sentiment": "负面",
+        "content": "作者称其小米SU7在开出交付中心39公里后在高速上抛锚。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "交付与上手",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "车辆在高速公路上行驶，距离交付中心39公里处发生故障。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "开出交付中心39公里 就在高速上抛锚"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "刚提的小米SU7 开出交付中心39公里 就在高速上抛锚"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-05-08 13:57:58",
+        "title": "su7又趴窝了",
+        "url": "https://club.autohome.com.cn/bbs/thread/35a3503035fa3465/108185709-1.html"
+      },
+      {
+        "key": "6fff4f4f1b95bab5:C1",
+        "post_id": "6fff4f4f1b95bab5",
+        "claim_id": "C1",
+        "aspect": "可靠性与故障",
+        "sentiment": "负面",
+        "content": "作者抱怨刹车盘生锈严重，认为车辆质量差，感到害怕。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "刹车盘生锈成这样，什么质量，吓人吓人"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "透过轮毂辐条可以看到内部黄色的刹车卡钳以及带有锈迹的刹车盘"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-06-21 07:50:53",
+        "title": "刹车盘生锈成这样，什么质量，吓人吓人",
+        "url": "https://club.autohome.com.cn/bbs/thread/6fff4f4f1b95bab5/112070727-1.html"
+      },
+      {
+        "key": "c9676870eaa8c483:C1",
+        "post_id": "c9676870eaa8c483",
+        "claim_id": "C1",
+        "aspect": "可靠性与故障",
+        "sentiment": "负面",
+        "content": "作者报告小米SU7的高位刹车灯脱落。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "事实陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米su7高位刹车灯掉了"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-08-07 17:52:48",
+        "title": "小米su7高位刹车灯掉了",
+        "url": "https://club.autohome.com.cn/bbs/thread/c9676870eaa8c483/112502072-1.html"
+      },
+      {
+        "key": "be6402ad4c11c60b:C2",
+        "post_id": "be6402ad4c11c60b",
+        "claim_id": "C2",
+        "aspect": "可靠性与故障",
+        "sentiment": "正面",
+        "content": "作者指出该改装尾翼在日常露天停放环境下耐候性好，不易发黄褪色，且抗轻微石子飞溅划痕能力强，长期使用保持崭新。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "车辆日常露天停放，经历日晒雨淋及轻微石子飞溅。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "日常露天停放，无惧日晒雨淋...轻微石子飞溅"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "日常露天停放，无惧日晒雨淋，不容易发黄褪色。轻微石子飞溅也不易留划痕，长期使用依旧崭新亮眼"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2026-08-10 16:11:07",
+        "title": "小米su7改装尾翼漆面质感拉满，和原车漆完美呼应",
+        "url": "https://club.autohome.com.cn/bbs/thread/be6402ad4c11c60b/115822951-1.html"
+      },
+      {
+        "key": "e48a9d230a4e968a:C4",
+        "post_id": "e48a9d230a4e968a",
+        "claim_id": "C4",
+        "aspect": "可靠性与故障",
+        "sentiment": "正面",
+        "content": "作者观察到电动汽车在行驶过程中温度表现正常，没有出现类似燃油车发动机过热发烫的情况。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "电车就没这情况，开着开着，温度挺正常。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-01-22 14:13:54",
+        "title": "小米su7用车感受",
+        "url": "https://club.autohome.com.cn/bbs/thread/e48a9d230a4e968a/110498240-1.html"
+      },
+      {
+        "key": "e7880cf105fc94fc:C1",
+        "post_id": "e7880cf105fc94fc",
+        "claim_id": "C1",
+        "aspect": "可靠性与故障",
+        "sentiment": "中性",
+        "content": "作者询问在经常进行120-150km/h高速行驶、急加速和频繁重刹的驾驶条件下，是否需要更换小米su7的刹车片和刹车盘及其他部件。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "提问",
+        "usage_context": {
+          "summary": "作者自述平时驾驶小米su7时速在120至150左右，常急加速并伴随频繁重刹。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "如果平时开小米su7总是偏暴力驾驶，120 140 150左右，大脚给电门 地板电，又总踩刹车，夹杂着重刹"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "如果平时开小米su7总是偏暴力驾驶，120 140 150左右，大脚给电门 地板电，又总踩刹车，夹杂着重刹，，需不需要 更换刹车片、刹车盘，还有别的东西？"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米su7"
+          }
+        ],
+        "date": "2024-12-07 09:21:55",
+        "title": "关于小米刹车问题，有些疑惑",
+        "url": "https://club.autohome.com.cn/bbs/thread/e7880cf105fc94fc/110001089-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "品牌与口碑",
+    "counts": {
+      "aspect": "品牌与口碑",
+      "claims": 12,
+      "posts": 12,
+      "positive": 8,
+      "negative": 2,
+      "neutral": 0,
+      "other": 2,
+      "negative_posts": 2,
+      "negativeShare": 0.16666666666666666
+    },
+    "examples": [
+      {
+        "key": "de660a335338f489:C4",
+        "post_id": "de660a335338f489",
+        "claim_id": "C4",
+        "aspect": "品牌与口碑",
+        "sentiment": "负面",
+        "content": "作者认为此次提车经历让其感受到被轻视和区别对待，破坏了品牌带来的美好体验与归属感，并要求小米给出合理解释和补救措施。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "交付与上手",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这早已不是几件礼品的小事，而是一种被轻视、被区别对待的感受。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我希望小米汽车能对此给出一个真正合理、诚恳的解释和补救措施。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-12-15 14:14:08",
+        "title": "一次心酸的小米SU7提车记：被区别对待的“后妈生的”客户 今",
+        "url": "https://club.autohome.com.cn/bbs/thread/de660a335338f489/113849811-1.html"
+      },
+      {
+        "key": "da32b76c7ad59174:C3",
+        "post_id": "da32b76c7ad59174",
+        "claim_id": "C3",
+        "aspect": "品牌与口碑",
+        "sentiment": "负面",
+        "content": "作者质疑车商是否考虑到小电瓶亏电导致无法开门的问题。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车商有没有想到这问题"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2024-03-30 09:29:24",
+        "title": "su7小电瓶没有电的时候，没有机械钥匙，怎么开门锁，停放几个",
+        "url": "https://club.autohome.com.cn/bbs/thread/da32b76c7ad59174/107904414-1.html"
+      },
+      {
+        "key": "53565bfefd3130ef:C1",
+        "post_id": "53565bfefd3130ef",
+        "claim_id": "C1",
+        "aspect": "品牌与口碑",
+        "sentiment": "正面",
+        "content": "作者参加了一场由多位小米车主组成的婚礼，婚车使用了多辆小米SU7和Ultra，作者观察到车主们普遍保留车辆原色，并认为这体现了小米车主的热情。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "作者驾驶自己的小米SU7参加一场婚礼，作为婚车车队的一员。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "这两天开着我的小米SU7去参加了一场非常有意思的婚礼"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这两天开着我的小米SU7去参加了一场非常有意思的婚礼，新人是小米的忠实用户，婚车则是清一色的小米SU7和Ultra"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "要不说小米车主热情呢，婚礼结束后，大家都在说，以后谁结婚，直接吆喝一声，还用小米给你们做婚车。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "作者当前使用对象",
+            "raw_name": "小米SU7"
+          },
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Ultra"
+          }
+        ],
+        "date": "2025-07-24 23:13:45",
+        "title": "结个婚，凑齐了小米SU7的多原色！",
+        "url": "https://club.autohome.com.cn/bbs/thread/53565bfefd3130ef/112378051-1.html"
+      },
+      {
+        "key": "59154aae1631a44b:C11",
+        "post_id": "59154aae1631a44b",
+        "claim_id": "C11",
+        "aspect": "品牌与口碑",
+        "sentiment": "正面",
+        "content": "作者形容小米SU7给人带来类似初恋般一见倾心的感觉，并将其与当年极氪001发布时的感受相类比，希望小米能保持初心并超越前辈。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这车有种初恋情人的能力，让人一见倾心，再见如故，永不忘怀的感觉。那还是当年极氪001出来的时才有的感觉，希望小米不忘初心，致敬一切优秀设计，青出于蓝而胜于蓝，让我们都找到初恋情人！"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          },
+          {
+            "brand": "极氪",
+            "series": "001",
+            "role": "比较参照对象",
+            "raw_name": "极氪001"
+          }
+        ],
+        "date": "2024-07-28 15:40:53",
+        "title": "雷总，对不住了",
+        "url": "https://club.autohome.com.cn/bbs/thread/59154aae1631a44b/108809782-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "充电与补能",
+    "counts": {
+      "aspect": "充电与补能",
+      "claims": 9,
+      "posts": 9,
+      "positive": 4,
+      "negative": 3,
+      "neutral": 2,
+      "other": 0,
+      "negative_posts": 3,
+      "negativeShare": 0.3333333333333333
+    },
+    "examples": [
+      {
+        "key": "a3f7ae73d505588a:C1",
+        "post_id": "a3f7ae73d505588a",
+        "claim_id": "C1",
+        "aspect": "充电与补能",
+        "sentiment": "负面",
+        "content": "作者发现充电桩显示功率为7kW且国家电网计费显示2小时消耗14.1度电，但车辆端显示的峰值功率仅为6.7kW，平均6.6kW，作者对此差异提出疑问，认为车辆端数据未能体现7kW的充电功率。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "提问",
+        "usage_context": {
+          "summary": "作者进行家用交流充电，使用国家电网充电桩。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "国家电网也是2小时充了14.1度电"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充了14.1度电，结果到了车上就只有峰值6.7kw，平均6.6kw，我那400w去哪了？"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "从小米自己自己的充电时间看，确实没有7kw"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "Xiaomi SU7 Max"
+          }
+        ],
+        "date": "2026-01-16 21:50:28",
+        "title": "为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充",
+        "url": "https://club.autohome.com.cn/bbs/thread/a3f7ae73d505588a/114155185-1.html"
+      },
+      {
+        "key": "e3322fb90b3349d5:C5",
+        "post_id": "e3322fb90b3349d5",
+        "claim_id": "C5",
+        "aspect": "充电与补能",
+        "sentiment": "负面",
+        "content": "作者感觉小米SU7 PRO的充电速度一般，在使用理想4C充电桩时，从75%充至95%耗时30多分钟，但因自己常开燃油车，不确定该速度是否偏慢。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "使用理想4C充电桩进行快充。",
+          "evidence": [
+            {
+              "block_id": "T8",
+              "source_type": "text",
+              "quote": "用理想4C充电桩"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "4、充电速度好像比较一般，用理想4C充电桩，从75%到95%的电充了30多分钟。我不经常开电车，不知道这速度算不算慢。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 PRO"
+          }
+        ],
+        "date": "2026-01-08 22:14:32",
+        "title": "在北京租一天SU7去慕田峪长城真实感受！",
+        "url": "https://club.autohome.com.cn/bbs/thread/e3322fb90b3349d5/114085737-1.html"
+      },
+      {
+        "key": "e48a9d230a4e968a:C1",
+        "post_id": "e48a9d230a4e968a",
+        "claim_id": "C1",
+        "aspect": "充电与补能",
+        "sentiment": "负面",
+        "content": "作者认为电动汽车充电桩分布稀疏，寻找充电桩耗时较长，且充电等待时间久，在电量紧急时会造成焦虑。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "电车呢，充电桩少得可怜，有时候为了找个充电桩，得绕老半天路，找到了还得等好久才能充好电，要是在路上电量告急，那真能急出一身汗来。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-01-22 14:13:54",
+        "title": "小米su7用车感受",
+        "url": "https://club.autohome.com.cn/bbs/thread/e48a9d230a4e968a/110498240-1.html"
+      },
+      {
+        "key": "62d0877de550a62a:C1",
+        "post_id": "62d0877de550a62a",
+        "claim_id": "C1",
+        "aspect": "充电与补能",
+        "sentiment": "正面",
+        "content": "作者展示了一次800V快速充电的经历，图片说明显示充电功率为150kW，充电速度为883km/h，从40%充至100%耗时约40分钟。作者询问大家对该充电速度的看法。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "提问",
+        "usage_context": {
+          "summary": "作者在夜间进行充电，准备次日出远门。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "明天要出远门"
+            },
+            {
+              "block_id": "I1",
+              "source_type": "image_summary",
+              "quote": "充电开始于5月13日00:36:41"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "明天要出远门 这个速度大家觉得怎么样"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "核心数据显示区标题为“800V 快速充电 56% | 限值 100%”，详细参数显示电压为“784 V”，功率为“150 kW”，充电速度为“883 km/hr”"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "顶部概览显示充电开始于5月13日00:36:41（电量40%），结束于同日01:17:25（电量100%），中间标注耗时40分钟"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 MAX"
+          }
+        ],
+        "date": "2024-05-13 01:51:34",
+        "title": "800V充电",
+        "url": "https://club.autohome.com.cn/bbs/thread/62d0877de550a62a/108216828-1.html"
+      },
+      {
+        "key": "e024a801eee64c1f:C3",
+        "post_id": "e024a801eee64c1f",
+        "claim_id": "C3",
+        "aspect": "充电与补能",
+        "sentiment": "正面",
+        "content": "作者认为预约充电功能实用，特别是在家庭充电桩配合谷电时段使用时，可以显著节省电费。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者家中装有充电桩，利用谷电时段进行充电。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "如果你家里装了充电桩，可以设置每天在谷电时间段自动充电"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "还有一个很实用的是预约充电。如果你家里装了充电桩，可以设置每天在谷电时间段自动充电，比如凌晨一点开始充，电费便宜一大半，长期下来省不少钱。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2025-09-15 01:16:28",
+        "title": "SU7控车值多少，一起聊聊",
+        "url": "https://club.autohome.com.cn/bbs/thread/e024a801eee64c1f/112892669-1.html"
+      },
+      {
+        "key": "aa5bbb024589cecc:C10",
+        "post_id": "aa5bbb024589cecc",
+        "claim_id": "C10",
+        "aspect": "充电与补能",
+        "sentiment": "中性",
+        "content": "作者建议Pro版（磷酸铁锂电池）日常充电充至80%以节省时间，每月充满2-3次校准电量，减少低于20%再充电的频率，合理搭配快慢充并避免极端温度下充电。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "Pro版采用磷酸铁锂电池，日常充电建议充到80%即可，以节省时间成本。尽量避免频繁将电量充到100%，一个月可以充满两到三次以校准电量显示。同时，要减少电量低于20%再充电的频率，合理使用快充和慢充，避免在极端温度下充电。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 2024款 后驱超长续航高阶智驾Pro版"
+          }
+        ],
+        "date": "2025-07-29 10:02:25",
+        "title": "Su7外观很吸引我，发布会后立马下定了",
+        "url": "https://club.autohome.com.cn/bbs/thread/aa5bbb024589cecc/112415342-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "服务与交付",
+    "counts": {
+      "aspect": "服务与交付",
+      "claims": 9,
+      "posts": 9,
+      "positive": 5,
+      "negative": 3,
+      "neutral": 1,
+      "other": 0,
+      "negative_posts": 3,
+      "negativeShare": 0.3333333333333333
+    },
+    "examples": [
+      {
+        "key": "3ebd953cacf9b9a2:C11",
+        "post_id": "3ebd953cacf9b9a2",
+        "claim_id": "C11",
+        "aspect": "服务与交付",
+        "sentiment": "负面",
+        "content": "作者指出小米售后直营店和加盟店维修费用有差异且普遍偏高，上海目前仅松江和宝山两家门店可做维修，浦东加盟店已停业。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "维修与售后",
+        "statement": "事实陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "至于售后这块，直营店和加盟店的维修费用有差异，费用都相对偏高，且能做维修的门店上海目前就两家，松江九干交付中心直营门店，宝山长江西路永达集团加盟店，浦东加盟店已关门停业"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-02-12 18:14:00",
+        "title": "小米Su7驾驭心得",
+        "url": "https://club.autohome.com.cn/bbs/thread/3ebd953cacf9b9a2/110660810-1.html"
+      },
+      {
+        "key": "983c16064c1f5b09:C5",
+        "post_id": "983c16064c1f5b09",
+        "claim_id": "C5",
+        "aspect": "服务与交付",
+        "sentiment": "负面",
+        "content": "作者指出由于订单量大，小米SU7面临交付等待时间长的问题，这对供应链和生产管理构成了考验。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "交付与上手",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "发布后火爆的订单量远超预期，使得交付等待时间漫长。能否稳定、高质量地完成大规模交付，是对小米供应链管理和生产能力的严峻考验"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-09-17 14:12:58",
+        "title": "使用小米SU73个月后的优缺点分析",
+        "url": "https://club.autohome.com.cn/bbs/thread/983c16064c1f5b09/112917872-1.html"
+      },
+      {
+        "key": "9f09473f23bafc55:C2",
+        "post_id": "9f09473f23bafc55",
+        "claim_id": "C2",
+        "aspect": "服务与交付",
+        "sentiment": "负面",
+        "content": "作者称对方以雷达位置低、后面有空调挂机为由拒绝承担维修责任。",
+        "claim_type": "故障与风险",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "维修与售后",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "居然以雷达位置低，后面有空调挂机而拒绝承担维修责任"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2026-07-07 17:44:35",
+        "title": "这是小米su7自动泊车出现的尾部撞损。居然以雷达位置低，后面",
+        "url": "https://club.autohome.com.cn/bbs/thread/9f09473f23bafc55/115561944-1.html"
+      },
+      {
+        "key": "009b4b8a76bc7be1:C4",
+        "post_id": "009b4b8a76bc7be1",
+        "claim_id": "C4",
+        "aspect": "服务与交付",
+        "sentiment": "正面",
+        "content": "作者选择在小米官方合作保险渠道续保，认为该渠道不仅提供原厂件维修、免费取送车等增值服务，还能享受品牌专属的保费核保优惠，避免了普通渠道因出险记录带来的额外加价。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "同时，我选择的依旧是小米官方合作保险渠道，不仅能享受原厂件维修、免费取送车等增值服务，在保费核保上也能享受品牌专属的优惠，避免了普通渠道因出险记录带来的额外加价"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Max"
+          }
+        ],
+        "date": "2026-02-04 21:31:12",
+        "title": "小米SU7 Max续保实测：一年出险两次，保费依旧九千多",
+        "url": "https://club.autohome.com.cn/bbs/thread/009b4b8a76bc7be1/114313369-1.html"
+      },
+      {
+        "key": "e11c302ac8d02812:C3",
+        "post_id": "e11c302ac8d02812",
+        "claim_id": "C3",
+        "aspect": "服务与交付",
+        "sentiment": "正面",
+        "content": "作者认为在官方购买保险时加购1200元的无忧服务包很划算，该包包含基础保养、2次免费喷漆、8次取送车、免费补胎及终身车机流量等服务，能节省精力和费用。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "交付与上手",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "另外如果实在官方买保险，可以加1200买了无忧包，感觉挺值：送基础保养、2次免费喷漆（没用完返积分）、8次上门取送车、免费补胎，还有终身车机流量！要是平时用车多的话，这些服务确实能省不少心，算下来跟外面买保险+自费服务差不多，还不用折腾~"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2025-06-19 09:02:40",
+        "title": "新车保险这么买，省心又划算！",
+        "url": "https://club.autohome.com.cn/bbs/thread/e11c302ac8d02812/112050732-1.html"
+      },
+      {
+        "key": "09a71b78f2f38930:C3",
+        "post_id": "09a71b78f2f38930",
+        "claim_id": "C3",
+        "aspect": "服务与交付",
+        "sentiment": "中性",
+        "content": "作者在交付中心等待提车时发现现场交付人数较多，需要排队等候。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "交付与上手",
+        "statement": "经历陈述",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "交付的人比较多，需要等待。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Pro"
+          }
+        ],
+        "date": "2024-08-02 21:11:27",
+        "title": "【我的提车分享】小米SU7",
+        "url": "https://club.autohome.com.cn/bbs/thread/09a71b78f2f38930/108853282-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "价格与成本",
+    "counts": {
+      "aspect": "价格与成本",
+      "claims": 6,
+      "posts": 6,
+      "positive": 4,
+      "negative": 2,
+      "neutral": 0,
+      "other": 0,
+      "negative_posts": 2,
+      "negativeShare": 0.3333333333333333
+    },
+    "examples": [
+      {
+        "key": "d2949229164e8592:C1",
+        "post_id": "d2949229164e8592",
+        "claim_id": "C1",
+        "aspect": "价格与成本",
+        "sentiment": "负面",
+        "content": "作者认为浙江车险全国最贵，宁波车险浙江最贵，自己选择人保300万保额及附加医保责任险后总保费8600多元，感觉总体很贵。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者在浙江宁波地区为车辆购买保险。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "浙江的车险是全国最贵的，宁波的车险是浙江最贵的"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "浙江的车险是全国最贵的，宁波的车险是浙江最贵的 我选了人保，300万的保额，选了额外医保责任险 下来总共是8600多元 送了一个月的视频会员，总体来说还是很贵的"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "新su7"
+          }
+        ],
+        "date": "2026-08-10 19:24:24",
+        "title": "新su7保费",
+        "url": "https://club.autohome.com.cn/bbs/thread/d2949229164e8592/115824912-1.html"
+      },
+      {
+        "key": "810beddcdfd91f01:C1",
+        "post_id": "810beddcdfd91f01",
+        "claim_id": "C1",
+        "aspect": "价格与成本",
+        "sentiment": "负面",
+        "content": "作者认为开电车虽然省油，但并不怎么省钱。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "开电车确实省油 但是不咋省钱…"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-12-19 00:17:37",
+        "title": "开电车确实省油 但是不咋省钱…#小米su7 #小米汽车 #车",
+        "url": "https://club.autohome.com.cn/bbs/thread/810beddcdfd91f01/110113789-1.html"
+      },
+      {
+        "key": "6d727d7f70db0b3c:C5",
+        "post_id": "6d727d7f70db0b3c",
+        "claim_id": "C5",
+        "aspect": "价格与成本",
+        "sentiment": "正面",
+        "content": "作者认为小米SU7 Max的性能不仅限于30万级别，在50万以内也算得上强劲（扛造）。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "MAX版的性能，个人感觉不只是30万级，在50万内也算扛造的。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 Max"
+          }
+        ],
+        "date": "2024-06-13 21:30:33",
+        "title": "雅灰+暮山红，SU7颜值是真能打！",
+        "url": "https://club.autohome.com.cn/bbs/thread/6d727d7f70db0b3c/108454751-1.html"
+      },
+      {
+        "key": "18805972051aa56f:C5",
+        "post_id": "18805972051aa56f",
+        "claim_id": "C5",
+        "aspect": "价格与成本",
+        "sentiment": "正面",
+        "content": "作者认为该车用车成本低，家充电费便宜，且保养补胎省心。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者提及家充场景。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "家充电费便宜"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "用车成本低，家充电费便宜，无忧包加持，保养补胎省心"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2026-08-16 12:59:33",
+        "title": "su7优缺点",
+        "url": "https://club.autohome.com.cn/bbs/thread/18805972051aa56f/115866504-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "动力与性能",
+    "counts": {
+      "aspect": "动力与性能",
+      "claims": 6,
+      "posts": 6,
+      "positive": 6,
+      "negative": 0,
+      "neutral": 0,
+      "other": 0,
+      "negative_posts": 0,
+      "negativeShare": 0.0
+    },
+    "examples": [
+      {
+        "key": "983c16064c1f5b09:C2",
+        "post_id": "983c16064c1f5b09",
+        "claim_id": "C2",
+        "aspect": "动力与性能",
+        "sentiment": "正面",
+        "content": "作者指出小米SU7 Max版具备2.78秒的零百加速、265km/h的最高时速以及CLTC最高830公里的续航，性能表现强劲。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "它提供了媲美百万级超跑的零百加速（Max版2.78秒）、极高的时速（265km/h）和超长续航（CLTC最高830公里）。"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-09-17 14:12:58",
+        "title": "使用小米SU73个月后的优缺点分析",
+        "url": "https://club.autohome.com.cn/bbs/thread/983c16064c1f5b09/112917872-1.html"
+      },
+      {
+        "key": "8b3867aabf018d27:C2",
+        "post_id": "8b3867aabf018d27",
+        "claim_id": "C2",
+        "aspect": "动力与性能",
+        "sentiment": "正面",
+        "content": "作者在实际驾驶中尝试追赶前方的小米SU7，发现即使全力加速也难以接近对方速度，从而意识到自己低估了该车的性能。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "经历陈述",
+        "usage_context": {
+          "summary": "作者在城市道路起步后跟随前方车辆行驶。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "刚起步我就差把油门踩油箱里边了"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "刚起步我就差把油门踩油箱里边了，愣是差点连人家尾灯都没看到，就照这速度来看我也的确是低估了人家小米SU7"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2025-09-13 19:06:28",
+        "title": "这也太不把我当回事了",
+        "url": "https://club.autohome.com.cn/bbs/thread/8b3867aabf018d27/112880858-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "其他",
+    "counts": {
+      "aspect": "其他",
+      "claims": 3,
+      "posts": 3,
+      "positive": 2,
+      "negative": 1,
+      "neutral": 0,
+      "other": 0,
+      "negative_posts": 1,
+      "negativeShare": 0.3333333333333333
+    },
+    "examples": [
+      {
+        "key": "c825037af42e8a05:C4",
+        "post_id": "c825037af42e8a05",
+        "claim_id": "C4",
+        "aspect": "其他",
+        "sentiment": "负面",
+        "content": "作者列举了小米SU7的其他缺点，包括底盘低易磕碰、哨兵模式费电、后视镜无防眩目功能、无边框设计不挡雨等。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "底盘低导致容易磕到底盘，哨兵模式费电，后视镜没有防眩目功能，无边框设计不挡雨"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 2024款 700km 后驱长续航智驾版"
+          }
+        ],
+        "date": "2024-09-05 22:56:42",
+        "title": "小米su7用车心得感触",
+        "url": "https://club.autohome.com.cn/bbs/thread/c825037af42e8a05/109123081-1.html"
+      },
+      {
+        "key": "03ad9e9f4c63d4d1:C1",
+        "post_id": "03ad9e9f4c63d4d1",
+        "claim_id": "C1",
+        "aspect": "其他",
+        "sentiment": "正面",
+        "content": "作者评价该车型“真不错，帅，好看，好开”，表达了对外观设计和驾驶感受的正面看法。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "真不错，帅，好看，好开"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7 2024款 800km 四驱超长续航高阶智驾Max版"
+          }
+        ],
+        "date": "2024-10-09 19:43:08",
+        "title": "小米su7，你的酥妻",
+        "url": "https://club.autohome.com.cn/bbs/thread/03ad9e9f4c63d4d1/109402765-1.html"
+      },
+      {
+        "key": "18805972051aa56f:C7",
+        "post_id": "18805972051aa56f",
+        "claim_id": "C7",
+        "aspect": "其他",
+        "sentiment": "正面",
+        "content": "作者表示除缺点外全是优点，暗示未发现明显缺点或不愿列举缺点。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "除了缺点全是优点"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "SU7"
+          }
+        ],
+        "date": "2026-08-16 12:59:33",
+        "title": "su7优缺点",
+        "url": "https://club.autohome.com.cn/bbs/thread/18805972051aa56f/115866504-1.html"
+      }
+    ]
+  },
+  {
+    "aspect": "安全与质量",
+    "counts": {
+      "aspect": "安全与质量",
+      "claims": 2,
+      "posts": 2,
+      "positive": 2,
+      "negative": 0,
+      "neutral": 0,
+      "other": 0,
+      "negative_posts": 0,
+      "negativeShare": 0.0
+    },
+    "examples": [
+      {
+        "key": "e061b5c25c91249f:C2",
+        "post_id": "e061b5c25c91249f",
+        "claim_id": "C2",
+        "aspect": "安全与质量",
+        "sentiment": "正面",
+        "content": "作者认为小米SU7具备较强的安全感，理由是该车采用泰坦合金、通过了40项碰撞安全测试并配备高阶智驾辅助。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": {
+          "summary": "作者驾车外出兜风期间回应路人的询问。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "他问我安全性怎么样，我说安全感满满啊"
+            }
+          ]
+        },
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我说安全感满满啊。毕竟小米SU7有业界独有的泰坦合金，还是经过40项碰撞安全测试的，还有各种高阶智驾辅助，确实是让人很安心"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "小米SU7"
+          }
+        ],
+        "date": "2024-04-20 13:06:41",
+        "title": "泰坦合金+40项安全测试，SU7安全感满满",
+        "url": "https://club.autohome.com.cn/bbs/thread/e061b5c25c91249f/108054473-1.html"
+      },
+      {
+        "key": "ee731c44c2671c69:C8",
+        "post_id": "ee731c44c2671c69",
+        "claim_id": "C8",
+        "aspect": "安全与质量",
+        "sentiment": "正面",
+        "content": "作者认为新一代SU7在车身强度、安全配置及门把手设计上继承了小米不偷工减料的理念，安全性值得信赖。",
+        "claim_type": "产品体验与评价",
+        "ownership": "当前拥有",
+        "experience": "明确亲历",
+        "journey": "拥有与日常使用",
+        "statement": "评价判断",
+        "usage_context": null,
+        "comparison": null,
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "我觉得它在安全性上的重视，还是传承了小米一贯不会偷工减料的思路来做的，在安全性上，你真的可以放心的去相信小米！"
+          }
+        ],
+        "evidence_ok": true,
+        "su7_linked": true,
+        "su7_primary": true,
+        "review_product": false,
+        "targets": [
+          {
+            "brand": "小米",
+            "series": "SU7",
+            "role": "主要讨论对象",
+            "raw_name": "新一代小米SU7 Max"
+          }
+        ],
+        "date": "2026-03-22 14:17:55",
+        "title": "试驾新一代小米SU7，Ultra的青春版？",
+        "url": "https://club.autohome.com.cn/bbs/thread/ee731c44c2671c69/114649568-1.html"
+      }
+    ]
+  }
+]

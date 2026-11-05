@@ -1,0 +1,364 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0eb58012d0b32666",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米2.9%排第七"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "大众",
+      "entity_level": "品牌",
+      "brand": "大众",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "大众排第八"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "丰田",
+      "entity_level": "品牌",
+      "brand": "丰田",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "丰田排第九"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比亚迪10.9%排第二"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特斯拉拿下12.9%份额重回第一"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "零跑",
+      "entity_level": "品牌",
+      "brand": "零跑",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米现在离全球第五的零跑就差两个身位"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "起亚",
+      "entity_level": "品牌",
+      "brand": "起亚",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "吉利、五菱、零跑、起亚依次排下去"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P8",
+      "name": "吉利",
+      "entity_level": "品牌",
+      "brand": "吉利",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "吉利、五菱、零跑、起亚依次排下去"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P9",
+      "name": "五菱",
+      "entity_level": "品牌",
+      "brand": "五菱",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "吉利、五菱、零跑、起亚依次排下去"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "根据TrendForce 2026年第一季度数据，小米在全球纯电品牌销量排名中位列第七，市场份额为2.9%，超过了排名第八的大众和排名第九的丰田。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米2.9%排第七。关键信息在后面： 小米已经把大众和丰田甩在身后了。大众排第八，丰田排第九。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "政策与市场",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "小米已经把大众和丰田甩在身后了。大众排第八"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "政策与市场",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "小米已经把大众和丰田甩在身后了。丰田排第九"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米超越大众和丰田的成绩证明了雷军此前关于“全球前五”的目标并非空谈，体现了小米在汽车领域的快速崛起。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "雷军当年站在SU7发布会舞台上说的\"全球前五\"，现在看不像吹牛了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者指出小米目前距离全球排名第五的零跑还有差距，但与起亚的距离较近，并推测若保持增速，小米有望很快提升排名。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米现在离全球第五的零跑就差两个身位，和起亚已经很近了。如果Q2继续保持这个增速，可能不用等太久。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为在插电混动领域，比亚迪占据稳固的市场地位，目前没有竞争对手能对其形成挑战。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "另外插电混动那边还是比亚迪的稳固阵地，没人能挑战。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "TrendForce发布2026年Q1全球新能源车销量报告",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "TrendForce刚出了2026年第一季度的全球新能源车销量报告"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "TrendForce发布了2026年第一季度全球新能源汽车销量及市场份额数据，显示了各品牌在纯电和插混市场的排名情况。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子基于TrendForce 2026年Q1数据，指出小米在全球纯电品牌销量中排名第七，超越大众和丰田。作者对此持积极看法，认为这印证了雷军“全球前五”的目标，并分析了小米与零跑、起亚的排名差距及比亚迪在插混市场的优势。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

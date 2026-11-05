@@ -1,0 +1,486 @@
+{
+  "schema_version": "2.3",
+  "post_id": "40364d2109579582",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "闺蜜提了辆小米SU7 Max"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "极氪007",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但你之前不是想买极氪007嘛"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7的颜值很高，造型流畅且溜背设计帅气，停在路边很拉风。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "必须承认，小米SU7的颜值是真的能打。保时捷设计团队操刀的造型，线条流畅，溜背帅气，停在路边确实拉风。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为极氪007的设计虽然第一眼不惊艳，但越看越顺眼，整体感和完整度高。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但极氪007怎么说呢，它是那种第一眼不觉得惊艳，但越看越顺眼的设计。蚌式前舱盖、悬浮车顶、隐藏式门把手，整体感特别强。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者对比发现，尽管极氪007车长和轴距比小米SU7短，但其内部空间优化更好，特别是后排空间更宽敞，适合身高较高的乘客。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7是一辆轿跑车，车长4997，轴距3米。驾驶位确实舒服，但后排空间说实话有点局促。我1米6坐后排，膝盖离前排座椅大概两拳，头部空间也就一拳多一点。如果1米8乘客坐后排直接顶膝盖了。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪007车长4858，轴距2925，其实比SU7短了12厘米，但内部空间优化做得更好。尤其是后排，1米80坐进去，膝盖还有三指富余，头部空间也宽裕很多。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "极氪007车长4858，轴距2925，其实比SU7短了12厘米，但内部空间优化做得更好。尤其是后排，1米80坐进去，膝盖还有三指富余，头部空间也宽裕很多。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者以身高1米6和1米8乘客为例，对比了两车后排的腿部及头部空间。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我1米6坐后排，膝盖离前排座椅大概两拳，头部空间也就一拳多一点。如果1米8乘客坐后排直接顶膝盖了。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为两车动力均为3秒级，但调校风格不同：小米SU7动力响应直接、激进，极氪007调校更稳健，乘坐舒适度更高。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7实际开起来，动力响应非常直接，一脚电门下去，整个人都被按在座椅上。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "而且007的调校更偏向“稳健”，不会让你觉得动力来得太突兀。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但我作为乘客，坐SU7有时候会觉得有点“蹿”，坐007就更舒服一些。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "驾驶与操控",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "动力方面两车都是3秒级，但调校风格不同。这个倒是没有高下之分，更多是风格选择。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出两车CLTC续航均在700公里以上，但实际达成率都在75%-80%左右，高速120km/h巡航时小米SU7满电约能跑500公里出头。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7配的是中州时代的73度磷酸铁锂电池，CLTC续航720公里。听起来很美，但实际续航达成率大概在75%-80%，高速120巡航的话，满电大概能跑500公里出头。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪007配的是衢州极电的时代的75度磷酸铁锂电池，CLTC续航715公里。同样也是听起来很美，但实际续航达成率大概在75%到80%。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "续航与能耗",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "同样也是听起来很美，但实际续航达成率大概在75%到80%。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "高速120km/h巡航工况。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "高速120巡航的话，满电大概能跑500公里出头。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的车机生态互联做得非常顺滑，而极氪007虽然UI进步大，但生态互联方面不如小米。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的车机用的是8295芯片，配合小米澎湃OS，和小米手机、平板、智能家居的互联做得非常顺滑。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪007用的是8295芯片+ZEEKR OS车机系统，UI设计比老款进步很大，但生态互联方面确实不如小米。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "智能座舱与车机",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "但生态互联方面确实不如小米。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为两车智驾水平都在第一梯队，实际体验差别不大，均支持高速NOA和城市领航。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智驾方面，两车都是第一梯队。SU7用小米自研智驾，007用浩瀚智驾，实际体验差别不大，都支持高速NOA和城市领航。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "智能驾驶",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "实际体验差别不大"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结认为，虽然小米SU7是好车，但对于自家高频使用后排行李箱的需求而言，极氪007在空间和续航上更符合刚需，因此买车需结合实际需求而非仅看外观参数。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但对于我们家来说，后排空间和续航反而是刚需，而这些007做得更好。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "买车真的别只看外观和参数，一定要结合自己家的实际需求。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "家庭周末带双方父母出行，后排使用率高。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我家情况是，后排使用率其实不低。周末带双方父母出门，后排要坐人。"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "开了一个月SU7"
+      }
+    ],
+    "confidence": 0.95
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视后排空间",
+      "重视真实续航"
+    ]
+  },
+  "post_summary": "作者分享了购买小米SU7 Max一个月的用车体验，并与原本考虑的极氪007进行了详细对比。作者认为SU7颜值高、动力强、生态好，但后排空间局促；相比之下，极氪007虽外观稍显平淡，但空间优化更好，更适合家庭多人出行需求。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

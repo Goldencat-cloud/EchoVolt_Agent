@@ -1,0 +1,462 @@
+{
+  "post_id": "908014ebc5ad8725",
+  "state": "FAILED",
+  "cache_key": "16195ffa106d6ecba119aaf17082eaea3537fc6521db015213f3cef9b0d01f2f",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "908014ebc5ad8725",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "直接试驾了Max版本"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "下方详细列出了车辆型号为“SU7 Max”"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者在深圳工作，因蓝牌摇号困难而考虑新能源车，最终选择购买小米SU7 Max。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我工作是在深圳，想在深圳买车，蓝牌摇号摇不到"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者在2024年4月看到发布会后被外观吸引，但因担心新品牌而犹豫，直到10月未发现不可接受缺点后才决定试驾并下单。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在2024年4月份看到了小米SU7的发布会，一眼就喜欢上了他的外观。但是我又不敢买...一直到十月份都没有我不能接受的缺点，于是我决定去试驾"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者试驾时认为内饰简洁有科技感，中控大屏流畅，车机反应快，手机互联方便，且25个扬声器的杜比音效令人惊艳。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "被它简洁又不失科技感的内饰吸引...中控台的大屏操作流畅，车机系统反应迅速...还有25个扬声器，在使用杜比音效时的惊艳"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者进行试驾体验。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "于是我决定去试驾"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者试驾时认为车内空间宽敞，座椅包裹性好，长时间驾驶不疲惫。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车内空间还比较宽敞，座椅的包裹性也很好，长时间驾驶也不会感到疲惫"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者进行试驾体验。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "于是我决定去试驾"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "作者试驾时体验了Max版本的性能，认为2.78秒的零百加速令人兴奋，因此直接下了订单。",
+        "sentiment": "正面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "2.78秒的零百加速让人欲血沸腾，于是我再试驾之后直接下了Max的订单"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "作者进行试驾体验。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "于是我决定去试驾"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者选择了熔岩橙车漆、20寸梅花轮毂和车载冰箱，基础价29.99万元加选装费用后总价为31.49万元。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "Max本身的价格是29万9千9...共计31万4千9百"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者对2025年1月的提车交付过程表示满意，认为销售人员服务周到，包括送花、检查车辆、教学功能、拍照及指导上牌。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "提车时候格外的激动，交付的小哥哥给我送了花...还在交付的群里发了怎么自己在深圳上牌照"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在深圳提车。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "还在交付的群里发了怎么自己在深圳上牌照"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "提车两个月后行驶7500公里，作者表示对车辆的外观、动力和内饰都非常喜欢，认为熔岩橙显眼，加速超车容易，配合音乐和氛围灯驾驶体验极佳。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我已经跑了7500公里...车子不管是外观还是动力再或者是内饰都很让我喜欢...边开车边听歌加上氛围灯让开车是一种享受"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "提车后两个月内日常驾驶，累计行驶7500公里。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "从1月初提车后一直到现在的3月初共计两个月，我只能说是爱不释手，已经跑了7500公里"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "长期使用后发现座椅久坐不舒服，臀部疼痛。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "座椅坐的久了不是很舒服，屁股会有些疼"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "长期驾驶。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "开的时间长了也发现了他的一些缺点"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为车辆的智能驾驶功能不够聪明，有待升级。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "智驾方面也不是很聪明，还有待升级"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者指出高速行驶（120km/h）时耗电较快，能耗约为22kWh/100km；而一般速度（100km/h）下能耗较低，约为18kWh/100km。此外，哨兵模式较费电，但可以手动关闭。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "平时开车跑120的时候耗电会有些快，能耗能有22千瓦时每百公里，如果一般跑100的话能耗还是挺低的，只有18千瓦时每公里左右。还有个比较费电的就是哨兵模式"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "分别在120km/h和100km/h的速度下驾驶。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "平时开车跑120的时候...如果一般跑100的话"
+            }
+          ]
+        }
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从1月初提车后一直到现在的3月初共计两个月，我只能说是爱不释手，已经跑了7500公里"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "重视外观设计",
+        "重视动力性能",
+        "重视内饰质感与车机体验"
+      ]
+    },
+    "post_summary": "作者因深圳限牌政策转而关注新能源车，经考察和试驾后购买了小米SU7 Max。提车两个月行驶7500公里，作者高度认可其外观、动力、内饰及交付服务，但也指出了座椅久坐不适、智驾待优化以及高速能耗偏高等问题。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C8/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11497,
+    "completion_tokens": 3967,
+    "total_tokens": 15464,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 16.91458660000353,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

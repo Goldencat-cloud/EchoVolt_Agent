@@ -1,0 +1,246 @@
+{
+  "post_id": "2345a40ac5b833c5",
+  "state": "CONTRACT_PASS",
+  "cache_key": "2fc74b5e8890622bb84f29dc6ed748ed09e62dc8eaa4e13ef2281aa61a564a2a",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "2345a40ac5b833c5",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7的上市"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "特斯拉Model 3",
+        "entity_level": "具体配置",
+        "brand": "特斯拉",
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特斯拉Model 3"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米SU7 Ultra",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "右下角标有“SU7 Ultra”字样"
+          }
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为小米SU7在与特斯拉Model 3的全方位对比中显示出优势，特别是在配置和价格上具有竞争力。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特别是当它与特斯拉Model 3进行全方位对比时，显示出的优势确实令人瞩目，从配置和价格上来看，小米SU7的竞争力不容小觑"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "配置与功能",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "显示出的优势确实令人瞩目"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者推测小米SU7的上市可能会吸引原本倾向购买特斯拉Model 3的消费者，从而对特斯拉市场份额造成挤压。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "SU7在配置上的优势可能会吸引原本倾向于Model 3的消费者，尤其是在价格还更亲民的情况下，这可能会导致特斯拉"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "Model 3的市场份额受到一定程度的挤压"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "作者认为面对小米SU7的竞争，特斯拉可能会重新审视产品定位，通过提升Model 3配置或降低价格来应对，这种竞争有助于推动电动汽车市场发展。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小米SU7的上市可能会促使特斯拉重新审视其产品定位和策略...这种竞争态势有助于推动整个电动汽车市场的进步和发展"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者指出特斯拉车主可能对特斯拉的品牌忠诚度、技术创新及售后服务有较高评价，因此小米SU7能否全面对标还需视车主具体需求而定。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "特斯拉车主可能对特斯拉的品牌忠诚度、技术创新以及售后服务等方面有着较高的评价"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子分析了小米SU7上市对特斯拉Model 3的竞争影响，认为SU7在配置和价格上具备优势，可能分流潜在消费者并迫使特斯拉调整策略，同时也指出了特斯拉在品牌和技术方面的固有优势。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C2/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11061,
+    "completion_tokens": 1888,
+    "total_tokens": 12949,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 8.210715599998366,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

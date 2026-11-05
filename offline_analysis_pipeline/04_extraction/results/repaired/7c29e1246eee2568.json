@@ -1,0 +1,174 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7c29e1246eee2568",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新一代小米su7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": "新一代",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外公外婆第一次坐我这辆新一代小米su7的时候"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者的外公外婆首次乘坐该车时表示坐着很舒服，作者也认为开车很舒服，主副驾体验应该差不多。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外公外婆第一次坐我这辆新一代小米su7的时候，就说这辆车坐着很舒服...反正我觉得开起来很舒服，主副驾应该都差不多"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者带外公外婆乘车体验。",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "买车后第一次带家人体验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出该车前排配备座椅按摩功能，提升了舒适度。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同时前排还有座椅按摩，舒适度很ok"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者尚未体验过后排长途空间表现，目前认为该车适合代步。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我倒是还没体验过后排长途空间如何，总之代步还是很ok的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为该车提供了小米独有的情绪价值，整体感觉很不错。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "再加上小米独有的情绪价值，很不错"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "买车后第一次带家人体验"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我这辆新一代小米su7"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享了购买新一代小米SU7后首次带家人出行的体验。长辈反馈乘坐舒适，作者肯定了前排座椅按摩功能和驾驶感受，认为适合代步，但也指出尚未验证后排长途空间。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

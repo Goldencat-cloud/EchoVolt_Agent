@@ -1,0 +1,239 @@
+{
+ "scenario": "compare",
+ "question": "充电补能和空间舒适性相比，哪个议题的负面反馈更多？",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "a5003b6a5dfe408384a894070b6b4c50",
+  "status": "running",
+  "status_url": "/api/agent/report/a5003b6a5dfe408384a894070b6b4c50",
+  "request_id": "9d515696e06d"
+ },
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 9.0,
+   "status": "clarifying",
+   "phase": "澄清中"
+  },
+  {
+   "t": 18.1,
+   "status": "running",
+   "phase": "数据探索中"
+  },
+  {
+   "t": 30.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 33.1,
+   "status": "failed",
+   "phase": "失败"
+  }
+ ],
+ "clarify_count": 3,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"先按全量声明级口径取各议题负向观点占比排序，锁定负面最集中的议题（可靠性与故障、空间与舒适性）并取得其负向说法原文与月度走势，再补充精选子集中用户所处阶段分布与车主/观望者体验结构，形成小米/SU7 的整体口碑画像\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"小米/SU7 各议题的负向观点占比排序，哪些议题负面最集中\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"各议题负向观点占比（全量声明级）\"}},{\"id\":\"w2\",\"question\":\"负向占比最高的可靠性与故障议题，用户主要在抱怨什么\",\"dimension\":\"other\",\"aspect\":\"可靠性与故障\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w3\",\"question\":\"负向观点绝对量最大的空间与舒适性议题，主要负向说法是什么\",\"dimension\":\"other\",\"aspect\":\"空间与舒适性\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w4\",\"question\":\"价格与成本语境下用户所处阶段分布（购车前/拥有使用/交付上手/维修售后）\",\"dimension\":\"journey\",\"aspect\":\"价格与成本\",\"method\":\"journey_distribution\",\"requires_evidence\":false,\"visualization\":{\"type\":\"pie\",\"x\":\"journey\",\"y\":\"claims\",\"title\":\"用户所处阶段分布（价格与成本议题）\"}},{\"id\":\"w5\",\"question\":\"续航与能耗议题中，当前拥有者与未拥有者的体验结构差异\",\"dimension\":\"ownership\",\"aspect\":\"续航与能耗\",\"method\":\"ownership_experience_mix\",\"requires_evidence\":false},{\"id\":\"w6\",\"question\":\"可靠性与故障负向说法的月度走势，负面是否在收敛或积累\",\"dimension\":\"time\",\"aspect\":\"可靠性与故障\",\"method\":\"negative_claims_by_month\",\"requires_evidence\":false,\"visualization\":{\"type\":\"line\",\"x\":\"month\",\"y\":\"negative\",\"title\":\"可靠性与故障负向说法月度走势\"}}]}",
+    "plan": {
+     "coverage": "先按全量声明级口径取各议题负向观点占比排序，锁定负面最集中的议题（可靠性与故障、空间与舒适性）并取得其负向说法原文与月度走势，再补充精选子集中用户所处阶段分布与车主/观望者体验结构，形成小米/SU7 的整体口碑画像",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "小米/SU7 各议题的负向观点占比排序，哪些议题负面最集中",
+       "dimension": "aspect",
+       "aspect": null,
+       "method": "negative_share_by_aspect",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "bar",
+        "x": "aspect",
+        "y": "negative_share",
+        "title": "各议题负向观点占比（全量声明级）"
+       }
+      },
+      {
+       "id": "w2",
+       "question": "负向占比最高的可靠性与故障议题，用户主要在抱怨什么",
+       "dimension": "other",
+       "aspect": "可靠性与故障",
+       "method": "top_negative_claims",
+       "requires_evidence": true
+      },
+      {
+       "id": "w3",
+       "question": "负向观点绝对量最大的空间与舒适性议题，主要负向说法是什么",
+       "dimension": "other",
+       "aspect": "空间与舒适性",
+       "method": "top_negative_claims",
+       "requires_evidence": true
+      },
+      {
+       "id": "w4",
+       "question": "价格与成本语境下用户所处阶段分布（购车前/拥有使用/交付上手/维修售后）",
+       "dimension": "journey",
+       "aspect": "价格与成本",
+       "method": "journey_distribution",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "pie",
+        "x": "journey",
+        "y": "claims",
+        "title": "用户所处阶段分布（价格与成本议题）"
+       }
+      },
+      {
+       "id": "w5",
+       "question": "续航与能耗议题中，当前拥有者与未拥有者的体验结构差异",
+       "dimension": "ownership",
+       "aspect": "续航与能耗",
+       "method": "ownership_experience_mix",
+       "requires_evidence": false
+      },
+      {
+       "id": "w6",
+       "question": "可靠性与故障负向说法的月度走势，负面是否在收敛或积累",
+       "dimension": "time",
+       "aspect": "可靠性与故障",
+       "method": "negative_claims_by_month",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "line",
+        "x": "month",
+        "y": "negative",
+        "title": "可靠性与故障负向说法月度走势"
+       }
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"先按全量声明级口径取各议题负向观点占比排序，锁定负面最集中的议题（可靠性与故障、空间与舒适性）并取得其负向说法原文与月度走势，再补充精选子集中用户所处阶段分布与车主/观望者体验结构，形成小米/SU7 的整体口碑画像\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"小米/SU7 各议题的负向观点占比排序，哪些议题负面最集中\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"各议题负向观点占比（全量声明级）\"}},{\"id\":\"w2\",\"question\":\"负向占比最高的可靠性与故障议题，用户主要在抱怨什么\",\"dimension\":\"other\",\"aspect\":\"可靠性与故障\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w3\",\"question\":\"负向观点绝对量最大的空间与舒适性议题，主要负向说法是什么\",\"dimension\":\"other\",\"aspect\":\"空间与舒适性\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w4\",\"question\":\"价格与成本语境下用户所处阶段分布（购车前/拥有使用/交付上手/维修售后）\",\"dimension\":\"journey\",\"aspect\":\"价格与成本\",\"method\":\"journey_distribution\",\"requires_evidence\":false,\"visualization\":{\"type\":\"pie\",\"x\":\"journey\",\"y\":\"claims\",\"title\":\"用户所处阶段分布（价格与成本议题）\"}},{\"id\":\"w5\",\"question\":\"续航与能耗议题中，当前拥有者与未拥有者的体验结构差异\",\"dimension\":\"ownership\",\"aspect\":\"续航与能耗\",\"method\":\"ownership_experience_mix\",\"requires_evidence\":false},{\"id\":\"w6\",\"question\":\"可靠性与故障负向说法的月度走势，负面是否在收敛或积累\",\"dimension\":\"time\",\"aspect\":\"可靠性与故障\",\"method\":\"negative_claims_by_month\",\"requires_evidence\":false,\"visualization\":{\"type\":\"line\",\"x\":\"month\",\"y\":\"negative\",\"title\":\"可靠性与故障负向说法月度走势\"}}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "小米/SU7 各议题的负向观点占比排序，哪些议题负面最集中",
+     "aspect": null,
+     "method": "negative_share_by_aspect",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "bar",
+      "title": "各议题负向观点占比（全量声明级）"
+     }
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "负向占比最高的可靠性与故障议题，用户主要在抱怨什么",
+     "aspect": "可靠性与故障",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": null
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "负向观点绝对量最大的空间与舒适性议题，主要负向说法是什么",
+     "aspect": "空间与舒适性",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": null
+    },
+    {
+     "order": 4,
+     "id": "w4",
+     "question": "价格与成本语境下用户所处阶段分布（购车前/拥有使用/交付上手/维修售后）",
+     "aspect": "价格与成本",
+     "method": "journey_distribution",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "pie",
+      "title": "用户所处阶段分布（价格与成本议题）"
+     }
+    },
+    {
+     "order": 5,
+     "id": "w5",
+     "question": "续航与能耗议题中，当前拥有者与未拥有者的体验结构差异",
+     "aspect": "续航与能耗",
+     "method": "ownership_experience_mix",
+     "requires_evidence": false,
+     "visualization": null
+    },
+    {
+     "order": 6,
+     "id": "w6",
+     "question": "可靠性与故障负向说法的月度走势，负面是否在收敛或积累",
+     "aspect": "可靠性与故障",
+     "method": "negative_claims_by_month",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "line",
+      "title": "可靠性与故障负向说法月度走势"
+     }
+    }
+   ]
+  },
+  "plan": null,
+  "history_len": 1
+ },
+ "regenerate_used": 0,
+ "job_id": "a5003b6a5dfe408384a894070b6b4c50",
+ "clarify_questions": [
+  {
+   "field": "topic",
+   "question": "充电补能议题需覆盖哪些具体维度或场景（如充电速度、充电便利性、续航与补能焦虑、家充/快充体验等）？"
+  },
+  {
+   "field": "topic",
+   "question": "空间舒适性议题需覆盖哪些具体维度或场景（如乘坐空间、储物空间、座椅舒适性、悬架滤震、NVH等）？"
+  }
+ ],
+ "clarify_responses": [
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "topic"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "topic"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "topic"
+  }
+ ],
+ "outline_decisions": [
+  {
+   "http": 202,
+   "body": {
+    "action": "confirm"
+   },
+   "resp": {
+    "job_id": "a5003b6a5dfe408384a894070b6b4c50",
+    "status": "running",
+    "status_url": "/api/agent/report/a5003b6a5dfe408384a894070b6b4c50",
+    "request_id": "4278afe078cf"
+   }
+  }
+ ],
+ "final_status": "failed",
+ "result": null,
+ "error": {
+  "error": "RuntimeError: 'decisions'；最近工具调用：[]"
+ },
+ "job": {
+  "status": "failed",
+  "phase": "失败"
+ },
+ "wall_s": 33.1
+}

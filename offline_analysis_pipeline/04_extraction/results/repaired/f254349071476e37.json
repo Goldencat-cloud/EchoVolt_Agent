@@ -1,0 +1,333 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f254349071476e37",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最后入了小米SU7的坑，提的Pro版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "蔚来",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看过蔚来也看过极氪"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "极氪",
+      "entity_level": "品牌",
+      "brand": "极氪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看过蔚来也看过极氪"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为小米SU7的动力响应迅速，加速快，超车轻松。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "动力，电车最大的好处就是，电门轻踩即走...提速嘎嘎快，超车轻松"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者主要在上下班途中驾驶，偶尔周边游玩。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "主要是上下班开，偶尔周边玩玩"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7在该价位段底盘调校优秀，支撑性强，高速行驶质感好，对细碎震动的过滤效果好，整体稳重。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "底盘，在这个价位里绝对是最能打的...不管高速低速，驾驶质感都不错。过坑洼，一些震动细碎过滤很干净。一个字，稳！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在高速和低速路况下均有驾驶体验。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "不管高速低速，驾驶质感都不错"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7转向灵敏，转弯半径小，上手轻便，没有大车的笨重感。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "操控，转向很灵敏，转弯半径小。上手感觉很轻便，没有开大车的笨重感。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的科技互联体验好，能与家中智能家居联动（如门铃提醒），小爱同学语音交互流畅自然，减少了手动操作。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "智能，科技公司的底子在那摆着...家里正好刚换一整套智能家居...小爱同学的对话也很人性化...开车的时候，能动口绝不动手！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者家中有一套智能家居，并在车内使用SU7生态进行联动。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "家里正好刚换一整套智能家居，现在用上SU7的生态"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7的座椅偏硬。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "悬架底盘调校倒是很有韧性，但座椅确实偏硬。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为小米SU7的高速NOA使用顺手，城市NOA开始推送，且认为设定1000公里以上的解锁门槛有助于车主熟悉车辆后再使用高阶智驾，避免盲目甩锅。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "高速NOA，用着还是比较顺手的。城市NOA这个月就开始推送了，门槛是里程1000+公里。我觉得这点挺好..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者已行驶近3000公里，满足城市NOA的里程门槛。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "到现在跑了将近3000公里了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者曾在蔚来和极氪之间犹豫，最终选择了小米SU7 Pro。虽然之前喜欢蔚来的高端调性和换电服务，但认可小米作为新品牌在交付、门店扩张和售后方面的进步。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月底提的SU7，看过蔚来也看过极氪，一直犹豫着没入手。最后入了小米SU7的坑"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "之前还是挺喜欢蔚来的...但小米是新品牌...从它交付提速、增扩新店、售后这些来看，已经是一个新品牌的佼佼者了"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "4月底提的SU7...到现在跑了将近3000公里了"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视底盘质感",
+      "重视智能互联体验"
+    ]
+  },
+  "post_summary": "作者分享了驾驶小米SU7 Pro近3000公里的体验，肯定了其在动力、底盘、操控及智能互联方面的优势，同时也指出了座椅偏硬的不足。作者对比了蔚来和极氪，表达了对小米作为新品牌在服务和发展上的认可。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

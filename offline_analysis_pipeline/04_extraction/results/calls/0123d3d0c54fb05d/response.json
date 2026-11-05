@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0123d3d0c54fb05d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米汽车充电桩安装哪个牌子好？选原厂还是国标通用的"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车充电桩有必要安装原厂的吗？还是安装第三方专业品牌的，主要是因为家里一辆小米，一辆理想汽车。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "理想汽车",
+      "entity_level": "品牌",
+      "brand": "理想",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车充电桩有必要安装原厂的吗？还是安装第三方专业品牌的，主要是因为家里一辆小米，一辆理想汽车。"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者询问小米汽车充电桩应选择原厂还是国标通用品牌，并指出家中有一辆小米汽车和一辆理想汽车。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米汽车充电桩安装哪个牌子好？选原厂还是国标通用的"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车充电桩有必要安装原厂的吗？还是安装第三方专业品牌的，主要是因为家里一辆小米，一辆理想汽车。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "主要是因为家里一辆小米，一辆理想汽车。"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者家中有小米和理想两辆车，咨询小米汽车充电桩安装应选择原厂还是国标通用品牌。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

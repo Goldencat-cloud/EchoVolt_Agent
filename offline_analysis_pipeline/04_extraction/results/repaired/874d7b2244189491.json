@@ -1,0 +1,357 @@
+{
+  "schema_version": "2.3",
+  "post_id": "874d7b2244189491",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7热点集中问题官方解答（第八期）"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "官方解答称，若小米SU7车机系统发生异常，可同时按住方向盘左右两侧滚轮10秒进行重启，需确保安全环境。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果车机系统发生异常，可同时按住方向盘左右两侧的滚轮10秒进行重启。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "官方解答称，现阶段小米SU7有无激光雷达的版本在主动安全方面表现一致；未来带激光雷达版本在前向静态目标避障上将更具优势。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现阶段，有无激光雷达的两个版本车型在主动安全方面表现一致，待年内产品能力不断升级后，带激光版本针对前向静态目标相关场景的安全避障能力会更具优势。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "官方解答称，小米SU7城市领航采用轻地图方案，部分复杂场景结合先验信息，其余场景依靠车端实时感知和规划。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米智能驾驶城市领航功能采用轻地图方案，在部分复杂场景，会结合先验信息来优化该功能的表现，其余场景可通过车端实时感知和规划来完成。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "官方解答称，小米SU7在电量约剩1%（小乌龟灯亮）时限制智驾功能，极端气温也会影响功率输出。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前在限制功率输出提示灯（小乌龟灯）亮起，即大约仅剩1%的电量时，才会限制智驾功能的使用；当然，极端气温也会对功率输出产生一定的影响，比如极寒和极热环境。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "官方解答称，小米SU7空气弹簧调节范围为-20至+30mm，标准离地间隙134mm，最低114mm，最高164mm，并提供5年10万公里质保。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "空气弹簧调节范围是-20至+30mm，标准位置离地间隙是134mm。因此，离地间隙最低是114mm，最高是164mm。...且我们提供和整车一致的“5年10万公里”质保。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "官方解答回应展车座椅“鼓包”和“包浆”问题，称Nappa真皮因长时间高压挤压变形属正常现象，可自然恢复；“包浆”系高频乘坐清洁不及时所致，量产车增加了耐脏污助剂和高密度复合海绵。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的展车座椅采用Nappa真皮材质...如果长时间挤压会导致真皮内部的纤维组织被拉伸...经过一段时间后，座椅表面会自然恢复紧致状态。...至于“包浆”，是网友对皮质表面脏污的戏称，只是部分展车座椅经历了单日数千人的高频乘坐，清洁不及时导致的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "官方解答称，小米SU7充电线束采用铝导体是行业主流，铝导体可通过截面积实现与铜相同的载流能力，且具备轻量化优势（比铜轻30%），并非偷工减料。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前绝大部分主机厂的充电线束等都采用铝导体方案，小米SU7也是。...铝导体还有着铜导体不具备的优势，比如轻量化，铝线比铜线可以轻30%。...“铜改铝”已经是行业主流发展趋势，偷工减料绝对是无稽之谈。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "官方解答称，无线CarPlay将通过OTA推送，iPad控车功能已上线，需下载“小米汽车拓展屏”APP并连接车机热点。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "无线CarPlay，很快将通过OTA远程升级的形式为大家推送。而iPad控车功能目前已经上线，只需到苹果App Store搜索下载“小米汽车拓展屏”APP，连接车机热点后即可享受..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "官方解答称，妙享桌面等手车互联功能依赖小米手机，其他品牌手机暂不支持；支持CarLink的安卓手机可实现基础连接，支持DLNA的安卓手机可实现音视频无线流转。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前妙享桌面、一键Pin应用等手车互联功能，依赖于小米手机互联互通的能力，其他品牌手机暂不支持。对于支持CarLink功能的安卓手机...同时，因为支持DLNA，也支持安卓手机的音视频无线流转..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "官方解答称，小米汽车售后维保零配件价格全国一致，部分价格店内公示，其余可在店内系统查询，维修订单详情通过APP推送并可查询评价。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车的售后维保零配件销售价格，在全国官方售后服务中心全网一致；部分维保零配件价格信息，会按照法规要求在店内以上墙物料的方式直接公示...用户维修订单的详细服务内容和收费明细，也会通过小米汽车APP推送给用户..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "官方解答称，目前暂未推出置换优惠政策，但与头部二手车平台合作提供置换服务，后续政策请关注官方通知。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我们与行业内头部的二手车平台合作，为小米用户提供便捷省心的置换服务，目前暂未推出置换优惠政策，后续政策敬请关注小米汽车APP官方通知。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "该帖子转载了小米SU7官方发布的第八期热点集中问题解答，涵盖了车机重启、激光雷达差异、城市领航方案、低电量智驾限制、空气弹簧参数、展车座椅变形原因、铝线束技术原理、CarPlay/iPad功能、手车互联兼容性、售后价格公示及置换政策等多个方面的官方说明。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "高"
+}

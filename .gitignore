@@ -1,0 +1,26 @@
+﻿# 运行期与缓存（数据源不在此列，全部入库）
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+.codebuddy/
+
+# 密钥：任何情况下都不入库
+.env
+local-config/
+
+# 运行产物（可由代码重新生成，不属于数据源）
+offline_analysis_pipeline/08_semantic_services/reports/
+offline_analysis_pipeline/08_semantic_services/.sandbox-tmp/
+offline_analysis_pipeline/08_semantic_services/.local/
+offline_analysis_pipeline/08_semantic_services/*.log
+offline_analysis_pipeline/08_semantic_services/*.log.*
+offline_analysis_pipeline/08_semantic_services/_tmp_*.py
+offline_analysis_pipeline/08_semantic_services/_t*.txt
+offline_analysis_pipeline/08_semantic_services/_test_out.txt
+offline_analysis_pipeline/data/stock/db/backup-*/
+
+# 操作系统文件
+Thumbs.db
+.DS_Store

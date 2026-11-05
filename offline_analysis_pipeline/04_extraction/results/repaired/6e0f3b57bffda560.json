@@ -1,0 +1,193 @@
+{
+  "schema_version": "2.3",
+  "post_id": "6e0f3b57bffda560",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "小米汽车",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "库克要去小米汽车？小米高管：乱P图不可取"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "配图中包含一辆绿色轿车（疑似小米SU7）... 并带有话题标签 #XiaomiSU7#"
+        }
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "网络流传一张高度仿真的P图，宣称Tim Cook将出任小米汽车CEO，并配有伪造的官方公告和库克回应。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "此次谣言源于一张高度仿真的P图截图。图片仿照小米官方账号发布格式，宣称“小米公司重磅宣布：Tim Cook将出任小米汽车CEO..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "小米集团高管徐洁云发文称“乱P图不可取”，疑似对网传库克加入小米汽车的谣言进行辟谣。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米集团董事长特别助理、战略市场部副总经理徐洁云发博疑似辟谣此事：“乱P图不可取，可不兴这么乱开玩笑的。”"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [],
+      "related_event_id": "E3",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "苹果公司发布公告，库克将于2026年9月1日卸任苹果CEO，转任董事会执行主席，而非离职。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "苹果公司4月20日已发布公告，库克将于2026年9月1日卸任苹果CEO，转任董事会执行主席，并非离职苹果。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "网传库克加入小米汽车谣言",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2026-04-22",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月22日，网络热传“库克加入小米汽车”"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "网络上流传一张P图，宣称Tim Cook将出任小米汽车CEO，引发热议。"
+    },
+    {
+      "id": "E2",
+      "name": "小米高管徐洁云疑似辟谣",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2026-04-22",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "徐洁云发博疑似辟谣此事：“乱P图不可取，可不兴这么乱开玩笑的。”"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米集团高管徐洁云发文批评乱P图行为，疑似针对库克加入小米汽车的谣言进行辟谣。"
+    },
+    {
+      "id": "E3",
+      "name": "苹果官宣库克卸任CEO",
+      "event_type": "企业与品牌动态",
+      "event_time": "2026-04-20",
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "苹果公司4月20日已发布公告，库克将于2026年9月1日卸任苹果CEO"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "苹果公司发布公告，宣布库克将于2026年9月1日卸任CEO，转任董事会执行主席。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了网络流传“库克加入小米汽车”的P图谣言，以及小米高管徐洁云发文疑似辟谣的过程。文中指出谣言源于高度仿真的假图，并结合苹果官宣库克卸任CEO的背景分析了网友信以为真的原因。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

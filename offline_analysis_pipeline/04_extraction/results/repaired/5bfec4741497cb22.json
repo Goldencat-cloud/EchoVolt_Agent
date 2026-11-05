@@ -1,0 +1,307 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5bfec4741497cb22",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7超越Model"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7超越Model3"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Model 3",
+      "entity_level": "车系",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "特斯拉Model 3"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "宝马3系",
+      "entity_level": "车系",
+      "brand": "宝马",
+      "series": "3系",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "宝马3系（15.6万台）"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "奔驰C级",
+      "entity_level": "车系",
+      "brand": "奔驰",
+      "series": "C级",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "奔驰C级（12.3万台）"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "雷克萨斯ES",
+      "entity_level": "车系",
+      "brand": "雷克萨斯",
+      "series": "ES",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "雷克萨斯ES（11.9万台）"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "奥迪A4L",
+      "entity_level": "车系",
+      "brand": "奥迪",
+      "series": "A4L",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "奥迪A4L（8.0万台）"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "蔚来ET5T",
+      "entity_level": "车系",
+      "brand": "蔚来",
+      "series": "ET5T",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "蔚来ET5T（4.8万台）"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P8",
+      "name": "凯迪拉克CT5",
+      "entity_level": "车系",
+      "brand": "凯迪拉克",
+      "series": "CT5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "凯迪拉克CT5（4.0万台）"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P9",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "极氪001（4.1万台）"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P10",
+      "name": "极氪007 GT",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "007 GT",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "极氪007 GT（3.7万台）"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "图片说明称，在2025年全年20-30万轿车市场中，小米SU7销量为24.2万台，排名第一；特斯拉Model 3销量为20.1万台，排名第二。小米SU7超越Model 3成为细分市场第一。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "排名第一的是小米SU7，指导价为22.99-30.99万元，销量为24.2万台；排名第二的是特斯拉Model 3，指导价为23.55-33.95万元，销量为20.1万台。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "I0",
+                "source_type": "image_summary",
+                "quote": "排名第一的是小米SU7...销量为24.2万台；排名第二的是特斯拉Model 3...销量为20.1万台"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为，由于小米SU7等车型的影响，之前20万左右的合资中型轿车被挤压到10-20万区间，之前30万左右的豪华品牌（34C）车型被挤压到20万出头。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "之前20万左右的合资中型轿车，给挤到10-20万区间；之前30万左右的34C挤到了20万出头。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "2025年20-30万轿车市场销量排行发布",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张关于2025年全年20-30万轿车市场销量排行的图表。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "一张图表展示了2025年全年20-30万轿车市场的销量排行，数据显示小米SU7以24.2万台销量位居第一，特斯拉Model 3以20.1万台位居第二。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子展示了一张2025年20-30万轿车市场销量排行图，指出小米SU7销量超越特斯拉Model 3成为细分市场第一。作者进一步评论称，这一竞争格局导致原有价位段的合资及豪华品牌车型价格区间下移。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

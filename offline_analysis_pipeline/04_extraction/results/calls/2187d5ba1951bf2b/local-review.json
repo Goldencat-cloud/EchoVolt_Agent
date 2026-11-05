@@ -1,0 +1,393 @@
+{
+  "post_id": "2187d5ba1951bf2b",
+  "state": "CONTRACT_PASS",
+  "cache_key": "6c9e7a0fa0a84536d4833956ee4ed41b1a1ff8f3c6f2b13553feb672503a2cfa",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "2187d5ba1951bf2b",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米汽车新一代SU7正式上市"
+          }
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 Ultra",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "来自Ultra的曜石黑"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米YU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "YU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "来自YU7的流金粉"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "文章称新一代小米SU7于2026年3月19日正式上市，提供标准版、Pro版与Max版，售价分别为21.99万元、24.99万元与30.39万元。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "2026年3月19日，新一代SU7正式上市...售价分别为21.99万元、24.99万元与30.39万元"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "文章称新一代SU7外观设计延续经典造型，升级了9款车色，其中包括首发新色卡布里蓝、赤霞红和靛石绿。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "新一代SU7依然延续经典造型与比例...本次新SU7首发三款新颜色，分别是： 卡布里蓝、赤霞红和靛石绿 。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "文章称新一代SU7内饰全面焕新，中控台改为对称式布局，高频接触面100%软质材料包裹，并配备长度达3636mm的环抱式氛围灯。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "中控台改为 对称式布局 ... 环抱式氛围灯 实现同级最长， 长度达3636mm"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "文章称新一代SU7座椅升级，主驾提供18向电动调节，副驾可选123°零重力座椅，后排座椅填充物增加20mm且躺倒角度优化至121°。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "主驾座椅提供18向电动调节...副驾提供123°零重力座椅可选...座椅填充物增加20mm...躺倒角度优化至121°"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "文章称新一代SU7全系标配CTB一体化电池技术，标准版CLTC续航720km，Pro版续航902km，Max版续航835km。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T15",
+            "source_type": "text",
+            "quote": "标准版 CLTC 续航720km，Pro版续航902km，Max版续航835km"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "文章称新一代SU7首发小米蛟龙底盘，Pro版和Max版配备闭式双腔空气弹簧和CDC阻尼可变减振器，支持悬架高度四挡可调。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T16",
+            "source_type": "text",
+            "quote": "Pro版和Max版配备 闭式双腔空气弹簧和CDC?阻尼可变减振器"
+          },
+          {
+            "block_id": "T17",
+            "source_type": "text",
+            "quote": "悬架高度还可在 -20mm至30mm 范围内实现 四挡可调"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "文章称新一代SU7全系标配NVIDIA DRIVE AGX Thor车载计算平台，算力700TOPS，并升级XLA架构辅助驾驶，新增语音控车和商场地库车位级领航功能。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T21",
+            "source_type": "text",
+            "quote": "新一代SU7全系标配 NVIDIA DRIVE AGX Thor? 车载计算平台，算力高达700TOPS"
+          },
+          {
+            "block_id": "T24",
+            "source_type": "text",
+            "quote": "Xiaomi HAD 小米辅助驾驶新增 语音控车功能...新版本首次实现商场地库 “车位级”领航"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "文章称新一代SU7全系标配2200MPa小米超强钢，整车高强度钢与铝合金占比达90.3%，并全系标配9个安全气囊及门把手三重安全冗余设计。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T24",
+            "source_type": "text",
+            "quote": "全系标配 2200MPa小米超强钢...整车高强度钢与铝合金占比达 90.3%"
+          },
+          {
+            "block_id": "T26",
+            "source_type": "text",
+            "quote": "全系标配 9个安全气囊...全系标配门把手三重安全冗余设计"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "文章称2026年5月5日前下单可享受首销期权益，标准版和Pro版权益共计44000元，Max版权益共计69000元，包括免费赠送多项配置及终身免费使用Xiaomi HAD。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T29",
+            "source_type": "text",
+            "quote": "2026年5月5日24点前下单，享受首销期锁单权益： 新一代SU7 标准版、Pro版 共计44000元的首发权益...新一代SU7 Max版 共计69000元的首发权益"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米新一代SU7正式上市",
+        "event_type": "产品发布与上市",
+        "event_time": "2026-03-19",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "2026年3月19日，新一代SU7正式上市"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米汽车宣布新一代SU7于2026年3月19日正式上市，提供三个配置版本，售价区间为21.99万至30.39万元。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "这是一篇关于小米新一代SU7上市的资讯文章，详细介绍了其在外观、内饰、底盘、智能驾驶及安全等方面的升级亮点，并列出了各版本售价及首销期优惠政策。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "incomplete_response"
+  ],
+  "usage": {
+    "prompt_tokens": 21488,
+    "completion_tokens": 3615,
+    "total_tokens": 25103,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 19136
+    }
+  },
+  "elapsed_s": 15.842305699989083,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

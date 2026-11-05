@@ -1,0 +1,335 @@
+{
+  "post_id": "c6661707607dec0b",
+  "state": "FAILED",
+  "cache_key": "749fbeb23b7e1ad707058a78b5daa73ca162ff5b9e305239687bddf1d51204d9",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "c6661707607dec0b",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米一直靠SU7、YU7两款纯电车撑住销量基本盘"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "小米YU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "YU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米一直靠SU7、YU7两款纯电车撑住销量基本盘"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米澎程",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "澎程",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "重点预热全新的澎程增程车型"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "澎程增程系列就成了小米冲量破局的关键底牌"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "雷军在社交媒体上回应网友关于小米打爆增程市场的期待，文章认为其回应虽表面平淡但显示出底气。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "面对网友喊话让小米打爆增程市场的期待，雷军只用几个抱拳表情回应，看似云淡风轻，但其实底气十足。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "背景提及对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "背景提及对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "文章指出小米现有纯电车型无法覆盖更多价位和家用用户，且面临巨大的年度销量交付压力，因此推出澎程增程系列被视为冲量破局的关键策略。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "单一的纯电阵容，始终没法覆盖更多价位和家用用户...加上今年小米立下55万的年度销量Flag，上半年仅完成18万交付...澎程增程系列就成了小米冲量破局的关键底牌。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "文章认为尽管增程市场整体销量大幅下滑、竞争加剧，小米此时入局体现了其对澎程产品力的自信。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "6月增程车型零售销量仅8.2万辆，同比大跌超30%...小米却反其道而行之，这份逆势布局，也足以看出小米对澎程产品力的绝对自信。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "文章介绍小米澎程的设计逻辑是优先保障纯电体验，增程器作为备用，全系搭载76kWh电池并提供505公里纯电续航。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "优先拉满纯电用车体验，增程器只做备用。 续航方面，澎程全系搭载76kWh大容量电池，505公里的纯电续航"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "文章称小米澎程的增程器经过大量零部件优化，使得保养周期延长至首保后3年或3万公里，相比传统燃油车更省心省钱。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "让它首保之后3年或3万公里才需要保养一次。对比传统燃油车5000公里一保的频率，养护省心又省钱。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "文章描述小米澎程具备纯平地板、贯通滑轨、可旋转前排座椅及零重力第二排座椅，并支持车顶拓展露营帐篷，适合多种场景。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "纯平地板+全车贯通滑轨的组合，让车内空间灵活多变。前排座椅支持180°旋转，搭配第二排零重力座椅...车顶还能拓展露营帐篷"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "文章列举了小米在测试方面的投入数据，包括全车系累计超3551万公里路测，以及澎程系列单独完成的428万公里全场景实测。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "截至今年6月，小米全车系累计数千台测试车、超3551万公里路测，其中澎程系列单独投入566台测试车，完成428万公里全场景实测"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "雷军社交媒体回应增程市场期待",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P3"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "雷军近期的社交动态又引发车圈热议...雷军只用几个抱拳表情回应"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "雷军在社交媒体上针对网友希望小米打爆增程市场的言论进行了回应，引发了车圈热议。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "文章分析了小米在增程市场整体下行背景下推出“澎程”系列的战略意图，认为此举旨在突破纯电车型的局限并应对销量压力。文中详细介绍了澎程在纯电续航、增程器维护成本、空间灵活性及测试投入等方面的产品特性，并对小米的逆势布局持积极评价。",
+    "post_topic": "行业政策与市场",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C3/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "C5:comparison_unknown_product"
+  ],
+  "usage": {
+    "prompt_tokens": 11113,
+    "completion_tokens": 2937,
+    "total_tokens": 14050,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 12.634706800003187,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

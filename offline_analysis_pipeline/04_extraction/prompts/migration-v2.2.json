@@ -1,0 +1,346 @@
+{
+  "source_sha256": "d6daf0a5e29dbb7c6b6065f2b165683aa9cb2cce88ec9ffed2095e8afc35abda",
+  "full_sha256": "230fe545f85cea3089f0b676b71277d81a0cb3f272f2f779983fd9b7b3a583f9",
+  "full_chars": 15911,
+  "candidate_chars": 8331,
+  "post_pack_chars": 16090,
+  "preserved_original_sections": 38,
+  "coverage": [
+    {
+      "section": "1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "b51bc741a1ec75e5dc3e429ad1fa6ae17f52f154ddad493e4c671cb080fa6c7a",
+      "chars": 888
+    },
+    {
+      "section": "2",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "848a84067904f4e93729c319125e34d5932ced3dea336cc3bc1f16a0ddae01c9",
+      "chars": 609
+    },
+    {
+      "section": "3",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "f6e4cb62e01aca1ccc6fe3a41c2221390ed02a493eb691c0e596c9ce00c0894c",
+      "chars": 618
+    },
+    {
+      "section": "4",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "d3b7a85506732caf1d228ed634d1dd36b7e93ed495a9f869740af9d73d6ae39f",
+      "chars": 1145
+    },
+    {
+      "section": "5",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "a26fa3905f90164a53e5deaa20a8473445ed6bfd03fd0170e045cc6fda6941f0",
+      "chars": 22
+    },
+    {
+      "section": "5.1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "aeccc0fac8361b737e489c859e0dc659b775be0e0f3e562cc06e74d5669051da",
+      "chars": 216
+    },
+    {
+      "section": "5.2",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "975a1f6c901898638b85103df8c346d064d8555250909b151fd4b6733f8a411d",
+      "chars": 462
+    },
+    {
+      "section": "5.3",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "fad4df2974d0da051d1f96e8f73516b7f173b4db9c76580aea585873c66af434",
+      "chars": 789
+    },
+    {
+      "section": "6",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "e40ef6a59ce7815ef5ef771baadf00ee441410fa7ea4c315fbc1514c50626979",
+      "chars": 20
+    },
+    {
+      "section": "6.1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "244c0c71fd42b1b4210bf7c4e97a7db01ec409ddea646d6e97788cac43df2e9b",
+      "chars": 247
+    },
+    {
+      "section": "6.2",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "52f511bd7e20cbe55c37c7826ed681b72fb7bb2f5a3676148236ca6a5f81f83a",
+      "chars": 898
+    },
+    {
+      "section": "6.3",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "370c7bcaa1287071d928f642578c127deeb02a10163b06d9a50bcb6ae7b3ff1d",
+      "chars": 523
+    },
+    {
+      "section": "6.4",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "c619daad49d5f05ee26b8115508bb0a5c4e32f829d688811f924a40cd18f2956",
+      "chars": 569
+    },
+    {
+      "section": "6.5",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "d81727a8457885e2fad8dd1936007f31ec454e0e7bc33643317bef9f47c687a2",
+      "chars": 627
+    },
+    {
+      "section": "6.6",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "3dad0256d108174f3b47e09070368b0e012ab3c859d931b1444f52003d4dbd99",
+      "chars": 461
+    },
+    {
+      "section": "6.7",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "acbba36c5a7a4754683d9c3a36e41f997346e38d9f3f99ba017dc67ab3fb7d39",
+      "chars": 394
+    },
+    {
+      "section": "6.8",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "12df26e0ad2a361d0767f10a80baca91d28d640867cdeec1e9dae722b0a3c6fb",
+      "chars": 364
+    },
+    {
+      "section": "6.9",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "c644329bb767451139d6fd91466c5246d054dc52ac58c1302c128ffdcb35d4ee",
+      "chars": 447
+    },
+    {
+      "section": "6.10",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "388f932524d4dd5499afa868d364b228e2ed48360ff190fcfc1201c365cc0643",
+      "chars": 280
+    },
+    {
+      "section": "6.11",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "46c489eaf9c66d0c0f6139876aea63b344f29e3d1d8997738fc9d8eb5f491194",
+      "chars": 349
+    },
+    {
+      "section": "6.12",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "1d8595f771c42ecf6d6e5a9cc3c7d0c203cd7c6d2f17725f7d8fa70b9d014469",
+      "chars": 253
+    },
+    {
+      "section": "6.13",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "a04cf7e56569eeb8d06afa4670156de8412fb71d4f846b1c9e3e605265fe06c6",
+      "chars": 684
+    },
+    {
+      "section": "6.14",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "69b2ad3a3acf3251a7f0e4dcd96453517032e48d2f7e8850b364d1f874f67596",
+      "chars": 210
+    },
+    {
+      "section": "7",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "8578b5a5cf074f23367c8fd153a89a54a837d003d49e83d33c60a17646111229",
+      "chars": 20
+    },
+    {
+      "section": "7.1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "a959869ad6278ac2b9dcd86e95a9c674a2351c58aa61bc4791125b9c0346344b",
+      "chars": 327
+    },
+    {
+      "section": "7.2",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "ecd276234dc28b9ccc8095ecf01ba20d14df6b2c0bdb0eb3cda21696d3e98b4b",
+      "chars": 559
+    },
+    {
+      "section": "7.3",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "f038aa5065040e7d605999aa63f251f998cbfb836cd0b04e3c0c9c63080164e5",
+      "chars": 246
+    },
+    {
+      "section": "7.4",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "127bdee62aa1814f5eef2eefa732cc2943c1b44848a93227cf4b2539e2dd88bd",
+      "chars": 247
+    },
+    {
+      "section": "7.5",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "d1aaa036b82508da25fc4c29337eb6833c5f984accaeb7baa936925e1fa73852",
+      "chars": 546
+    },
+    {
+      "section": "8",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "d3385bd7695748d10128f8992fe20d415b10828aeaef4252164e31596ae1d1ee",
+      "chars": 233
+    },
+    {
+      "section": "8.1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "5463a023c2eabf20a633664fb22a97896136e001aeeb447b71a264f785b72b29",
+      "chars": 159
+    },
+    {
+      "section": "8.2",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "5c3ffb7bf451ac9b6e4f453f7040a53f428178752c614188de2f76b9159d80d3",
+      "chars": 140
+    },
+    {
+      "section": "8.3",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "73ed93609cd7e213f9e7c5cc24e440c9d93e747cbdedd422a5fc73bae40e4c62",
+      "chars": 366
+    },
+    {
+      "section": "8.4",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "b1a222719ea99da367b4ca0cbcbd69bf08df5df5ad7a9d602e2135b169e8719d",
+      "chars": 423
+    },
+    {
+      "section": "9",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "4e2fd9ab67a2195a5a84934af18b1e5f1c6f10130e720935fe1f3618a842d57b",
+      "chars": 174
+    },
+    {
+      "section": "10",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "5435ed2d591e9021a066025f8870c3d78d21175f431831ed03f063d8cf65d66b",
+      "chars": 234
+    },
+    {
+      "section": "11",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "65abd4438e3b05b25ee29ed4a03cb409e5fc6b7505a99faacc189e47faaf904c",
+      "chars": 288
+    },
+    {
+      "section": "12",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "60adbfda1310719661cedd330f80eb4679d69ad2dbf532204452cc71cbb7af10",
+      "chars": 813
+    }
+  ],
+  "corrections": [
+    "6.3示例产品评价改为正式枚举产品体验与评价"
+  ],
+  "added_sections": [
+    "1",
+    "4",
+    "5.3",
+    "6.2",
+    "6.5",
+    "6.9",
+    "6.13",
+    "7.5",
+    "8.4",
+    "12"
+  ],
+  "model_runs": 0,
+  "limits": "覆盖测试验证定义分配，不证明候选无遗漏或抽取准确；100条对照尚未运行"
+}

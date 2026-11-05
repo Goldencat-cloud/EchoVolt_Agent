@@ -1,0 +1,319 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e52a651099f74e02",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 700km 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "700km 后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 700km 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "路特斯",
+      "entity_level": "品牌",
+      "brand": "路特斯",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "虽然也有关注过路特斯蔚来ET5之类的电车"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "蔚来ET5",
+      "entity_level": "车系",
+      "brand": "蔚来",
+      "series": "ET5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "虽然也有关注过路特斯蔚来ET5之类的电车"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者选择小米SU7是因为其偏运动的属性、车机互联体验符合需求，且外观类似保时捷并具有较高的热度。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "个人感觉各有优缺点，只是小米SU7偏运动属性及车机互联体验更符合使用需求，另外就是青春版保时捷的外观+超高的热度算是加分项"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+  },
+  {
+    "id": "C2",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "驾驶与操控",
+    "content": "作者认为车辆动力充足，变道超车顺畅，底盘支撑较好且悬挂偏硬，方向盘较轻，Sport+模式下转向手感更佳。",
+    "sentiment": "正面",
+    "journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "提车回来初步体验感受是动力足变道超车很顺畅，底盘支撑还不错不会太软个人比较喜欢悬挂硬一点。方向盘感觉很轻Sport+转向手感会舒服点"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+  },
+  {
+    "id": "C3",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "空间与舒适性",
+    "content": "作者认为座椅有些硬，坐上去有一种被顶起来的感觉。",
+    "sentiment": "负面",
+    "journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "座椅感觉有点硬坐在上面有点被顶起来的感觉…"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "弱",
+    "usage_context": null
+  },
+  {
+    "id": "C4",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "智能座舱与车机",
+    "content": "作者对车机给予好评，认为其流畅且易于上手，语音助手“小爱同学”能解决大部分问题。",
+    "sentiment": "正面",
+    "journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "车机好评流畅好上手，喊小爱同学大部分都能解决"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+  },
+  {
+    "id": "C5",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "智能驾驶",
+    "content": "作者表示城市NOA尚未开通，仅简单体验了LCC，感觉符合预期，并期待OTA后的城市NOA体验。",
+    "sentiment": "中性",
+    "journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "城市暂NOA未开通只有LCC简单体验感觉符合预期吧，比较期待ota后城市NOA的体验"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "经历陈述",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+  },
+  {
+    "id": "C6",
+    "claim_type": "购车与交易决策",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "作者意向购入对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "价格与成本",
+    "content": "作者指出裸车价为24.59万元，并详细说明了不同银行的贷款方案及利息情况，提醒消费者注意银行贷款利率的套路。",
+    "sentiment": "中性",
+    "journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T4",
+        "source_type": "text",
+        "quote": "裸车价：24.59万 尾款我是选择分期办理的，小米官方利率2.5%，兴业银行2% 中国银行可以2年免息（其实就是先把两年利息给你，其实利率非常高，大概4.8%，需要走车商那里走，大家一定要注意套路）"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+  },
+  {
+    "id": "C7",
+    "claim_type": "购车与交易决策",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "作者意向购入对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "服务与交付",
+    "content": "作者描述了提车流程，包括确认配置、上牌、支付尾款及保险等环节，并提示注意提车地点以防跑错。",
+    "sentiment": "中性",
+    "journey_stage": "交付与上手",
+    "evidence": [
+      {
+        "block_id": "T5",
+        "source_type": "text",
+        "quote": "基本流程就是车辆检查-功能讲解-当然拍照环节也必不可少-随后办理临牌-开车回家！提车流程如果顺利的话，基本就1个小时就能全部完成！提车之前大家一定要留意销售给你提车的定位，有时候提车不是在你购买的店里，别跑错了！"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "经历陈述",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+  },
+  {
+    "id": "C8",
+    "claim_type": "购车与交易决策",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "作者意向购入对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "价格与成本",
+    "content": "作者尝试在店外购买保险以节省费用，但因年龄未满25岁被拒绝，最终选择在店内购买保险，花费6800元。",
+    "sentiment": "负面",
+    "journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T5",
+        "source_type": "text",
+        "quote": "结果因为年龄不满25岁被拒了可惜了，最终只能店保6800买的"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "经历陈述",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "弱",
+    "usage_context": null
+  }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "提车时间：2024年05月25日"
+      },
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "提车回来初步体验感受是动力足变道超车很顺畅"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好运动风格",
+      "重视车机互联体验"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7的提车经历，包括选车理由、费用明细、提车流程及初期用车体验。作者对车辆的动力、操控和车机表示满意，但对座椅舒适度略有抱怨，并提供了关于贷款和保险购买的实用建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

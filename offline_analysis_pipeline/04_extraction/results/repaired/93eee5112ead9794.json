@@ -1,0 +1,221 @@
+{
+  "schema_version": "2.3",
+  "post_id": "93eee5112ead9794",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "分享我的小米SU7能耗！"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为小米SU7能耗低是其最大惊喜，实际续航可达560公里，尤其在国道行驶且车速不快时能耗更低。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我觉得这台车给我最大的惊喜就是能耗非常低...我的续航实际能跑560公里，如果是跑国道的话，差不多能实打实的跑到，而且我经常跑国道，所以我速度开得不是很快能耗就更低了！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者经常在国道行驶，车速不快。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "而且我经常跑国道，所以我速度开得不是很快能耗就更低了！"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者在通勤过程中发现车辆动力响应强烈，轻踩油门即有明显动力，且下坡动能回收有助于省电。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "经常轻轻踩一下油门动力就非常强，而且下坡的时候可以回收动能，所以也比较省电"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者日常通勤，单程35公里，路况包含上坡和下坡。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我平时通勤单程是35公里，有上坡也有下坡"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者评价该车的三电技术做得比较好且实在。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "主要是他的三电技术做得也比较好，比较实在"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "图片说明描述车辆APP数据显示，该车已使用163天，总里程14799公里，近30天平均电耗为10.3 kWh/100km，最佳电耗5.3 kWh/100km。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "已陪伴163天，总里程14799公里...平均电耗为10.3 kWh/100km，最佳电耗为5.3 kWh/100km"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "图片说明描述车辆在夜间通过800V快充桩充电，当前电压690V，功率203kW，剩余续航201.4km，预计充电剩余23分钟。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "剩余续航里程为201.4km，预计充电剩余时间为23分钟，当前电压为690V，功率高达203kW"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "图片说明描述为夜间环境下的充电场景。",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "图片展示了夜间环境下的一辆新能源汽车正在通过800V快充桩进行快速充电"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "分享我的小米SU7能耗！"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我觉得这台车给我最大的惊喜..."
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享其小米SU7的低能耗体验，指出通勤路况下动力强劲且动能回收省电，实际续航约560公里。配图展示了车辆的充电数据及APP中的累计里程与电耗统计。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

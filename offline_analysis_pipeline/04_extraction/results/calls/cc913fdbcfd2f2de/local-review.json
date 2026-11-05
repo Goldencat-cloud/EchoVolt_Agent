@@ -1,0 +1,412 @@
+{
+  "post_id": "cc913fdbcfd2f2de",
+  "state": "CONTRACT_PASS",
+  "cache_key": "6acca7ef4913b757aa5d72d3cb94aeedf1aac38fe7f4fb2bb1f043c61c037262",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "cc913fdbcfd2f2de",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7保险贵吗？横评多车对比带你深入剖析"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "特斯拉Model 3",
+        "entity_level": "具体配置",
+        "brand": "特斯拉",
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "先来看看特斯拉Model 3，其售价区间为24.59-28.59万元"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "极氪001",
+        "entity_level": "具体配置",
+        "brand": "极氪",
+        "series": "001",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "接下来看极氪001，这款车除去顶配FR车型，售价区间为26.9-32.90万"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "小鹏P7",
+        "entity_level": "具体配置",
+        "brand": "小鹏",
+        "series": "P7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "再来看看小鹏P7，其售价区间为20.99-33.99万元"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "蔚来",
+        "entity_level": "品牌",
+        "brand": "蔚来",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "而蔚来的保费则基本维持在6000-7500元左右"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P6",
+        "name": "丰田亚洲龙",
+        "entity_level": "具体配置",
+        "brand": "丰田",
+        "series": "亚洲龙",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "例如丰田亚洲龙指导价为19.98-27.98万元，保险费用仅需4400元左右"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P7",
+        "name": "宝马i3",
+        "entity_level": "具体配置",
+        "brand": "宝马",
+        "series": "i3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "例如宝马i3虽然车辆价格为35.39-41.39万元"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "文章指出小米SU7的保险费用在同价位新能源车中处于平均水平，并未像网络传言那样昂贵，但顶配车型保费略高。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "由此可以看出，小米SU7的保险费用在同价位车型中基本处于平均水平，主要是顶配车型保费略高。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "价格与成本",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "由此可以看出，小米SU7的保险费用在同价位车型中基本处于平均水平"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "价格与成本",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "由此可以看出，小米SU7的保险费用在同价位车型中基本处于平均水平"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P4",
+              "aspect": "价格与成本",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "由此可以看出，小米SU7的保险费用在同价位车型中基本处于平均水平"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P5",
+              "aspect": "价格与成本",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "由此可以看出，小米SU7的保险费用在同价位车型中基本处于平均水平"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P6",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "文章认为小米SU7的保险费用相比同级别燃油车（如丰田亚洲龙）更贵，这是纯电车型的共同特征。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "虽然小米SU7的保险费用在新能源车型中处于平均水平，但是确实比同级别的燃油车贵一些"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P6"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P6",
+              "aspect": "价格与成本",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "虽然小米SU7的保险费用在新能源车型中处于平均水平，但是确实比同级别的燃油车贵一些"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "技术原理",
+        "content": "文章解释新能源车保险比燃油车贵是因为国家条款增加了针对三电系统的专项保障，且涵盖了行驶、停放、充电及作业等更多场景。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "简单来说，新能源车根据国家条款增加了对三电系统的专项保障，因此更贵。"
+          },
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "新能源车主不仅可以享受到对车辆行驶过程中可能出现的风险保障，还覆盖了车辆停放时的安全风险、充电过程中的意外损失以及特殊作业场景下的潜在隐患。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "文章提到一种省钱策略：提车后退掉品牌方/经销商合作的保险，再自行购买，可能在保险项目不变的情况下获得约1000元的优惠。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "有一些小米SU7车主表示，可以把从小米官方购买的保险退掉，然后再自行购买保险，这样价格能便宜1000元左右。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "平安保险业内人士建议，一线城市消费者因豪华车多、平均出险金额高，应将第三者责任险保额买得更高一些。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "对于一线城市的消费者来说，第三者责任险也建议保额买得更高一些，因为大城市豪华车更多，平均出险金额较高。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "文章分析了小米SU7的保险费用，指出其在同价位新能源车中处于平均水平，虽比燃油车贵但并非离谱。文章解释了新能源车保费较高的原因（三电专项保障及更多场景覆盖），并提供了退保重买等省钱建议及业内人士的投保提示。",
+    "post_topic": "价格成本与交易",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "C1/comparison/0/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 15402,
+    "completion_tokens": 3346,
+    "total_tokens": 18748,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 13248
+    }
+  },
+  "elapsed_s": 14.236172899996745,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,341 @@
+{
+  "post_id": "6336cf5ab8b95a43",
+  "state": "CONTRACT_PASS",
+  "cache_key": "b0a6df34d652fb78ad51390d2612b4fa22054e10843e9b980ad8a00f86d9bb0c",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "6336cf5ab8b95a43",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "新小米SU7涨价4千香不香？我算完账直接闭眼冲"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "标准版21.99万"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米SU7 Pro版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Pro版",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "Pro版24.99万"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "小米SU7 Max版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max版",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "Max版30.39万"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "价格与成本",
+        "content": "作者认为新小米SU7相比老款涨价4000元非常值得，形容其为“加量不加痛”，并表示自己算完账后决定直接购买（“闭眼冲”）。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "新小米SU7涨价4千香不香？我算完账直接闭眼冲"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这4千花得太值了，纯纯“加量不加痛”！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者指出新SU7全系标配激光雷达、4D毫米波雷达及700TOPS算力芯片，实现了智驾功能的“平权”，使得入门版也具备了老款顶配的辅助驾驶能力。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "智驾直接“平权”，这是最香的点！全系标配激光雷达+4D毫米波雷达+700TOPS算力芯片，城市NOA、高速NOA、自动泊车全下放，入门版也能享老款顶配的辅助能力"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者列举了新SU7各版本的续航里程（标准版720km、Pro版902km、Max版835km）及Max版的快速充电能力（15分钟补能670km，10%-80%最快12分钟），认为这解决了补能焦虑，满足日常通勤和长途自驾需求。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "充电速度快到离谱，Max版15分钟能补670km，10%-80%最快12分钟...续航也没拉胯，标准版720km、Pro版902km、Max版835km，日常通勤、周末自驾都够稳"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者强调新SU7全系配备9气囊（新增后排侧气囊），并采用2200MPa超强钢和防滚架，认为这极大提升了家庭用车的安全感。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "而且全系9气囊，新增后排侧气囊，2200MPa超强钢+防滚架，家庭用车安全感拉满。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为新SU7在细节上没有缩水，新增了多种配色，内饰软包增多，座椅升级了18项调节和按摩功能，静谧性也有优化，比老款更舒适。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "细节也没缩水，新增卡布里蓝、赤霞红、靛石绿三种配色，内饰软包更多，座椅升级18项调节+按摩，静谧性也优化了，比老款更舒服。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者通过对比老款选装费用与新SU7标配配置的价值，计算出硬件升级价值超过5万元，认为仅涨价4000元极具性价比，不是智商税而是诚意升级。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "但咱算总账：激光雷达+高算力芯片+9气囊+高压平台升级，硬件加起来超5万，4千块连零头都不够。老款入门版想凑齐这些配置，得多花两三万，现在直接标配，性价比直接拉满。"
+          },
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "涨价4千换这么多硬货，不是智商税，是真诚意升级。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "新小米SU7发布及价格公布",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "新SU7价格一公布，21.99-30.39万的区间，比老款就涨了4千块"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "先把价格摆明白：标准版21.99万、Pro版24.99万、Max版30.39万"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "新小米SU7正式公布售价，区间为21.99万至30.39万元，相比老款价格上涨约4000元，并进行了多项配置升级。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "我算完账直接闭眼冲"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但我蹲完发布会、扒完配置"
+        }
+      ],
+      "confidence": 0.85,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "重视智能驾驶配置",
+        "重视安全性",
+        "注重性价比"
+      ]
+    },
+    "post_summary": "作者对新小米SU7涨价4000元持强烈正面态度，认为其通过全系标配激光雷达、高压平台和高级安全配置实现了“加量不加价”的高性价比。作者详细分析了新旧款在智驾、续航、安全和舒适性方面的差异，并基于此做出了立即购买的决策。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C5/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12000,
+    "completion_tokens": 3105,
+    "total_tokens": 15105,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 13.885915100006969,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

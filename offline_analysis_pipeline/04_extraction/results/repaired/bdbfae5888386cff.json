@@ -1,0 +1,393 @@
+{
+  "schema_version": "2.3",
+  "post_id": "bdbfae5888386cff",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "#提车作业#小米su7pro提车分享"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最终选择小米SU7 Pro"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比同级别特斯拉Model 3（24.59万起）"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪汉",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "汉",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比亚迪汉（21.98万起）"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者作为90后科技爱好者，因工作需频繁长途通勤，购车预算在25万左右，最终选择小米SU7 Pro。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为一名90后科技爱好者，我的购车预算在25万左右，且因工作原因需频繁长途通勤。在燃油车与电动车之间，我最终选择小米SU7 Pro"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7 Pro 24.59万元的起售价，相比同级别的特斯拉Model 3（24.59万起）和比亚迪汉（21.98万起）更具性价比。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "24.59万元的起售价，比同级别特斯拉Model 3（24.59万起）和比亚迪汉（21.98万起）更具性价比。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "比同级别特斯拉Model 3（24.59万起）...更具性价比"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "比同级别...比亚迪汉（21.98万起）更具性价比"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者因家中使用米家智能产品，被发布会上提到的“人车家生态互联”功能吸引，从而果断下单。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "由于我家里全部使用了米家的智能产品，当发布会雷总提到人车家生态互联的时候就已经吸引到我了，果断下单。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者试驾小米SU7 Pro后认为，其单电机后驱系统动力输出平顺无顿挫，运动模式下推背感强烈，但底盘调校偏硬，过减速带时震动明显。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Pro版的单电机后驱系统（220kW/299马力）带来5.7秒零百加速，动力输出平顺无顿挫，运动模式下推背感强烈但底盘调校偏硬，过减速带时震动明显。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行试驾体验，涉及运动模式和过减速带场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "运动模式下推背感强烈但底盘调校偏硬，过减速带时震动明显"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为小米SU7 Pro的智能驾驶系统在复杂路况下仍需人工接管，但总体感受很满意。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智能驾驶方面，激光雷达+双Orin X芯片的组合支持城市NOA和复杂泊车，但复杂路况下仍需人工接管，总体感受很满意。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者试驾体验智能驾驶功能，包括城市NOA和复杂泊车。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "支持城市NOA和复杂泊车，但复杂路况下仍需人工接管"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在日常通勤（城市+高速）使用中，实测小米SU7 Pro综合电耗约14kWh/100km，续航达成率约80%（830km降至650km）。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "日常通勤（城市+高速）综合电耗约14kWh/100km，实测续航达成率约80%（830km→650km）。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在城市和高速公路进行日常通勤。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "日常通勤（城市+高速）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7 Pro前排空间充裕，座椅舒适性好，但因溜背设计导致后排头部压抑，且底盘偏硬影响滤震体验。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "前排头部和腿部空间充裕，但溜背设计导致后排头部压抑，高个子乘客需谨慎选择。座椅舒适性优秀（Nappa真皮+加热/通风），但底盘偏硬影响滤震体验。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因不喜欢原厂19寸轮毂且想要布雷博卡钳，选装了20寸梅花轮毂（8000元），加上首发权益赠送的电动尾翼、25音响和冰箱，最终裸车总价为25.39万元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "由于不太喜欢原车带的19寸低风阻轮毂，而且没有布雷博卡钳所以我选装了20寸梅花轮毂8000元总价裸车25.39W。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "小米SU7 Pro深度体验"
+      },
+      {
+        "block_id": "I6",
+        "source_type": "image_summary",
+        "quote": "页面顶部显示提车时间为2024-10-17"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "25万左右",
+    "preferences": [
+      "重视性价比",
+      "重视智能生态互联",
+      "偏好运动风格轮毂"
+    ]
+  },
+  "post_summary": "车主分享小米SU7 Pro提车作业，详述了基于预算、续航及小米生态互联的选车理由。文章记录了试驾中对动力、底盘及智驾的体验，列出了包含选装项在内的购车费用明细，并总结了新车在空间、续航及舒适性方面的优缺点。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

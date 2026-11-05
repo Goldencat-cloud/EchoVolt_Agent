@@ -1,0 +1,96 @@
+{
+  "post_id": "84158015be934608",
+  "state": "CONTRACT_PASS",
+  "cache_key": "2b17d791c363c02c36db0dc1ecd36a780091226517d1cdd7794e2f947ddebd96",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "84158015be934608",
+    "products": [],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "故障与风险",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者在汽车之家浏览车辆并点击城市下的询问/查询功能后，未主动暴露手机号，次日却接到大量4S店销售电话，作者认为平台未能妥善保护用户个人信息。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在汽车之家看个车，没有暴露手机号码个人信息，就点击了车辆城市的底下询问，查询，结果第二天一大堆4s店的销售打电话！！！"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "说好的维护好顾客的个人信息呢，就这样维护的？"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在汽车之家APP上浏览车辆、查看评论和对比数据，并点击了车辆城市下方的询问/查询功能。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "结果在汽车之家的软件上看了半天车，看评论看对比数据"
+            },
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "就点击了车辆城市的底下询问，查询"
+            }
+          ]
+        }
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为用户我也只是在对比车型，选择合适的车性价比高的价格"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "注重性价比"
+      ]
+    },
+    "post_summary": "用户在汽车之家浏览车辆并点击咨询入口后，在未主动提供手机号的情况下收到大量4S店销售电话，对此表示不满，质疑平台的个人信息保护措施。",
+    "post_topic": "故障质量与售后",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "C1/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10073,
+    "completion_tokens": 673,
+    "total_tokens": 10746,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 3.3648692999995546,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

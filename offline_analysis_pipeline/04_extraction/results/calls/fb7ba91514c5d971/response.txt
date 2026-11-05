@@ -1,0 +1,579 @@
+{
+  "schema_version": "2.3",
+  "post_id": "fb7ba91514c5d971",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 800km 四驱超长续航高阶智驾Max版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 800km 四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "哈弗M6",
+      "entity_level": "具体配置",
+      "brand": "哈弗",
+      "series": "M6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "以前有一辆哈弗M6"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "某己L7",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "L7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "试驾过某己L7"
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "P4",
+      "name": "某某塔12",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "12",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "某某塔12"
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "P5",
+      "name": "特斯拉model Y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "特斯拉model Y"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "奔驰EQE",
+      "entity_level": "具体配置",
+      "brand": "奔驰",
+      "series": "EQE",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "奔驰EQE"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "某克001",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "也在还长期关注某克001"
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "P8",
+      "name": "某势Z9GT",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "Z9GT",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "某势Z9GT也有关注"
+        }
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因身材高大（195cm/108kg）且旧车空间不足，决定购买轴距3米的C级车，预算30万左右，认为小米SU7 Max的尺寸和29.99万的价格符合其需求。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我身高195，体重108kg...我决定遵从内心所想，买一辆轴距3米的C级车，预算30W左右"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米的尺寸、售价发布后，我感觉小米造车是冲着我来的，轴距3000㎜一点不差，max29.99裸车价都整好卡在我心里"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者从燃油车转为电动车的主要原因是需要方向盘加热和快速制热功能，以满足冬季夜班后通勤的舒适性需求，认为燃油车在该价位缺乏此类配置。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我需要值夜班...冬天早上下班的话，一路上十几公里快到家了空调才热起来...还有就是必须要有方向盘加热，燃油车因为电瓶小再加上等级森严，方向盘加热是不会在这个价位的车配置的"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者冬季值夜班，早晨下班通勤，车内空调升温慢，感到寒冷。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我需要值夜班，车放在单位一夜有时是两夜，冬天早上下班的话，一路上十几公里快到家了空调才热起来"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者对比试驾多款竞品，认为某己L7底盘细碎震动多，某某塔12悬挂过软侧倾严重，奔驰EQE电子交互体验差，特斯拉驾驶体验好但内饰简陋，最终因驾驶感受选择小米。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "跑起来像L7底盘很多细碎的震动，把人震麻了；12悬挂太软，是软而不是舒适，上下匝道侧倾太严重...EQE是一台好车...但是电这一层面做的就不太行了...特斯拉不用多说，驾驶体验很好"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P4",
+          "P5",
+          "P6"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P3",
+            "aspect": "驾驶与操控",
+            "relation": "无法判断",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "跑起来像L7底盘很多细碎的震动，把人震麻了"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7的外观设计漂亮，借鉴了保时捷的空气动力学理念；内饰风格为科技简约豪华，避免了过度创新的设计，操作感和仪式感较好。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "外观：应该不用多说了吧，流线型的完美线条...我觉得应该。"
+        },
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "内饰：其实大家应该网上都看得很多了，我觉得可以叫科技简约豪华风...给人很好的操作感与仪式感。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者称赞小米SU7的智能联动和人机交互功能，如自动开充电口、语音导航找充电桩、智能双表盘表情、超大HUD及一键尾翼，认为情绪价值高，但缺失后视镜盲区提醒灯和副驾无线充电。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "智能联动与人机交互：各种无缝联动...情绪价值拉满...唯有后视镜盲区提醒灯、副驾测无线充电两个可能由于种种原因没有给到"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者对小米SU7的动力性能非常满意，提到2.78秒零百加速，试驾时感受到强烈的推背感，日常驾驶使用舒适模式已能满足需求。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "说到动力，这个2.78秒的零百，还有谁？...那个推背感比飞机起飞还要强烈...就这已经属于是秒杀绝大多数车的存在"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者在青岛试乘试驾，体验了弹射起步和普通驾驶模式。",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "我在青岛试乘试驾的时候，当时还允许测试弹射起步"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者身高195cm，认为小米SU7前排空间宽大，头顶余量充足；后排因溜背造型头部空间略紧但可接受，整体空间满足其需求。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "我坐在驾驶位，空间异常的宽大，离车顶至少还有两拳距离...后排空间由于溜背造型的缘故，我坐进去头发会挨着车顶，不过就是头发，头是碰不到的"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者对小米SU7的续航和电耗表示满意。城市通勤电耗15-16度/百公里，估算续航600-700km；冬季高速实测续航满足500km需求，无需中途充电。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "至于电耗，非常满意...基本正常开就是百公里电耗15-16度电...续航很满意。"
+        },
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "全程高速483.9km，剩余预估20...这个续航在冬天，完全可以了。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者冬季从淄博往返河南新乡，全程高速约483.9km，大部分时间车速110-120km/h，开启24℃空调，部分路段拥堵。",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "全程高速483.9km...其余速度初期在120，后期都在110左右，全程开空调24℃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者最满意小米SU7的底盘质感，认为其机械素质优秀，体现了厂家在底盘调校上的投入。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T14",
+          "source_type": "text",
+          "quote": "最满意：如前所述，六边形战士、DREAM CAR...最满意的地方是这个无与伦比的底盘质感，可以看得出来下了大功夫了！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者最不满意的是等待提车时间过长，从2024年6月15日锁单到11月4日提车，历时近5个月，尽管期间有提速但仍显缓慢，认为是产能限制所致。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T14",
+          "source_type": "text",
+          "quote": "最不满意：想都不用想，等车时间太长了！2024年6.15锁单，一直到2024年11月4日才提车...真的可能唯一的限制就是产能了。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出小米SU7 Max的费用清单：裸车29.99万，选配冰箱2000元，保险6481元，免购置税，落地总价30.8381万元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "SU7max定价29.99W，选配了冰箱2000，裸车共30.19W...落地总价30.8381W"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "感谢军儿，我买到了Dream Car#提车作业#"
+      },
+      {
+        "block_id": "T14",
+        "source_type": "text",
+        "quote": "2024年6.15锁单，一直到2024年11月4日才提车"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "30W左右",
+    "preferences": [
+      "重视空间（轴距3米/C级车）",
+      "需要方向盘加热",
+      "重视底盘质感",
+      "偏好科技简约豪华内饰"
+    ]
+  },
+  "post_summary": "作者分享小米SU7 Max提车作业，详述了因身材高大和冬季通勤需求从燃油车转投电动车的决策过程。文中对比了多款竞品的优缺点，重点表扬了SU7的底盘、动力、空间及智能座舱体验，并提供了详细的费用清单和冬季高速续航实测数据，同时也指出了等待周期较长的问题。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

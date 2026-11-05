@@ -1,0 +1,242 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7ee0bce8da04ca88",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新一代小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "新一代",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "新一代小米SU7定档3.19：全系涨价，十二大标配硬核开卷！"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "第一代小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "第一代",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "在第一代SU7基础上再潜心打磨2年"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米用“涨价增配”正面硬刚Model 3等对手"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "文章指出新一代小米SU7定于3月19日发布，且相比现款车型全系价格上涨1万至1.4万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军宣布，新车将于3月19日19:00发布"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "较现款全系上涨1万至1.4万元"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "文章介绍新一代SU7全系标配多项升级，包括V6s Plus电机、激光雷达、2200MPa超强钢、9气囊及三重冗余门把手等。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "全系换装V6s Plus电机...全系标配激光雷达及700TOPS算力芯片...全系标配2200MPa超强钢防滚架、9气囊（含后排侧气囊）及三重冗余门把手"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章认为小米通过“涨价增配”的策略，在20-30万级纯电轿车市场中与特斯拉Model 3等竞争对手进行正面竞争。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "在20-30万级纯电轿车红海中，小米用“涨价增配”正面硬刚Model 3等对手"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "价格与成本",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T3",
+                "source_type": "text",
+                "quote": "小米用“涨价增配”正面硬刚Model 3等对手"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章提到预售半月订单接近10万，并指出3月1日前锁单可享受智驾终身免费的优惠政策。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "预售半月订单近10万...31日前锁单享智驾终身免费"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新一代小米SU7发布及定价策略",
+      "event_type": "产品发布与上市",
+      "event_time": "2026-03-19",
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军宣布，新车将于3月19日19:00发布"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米汽车宣布新一代SU7将于3月19日发布，并透露新车将全系涨价。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子介绍了新一代小米SU7定于3月19日发布，并分析了其在全系涨价背景下，通过“十二大标配”升级产品力以及与Model 3竞争的市场策略。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

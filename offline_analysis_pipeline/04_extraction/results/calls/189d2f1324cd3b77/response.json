@@ -1,0 +1,596 @@
+{
+  "schema_version": "2.3",
+  "post_id": "189d2f1324cd3b77",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 创始版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "创始版",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7创始版"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "背景白色展板上印有“xiaomi SU7 创始版 Founder's Edition”字样"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "奥迪A4L 2.0T高功率四驱",
+      "entity_level": "具体配置",
+      "brand": "奥迪",
+      "series": "A4L",
+      "model_year": null,
+      "version": "2.0T高功率四驱",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "A4L2.0T高功率四驱"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "领克03 cyan",
+      "entity_level": "具体配置",
+      "brand": "领克",
+      "series": "03",
+      "model_year": null,
+      "version": "cyan",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "领克03cyan"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪 001发布"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "极氪X",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "X",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪x"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "零跑C01 暗夜",
+      "entity_level": "具体配置",
+      "brand": "零跑",
+      "series": "C01",
+      "model_year": null,
+      "version": "暗夜",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "零跑C01暗夜"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "我前面有个女的刚选完她的特斯拉"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P8",
+      "name": "雪佛兰",
+      "entity_level": "品牌",
+      "brand": "雪佛兰",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T20",
+          "source_type": "text",
+          "quote": "我之前开的雪佛兰"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者最初考虑购买奥迪A4L或领克03 Cyan，但因资金不足和家庭不支持而未购买，随后关注极氪001等电动车，最终选择了小米SU7。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最开始想买个性能车，当时目标车型A4L2.0T高功率四驱，领克03cyan...不过一是因为22年存款不到位，再一个家里也不是很支持，所以只能作罢。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7后排空间有限，身高175cm体重180kg时主驾舒适进入模式下后排腿部仅剩一拳空间，副驾正常模式下约两拳，头部剩余两指，无法翘二郎腿，但对腿部空间感到够用。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "主驾舒适进入模式下，后排腿部大概一拳空间。"
+        },
+        {
+          "block_id": "T13",
+          "source_type": "text",
+          "quote": "头部大概剩余2指"
+        },
+        {
+          "block_id": "T14",
+          "source_type": "text",
+          "quote": "副驾正常模式下，后排大概两拳距离。"
+        },
+        {
+          "block_id": "T15",
+          "source_type": "text",
+          "quote": "综上所述，后排可能对身高比较高的不是很友好，但是腿部空间够用。虽然翘不了二郎腿，也是够用的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者身高175cm，体重180kg，在主驾舒适进入模式和副驾正常模式下测量后排空间。",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "我身高175，体重180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为搭载8295芯片的车机流畅度高，无明显Bug，但偶尔账号掉线需重新登录，且驾驶习惯记录有时失效；车机支持三方应用拓展，作者期待后续OTA优化。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T16",
+          "source_type": "text",
+          "quote": "8295加持下的车机，流畅度自然是没得说的，目前也没发现什么明显BUG，但是偶尔账号会掉线，需要重新登录。而且驾驶习惯的记录感觉也有些时候会记录不上"
+        },
+        {
+          "block_id": "T18",
+          "source_type": "text",
+          "quote": "车机的三方拓展功能也很多，有直接的应用商店，里面有一些已经适配车机的APP。"
+        },
+        {
+          "block_id": "T19",
+          "source_type": "text",
+          "quote": "当然，车机还是有更多的优化的空间，毕竟还没有经历第一次OTA，期待小米能带来更多的新奇功能。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在舒适模式、动能回收为0的情况下，平均能耗约为18kWh/100km，偶尔可达15kWh/100km以下，对此表示满意，认为满足了随时拥有动力的需求。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "目前主要使用模式为舒适模式，动能回收为0，偶尔深踩，平均能耗在18左右。也有踩出不到15的情况。但是买电车就是为了随时都有的动力，这个能耗我还算满意。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "主要使用舒适模式，动能回收设置为0，偶尔深踩加速。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "目前主要使用模式为舒适模式，动能回收为0，偶尔深踩"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者测试了120kW直流快充和家用便携充电，120kW桩可跑满功率，当地电价较低；便携充电枪质感好，接普通插座约有7A电流，满足应急需求。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "目前使用过120kw桩和便携充电桩，120kw的国网桩和云快充的桩，都可以跑满120kw...米家便携的充电枪，质感真的是没的说...插在家里的普通插座上，也有大概7A的电流"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者指出SU7底盘较低，在经过小区上坡时发生轻微蹭底，建议路况不好时升起空气悬挂，并希望未来能通过OTA实现激光雷达自动扫描升高。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "SU7的底盘真的是要格外注意...结果su7那天过，就轻微蹭了底下的门槛。应该是su7轴距长的缘故，所以在这特别提醒，路况不好的情况下，一定把空气悬挂升起来。"
+        },
+        {
+          "block_id": "T20",
+          "source_type": "text",
+          "quote": "希望以后能ota出来激光雷达自动扫描，自动升高，要不然总是感觉不够智能。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆在小区上坡路段行驶时发生蹭底。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "我小区有一个上坡...结果su7那天过，就轻微蹭了底下的门槛"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为底盘给予足够的信心，但初次使用动能回收感到不适应，经摸索后将动能回收设置为20时感觉接近燃油车体验。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T20",
+          "source_type": "text",
+          "quote": "底盘真的很给力，在我的驾驶场景里，底盘给我的信心是到位的...经过我的多次摸索，动能回收大概设置为20的时候，跟油车差不多。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为单层玻璃隔音在市区低速下够用，无异响，但雨天石子声明显，高速超120km/h有胎噪；相比之前驾驶的雪佛兰，胎噪影响不大，希望未来车型配备双层玻璃。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T20",
+          "source_type": "text",
+          "quote": "虽然是单层玻璃，但是我感觉隔音方面对我来说够用了...但是最近我这边有雨水，路上小石子多一些，轮胎把小石子带起来的声音还是有点明显...高速情况下，车速＞120KM，开始能听到一点胎噪，不过我之前开的雪佛兰胎噪更大，这一点对我来说影响不大。希望小米再出新车能够补齐这个短板，提供双层玻璃"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P8"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P8",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T20",
+                "source_type": "text",
+                "quote": "不过我之前开的雪佛兰胎噪更大，这一点对我来说影响不大"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "市区车速80km/h以下，雨天路面有小石子，高速车速大于120km/h。",
+        "evidence": [
+          {
+            "block_id": "T20",
+            "source_type": "text",
+            "quote": "尤其是市区行驶过程中，车速80KM以下...高速情况下，车速＞120KM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者反馈哨兵模式开启后，车旁有人即录像且双闪常亮无法关闭，导致费电，且电量低于20%无法开启；手机蓝牙钥匙近期需重启才好用，更新App后略有改善。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "开启哨兵模式后，车附近只要有人，就会录像，关键是录像就录像吧，车的双闪还会亮，问了服务管家，这个双闪亮目前还关不了。这样就有点费电了。百分之20电量以下，还无法打开哨兵模式。"
+        },
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "手机蓝牙钥匙：刚提车回来两天，特别好用。最近这几天，必须停用重新启用才好用...目前重新设置以后，好像略微好用了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者因首次接触电车智驾，仅在提车回家途中尝试了高速NOA，尚存顾虑，计划后续多测试；提示提车前可获取智驾考试二维码以便立即使用。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "辅助驾驶因为之前没开过电车，只在提车回来的路上试了试高速NOA，还是心里没底，后续多跑跑高速多测试再说，再一个小米的智驾需要提前考试，提车之前可以先找交付要二维码，这样提车以后可以立马使用智驾。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "提车回家的路上，高速公路环境。",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "只在提车回来的路上试了试高速NOA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者描述了提车当天的流程，包括验车时发现小瑕疵由交付专员协助处理，但店长态度不佳；临牌等待约2小时；选号过程曲折，最终选定3068。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "发现了几个无伤大雅的小瑕疵，交付专员倒是很细心负责，一直帮着处理。不过交付中心的店长就有点阴阳怪气了...提车当天等个临牌就可以开走了，不过我那天临牌等的时间，大概2个小时。"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "最后车牌号选了3068，也挺不错"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "SU7提回来已经刚好一周了，目前公里数276"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好强劲动力/四驱",
+      "重视车机流畅度",
+      "注重性价比"
+    ]
+  },
+  "post_summary": "车主分享了小米SU7创始版提车一周后的详细体验，涵盖选车历程、提车流程、空间实测、能耗充电、底盘操控、车机系统及智能驾驶等方面。作者对动力、车机流畅度和底盘信心表示满意，但也指出了底盘易蹭、哨兵模式耗电、蓝牙钥匙不稳定等问题，并对后排空间和隔音提出了改进期望。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

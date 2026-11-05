@@ -1,0 +1,94 @@
+{
+  "post_id": "33974cef6e37a04a",
+  "state": "FAILED",
+  "cache_key": "7f0340bd6e07fc1ffcce8c32628164c6432a977d990a46235c2c36439bb8c65d",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "33974cef6e37a04a",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7真的好帅！"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7远看确实帅，但近看时感觉瞬间减分。",
+        "sentiment": "正负混合",
+        "journey_stage": "无法判断",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "远看确实帅，近一看小米，瞬间减分 哈哈"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者对小米SU7的外观进行了简短评价，认为远看帅气，但近看时印象有所减分。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "低"
+  },
+  "errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 9978,
+    "completion_tokens": 559,
+    "total_tokens": 10537,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 2.605753600000753,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

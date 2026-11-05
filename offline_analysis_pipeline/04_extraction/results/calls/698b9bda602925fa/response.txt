@@ -1,0 +1,256 @@
+{
+  "schema_version": "2.3",
+  "post_id": "698b9bda602925fa",
+  "products": [
+    {
+      "id": "P1",
+      "name": "All New Audi A5L",
+      "entity_level": "具体配置",
+      "brand": "奥迪",
+      "series": "A5L",
+      "model_year": null,
+      "version": "All New",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "车牌位置放置了一块白色标牌，上面印有黑色文字“All New Audi A5L”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "星舰7 EM-i",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": "星舰7",
+      "model_year": null,
+      "version": "EM-i",
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "背景窗外模糊可见“星舰7 EM-i”字样的展板"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "P3",
+      "name": "领克Z20",
+      "entity_level": "具体配置",
+      "brand": "领克",
+      "series": "Z20",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "车牌位置清晰可见“LYNK & CO Z20”字样"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为在20万预算下，由于合资燃油车优惠大且国产电动车免购置税，两者基本属于同价位同级别。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前合资品牌的燃油车优惠比较大，而国产电动车配置高还可以免购置税，所以20万左右的燃油车与电动车基本算是同价位同级别。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为如果资金充足，会果断选择电动车，以获得更好的智能化体验、用车体验和科技舒适性。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "要是我钱够我是会果断选电车，谁不想有更好的用车体验和更好的科技舒适性呢？"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者指出电动车起步动力更强、零百加速快，但因无变速箱最高车速通常低于燃油车；同时电动车NVH表现更好，乘坐舒适性更佳。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "电动车是由电机直接驱动车辆，所以在起步时的动力性能上会更强...电动车的最高车速往往低于燃油车。不过电动车整体的噪音、震动、顿挫感都比较小，所以电动车乘坐舒适性会更好。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "无法判断",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者对比发现燃油车加油便捷（3-5分钟），而20万级电动车存在约30%续航虚标，实际需频繁充电（300公里左右），且快充至80%需15分钟，因此燃油车在出行便捷性上更优。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "电动车一般跑上300公里就要及时充电...即使在超级快充，最快也要十五分钟才能充到80%。所以在出行的便捷性上，燃油车会更好。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者测算20万级车型年行驶2万公里时，燃油车年用车成本约1.7万元，电动车约8700元，电动车成本约为燃油车的一半，五年可节省4万多元。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "相比燃油车，电车一年的成本相差近一半。开上五年的话就能省下4万多块钱。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "车型比较",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为虽然电动车保值率低（5年后残值约20%），但考虑到燃油车降价导致保值率下滑，若持有5年不卖，电动车综合成本更低；若短期换车或高频长途出行，则不建议选电动车。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "假如都是开五年就买车的话...即便加上省下的4万用车成本，相比燃油车还会亏2万。当然对于不打算卖车的来说，保值率可有可无。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结：若用车多且不卖车，果断选电车；若用车少且计划3-5年后卖出，建议选燃油车；若仅看同预算体验，推荐电车。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "如果用车多并且不打算卖车的话，那果断选择电车...如果排除这些因素，单纯说同预算的话，那我建议你选电车。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "那么预算20万到底是该选燃油车还是新能源呢？"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": "20万左右",
+    "preferences": [
+      "重视智能化体验",
+      "重视用车经济性"
+    ]
+  },
+  "post_summary": "帖子详细对比了20万预算下燃油车与电动车在价格、空间、智能化、动力、续航、用车成本及保值率方面的差异。作者认为电动车在智能化和长期使用成本上优势明显，但续航焦虑和保值率是短板，最终建议用车多且不卖车的用户选择电动车。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

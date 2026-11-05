@@ -1,0 +1,199 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f8db50e2c95ce854",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾了MAX版本"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "车牌位置标有“SU7 Max”字样。车辆配置信息显示型号为“SU7 Max”"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为小米汽车的销售服务水平差，进店无人接待和讲解，且客服联系困难，导致其对品牌声誉感到失望。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对小米的销售工作人员就开始失望了，进店全程没有人接待，没有人讲解。自己一个人看自己的。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车客服电话也是太难打进去，APP意见反馈也是石沉大海"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "被下面这帮客服销售把小米汽车声誉和人气无形消耗了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为车辆空间略显局促，整车质感一般。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车辆空间略显局促，整车质感一般。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为试驾流程安排不佳，路线单一、时间短且无讲解，导致体验不尽如意。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾路线太单一，全程自己开，试驾员也没有讲解，反正什么都是自己弄，整个试驾十分钟左右"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "反正整体体验感觉非常不尽如意。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在武汉东湖园区总部交付中心进行试驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今天上午十点去了武汉东湖园区总部交付中心进行了试驾"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者虽已下定，但因担心售后服务问题，对提车持犹豫态度。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "虽然大定了，但说实话，后面提车还在犹豫，不敢下决心提车，怕到时候出问题到处找不到人解决"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "从28号预订，29号上午锁单"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "虽然大定了"
+      },
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "顶部标题显示“车辆待生产”... 定金¥5,000状态为“已支付”，尾款¥294,900状态为“待支付”"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了预订小米SU7 Max后的糟糕体验，指出销售接待缺失、客服难联系、试驾流程敷衍等问题，表达了对品牌服务水平的强烈失望及对提车的犹豫。",
+  "post_topic": "故障质量与售后",
+  "analysis_value": "高"
+}

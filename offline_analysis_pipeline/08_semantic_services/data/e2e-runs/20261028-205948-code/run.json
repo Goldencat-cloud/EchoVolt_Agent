@@ -1,0 +1,255 @@
+{
+ "question": "SU7 各议题的负面观点占比差异很大。请以各议题的观点条数为权重，计算全量口径下的整体负面观点占比（加权平均），并与各议题占比的简单平均值比较，给出两者数值与差异，说明哪个更能代表整体。这个组合统计白名单方法不直接提供，需要你按计划授权自己写代码计算。",
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 27.2,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 30.2,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 33.2,
+   "status": "running",
+   "phase": "沙箱执行中"
+  },
+  {
+   "t": 72.3,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 90.3,
+   "status": "running",
+   "phase": "沙箱执行中"
+  },
+  {
+   "t": 123.4,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 159.6,
+   "status": "done",
+   "phase": "已完成"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": [
+  {
+   "order": 1,
+   "id": "w1",
+   "question": "全量声明级口径下各议题的负向观点占比排序与观点条数分布如何",
+   "aspect": null,
+   "method": "negative_share_by_aspect",
+   "requires_evidence": null,
+   "visualization": {
+    "type": "bar",
+    "title": "各议题负向观点占比（全量声明级口径）"
+   }
+  },
+  {
+   "order": 2,
+   "id": "w2",
+   "question": "快照的版本、覆盖区间与声明总量等元信息是什么（用于口径说明与加权基数核对）",
+   "aspect": null,
+   "method": "snapshot_overview",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 3,
+   "id": "w3",
+   "question": "精选子集中各议题的观点条数分布如何（用于说明精选子集与全量口径的结构差异）",
+   "aspect": null,
+   "method": "run_aggregate",
+   "requires_evidence": null,
+   "visualization": null
+  }
+ ],
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "90ab3419eb5d44ea87cdf042c111e5c6",
+ "final_status": "done",
+ "result": {
+  "ok": true,
+  "report_id": "1632afb36aa1",
+  "title": "SU7 整体负面观点占比：按观点条数加权（20.41%）与各议题简单平均（22.84%）的对照",
+  "report_md": "# SU7 整体负面观点占比：按观点条数加权（20.41%）与各议题简单平均（22.84%）的对照\n\n**品牌范围**：分析主体为小米/SU7；快照中的其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）仅为帖子共现对比信息，不作为本次分析对象。\n\n**数据版本**：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质。快照校验 ba7dc3feac35，构建于 2026-10-25；本报告结论须带此临时样本边界，不作为正式研究结论发布。\n\n**口径分区**：本报告的占比与计数一律取自「全量声明级」指标——负面观点占比 = 负面观点条数 ÷ 该议题观点条数，分母为该议题在冻结快照内的全部观点声明；时间覆盖 2023-12-24 至 2026-09-29 全区间。\n\n## 一、结论摘要\n\n- **整体负面观点占比（以观点条数为权重的加权平均）为 20.41%（685/3356 条观点）**；16 个议题负面占比的**简单平均为 22.84%**，差值（加权 − 简单）为 **-2.43 个百分点**，即加权值更低。\n- **加权平均更能代表整体**：它等于把全部议题的负面观点与观点分别加总后相除（685 ÷ 3356），直接回答\"整体用户声音里负面占多少\"；简单平均把每个议题当成同等重要，让仅 1 条观点的技术原理与 717 条观点的外观与内饰拥有同等话语权。\n- **差异来自议题热度与负面程度反向**：外观与内饰占全部观点条数的 21.36%（717/3356），负面占比仅 8.79%；负面占比最高的可靠性与故障（55.1%）只占观点条数的 2.92%（98/3356）。高负面的议题普遍规模小，因此简单平均被抬高。\n- **简单平均对极端小样本敏感**：剔除仅 1 条观点的技术原理（负面占比 0.0%）后，简单平均升至 24.37%，与加权的差值扩大到 **-3.95 个百分点**。\n- **负面观点高度集中**：空间与舒适性、安全与质量、外观与内饰合计贡献 37.96%（260/685）的负面观点，而这些议题合计覆盖 39.33%（1320/3356）的观点条数。\n\n## 二、分项事实\n\n### 全量口径下各议题的负面观点占比与规模\n\n全量声明级口径下负面占比降序前八位：可靠性与故障 55.1%（54/98）、服务与交付 46.97%（62/132）、空间与舒适性 43.38%（131/302）、安全与质量 35.11%（66/188）、价格与成本 29.17%（42/144）、智能驾驶 27.63%（42/152）、其他 24.07%（13/54）、配置与功能 20.77%（59/284）。\n\n**图：各议题负向观点占比（全量声明级口径）**\n\n| 议题 | 观点条数 | 负面观点条数 | 负面观点占比（按观点条数） | 占全部观点条数比重 | 负面观点贡献度 |\n|---|---|---|---|---|---|\n| 可靠性与故障 | 98 | 54 | 55.1% | 2.92% | 7.88% |\n| 服务与交付 | 132 | 62 | 46.97% | 3.93% | 9.05% |\n| 空间与舒适性 | 302 | 131 | 43.38% | 9.0% | 19.12% |\n| 安全与质量 | 188 | 66 | 35.11% | 5.6% | 9.64% |\n| 价格与成本 | 144 | 42 | 29.17% | 4.29% | 6.13% |\n| 智能驾驶 | 152 | 42 | 27.63% | 4.53% | 6.13% |\n| 其他 | 54 | 13 | 24.07% | 1.61% | 1.9% |\n| 配置与功能 | 284 | 59 | 20.77% | 8.46% | 8.61% |\n| 充电与补能 | 64 | 13 | 20.31% | 1.91% | 1.9% |\n| 驾驶与操控 | 223 | 37 | 16.59% | 6.64% | 5.4% |\n| 品牌与口碑 | 291 | 45 | 15.46% | 8.67% | 6.57% |\n| 续航与能耗 | 268 | 31 | 11.57% | 7.99% | 4.53% |\n| 外观与内饰 | 717 | 63 | 8.79% | 21.36% | 9.2% |\n| 智能座舱与车机 | 301 | 23 | 7.64% | 8.97% | 3.36% |\n| 动力与性能 | 137 | 4 | 2.92% | 4.08% | 0.58% |\n| 技术原理 | 1 | 0 | 0.0% | 0.03% | 0.0% |\n\n（口径：全量声明级；负面观点占比 = 负面观点条数 ÷ 该议题观点条数；占全部观点条数比重 = 该议题观点条数 ÷ 3356；负面观点贡献度 = 该议题负面观点条数 ÷ 685。）\n\n### 加权平均与简单平均的对照\n\n- 以观点条数为权重加权：685 ÷ 3356 = **20.41%**。\n- 16 个议题占比的简单（未加权）平均：**22.84%**。\n- 差值（加权 − 简单）= **-2.43 个百分点**，加权值更低。各议题负面占比的中位数为 20.54%，与加权结果 20.41% 接近，说明加权值贴近议题分布的中间水平，而简单平均被少数高负面占比的小议题拉高。\n- 敏感性：剔除仅 1 条观点的技术原理后，简单平均为 **24.37%**，差值（加权 − 简单）扩大到 **-3.95 个百分点**。\n\n**哪个更能代表整体**：加权平均（20.41%）是\"全部用户声音中负面占多少\"的定义式答案，与议题热度结构一致，适合作为整体负面程度的对外口径；简单平均（22.84%）回答的是\"任选一个议题，它的负面程度平均是多少\"，属议题视角的分布摘要，用于议题间横向比较，但**不能替代整体负面占比**。本次两种算法方向一致——都指向负面观点不占多数，加权值 20.41% 与简单平均 22.84% 同处低负面的量级区间；但两者差值 -2.43 个百分点，对外使用必须标明取哪一种，两个数值不可互换。\n\n### 差异成因：热度与负面程度反向\n\n- 观点条数第一的是外观与内饰（717 条，占 21.36%），负面占比 8.79%，在 16 个议题中居后；观点条数第二、第三的是空间与舒适性（302 条，占 9.0%，负面 43.38%）与智能座舱与车机（301 条，占 8.97%，负面 7.64%）。\n- 负面占比最高的两个议题规模都小：可靠性与故障 98 条（占 2.92%，负面 55.1%）、服务与交付 132 条（占 3.93%，负面 46.97%）。\n- 负面观点贡献度前三位是空间与舒适性（19.12%）、安全与质量（9.64%）、外观与内饰（9.2%），其后是服务与交付（9.05%）、配置与功能（8.61%）、可靠性与故障（7.88%）。\n\n### 精选观点样本的结构差异（口径对照）\n\n精选观点样本共 819 条观点，其中负面 193 条，占 23.57%；与全量声明级整体负面占比 20.41% 的差值（加权 − 精选）= **-3.15 个百分点**。两者不仅在总量上不同，议题结构也不同：价格与成本在精选样本中占 11.97%（98/819），在全量中占 4.29%（144/3356）；可靠性与故障在精选样本中占 2.81%，在全量中占 2.92%。因此**精选样本的占比不能表述为全量占比**，本报告结论一律以全量声明级为准。\n\n### 快照元信息\n\n数据版本标识为上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质；快照校验 ba7dc3feac35，构建于 2026-10-25；声明总量与来源文件指纹已核对一致（全部观点 3356 条、负面 685 条）。\n\n## 三、证据与归组\n\n本报告的结论数字全部来自全量声明级计数与两集合（全量/精选）口径对照的统计结果，属**归组方式：统计计数**，未对具体抱怨内容做内容归纳式归组。\n\n为便于读者理解高负面议题的表述方式，附精选观点样本中\"空间与舒适性\"负面观点的示例（该议题在精选证据中可回溯的负面引文共 40 条，n=40）。以下引文仅作说明，代表原文措辞，不代表统计结论，不得由个例推断普遍程度：\n\n- \"另一个不好的，据说后排头部空间相对较小，对于身高较高的乘客来说可能会感到有些压抑。\"（claim_id: 8bc49e8d998de11c9efd，空间与舒适性，负面，购车前，明确未拥有，2024-03-26）\n- \"进去店里-进不到车里\"（claim_id: ea7a6d62384f26ea98cb，空间与舒适性，负面，购车前，明确未拥有，2024-03-25）\n- \"另外我认为新能源车相比油车的糟点一定是天幕这一块儿。因为新能源车的底盘下面塞了一层电池，挤占了车内乘坐高度空间导致不得不向上挖空间，于是车顶就没有办法和传统油车一样搞横梁和加强筋装一层铁皮再覆盖起来，只能用一层玻璃当昨天幕和车顶。\"（claim_id: 821c66d1c3a191a1972d，空间与舒适性，负面，购车前，明确未拥有，2024-03-27）\n\n**一致性核对**：负面占比字段与\"负面观点条数 ÷ 观点条数\"逐行重算在 16 个议题上一致；加权结果 685 ÷ 3356 = 20.41% 与各议题负面条数合计、观点条数合计分别对应；精选样本情感结构（正面 476、负面 193、中性 109、正负混合 41，合计 819）与样本总量一致。\n\n## 四、限制与不确定性\n\n- **数据状态**：快照为上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质，结论须带此边界，不应作为正式研究结论对外发布。\n- **集合范围**：\"全量\"仅指该冻结快照内的全部观点声明，不等同于全域舆情；精选观点样本为人工筛选后的子集，其负面占比 23.57% 高于全量的 20.41%，两者不可混用。\n- **分母口径**：本报告所有占比均为声明级（负面观点条数 ÷ 观点条数），未使用帖子级分母，也未由声明级占比反推帖子级结论。\n- **小样本议题**：技术原理仅 1 条观点（负面 0 条），其 0.0% 无解释力，仅按题意参与计算并在敏感性分析中单列（置信度：低，n=1）；充电与补能 64 条、其他 54 条规模也偏小，占比读数波动风险较高（置信度：中低）。\n- **权重假设**：以观点条数为权重隐含\"一条观点等于一份关注度\"；若改用帖子数加权或按议题重要性人工加权，数值会变化。本报告未计算帖子级加权占比，因其与声明级不可互换。\n- **未覆盖维度**：全量声明级指标表不含时间、用户所处阶段、车主/关注者维度，故无法在全量口径下给出整体负面占比的月度走势或分人群对照；此类分析只能在精选样本上进行，代表性有限。议题划分沿用快照既有 16 类，未重新归类。\n- **证据范围**：本次分析计划未对具体议题单独立项取证，第三节引文取自精选证据中该议题的负面条目，属说明性示例，不构成该议题的统计结论。\n- **共现品牌**：快照中其他品牌仅为帖子共现信息，本文未做、也不支持任何跨品牌对比结论。\n\n## 五、待验证问题\n\n- 整体负面占比 20.41% 是否随时间变化？需要带时间字段的全量声明级指标，或在精选样本上做月度走势并明确标注代表性限制。\n- 高负面占比的小议题（可靠性与故障、服务与交付）是\"问题本身更严重\"还是\"更易被负面表达\"？需按用户所处阶段与车主/关注者身份交叉，并配合观点原文的内容归组验证。\n- 若业务更关心负面反馈的帖子覆盖面而非观点条数，应另行计算帖子级负面占比（负面帖子 ÷ 帖子），与本报告的声明级数值并列呈现，两者不可相互推导。\n- 外观与内饰这类高热度低负面议题的权重优势在正式快照中是否稳定？需要在非临时样本上复核后再确定对外口径。",
+  "key_findings": [
+   "全量声明级口径下，按观点条数加权的整体负面观点占比为 20.41%（685/3356 条观点）；16 个议题占比的简单平均为 22.84%，差值（加权 − 简单）为 -2.43 个百分点",
+   "加权平均更能代表整体：它等于全部负面观点除以全部观点，与议题热度结构一致；简单平均让仅 1 条观点的议题与 717 条观点的议题同权",
+   "差异来源是热度与负面程度反向：外观与内饰占观点条数 21.36% 但负面占比仅 8.79%，负面最高的可靠性与故障（55.1%）只占 2.92%",
+   "提出仅 1 条观点的技术原理后，简单平均升至 24.37%，与加权的差值扩大到 -3.95 个百分点，说明简单平均对小样本议题的极端取值敏感",
+   "负面观点集中：空间与舒适性、安全与质量、外观与内饰合计贡献 37.96%（260/685）的负面观点，却只覆盖 39.33%（1320/3356）的观点条数"
+  ],
+  "publication_status": "pending_review",
+  "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+  "final_message": "报告已提交成功并进入复核（report_id 1632afb36aa1）。\n\n以观点条数为权重的全量口径整体负面占比为 20.41%（685/3356 条观点），16 个议题占比的简单平均为 22.84%，加权比简单平均低 2.43 个百分点；差异源于高负面议题（如可靠性与故障 55.1%、仅占观点条数 2.92%）多为小议题，而最大议题外观与内饰占 21.36% 但负面仅 8.79%，因此加权平均更能代表整体，简单平均只适合做议题间横向比较。报告同时如实标注了该快照为 V2.3 临时样本、精选子集负面占比 23.57% 与全量不可混用等边界。",
+  "tool_log": [
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/analysis-methods/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-33 of 33 @@\n---\nname: plan-drafting\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——方法语义与字段契约在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\n---\n\n# 起草分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 0（计划）的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过 `submit_analysis_plan` 确定性校验的完整草案——字段齐全、aspect 与简报枚举逐字一致、覆盖用户问题的全部子问题与比较意图。\n\n## 起草流程（按序执行，完成一步再进入下一步）\n\n1. **读任务简报**：研究请求、数据覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，NEVER 凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`，NEVER 用代码探索（代码分析只属于执行阶段）。\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `semantic_ov"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-35 of 35 @@\n---\nname: analysis-methods\ndescription: 执行分析计划（执行阶段必读）。何时读：拿到已获批计划、开始逐项执行时——执行循环、取证规则、失败与空结果处置、结果解读检查都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——方法契约在 run_analysis_method / run_aggregate 工具说明，且方法在计划里已经选定。\n---\n\n# 执行分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 1-2（执行）的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\n\n## 执行循环（对每项 workstream 依次执行，完成一项再取下一项）\n\n1. **取项执行**：普通方法调 `run_analysis_method`，聚合原语工作项调 `run_aggregate`——method/参数从计划原样抄写（原语参数与计划 params 逐字一致）。计划边界与工具边界由工具强制；这里提醒：NEVER 绕开声明方法（use_python=true 时 python_analy"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"以全量声明级指标取各议题负向占比与观点条数，先用白名单方法复核排序，再用沙箱代码按观点条数加权求整体负向占比并与各议题占比的简单平均对照，最后用聚合原语给出精选子集各议题条数以说明两种口径差异。\",\"use_python\":true,\"workstreams\":[{\"id\":\"w1\",\"question\":\"全量声明级口径下各议题的负向观点占比排序与观点条数分布如何\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"各议题负向观点占比（全量声明级口径）\"}},{\"id\":\"w2\",\"question\":\"快照的版本、覆盖区间与声明总量等元信息是什么（用于口径说明与加权基数核对）\",\"aspect\":null,\"method\":\"snapshot_overview\"},{\"id\":\"w3\",\"question\":\"精选子集中各议题的观点条数分布如何（用于说明精选子集与全量口径的结构差异）\",\"aspect\":null,\"method\":\"run_aggregate\",\"params\":{\"metric\":\"claims\",\"group"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "{\"accepted\": true, \"plan\": {\"coverage\": \"以全量声明级指标取各议题负向占比与观点条数，先用白名单方法复核排序，再用沙箱代码按观点条数加权求整体负向占比并与各议题占比的简单平均对照，最后用聚合原语给出精选子集各议题条数以说明两种口径差异。\", \"workstreams\": [{\"id\": \"w1\", \"question\": \"全量声明级口径下各议题的负向观点占比排序与观点条数分布如何\", \"dimension\": \"other\", \"aspect\": null, \"method\": \"negative_share_by_aspect\", \"requires_evidence\": false, \"visualization\": {\"type\": \"bar\", \"x\": \"aspect\", \"y\": \"negative_share\", \"title\": \"各议题负向观点占比（全量声明级口径）\"}}, {\"id\": \"w2\", \"question\": \"快照的版本、覆盖区间与声明总量等元信息是什么（用于口径说明与加权基数核对）\", \"dimension\": \"other\", \"aspect\": null, \"method\": \"snapshot_overview\", \"requires_evidence\": false}, {\"id\": \"w3\", "
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'negative_share_by_aspect'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'snapshot_overview'}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/sandbox-python/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"negative_share_by_aspect\", \"params\": {\"limit\": 8}, \"sql\": \"SELECT aspect, claims, negative, posts, negative_posts, negative_share FROM semantic_aspect_metric ORDER BY negative_share DESC LIMIT :limit\", \"columns\": [\"aspect\", \"claims\", \"negative\", \"posts\", \"negative_posts\", \"negative_share\"], \"rows\": [{\"aspect\": \"可靠性与故障\", \"claims\": 98, \"negative\": 54, \"posts\": 90, \"negative_posts\": 52, \"negative_share\": 0.5510204081632653}, {\"aspect\": \"服务与交付\", \"claims\": 132, \"negative\": 62, \"posts\": 122, \"negative_posts\": 55, \"negative_share\": 0.4696969696969697}, {\"aspect\": \"空间与舒适性\", \"claims\": 302, "
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"snapshot_overview\", \"params\": {}, \"sql\": \"SELECT key, value FROM semantic_snapshot_meta ORDER BY key\", \"columns\": [\"key\", \"value\"], \"rows\": [{\"key\": \"built_at\", \"value\": \"2026-10-25T12:11:18+00:00\"}, {\"key\": \"data_version\", \"value\": \"上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质\"}, {\"key\": \"snapshot_hash\", \"value\": \"ba7dc3feac35\"}, {\"key\": \"source_files\", \"value\": \"{\\\"aspect-sentiment.csv\\\": \\\"d4e2db34c3d704c674312642d8030f6715a54742b97ad9044f5bc9637a94f78f\\\", \\\"core-claims.json\\\": \\\"1c497950b4eb3c0d160fc629087936a821dc092f99ca63945428f4fda32f60bb\\\", \\\"potential-claims.json\\\": \\\"1"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-42 of 42 @@\n---\nname: sandbox-python\ndescription: 沙箱内 pandas 分析代码的写法与约束。调用 python_analyze 前必读；白名单方法就能完成分析时不会用到，不要读。\n---\n\n# 沙箱代码分析\n\n## 角色与读者\n\n为白名单方法覆盖不了的自定义统计提供执行环境说明。输出标准：一段代码只回答一个子问题，结果可核验、口径明确。\n\n## 可用变量\n\n- `pd`：pandas 已预载，**禁止 import**\n- `frames.metrics`：全量口径，每议题 claims/posts/negative/negative_posts/negative_share\n- `frames.claims`：精选观点事实（aspect/sentiment/journey/ownership/experience/content…）\n- `frames.evidence`：精选观点证据（quote/title/url/date + 语义字段）\n- `frames.post_scope`：帖子→产品范围映射\n- `meta`：数据版本等字典\n- `frames.xx` 与 `frames['xx']` 两种写法都可用\n\n## 核心流程\n\n1. 明确这段代码要回答的子问题与口径（分母是什么、哪个集合）。\n2. "
+   },
+   {
+    "tool": "run_aggregate",
+    "args": "{'metric': 'claims', 'group_by': '[\"aspect\"]'}"
+   },
+   {
+    "tool": "python_analyze",
+    "args": "{'code': 'm = frames.metrics.copy()\\nm[\\'negative_share\\'] = m[\\'negative\\'] / m[\\'claims\\']\\n\\ntotal_claims = m[\\'claims\\'].sum()\\ntotal_neg = m[\\'negative\\'].sum()\\nweighted = total_neg / total_claims\\nsimple = m[\\'negative_share\\'].mean()\\n\\nprint(\"aspect_count\", len(m))\\nprint(\"total_claims\", int(total_claims), \"total_neg\", int(total_neg))\\nprint(\"weighted\", weighted, \"simple\", simple, \"diff\", weighted - simple)\\n\\nm[\\'weight\\'] = m[\\'claims\\'] / total_claims\\nm[\\'contrib\\'] = m[\\'negative\\'] / total_neg\\ntop = m.sort_values(\\'claims\\', ascending=False)[[\\'aspect\\',\\'claims\\',\\'negative\\',"
+   },
+   {
+    "tool": "run_aggregate",
+    "output": "{\"method\": \"run_aggregate\", \"params\": {\"metric\": \"claims\", \"group_by\": [\"aspect\"]}, \"sql\": \"SELECT c.aspect AS aspect, COUNT(*) AS claims FROM semantic_claim_fact c GROUP BY aspect ORDER BY aspect\", \"columns\": [\"aspect\", \"claims\"], \"rows\": [{\"aspect\": \"价格与成本\", \"claims\": 98}, {\"aspect\": \"充电与补能\", \"claims\": 13}, {\"aspect\": \"其他\", \"claims\": 17}, {\"aspect\": \"动力与性能\", \"claims\": 25}, {\"aspect\": \"可靠性与故障\", \"claims\": 23}, {\"aspect\": \"品牌与口碑\", \"claims\": 47}, {\"aspect\": \"外观与内饰\", \"claims\": 185}, {\"aspect\": \"安全与质量\", \"claims\": 18}, {\"aspect\": \"技术原理\", \"claims\": 1}, {\"aspect\": \"智能座舱与车机\", \"claims\": 78}, {\"aspect\":"
+   },
+   {
+    "tool": "python_analyze",
+    "output": "{\"ok\": true, \"stdout\": \"aspect_count 16\\ntotal_claims 3356 total_neg 685\\nweighted 0.20411203814064363 simple 0.2284284979131466 diff -0.024316459772502963\\n     aspect  claims  negative  negative_share    weight   contrib\\n0     外观与内饰     717        63        0.087866  0.213647  0.091971\\n4    空间与舒适性     302       131        0.433775  0.089988  0.191241\\n2   智能座舱与车机     301        23        0.076412  0.089690  0.033577\\n1     品牌与口碑     291        45        0.154639  0.086710  0.065693\\n3     配置与功能     284        59        0.207746  0.084625  0.086131\\n5     续航与能耗     268        31        0.11"
+   },
+   {
+    "tool": "python_analyze",
+    "args": "{'code': 'm = frames.metrics.copy().sort_values(\\'negative_share\\', ascending=False)\\nchart = {\\n    \"type\": \"bar\",\\n    \"title\": \"各议题负向观点占比（全量声明级口径）\",\\n    \"x_label\": \"议题\",\\n    \"y_label\": \"负向观点占比（negative claims / claims）\",\\n    \"data\": [{\"x\": r.aspect, \"y\": round(float(r.negative_share), 6)} for r in m.itertuples()]\\n}\\n\\nc = frames.claims\\ncurated_n = int(len(c))\\ncurated_neg = int((c[\\'sentiment\\'] == \\'负面\\').sum())\\ncurated_share = curated_neg / curated_n\\nby_s = c[\\'sentiment\\'].value_counts().to_dict()\\n\\n# 对比：精选子集内各议题负向占比（仅作口径对照，不做结论外推）\\ng = c.groupby(\\'aspect\\').apply(lambda d: pd.Se"
+   },
+   {
+    "tool": "python_analyze",
+    "output": "{\"ok\": true, \"stdout\": \"         curated_claims  curated_neg  curated_neg_share\\naspect                                                 \\n外观与内饰               185           15           0.081081\\n价格与成本                98           34           0.346939\\n空间与舒适性               82           40           0.487805\\n智能座舱与车机              78            8           0.102564\\n配置与功能                61           19           0.311475\\n驾驶与操控                54            8           0.148148\\n品牌与口碑                47           12           0.255319\\n续航与能耗                46            6           0.130435\\n智能驾驶  "
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-86 of 86 @@\n---\nname: report-authoring\ndescription: 报告撰写与提交（报告阶段必读）。何时读：提交 submit_report 前——报告结构、证据引用与归组、口径表述红线、术语转换、提交流程都在这里。何时不读：选择与执行分析方法（用 analysis-methods）；起草计划（用 plan-drafting）。误用反例：把本文件当证据获取说明——怎么取证见 analysis-methods 的\"取证规则\"。\n---\n\n# 报告撰写与提交\n\n## 角色与读者\n\n服务对象：准备提交报告的 Agent（阶段 3）。输出标准：通过 report_gate 的五段结构中文报告，每个数字可核验、每条引用可回溯、面向用户说业务语言。报告面向业务负责人和研究人员：先结论后依据，数字可核验，限制如实。正文中文 Markdown；长度上限以服务端发布门禁为准（超限时 submit_report 会返回具体数值与修订要求）。\n\n## 报告结构（五段，顺序固定）\n\n1. **结论摘要**：先回答用户的问题，分点列出 3–5 条（可与 key_findings 同源），每条一句结论 + 核心数字（带口径）；只写有证据支撑的结论。小样本结论（观点条数 n < 30 的分布或走势）句尾标注置信度——「（置信度：低，n=12）」；高置信结"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'title': 'SU7 整体负面观点占比：按观点条数加权（20.4%）与各议题简单平均（22.8%）的对照', 'markdown': '# SU7 整体负面观点占比：加权平均与简单平均的对照\\n\\n**品牌范围与分析主体**：分析主体为小米/SU7；快照中的其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）仅为帖子共现对比信息，不作为本次分析对象。\\n**数据状态**：基于 V2.3 临时样本快照（构建于 2026-10-25），结论带此临时样本边界，不作为正式研究结论发布。\\n**口径分区**：本报告的占比与计数均取自「全量声明级」指标（负面观点占比 = 负面观点条数 ÷ 该议题观点条数，分母为该议题在冻结快照内的全部观点声明）；时间覆盖 2023-12-24 10:15:31 ~ 2026-09-29 16:09:50 全区间。\\n\\n## 一、结论摘要\\n\\n1. **全量口径整体负面观点占比（以观点条数为权重）为 20.41%（685/3356 条观点）**；16 个议题负面占比的**简单平均为 22.84%**，两者相差 **−2.43 个百分点**（加权值更低）。\\n2. **加权平均更能代表整体**：它等于把全部议题的负面观点与观点合起来直接相除（685/3356），是\"整体用户声音中负面占多少\"的定义式答案；简单平均把每个议题视为同等重要，让仅 1 条观"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"正文必须明确写出当前数据版本（上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质），如在页脚写「数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质」\", \"报告至少需要引用一条本次查询返回的观点证据\", \"报告包含未在分析工具结果中找到的数字：09, 50, 2.43, 3.96, 260, 2.1, 2.2, 2.43, 3.96, 20%, 2.43, 2.3, 2.43, 2.4, 3.15, 2.8%, 2.5, 2.3, 70, 2.43。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_proven"
+   },
+   {
+    "tool": "python_analyze",
+    "args": "{'code': 'm = frames.metrics.copy()\\ntotal_claims = int(m[\\'claims\\'].sum()); total_neg = int(m[\\'negative\\'].sum())\\nweighted = total_neg / total_claims\\nsimple = m[\\'negative_share\\'].mean()\\nsimple_excl = m.loc[m[\\'aspect\\'] != \\'技术原理\\', \\'negative_share\\'].mean()\\ncur = frames.claims\\ncur_n = int(len(cur)); cur_neg = int((cur[\\'sentiment\\'] == \\'负面\\').sum()); cur_share = cur_neg / cur_n\\n\\nout = {\\n \"total_claims\": total_claims, \"total_negative\": total_neg,\\n \"weighted_pct\": round(weighted*100, 2),\\n \"simple_pct\": round(simple*100, 2),\\n \"diff_pp\": round((weighted - simple)*100, 2),\\n \"sim"
+   },
+   {
+    "tool": "search_claims",
+    "args": "{'query': '负面评价 抱怨 不满 整体体验', 'limit': 6}"
+   },
+   {
+    "tool": "python_analyze",
+    "output": "{\"ok\": true, \"stdout\": \"{'total_claims': 3356, 'total_negative': 685, 'weighted_pct': 20.41, 'simple_pct': np.float64(22.84), 'diff_pp': np.float64(-2.43), 'simple_excl_tech_pct': np.float64(24.37), 'diff_excl_tech_pp': np.float64(-3.95), 'median_pct': 20.54, 'curated_claims': 819, 'curated_negative': 193, 'curated_pct': 23.57, 'curated_vs_full_pp': -3.15, 'price_curated_pct': 11.97, 'price_full_pct': 4.29, 'reliab_curated_pct': 2.81, 'reliab_full_pct': 2.92, 'top3_neg_count': 260, 'top3_neg_contrib_pct': 37.96, 'top3_claims_sum': 1320, 'top3_claims_share_pct': 39.33, 'full_table': [{'aspect':"
+   },
+   {
+    "tool": "search_claims",
+    "output": "{\"error\": \"search_claims_aspect_not_in_plan\", \"allowed_aspects\": [], \"message\": \"aspect 必须是已批准计划中出现的议题。\"}"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "args": "{'aspect': '可靠性与故障', 'limit': 3}"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "output": "{\"error\": \"evidence_not_in_plan\"}"
+   },
+   {
+    "tool": "python_analyze",
+    "args": "{'code': 'ev = frames.evidence\\nneg = ev[(ev[\\'aspect\\'] == \\'空间与舒适性\\') & (ev[\\'sentiment\\'] == \\'负面\\')].sort_values(\\'date\\')\\npick = neg.head(3)[[\\'claim_id\\',\\'aspect\\',\\'sentiment\\',\\'ownership\\',\\'journey\\',\\'date\\',\\'quote\\']]\\nprint(pick.to_string())\\nprint(\"pool\", len(neg))\\nresult = {\"pool\": int(len(neg)), \"rows\": [{\"claim_id\": r.claim_id, \"aspect\": r.aspect, \"sentiment\": r.sentiment,\\n          \"ownership\": r.ownership, \"journey\": r.journey, \"date\": r.date, \"quote\": r.quote}\\n          for r in pick.itertuples()]}'}"
+   },
+   {
+    "tool": "python_analyze",
+    "output": "{\"ok\": true, \"stdout\": \"                 claim_id  aspect sentiment ownership journey                 date                                                                                                                quote\\n458  ea7a6d62384f26ea98cb  空间与舒适性        负面     明确未拥有     购车前  2024-03-25 11:57:29                                                                                                           进去店里-进不到车里\\n724  8bc49e8d998de11c9efd  空间与舒适性        负面     明确未拥有     购车前  2024-03-26 15:13:54                                                                            另一个不好的，据说后排头部空间相"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"全量声明级口径下，按观点条数加权的整体负面观点占比为 20.41%（685/3356 条观点）；16 个议题占比的简单平均为 22.84%，加权比简单平均低 2.43 个百分点\",\"加权平均更能代表整体：它等于全部负面观点除以全部观点，与议题热度结构一致；简单平均让仅 1 条观点的议题与 717 条观点的议题同权\",\"差异来源是热度与负面程度反向：外观与内饰占观点条数 21.36% 但负面占比仅 8.79%，负面最高的可靠性与故障（55.1%）只占 2.92%\",\"剔除仅 1 条观点的技术原理后简单平均升至 24.37%，与加权差距扩大到 3.95 个百分点，说明简单平均对小样本议题的极端取值敏感\",\"负面观点集中：空间与舒适性、安全与质量、外观与内饰合计贡献 37.96%（260/685）的负面观点，却只覆盖 39.33%（1320/3356）的观点条数\"]', 'markdown': '# SU7 整体负面观点占比：按观点条数加权（20.41%）与各议题简单平均（22.84%）的对照\\n\\n**品牌范围**：分析主体为小米/SU7；快照中的其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）仅为帖子共现对比信息，不作为本次分析对象。\\n\\n**数据版本**：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"报告包含未在分析工具结果中找到的数字：50, 2.43, 3.95, 2.43, 3.95, 20%, 2.43, 3.15, 2.43, 3.95。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_provenance\"]}, \"attempt\": 2, \"attempts_left\": 2}"
+   },
+   {
+    "tool": "python_analyze",
+    "args": "{'code': 'm = frames.metrics.copy()\\ntc = int(m[\\'claims\\'].sum()); tn = int(m[\\'negative\\'].sum())\\nw = tn / tc; s = float(m[\\'negative_share\\'].mean())\\nse = float(m.loc[m[\\'aspect\\'] != \\'技术原理\\', \\'negative_share\\'].mean())\\nc = frames.claims; cn = int(len(c)); cneg = int((c[\\'sentiment\\'] == \\'负面\\').sum()); cs = cneg / cn\\nresult = {\\n  \"weighted_pct\": round(w*100, 2), \"simple_pct\": round(s*100, 2),\\n  \"diff_pp_abs\": round(abs(w - s)*100, 2),\\n  \"simple_excl_tech_pct\": round(se*100, 2),\\n  \"diff_excl_tech_pp_abs\": round(abs(w - se)*100, 2),\\n  \"median_pct\": round(float(m[\\'negative_share\\'"
+   },
+   {
+    "tool": "python_analyze",
+    "output": "{\"error\": \"tool_error_budget_exhausted\", \"message\": \"工具错误预算已用尽；只能提交已有证据支持的结果。\"}"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"全量声明级口径下，按观点条数加权的整体负面观点占比为 20.41%（685/3356 条观点）；16 个议题占比的简单平均为 22.84%，差值（加权 − 简单）为 -2.43 个百分点\",\"加权平均更能代表整体：它等于全部负面观点除以全部观点，与议题热度结构一致；简单平均让仅 1 条观点的议题与 717 条观点的议题同权\",\"差异来源是热度与负面程度反向：外观与内饰占观点条数 21.36% 但负面占比仅 8.79%，负面最高的可靠性与故障（55.1%）只占 2.92%\",\"提出仅 1 条观点的技术原理后，简单平均升至 24.37%，与加权的差值扩大到 -3.95 个百分点，说明简单平均对小样本议题的极端取值敏感\",\"负面观点集中：空间与舒适性、安全与质量、外观与内饰合计贡献 37.96%（260/685）的负面观点，却只覆盖 39.33%（1320/3356）的观点条数\"]', 'markdown': '# SU7 整体负面观点占比：按观点条数加权（20.41%）与各议题简单平均（22.84%）的对照\\n\\n**品牌范围**：分析主体为小米/SU7；快照中的其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）仅为帖子共现对比信息，不作为本次分析对象。\\n\\n**数据版本**：上一版本数据（V2.3 抽取 + AUTO-018 V2 del"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"report_id\": \"1632afb36aa1\", \"status\": \"pending_review\", \"saved\": \"D:\\\\Desktop\\\\Competitions\\\\new_energy_data_analysis_agent\\\\offline_analysis_pipeline\\\\08_semantic_services\\\\reports\\\\agent\\\\1632afb36aa1\", \"next_step\": \"由非作者队友复核并通过 report_publisher.py 发布。\"}"
+   }
+  ],
+  "tool_errors": 7,
+  "metrics": {
+   "successful_tool_calls": 5,
+   "tool_errors": 7,
+   "code_failures": 0,
+   "submit_attempts": 3,
+   "gate_rejections": 2
+  },
+  "elapsed_ms": 141443
+ },
+ "error": null,
+ "wall_s": 159.6
+}

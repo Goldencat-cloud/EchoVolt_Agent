@@ -1,0 +1,71 @@
+{
+  "post_id": "811a0e58693ad6b6",
+  "state": "FAILED",
+  "cache_key": "16dcdf52e215fe5a5b87baa21c708d99773542d80bbabee353ff2da9a5e12850",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "811a0e58693ad6b6",
+    "products": [],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "事实与信息传播",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者发布了柒尊品牌太阳膜七大系列的统一售价，价格区间在全车1388元至4080元之间，并宣称提供正品电子质保和全国联保。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "柒尊太阳膜七大系列！ ✅尊耀紫｜尊耀蓝...【全车1980元】 ✅炫尊...【全车4080】 ✅至尊...【全车3380】 ✅天尊...【全车2680】 ✅地尊...【全车1988】 ✅人尊...【全车1388】 正品电子质保，全国联保，不踩坑！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子主要展示了柒尊品牌太阳膜七大系列产品（尊耀、炫尊、至尊、天尊、地尊、人尊）的宣传海报及统一售价信息，价格范围为1388元至4080元，并强调了各系列的技术卖点和质保服务。",
+    "post_topic": "价格成本与交易",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11163,
+    "completion_tokens": 537,
+    "total_tokens": 11700,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 2.9120287999976426,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,374 @@
+{
+  "post_id": "230e7ce9ff852753",
+  "state": "CONTRACT_PASS",
+  "cache_key": "a103e6082a23b4c5a88729d58e988246e7d5acef0965df397bab7edda6c5480b",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "230e7ce9ff852753",
+    "products": [
+      {
+        "id": "P1",
+        "name": "全新小鹏P7",
+        "entity_level": "具体配置",
+        "brand": "小鹏",
+        "series": "P7",
+        "model_year": null,
+        "version": "702长续航Ultra",
+        "evidence": [
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "全新小鹏 P7 (702长续航Ultra)"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "后驱标准长续航版",
+        "evidence": [
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "小米 SU7 (后驱标准长续航版)"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为全新小鹏P7在驾控方面进行了深度优化，底盘调校沉稳，过弯姿态稳定，转向精准且响应迅速，能带来良好的驾驶体验。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "全新小鹏P7在驾控方面进行了深度优化，底盘调校更加沉稳，过弯时车身姿态稳定，转向精准且响应迅速，能给驾驶者带来十足的信心和愉悦的驾驶体验。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "图片说明显示，全新小鹏P7（702长续航Ultra）的价格为21.98万元，小米SU7（后驱标准长续航版）的价格为21.59万元。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "上半部分是一辆深青色的轿车，标注文字为“全新小鹏 P7 (702长续航Ultra)”，下方粉色大字标注“价格：21.98万”。下半部分是一辆亮蓝色的轿车，车顶有激光雷达凸起，标注文字为“小米 SU7 (后驱标准长续航版)”，下方粉色大字标注“价格：21.59万”。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "价格与成本",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "I1",
+                  "source_type": "image_summary",
+                  "quote": "价格：21.98万"
+                },
+                {
+                  "block_id": "I1",
+                  "source_type": "image_summary",
+                  "quote": "价格：21.59万"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "图片说明显示，全新小鹏P7的车身尺寸为5017*1970*1427mm，轴距3008mm，前备箱56L，后备箱575L；小米SU7的车身尺寸为4997*1963*1455mm，轴距3000mm，前备箱105L，后备箱517L。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I2",
+            "source_type": "image_summary",
+            "quote": "上半部分展示了“全新小鹏 P7 (702长续航Ultra)”的深蓝色车辆渲染图，并列出了其参数：长宽高为5017*1970*1427mm，轴距3008mm，前备箱容积56L，后备箱容积575L（掀背）。下半部分展示了“小米 SU7 (后驱标准长续航版)”的浅蓝色车辆渲染图，并列出了其参数：长宽高为4997*1963*1455mm，轴距3000mm，前备箱容积105L，后备箱容积517L。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "空间与舒适性",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "I2",
+                  "source_type": "image_summary",
+                  "quote": "长宽高为5017*1970*1427mm，轴距3008mm，前备箱容积56L，后备箱容积575L（掀背）"
+                },
+                {
+                  "block_id": "I2",
+                  "source_type": "image_summary",
+                  "quote": "长宽高为4997*1963*1455mm，轴距3000mm，前备箱容积105L，后备箱容积517L"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "图片说明显示，全新小鹏P7的高压快充平台/充电倍率为800V + 5C，小米SU7的高压快充平台/充电倍率为400V + 2C。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I3",
+            "source_type": "image_summary",
+            "quote": "上半部分展示了一辆青蓝色的“全新小鹏 P7 (702长续航Ultra)”...下方标注其技术参数为“高压快充平台/充电倍率：800V + 5C”。下半部分展示了一辆灰绿色的“小米 SU7 (后驱标准长续航版)”，下方标注其技术参数为“高压快充平台/充电倍率：400V + 2C”。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "充电与补能",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "I3",
+                  "source_type": "image_summary",
+                  "quote": "高压快充平台/充电倍率：800V + 5C"
+                },
+                {
+                  "block_id": "I3",
+                  "source_type": "image_summary",
+                  "quote": "高压快充平台/充电倍率：400V + 2C"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "图片说明显示，全新小鹏P7配备流媒体内后视镜、Nappa+Dinamica材质座椅及带加热/通风/记忆/按摩/电调功能的前排座椅，天幕为三层镀银；小米SU7配备传统光学后视镜、环保复合皮质材料座椅（限时赠送Nappa真皮）及带加热/通风/记忆功能的前排座椅，天幕为双层镀银。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I4",
+            "source_type": "image_summary",
+            "quote": "上半部分展示小鹏P7的紫色调内饰，配有流媒体内后视镜、Nappa+Dinamica材质座椅以及带加热/通风/记忆/按摩/电调功能的前排座椅，天幕玻璃为三层镀银；下半部分展示小米SU7的紫红色调内饰，配有传统光学后视镜、环保复合皮质材料座椅（限时赠送Nappa真皮）、带加热/通风/记忆功能的前排座椅，天幕玻璃为双层镀银。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "配置与功能",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "I4",
+                  "source_type": "image_summary",
+                  "quote": "配有流媒体内后视镜、Nappa+Dinamica材质座椅以及带加热/通风/记忆/按摩/电调功能的前排座椅，天幕玻璃为三层镀银"
+                },
+                {
+                  "block_id": "I4",
+                  "source_type": "image_summary",
+                  "quote": "配有传统光学后视镜、环保复合皮质材料座椅（限时赠送Nappa真皮）、带加热/通风/记忆功能的前排座椅，天幕玻璃为双层镀银"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为尽管小鹏P7驾控出色，但其销量难以超越小米SU7。作者指出小米SU7的销量优势很大程度上源于小米品牌的粉丝经济效应，即米粉对品牌的情感认同和支持，而非 solely 源于汽车本身的驾控性能。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "然而，即便小鹏P7在驾控性能上表现出色，但就目前的形势来看，其销量恐怕依旧难以超越小米SU7。小米SU7的销量优势，很大一部分并非源于汽车本身的驾控性能。小米作为科技领域的巨头，拥有庞大且忠诚的米粉团队。这些米粉对小米品牌有着深厚的情感认同和强烈的支持意愿，他们购买小米SU7，不仅仅是购买一辆车，更是对小米品牌理念和生态的认可。这种强大的粉丝经济效应，为小米SU7带来了极高的关注度和购买转化率，是小鹏P7在短期内难以企及的。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子对比了全新小鹏P7与小米SU7在驾控、价格、尺寸、充电技术及内饰配置等方面的差异。作者认为小鹏P7驾控优秀，但受限于品牌粉丝经济效应，其销量可能难以超越小米SU7。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "C2/comparison/0/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11066,
+    "completion_tokens": 3691,
+    "total_tokens": 14757,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 15.508128599991323,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

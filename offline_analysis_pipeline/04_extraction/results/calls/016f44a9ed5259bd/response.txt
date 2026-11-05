@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.3",
+  "post_id": "016f44a9ed5259bd",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "社交表达与无实质主张",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者发出“帅不帅 帅来找我”的社交性邀请或调侃，未提供具体产品、事实或观点。",
+      "sentiment": "不明确",
+      "journey_stage": "无法判断",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "帅不帅 帅来找我"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "其他",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "无法判断",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子仅包含“帅不帅 帅来找我”这一简短社交表达，未涉及具体车辆、产品评价或实质信息。",
+  "post_topic": "社群互动与生活分享",
+  "analysis_value": "低"
+}

@@ -1,0 +1,294 @@
+{
+  "post_id": "e75707f958fa9f02",
+  "state": "FAILED",
+  "cache_key": "cadb8c70f128c450eb05b67e84f720a6f9c6098118acfbec77d7616e463acf66",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "e75707f958fa9f02",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2026",
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我试驾的是小米SU7标准版，他是2026款的"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为该车外观非常帅气，颜值极具吸引力。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "当他看到我第一眼，我就觉得他很帅"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "但是它的颜值是真的吸引到我"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为该车后排座椅空间偏拥挤，车内空间偏小，舒适性一般。",
+        "sentiment": "负面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "它的静态上后排的座椅是偏拥挤的"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "空间是偏小"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "舒适性一般"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为该车的小爱同学语音交互反应尚可，车机系统非常流畅。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小爱同学他这个反应还是可以车机交互"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "但是车机是非常流畅的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为该车在试驾过程中的自动驾驶水平还不是特别好。",
+        "sentiment": "负面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "他这个试驾的那个自动驾驶的水平还不是特别好"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为该车动力响应很快，底盘调校偏硬。",
+        "sentiment": "正负混合",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "它的动力是很快的，底盘是偏硬的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为该车的隔音效果很好。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "隔音我觉得很好"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者对该车的总体评价是中规中矩，觉得还行。",
+        "sentiment": "中性",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "所以总的来说我觉得还行吧，中规中矩对于这台车"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "仅试驾或借用",
+      "current_journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我试驾的是小米SU7标准版"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者分享了试驾2026款小米SU7标准版的体验。作者高度认可该车的外观颜值、车机流畅度及隔音效果，但也指出了后排空间拥挤、舒适性一般、自动驾驶水平欠佳以及底盘偏硬等问题，总体评价为中规中矩。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10322,
+    "completion_tokens": 2222,
+    "total_tokens": 12544,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 9.451545100004296,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

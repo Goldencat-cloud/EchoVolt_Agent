@@ -1,0 +1,221 @@
+{
+  "post_id": "b5373136302eb9ab",
+  "state": "CONTRACT_PASS",
+  "cache_key": "60765cca523238dcc7158a675e526cfd921660356b6868b743cb81708a239e1e",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "b5373136302eb9ab",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7意向订单已经超几十万+"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "埃安",
+        "entity_level": "品牌",
+        "brand": "埃安",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "其他成员在回复中提到了“埃安”（Aion）品牌"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P3",
+        "name": "埃安Y Plus",
+        "entity_level": "具体配置",
+        "brand": "埃安",
+        "series": "Y",
+        "model_year": null,
+        "version": "Plus",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "特别提到“埃安Y Plus空间巨大”"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "比亚迪",
+        "entity_level": "品牌",
+        "brand": "比亚迪",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "有人建议选“迪子”（指比亚迪）"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "作者转述爆料称，小米SU7意向订单已超过几十万，其中高意向订单超过10万。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "据爆料，小米SU7将在3月18日发布，并且小米SU7意向订单已经超几十万+，10万+的高意向订单。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米SU7可能会成功，并指出目前关注焦点在于价格。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "看来小米SU7要成了。目前摆在眼前的就是价格了。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "图片说明描述群聊中有成员提到埃安Y Plus的空间很大。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "特别提到“埃安Y Plus空间巨大”"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7发布及订单情况",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "传闻或未证实",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "据爆料，小米SU7将在3月18日发布，并且小米SU7意向订单已经超几十万+，10万+的高意向订单。"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "爆料称小米SU7将于3月18日发布，且意向订单量巨大。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子主要转述关于小米SU7即将发布及意向订单量大的爆料，作者对此持乐观态度并关注价格。附带图片展示了群聊中关于其他新能源车型（如埃安、比亚迪）的讨论。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10179,
+    "completion_tokens": 1723,
+    "total_tokens": 11902,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 7.670193300000392,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,306 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5582c42fbb57f707",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新发布的su7在宣发的时候就是争议很大"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者试驾小米SU7后认为其动力强劲，轻踩油门速度提升快，重踩油门时有推背感。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "试驾小米 su7 给我的感受就是动力很强劲，轻踩油门，速度就提上去了"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "重踩油门的话，还可以体验一下推背的感觉"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行车辆试驾体验。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "试驾小米 su7 给我的感受就是"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7内饰科技感强，16英寸中控屏分辨率高且操作流畅不卡顿。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米 su7 的内饰我很喜欢...16 英寸的中控屏效果很好，分辨率很高，流畅不卡顿"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在试驾过程中体验车内配置。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "小米 su7 的内饰我很喜欢"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为小米SU7具备完善的安全配置，智能驾驶易于上手，能通过App远程操控车辆到达指定地点。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "智能驾驶方面，该有的安全配置都有了，能够很好上手...可以通过 App 来操控车辆，到达指定的地点"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者试驾期间体验智能驾驶及远程控制功能。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "智能驾驶方面，该有的安全配置都有了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者喜欢小米SU7的外观设计和车身颜色（特别是青色/灰色），认为其辨识度高且符合个人审美。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "前脸的小米 logo 很突出，很有辨识度，而且车身是我喜欢的样式"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "不最喜欢的颜色就是这个青色了，灰色的颜色很高级，很低调，符合我的审美"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者观察车辆外观及颜色。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "在街上都能看到小米 su7 的身影了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7因竞争导致定价偏低从而单车亏损6万仅是阶段性现象，后期将会盈利。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "导致小米 su7 的定价是偏低的，所以雷总说一辆车亏损 6w，但我觉得这个只是阶段性的，后期还是会盈利的"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者表示很喜欢小米SU7，并在发布会前夕预约了试驾。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我本人是很喜欢这个车的，在当时发布会前夕就预约了小米 su7 的试驾"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "雷军回应小米SU7单车亏损6万元",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "#还买吗？雷军回应小米卖一辆车亏6万多#"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "雷总说一辆车亏损 6w"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米创始人雷军公开回应关于小米汽车每卖出一辆SU7亏损超过6万元的说法。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "预约了小米 su7 的试驾"
+      },
+      {
+        "block_id": "T3",
+        "source_type": "text",
+        "quote": "试驾小米 su7 给我的感受"
+      }
+    ],
+    "confidence": 0.9
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "喜欢小米生态链产品",
+      "偏好青色或灰色外观",
+      "重视智能化体验"
+    ]
+  },
+  "post_summary": "作者分享了试驾小米SU7的体验，对其动力、内饰屏幕、智能驾驶及外观设计给予高度评价。同时针对雷军回应SU7单车亏损6万的热点事件，作者认为这是阶段性策略，看好后期盈利前景。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

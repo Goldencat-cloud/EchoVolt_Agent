@@ -1,0 +1,15 @@
+{
+  "implementation": {
+    "package_version": "0.2.0",
+    "python_version": "3.11.9",
+    "source_sha256": "0ff6deacec8344c7cbb178b611e7127248d274bd77452bb702b3e3c31fe7922d",
+    "runtime_dependencies": "stdlib-only"
+  },
+  "tests": 101,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "external_network_guard": true,
+  "rejected_external_attempts": 0,
+  "ok": true
+}

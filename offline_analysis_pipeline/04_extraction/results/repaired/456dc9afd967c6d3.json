@@ -1,0 +1,270 @@
+{
+  "schema_version": "2.3",
+  "post_id": "456dc9afd967c6d3",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2026款 后驱标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": "后驱标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2026款 后驱标准版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "理想i6",
+      "entity_level": "车系",
+      "brand": "理想",
+      "series": "i6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对比了理想i6特斯拉Model Y特斯拉Model三还有小米SU7"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model Y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对比了理想i6特斯拉Model Y特斯拉Model三还有小米SU7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "特斯拉Model三",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model三",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对比了理想i6特斯拉Model Y特斯拉Model三还有小米SU7"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者因日常通勤每天往返60公里的需求，对比试驾了理想i6、特斯拉Model Y、特斯拉Model三和小米SU7，最终因体验感最好选择了小米SU7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当时买这个车主要是因为我日常通勤，每天往返需要60公里，然后对比了理想i6特斯拉Model Y特斯拉Model三还有小米SU7，这几台车车也都去试驾过了，最后体验感最好的就是这台小米"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者日常通勤，每天往返60公里。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "当时买这个车主要是因为我日常通勤，每天往返需要60公里"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者记录了小米SU7的购车费用明细：裸车价21.99万元，加上颜色7000元、科技包6500元后裸车价为23.34万元；另有购置税10500元、上牌费300元、保险6950元、小米无忧包1499元，总落地价约25.27万元。作者提到因新车需等待两个月，未获得优惠或折扣。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其实和销售谈了很久，但是当时因为新车要等两个月也没拿到什么优惠或折扣，当时看到销售报的裸车价格是21.99万元，但是还有其他的费用，比如颜色7000，科技包6500，所以最后算下来裸车的价格是23.34万元，还有购置税10500元，上牌价格300元，保险6950元，还有小米无忧包1499元，总的落地价格在25.27万元左右。"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者提车后发现车辆是自己想要的，对空间和动力表现非常满意，认为性能特别好。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这台车开了以后发现就是我自己想要的，而且空间和动力都给我非常满意，性能特别好。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者在提车过程中感到惊喜，提车中心提供了午餐、帮忙充满电的服务；验车时发现车身有小磨损，商家补偿了一些小积分；拿到钥匙时感到激动，但刚开始开车时感觉比较大，有点不适应。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车的时候还是很惊喜的，在提车中心吃了午饭，然后还帮我把电充满，验车的时候发现有点小磨损，也给我补了一点小积分，拿到钥匙的时候还是非常激动的，但是一开始开车比较大，有点不适应。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者分享了提车避坑经验，建议在验车时检查车身车漆是否有磨损、车机功能是否正常、车内坐垫是否正常及有无塌陷。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其实最主要的避坑就是要注意验车的时候看一下车身的车漆有没有磨损，然后车机功能是否正常，车内坐垫是否正常，有没有塌陷等等。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "分享我小米su7的提车日记"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "这台车开了以后发现就是我自己想要的"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视日常通勤体验",
+      "重视空间",
+      "重视动力性能"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 2026款后驱标准版的提车日记，详细记录了选车对比过程、具体购车费用清单（落地约25.27万）、提车过程中的服务体验及初期用车感受。作者对车辆的空间、动力和性能表示满意，并总结了验车时的注意事项。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

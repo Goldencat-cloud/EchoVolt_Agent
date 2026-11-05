@@ -1,0 +1,369 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0a757ce51a6482b8",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车型：小米su7 Pro版本"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者选择小米SU7的首要原因是外观帅气，实车流线型设计极具吸引力。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "选择小米第一个原因其实就是帅，刚发布的时候看到小米su7实车的时候就被深深吸引住了，整体的流线型非常的好。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为在20万左右价位的新能源车型中，小米SU7相比其他普通车型更具个性化，因此做出了选择。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "另外就是当时20万左右的新能源车型中，没有什么太多选择，都是一一些普普通通的车型，而小米su7就非常有个性化。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为小米SU7的加速度在当前电动车中处于顶尖水平，日常使用完全足够。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米su7的加速度基本上在当前电车中top的存在了，日常用车完全足够了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7操控性好，行驶平稳，悬挂系统在舒适与支撑性之间取得了平衡。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "另外就是整体的操控性确实需要做的不错，开起来比较稳。...小米的悬挂系统偏向于舒适取向又兼顾了支撑性，行驶的体感平稳性非常突出。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者指出对于新手而言，直接驾驶大马力后驱车型存在安全隐患，若掌控不当可能出现甩尾现象。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "但是对于新手来说直接上手大马力后驱车确实存在一定的隐患，把握不好就会出现甩尾的现象。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的车机UI流畅度、功能设置逻辑优于普通电车，特别是“小爱同学”的语音交互体验极佳。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米毕竟是做手机的，车机的ui还是流畅度、功能的设置逻辑等等都是不错的，最主要一个小爱同学就是TOp的存在，语音交互做的非常好。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在城区地面道路及快速路混合工况下，自述驾驶习惯较重，实测综合能耗为18.5KWh/100km。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "我目前跑了4000多公里基本上都是市区里面行驶的，综合我的路况就是城区地面道路以及快速路混合的工况下的能耗在18.5KWh/100km，而且我脚比较重的那种。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者主要在市区行驶，路况为城区地面道路与快速路混合，累计里程超4000公里。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "我目前跑了4000多公里基本上都是市区里面行驶的，综合我的路况就是城区地面道路以及快速路混合的工况"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者反馈在NOA低档模式下使用居中辅助时，接近匝道入口或驶离可用区域时，即使执行拨杆操作，系统有时未及时响应，需手动介入，可能存在操作延迟。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "当NOA切换至“低档”模式，在使用居中辅助功能时...在某些情况下，即便执行了拨杆操作，系统也未见即时响应，要求驾驶者手动介入以完成匝道进入。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在使用NOA低档模式的居中辅助功能，特别是在接近匝道入口或驶离自动驾驶可用区域时。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "当NOA切换至“低档”模式，在使用居中辅助功能时...尤其是在车辆在接近匝道入口时...以及在即将驶离自动驾驶可用区域时"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者遇到一次智能变道异常：在前后有车时系统提示变道，拨杆后车辆未动，直到接近路口实线处才突然执行变道，令作者感到困惑。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "另外，曾有一次，在车辆右前方与右后方均有车辆的情况下，系统提示进行变道，但我拨杆后并未见任何动作，车辆继续前行数十米。直至接近路口，我本以为系统会放弃此次变道，却出乎意料地在实线处执行了变道操作，这让我感到十分困惑。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆在右前方和右后方均有车辆的情况下，系统提示变道，随后在接近路口实线处执行变道。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "在车辆右前方与右后方均有车辆的情况下...直至接近路口...在实线处执行了变道操作"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者总结认为小米SU7的火爆源于整车可靠性、良好的服务及售后态度，以及与小米生态配件的互动兼容性带来的智能化体验。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "小米su7的爆火不是没有原因的，整车的可靠性加上小米很好的服务态度、售后态度等等，让消费者得到认可。而且综合我的用车之后，小米汽车能与小米的各种配件互动、兼容等等功能..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车时间：2024年10月9日"
+      },
+      {
+        "block_id": "T4",
+        "source_type": "text",
+        "quote": "我目前跑了4000多公里"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好个性化外观",
+      "重视智能化与生态互联"
+    ]
+  },
+  "post_summary": "车主分享小米SU7 Pro的用车心得，肯定了其外观、性能、车机及生态互联优势，但也指出了新手驾驶大马力后驱的风险，以及NOA在匝道处理和特定变道场景下的逻辑缺陷和操作延迟问题。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

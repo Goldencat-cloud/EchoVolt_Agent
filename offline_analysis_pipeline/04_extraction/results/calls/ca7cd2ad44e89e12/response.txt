@@ -1,0 +1,391 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ca7cd2ad44e89e12",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7车主吐槽点是不是你们想要的"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "Max版（101kWh）"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "Pro版（94.3kWh）"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "小米SU7 标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "标准版（73.6kWh）"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P5",
+      "name": "保时捷Taycan",
+      "entity_level": "车系",
+      "brand": "保时捷",
+      "series": "Taycan",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "比保时捷Taycan还高"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者汇总多位车主反馈，认为小米SU7实际续航相比官方CLTC标准会有折损，但不同版本表现差异较大，且冬季续航缩水被视为纯电车型的普遍现象而非SU7独有缺陷。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "官方标的CLTC续航看着诱人，实际跑起来确实会打折...冬天续航缩水，是所有纯电车都躲不开的坎，真不能怪SU7。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者引述车主经验称，小米SU7 Max版在自家超充桩下10%-80%充电约需15分钟，而在第三方充电桩上功率受限，充满至80%可能需要19分钟。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "Max版（800V高压平台）：官方说10%-80%充15分钟，是真的！但得用小米自家超充桩...换第三方充电桩，最高功率降到320kW，充到80%要19分钟"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者列举了小米SU7存在的若干小毛病，包括车机偶发卡顿、语音识别错误、高速车窗共振异响、新车低速刹车异响、前备箱深度不足及前挡玻璃隔热一般，并指出这些问题大多可通过简单手段或OTA解决。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "1. 车机偶尔“抽风”...2. 异响是小问题...3. 细节需要小折腾..."
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "安全与质量",
+      "content": "作者提到小米SU7曾因智驾和刹车问题召回两次，但认为已通过OTA升级解决，目前无安全隐患，呼吁读者无需过度担忧。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "之前确实因为智驾和刹车的小问题召回过两次，但都是通过OTA升级解决的...现在开着没啥安全隐患，完全不用瞎担心。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者称小米SU7保值率极高，一年内可达88.91%，甚至高于保时捷Taycan，并举例有车主将行驶5000公里的Max版二手车加价2000元售出。",
+      "sentiment": "正面",
+      "journey_stage": "换车与复购",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "SU7一年保值率高达88.91%，比保时捷Taycan还高...杭州有位车主，把开了5000公里的Max版挂二手平台，标价比原车价贵2000块，居然被秒拍了！"
+        }
+      ],
+      "confidence": 0.8
+    ,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P5",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T5",
+                "source_type": "text",
+                "quote": "比保时捷Taycan还高"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者评价小米SU7操控性能出色，特别是Max版零百加速实测3.03秒，底盘扎实，高速变道稳定，具有明显的运动轿跑特性。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "操控爽到飞起：Max版零百加速实测3.03秒...前双叉臂+后五连杆底盘，过弯稳得一批，高速变道不飘"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7的空间是为运动属性做出的妥协，后排头部空间有限（930mm），后备箱开口较窄，不适合身材高大的乘客或携带大件行李，更适合单身或小家庭使用。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "空间够用不奢享：后排头部空间930mm，1米8以上的大高个坐进去会顶头，后备箱开口窄...一大家子用确实得掂量掂量。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者给出了购车建议：推荐追求速度、小米生态用户及短期换车人群购买；不建议多孩家庭、高频长途通勤者及对细节要求极高的完美主义者购买。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "闭眼冲的3类人...慎入的3类人..."
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7智驾与刹车问题召回",
+      "event_type": "质量与召回",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "之前确实因为智驾和刹车的小问题召回过两次"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "小米SU7曾因智能驾驶和刹车系统的小问题进行过两次召回，后续通过OTA升级进行了修复。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "该帖子汇总了数十位小米SU7车主半年的用车体验，详细分析了不同版本在续航、快充方面的差异，指出了车机卡顿、异响等常见小毛病及其解决方案。文章强调了SU7在操控性能和保值率上的优势，同时也坦诚说明了其在空间和设计上的运动取向妥协，并为潜在买家提供了基于不同需求的选购建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

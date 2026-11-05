@@ -1,0 +1,152 @@
+{
+  "schema_version": "2.3",
+  "post_id": "17803d209341428a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "奔驰C260",
+      "entity_level": "具体配置",
+      "brand": "奔驰",
+      "series": "C",
+      "model_year": null,
+      "version": "C260",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "直接奔驰c260"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "买不起小米手机不一定卖得起小米汽车"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为在当前价格下，直接选择奔驰C260。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "这价格还有什么好说的直接奔驰c260"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者自述第一次接触汽车，曾订购了一辆高端价格的试验车，并认为买得起小米手机不代表买得起小米汽车。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一次搞汽车，试验车订了一个高端价格，买不起小米手机不一定卖得起小米汽车"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者转述或评论称，有人宣称市场目前最高端，底下的汽车董事长都笑死了。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "还说市场目前最高端的，底下坐着的汽车董事长都笑死了"
+        }
+      ],
+      "confidence": 0.7
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "试验车订了一个高端价格"
+      }
+    ],
+    "confidence": 0.6
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者表示在特定价格下倾向于选择奔驰C260。同时自述首次购车经历，曾订购高端价格试验车，并对小米汽车的定价和市场宣传持怀疑态度，认为其高端定位不被业内认可。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

@@ -1,0 +1,266 @@
+{
+  "schema_version": "2.3",
+  "post_id": "3577bbcf5ac7d909",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "SU7 Ultra：顶级渣男的自我修养，52.99万收割全场"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "极氪001 FR",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": "FR",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "前任极氪001 FR？早该扔了。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "保时捷Taycan Turbo GT",
+      "entity_level": "具体配置",
+      "brand": "保时捷",
+      "series": "Taycan",
+      "model_year": null,
+      "version": "Turbo GT",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "纽北圈速直接叫板保时捷Taycan Turbo GT。"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者以戏谑口吻评价小米SU7 Ultra正式售价52.99万元，较预售价大幅下调，认为这种定价策略类似于“渣男”的话术，旨在吸引消费者。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "价格？52.99万起，直降28.5万，像极了渣男那句“我只对你特别”的经典话术——看似深情，实则通杀。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "预售价81.49万？抱歉，那只是哥的烟雾弹。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者指出小米SU7 Ultra具备1548匹马力和1.98秒破百的性能，并称其在纽北圈速上叫板保时捷Taycan Turbo GT，暗示其性能强劲。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "1548匹马力，1.98秒破百...纽北圈速直接叫板保时捷Taycan Turbo GT。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "动力与性能",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T3",
+                "source_type": "text",
+                "quote": "纽北圈速直接叫板保时捷Taycan Turbo GT。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者列举了小米SU7 Ultra的外观和内饰配置，如闪电黄车身、24K金车标、Alcantara内饰、化妆镜色温调节等，并用幽默语言形容其吸引力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "闪电黄车身、24K金车标、5㎡Alcantara内饰——哥的浪漫，烧钱但上头。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者介绍了小米SU7 Ultra的智能驾驶功能，包括端到端全场景智驾、自动泊车以及即将上线的“智驾无忧险”，并将其比喻为“分手预案”。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "端到端全场景智驾，极窄车位自动泊出，4月上线“智驾无忧险”"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者提到小米SU7 Ultra拥有630km续航和5.2C超充能力，11分钟可快充至80%，并用幽默方式形容其“持久”。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "630km续航+5.2C超充，哥的持久，你懂的。11分钟快充80%"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra正式上市及定价公布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今晚，小米SU7 Ultra带着1548匹马力、1.98秒破百的狂暴数据，一脚踹开豪车圈的矜持大门。价格？52.99万起"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米SU7 Ultra正式发布，起售价为52.99万元，相比之前的预售价格有所调整。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "这是一篇以幽默戏谑口吻撰写的小米SU7 Ultra新车上市评论文章。作者将车辆的定价策略、性能参数、外观内饰及智能驾驶功能比作“渣男”的特质，既肯定了其强大的性能和丰富的配置，又调侃了其营销策略。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

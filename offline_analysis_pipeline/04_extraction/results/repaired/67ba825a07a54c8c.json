@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.3",
+  "post_id": "67ba825a07a54c8c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "Pro",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "今天刚提的Pro"
+        }
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者表示今天刚提车，但看到实车后想换成紫色，正在寻找有人愿意进行颜色置换。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "今天刚提的Pro，但看了实车，想换紫色，有没有置换的，有的联"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "交付与上手",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "今天刚提的Pro"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好紫色外观"
+    ]
+  },
+  "post_summary": "作者表示今天刚提了一辆Pro车型，但看到实车后想要更换为紫色，因此在论坛寻求与其他车主进行颜色置换。",
+  "post_topic": "社群互动与生活分享",
+  "analysis_value": "低"
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "2.3",
+  "post_id": "dd482866cca34719",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者表示急售一辆小米SU7 后驱长续航智驾版二手车，声称相比新车可节省5万多元，并愿意在价格合适时出售。",
+      "sentiment": "中性",
+      "journey_stage": "换车与复购",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "立省5万多 急出黑紫小米酥妻"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "喜欢可以视频看看价格差不多就出"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者陈述该车辆为二手一手车，2025年5月上牌，行驶里程约1.5万公里，全车原版原漆，配备原厂钻石黑/迷雾紫内饰及20寸梅花轮毂。",
+      "sentiment": "中性",
+      "journey_stage": "换车与复购",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "美女一手车 25年5月上牌仅行驶1.5万公里 全车原版原漆 原厂钻石黑/迷雾紫内饰 20寸梅花轮毂"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "换车与复购",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "美女一手车 25年5月上牌仅行驶1.5万公里"
+      },
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "急出黑紫小米酥妻"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主发布出售小米SU7 后驱长续航智驾版二手车的帖子，强调车辆为2025年5月上牌的一手车，行驶里程短且车况良好，声称可节省5万元购车成本。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

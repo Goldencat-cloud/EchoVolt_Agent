@@ -1,0 +1,209 @@
+{
+  "post_id": "0dd7209a88e05c21",
+  "state": "CONTRACT_PASS",
+  "cache_key": "639836e874cdfbe5d9c90112218aeb9132976230c1a05fcebdac82c215be1a37",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0dd7209a88e05c21",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米su7的内饰曝光"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7的内饰用料、质感和设计都不错，顶棚采用麂皮绒材料。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "首先看到内饰用料质感设计都不错，顶棚用的也是麂皮绒的材料"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者指出车机采用16.1英寸3K显示屏，屏幕上方有两个圆形摄像头，下方保留了实体按键，包括空调调节、音量控制等功能。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "可以看到车机采用的是一块16.1英寸的3k显示屏，上方有俩圆圆的眼睛，应该是车内摄像头一类的，可以看到幕下方保留实体按键放大看，左边按钮依次是主驾空温度调节，吹风角度调节，风量大小调节，自动空调，前挡风玻璃除雾，大大的圆的应该是可以调节音量大小和音乐开始暂停键，右边这排也是常规的空调调节的按键，后档加热，温区同步，内外循环，AC，副驾温度调节！当然屏幕上也可以调节空调。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者描述了中控下方的手机无线充、小米卡片钥匙、启动按键、空调快速调节、升降尾翼及悬挂高低调节按键，并评价机械感不错。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这个区域是手机无线充，旁边还放着的是小米的卡片钥匙，下方这一排按键，机械感还不错，第一个方形按键是启动按键，下边分别是调节空调温度，风量，升降尾翼以及悬挂高低，在这个区域小米又增加了一部分空调的快速调节"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为方向盘设计简洁，滚轮调节方式令人喜欢，并评价其堪比保时捷；同时指出方向盘右侧为怀挡，左侧集成雨刷灯光，液晶仪表内嵌式且运动。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这个方向盘兄弟们给打个分，我觉得堪比保时捷，两侧的这些按钮调节设计的非常简洁，像这种滚轮的调节方式，是很喜欢的，再来看下方两个快捷按钮，左边应该是，模式切换，右边的红色是暴走模式，方向盘右侧是怀挡挡杆，左侧集成雨刷灯光，上方的液晶仪表内嵌式的不是很大，但刚刚好，而且特别运动！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者在查看内饰后表示需要重新评估价格，并邀请读者在评论区留言讨论其价值。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这个内饰看完之后 我得从新报价了，你们觉得值多少钱评论区留言"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "提问",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子展示了小米SU7的内饰细节，包括麂皮绒顶棚、16.1英寸3K车机屏、实体按键布局、无线充及卡片钥匙等。作者对内饰质感、方向盘设计及机械按键给予正面评价，并认为其设计堪比保时捷，最后发起关于车辆定价的讨论。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "C4:unknown_target",
+    "C4:comparison_unknown_product"
+  ],
+  "usage": {
+    "prompt_tokens": 10273,
+    "completion_tokens": 1884,
+    "total_tokens": 12157,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 8.20537239999976,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

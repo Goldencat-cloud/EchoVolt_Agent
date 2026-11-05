@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a2d95d0e3e155bb3",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7Max"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者指出小米SU7 Max的行车记录仪仅能保存90分钟即被覆盖，并对此表示强烈不满，认为该时长远低于同价位竞品（2-3天）。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7Max，行车记录仪只能保存90分钟就被覆盖的事...我的常识是所有比这价位低的车行程记录仪保存时间也要2-3天左右"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者投诉售后客服在事故发生后告知行车记录仪覆盖是“常识”且“不负任何责任”，作者质疑这种处理方式不合理，认为厂家未尽到提示义务。",
+      "sentiment": "负面",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "事故发生了咨询时售后客服还告诉我这是常识...还直接说行车记录仪被覆盖是没办法了，不负任何责任？"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "维修与售后",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "请问已经购车的车主有哪位知道？是购买时4S店的客服告诉我们车主了吗？"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "事故发生了咨询时售后客服还告诉我..."
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主投诉小米SU7 Max行车记录仪仅保存90分钟即被覆盖，且售后客服以“常识”为由拒绝承担责任，作者对此服务态度及产品设定表示强烈不满。",
+  "post_topic": "故障质量与售后",
+  "analysis_value": "高"
+}

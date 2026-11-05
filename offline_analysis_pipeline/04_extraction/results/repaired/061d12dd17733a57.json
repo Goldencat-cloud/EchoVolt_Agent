@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.3",
+  "post_id": "061d12dd17733a57",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米又开先河了，连车架号都是新开的号段"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米汽车又开创了一个先河"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者指出小米汽车的车架号（VIN）以'H'开头而非传统的'L'，且第二三位为'XM'，认为这是小米开创的新号段。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米汽车又开创了一个先河，不信你可以看看小米汽车的车架号，它不是L开头的，而是H开头的。不仅如此，小米车架号的第二位和第三位居然是XM，这不是xiaomi的拼音首字母吗？"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "可以这么说，HXM就是车架号中的吉祥号，而这个吉祥号被小米拿到了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "文章介绍了车架号（VIN）的基本定义、组成结构（17位）、常见位置以及各位数字代表的含义（如第一位代表生产国，L代表中国等）。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "你知道每台汽车都有一个车架号吗？车架号又叫 VIN 码，是由 17 位数字和字母组成的，就像人的身份证号一样，能反映车辆的很多信息。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车架号的第一位字母代表车辆的生产国，长期以来，L 就表示中国，车架号以 L 开头代表这辆车是中国制造的。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "车架号的第 4 位代表底盘系列，第 5 位代表汽车的发动机型号..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子科普了汽车车架号（VIN）的基础知识和编码规则，并特别指出小米汽车使用了以'H'开头且包含'XM'的新号段，认为这是小米在汽车行业中的一个创新举措。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

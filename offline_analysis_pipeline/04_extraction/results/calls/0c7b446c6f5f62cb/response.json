@@ -1,0 +1,142 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0c7b446c6f5f62cb",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7冬测成绩领跑"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "2024款 800km 四驱超长续航高阶智驾Max版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "800km 四驱超长续航高阶智驾Max版",
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "实测车型：2024款 800km 四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为小米SU7在冬测中表现抢眼，低温条件下续航里程达737公里，寒冷地区达385公里，续航效率91%，表现令人刮目相看。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近，小米SU7在冬测中表现抢眼...续航里程达到737公里，而在寒冷地区也有385公里的表现...91%的表现绝对可以让驾车者省心不少。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出小米SU7能耗表现良好，每百公里耗电量13.86kWh，寒冷环境下为27.14kWh，充电时间从30%至80%仅需25分钟，认为其经济且快速。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我们再来看它的能耗表现，每百公里耗电量仅为13.86kWh，甚至在寒冷环境下也只是增加到27.14kWh...充电时间也让人满意，从30%充至80%仅需25分钟"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米SU7的优秀冬测成绩给竞争对手施加了压力，使友商感到不安，并推测这将促使它们加紧提升产品、技术和服务。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "不过，这样的成绩也必然让友商们感到不安，想必他们也得加紧提升自己的产品、技术和服务了。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了小米SU7在冬季测试中的优异表现，列举了其在低温和寒冷环境下的续航里程、能耗及充电时间等具体数据。作者对这些数据持正面评价，认为这证明了小米SU7的实力，并对竞争对手产生了压力，期待未来市场竞争带来更多创新。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

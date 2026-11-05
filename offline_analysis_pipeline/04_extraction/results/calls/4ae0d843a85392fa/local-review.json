@@ -1,0 +1,249 @@
+{
+  "post_id": "4ae0d843a85392fa",
+  "state": "CONTRACT_PASS",
+  "cache_key": "11e363f21486648445d6bebce1e50bd2d42bc641899bf67a8fa2e06a09b80bf8",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "4ae0d843a85392fa",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米su7"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米su7全系直接O息"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "SU7标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "SU7标准版: 215900"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P3",
+        "name": "SU7 Pro版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Pro版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "SU7 Pro版: 24590 0"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "SU7 Max版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "SU7 Max版: 299900"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "作者宣称小米SU7全系确定实施0息补贴政策，并提供20000+元的贴息补贴。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米su7全系直接O息！！ ✅还未提车的车友注意了，新增O息补贴20000+"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者建议尚未提车的车主利用新的0息补贴节省利息支出，避免支付2.5%的年费率。",
+        "sentiment": "正面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "💰省下20000到自己的口袋！"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "🔺不要再交每年2.5%沸率了 ！"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者列举了SU7标准版、Pro版和Max版在扣除20000元补贴后的估算价格，分别为177900元、205900元和248900元，并指出还可叠加国补。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "💰SU7标准版: 215900 -20000-18000=177900 💰SU7 Pro版: 24590 0-2 0000 -20000=205900 💰SU7 Max版: 299900- 25000 -26000=248900"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "- 👉🏼此外，还能叠加置换、国补，香到不行!"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7推出0息及20000+元贴息补贴政策",
+        "event_type": "价格与销售政策",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米su7全系直接O息！！ ✅还未提车的车友注意了，新增O息补贴20000+"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "右侧有两行巨大的黑色促销标语：“免息”和“直补20000+”"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "小米SU7全系实施0息贷款政策，并提供超过20000元的直接补贴。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子宣传小米SU7全系确定实施0息贷款及20000+元贴息补贴政策，旨在吸引未提车用户关注以节省利息成本。文中详细列出了各配置版本扣除补贴后的估算价格，并提示可叠加国家补贴。",
+    "post_topic": "价格成本与交易",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "events/E1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10383,
+    "completion_tokens": 2061,
+    "total_tokens": 12444,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 8.958382700002403,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,228 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d5d9e84d3ac930df",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "即将上市的小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "Model 3，目前定价 24.59万"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model Y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "去年卖了181万辆，几乎全是 Model 3/Y"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "转述雷军微博内容，称特斯拉去年销量约181万辆（主要为Model 3/Y），收入967.7亿美元，运营利润88.9亿美元，利润率约9.2%；并指出Model 3目前定价24.59万元，按此利润率估算需约22.3万元售价才能基本打平。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我刚查了特斯拉财报，去年卖了181万辆，几乎全是 Model 3/Y，收入967.7亿美元，运营利润 88.9亿美元。就是特斯拉这么大的规模和这么高的运营效率，其实也只有9.2%利润。Model 3，目前定价 24.59万。如果按照财报运营利润率粗算，也需要 22.3万售价才能基本打平。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "转述雷军微博内容，称小米SU7标准版配置远超Model 3，用料扎实，且上市初期采购成本高，因此定价存在压力，希望公众理解。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7标准版，配置远超 Model 3，用料扎实，而且，产品上市初期，采购成本也非常高。定价上，确实有些压力，希望大家理解。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "小米SU7标准版，配置远超 Model 3"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "转述小米集团总裁卢伟冰在财报会上的表态，称小米SU7定位为一辆C级高性能生态科技轿车，性能、配置和体验非常出色；公司阶段性目标是进入纯电豪华轿车单款产品前三名，但相比销量更关注用户体验和口碑。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米汽车SU7是一辆C级高性能生态科技轿车，性能、配置和体验都非常出色。小米的阶段性目标是进入纯电豪华轿车单款产品的前三名，但与销量相比，小米更关心用户的体验和口碑。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "特斯拉拟于4月1日涨价",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [
+        "P2",
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "今天看到传言说特斯拉将于4月1日涨价。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "帖子转述消息称特斯拉计划于4月1日提高售价，雷军对此表示在激烈竞争中只有特斯拉敢于涨价。"
+    },
+    {
+      "id": "E2",
+      "name": "小米SU7上市前夕官方回应定价策略",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米董事长兼CEO雷军在个人微博...表示，“定价上，确实有些压力，希望大家理解。”"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米集团总裁卢伟冰曾针对定价问题表示..."
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米高管雷军和卢伟冰先后通过微博和财报会公开回应小米SU7的定价问题，解释成本压力并阐述产品定位与公司目标。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子汇总了小米高管雷军和卢伟冰关于小米SU7定价压力的公开表态。文中转述了雷军对特斯拉涨价传闻的看法及对特斯拉财务数据的分析，并引用了卢伟冰对SU7产品定位和公司目标的描述。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

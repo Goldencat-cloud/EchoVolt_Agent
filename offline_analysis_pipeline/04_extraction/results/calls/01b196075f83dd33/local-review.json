@@ -1,0 +1,578 @@
+{
+  "post_id": "01b196075f83dd33",
+  "state": "FAILED",
+  "cache_key": "bad3f8c8aa25278ea7be16b4d16a018b11446c0afbaadb19989d782362f51303",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "01b196075f83dd33",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Pro",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "Pro",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相关车型:小米SU7 2024款 830km 后驱超长续航高阶智驾Pro版"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米SU7 Pro因其高性价比和智能科技配置以及超高的颜值吸引了我的注意"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "特斯拉Model 3",
+        "entity_level": "具体配置",
+        "brand": "特斯拉",
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我对比了特斯拉Model 3、蔚来et5和小米SU7 Pro"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P3",
+        "name": "蔚来et5",
+        "entity_level": "具体配置",
+        "brand": "蔚来",
+        "series": "et5",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我对比了特斯拉Model 3、蔚来et5和小米SU7 Pro"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者购车预算约为30万元，主要用于日常通勤和周末出游，并决定从燃油车转向电动车。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "在考虑购买新车时，我的预算定在了30万元左右，主要用于日常通勤和周末的出游。随着环保意识的增强，我决定从传统的燃油车转向电动车。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为小米SU7 Pro相比特斯拉Model 3和蔚来et5在价格上更具优势，且在智能互联和驾驶辅助系统上表现出色。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我发现小米SU7 Pro在价格上更具优势，同时在智能互联和驾驶辅助系统上也表现出色。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "价格与成本",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "我发现小米SU7 Pro在价格上更具优势"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "价格与成本",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "我发现小米SU7 Pro在价格上更具优势"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者试驾后认为小米SU7 Pro加速平顺迅速、转向精准、悬挂调校得当兼顾舒适与操控；相比之下，蔚来et5动力强劲但价格偏高，特斯拉Model 3智能配置略显不足且标准版续航偏短。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "试驾过程中，小米SU7 Pro的驾驶感受给我留下了深刻印象。车辆的加速平顺且迅速，转向精准，悬挂系统调校得当，既保证了舒适性又不失操控感。相比之下，蔚来et5虽然动力强劲，但价格偏高；特斯拉medel3 则在智能配置上略显不足，标准版续航也偏短。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P3",
+              "object_product_id": "P1",
+              "aspect": "价格与成本",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "蔚来et5虽然动力强劲，但价格偏高"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "智能座舱与车机",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "特斯拉medel3 则在智能配置上略显不足"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者进行试驾体验。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "试驾过程中"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者列出小米SU7 Pro的费用明细：裸车价26.5万元，保险约0.9万元，免除购置税，上牌费500元，加装高级音响和紫色车漆共1.5万元，获赠Nappa皮座椅、免费内饰颜色和电动尾翼，最终落地价约30万元。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米SU7 Pro的裸车价格为26.5万元，保险费用约为0.9万元，由于是电动车，免除了购置税。上牌费用为500元，加装了高级音响系统和紫色车漆，共计1.5万元。优惠方面，享受了赠送的nappa皮座椅，免费的内饰颜色以及电动尾翼，最终落地价格约为30万元。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者描述了提车当天的验车流程及小米提供的合照服务，并提到在车管所办理上牌手续过程顺利高效，小米售后团队提供了专业指导和讲解。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "提车当天，我首先进行了详细的验车流程，包括检查车身漆面、内饰完好程度、车辆各项功能是否正常等。小米还有专门的合照环节，可以现场选择照片，工作人员帮忙打印跟爱车的第一张合影。"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "随后，我前往车管所办理上牌手续，整个过程顺利且高效。小米的售后服务团队提供了专业的指导，有专门的工作人员负责，讲解了车的各项功能和提车上牌保险生效流程，确保每一步都准确无误。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者评价小米SU7 Pro外观设计简洁现代，内饰材料高质量且触感舒适，配备12.8英寸中控触摸屏，支持小米智能互联且操作流畅。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "小米SU7 Pro的外观设计简洁而现代，内饰采用了高质量材料，触感舒适。车辆配备了12.8英寸的中控触摸屏，支持小米智能互联，操作流畅。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "作者认为小米SU7 Pro的电动驱动提供即时扭矩输出，加速迅猛。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "动力方面，电动驱动提供了即时的扭矩输出，加速迅猛。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者表示小米SU7 Pro前后排座椅宽敞，后备箱容量可观。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "空间方面，前后排座椅宽敞，后备箱容量也相当可观。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者对电耗表现感到满意，称充满电后续航里程可达500公里。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "电耗表现令人满意，充满电后续航里程可达500公里。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者最满意小米SU7 Pro的智能科技配置，特别是小米智能互联系统，认为其极大提升了驾驶便捷性和娱乐性。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "最满意的点是小米SU7 Pro的智能科技配置，尤其是小米智能互联系统，极大地提升了驾驶的便捷性和娱乐性。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者不太满意车辆的隔音效果，指出在高速行驶时风噪略显明显。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "不太满意的地方是车辆的隔音效果，在高速行驶时风噪略显明显。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "车辆在高速行驶时。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "在高速行驶时"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C12",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者总体认为小米SU7 Pro是一款性价比极高的电动车型，在价格、配置和驾驶体验上满足了其需求，适合预算有限但追求科技感和驾驶品质的消费者。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "总体而言，小米SU7 Pro是一款性价比极高的电动车型，无论是从价格、配置还是驾驶体验上，都满足了我的需求。对于预算有限但又追求科技感和驾驶品质的消费者来说，小米SU7 Pro无疑是一个值得考虑的选择。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "77的小米SU7提车分享"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "用车初体验"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": "30万元左右",
+      "preferences": [
+        "追求高性价比",
+        "重视智能科技配置",
+        "注重颜值",
+        "追求驾驶品质"
+      ]
+    },
+    "post_summary": "作者分享了购买小米SU7 Pro的经历，包括选车理由、与其他车型的对比、详细费用清单及提车过程。作者对该车的智能配置、外观内饰、动力和空间表示满意，但指出高速风噪略明显，总体认为其性价比高，适合追求科技感与驾驶品质的消费者。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C2/evidence/0:non_contiguous_quote",
+    "user_context/evidence/1:non_contiguous_quote",
+    "C2/comparison/0/evidence/0:non_contiguous_quote",
+    "C2/comparison/1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "user_context/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11484,
+    "completion_tokens": 4962,
+    "total_tokens": 16446,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 20.486065299992333,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

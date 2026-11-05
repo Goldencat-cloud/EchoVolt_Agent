@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "original_file_hashes_unchanged": true,
+    "frozen_post_hashes_unchanged": true,
+    "aspect_claims_reconcile": true,
+    "sentiments_reconcile": true,
+    "comfort_percentage": true,
+    "source_counts": true,
+    "selected_case_coverage": true,
+    "case_urls_safe": true,
+    "snapshot_bindings": true,
+    "core_unique": true,
+    "independent_eligible_counts": true,
+    "independent_comfort_counts": true
+  },
+  "topic_model_run": false,
+  "human_semantic_acceptance": "not_measured"
+}

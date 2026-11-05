@@ -1,0 +1,293 @@
+{
+  "schema_version": "2.3",
+  "post_id": "829f0d86fa953493",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米人形机器人",
+      "entity_level": "未明确",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米人形机器人"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Optimus",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Optimus",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "马斯克的特斯拉Optimus（擎天柱）"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者在MWC 2026期间获悉小米总裁卢伟冰披露，小米人形机器人已在自家汽车工厂进行实地作业，视频在网络上传播。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "刚刚闭幕的MWC 2026大展上，小米总裁卢伟冰爆了个猛料，一段小米人形机器人在汽车工厂“实习”的视频火遍全网。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者引述小米官方数据称，其人形机器人在压铸车间自攻螺母件工站连续自主运行3小时，安装成功率为90.2%，并能配合工厂76秒下线一台汽车的严苛生产节拍。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在压铸车间自攻螺母件工站， 这台人形机器人连续自主运行了3小时，安装成功率达到了90.2%。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "它完美匹配了目前小米汽车产线 76秒下线一台车 的严苛节拍。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "其他",
+      "content": "作者认为90.2%的成功率而非100%的数据更具说服力，代表这是真实产线上的极限测试水平，而非实验室里的理想状态。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "为什么我要给90.2%这个数据点赞？因为它没吹100%。这就代表了这是真实产线上的极限测试水平，而不是实验室里摆拍的“理想状态”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者指出特斯拉Optimus一直宣称要进厂替代工人，而小米人形机器人已经在工厂进行了实际的测试和作业。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "马斯克的特斯拉Optimus（擎天柱）喊了很久要进厂替代工人，而小米这边已经在真刀真枪地实测了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "其他",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T3",
+                "source_type": "text",
+                "quote": "马斯克的特斯拉Optimus（擎天柱）喊了很久要进厂替代工人，而小米这边已经在真刀真枪地实测了。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "作者认为小米在芯片、操作系统、机器人等底层技术的相互打通是其核心技术优势，这种复用能让机器人快速提升智能化水平并降低未来的制造成本。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米在芯片、操作系统、机器人等底层技术上的投入，早就相互打通了。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "将澎湃OS、自研芯片这些底层技术复用到机器人身上，不仅能让机器人以恐怖的速度“变聪明”，还能在未来极大地把制造成本打下来。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者推测按照小米的五年规划，人形机器人将大批量进入各类产线承担高强度重复性工作，并可能在五年内颠覆传统车企。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "按照小米的五年规划，这些不知疲倦的“硅基打工人”将大批量进入各类产线，承担高强度、重复性的工作。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "中国智造真的要在未来五年彻底颠覆传统车企？"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米人形机器人进入汽车工厂作业",
+      "event_type": "技术与软件更新",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米人形机器人真去车间“打螺丝”了"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在压铸车间自攻螺母件工站， 这台人形机器人连续自主运行了3小时，安装成功率达到了90.2%。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米总裁卢伟冰在MWC 2026上透露，小米人形机器人已进入自家汽车工厂进行装配作业，在特定工站实现了连续运行和高成功率。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "文章报道了小米人形机器人在MWC 2026期间曝光的汽车工厂作业情况，展示了其在压铸车间的高成功率及与产线节拍的匹配度。作者对此持积极评价，认为其底层技术打通具有竞争优势，并与特斯拉Optimus进行了对比，展望了其对传统制造业的潜在颠覆作用。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

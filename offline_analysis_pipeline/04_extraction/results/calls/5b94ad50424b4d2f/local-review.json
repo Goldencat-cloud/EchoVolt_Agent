@@ -1,0 +1,245 @@
+{
+  "post_id": "5b94ad50424b4d2f",
+  "state": "CONTRACT_PASS",
+  "cache_key": "bd26f143fb3304ff07b0d3bc225060870effcf48c973ed09a050d8bf0f78ef55",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "5b94ad50424b4d2f",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Ultra",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7 Ultra量产版将在发布会上同步发布"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 MAX",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "MAX",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "左侧为小米SU7 MAX前制动盘"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "其他",
+        "content": "官方解答称小米SU7 Ultra量产版将于10月29日19:00举行的发布会上同步发布，目前已开启预约咨询。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7 Ultra量产版将在发布会上同步发布...同时，小米SU7 Ultra量产版已开启预约咨询"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "官方解答称小米SU7 Ultra经过严苛的耐久测试和安全测试，并在纽北赛道进行了长时间验证，完全能够合法上路。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米SU7 Ultra完全能够合法上路...整车经过了严苛的耐久测试和安全测试...也在纽北赛道经历了长时间的赛道验证"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "官方解答称小米SU7 Ultra配备赛用碳陶瓷制动盘，前刹车盘直径达430mm，最高工作温度超1300度，相比普通制动盘具有更高耐热性、更轻重量和更长寿命，但成本昂贵（选配约10万元）。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米SU7 Ultra配备赛用碳陶瓷制动盘...最高工作温度超1300度...前刹车盘直径达到430mm...重量更轻、耐久性更高...选配价格也在10万元左右"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "官方解答称小米SU7 Ultra的碳陶盘为定制研发，前430mm/后410mm直径，采用数控机加生产，旨在实现极致性能、散热和摩擦均匀性。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "为了满足小米SU7 Ultra强大的性能需求...碳陶盘的尺寸是定制的核心...前430/后410mm直径...通过领先的仿形机进行数控机加生产"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "官方解答称小米SU7 Ultra配备倍适登EVO T1绞牙减振器，可调节车身高度和阻尼力，使加速、制动俯仰及侧倾梯度大幅降低，提升赛道操控精准度和车身稳定性。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小米SU7 Ultra配备倍适登EVO T1绞牙减振器...让加速俯仰梯度、制动俯仰梯度、侧倾梯度三大指标均大幅降低...操控精准、车身稳定"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米15系列暨小米澎湃OS 2新品发布会",
+        "event_type": "产品发布与上市",
+        "event_time": "2024-10-29",
+        "event_status": "计划或预告",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米15系列 暨 小米澎湃OS 2 新品发布会，将在明晚（10月29日）19:00举行"
+          }
+        ],
+        "confidence": 0.98,
+        "summary": "小米将于10月29日19:00举办新品发布会，发布小米15系列、澎湃OS 2、小米SU7 Ultra等多款新品。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "本文为小米SU7热点问题的官方解答（第74期），主要介绍了即将发布的SU7 Ultra量产版的相关信息。内容包括发布会时间及直播平台、车辆合法性与安全性验证、碳陶瓷制动盘的技术优势与定制细节，以及绞牙减振器的性能提升作用。",
+    "post_topic": "产品功能与技术",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C6/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11347,
+    "completion_tokens": 2190,
+    "total_tokens": 13537,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 9.864041199994972,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

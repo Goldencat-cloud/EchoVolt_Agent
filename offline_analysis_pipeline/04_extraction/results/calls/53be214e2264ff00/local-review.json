@@ -1,0 +1,263 @@
+{
+  "post_id": "53be214e2264ff00",
+  "state": "FAILED",
+  "cache_key": "6c70d41c440695c9c608b0f9cda507589c9ba4e76b90854c013768008c1d9487",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "53be214e2264ff00",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Ultra",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "你会不会购买81万的小米SU7Ultra？"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "因为小米SU7售价20-30万依然无法阻挡它的销量递增"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "保时捷718",
+        "entity_level": "车系",
+        "brand": "保时捷",
+        "series": "718",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "比如说保时捷718"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "奔驰AMG GT",
+        "entity_level": "车系",
+        "brand": "奔驰",
+        "series": "AMG GT",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "奔驰AMG GT"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为自己不具备购买81万元小米SU7 Ultra的经济实力，且认为该价格不值得，因此不会购买。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "不是我不想买，是实力不允许！...对于花81万买辆轿跑简直不敢想，再说了还是辆小米SU7Ultra，这让我第一想法是不值得。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为在81万价位下，保时捷718和奔驰AMG GT的品牌力度和知名度高于小米SU7 Ultra，因此觉得后者不值。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "反观81万可以选择，比如说保时捷718、奔驰AMG GT，它们的品牌力度和知名度更高，再回头看看小米SU7 Ultra，怎么都觉得它不值！主要还是品牌力度的问题。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "品牌与口碑",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "比如说保时捷718、奔驰AMG GT，它们的品牌力度和知名度更高，再回头看看小米SU7 Ultra，怎么都觉得它不值！"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P4",
+              "aspect": "品牌与口碑",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "比如说保时捷718、奔驰AMG GT，它们的品牌力度和知名度更高，再回头看看小米SU7 Ultra，怎么都觉得它不值！"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "背景提及对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者推测由于小米SU7系列的高热度和流量效应，即使小米SU7 Ultra价格高昂且存在品牌争议，其销量可能依然可观，预计月销可达5000+。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "如果是有人想要“热度”呢？所以小米SU7 Ultra的销量真不好说，从预售销量来看，月销量5000+都有可能！"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "但我相信大部分普通人跟我一样不会花81万买它...但它带来的价值不可估量，所以我认为小米SU7 Ultra的销量不会差！"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "不是我不想买，是实力不允许！买个10万的车我都在纠结有没有免息贷款"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": "10万左右",
+      "preferences": [
+        "注重性价比",
+        "满足家庭出行代步需求"
+      ]
+    },
+    "post_summary": "作者明确表示因经济实力有限（预算约10万）不会购买81万的小米SU7 Ultra，并从品牌力角度将其与保时捷、奔驰对比，认为其不值。但同时作者承认小米品牌热度极高，推测尽管价格高企，SU7 Ultra凭借流量效应销量可能依然不错。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "claims/C3/evidence/1:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C3/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10771,
+    "completion_tokens": 2100,
+    "total_tokens": 12871,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 9.30610409998917,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,668 @@
+{
+  "post_id": "66b1757fa8bf2bc5",
+  "state": "FAILED",
+  "cache_key": "4a2ce6515f4d70e051f136c57c5ca8fd94d94a19a936726656ee9cdd116d6dd4",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "66b1757fa8bf2bc5",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米澎程N90 MAX",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "澎程N90",
+        "model_year": null,
+        "version": "MAX",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "试驾车型： 小米澎程N90 MAX（酒红色）"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米澎程N70 MAX",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "澎程N70",
+        "model_year": null,
+        "version": "MAX",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "【深度体验】小米澎程N90/N70，这俩车到底怎么选？我最终下定N70"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米YU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "YU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "大家如果开过YU7和SU7的辅助驾驶"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "大家如果开过YU7和SU7的辅助驾驶"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P5",
+        "name": "路虎揽胜运动版",
+        "entity_level": "车系",
+        "brand": "路虎",
+        "series": "揽胜运动版",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "N90的气场不输揽运"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为N90 MAX操作性、指向性好，视野通透，转弯无明显盲区，日常驾驶不显笨重，但狭窄场地挪车需多打方向且费力。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "N90MAX开起来操作性和指向性没得说，确实好开，视野也通透，拐弯没啥盲区，路上开着不臃肿、不笨拙那种，但是狭小地方挪车，可能要多打几下方向盘，现场我也看了，车大挪车费点劲。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在试驾过程中体验了车辆的操控性及狭窄场地挪车。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "N90MAX开起来操作性和指向性没得说，确实好开，视野也通透，拐弯没啥盲区，路上开着不臃肿、不笨拙那种，但是狭小地方挪车，可能要多打几下方向盘，现场我也看了，车大挪车费点劲。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为经济/舒适模式适合日常且乘客舒适，运动模式提速快但减速刹车时有车身点头现象。",
+        "sentiment": "正负混合",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "日常出行经济和舒适驾驶模式就够用，车上坐着乘客也会舒服，运动模式下提速是快，但正常减速刹车能感受到车身晃动，有点头的感觉。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在不同驾驶模式下进行了试驾体验。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "日常出行经济和舒适驾驶模式就够用，车上坐着乘客也会舒服，运动模式下提速是快，但正常减速刹车能感受到车身晃动，有点头的感觉。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为车辆隔音效果不错，关闭车窗后差异明显，但铺装路面上仍有轮胎噪音。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "车上隔音性感受不错，开关窗户感受了下，差异挺明显，大家有时间好好感受下就知道了，但是铺装路面，轮胎噪音是有的，问题不大。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在铺装路面上行驶并开关车窗感受隔音。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "车上隔音性感受不错，开关窗户感受了下，差异挺明显，大家有时间好好感受下就知道了，但是铺装路面，轮胎噪音是有的，问题不大。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为HUD清晰度尚可，但显示尺寸一般，希望信息能更大些，且驾驶时不会感到头晕。",
+        "sentiment": "正负混合",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "车上HUD清晰度还可以，如果信息显示再大点就更好了，我反正开着不晕，还有尺寸上谈不上大，只能说一般。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者在驾驶过程中使用了HUD。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "车上HUD清晰度还可以，如果信息显示再大点就更好了，我反正开着不晕，还有尺寸上谈不上大，只能说一般。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为二排头顶一键开启电动门非常方便。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "二排上下车，头顶一键开启，确实方便，这就电动门的好处。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者体验了二排电动门的开关功能。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "二排上下车，头顶一键开启，确实方便，这就电动门的好处。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为N90的辅助驾驶硬件与YU7/SU7差别不大，但软件处理不够细腻，在三车道并两车道时过于激进，容易堵住侧后方车辆。",
+        "sentiment": "负面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "路上感受了辅助驾驶，大家如果开过YU7和SU7的辅助驾驶，就能体会到这N90的辅助驾驶方案在硬件区别不大，软件上有点差异。遇到前方三车道合并两车道，并入车道感觉处理的有点激进，处理不够细腻，完全把侧后方的车给堵住了，明显是顾头不顾尾。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "智能驾驶",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "大家如果开过YU7和SU7的辅助驾驶，就能体会到这N90的辅助驾驶方案在硬件区别不大，软件上有点差异。"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P4",
+              "aspect": "智能驾驶",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T7",
+                  "source_type": "text",
+                  "quote": "大家如果开过YU7和SU7的辅助驾驶，就能体会到这N90的辅助驾驶方案在硬件区别不大，软件上有点差异。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在道路上体验了辅助驾驶功能，特别是车道合并场景。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "路上感受了辅助驾驶，大家如果开过YU7和SU7的辅助驾驶，就能体会到这N90的辅助驾驶方案在硬件区别不大，软件上有点差异。遇到前方三车道合并两车道，并入车道感觉处理的有点激进，处理不够细腻，完全把侧后方的车给堵住了，明显是顾头不顾尾。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出在时速40-50km/h时，主驾驶位能听到明显的胎噪，而后排感受较好。",
+        "sentiment": "负面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "时速40-50km/h，有明显的胎噪传入车内，主驾驶会清楚点，后排感受还好。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "车辆在时速40-50km/h状态下行驶。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "时速40-50km/h，有明显的胎噪传入车内，主驾驶会清楚点，后排感受还好。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为N90 MAX在四座模式和会客厅模式下空间巨大，甚至超过MPV，适合家庭娱乐和休息。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "四座模式下，后排乘坐空间无敌大，MPV的空间都赶不上这车；还有极限装载模式，把三排座椅竖起来，跟货拉拉没啥区别。 3、会客厅模式下，一家四口对着吃饭、打牌轻轻松松，是这车的最大玩法。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "作者体验了车辆的四座模式、极限装载模式和会客厅模式。",
+          "evidence": [
+            {
+              "block_id": "T10",
+              "source_type": "text",
+              "quote": "四座模式下，后排乘坐空间无敌大，MPV的空间都赶不上这车；还有极限装载模式，把三排座椅竖起来，跟货拉拉没啥区别。 3、会客厅模式下，一家四口对着吃饭、打牌轻轻松松，是这车的最大玩法。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为如果不需多人口出行，N70 MAX的空间完全够用，且感觉N70的后排空间比N90还要大一掌多。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "如果家里没有多人口出行，N70MAX的乘坐空间完全够用，给我感觉后排座椅同样移动到最后，N70要比N90的空间大一掌还多，大家可以对比体验。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "空间与舒适性",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T10",
+                  "source_type": "text",
+                  "quote": "给我感觉后排座椅同样移动到最后，N70要比N90的空间大一掌还多"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "作者对比体验了N90和N70的后排空间。",
+          "evidence": [
+            {
+              "block_id": "T10",
+              "source_type": "text",
+              "quote": "如果家里没有多人口出行，N70MAX的乘坐空间完全够用，给我感觉后排座椅同样移动到最后，N70要比N90的空间大一掌还多，大家可以对比体验。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为N90 MAX探索版的电动升降舱开启爽快但关闭困难，两人操作也不方便，且开启场景受限。",
+        "sentiment": "正负混合",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "电动开启是很爽，但是关起来费老鼻子劲了，现场两个人操作了下，一点不方便，必须都收纳起来才行，两边有点压着就关不上。真是有多爽就有多痛苦。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在现场体验了N90 MAX探索版车顶电动升降舱的开合。",
+          "evidence": [
+            {
+              "block_id": "T11",
+              "source_type": "text",
+              "quote": "电动开启是很爽，但是关起来费老鼻子劲了，现场两个人操作了下，一点不方便，必须都收纳起来才行，两边有点压着就关不上。真是有多爽就有多痛苦。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C11",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "作者意向购入对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者认为N90 MAX整体均衡，但如果是自己会选择N70 MAX，因为N70 MAX更够用。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "其实N90 MAX感受下来，整体还算均衡的一款车，家用确实可以考虑，就看大家使用需求了，如果是我肯定会考虑N70 MAX就够用了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C12",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者对N90上市4分钟锁单1万台的成绩表示认可，认为其实力有目共睹。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "但是4分钟锁单1万台，实力有目共睹。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米澎程N90上市销售火爆",
+        "event_type": "价格与销售政策",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "但是4分钟锁单1万台，实力有目共睹。"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "小米澎程N90上市后销量强劲，4分钟内锁单达到1万台。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "仅试驾或借用",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "试驾时间： 上市后第一天，首批用户试驾，9月8日上午"
+        },
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "如果是我肯定会考虑N70 MAX就够用了"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "偏好转向手感较重",
+        "注重后排空间实用性"
+      ]
+    },
+    "post_summary": "作者分享了小米澎程N90 MAX的首批试驾体验，肯定了其操控、隔音、空间灵活性及电动门便利性，指出了辅助驾驶策略激进、胎噪及探索版车顶关闭不便等缺点。作者认为N90整体均衡，但个人更倾向于选择空间性价比更高的N70 MAX，并对新车上市热销表示认可。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C1/evidence/0:non_contiguous_quote",
+    "C1/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 14459,
+    "completion_tokens": 6167,
+    "total_tokens": 20626,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 11776
+    }
+  },
+  "elapsed_s": 26.544808600010583,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

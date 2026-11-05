@@ -1,0 +1,495 @@
+{
+ "question": "我打算入手SU7，想听真实车主聊聊续航和智能座舱的真实感受，好的坏的都说",
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 27.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 30.1,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 60.2,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 84.2,
+   "status": "done",
+   "phase": "已完成"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": [
+  {
+   "order": 1,
+   "id": "w1",
+   "question": "续航与能耗议题内部的情感结构：正面、负面、中性、正负混合各占多少条观点",
+   "aspect": "续航与能耗",
+   "method": "curated_sentiment_mix",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 2,
+   "id": "w2",
+   "question": "智能座舱与车机议题内部的情感结构：正面、负面、中性、正负混合各占多少条观点",
+   "aspect": "智能座舱与车机",
+   "method": "curated_sentiment_mix",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 3,
+   "id": "w3",
+   "question": "续航与能耗的主要负向说法是什么（哪些具体问题被反复提到）",
+   "aspect": "续航与能耗",
+   "method": "top_negative_claims",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 4,
+   "id": "w4",
+   "question": "智能座舱与车机的主要负向说法是什么（哪些具体问题被反复提到）",
+   "aspect": "智能座舱与车机",
+   "method": "top_negative_claims",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 5,
+   "id": "w5",
+   "question": "续航与能耗议题的观点在“当前拥有/明确未拥有”两类用户中的体验结构差异",
+   "aspect": "续航与能耗",
+   "method": "ownership_experience_mix",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 6,
+   "id": "w6",
+   "question": "智能座舱与车机议题的观点在“当前拥有/明确未拥有”两类用户中的体验结构差异",
+   "aspect": "智能座舱与车机",
+   "method": "ownership_experience_mix",
+   "requires_evidence": null,
+   "visualization": null
+  }
+ ],
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "2c887bf64f5c470aa1f228da75749712",
+ "final_status": "done",
+ "result": {
+  "ok": true,
+  "report_id": "b3468b0e5a44",
+  "title": "小米 SU7 续航与智能座舱真实反馈：车主与关注者的好事与槽点",
+  "report_md": "# 小米 SU7 续航与智能座舱真实反馈：车主与关注者的好事与槽点\n\n**分析主体与品牌范围**：本报告分析主体为小米 / SU7，全部结论只针对该主体。快照范围内其他品牌（特斯拉 Model 3、极氪 001 / 007、保时捷 Taycan、比亚迪汉、阿维塔 12、尚界 Z7 等）仅作为帖子中共同出现的对比信息，不作为本报告分析对象，本报告不做跨品牌比较结论。\n\n## 结论摘要\n\n1. **续航与能耗整体偏正面，\"坏\"集中在两个具体点：电耗偏高、低温与高速工况缩水**。全部观点口径（分母为该议题全部观点条数）负面观点占比 11.6%（31/268 条）；精选观点样本中正面 28 条、中性 7 条、负面 6 条、正负混合 5 条，负面条数明显少于正面。\n2. **智能座舱与车机是两个议题中口碑最好的一项**。全部观点口径负面观点占比 7.6%（23/301 条）；精选观点样本中正面 59 条、负面 8 条、中性 6 条、正负混合 5 条。相对而言，它比可靠性与故障（55.1%，54/98 条）、服务与交付（47.0%，62/132 条）、空间与舒适性（43.4%，131/302 条）低得多，也低于动力与性能（2.9%，4/137 条）以外的多数议题。\n3. **续航的负面更多来自\"担心\"而非\"体验到\"**：6 条负面说法里，2 条来自当前车主（1 条日常通勤电耗偏高，1 条北京冬季开暖风实测约 19 度/百公里、充电花费 89 元），另 3 条来自尚未拥有车辆的关注者对官方续航数字的测算与质疑（置信度：低，n=6）。\n4. **智能座舱的负面是细节型、体验型**：8 条负面说法中，硬件与显示观感（HUD 不清晰、屏幕偏厚、音响一般）、中控语音与软件成熟度（语音唤醒慢半拍、冰箱无法语音控制、更新后刹车参数重置、功能待补充）为主，且多数出自当前车主的亲历（置信度：低，n=8）。前者试驾可判断，后者需要长期使用才会暴露。\n5. **看车主口碑必须扣掉\"关注者声音\"**：续航议题的精选观点中，当前车主明确亲历只有 18 条，明确未拥有车辆者的观点合计更多（明确非亲历 13 条、自称无法判断 8 条、不适用 5 条、试驾等明确亲历 2 条）；智能座舱中当前车主亲历 37 条，明确未拥有者共 41 条（其中试驾等亲历 21 条、明确非亲历 11 条、无法判断 7 条、不适用 2 条）。把两类混在一起，会同时高估\"担心\"和高估试驾型好评。\n\n## 分项事实\n\n### 续航与能耗：正面为主，负面聚焦电耗与工况缩水\n\n- **全部观点口径**：负面观点占比 11.6%（31/268 条，按观点条数），在 16 个议题中处于偏低区，明显低于可靠性与故障（55.1%）、服务与交付（47.0%）、空间与舒适性（43.4%），高于动力与性能（2.9%）。\n- **精选观点样本口径**（core/potential 子集，不代表全部用户声音）：正面 28 条、中性 7 条、负面 6 条、正负混合 5 条。\n- **车主/关注者结构**（同一精选样本，按观点条数）：当前车主明确亲历 18 条；明确未拥有者中明确非亲历 13 条、无法判断 8 条、不适用 5 条、试驾等明确亲历 2 条。即该议题的多数观点并非长期用车经验，解读时须区分。\n\n### 智能座舱与车机：负面占比最低，负面多为车主挑细节\n\n- **全部观点口径**：负面观点占比 7.6%（23/301 条，按观点条数），为 16 个议题中最低一档（仅高于动力与性能的 2.9%）。\n- **精选观点样本口径**：正面 59 条、负面 8 条、中性 6 条、正负混合 5 条。\n- **车主/关注者结构**：当前车主明确亲历 37 条；明确未拥有者 41 条（试驾等明确亲历 21 条、明确非亲历 11 条、无法判断 7 条、不适用 2 条）。注意此处的\"亲历\"包含试驾，不等于长期车主。\n\n### 两个议题的相对位置（供决策排序参考）\n\n- 从抱怨比例看，续航（11.6%）与智能座舱（7.6%）都远低于可靠性与故障、服务与交付、空间与舒适性，这两个议题并不是风险最高的区域。\n- 但两者的痛点性质不同：续航属**使用条件依赖型**（温度、高速、车型版本），智能座舱属**细节打磨型**（显示硬件观感、语音能力边界、更新稳定性）。试驾只能验证后者，无法验证长途与冬季的续航表现。\n\n## 证据与归组\n\n### 续航与能耗：好的一面（归组方式：内容归纳，作者判断，非统计结果）\n\n样本：精选观点池中与\"续航达成/能耗表现\"相关的正面观点共召回 26 条（候选 28 条），下列为其中代表，均来自当前车主或试驾者的亲历。\n\n- 「标准版实际续航也能有566km，三电技术很棒。」（claim_id: b9afea3de333bfb2edba，当前车主亲历）\n- 「夏天高速顶着120km/h跑，还能开出接近CLTC 9折的水平。」（claim_id: f375e66577027046e89e，当前车主亲历）\n- 「如果你也在看这款车，不用担心四驱费电。日常当普通车开，它很省；想爽一下的时候，动力随时都在。在深圳这种气候好的地方，这车基本能发挥出八九成的实力。」（claim_id: 1eb3b9366d3bd84a64a5，当前车主亲历）\n- 「它的电耗非常低，我经常能够开出十三四的状态，而且这个数据还是我在运动+的模式下开出来的。」（claim_id: 9092d57dfec50f4c0deb，试驾者亲历）\n\n### 续航与能耗：坏的一面（归组方式：内容归纳，作者判断，非统计结果）\n\n样本：该议题精选样本中负面观点共 6 条，已全部列出（n=6，置信度：低），其中 2 条来自当前车主。\n\n- **电耗偏高（2 条，含 1 条冬季实测工况）**\n  - 「美中不足电耗偏高，日常通勤能耗不算理想」（claim_id: 8015db4e281661bf4d68，当前车主亲历）\n  - 「因为今天北京早上最低温度零下9度，下午最热温度6度，所以取暖的情况下，百公里大约电耗19度电。一天下来大约跑了165公里，充电花费89元。每公里也要5毛2的电费。」（claim_id: f47394389237554daa2b，当前车主亲历）\n- **对官方续航数字的测算与质疑（3 条，均来自尚未拥有车辆的关注者，属推断而非体验）**\n  - 「七十多度电池续航700公里？实际用了才知道。」（claim_id: f33c14e86657b13f5b07）\n  - 「七八公里的标定续航，高速上直接打对折……如果在北方的冬天，续航怎么样？」（claim_id: 95da60982fd85745eb4d）\n  - 「能耗基本在百公里15到16度电……73.6的电池车，只能跑490公里，但是公布按照数据能跑700公里」（claim_id: 37e2a4546966339bfdc6）\n- **对电池容量/成本的评价（1 条，关注者）**：「73.6度的电池真不算大」（claim_id: baf085900f73d1b8e3f8）\n\n**要点**：车主的续航抱怨是\"具体工况下的实测电耗\"；关注者的抱怨是\"对官方数字的不信任\"。两类证据等级不同（亲历优于后验推断），决策时建议以车主的工况化数据为准。\n\n### 智能座舱与车机：好的一面（归组方式：内容归纳，作者判断，非统计结果）\n\n样本：精选观点池中与\"车机流畅/语音交互/座舱体验\"相关的正面观点共召回 42 条（候选 59 条），下列为其中代表。\n\n- 「车机流畅丝滑，各种功能丰富」（claim_id: 2d03ea7474bcbcbaf616，当前车主亲历）\n- 「朋友上车后随口说了句\"有点热\"，车机瞬间把空调调低；又说\"想听点轻松的\"，自动播放了Lofi音乐。全程我甚至没碰过屏幕。」（claim_id: 25ccc9e563248a3f3047，当前车主亲历）\n- 「车机屏幕操作流畅，语音交互响应很快，上手没有难度」（claim_id: c1b42c47e3023a9ad2b3，试驾者亲历）\n- 「另外就是车机，操作起来相当丝滑，小爱同学语音助手也蛮有趣的。」（claim_id: aa05e479660c9b5560d2，试驾者亲历）\n\n### 智能座舱与车机：坏的一面（归组方式：内容归纳，作者判断，非统计结果）\n\n样本：该议题精选样本中负面观点共 8 条，已全部列出（n=8，置信度：低），其中多数来自当前车主亲历。\n\n- **硬件与显示观感（3 条）**\n  - 「SU7 MAX 的 HUD 是一个很大的槽点。第一感受就是不太清晰，有点模糊。或者说分辨率很低。」（claim_id: 243addf1b519e80972e9，当前车主）\n  - 「音响我去试驾过7次了，感觉一般」（claim_id: 185653dd99ba2b5a068e，关注者试驾亲历）\n  - 「屏幕为什么会那么厚，1cm以上了，小米也做平板，不应该啊」（claim_id: ccfd7f2fedad660d1c1c，关注者）\n- **语音助手能力与软件成熟度（4 条）**\n  - 「澎湃OS偶尔会有点\"小脾气\"，导航时语音唤醒会慢半拍」（claim_id: 556b0422c51c7bdc395c，当前车主）\n  - 「前排的中间的冰箱，只能手动打开好麻烦，因为小爱同学帮不了我。」（claim_id: 577e6f825064be0d7b42，当前车主）\n  - 「一次刹车参数重置的更新险些引发事故，让我意识到\"软件定义汽车\"的风险。」（claim_id: 5eafbb72b9424e40a05b，当前车主；更新引发参数重置的个案）\n  - 「但演唱者还需要OTA升级一下」（claim_id: 6ce0df387bf4e3688459，当前车主）\n- **设计与配置取舍（1 条）**：「想不通那个旋转仪表盘干嘛用的，把那个去掉换成HUD就完美了」（claim_id: 2648136c2fa331834ed1，关注者）\n\n**要点**：智能座舱的正面口碑集中在\"流畅度 + 语音能直接办成事\"；负面集中在\"显示与音响这类硬件观感\"和\"语音能力边界、更新稳定性这类软件成熟度\"。这一结构与\"新车试驾满意度高、长期使用后细节暴露\"的普遍规律一致，但本数据无法直接验证时间效应。\n\n## 限制与不确定性\n\n1. **集合边界与分母**：议题级负面观点占比（续航 11.6%、智能座舱 7.6%）为全部观点口径，分母是该议题全部观点条数，不能与帖子级的负面帖子占比互换。情感结构与车主结构、以及全部引文均来自精选观点样本（core/potential 子集），不代表全部用户声音，也不得与全部观点口径的占比互相推算。\n2. **数据状态**：本报告基于临时/占位性质的快照样本，结论仅作阶段性参考，不能作为正式研究结论对外发布。\n3. **主体范围**：仅覆盖小米 / SU7；快照中其他品牌只是帖子共现的对比信息，本报告不支持\"SU7 优于/劣于某竞品\"的任何结论。\n4. **样本量**：续航负面仅 6 条、智能座舱负面 8 条，均为小样本（置信度：低）；续航议题中当前车主亲历仅 18 条，且电耗数据来自不同车型版本与不同季节，属用户自述、未经仪表校验，不能作为统一的续航测量值。\n5. **未覆盖维度**：未做月度走势、未按车型版本（标准版/Max/Pro/Ultra）或地区气候分层，因此\"低温缩水多少\"\"四驱比后驱多耗多少\"本数据无法量化。用户所处阶段的分布只说明观点来自哪类人群，不代表用户结构。\n\n## 待验证问题\n\n1. 续航缩水的量化幅度：需要固定车型版本与温度区间的实测电耗数据，验证\"冬季开暖风约 19 度/百公里\"是个例还是普遍水平。\n2. 硬件观感类负面（HUD 清晰度、音响）是否集中在特定配置版本——当前样本无法区分。\n3. 软件成熟度问题（语音唤醒延迟、更新后参数重置）是否集中在早期版本，是否已被后续更新改善，需按时间切片复核。\n4. 长期车主（使用一年以上）的满意度走向：现有数据缺少使用时长维度，无法判断细节槽点随时间是被放大还是被接受。\n\n---\n\n数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+  "key_findings": [
+   "续航与能耗整体偏正面：全部观点口径负面观点占比 11.6%（31/268 条）；精选观点样本中正面 28 条、中性 7 条、负面 6 条、正负混合 5 条，正面条数明显多于负面。",
+   "智能座舱与车机是负面占比最低的议题之一：全部观点口径负面观点占比 7.6%（23/301 条）；精选观点样本中正面 59 条、负面 8 条、中性 6 条、正负混合 5 条。",
+   "续航的负面集中在电耗偏高与低温/高速缩水：6 条负面说法中 2 条来自当前车主（其一为北京冬季开暖风实测约 19 度/百公里、充电花费 89 元），另 3 条为尚未拥有车辆的关注者对官方续航数字的测算质疑（置信度：低，n=6）。",
+   "智能座舱的 8 条负面说法以硬件与显示观感（HUD 不清晰、屏幕偏厚、音响一般）和中控语音与软件成熟度（语音唤醒慢半拍、冰箱无法语音控制、更新后刹车参数重置）为主，多数来自当前车主亲历（置信度：低，n=8）。",
+   "车主口碑需扣掉关注者声音：续航议题精选观点中当前车主亲历仅 18 条，明确未拥有者合计更多（明确非亲历 13 条、无法判断 8 条、不适用 5 条、试驾等亲历 2 条）；智能座舱中当前车主亲历 37 条，明确未拥有者 41 条（其中试驾等亲历 21 条）。"
+  ],
+  "publication_status": "pending_review",
+  "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+  "charts": [],
+  "evidence_index": [
+   {
+    "claim_id": "185653dd99ba2b5a068e",
+    "url": "https://club.autohome.com.cn/bbs/thread/7efbb6cc66c47efb/115881220-1.html",
+    "date": "2026-08-18 12:51:41",
+    "title": "su7选配指南",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "1eb3b9366d3bd84a64a5",
+    "url": "https://club.autohome.com.cn/bbs/thread/bda013863fdf7971/114920592-1.html",
+    "date": "2026-04-21 10:23:29",
+    "title": "【真实能耗报告】小米SU7 Max四驱长测双电机也能这么省",
+    "aspect": "续航与能耗",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "243addf1b519e80972e9",
+    "url": "https://club.autohome.com.cn/bbs/thread/79aba2b132c3f554/108175112-1.html",
+    "date": "2024-05-06 22:02:51",
+    "title": "SU7 MAX 的 HUD 是一个很大的槽点。",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "25ccc9e563248a3f3047",
+    "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html",
+    "date": "2026-03-17 17:03:50",
+    "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+    "aspect": "智能座舱与车机",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "2648136c2fa331834ed1",
+    "url": "https://club.autohome.com.cn/bbs/thread/8093b28e8bd94f64/107909637-1.html",
+    "date": "2024-03-30 22:26:53",
+    "title": "雷总，为什么只有顶配才有HUD？？？",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "2d03ea7474bcbcbaf616",
+    "url": "https://club.autohome.com.cn/bbs/thread/18805972051aa56f/115866504-1.html",
+    "date": "2026-08-16 12:59:33",
+    "title": "su7优缺点",
+    "aspect": "智能座舱与车机",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "3541012c71873483fe1d",
+    "url": "https://club.autohome.com.cn/bbs/thread/786eae4a44879485/115803908-1.html",
+    "date": "2026-08-07 21:15:00",
+    "title": "为什么选择小米su7，如此让我心动",
+    "aspect": "续航与能耗",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "37e2a4546966339bfdc6",
+    "url": "https://club.autohome.com.cn/bbs/thread/75cb2360a475ec23/107893951-1.html",
+    "date": "2024-03-28 21:24:50",
+    "title": "小米21.59走量的配置大跌眼镜",
+    "aspect": "续航与能耗",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "无法判断"
+   },
+   {
+    "claim_id": "556b0422c51c7bdc395c",
+    "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html",
+    "date": "2026-03-17 17:03:50",
+    "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "577e6f825064be0d7b42",
+    "url": "https://club.autohome.com.cn/bbs/thread/6ee894965e1c4c47/107935014-1.html",
+    "date": "2024-04-03 14:05:50",
+    "title": "小米SU7是不是典型的中看不中用呢！",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "5eafbb72b9424e40a05b",
+    "url": "https://club.autohome.com.cn/bbs/thread/560ba054758a7469/112104937-1.html",
+    "date": "2025-06-24 18:01:58",
+    "title": "每日分享6",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "6ce0df387bf4e3688459",
+    "url": "https://club.autohome.com.cn/bbs/thread/e00b9aa091996875/108162081-1.html",
+    "date": "2024-05-04 22:13:35",
+    "title": "随拍感受一下小米SU7的音响和暗光下氛围灯效果，麦克风很小巧",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "8015db4e281661bf4d68",
+    "url": "https://club.autohome.com.cn/bbs/thread/d0a15a987d349ae8/115878046-1.html",
+    "date": "2026-08-17 23:07:24",
+    "title": "su7",
+    "aspect": "续航与能耗",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "9092d57dfec50f4c0deb",
+    "url": "https://club.autohome.com.cn/bbs/thread/ee731c44c2671c69/114649568-1.html",
+    "date": "2026-03-22 14:17:55",
+    "title": "试驾新一代小米SU7，Ultra的青春版？",
+    "aspect": "续航与能耗",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "95da60982fd85745eb4d",
+    "url": "https://club.autohome.com.cn/bbs/thread/51b77839eb4eca3d/107897034-1.html",
+    "date": "2024-03-29 10:12:11",
+    "title": "一个普通人怎么看小米SU7",
+    "aspect": "续航与能耗",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "a72de8b084a577cb291a",
+    "url": "https://club.autohome.com.cn/bbs/thread/357c66da42545487/110596326-1.html",
+    "date": "2025-02-05 13:24:50",
+    "title": "最近疯狂上头小米SU7",
+    "aspect": "智能座舱与车机",
+    "sentiment": "正面",
+    "ownership": "明确未拥有",
+    "experience": "无法判断"
+   },
+   {
+    "claim_id": "aa05e479660c9b5560d2",
+    "url": "https://club.autohome.com.cn/bbs/thread/65caa08badc2b1de/108188962-1.html",
+    "date": "2024-05-08 21:46:03",
+    "title": "小米SU7试驾体验",
+    "aspect": "智能座舱与车机",
+    "sentiment": "正面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "b9afea3de333bfb2edba",
+    "url": "https://club.autohome.com.cn/bbs/thread/5895b51bcebf2c13/115797229-1.html",
+    "date": "2026-08-07 10:15:27",
+    "title": "新一代小米su7标准版优缺点",
+    "aspect": "续航与能耗",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "baf085900f73d1b8e3f8",
+    "url": "https://club.autohome.com.cn/bbs/thread/526ce9bf2e52905c/107889856-1.html",
+    "date": "2024-03-28 13:53:42",
+    "title": "小米su7价格一定会定在18W以内，不然就是曲高和寡，没人陪它玩了",
+    "aspect": "续航与能耗",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "c1b42c47e3023a9ad2b3",
+    "url": "https://club.autohome.com.cn/bbs/thread/923612ad0444a2e8/115906051-1.html",
+    "date": "2026-08-21 10:42:51",
+    "title": "试驾看车实录｜小米SU7 2025款后驱标准版",
+    "aspect": "智能座舱与车机",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "c4314899f10eff6cde18",
+    "url": "https://club.autohome.com.cn/bbs/thread/142d18d77a99b076/116181106-1.html",
+    "date": "2026-09-18 19:07:36",
+    "title": "20万出头，汉家用实在，SU7科技感足，谁性价比更划算？",
+    "aspect": "智能座舱与车机",
+    "sentiment": "正面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "ccfd7f2fedad660d1c1c",
+    "url": "https://club.autohome.com.cn/bbs/thread/cd91b1cd533b9f10/107873585-1.html",
+    "date": "2024-03-26 16:19:59",
+    "title": "说下个人对小米SU7的看法",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "f33c14e86657b13f5b07",
+    "url": "https://club.autohome.com.cn/bbs/thread/fc69d0fec6a01164/107900711-1.html",
+    "date": "2024-03-29 17:13:00",
+    "title": "小米SU7标准版21.59万值不值？",
+    "aspect": "续航与能耗",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "f375e66577027046e89e",
+    "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html",
+    "date": "2026-03-17 17:03:50",
+    "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+    "aspect": "续航与能耗",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "f47394389237554daa2b",
+    "url": "https://club.autohome.com.cn/bbs/thread/e3322fb90b3349d5/114085737-1.html",
+    "date": "2026-01-08 22:14:32",
+    "title": "在北京租一天SU7去慕田峪长城真实感受！",
+    "aspect": "续航与能耗",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "f98e3a781a9f340d9091",
+    "url": "https://club.autohome.com.cn/bbs/thread/0d69f5d8d5db56d6/112990725-1.html",
+    "date": "2025-09-24 11:55:28",
+    "title": "炫耀一下su7的能耗",
+    "aspect": "续航与能耗",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   }
+  ],
+  "final_message": "报告已提交并进入待复核状态。核心结论：续航与能耗整体偏正面（负面观点占比 11.6%，31/268 条），负面集中在电耗偏高与冬季/高速缩水；智能座舱与车机是负面占比最低的议题之一（7.6%，23/301 条），槽点集中在 HUD/音响等硬件观感和语音、软件成熟度。同时提醒：续航议题多数观点来自尚未拥有车辆的关注者，不能整体当作车主口碑。",
+  "tool_log": [
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/analysis-methods/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-39 of 39 @@\n---\nname: plan-drafting\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——方法语义与字段契约在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\n---\n\n# 起草分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 0（计划）的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过 `submit_analysis_plan` 确定性校验的完整草案——字段齐全、aspect 与简报枚举逐字一致、覆盖用户问题的全部子问题与比较意图。\n\n## 起草流程（按序执行，完成一步再进入下一步）\n\n1. **读任务简报**：研究请求、数据覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，NEVER 凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`，NEVER 用代码探索（代码分析只属于执行阶段）。\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `semantic_ov"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-35 of 35 @@\n---\nname: analysis-methods\ndescription: 执行分析计划（执行阶段必读）。何时读：拿到已获批计划、开始逐项执行时——执行循环、取证规则、失败与空结果处置、结果解读检查都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——方法契约在 run_analysis_method / run_aggregate 工具说明，且方法在计划里已经选定。\n---\n\n# 执行分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 1-2（执行）的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\n\n## 执行循环（对每项 workstream 依次执行，完成一项再取下一项）\n\n1. **取项执行**：普通方法调 `run_analysis_method`，聚合原语工作项调 `run_aggregate`——method/参数从计划原样抄写（原语参数与计划 params 逐字一致）。计划边界与工具边界由工具强制；这里提醒：NEVER 绕开声明方法（use_python=true 时 python_analy"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"围绕用户点名的两个议题（续航与能耗、智能座舱与车机），先用议题内情感结构给出好/坏两侧的相对规模，再分别取负向说法原文作为“坏的一面”的可核验证据，最后用拥有状态结构核对“真实车主（当前拥有）”与“明确未拥有（观望/购车决策期）”两类声音在两个议题上的差异，避免把观望者的说法当成车主体验。主体范围为小米/SU7 快照，其他品牌仅作帖子共现对比信息；情感结构类结论取自精选子集（core/potential），议题级负向占比可用预置基准的全量声明级数字。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"续航与能耗议题内部的情感结构：正面、负面、中性、正负混合各占多少条观点\",\"aspect\":\"续航与能耗\",\"method\":\"curated_sentiment_mix\"},{\"id\":\"w2\",\"question\":\"智能座舱与车机议题内部的情感结构：正面、负面、中性、正负混合各占多少条观点\",\"aspect\":\"智能座舱与车机\",\"method\":\"curated_sentiment_mix\"},{\"id\":\"w3\",\"question\":\"续航与能耗的主要负向说法是什么（哪些具体问题被反复提到）\",\"aspect\":\"续航与能耗\",\"method\":\"top"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "{\"accepted\": true, \"plan\": {\"coverage\": \"围绕用户点名的两个议题（续航与能耗、智能座舱与车机），先用议题内情感结构给出好/坏两侧的相对规模，再分别取负向说法原文作为“坏的一面”的可核验证据，最后用拥有状态结构核对“真实车主（当前拥有）”与“明确未拥有（观望/购车决策期）”两类声音在两个议题上的差异，避免把观望者的说法当成车主体验。主体范围为小米/SU7 快照，其他品牌仅作帖子共现对比信息；情感结构类结论取自精选子集（core/potential），议题级负向占比可用预置基准的全量声明级数字。\", \"workstreams\": [{\"id\": \"w1\", \"question\": \"续航与能耗议题内部的情感结构：正面、负面、中性、正负混合各占多少条观点\", \"dimension\": \"other\", \"aspect\": \"续航与能耗\", \"method\": \"curated_sentiment_mix\", \"requires_evidence\": false}, {\"id\": \"w2\", \"question\": \"智能座舱与车机议题内部的情感结构：正面、负面、中性、正负混合各占多少条观点\", \"dimension\": \"other\", \"aspect\": \"智能座舱与车机\", \"method\": \"curated_sentiment_mix\", "
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'curated_sentiment_mix', 'aspect': '续航与能耗'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'curated_sentiment_mix', 'aspect': '智能座舱与车机'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'top_negative_claims', 'aspect': '续航与能耗', 'limit': 10}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'top_negative_claims', 'aspect': '智能座舱与车机', 'limit': 10}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"curated_sentiment_mix\", \"params\": {\"aspect\": \"续航与能耗\"}, \"sql\": \"SELECT sentiment, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY sentiment ORDER BY n DESC\", \"columns\": [\"sentiment\", \"n\"], \"rows\": [{\"sentiment\": \"正面\", \"n\": 28}, {\"sentiment\": \"中性\", \"n\": 7}, {\"sentiment\": \"负面\", \"n\": 6}, {\"sentiment\": \"正负混合\", \"n\": 5}], \"row_count\": 4, \"caliber\": \"精选子集口径：仅统计 core/potential 精选观点及其引文证据，不代表全部用户声音\", \"elapsed_ms\": 3, \"verification\": {\"ok\": true, \"errors\": [], \"warnings\": [], \"checks\": [\"caliber_declared\", \"rows_present\", \"negative_share_recomputed\", \"curated_counts_rec"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"curated_sentiment_mix\", \"params\": {\"aspect\": \"智能座舱与车机\"}, \"sql\": \"SELECT sentiment, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY sentiment ORDER BY n DESC\", \"columns\": [\"sentiment\", \"n\"], \"rows\": [{\"sentiment\": \"正面\", \"n\": 59}, {\"sentiment\": \"负面\", \"n\": 8}, {\"sentiment\": \"中性\", \"n\": 6}, {\"sentiment\": \"正负混合\", \"n\": 5}], \"row_count\": 4, \"caliber\": \"精选子集口径：仅统计 core/potential 精选观点及其引文证据，不代表全部用户声音\", \"elapsed_ms\": 3, \"verification\": {\"ok\": true, \"errors\": [], \"warnings\": [], \"checks\": [\"caliber_declared\", \"rows_present\", \"negative_share_recomputed\", \"curated_counts_r"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"top_negative_claims\", \"params\": {\"aspect\": \"续航与能耗\", \"limit\": 10}, \"sql\": \"SELECT claim_id, date, journey, ownership, experience, title, url, substr(content, 1, 240) AS excerpt, quote FROM semantic_claim_evidence WHERE aspect = :aspect AND sentiment = '负面' ORDER BY date DESC LIMIT :limit\", \"columns\": [\"claim_id\", \"date\", \"journey\", \"ownership\", \"experience\", \"title\", \"url\", \"excerpt\", \"quote\"], \"rows\": [{\"claim_id\": \"8015db4e281661bf4d68\", \"date\": \"2026-08-17 23:07:24\", \"journey\": \"拥有与日常使用\", \"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"title\": \"su7\", \"url\": \"https://club.autohome.com"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"top_negative_claims\", \"params\": {\"aspect\": \"智能座舱与车机\", \"limit\": 10}, \"sql\": \"SELECT claim_id, date, journey, ownership, experience, title, url, substr(content, 1, 240) AS excerpt, quote FROM semantic_claim_evidence WHERE aspect = :aspect AND sentiment = '负面' ORDER BY date DESC LIMIT :limit\", \"columns\": [\"claim_id\", \"date\", \"journey\", \"ownership\", \"experience\", \"title\", \"url\", \"excerpt\", \"quote\"], \"rows\": [{\"claim_id\": \"185653dd99ba2b5a068e\", \"date\": \"2026-08-18 12:51:41\", \"journey\": \"购车前\", \"ownership\": \"明确未拥有\", \"experience\": \"明确亲历\", \"title\": \"su7选配指南\", \"url\": \"https://club.autohome."
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '续航与能耗', 'method': 'ownership_experience_mix'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '智能座舱与车机', 'method': 'ownership_experience_mix'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"ownership_experience_mix\", \"params\": {\"aspect\": \"续航与能耗\"}, \"sql\": \"SELECT COALESCE(ownership, '未标注') AS ownership, COALESCE(experience, '未标注') AS experience, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY ownership, experience ORDER BY n DESC\", \"columns\": [\"ownership\", \"experience\", \"n\"], \"rows\": [{\"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"n\": 18}, {\"ownership\": \"明确未拥有\", \"experience\": \"明确非亲历\", \"n\": 13}, {\"ownership\": \"明确未拥有\", \"experience\": \"无法判断\", \"n\": 8}, {\"ownership\": \"明确未拥有\", \"experience\": \"不适用\", \"n\": 5}, {\"ownership\": \"明确未拥有\", \"experience\": \"明确亲历\", \"n\":"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"ownership_experience_mix\", \"params\": {\"aspect\": \"智能座舱与车机\"}, \"sql\": \"SELECT COALESCE(ownership, '未标注') AS ownership, COALESCE(experience, '未标注') AS experience, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY ownership, experience ORDER BY n DESC\", \"columns\": [\"ownership\", \"experience\", \"n\"], \"rows\": [{\"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"n\": 37}, {\"ownership\": \"明确未拥有\", \"experience\": \"明确亲历\", \"n\": 21}, {\"ownership\": \"明确未拥有\", \"experience\": \"明确非亲历\", \"n\": 11}, {\"ownership\": \"明确未拥有\", \"experience\": \"无法判断\", \"n\": 7}, {\"ownership\": \"明确未拥有\", \"experience\": \"不适用\", \""
+   },
+   {
+    "tool": "search_claims",
+    "args": "{'query': '续航达成率高、能耗表现好、实际电耗低于预期', 'aspect': '续航与能耗', 'sentiment': '正面', 'limit': 6}"
+   },
+   {
+    "tool": "search_claims",
+    "args": "{'query': '车机流畅、小爱语音好用、座舱体验好', 'aspect': '智能座舱与车机', 'sentiment': '正面', 'limit': 6}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "search_claims",
+    "output": "{\"query\": \"续航达成率高、能耗表现好、实际电耗低于预期\", \"n_candidates\": 28, \"n_matches\": 26, \"claims\": [{\"claim_id\": \"b9afea3de333bfb2edba\", \"aspect\": \"续航与能耗\", \"sentiment\": \"正面\", \"tier\": \"core\", \"experience\": \"明确亲历\", \"date\": \"2026-08-07 10:15:27\", \"title\": \"新一代小米su7标准版优缺点\", \"url\": \"https://club.autohome.com.cn/bbs/thread/5895b51bcebf2c13/115797229-1.html\", \"content\": \"作者指出标准版实际续航可达566km，并对三电技术给予好评。\", \"quote\": \"标准版实际续航也能有566km，三电技术很棒。\", \"score\": 1.6463}, {\"claim_id\": \"f375e66577027046e89e\", \"aspect\": \"续航与能耗\", \"sentiment\": \"正面\", \"tier\": \"core\", \"experience\": \"明确亲历\", \"date\": \"2026-03-17 17:03:50\", \"title\": \"从质疑到“真香”，"
+   },
+   {
+    "tool": "search_claims",
+    "output": "{\"query\": \"车机流畅、小爱语音好用、座舱体验好\", \"n_candidates\": 59, \"n_matches\": 42, \"claims\": [{\"claim_id\": \"2d03ea7474bcbcbaf616\", \"aspect\": \"智能座舱与车机\", \"sentiment\": \"正面\", \"tier\": \"core\", \"experience\": \"明确亲历\", \"date\": \"2026-08-16 12:59:33\", \"title\": \"su7优缺点\", \"url\": \"https://club.autohome.com.cn/bbs/thread/18805972051aa56f/115866504-1.html\", \"content\": \"作者认为该车车机流畅丝滑，功能丰富。\", \"quote\": \"车机流畅丝滑，各种功能丰富\", \"score\": 2.0078}, {\"claim_id\": \"aa05e479660c9b5560d2\", \"aspect\": \"智能座舱与车机\", \"sentiment\": \"正面\", \"tier\": \"potential\", \"experience\": \"明确亲历\", \"date\": \"2024-05-08 21:46:03\", \"title\": \"小米SU7试驾体验\", \"url\": \"https://club.a"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-86 of 86 @@\n---\nname: report-authoring\ndescription: 报告撰写与提交（报告阶段必读）。何时读：提交 submit_report 前——报告结构、证据引用与归组、口径表述红线、术语转换、提交流程都在这里。何时不读：选择与执行分析方法（用 analysis-methods）；起草计划（用 plan-drafting）。误用反例：把本文件当证据获取说明——怎么取证见 analysis-methods 的\"取证规则\"。\n---\n\n# 报告撰写与提交\n\n## 角色与读者\n\n服务对象：准备提交报告的 Agent（阶段 3）。输出标准：通过 report_gate 的五段结构中文报告，每个数字可核验、每条引用可回溯、面向用户说业务语言。报告面向业务负责人和研究人员：先结论后依据，数字可核验，限制如实。正文中文 Markdown；长度上限以服务端发布门禁为准（超限时 submit_report 会返回具体数值与修订要求）。\n\n## 报告结构（五段，顺序固定）\n\n1. **结论摘要**：先回答用户的问题，分点列出 3–5 条（可与 key_findings 同源），每条一句结论 + 核心数字（带口径）；只写有证据支撑的结论。小样本结论（观点条数 n < 30 的分布或走势）句尾标注置信度——「（置信度：低，n=12）」；高置信结"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'title': '小米 SU7 续航与智能座舱真实反馈：车主与关注者的好事与槽点', 'key_findings': '[\"续航与能耗在精选观点样本中整体偏正面：正面 28/46 条（60.9%），负面 6 条（13.0%）、正负混合 5 条（10.9%）；全量口径负面观点占比 11.6%（31/268 条）。\",\"智能座舱与车机是本次两个议题中负面占比最低的：全量口径负面观点占比 7.6%（23/301 条），精选样本中正面 59/78 条（75.6%）。\",\"续航的负面集中在电耗偏高与低温/高速缩水（6 条负面说法中 2 条来自当前车主，含 1 条冬季实测约 19 度/百公里），另有 3 条为关注者对官方续航数字的质疑（置信度：低，n=6）。\",\"智能座舱的 8 条负面说法以硬件与显示（HUD 清晰度、屏幕厚度、音响）3 条和语音助手/系统稳定性（唤醒慢半拍、冰箱无法语音控制、更新重置刹车参数）4 条为主，均来自当前车主的亲历反馈。\",\"口径提醒：续航议题 46 条精选观点中仅 18 条（39.1%）来自当前车主，智能座舱 78 条中 37 条（47.4%）来自当前车主，其余为购车前的关注者观点，不能整体当作车主口碑。\"]', 'markdown': '# 小米 SU7 续航与智能座舱真实反馈：车主与关注者的好事与槽点\\n\\n**分析主体与品牌范围**：本报告分析主体为小米"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"缺少章节：结论摘要\", \"缺少章节：证据与归组\", \"缺少章节：限制与不确定性\", \"正文必须明确写出当前数据版本（上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质），如在页脚写「数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质」\", \"报告包含未在分析工具结果中找到的数字：7281, 1263, 23.9%, 78, 75.6%, 10.3%, 6.4%, 39.1%, 78, 47.4%, 60.9%, 15.2%, 10.9%, 39.1%, 60.9%, 78, 75.6%, 10.3%, 7.7%, 6.4%。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_t"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"续航与能耗整体偏正面：全部观点口径负面观点占比 11.6%（31/268 条）；精选观点样本中正面 28 条、中性 7 条、负面 6 条、正负混合 5 条，正面条数明显多于负面。\",\"智能座舱与车机是负面占比最低的议题之一：全部观点口径负面观点占比 7.6%（23/301 条）；精选观点样本中正面 59 条、负面 8 条、中性 6 条、正负混合 5 条。\",\"续航的负面集中在电耗偏高与低温/高速缩水：6 条负面说法中 2 条来自当前车主（其一为北京冬季开暖风实测约 19 度/百公里、充电花费 89 元），另 3 条为尚未拥有车辆的关注者对官方续航数字的测算质疑（置信度：低，n=6）。\",\"智能座舱的 8 条负面说法以硬件与显示观感（HUD 不清晰、屏幕偏厚、音响一般）和中控语音与软件成熟度（语音唤醒慢半拍、冰箱无法语音控制、更新后刹车参数重置）为主，多数来自当前车主亲历（置信度：低，n=8）。\",\"车主口碑需扣掉关注者声音：续航议题精选观点中当前车主亲历仅 18 条，明确未拥有者合计更多（明确非亲历 13 条、无法判断 8 条、不适用 5 条、试驾等亲历 2 条）；智能座舱中当前车主亲历 37 条，明确未拥有者 41 条（其中试驾等亲历 21 条）。\"]', 'markdown': '# 小米 SU7 续航与智能座舱真实反馈：车主与关注者的好"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"report_id\": \"b3468b0e5a44\", \"status\": \"pending_review\", \"saved\": \"D:\\\\Desktop\\\\Competitions\\\\new_energy_data_analysis_agent\\\\offline_analysis_pipeline\\\\08_semantic_services\\\\reports\\\\agent\\\\b3468b0e5a44\", \"next_step\": \"由非作者队友复核并通过 report_publisher.py 发布。\"}"
+   }
+  ],
+  "tool_errors": 0,
+  "metrics": {
+   "successful_tool_calls": 11,
+   "tool_errors": 0,
+   "code_failures": 0,
+   "submit_attempts": 2,
+   "gate_rejections": 1
+  },
+  "elapsed_ms": 71560
+ },
+ "error": null,
+ "wall_s": 84.2
+}

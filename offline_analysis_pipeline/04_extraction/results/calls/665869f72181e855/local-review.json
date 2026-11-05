@@ -1,0 +1,518 @@
+{
+  "post_id": "665869f72181e855",
+  "state": "FAILED",
+  "cache_key": "f0804ac1ca9ae083b58462de5dafdb950b497868dc9cc02cdead537ca29e4e68",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "665869f72181e855",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 2024款 四驱超长续航高阶智驾Max版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相关车型:小米SU7 2024款 四驱超长续航高阶智驾Max版"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "大众速腾",
+        "entity_level": "车系",
+        "brand": "大众",
+        "series": "速腾",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前开了8年大众速腾"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "特斯拉Model3",
+        "entity_level": "车系",
+        "brand": "特斯拉",
+        "series": "Model3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "试过特斯拉Model3"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "极氪001",
+        "entity_level": "车系",
+        "brand": "极氪",
+        "series": "001",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "极氪001操控好"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者换车预算在30万左右，主要需求是续航扎实、智驾靠谱、适合单人通勤兼周末短途自驾。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今年计划换车时，预算卡在30万左右，主要需求就三点：续航扎实、智驾靠谱、适合单人通勤兼周末短途自驾。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者试驾后认为特斯拉Model3智能化强但内饰和底盘硬度不佳，极氪001操控好但车机卡顿；相比之下，小米SU7的四驱版CLTC 800km+续航、激光雷达和CDC减震更符合其需求。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "试过特斯拉Model3，智能化确实强，但内饰和底盘硬度劝退；极氪001操控好，但车机卡顿让我纠结。直到小米SU7发布，一看四驱版CLTC800km+续航、激光雷达和CDC减震，当场心动"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "配置与功能",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "试过特斯拉Model3，智能化确实强，但内饰和底盘硬度劝退；...直到小米SU7发布，一看四驱版CLTC800km+续航、激光雷达和CDC减震，当场心动"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P4",
+              "aspect": "智能座舱与车机",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "极氪001操控好，但车机卡顿让我纠结。直到小米SU7发布...当场心动"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者遭遇供应链延迟，提车周期从承诺的4周延长至50天。期间小米补偿了5000积分和终身免费流量。",
+        "sentiment": "正负混合",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "原本承诺4周提车，结果遇到供应链延迟，等了整整50天。...小米挺实在，延迟交车直接补了5000积分...还送了终身免费流量。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者分享了小米SU7 Max版的落地费用明细：顶配裸车29.99万元，免购置税，保险1.3万元，选装轮毂6000元，车漆7000元，加上其他杂费后落地约32.7万元。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "顶配裸车29.99W没优惠，免购置税电车的福利省个2W多，保险13000三者300万...选装轮毂6000，车漆蓝7000...落地合下来万32.7W左右。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者描述了提车流程，包括验车、核对车架号和序列号、撕除保护膜、测试车机等环节，并对交车专员的专业讲解和自动泊车演示表示满意。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "销售带着我先去验车...交车专员挺专业，花1小时讲解功能，还演示了5.6米窄路自动泊车...整个提车很愉快"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在郊区交付中心进行提车验车。",
+          "evidence": [
+            {
+              "block_id": "T5",
+              "source_type": "text",
+              "quote": "交付中心在郊区，一大早打车过去"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者实测市区+高速综合电耗为16.5kWh/百公里（高于官方的14.1），快充30分钟可恢复300km续航，实际续航约为标称值的8折。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "我市区+高速综合电耗16.5kWh/百公里（官方标14.1）...快充30分钟能回血300km，实际续航打8折左右"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "作者在市区和高速行驶，经常开空调并进行激烈驾驶。",
+          "evidence": [
+            {
+              "block_id": "T6",
+              "source_type": "text",
+              "quote": "我市区+高速综合电耗16.5kWh/百公里（官方标14.1），可能因经常开空调和激烈驾驶。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为高速NOA表现稳定，自动跟车和变道顺畅；但城区智驾逻辑保守，在无保护左转时容易急刹，因此在复杂路况下倾向于手动驾驶。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "高速NOA超稳...城区逻辑保守：路口无保护左转时总会急刹...现在复杂路况改手动更安心。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在清明节跑长途高速，以及在城区复杂路况下行驶。",
+          "evidence": [
+            {
+              "block_id": "T6",
+              "source_type": "text",
+              "quote": "清明跑长途，开启智驾后自动跟车、变道超车一气呵成"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者身高178cm，驾驶位头部空间充裕；后排乘坐两名180cm乘客不拥挤，但中间位置不适合长途；后备箱装载能力强，能容纳落地灯和收纳箱。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "我178的个子，驾驶位调好头顶还有一拳多...后排坐俩一米八的大个儿也没说挤...后备箱比想象中能装"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者独自驾驶，以及携带三名同事乘坐后排，并前往宜家购物。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "上周带三个同事去吃午饭，后排坐俩一米八的大个儿也没说挤...上周去宜家买了个落地灯加几个收纳箱"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为车辆加速性能强劲，运动模式下推背感强烈；底盘偏运动取向，过减速带颠簸明显，但过弯支撑力强。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "加速暴力：运动模式下油门到底，推背感堪比坐过山车"
+          },
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "底盘偏运动：过减速带颠簸明显，但过弯支撑力强"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在红绿灯起步、过减速带及过弯时体验车辆。",
+          "evidence": [
+            {
+              "block_id": "T6",
+              "source_type": "text",
+              "quote": "红绿灯起步基本秒杀一众油车"
+            },
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "过减速带颠簸明显，但过弯支撑力强"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者对顶配车型仍需付费选装轮毂和车漆的模式表示不满，认为这与国产车“加量不加价”的主打卖点不符，更像合资车的做法。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "不满意，就是都顶配了选个轮毂还要花钱，还有车漆本来应该都免费，也要花钱选择，这种模式太像合资车了。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "提车过程"
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "用车初体验"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": "30万左右",
+      "preferences": [
+        "续航扎实",
+        "智驾靠谱",
+        "适合单人通勤兼周末短途自驾"
+      ]
+    },
+    "post_summary": "车主分享小米SU7 Max版的购车全流程及用车初体验。文章详细记录了从选车对比、订车延期补偿、提车验车到落地费用明细的过程。用车反馈方面，作者肯定了车辆的加速性能、高速智驾稳定性和空间实用性，但也指出了城区智驾保守、底盘偏硬以及顶配需付费选装轮毂车漆等不足之处。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12263,
+    "completion_tokens": 4700,
+    "total_tokens": 16963,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 20.573498700003256,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

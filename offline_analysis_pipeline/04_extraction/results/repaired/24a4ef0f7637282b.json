@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.3",
+  "post_id": "24a4ef0f7637282b",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米创办人、董事长兼CEO雷军在直播中谈及“团队与相关KOL接触一事”的处罚"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "雷军在直播中表示，公司处罚相关KOL的原因并非因其批评小米或得罪米粉，而是因其长期贬低甚至诅咒小米用户，公司底线是保护用户和车主，不容忍此类KOL。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军表示，这件事情为什么这么严重，不是因为这个KOL批评了小米，也不是因为这个KOL得罪了米粉，是因为这个KOL一直在贬低，甚至诅咒小米用户，“作为企业我们肯定不能容忍”"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "雷军承认小米公关部在处理此事时动作变形，因此公司决定对其进行批评和处罚，并希望米粉给予改过机会。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我们的公关部确实做得不好，所以公司决定对他们进行批评和处罚。雷军表示，过去八、九个月，小米一直处在长期持续高烈度的负面舆情之中，让公关部团队疲惫不堪。他们的动作确实有些变形，他也希望米粉朋友们给他们一个改过的机会。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "雷军直播回应KOL事件",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1月7日晚，小米创办人、董事长兼CEO雷军在直播中谈及“团队与相关KOL接触一事”的处罚"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米CEO雷军在直播中就公司与KOL接触事件引发的争议进行回应，解释了处罚原因及公司对保护用户的底线，并对公关部的失误进行了反思。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了小米CEO雷军在直播中回应KOL事件的内容。雷军解释了公司处罚相关KOL的原因是对方长期贬低和诅咒用户，强调了保护用户的底线，并承认公关部工作存在失误，表达了改进意愿。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

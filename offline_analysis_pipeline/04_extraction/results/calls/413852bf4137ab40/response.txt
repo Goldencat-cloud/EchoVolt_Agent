@@ -1,0 +1,364 @@
+{
+  "schema_version": "2.3",
+  "post_id": "413852bf4137ab40",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新一代小米su7max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": "max",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "新一代小米 su7max 提车两个月，分享一下配置选择的取舍"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "老一代 su7max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": "max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为新一代 su7max 车主，同时兼老一代 su7max 首发车主（家里有）"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "su7 标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果对于操控和性能没有那么极致要求的，可以选标准版"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "su7 pro 版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": "pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果追求长续航的话，毋庸置疑，直接冲 pro 版"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在关注 su7 两年后，在小定开放时立即下单，认为小定权益（优先排产和赠送双仪表盘）有助于加快提车，但提车后发现双仪表盘实用性较低，认为是清库存的礼品。",
+      "sentiment": "正负混合",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为两年前就在关注 su7 的我来说...事实证明小定确实帮助我更快的提到了车...双仪表盘在我提车后这两个月用车用下来发现其实挺鸡肋的，没啥用，也难怪小米会拿出来作为小定权益"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者选择了靛石绿外色和 20 寸梅花轮毂，但未选择熏黑套件，理由是熏黑套件性价比不高且在靛石绿车身上不明显，后期自改更划算。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在锁单前，我的预选配就是 max 版本，加钱选了靛石绿外色，20 寸梅花轮毂，唯独熏黑套件我没选，我觉得熏黑套件那几千块钱真的没必要，而且装在靛石绿上就更不显眼了，不如后期自己花点小钱小改一下来的划算"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者对比 20 寸和 21 寸轮毂，认为 20 寸相比 21 寸具有更低的换胎成本、更小的爆胎风险和更高的舒适性，因此选择 20 寸。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我没选 21 寸是因为换胎成本比 20 寸更高，而且爆胎概率也更高，相对于 21 寸来说，20 寸更舒适点，爆胎风险也小点，换胎成本也低点。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为 max 版本除了音响（25 扬声器）几乎没有缺点。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车后，我发现 max 除了音响几乎没啥缺点了（此处备注一下本人是 25 扬声器）"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出 max 版本使用三元锂电池，实际电量使用区间通常在 20%-80%，相当于 60 度电池的车，因此在续航上羡慕使用磷酸铁锂电池、可满充满放的标准版和 pro 版。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "除此之外由于 max 版本是三元锂电池，所以平时的实际电量使用区间在 20-80，所以 max 平时基本上就是一台 60 度电池的性能四驱车，所以续航上面我还挺羡慕标准版和 pro 版的...而且那两个版本还是磷酸铁锂的电池，几乎可以满充满放"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "续航与能耗",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "所以续航上面我还挺羡慕标准版和 pro 版的"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "续航与能耗",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "所以续航上面我还挺羡慕标准版和 pro 版的"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者建议驾驶经验丰富、追求性能和操控的用户选择 max 版本；对于操控要求不极致的用户推荐标准版；对于追求长续航的用户推荐 pro 版。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驾驶经验丰富，追求性能操控和稳定性的可以无脑选 max...如果说对于操控和性能没有那么极致要求的，可以选标准版...如果追求长续航的话，毋庸置疑，直接冲 pro 版"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为 pro 版 CLTC 续航 903 公里，配合小米优秀的电控电耗表现，实际续航在同价位甚至越级价位的纯电车中具有显著优势。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "cltc903 公里的续航，搭配上小米一贯以来优秀的电控电耗表现，实际续航相较于友商同价位甚至越级价位的纯电车来说都是碾压的存在了。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "新一代小米 su7max 提车两个月"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "作为新一代 su7max 车主，同时兼老一代 su7max 首发车主（家里有）"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "追求性能操控和稳定性",
+      "注重性价比（拒绝高价低效选装）",
+      "注重续航（羡慕磷酸铁锂版本的续航表现）"
+    ]
+  },
+  "post_summary": "作者作为新老两代小米 SU7 Max 车主，分享了提车两个月的配置选择心得。他详细解释了为何选择 20 寸轮毂而非 21 寸，以及为何放弃熏黑套件。文中对比了 Max 版（三元锂）与标准版/Pro 版（磷酸铁锂）在续航和电池特性上的差异，并为不同需求的潜在买家提供了针对性的选车建议。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

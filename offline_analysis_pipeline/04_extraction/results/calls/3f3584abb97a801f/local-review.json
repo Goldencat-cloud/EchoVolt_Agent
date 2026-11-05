@@ -1,0 +1,330 @@
+{
+  "post_id": "3f3584abb97a801f",
+  "state": "CONTRACT_PASS",
+  "cache_key": "5aeaba4a438eee5b8872d1cb5d2a70e2c80ebc6ed1c055e7fd7369e381314be4",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "3f3584abb97a801f",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "到底是什么人大定小米SU7"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "蔚来",
+        "entity_level": "品牌",
+        "brand": "蔚来",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这时候的小米，让我想起了18年的蔚来。"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "保时捷卡宴",
+        "entity_level": "车系",
+        "brand": "保时捷",
+        "series": "卡宴",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "自己之前开卡宴"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "作者指出小米SU7的价格区间为21.59万至29.99万元，并认为该价格不算特别昂贵但也绝非廉价。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米su7价格从21.59-29.99之间。说贵不贵，但是也绝对谈不上便宜。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "其他",
+        "content": "作者陈述小米SU7在短时间内获得了大量大定订单，并对此现象感到好奇。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "半小时不到已经有50000台大定。不知道是什么人，当了先吃螃蟹的人。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者认为小米汽车目前面临的最大问题是故障率和售后维修情况不明，将其比作“开盲盒”，并断定普通上班族无法承受这种风险。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米汽车最大的问题就是，故障率不详，售后维修不详。就像在开一个大盲盒，肯定不是普通上班族能开起的。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者将当前的小米与2018年的蔚来进行类比，暗示两者在市场初期面临的处境或引发的关注具有相似性。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这时候的小米，让我想起了18年的蔚来。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "品牌与口碑",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "这时候的小米，让我想起了18年的蔚来。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "背景提及对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者转述了一位蔚来公司高管的经历，称其购买蔚来是为了娱乐，且此前驾驶的是保时捷卡宴。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "公司的二老板提了一辆蔚来，他说就是开着玩（自己之前开卡宴）。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者推测大多数小米SU7车主家中不止拥有一辆车，并且购买动机可能是出于玩乐而非刚需。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我想大部分的小米车主家里都不止一台车吧，可能也都是为了玩"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7大定销量突破",
+        "event_type": "市场竞争与行业数据",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "半小时不到已经有50000台大定。"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "画面中央有醒目的白色大字“4分钟”、“1000台”，下方标注“大定突破”。"
+          },
+          {
+            "block_id": "I2",
+            "source_type": "image_summary",
+            "quote": "图片中央有醒目的白色大字“27分钟”、“5000台”，下方标注“大定突破”。"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米SU7在发布后的短时间内取得了显著的大定成绩，包括4分钟破千台、27分钟破五千台以及半小时内达到五万台。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子讨论了小米SU7的定价策略及初期大定销量的爆发式增长。作者表达了对新车故障率和售后服务未知的担忧，并将其与早期蔚来的市场处境进行类比，推测首批车主多为有多车家庭且出于玩乐目的购车。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "events/E1/evidence/1:non_contiguous_quote",
+    "events/E1/evidence/2:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10656,
+    "completion_tokens": 2667,
+    "total_tokens": 13323,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 11.620268099999521,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

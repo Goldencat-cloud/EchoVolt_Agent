@@ -1,0 +1,288 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0416be99136d84ee",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米Su7U"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米Su7 ultra"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "路特斯Emeya繁花",
+      "entity_level": "具体配置",
+      "brand": "路特斯",
+      "series": "Emeya",
+      "model_year": null,
+      "version": "繁花",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "Emeya繁华新款车型"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "Emeya繁花-车型列表"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "保时捷"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "保时捷"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "日产GT-R",
+      "entity_level": "车系",
+      "brand": "日产",
+      "series": "GT-R",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "东瀛战神日产GT-R"
+        },
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "GT-R"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7 Ultra上市后，路特斯Emeya繁花大幅降价（从66.8万降至52.8万起），显示出竞争对手受到冲击。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在小米Su7 ultra 52.99定价上市的时候，我就说了友商肯定会被打懵，这不第一家已经出现。路特斯从产品定价到高管发言一水的显示慌不择路"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "最近路特斯门店开始悬挂降价海报，Emeya繁华新款车型52.8万起。要知道去年这车还要66.8万，这一把大降14万"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者批评路特斯高管冯擎峰的发言暗示小米SU7 Ultra，认为这种“阴阳怪气”的表现格局不足，不如日产GT-R公开祝贺得体。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "吉利控股集团高级副总裁、莲花集团首席执行官冯擎峰就发文对赛道的敬畏不是电机和马力的单纯堆积，弯道快的石油莲花和保时捷。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "这话明眼人都知道内涵的是谁...而路特斯高管却只能阴阳显得格局不足啊。 与之相对照的就是东瀛战神日产GT-R也发文庆祝Su7 ultra...但是最少面子里子也都算有了。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者判断路特斯目前销量困难，未来处境会更艰难。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "现在路特斯真的难受了，本来已经销量很难，以后只会更难，后面的路怎么走？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "路特斯Emeya繁花降价",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "最近路特斯门店开始悬挂降价海报，Emeya繁华新款车型52.8万起。要知道去年这车还要66.8万"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "核心文案为“新款上市 52.8万元起”"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "路特斯Emeya繁花新款车型售价调整为52.8万元起，相比之前的66.8万元有明显降幅。"
+    },
+    {
+      "id": "E2",
+      "name": "路特斯高管冯擎峰发文回应赛道性能",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2025-02-28",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "吉利控股集团高级副总裁、莲花集团首席执行官冯擎峰就发文对赛道的敬畏不是电机和马力的单纯堆积，弯道快的石油莲花和保时捷。"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "发帖人昵称为“冯擎峰-Lotus”，发布时间为2025年2月28日...特别提到“但弯道快的恐怕只有莲花和保时捷”"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "路特斯CEO冯擎峰在微博发文强调弯道性能，提及只有莲花和保时捷在弯道快，被解读为针对小米SU7 Ultra的回应。"
+    },
+    {
+      "id": "E3",
+      "name": "日产GT-R官方祝贺小米SU7 Ultra上市",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P4",
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "东瀛战神日产GT-R也发文庆祝Su7 ultra"
+        },
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "GT-R祝贺 小米SU7 Ultra成功上市！"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "日产GT-R官方微博发布海报祝贺小米SU7 Ultra成功上市，并致敬电动时代。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "非个人旅程或泛行业讨论",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了小米SU7 Ultra上市对竞争对手路特斯的冲击，指出路特斯Emeya繁花大幅降价以及高管冯擎峰疑似内涵小米的发言，并将其与日产GT-R公开祝贺小米的做法进行对比，认为路特斯面临更大的市场压力。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

@@ -1,0 +1,485 @@
+{
+ "question": "SU7的负面反馈随时间怎么变化？哪几个月的负面观点最集中？",
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 39.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 42.2,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 93.3,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 126.3,
+   "status": "done",
+   "phase": "已完成"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"以精选观点口径（core/potential 子集）按月统计负面观点条数与负面占比，先取全区间月度走势，再按月排序找出负面最集中的月份，并交叉议题定位峰值月份由哪些议题构成，最后对样本充足的代表议题（空间与舒适性）取带 claim_id 的负面原文佐证。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"SU7 负面观点条数与负面占比的月度走势（全区间 2023-12 ~ 2026-09）\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedClaims\",\"curatedNegative\",\"curatedNegativeShare\"],\"dimensions\":[\"time_month\"],\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60,\"population\":\"curated\"},\"visualization\":{\"type\":\"line\",\"x\":\"time_month\",\"y\":\"curatedNegativeShare\",\"title\":\"SU7 负面观点占比月度走势（精选口径）\"}},{\"id\":\"w2\",\"question\":\"哪几个月负面观点最集中：按负面观点条数对月份排序取前 8\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedNegative\",\"curatedNegativeShare\",\"curatedClaims\"],\"dimensions\":[\"time_month\"],\"order\":[{\"field\":\"curatedNegative\",\"dir\":\"desc\"}],\"limit\":8,\"population\":\"curated\"},\"visualization\":{\"type\":\"bar\",\"x\":\"time_month\",\"y\":\"curatedNegative\",\"title\":\"负面观点条数最多的月份（精选口径）\"}},{\"id\":\"w3\",\"question\":\"负面集中月份里负面观点来自哪些议题：月份×议题交叉的负面观点条数排序\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedNegative\"],\"dimensions\":[\"time_month\",\"aspect\"],\"order\":[{\"field\":\"curatedNegative\",\"dir\":\"desc\"}],\"limit\":30,\"population\":\"curated\"}},{\"id\":\"w4\",\"question\":\"代表议题“空间与舒适性”的负面观点月度分布与原文佐证\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedClaims\",\"curatedNegative\",\"curatedNegativeShare\"],\"dimensions\":[\"time_month\"],\"filters\":{\"aspect\":\"空间与舒适性\"},\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60,\"population\":\"curated\"},\"requires_evidence\":true,\"visualization\":{\"type\":\"table\",\"x\":\"time_month\",\"y\":\"curatedNegative\",\"title\":\"空间与舒适性负面观点月度分布（精选口径）\"}}]}",
+    "plan": {
+     "coverage": "以精选观点口径（core/potential 子集）按月统计负面观点条数与负面占比，先取全区间月度走势，再按月排序找出负面最集中的月份，并交叉议题定位峰值月份由哪些议题构成，最后对样本充足的代表议题（空间与舒适性）取带 claim_id 的负面原文佐证。",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "SU7 负面观点条数与负面占比的月度走势（全区间 2023-12 ~ 2026-09）",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "curatedClaims",
+         "curatedNegative",
+         "curatedNegativeShare"
+        ],
+        "dimensions": [
+         "time_month"
+        ],
+        "order": [
+         {
+          "field": "time_month",
+          "dir": "asc"
+         }
+        ],
+        "limit": 60,
+        "population": "curated"
+       },
+       "visualization": {
+        "type": "line",
+        "x": "time_month",
+        "y": "curatedNegativeShare",
+        "title": "SU7 负面观点占比月度走势（精选口径）"
+       }
+      },
+      {
+       "id": "w2",
+       "question": "哪几个月负面观点最集中：按负面观点条数对月份排序取前 8",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "curatedNegative",
+         "curatedNegativeShare",
+         "curatedClaims"
+        ],
+        "dimensions": [
+         "time_month"
+        ],
+        "order": [
+         {
+          "field": "curatedNegative",
+          "dir": "desc"
+         }
+        ],
+        "limit": 8,
+        "population": "curated"
+       },
+       "visualization": {
+        "type": "bar",
+        "x": "time_month",
+        "y": "curatedNegative",
+        "title": "负面观点条数最多的月份（精选口径）"
+       }
+      },
+      {
+       "id": "w3",
+       "question": "负面集中月份里负面观点来自哪些议题：月份×议题交叉的负面观点条数排序",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "curatedNegative"
+        ],
+        "dimensions": [
+         "time_month",
+         "aspect"
+        ],
+        "order": [
+         {
+          "field": "curatedNegative",
+          "dir": "desc"
+         }
+        ],
+        "limit": 30,
+        "population": "curated"
+       }
+      },
+      {
+       "id": "w4",
+       "question": "代表议题“空间与舒适性”的负面观点月度分布与原文佐证",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "curatedClaims",
+         "curatedNegative",
+         "curatedNegativeShare"
+        ],
+        "dimensions": [
+         "time_month"
+        ],
+        "filters": {
+         "aspect": "空间与舒适性"
+        },
+        "order": [
+         {
+          "field": "time_month",
+          "dir": "asc"
+         }
+        ],
+        "limit": 60,
+        "population": "curated"
+       },
+       "requires_evidence": true,
+       "visualization": {
+        "type": "table",
+        "x": "time_month",
+        "y": "curatedNegative",
+        "title": "空间与舒适性负面观点月度分布（精选口径）"
+       }
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"以精选观点口径（core/potential 子集）按月统计负面观点条数与负面占比，先取全区间月度走势，再按月排序找出负面最集中的月份，并交叉议题定位峰值月份由哪些议题构成，最后对样本充足的代表议题（空间与舒适性）取带 claim_id 的负面原文佐证。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"SU7 负面观点条数与负面占比的月度走势（全区间 2023-12 ~ 2026-09）\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedClaims\",\"curatedNegative\",\"curatedNegativeShare\"],\"dimensions\":[\"time_month\"],\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60,\"population\":\"curated\"},\"visualization\":{\"type\":\"line\",\"x\":\"time_month\",\"y\":\"curatedNegativeShare\",\"title\":\"SU7 负面观点占比月度走势（精选口径）\"}},{\"id\":\"w2\",\"question\":\"哪几个月负面观点最集中：按负面观点条数对月份排序取前 8\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedNegative\",\"curatedNegativeShare\",\"curatedClaims\"],\"dimensions\":[\"time_month\"],\"order\":[{\"field\":\"curatedNegative\",\"dir\":\"desc\"}],\"limit\":8,\"population\":\"curated\"},\"visualization\":{\"type\":\"bar\",\"x\":\"time_month\",\"y\":\"curatedNegative\",\"title\":\"负面观点条数最多的月份（精选口径）\"}},{\"id\":\"w3\",\"question\":\"负面集中月份里负面观点来自哪些议题：月份×议题交叉的负面观点条数排序\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedNegative\"],\"dimensions\":[\"time_month\",\"aspect\"],\"order\":[{\"field\":\"curatedNegative\",\"dir\":\"desc\"}],\"limit\":30,\"population\":\"curated\"}},{\"id\":\"w4\",\"question\":\"代表议题“空间与舒适性”的负面观点月度分布与原文佐证\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedClaims\",\"curatedNegative\",\"curatedNegativeShare\"],\"dimensions\":[\"time_month\"],\"filters\":{\"aspect\":\"空间与舒适性\"},\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60,\"population\":\"curated\"},\"requires_evidence\":true,\"visualization\":{\"type\":\"table\",\"x\":\"time_month\",\"y\":\"curatedNegative\",\"title\":\"空间与舒适性负面观点月度分布（精选口径）\"}}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "SU7 负面观点条数与负面占比的月度走势（全区间 2023-12 ~ 2026-09）",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": {
+      "type": "line",
+      "title": "SU7 负面观点占比月度走势（精选口径）"
+     }
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "哪几个月负面观点最集中：按负面观点条数对月份排序取前 8",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": {
+      "type": "bar",
+      "title": "负面观点条数最多的月份（精选口径）"
+     }
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "负面集中月份里负面观点来自哪些议题：月份×议题交叉的负面观点条数排序",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 4,
+     "id": "w4",
+     "question": "代表议题“空间与舒适性”的负面观点月度分布与原文佐证",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": true,
+     "visualization": {
+      "type": "table",
+      "title": "空间与舒适性负面观点月度分布（精选口径）"
+     }
+    }
+   ]
+  },
+  "plan_json": null,
+  "history_len": 1
+ },
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "092da476c77640a1937a45db5cfd1121",
+ "outlines": [
+  {
+   "t": 39.1,
+   "plan_json": null,
+   "history_len": 1
+  }
+ ],
+ "outline_http": 202,
+ "final_status": "done",
+ "result": {
+  "ok": true,
+  "report_id": "4fd619440d26",
+  "title": "小米 SU7 负面反馈的时间演变：月度走势与负面最集中的月份（精选观点口径）",
+  "report_md": "## 一、结论摘要\n\n1. **负面观点条数最集中在 2024 年 3—4 月**：2024-03 有 54 条负面观点（该月观点 166 条，负面观点占比 32.5%），2024-04 有 26 条（97 条观点，26.8%）；两月合计 80 条，占全区间负面观点 193 条的 41.5%（观点级口径，精选观点样本，月度行相加）。\n2. **后期出现两个次级高峰**：2026-03 为 14 条（42 条观点，33.3%），2026-08 为 11 条（52 条观点，21.2%），是 2024 年年中以来单月负面条数最高的两个月（观点级，精选观点样本）。\n3. **负面占比的“高低峰”与“条数峰”不在同一位置**：占比最高的月份是 2026-01（50.0%，5/10）与 2026-07（46.2%，6/13），但这两个月观点量很小（置信度：低，n=10 / n=13）；2025-01 则相反，占比为全区间最低（5.8%，3/52 条观点）。\n4. **2024 年 3—4 月的负面以静态体验短板为主**：该月负面条数最多的议题是价格与成本（11 条）、配置与功能（9 条）、空间与舒适性（8 条）；其中空间与舒适性是全区间最稳定的负面来源——82 条观点中 40 条为负面（48.8%，观点级，精选观点样本）。\n5. **总体水平**：全区间 819 条精选观点中 193 条为负面，负面观点占比 23.6%（观点级，精选观点样本）；2025 年全年负面 30 条、2026 年 47 条（两个年度数字由月度行相加得出）。\n\n> 分析主体：小米 / SU7（品牌范围取自本次数据分析范围声明中的在范围品牌；其余品牌仅作为帖子共现对比信息，不构成本次分析对象）。\n\n## 二、分项事实\n\n全部数字为**观点级口径**（负面观点条数 ÷ 观点条数），集合为**精选观点样本**（经引文回挂校验的 core/potential 子集，共 819 条，不代表全部用户声音）。时间区间：2023-12-24 至 2026-09-29，落到 2023-12 至 2026-09 共 33 个月（2024-02 无精选观点）。\n\n### 2.1 负面观点条数与占比的月度走势（折线图数据，按时间升序）\n\n图标题：SU7 负面观点占比月度走势（精选观点样本）｜横轴：月份；纵轴：负面观点占比（负面观点条数 ÷ 观点条数）\n\n| 月份 | 观点条数 | 负面观点条数 | 负面观点占比 |\n|---|---|---|---|\n| 2023-12 | 5 | 2 | 40.0% |\n| 2024-01 | 7 | 2 | 28.6% |\n| 2024-03 | 166 | 54 | 32.5% |\n| 2024-04 | 97 | 26 | 26.8% |\n| 2024-05 | 40 | 9 | 22.5% |\n| 2024-06 | 18 | 2 | 11.1% |\n| 2024-07 | 12 | 3 | 25.0% |\n| 2024-08 | 10 | 1 | 10.0% |\n| 2024-09 | 5 | 2 | 40.0% |\n| 2024-10 | 19 | 5 | 26.3% |\n| 2024-11 | 30 | 4 | 13.3% |\n| 2024-12 | 18 | 6 | 33.3% |\n| 2025-01 | 52 | 3 | 5.8% |\n| 2025-02 | 35 | 6 | 17.1% |\n| 2025-03 | 21 | 5 | 23.8% |\n| 2025-04 | 25 | 3 | 12.0% |\n| 2025-05 | 5 | 0 | 0.0% |\n| 2025-06 | 11 | 2 | 18.2% |\n| 2025-07 | 18 | 2 | 11.1% |\n| 2025-08 | 5 | 2 | 40.0% |\n| 2025-09 | 18 | 4 | 22.2% |\n| 2025-10 | 2 | 0 | 0.0% |\n| 2025-11 | 2 | 0 | 0.0% |\n| 2025-12 | 18 | 3 | 16.7% |\n| 2026-01 | 10 | 5 | 50.0% |\n| 2026-02 | 11 | 2 | 18.2% |\n| 2026-03 | 42 | 14 | 33.3% |\n| 2026-04 | 6 | 0 | 0.0% |\n| 2026-05 | 6 | 0 | 0.0% |\n| 2026-06 | 18 | 4 | 22.2% |\n| 2026-07 | 13 | 6 | 46.2% |\n| 2026-08 | 52 | 11 | 21.2% |\n| 2026-09 | 22 | 5 | 22.7% |\n\n读表要点：\n- 观点量高度前倾：2024-03 单月 166 条，占全区间 819 条观点的 20.3%；2024-03 与 2024-04 合计 263 条（月度行相加）。\n- 观点量低于 30 条的月份（2023-12、2024-06、2024-07、2024-08、2024-09、2025-05、2025-08、2025-10、2025-11、2026-01、2026-02、2026-04、2026-05、2026-06、2026-07、2026-09）占比容易大幅波动，其占比数字仅作线索（置信度：低）。\n\n### 2.2 负面观点最集中的月份（柱状图数据，按负面观点条数降序）\n\n图标题：负面观点条数最多的月份（精选观点样本）｜横轴：月份；纵轴：负面观点条数\n\n| 排名 | 月份 | 负面观点条数 | 负面观点占比 | 同月观点条数 |\n|---|---|---|---|---|\n| 1 | 2024-03 | 54 | 32.5% | 166 |\n| 2 | 2024-04 | 26 | 26.8% | 97 |\n| 3 | 2026-03 | 14 | 33.3% | 42 |\n| 4 | 2026-08 | 11 | 21.2% | 52 |\n| 5 | 2024-05 | 9 | 22.5% | 40 |\n| 6 | 2026-07 | 6 | 46.2% | 13 |\n| 7 | 2025-02 | 6 | 17.1% | 35 |\n| 8 | 2024-12 | 6 | 33.3% | 18 |\n\n结论：**负面条数最集中的是 2024-03（54 条）与 2024-04（26 条）**，两月合计 80 条、占全区间 193 条负面观点的 41.5%（观点级，精选观点样本，月度行相加）。第二梯队为 2026-03（14 条）与 2026-08（11 条），绝对量远低于 2024 年春季，但占比（33.3%、21.2%）高于 2024-04 之后多数月份。\n\n### 2.3 负面集中月份里负面来自哪些议题（月份 × 议题交叉）\n\n口径：各“月份 × 议题”格的负面观点条数，按条数降序取前 30 格（未进入清单的低频格未统计）。\n\n- **2024-03（负面条数最多月）**：价格与成本 11 条、配置与功能 9 条、空间与舒适性 8 条、服务与交付 6 条、品牌与口碑 4 条、外观与内饰 4 条、续航与能耗 4 条、智能驾驶 3 条、智能座舱与车机 2 条，合计 51 条；与该月负面观点 54 条的差额 3 条落在清单未展示的低频议题格内。\n- **2024-04（次高峰）**：空间与舒适性 6 条、价格与成本 3 条、可靠性与故障 3 条、外观与内饰 3 条、驾驶与操控 3 条、智能驾驶 2 条、服务与交付 2 条，合计 22 条（该月负面 26 条）。\n- **2026-03（后期高峰）**：价格与成本 5 条、空间与舒适性 2 条（该月负面 14 条，其余格未进入前 30 清单）。\n- **空间与舒适性是最“耐时间”的负面议题**：它出现在 2024-03、2024-04、2024-05、2024-10、2024-11、2026-03、2026-06、2026-08 共 8 个月份的前 30 格中，是唯一从上市初期延续到 2026 年仍反复出现的议题。\n\n### 2.4 代表议题专项：空间与舒适性的负面月度分布（表格数据）\n\n口径：议题=空间与舒适性，负面观点条数 ÷ 该议题观点条数（观点级，精选观点样本，全区间 82 条观点）。\n\n| 月份 | 该议题观点条数 | 负面条数 | 负面占比 |\n|---|---|---|---|\n| 2024-03 | 12 | 8 | 66.7% |\n| 2024-04 | 9 | 6 | 66.7% |\n| 2024-05 | 6 | 3 | 50.0% |\n| 2024-06 | 1 | 0 | 0.0% |\n| 2024-07 | 4 | 1 | 25.0% |\n| 2024-09 | 1 | 1 | 100.0% |\n| 2024-10 | 3 | 2 | 66.7% |\n| 2024-11 | 5 | 4 | 80.0% |\n| 2024-12 | 2 | 0 | 0.0% |\n| 2025-01 | 3 | 1 | 33.3% |\n| 2025-02 | 1 | 0 | 0.0% |\n| 2025-03 | 2 | 0 | 0.0% |\n| 2025-04 | 2 | 0 | 0.0% |\n| 2025-05 | 1 | 0 | 0.0% |\n| 2025-07 | 2 | 1 | 50.0% |\n| 2025-12 | 1 | 0 | 0.0% |\n| 2026-03 | 5 | 2 | 40.0% |\n| 2026-06 | 5 | 3 | 60.0% |\n| 2026-07 | 3 | 2 | 66.7% |\n| 2026-08 | 10 | 4 | 40.0% |\n| 2026-09 | 4 | 2 | 50.0% |\n\n合计：40/82 = 48.8%（由本表各行相加，与该议题全区间月度结果一致）。2025 年是该议题的“冷静期”（各月负面条数均 ≤1）；2026-06 起再次连续出现负面（6 月 3 条、7 月 2 条、8 月 4 条、9 月 2 条）。\n\n### 归因分析：2024-03 为什么成为集中峰（其余月份只作事实描述）\n\n- **机制**：2024-03 的负面条数峰值首先是“讨论量放大”效应——观点条数从 2023-12 的 5 条、2024-01 的 7 条跃升至 166 条，负面条数随之升至 54 条；同期负面占比 32.5%，高于全区间 23.6% 的水平。\n- **支持证据**：观点条数与负面占比均为观点级、精选观点样本（见 2.1 表）；代表引文见第三节（claim_id: 7c4a68f32bd4a78a4284、ea614dcd423cba050c09）。\n- **替代解释检查**：峰值可能主要由收录与话题结构自选择造成——早期内容以静态看车/试驾评车为主，更易产生空间、配置、价格类挑剔；本数据无法排除收录偏差，因此不把该峰值解读为“用户满意度骤降”。\n- **置信度**：中（依据为观点级计数与逐字引文，非全量抽样；2024-03 单月观点 166 条，样本量本身不低，但集合为精选子集）。\n\n## 三、证据与归组\n\n归组方式：内容归纳（作者判断，非统计结果）——下列引文用于说明第二节统计结果背后的用户表达，组内计数仅对该组成立。\n\n**A. 2024 年 3 月：看车/试驾阶段的静态体验挑剔**\n- “进去店里-进不到车里”（claim_id: 7c4a68f32bd4a78a4284，2024-03-25，用户所处阶段：购车前）\n- “后排坐着，头距离顶只有半拳。我才166的个子。这要是180左右的个，头基本碰到顶了。”（claim_id: ea614dcd423cba050c09，2024-03-30，购车前，明确亲历）\n- “车服务与人，su7空间太小了”（claim_id: 7aa6940d9ca14515af5a，2024-03-31）\n- “su7这个座椅不知道说啥好，有点过度设计了”（claim_id: d87699fcd30541ddca9b，2024-03-31，拥有与日常使用，当前拥有）\n\n**B. 2024 年 3—4 月：未拥有者对后排空间的担忧式推断**\n- “另一个不好的，据说后排头部空间相对较小，对于身高较高的乘客来说可能会感到有些压抑。”（claim_id: 74efffafa2b6544a3b46，2024-03-26，明确非亲历）\n- “家庭唯一用车的可能会比较难接受，车身尺寸虽然较大，修长的车头可以参照纵置发动机燃油车空间。1.45米左右的车身高度车内的空间应该也不会大。”（claim_id: cade3a7904c0176ed977，2024-03-29，明确非亲历）\n\n**C. 2024 年 4 月：试驾者与车主的亲历反馈**\n- “最搞笑的就是卢总重新定义了后排很宽敞，嗯...你说的对，很宽敞就是，头部空间小，前排座椅下方无法伸脚。”（claim_id: 91d7cadf7718102caa0a，2024-04-01）\n- “本人光脚185，坐后排，头顶距离天窗就一指多，坐垫感觉比特斯拉的还要短半截，前后排都短，大腿悬空，坐起来感觉很别扭，我开得时候全程有种硌屁股的感觉，空间绝对是SU7的短板”（claim_id: 6bb3f41663197b2e8432，2024-04-02，购车前，明确亲历）\n\n证据边界：以上引文取自“空间与舒适性”议题的精选负面观点（按相关度排序取样，本次取回 10 条，可返回池共 40 条，已截断）；取回样本集中在 2024-03 与 2024-04，**不能用于代表 2026 年各月负面说法的内容**。精选证据子集本身也不代表全部用户声音。\n\n## 四、限制与不确定性\n\n1. **集合边界**：本次所有月度走势、占比与排名均为**精选观点样本**（core/potential 子集，819 条观点，负面 193 条），是经引文回挂校验的子集，不代表全部用户声音；全量声明级指标没有时间维度，因此无法给出全量口径的月度走势，正文未做全量与精选之间的换算。\n2. **分母边界**：所有占比都是观点级（负面观点 ÷ 观点条数），未使用帖子级分母，也没有把观点级占比折算成帖子级。\n3. **小样本波动**：16 个月份的月度观点量低于 30 条，其中 2026-01（10 条）、2026-07（13 条）虽占比最高，但条数少，仅作线索（置信度：低）；2025-10、2025-11 各仅 2 条观点。\n4. **缺口**：2024-02 在精选子集中没有观点，月度序列存在一个空月；时间区间止于 2026-09，2026-10 之后不在覆盖内。\n5. **解读边界**：负面“条数”集中主要由讨论量驱动，不等于情绪恶化；把 2024-03 峰值解读为满意度下降需要外部证据（如上市/交付节点），本数据仅能证明该月观点量与负面条数同时最高。\n6. **议题交叉不完整**：2.3 节只展示负面条数前 30 的“月份 × 议题”格，未进入清单的低频格未统计，故各月议题构成加总小于该月负面总数（已在文中标出差额）。\n7. **证据覆盖**：取回的负面原文集中在 2024-03 与 2024-04，2025 年与 2026 年的负面说法本次未取得逐字证据，相关结论只依据计数，不配引文。\n\n## 五、待验证问题\n\n1. 2024-03 的观点量与负面量同时跳升，是否与车型上市/交付节点吻合？需要外部时间轴确认，本数据无法自证。\n2. 2026-03、2026-08 的次级高峰由什么驱动（2026-03 价格与成本出现 5 条负面为线索），需要对这两个月做定向内容取证。\n3. 空间与舒适性从 2024 年延续到 2026 年反复出现负面（40/82 条），期间是否存在改款带来的表述变化？需要更细的产品版本维度。\n4. 购车前人群（明确未拥有）在负面观点中的占比如何随时间变化？本次未做该交叉，可用于判断负面是“预期落差”还是“真实使用问题”。\n\n---\n数据版本：semantic-2026-11-03.4（快照 2026-11-03.4，hash: 74aeb7735973）；口径：观点级、精选观点样本（curated）；月度数字来自本次分析查询结果，年度合计与两月合计由月度行相加。",
+  "key_findings": [
+   "负面观点条数最集中在 2024-03（54 条负面，占该月 166 条观点的 32.5%）与 2024-04（26 条，26.8%），两月合计 80 条，占全区间 193 条负面观点的 41.5%（观点级，精选观点样本）",
+   "后期次高峰为 2026-03（14 条负面，33.3%）与 2026-08（11 条，21.2%）；2026-01 与 2026-07 占比最高（50.0%、46.2%）但月观点量仅 10、13 条，置信度低",
+   "2024-03 负面条数最多的议题为价格与成本 11 条、配置与功能 9 条、空间与舒适性 8 条；空间与舒适性是唯一延续到 2026 年反复出现负面的议题（全区间 40/82 条，48.8%）",
+   "全区间 819 条精选观点中 193 条为负面，负面观点占比 23.6%（观点级）；2025 年全年负面 30 条明显回落，2026 年回升至 47 条（月度行相加）"
+  ],
+  "publication_status": "pending_review",
+  "data_version": "semantic-2026-11-03.4",
+  "charts": [
+   {
+    "title": "SU7 负面观点占比月度走势（精选口径）",
+    "anchor": "SU7 负面观点占比月度走势（精选口径）",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"680\" height=\"246\" viewBox=\"0 0 680 246\" role=\"img\" aria-label=\"SU7 负面观点占比月度走势（精选口径）\"><text x=\"0\" y=\"16\" font-size=\"13\" fill=\"#12233d\">SU7 负面观点占比月度走势（精选口径）</text><polyline fill=\"none\" stroke=\"#2f6fb3\" stroke-width=\"2\" points=\"46.0,30.0 85.2,75.7 124.4,59.9 163.6,82.8 202.8,100.0 242.0,145.6 281.2,90.0 320.4,150.0 359.6,30.0 398.8,84.7 438.0,136.7 477.2,56.7 516.4,166.9 555.6,121.4 594.8,94.8 634.0,142.0\"/><circle cx=\"46.0\" cy=\"30.0\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"46.0\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2023-12</text><circle cx=\"85.2\" cy=\"75.7\" r=\"3\" fill=\"#2f6fb3\"></circle><circle cx=\"124.4\" cy=\"59.9\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"124.4\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2024-03</text><circle cx=\"163.6\" cy=\"82.8\" r=\"3\" fill=\"#2f6fb3\"></circle><circle cx=\"202.8\" cy=\"100.0\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"202.8\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2024-05</text><circle cx=\"242.0\" cy=\"145.6\" r=\"3\" fill=\"#2f6fb3\"></circle><circle cx=\"281.2\" cy=\"90.0\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"281.2\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2024-07</text><circle cx=\"320.4\" cy=\"150.0\" r=\"3\" fill=\"#2f6fb3\"></circle><circle cx=\"359.6\" cy=\"30.0\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"359.6\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2024-09</text><circle cx=\"398.8\" cy=\"84.7\" r=\"3\" fill=\"#2f6fb3\"></circle><circle cx=\"438.0\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"438.0\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2024-11</text><circle cx=\"477.2\" cy=\"56.7\" r=\"3\" fill=\"#2f6fb3\"></circle><circle cx=\"516.4\" cy=\"166.9\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"516.4\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2025-01</text><circle cx=\"555.6\" cy=\"121.4\" r=\"3\" fill=\"#2f6fb3\"></circle><circle cx=\"594.8\" cy=\"94.8\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"594.8\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2025-03</text><circle cx=\"634.0\" cy=\"142.0\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"634\" y=\"22\" font-size=\"10\" text-anchor=\"end\" fill=\"#12233d\">40.0%</text></svg>"
+   },
+   {
+    "title": "负面观点条数最多的月份（精选口径）",
+    "anchor": "负面观点条数最多的月份（精选口径）",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"670\" height=\"268\" viewBox=\"0 0 670 268\" role=\"img\" aria-label=\"负面观点条数最多的月份（精选口径）\"><text x=\"0\" y=\"16\" font-size=\"13\" fill=\"#12233d\">负面观点条数最多的月份（精选口径）</text><text x=\"0\" y=\"43\" font-size=\"12\" fill=\"#12233d\">2024-03</text><rect x=\"200\" y=\"30\" width=\"400\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"606\" y=\"43\" font-size=\"11\" fill=\"#12233d\">54.0</text><text x=\"0\" y=\"71\" font-size=\"12\" fill=\"#12233d\">2024-04</text><rect x=\"200\" y=\"58\" width=\"192\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"398\" y=\"71\" font-size=\"11\" fill=\"#12233d\">26.0</text><text x=\"0\" y=\"99\" font-size=\"12\" fill=\"#12233d\">2026-03</text><rect x=\"200\" y=\"86\" width=\"103\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"309\" y=\"99\" font-size=\"11\" fill=\"#12233d\">14.0</text><text x=\"0\" y=\"127\" font-size=\"12\" fill=\"#12233d\">2026-08</text><rect x=\"200\" y=\"114\" width=\"81\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"287\" y=\"127\" font-size=\"11\" fill=\"#12233d\">11.0</text><text x=\"0\" y=\"155\" font-size=\"12\" fill=\"#12233d\">2024-05</text><rect x=\"200\" y=\"142\" width=\"66\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"272\" y=\"155\" font-size=\"11\" fill=\"#12233d\">9.0</text><text x=\"0\" y=\"183\" font-size=\"12\" fill=\"#12233d\">2026-07</text><rect x=\"200\" y=\"170\" width=\"44\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"250\" y=\"183\" font-size=\"11\" fill=\"#12233d\">6.0</text><text x=\"0\" y=\"211\" font-size=\"12\" fill=\"#12233d\">2025-02</text><rect x=\"200\" y=\"198\" width=\"44\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"250\" y=\"211\" font-size=\"11\" fill=\"#12233d\">6.0</text><text x=\"0\" y=\"239\" font-size=\"12\" fill=\"#12233d\">2024-12</text><rect x=\"200\" y=\"226\" width=\"44\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"250\" y=\"239\" font-size=\"11\" fill=\"#12233d\">6.0</text></svg>"
+   }
+  ],
+  "evidence_index": [
+   {
+    "claim_id": "26d4bbcf59603efdf805",
+    "url": "https://club.autohome.com.cn/bbs/thread/69e12b6cab1a4a26/107886054-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-27T22:30:27+08:00",
+    "title": "#新能源超测# 新能源车到底和油车区别在哪里？SU7行不行？",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "不适用"
+   },
+   {
+    "claim_id": "4feac092445b5c0d14d1",
+    "url": "https://club.autohome.com.cn/bbs/thread/51b77839eb4eca3d/107897034-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-29T10:12:11+08:00",
+    "title": "一个普通人怎么看小米SU7",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "6bb3f41663197b2e8432",
+    "url": "https://club.autohome.com.cn/bbs/thread/6c68d193c53a1c40/107925173-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-04-02T09:17:47+08:00",
+    "title": "去试驾了小米SU7两次，说说感受吧",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "74efffafa2b6544a3b46",
+    "url": "https://club.autohome.com.cn/bbs/thread/ca1ad5da0a8cb54e/107872792-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-26T15:13:54+08:00",
+    "title": "雷总我有话说，老司机对小米SU7的个人观点",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "7aa6940d9ca14515af5a",
+    "url": "https://club.autohome.com.cn/bbs/thread/7e0cd8a9007e3456/107910303-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-31T00:31:49+08:00",
+    "title": "不值，因为要买26000选装包。车服务与人，su7空间太小了",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "无法判断"
+   },
+   {
+    "claim_id": "7c4a68f32bd4a78a4284",
+    "url": "https://club.autohome.com.cn/bbs/thread/50fab8b0c357707a/107862749-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-25T11:57:29+08:00",
+    "title": "小米su7～进去店里-进不到车里。",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "91d7cadf7718102caa0a",
+    "url": "https://club.autohome.com.cn/bbs/thread/8f7d6324346b9a3b/107923580-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-04-01T21:57:39+08:00",
+    "title": "为什么不推荐购买小米汽车？小米su7的这些缺点你知道吗？",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "cade3a7904c0176ed977",
+    "url": "https://club.autohome.com.cn/bbs/thread/626d519a69f4e675/107895865-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-29T06:45:20+08:00",
+    "title": "小米SU7讨论一下。 一，顶配确实不错，不考虑预算的前提下。",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "d87699fcd30541ddca9b",
+    "url": "https://club.autohome.com.cn/bbs/thread/b1fd2f8613337943/107910318-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-31T00:35:17+08:00",
+    "title": "雷总，为啥前排靠背后面没有储物袋？",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "ea614dcd423cba050c09",
+    "url": "https://club.autohome.com.cn/bbs/thread/13aceb731ee8b85d/107905524-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-30T11:49:17+08:00",
+    "title": "刚刚去杭州交付中心看了实车，整体感觉还不错，就是20多万车该",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   }
+  ],
+  "final_message": "报告已提交（report_id: 4fd619440d26，待复核发布）。核心发现：SU7 负面观点条数最集中在 2024 年 3—4 月（54 条 + 26 条，合计占全区间 193 条负面观点的 41.5%），后期次高峰为 2026-03（14 条）与 2026-08（11 条），而负面占比最高的是观点量很小的 2026-01（50.0%）与 2026-07（46.2%，置信度低）。全部分析基于精选观点样本的观点级口径（819 条观点、负面 193 条，占比 23.6%）；因全量声明级指标无时间维度，无法给出全量口径的月度走势，这一限制及 2024-02 空月、2025/2026 年缺少逐字证据等已写入报告的限制章节。",
+  "tool_log": [
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/deep-analysis/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-40 of 40 @@\n---\nname: deep-analysis\ndescription: 深度数据分析主工作流（入口）：任务需要产出基于数据的分析报告时从本技能开始。单点事实问答、闲聊、口径解释不要使用本技能。\n---\n\n# 深度数据分析工作流（主入口）\n\n## 角色与读者\n\n你是数据分析执行者，产出面向业务负责人与研究人员的中文报告。输出标准：每个数字可核验、口径清楚、限制如实、失败不伪装。\n\n## 核心流程（四阶段，完成一步再进入下一步）\n\n开场消息的任务简报已附数据目录（列、枚举、口径分区）与预置基准——**先读简报，不重新探索**；仅当简报缺失或需复核时调用一次 `semantic_overview`。\n\n**阶段 0 分析计划**\n- 提交分析草案（字段契约见 `submit_analysis_plan` 工具说明）；拆解、映射与自查读 `plan-drafting`。\n- 一个工作项 = 计划可选的一个方法 + 可选议题；仅当计划内方法确实无法完成必要分析时才设 `use_python=true`。\n\n**阶段 1-2 执行**\n- 执行循环、解读三关、失败与空结果处置、图表同源：读 `execute-plan`。\n- 每个获批 workstream 至少执行一次；计划标注了证据需求的工作项必须取得带 `claim_id` 的证据。\n\n**"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-38 of 38 @@\n---\nname: plan-drafting\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——方法语义与字段契约在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\n---\n\n# 起草分析计划\n\n## 角色与读者\n\n服务对象：处于计划阶段的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过确定性校验的完整草案——覆盖用户问题的全部子问题与比较意图。\n\n## 起草流程（按序执行，完成一步再进入下一步）\n\n1. **读任务简报**：研究请求、覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，不凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`；代码分析只属于执行阶段。\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `semantic_overview(aspects=[...])` 预览数据支撑——样本量 <5 条的议题须在大纲/报告标注\"支撑不足\"或直接剔除；预览不产生可引"
+   },
+   {
+    "tool": "semantic_overview",
+    "args": "{'aspects': '[\"外观与内饰\",\"价格与成本\",\"空间与舒适性\",\"可靠性与故障\",\"智能座舱与车机\"]'}"
+   },
+   {
+    "tool": "semantic_overview",
+    "output": "{\"aspects\": [{\"aspect\": \"外观与内饰\", \"sample_size\": 185, \"support_insufficient\": false, \"monthly_counts\": [{\"month\": \"2023-12\", \"n\": 1}, {\"month\": \"2024-01\", \"n\": 1}, {\"month\": \"2024-03\", \"n\": 40}, {\"month\": \"2024-04\", \"n\": 27}, {\"month\": \"2024-05\", \"n\": 5}, {\"month\": \"2024-06\", \"n\": 4}, {\"month\": \"2024-07\", \"n\": 5}, {\"month\": \"2024-08\", \"n\": 6}, {\"month\": \"2024-09\", \"n\": 1}, {\"month\": \"2024-10\", \"n\": 4}, {\"month\": \"2024-11\", \"n\": 6}, {\"month\": \"2024-12\", \"n\": 4}, {\"month\": \"2025-01\", \"n\": 12}, {\"month\": \"2025-02\", \"n\": 6}, {\"month\": \"2025-03\", \"n\": 4}, {\"month\": \"2025-04\", \"n\": 5}, {\"month\": \"202"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"以精选观点口径（core/potential 子集）按月统计负面观点条数与负面占比，先取全区间月度走势，再按月排序找出负面最集中的月份，并交叉议题定位峰值月份由哪些议题构成，最后对样本充足的代表议题（空间与舒适性）取带 claim_id 的负面原文佐证。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"SU7 负面观点条数与负面占比的月度走势（全区间 2023-12 ~ 2026-09）\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"curatedClaims\",\"curatedNegative\",\"curatedNegativeShare\"],\"dimensions\":[\"time_month\"],\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60,\"population\":\"curated\"},\"visualization\":{\"type\":\"line\",\"x\":\"time_month\",\"y\":\"curatedNegativeShare\",\"title\":\"SU7 负面观点占比月度走势（精选口径）\"}},{\""
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "{\"accepted\": true, \"plan\": {\"coverage\": \"以精选观点口径（core/potential 子集）按月统计负面观点条数与负面占比，先取全区间月度走势，再按月排序找出负面最集中的月份，并交叉议题定位峰值月份由哪些议题构成，最后对样本充足的代表议题（空间与舒适性）取带 claim_id 的负面原文佐证。\", \"workstreams\": [{\"id\": \"w1\", \"question\": \"SU7 负面观点条数与负面占比的月度走势（全区间 2023-12 ~ 2026-09）\", \"dimension\": \"time\", \"aspect\": null, \"method\": \"semantic_aggregate\", \"requires_evidence\": false, \"params\": {\"metrics\": [\"curatedClaims\", \"curatedNegative\", \"curatedNegativeShare\"], \"dimensions\": [\"time_month\"], \"order\": [{\"field\": \"time_month\", \"dir\": \"asc\"}], \"limit\": 60, \"population\": \"curated\"}, \"visualization\": {\"type\": \"line\", \"x\": \"t"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/execute-plan/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"curatedClaims\",\"curatedNegative\",\"curatedNegativeShare\"],\"dimensions\":[\"time_month\"],\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60,\"population\":\"curated\"}'}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-42 of 42 @@\n---\nname: execute-plan\ndescription: 执行已获批的分析计划（执行阶段必读）。何时读：拿到获批计划、开始逐项执行时——执行循环、失败与空结果处置、解读三关（事实/集合/分母）、图表同源都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——方法契约在工具说明，具体方法在计划里已经选定。\n---\n\n# 执行分析计划\n\n## 角色与读者\n\n服务对象：处于执行阶段的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\n\n## 执行循环（逐项执行，完成一项再取下一项）\n\n1. **取项执行**：按该项在计划里声明的 method 调用对应工具，参数从计划原样抄写。计划边界与工具边界由工具强制；此处只提醒一条判断：`python_analyze` 是白名单之外的交叉与补充，不替代计划声明的方法。\n2. **取证**（计划标注了证据需求的工作项，或任何需要引文佐证结论的时刻）：走哪个工具、怎么去重、引文怎么挑，读 `reference/collect-evidence.md`。\n3. **解读三关**"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"curatedClaims\", \"curatedNegative\", \"curatedNegativeShare\"], \"dimensions\": [\"time_month\"], \"order\": [{\"field\": \"time_month\", \"dir\": \"asc\"}], \"limit\": 60, \"population\": \"curated\"}, \"sql\": \"SELECT t0.\\\"month\\\" AS \\\"time_month\\\", COUNT(*) AS \\\"curatedClaims\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"curatedNegative\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"curatedNegativeShare\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population W"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"curatedNegative\",\"curatedNegativeShare\",\"curatedClaims\"],\"dimensions\":[\"time_month\"],\"order\":[{\"field\":\"curatedNegative\",\"dir\":\"desc\"}],\"limit\":8,\"population\":\"curated\"}'}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"curatedNegative\"],\"dimensions\":[\"time_month\",\"aspect\"],\"order\":[{\"field\":\"curatedNegative\",\"dir\":\"desc\"}],\"limit\":30,\"population\":\"curated\"}'}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"curatedNegative\", \"curatedNegativeShare\", \"curatedClaims\"], \"dimensions\": [\"time_month\"], \"order\": [{\"field\": \"curatedNegative\", \"dir\": \"desc\"}], \"limit\": 8, \"population\": \"curated\"}, \"sql\": \"SELECT t0.\\\"month\\\" AS \\\"time_month\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"curatedNegative\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"curatedNegativeShare\\\", COUNT(*) AS \\\"curatedClaims\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_populat"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"curatedNegative\"], \"dimensions\": [\"time_month\", \"aspect\"], \"order\": [{\"field\": \"curatedNegative\", \"dir\": \"desc\"}], \"limit\": 30, \"population\": \"curated\"}, \"sql\": \"SELECT t0.\\\"month\\\" AS \\\"time_month\\\", t0.\\\"aspect\\\" AS \\\"aspect\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"curatedNegative\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population WHERE population = ?) AND (t0.\\\"aspect\\\" IS NULL OR t0.\\\"aspect\\\" NOT IN (?, ?))\\nGROUP BY t0.\\\"month\\\", t0.\\\"aspect\\\"\\nORDER BY \\\"curatedN"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"curatedClaims\",\"curatedNegative\",\"curatedNegativeShare\"],\"dimensions\":[\"time_month\"],\"filters\":{\"aspect\":\"空间与舒适性\"},\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60,\"population\":\"curated\"}'}"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "args": "{'aspect': '空间与舒适性', 'limit': 10}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"curatedClaims\", \"curatedNegative\", \"curatedNegativeShare\"], \"dimensions\": [\"time_month\"], \"filters\": {\"aspect\": \"空间与舒适性\"}, \"order\": [{\"field\": \"time_month\", \"dir\": \"asc\"}], \"limit\": 60, \"population\": \"curated\"}, \"sql\": \"SELECT t0.\\\"month\\\" AS \\\"time_month\\\", COUNT(*) AS \\\"curatedClaims\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"curatedNegative\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"curatedNegativeShare\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT cl"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "output": "{\"data\": [{\"claim_id\": \"7c4a68f32bd4a78a4284\", \"aspect\": \"空间与舒适性\", \"sentiment\": \"负面\", \"content\": \"作者表示在小米门店内无法进入小米SU7车内。\", \"quote\": \"进去店里-进不到车里\", \"url\": \"https://club.autohome.com.cn/bbs/thread/50fab8b0c357707a/107862749-1.html?bbsid=6962#pvareaid=6830286\", \"title\": \"小米su7～进去店里-进不到车里。\", \"date\": \"2024-03-25T11:57:29+08:00\", \"journey\": \"购车前\", \"ownership\": \"明确未拥有\", \"experience\": \"明确亲历\", \"statement\": \"经历陈述\", \"comparison\": null, \"usage_context\": null, \"source_type\": \"精选观点证据\", \"source_set\": \"curated\"}, {\"claim_id\": \"74efffafa2b6544a3b46\", \"aspect\": \"空间与舒适性\", \"sentiment\": \"负面\", \"content\": \"作者提到据传小米SU"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-87 of 87 @@\n---\nname: report-authoring\ndescription: 报告撰写与提交（报告阶段必读）。何时读：调用 submit_report 之前——五段结构、数字口径与引文规则、提交前的完成标准。何时不读：选择与执行分析方法（用 execute-plan）；起草计划（用 plan-drafting）。误用反例：把本文件当证据获取说明——怎么取证见 `execute-plan` 技能的取证参考。\n---\n\n# 报告撰写与提交\n\n## 角色与读者\n\n服务对象：准备提交报告的 Agent。输出标准：通过 report_gate 的五段结构中文报告——每个数字可核验、每条引用可回溯、面向业务负责人说业务语言。先结论后依据，长度上限以服务端门禁为准（超限时返回具体修订要求）。\n\n## 撰写流程\n\n1. **搭五段骨架**（顺序固定）：\n   1. **结论摘要**：先回答用户问题，3–5 条，每条一句结论 + 带口径的核心数字；只写有证据支撑的。小样本（n < 30）句尾标「（置信度：低，n=12）」。\n   2. **分项事实**：每个 workstream 一小节，数字必须来自工具或代码结果并带口径。\n   3. **证据与归组**：观点归组与代表引文，遵守下文「证据与引文」。\n   4. **限制与不确定性**：数据集合边界、"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/reference/build-argument.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-23 of 23 @@\n# 归因：为什么这么说\n\n## 何时用\n\n报告里出现因果或驱动解释时（\"因为产能爬坡\"\"由购前预期驱动\"）。纯描述型报告不用读。\n\n## 四要素（缺一不可）\n\n1. **机制**：一句话说明解释逻辑（为什么）\n2. **支持证据**：绑定已验证数字（带口径）与代表引文（带 claim_id）\n3. **替代解释检查**：至少列 1 个竞争性解释并说明为何弱（如话题结构自选择、收录偏差）\n4. **置信度**：高/中/低——依据样本规模与证据类型（亲历 > 后验担忧；全量计数 > 小组抽样）\n\n## 常见错误\n\n- ✅ \"交付等待抱怨由产能爬坡与竞品促销叠加驱动（近期 8 条中 5 条来自未拥有者，精选子集，n=8）——替代解释：该议题天然吸引购前人群（无法排除）；置信度：低\"\n- ❌ \"服务负面部分由购前预期驱动\"（无样本量、无替代解释、无置信度）\n- ❌ 把相关当因果：两个议题同期上升，不等于前者导致后者\n- ❌ 每条结论都配归因：没有机制证据的，就只写事实\n\n## 自查一句\n\n每条归因都能被反问：\"你怎么排除另一种解释？\"——答不上来就降置信度或改写为事实描述。"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'title': '小米 SU7 负面反馈的时间演变：月度走势与负面最集中的月份（精选观点口径）', 'markdown': '## 一、结论摘要\\n\\n1. **负面观点条数最集中在 2024 年 3—4 月**：2024-03 有 54 条负面观点（该月观点 166 条，负面观点占比 32.5%），2024-04 有 26 条（97 条观点，26.8%）；两月合计 80 条，占全区间负面观点 193 条的 41.5%（月度行相加，观点级口径，精选观点样本）。\\n2. **后期出现两个次级高峰**：2026-03 为 14 条（42 条观点，33.3%），2026-08 为 11 条（52 条观点，21.2%），是 2024 年年中以来单月负面条数最高的两个月（观点级，精选口径）。\\n3. **负面占比的“高低峰”与“条数峰”不是同一个位置**：占比最高的月份是 2026-01（50.0%，5/10）与 2026-07（46.2%，6/13），但这两个月观点量很小（置信度：低，n=10 / n=13）；2025-01 则相反，占比全年最低（5.8%，3/52 条观点）。\\n4. **2024 年 3—4 月的负面由静态体验短板构成**：该月负面条数最多的议题是价格与成本（11 条）、配置与功能（9 条）、空间与舒适性（8 条）；其中空间与舒适性是全区间最稳定的负面来源——全区间"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"正文必须明确写出当前数据版本（semantic-2026-11-03.4），如在页脚写「数据版本：semantic-2026-11-03.4」\"], \"warnings\": [\"建议补充章节：归因分析（按计划类型提示，不阻断提交）\"], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_provenance\"]}, \"attempt\": 1, \"attempts_left\": 3}"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"负面观点条数最集中在 2024-03（54 条负面，占该月 166 条观点的 32.5%）与 2024-04（26 条，26.8%），两月合计 80 条，占全区间 193 条负面观点的 41.5%（观点级，精选观点样本）\",\"后期次高峰为 2026-03（14 条负面，33.3%）与 2026-08（11 条，21.2%）；2026-01 与 2026-07 占比最高（50.0%、46.2%）但月观点量仅 10、13 条，置信度低\",\"2024-03 负面条数最多的议题为价格与成本 11 条、配置与功能 9 条、空间与舒适性 8 条；空间与舒适性是唯一延续到 2026 年反复出现负面的议题（全区间 40/82 条，48.8%）\",\"全区间 819 条精选观点中 193 条为负面，负面观点占比 23.6%（观点级）；2025 年全年负面 30 条明显回落，2026 年回升至 47 条（月度行相加）\"]', 'markdown': '## 一、结论摘要\\n\\n1. **负面观点条数最集中在 2024 年 3—4 月**：2024-03 有 54 条负面观点（该月观点 166 条，负面观点占比 32.5%），2024-04 有 26 条（97 条观点，26.8%）；两月合计 80 条，占全区间负面观点 193 条的 41.5%（观点级口径，精选观点"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"报告包含内部实现词（不得出现在用户可见文本）：语义层\"], \"warnings\": [], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_provenance\"]}, \"attempt\": 2, \"attempts_left\": 2}"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"负面观点条数最集中在 2024-03（54 条负面，占该月 166 条观点的 32.5%）与 2024-04（26 条，26.8%），两月合计 80 条，占全区间 193 条负面观点的 41.5%（观点级，精选观点样本）\",\"后期次高峰为 2026-03（14 条负面，33.3%）与 2026-08（11 条，21.2%）；2026-01 与 2026-07 占比最高（50.0%、46.2%）但月观点量仅 10、13 条，置信度低\",\"2024-03 负面条数最多的议题为价格与成本 11 条、配置与功能 9 条、空间与舒适性 8 条；空间与舒适性是唯一延续到 2026 年反复出现负面的议题（全区间 40/82 条，48.8%）\",\"全区间 819 条精选观点中 193 条为负面，负面观点占比 23.6%（观点级）；2025 年全年负面 30 条明显回落，2026 年回升至 47 条（月度行相加）\"]', 'markdown': '## 一、结论摘要\\n\\n1. **负面观点条数最集中在 2024 年 3—4 月**：2024-03 有 54 条负面观点（该月观点 166 条，负面观点占比 32.5%），2024-04 有 26 条（97 条观点，26.8%）；两月合计 80 条，占全区间负面观点 193 条的 41.5%（观点级口径，精选观点"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"report_id\": \"4fd619440d26\", \"status\": \"pending_review\", \"saved\": \"D:\\\\Desktop\\\\Competitions\\\\new_energy_data_analysis_agent\\\\offline_analysis_pipeline\\\\08_semantic_services\\\\reports\\\\agent\\\\4fd619440d26\", \"next_step\": \"由非作者队友复核并通过 report_publisher.py 发布。\"}"
+   }
+  ],
+  "tool_errors": 0,
+  "metrics": {
+   "successful_tool_calls": 10,
+   "tool_errors": 0,
+   "code_failures": 0,
+   "submit_attempts": 3,
+   "gate_rejections": 2
+  },
+  "elapsed_ms": 113151
+ },
+ "error": null,
+ "wall_s": 126.3
+}

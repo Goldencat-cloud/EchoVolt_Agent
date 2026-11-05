@@ -1,0 +1,172 @@
+{
+  "schema_version": "2.3",
+  "post_id": "b4ce17a956910c23",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "关于SU7的车漆请教"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "挺喜欢SU7的"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "野马",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "可惜目前是野马"
+        }
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者实地查看SU7实车后，观察到车漆在近看时并非纯镜面效果，反光中原本笔直的柱子显得凹凸不平（麻麻赖赖），因此询问这是普遍现象还是特定情况。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "就是这个车漆，近看不是纯镜面的（可以看车漆反光里应该笔直的柱子是麻麻赖赖的）。我上台车是16年产的，后面也没再这么近距离看过别的车的车漆，想请教下现在车漆是都这样吗？还是啥情况。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因当时（3月底）查看到的排期需要等待约20周，加上家庭因素，放弃了购买SU7的计划。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "以及当时3月底看排期就已经要20周左右，遂放弃。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者身高183cm，在前排按自己坐姿调整后，后排膝盖前约有1拳多空间，头顶有1拳空间，但大腿支撑基本消失；配偶认为该车“后排不正经”，这也是作者放弃购买的考量之一。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "太太不让再整个“后排不正经”的车（虽然说我183前排按我坐姿调，后排膝盖前有1拳多，头顶有1拳，不过确实大腿支撑可以算没有了对于我）"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者身高183cm，在前排按自身坐姿调整状态下测量后排空间。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "虽然我183前排按我坐姿调"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "可惜目前是野马"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "发布会后也去看了下实车"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视后排空间实用性（认为‘后排不正经’不可接受）"
+    ]
+  },
+  "post_summary": "作者作为SU7潜在买家，实地看车后因车漆质感不如预期、后排空间对高个子不够友好以及交付周期过长（约20周）等原因放弃了购买。帖子主要咨询SU7车漆近看非纯镜面是否正常，并附带了空间实拍图供参考。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

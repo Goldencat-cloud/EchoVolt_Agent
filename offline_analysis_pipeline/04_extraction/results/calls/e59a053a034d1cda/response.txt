@@ -1,0 +1,958 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e59a053a034d1cda",
+  "products": [
+    {
+      "id": "P1",
+      "name": "丰田RAV4",
+      "entity_level": "车系",
+      "brand": "丰田",
+      "series": "RAV4",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一辆RAV4的价格都得二十四五"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "奔驰GLC300L",
+      "entity_level": "具体配置",
+      "brand": "奔驰",
+      "series": "GLC",
+      "model_year": null,
+      "version": "300L",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾了奔驰GLC300L"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "宝马X3 30Xdrive",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "X3",
+      "model_year": null,
+      "version": "30Xdrive",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "宝马X3 30Xdrive"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "奥迪Q5L 40",
+      "entity_level": "具体配置",
+      "brand": "奥迪",
+      "series": "Q5L",
+      "model_year": null,
+      "version": "40",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "奥迪Q5L 40"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P5",
+      "name": "凯迪拉克XT5",
+      "entity_level": "车系",
+      "brand": "凯迪拉克",
+      "series": "XT5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "凯迪拉克XT5"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P6",
+      "name": "沃尔沃XC60",
+      "entity_level": "车系",
+      "brand": "沃尔沃",
+      "series": "XC60",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "沃尔沃XC60"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P7",
+      "name": "雷克萨斯RX",
+      "entity_level": "车系",
+      "brand": "雷克萨斯",
+      "series": "RX",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷克萨斯RX"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P8",
+      "name": "长城蓝山",
+      "entity_level": "车系",
+      "brand": "长城",
+      "series": "蓝山",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "长城蓝山"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P9",
+      "name": "林肯航海家",
+      "entity_level": "车系",
+      "brand": "林肯",
+      "series": "航海家",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "林肯航海家"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为奔驰GLC是同级别标杆，无明显短板，但价格偏高，GLC300落地接近40万，且不喜欢260的动力表现。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同级别标杆，无明显短板，唯一就是价格。GLC300落地冲40去了，260动力略差，不喜欢。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者强烈批评宝马X3的外观设计，认为其“由里而外”、“彻底”地丑，尽管承认审美有主观性，但仍表达了极度的负面看法。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "丑，不是一般的丑，由里而外的丑，丑得很彻底。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认可宝马X3的操控性能，认为其操控非常爽快。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "它的操控确实非常爽。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为宝马X3配备的哈曼卡顿音响效果不佳，是其放弃该车的主要原因之一。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "让我放弃它的主要原因是它的哈曼卡顿不太好听。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出宝马X3在车速超过90km/h时胎噪突然变大，且这种噪音增加是非渐进式的，影响了乘坐体验。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "而且速度一超过90，胎噪就特别大，这噪音还不是渐进的，而是一到90左右一下就变得很大。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "试驾过程中车速超过90km/h。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "速度一超过90"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为宝马X3进行加长处理后，可能影响了其原本的操控特性，使其失去了“原汁原味”的宝马操控感，视加长为减分项。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一个以操控为命根子的车进行了加长，操控可能会收到影响，失去了原汁原味的宝马操控。加长就是自费功力。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为奥迪Q5L缺乏ACC自适应巡航功能是其硬伤，鉴于作者常跑高速，该功能的缺失使得基础定速巡航显得无用。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "没有Acc自适应巡航，这是硬伤。因为我经常跑高速出去玩，所以这个功能是必须的，不带Acc的定速巡航还不如没有。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者经常跑高速出行。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我经常跑高速出去玩"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出奥迪Q5L后排中间地板凸起过高，导致无法乘坐人员，实际上变成了四座车；同时认为头部空间因设计向内收缩而感到压抑，虽承认这可能是主观感受或与天气有关。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后排中间太高没法坐人，这车直接成4座车了。 头部空间压抑，并不是不够高而是感觉头部空间往里收的太厉害。这个是个人主观感觉，也可能与试驾那天是阴天有关。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "试驾当天为阴天。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "试驾那天是阴天"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者因担心凯迪拉克XT5的车主群体形象（被调侃为“浴皇大帝”）而不愿购买，认为这与自己的形象不符。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最主要原因还是车主画像。上午去看车下午就收到微信发来的凯迪拉克车主聚会自带洗脚木桶还有技师…不想买个车被人调侃成浴皇大帝。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为凯迪拉克XT5的动力表现是其试驾过的同级SUV中最差的，零百加速在8秒多，且油耗较高。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "动力是我看过最差的，8秒多的零百加速。油耗高。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为凯迪拉克XT5配备的AKG音响是其试驾的同级别SUV中音质最差的。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "AKG音响是我试驾这个级别SUV里面我感觉最差的。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为凯迪拉克XT5的隔音效果略差。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "隔音略差。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C13",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为沃尔沃XC60的车主画像（医生、教师等职业）符合自己及配偶的身份，因此对该车有好感。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车主画像，我是医生，老婆是老师，正好符合。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C14",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为沃尔沃XC60价格便宜，且在WLTC综合油耗方面是试驾车辆中最低的。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "价格便宜。...但油耗是最低的，这里说的数据是WLTC综合油耗。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C15",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者高度认可沃尔沃XC60的安全性，将其列为重要考量因素。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "安全。还是安全。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C16",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者对比了沃尔沃XC60和宝马X3的隔音表现：60km/h以下XC60不如X3，但90km/h以上XC60远优于X3，总体评价为中上水平。作者还提到26款XC60相比25款隔音有明显改善。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "隔音。60以下不如X3，90以上把X3秒成渣，总体中上水平。可能会有人会不服，尤其是老车主。但26款隔音真的改善了很多。年初试驾25款XC60的时候，差点放弃了这车。现在好多了。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P6",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P6",
+            "object_product_id": "P3",
+            "aspect": "空间与舒适性",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "60以下不如X3"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P6",
+            "object_product_id": "P3",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "90以上把X3秒成渣"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "对比不同车速区间（60km/h以下和90km/h以上）的隔音表现。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "60以下...90以上"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C17",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者高度评价沃尔沃XC60配备的宝华韦健音响，称其音质无敌。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "宝华韦健，不说了，音质无敌。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C18",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者对比了XC60、X3和GLC的动力参数与实际感受：XC60为250马力，X3和GLC约为260马力。虽然参数相差不大，但作者认为奔驰发动机的高功率平台期不如宝马宽泛，实际驾驶感觉宝马动力更好。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "关于动力：XC60 250马力，X3和GLC一样好像是260匹马力，差不多少。但是奔驰发动机的高功率平台期不如宝马宽泛，实际感觉也是宝马动力好。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P6",
+          "P3",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P3",
+            "aspect": "动力与性能",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "奔驰发动机的高功率平台期不如宝马宽泛，实际感觉也是宝马动力好。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C19",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P7",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者强烈批评雷克萨斯RX，认为其售价高于奔驰但动力仅略好于XT5，且油耗最高（甚至高于美系车），性价比极低，并称其为“大怨种”之选。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷克萨斯RX，赶紧倒闭。卖的比奔驰贵，动力仅仅比XT5好，油耗最高。对，日系车油耗比美系车还高。买这车纯纯大怨种。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C20",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P7",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者认为雷克萨斯RX的安全性最差，并指出其虽然是进口车但存在国内特供情况。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "哦，对了，还有安全性最差。虽然进口但国内特供。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C21",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P8",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者形容长城蓝山具有“大平层”的空间感，配置丰富（配置表上点满），但因不喜欢新能源车而未选择。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "长城蓝山：大平层的感觉，配置表上点满，全是点。但是不喜欢新能源。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C22",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P9",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者抱怨林肯航海家的销售人员态度恶劣，喜欢抬杠，甚至在作者提出空调出风口调节不便时嘲笑作者落后。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "林肯航海家：销售特别能抬杠。我说1他非说2。没有一句话是不杠的。空调出风口都得在屏幕调，我说不直观不方便，销售笑我太落后。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C23",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P9",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为林肯航海家的内饰过于粗犷，难以接受，但认可其二层大屏幕的设计具有“航海家”的感觉。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "内饰太粗犷，受不了。二层大屏幕确实有航海家的感觉。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {

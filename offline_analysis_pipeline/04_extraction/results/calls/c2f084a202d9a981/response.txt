@@ -1,0 +1,230 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c2f084a202d9a981",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7起售价21.59万"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "SU7 Ultra定价直接上到50万以上"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "配置与功能",
+      "content": "作者转述NGA帖子观点，指出小米SU7前机盖挖孔被质疑仅为装饰性设计而无实际通风功能，且官方提供的2000元补偿方案被认为金额过低，未能满足车主对解决该设计争议的期望。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "前机盖上的挖孔被车主质疑是装饰性设计，实际没有通风功能。小米给出的解决方案是补偿2000元...帖子的观点是这点补偿金额对于四五十万的车来说太少了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者转述部分准车主反馈，称在小米SU7交付流程中遭遇频繁催促支付尾款的情况，导致用户体验不佳。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "部分准车主反映在交付流程中被频繁催促支付尾款，体验不太好"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出小米SU7起售价为21.59万元，但SU7 Ultra定价超过50万元，引发外界关于其是否偏离小米传统“性价比”定位的讨论。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7起售价21.59万看起来还行，但SU7 Ultra定价直接上到50万以上，不少人在讨论这个价格是不是偏离了小米一贯的\"性价比\"路线"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米在手机领域建立的“感动人心、价格厚道”及低利润率形象，使得用户在汽车业务上对其持有更高期待，这种期待在出现问题时反而放大了用户的不满情绪。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米从手机时代就喊着\"感动人心、价格厚道\"的口号...这种期待像一把双刃剑，成就了小米SU7上市时的爆发式订单，也在出问题时放大了用户的不满情绪"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者分析认为，由于小米维持“用户型企业”的人设，车主将挖孔机盖补偿金额小、流程麻烦视为态度问题而非单纯产品问题，从而加剧了对品牌的负面情绪。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "因为它本质上是个很小的设计争议，但因为小米一贯的\"用户型企业\"人设...所以补偿金额小、流程麻烦，在用户眼里不只是产品问题，是态度问题"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7挖孔机盖争议及补偿方案",
+      "event_type": "质量与召回",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "前机盖上的挖孔被车主质疑是装饰性设计，实际没有通风功能。小米给出的解决方案是补偿2000元，改配的话还要重新排队"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "小米SU7前机盖挖孔设计被质疑无实际通风功能，官方提出补偿2000元或重新排队改配的解决方案，引发车主不满。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了小米汽车月销虽高但面临车主吐槽的原因，重点列举了挖孔机盖设计争议、交付催尾款体验差以及SU7 Ultra高价引发的性价比质疑。作者认为小米过往的低利润和高期待人设放大了当前的用户不满，关键在于能否在增长中消化这些矛盾。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

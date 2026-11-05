@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.3",
+  "post_id": "3cd33d4df720757f",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "车头中央可见“xiaomi”品牌标识"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为购车需要考虑预算、车辆稳定性、耐用性以及是否适合个人需求。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "大家在买车的时候呢，主要还是要看自己的预算和整体的这个车辆的稳定性，耐用性，适不适合这几个重要因素。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出选择新能源汽车的主要原因是省油、性价比高以及绿牌通行优势。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "主要还是第一点省油对吧？第二点就是性价比高，因为现在的纯电车型基本上上绿牌，很多城市现行的路段绿牌车都可以通过"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为如果年行驶里程不高，可以选择燃油车，因为其使用表现不亚于纯电车，只是性价比相对较低。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "第一点就是一年开下来的整体的公里数不高，那么就可以选择燃油车，正常燃油车使用下来，整体的表现其实并不亚于纯电车，无非就是使用性价比，并没有纯电车高"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "大家在买车的时候呢，主要还是要看自己的预算和整体的这个车辆的稳定性，耐用性，适不适合这几个重要因素。"
+      }
+    ],
+    "confidence": 0.8
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者讨论了购车的重要性及选车考量因素，对比了新能源汽车与燃油车在油耗、性价比及适用场景上的优缺点，建议根据个人需求和预算进行选择。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

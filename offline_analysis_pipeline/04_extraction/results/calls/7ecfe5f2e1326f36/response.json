@@ -1,0 +1,158 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7ecfe5f2e1326f36",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者认为小米SU7原装的米其林轮胎质地较软，容易受损。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7原装米其林轮胎太软"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7的米其林轮胎也太软了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者在驾驶小米SU7的一年半时间内，因轮胎刮蹭马路牙子更换了两只轮胎。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开车一年半轮胎因为刮到马路牙子已经换了两只了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者驾驶车辆一年半期间，发生刮蹭马路牙子的情况。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "开车一年半轮胎因为刮到马路牙子"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为原装轮胎价格过高，导致维护成本难以承受，因此寻求更耐刮的平替轮胎推荐。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "太软还贵，有没有更耐刮的平替推荐？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "原装胎太贵，这样下去实在吃不消换了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "本人开车有点粗糙，开车一年半轮胎因为刮到马路牙子已经换了两只了"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "寻找更耐刮的轮胎",
+      "关注轮胎性价比"
+    ]
+  },
+  "post_summary": "车主反馈小米SU7原装米其林轮胎偏软且昂贵，因驾驶习惯导致一年半内更换两只轮胎，目前寻求更耐刮且性价比高的平替轮胎推荐。",
+  "post_topic": "故障质量与售后",
+  "analysis_value": "中"
+}

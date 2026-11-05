@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PostIntegratedSummaryResult",
+  "description": "Schema for the per-post full-text summary produced by the fixed AUTO-008 summary prompt. post_id and source_url are attached by the program, not the model. Citations must reference only text_block_id or image_id values present in the actual input; image_id=null is never a valid reference.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["summary", "key_points", "uncertainties"],
+  "properties": {
+    "summary": {
+      "type": "string",
+      "description": "Coherent full-text summary of the post."
+    },
+    "key_points": {
+      "type": "array",
+      "description": "Primary points only; may be empty.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["point", "text_block_ids", "image_ids", "basis"],
+        "properties": {
+          "point": {
+            "type": "string",
+            "description": "One primary piece of information."
+          },
+          "text_block_ids": {
+            "type": "array",
+            "description": "References to actual input text_block_id values; empty if unused.",
+            "items": { "type": "string" }
+          },
+          "image_ids": {
+            "type": "array",
+            "description": "References to actual input image_id values; empty if unused. image_id=null is not a valid reference.",
+            "items": { "type": "string" }
+          },
+          "basis": {
+            "type": "string",
+            "enum": ["post_text", "image_summary", "both"],
+            "description": "Whether the point rests on post text, image summary, or both."
+          }
+        }
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "description": "Important conflicts or unverifiable claims; may be empty.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["issue", "text_block_ids", "image_ids"],
+        "properties": {
+          "issue": {
+            "type": "string",
+            "description": "An important conflict or piece of information that cannot be confirmed."
+          },
+          "text_block_ids": {
+            "type": "array",
+            "description": "References to actual input text_block_id values; empty if unused.",
+            "items": { "type": "string" }
+          },
+          "image_ids": {
+            "type": "array",
+            "description": "References to actual input image_id values; empty if unused.",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

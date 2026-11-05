@@ -1,0 +1,449 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0157ec6e52bc4edd",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "昊铂GT",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "昊铂GT",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最后就是担心的电车续航和充电问题，下定之前我租了一台昊铂GT"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者被小米SU7的外观宣传海报及实车行驶姿态吸引，认为其帅气且符合心意，将其视为梦想之车。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后面小米Su7出来了，直接被武大霞光紫的宣传海报吸引住了，再加上网上看见的实车视频，那个行驶姿态是真的很帅很合心意，感觉是我的Dream car"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者在试驾过程中对天幕的防晒效果、视野通透感以及自动泊车功能感到惊喜，认为试驾体验高于预期。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "另外比较惊喜的就是天幕和防晒，那个天幕明显看得出来是有做过处理的，进来的光线很柔和不觉得热而且视野很通透...自动泊车当时对我们来说也很新奇很方便，总体下来试驾是高于预期的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者前往门店进行短距离试驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "后面是在24年的8月份才去的门店试驾"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者通过观看测评、车主分享及事故资讯，认为小米SU7的安全性能和车身刚度不错，并通过赛事成绩认可其底盘技术。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "让我觉得这车子安全性能和车身刚度是不错的；另外还有很多官方赛事的成绩，还有很多自媒体跑赛道和漂移的讲解，那我认为小米的底盘是有技术做好的"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者租用昊铂GT进行长途测试，发现其续航和充电便利性满足需求，从而消除了对电动车续航和充电的顾虑，最终决定购买小米SU7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最后就是担心的电车续航和充电问题，下定之前我租了一台昊铂GT，标续710公里和Su7标准版续航参数差不多，跑回家200公里的单程来回绰绰有余，充电也很方便，就觉得电车也OK"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "续航与能耗",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "标续710公里和Su7标准版续航参数差不多"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者驾驶租赁车辆往返200公里路程进行测试。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "跑回家200公里的单程来回绰绰有余"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者选择了标准版车型，因预算有限未选装冰箱和特定轮毂，最终落地价为236,899元，认为价格透明但稍显昂贵，但因喜爱而接受。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "因为预算不高选的是标准版是215900...合计发票价是228900 另外保险是6700，还加购了无忧包1299，总共落地是236899，这个价格很透明但感觉也不算便宜，不过吧千金难买自己喜欢"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者描述了提车过程顺畅，交付人员耐心细致，现场办理手续方便，整体交付体验良好。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车过程也挺顺畅...交付小姐姐挺耐心的，会询问你的驾驶习惯帮忙设置...挺方便不是很久"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在使用8个月后，认为车辆续航和电耗表现优于预期，在广东高速占比高的路况下综合电耗为13.4kWh/100km，实际续航可达400-600公里。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其中续航和电耗是比预期要好的，在广东的路况高速占比一半以上的情况下，综合电耗是13.4...实际的话按照路况不同跑400（纯高速）-600（纯市区）公里这个区间是没问题的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在广东地区驾驶，路况中高速公路占比超过一半。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在广东的路况高速占比一半以上的情况下"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为车辆底盘稳固，超车和转向舒适，高速行驶时有信心且易于驾驶。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "另外底盘也很稳，超车转向很舒服，高速上面很有信心很好开"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者主要在高速公路和城市道路上驾驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "高速上面很有信心很好开"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为车内空间充足，并未像网络传言那样拥挤，符合C级车尺寸应有的水平。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车内空间也很够用，毕竟C级车的尺寸摆在这里，并不会像网上那样说的很拥挤"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者抱怨哨兵模式每天消耗约20公里续航，造成困扰，但出于安全考虑不敢关闭。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "槽点的话是哨兵模式，每天掉20公里的续航很烦，但是不开又不放心"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结车辆好开、好看、续航扎实且质感不错，是一款有特点的水桶车型。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "总结一下，就是好开好看续航扎实，质感也不错，是个有特点的水桶车型"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "目前八个月开了1.8万公里"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "最后在12月份锁单了标准版"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "236899元落地",
+    "preferences": [
+      "注重外观设计",
+      "注重安全性",
+      "注重实用性"
+    ]
+  },
+  "post_summary": "作者分享了购买并使用小米SU7标准版8个月的体验。文章详细记录了从被外观吸引、试驾体验、消除续航顾虑到最终下单的全过程，并提供了详细的费用清单。使用后，作者对车辆的续航、操控、空间和交付服务给予高度评价，但也指出了哨兵模式耗电较多的缺点。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

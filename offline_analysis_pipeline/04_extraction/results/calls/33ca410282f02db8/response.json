@@ -1,0 +1,155 @@
+{
+  "schema_version": "2.3",
+  "post_id": "33ca410282f02db8",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "就SU7这颜值质感，21W是超值了！"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这两天SU7热度稍微有点降了吧？"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这漆面质感不比百万保时捷差"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为SU7实车比网图好看，水滴大灯辨识度高，漆面质感不输百万保时捷，且看过实车的人都认为其不丑。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "实车可比网图好看多了，水滴大灯辨识度拉满了，这漆面质感不比百万保时捷差。看过实车的，就没一个说它丑。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为SU7在21万价位上，凭借颜值和质感是非常超值的。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我还是觉得SU7这颜值质感，21W是超值了！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者转述称SU7续航700公里起步，且听说试驾操控也不错。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "续航700公里起步的，据说试驾操控也不错。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我虽然就摸了一把车子没试驾"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车辆颜值与质感"
+    ]
+  },
+  "post_summary": "作者分享了近期到店看SU7的经历，称赞其实车颜值、大灯设计及漆面质感远超网图甚至媲美豪车，认为21万的价格极具性价比。文中还转述了关于该车续航和操控的正面评价。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

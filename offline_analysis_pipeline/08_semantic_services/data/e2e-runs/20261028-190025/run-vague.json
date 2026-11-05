@@ -1,0 +1,218 @@
+{
+ "scenario": "vague",
+ "question": "分析一下 SU7 怎么样",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "2aab456c77924b8cb07f5c70ff923b3a",
+  "status": "running",
+  "status_url": "/api/agent/report/2aab456c77924b8cb07f5c70ff923b3a",
+  "request_id": "b048cd6632a5"
+ },
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 6.0,
+   "status": "clarifying",
+   "phase": "澄清中"
+  },
+  {
+   "t": 12.0,
+   "status": "running",
+   "phase": "数据探索中"
+  },
+  {
+   "t": 30.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 33.1,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 75.3,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 141.5,
+   "status": "failed",
+   "phase": "失败"
+  }
+ ],
+ "clarify_count": 2,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"先按全量声明级口径排出各议题负面观点占比并锁定负向最集中的议题，再对最集中的两个议题取负向说法与原文证据（带 claim_id），随后补三项结构性与时间性补充：高争议议题的车主/观望者声音来源结构、负向说法的月度走势、以及品牌与口碑议题下的产品共现（仅作同帖共现对比信息）。\", \"use_python\": false, \"workstreams\": [{\"id\": \"w1\", \"question\": \"小米SU7相关各议题的负面观点占比如何排序，负向最集中在哪些议题\", \"dimension\": \"aspect\", \"aspect\": null, \"method\": \"negative_share_by_aspect\", \"requires_evidence\": false}, {\"id\": \"w2\", \"question\": \"负面占比最高的可靠性与故障议题，用户具体在抱怨什么\", \"dimension\": \"aspect\", \"aspect\": \"可靠性与故障\", \"method\": \"top_negative_claims\", \"requires_evidence\": true}, {\"id\": \"w3\", \"question\": \"负面占比第二的服务与交付议题，用户具体在抱怨什么\", \"dimension\": \"aspect\", \"aspect\": \"服务与交付\", \"method\": \"top_negative_claims\", \"requires_evidence\": true}, {\"id\": \"w4\", \"question\": \"高争议的空间与舒适性议题中，负面声音主要来自车主还是观望者\", \"dimension\": \"ownership\", \"aspect\": \"空间与舒适性\", \"method\": \"ownership_experience_mix\", \"requires_evidence\": false}, {\"id\": \"w5\", \"question\": \"可靠性与故障的负向说法在各月如何变化\", \"dimension\": \"time\", \"aspect\": \"可靠性与故障\", \"method\": \"negative_claims_by_month\", \"requires_evidence\": false}, {\"id\": \"w6\", \"question\": \"品牌与口碑议题下，SU7帖子中最常同帖出现的产品有哪些（仅作共现对比信息）\", \"dimension\": \"product\", \"aspect\": \"品牌与口碑\", \"method\": \"co_mention_products\", \"requires_evidence\": false, \"limit\": 10}]}",
+    "plan": {
+     "coverage": "先按全量声明级口径排出各议题负面观点占比并锁定负向最集中的议题，再对最集中的两个议题取负向说法与原文证据（带 claim_id），随后补三项结构性与时间性补充：高争议议题的车主/观望者声音来源结构、负向说法的月度走势、以及品牌与口碑议题下的产品共现（仅作同帖共现对比信息）。",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "小米SU7相关各议题的负面观点占比如何排序，负向最集中在哪些议题",
+       "dimension": "aspect",
+       "aspect": null,
+       "method": "negative_share_by_aspect",
+       "requires_evidence": false
+      },
+      {
+       "id": "w2",
+       "question": "负面占比最高的可靠性与故障议题，用户具体在抱怨什么",
+       "dimension": "aspect",
+       "aspect": "可靠性与故障",
+       "method": "top_negative_claims",
+       "requires_evidence": true
+      },
+      {
+       "id": "w3",
+       "question": "负面占比第二的服务与交付议题，用户具体在抱怨什么",
+       "dimension": "aspect",
+       "aspect": "服务与交付",
+       "method": "top_negative_claims",
+       "requires_evidence": true
+      },
+      {
+       "id": "w4",
+       "question": "高争议的空间与舒适性议题中，负面声音主要来自车主还是观望者",
+       "dimension": "ownership",
+       "aspect": "空间与舒适性",
+       "method": "ownership_experience_mix",
+       "requires_evidence": false
+      },
+      {
+       "id": "w5",
+       "question": "可靠性与故障的负向说法在各月如何变化",
+       "dimension": "time",
+       "aspect": "可靠性与故障",
+       "method": "negative_claims_by_month",
+       "requires_evidence": false
+      },
+      {
+       "id": "w6",
+       "question": "品牌与口碑议题下，SU7帖子中最常同帖出现的产品有哪些（仅作共现对比信息）",
+       "dimension": "product",
+       "aspect": "品牌与口碑",
+       "method": "co_mention_products",
+       "requires_evidence": false,
+       "limit": 10
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"先按全量声明级口径排出各议题负面观点占比并锁定负向最集中的议题，再对最集中的两个议题取负向说法与原文证据（带 claim_id），随后补三项结构性与时间性补充：高争议议题的车主/观望者声音来源结构、负向说法的月度走势、以及品牌与口碑议题下的产品共现（仅作同帖共现对比信息）。\", \"use_python\": false, \"workstreams\": [{\"id\": \"w1\", \"question\": \"小米SU7相关各议题的负面观点占比如何排序，负向最集中在哪些议题\", \"dimension\": \"aspect\", \"aspect\": null, \"method\": \"negative_share_by_aspect\", \"requires_evidence\": false}, {\"id\": \"w2\", \"question\": \"负面占比最高的可靠性与故障议题，用户具体在抱怨什么\", \"dimension\": \"aspect\", \"aspect\": \"可靠性与故障\", \"method\": \"top_negative_claims\", \"requires_evidence\": true}, {\"id\": \"w3\", \"question\": \"负面占比第二的服务与交付议题，用户具体在抱怨什么\", \"dimension\": \"aspect\", \"aspect\": \"服务与交付\", \"method\": \"top_negative_claims\", \"requires_evidence\": true}, {\"id\": \"w4\", \"question\": \"高争议的空间与舒适性议题中，负面声音主要来自车主还是观望者\", \"dimension\": \"ownership\", \"aspect\": \"空间与舒适性\", \"method\": \"ownership_experience_mix\", \"requires_evidence\": false}, {\"id\": \"w5\", \"question\": \"可靠性与故障的负向说法在各月如何变化\", \"dimension\": \"time\", \"aspect\": \"可靠性与故障\", \"method\": \"negative_claims_by_month\", \"requires_evidence\": false}, {\"id\": \"w6\", \"question\": \"品牌与口碑议题下，SU7帖子中最常同帖出现的产品有哪些（仅作共现对比信息）\", \"dimension\": \"product\", \"aspect\": \"品牌与口碑\", \"method\": \"co_mention_products\", \"requires_evidence\": false, \"limit\": 10}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "小米SU7相关各议题的负面观点占比如何排序，负向最集中在哪些议题",
+     "aspect": null,
+     "method": "negative_share_by_aspect",
+     "requires_evidence": false,
+     "visualization": null
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "负面占比最高的可靠性与故障议题，用户具体在抱怨什么",
+     "aspect": "可靠性与故障",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": null
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "负面占比第二的服务与交付议题，用户具体在抱怨什么",
+     "aspect": "服务与交付",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": null
+    },
+    {
+     "order": 4,
+     "id": "w4",
+     "question": "高争议的空间与舒适性议题中，负面声音主要来自车主还是观望者",
+     "aspect": "空间与舒适性",
+     "method": "ownership_experience_mix",
+     "requires_evidence": false,
+     "visualization": null
+    },
+    {
+     "order": 5,
+     "id": "w5",
+     "question": "可靠性与故障的负向说法在各月如何变化",
+     "aspect": "可靠性与故障",
+     "method": "negative_claims_by_month",
+     "requires_evidence": false,
+     "visualization": null
+    },
+    {
+     "order": 6,
+     "id": "w6",
+     "question": "品牌与口碑议题下，SU7帖子中最常同帖出现的产品有哪些（仅作共现对比信息）",
+     "aspect": "品牌与口碑",
+     "method": "co_mention_products",
+     "requires_evidence": false,
+     "visualization": null
+    }
+   ]
+  },
+  "plan": null,
+  "history_len": 1
+ },
+ "regenerate_used": 0,
+ "job_id": "2aab456c77924b8cb07f5c70ff923b3a",
+ "clarify_questions": [
+  {
+   "field": "topic",
+   "question": "希望重点分析 SU7 的哪些议题维度或使用场景？（如产品力与配置体验、真实用车口碑、质量可靠性、智能化与智驾、能耗续航、售后服务、购买决策等，可多选或补充）"
+  },
+  {
+   "field": "compare",
+   "question": "是否需要对比分析？若需要，倾向哪种对比意图（如单车型描述不对比、与同级整体水平横向对比、与用户预期对比、不同使用场景表现对比等）？"
+  }
+ ],
+ "clarify_responses": [
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "compare"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "compare"
+  }
+ ],
+ "outline_decisions": [
+  {
+   "http": 202,
+   "body": {
+    "action": "confirm"
+   },
+   "resp": {
+    "job_id": "2aab456c77924b8cb07f5c70ff923b3a",
+    "status": "running",
+    "status_url": "/api/agent/report/2aab456c77924b8cb07f5c70ff923b3a",
+    "request_id": "01b24da56bcc"
+   }
+  }
+ ],
+ "final_status": "failed",
+ "result": null,
+ "error": {
+  "error": "RuntimeError: 深度分析未完成：Agent 未提交通过门禁的报告。最终消息：分析已基本完成，但报告未能通过发布门禁：机会均等侧——原计划的“产品共现”子问题两次以上因服务端查询缺陷（引用的字段不存在）执行失败，重试预算用尽，该工作项始终处于未完成状态，因此提交被判定为分析未完成，未能返回报告编号。\n\n已取得并核验的核心结论：负面观点占比最高的是可靠性〔故障〕（55.1%，54/98 条观点）、服务与交付（47.0%，62/132）、空间与舒适性（43.4%，131/302），而外观与内饰仅 8.8%；精选观点原文显示前者为车主亲历的部件问题叠加未购车者的长尾顾虑，后者的抱怨集中在交付等待约三个月、售后网点稀缺、维修费用偏高与质保期短。\n\n建议动作：请数据侧修复“产品共现”查询所引用字段后重跑该子问题，或在下一轮研究中把该项从计划中移除，报告即可正常发布；本快照为临时样本，上述数字仅作方向性参考。；最近工具调用：[{\"tool\": \"read_file\", \"args\": \"{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}\"}, {\"tool\": \"read_file\", \"args\": \"{'file_path': '/analysis-methods/SKILL.md', 'limit': 1000}\"}, {\"tool\": \"read_file\", \"output\": \"@@ lines 1-37 of 37 @@\\n---\\nname: analysis-methods\\ndescription: 执行分析计划（执行阶段必读）。何时读：拿到已获批计划、开始逐项执行时——执行循环、取证规则、失败与空结果处置、结果解读检查都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——dimension×method 匹配表在 submit_analysis_plan 工具说明，且方法在计划里已经选定。\\n---\\n\\n# 执行分析计划\\n\\n## 角色与读者\\n\\n服务对象：处于阶段 1-2（执行）的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\\n\\n## 执行循环（对每项 workstream 依次执行，完成一项再取下一项）\\n\\n1. **取项执行**：调用 `run_analysis_method`，method/aspect 从计划原样抄写——NEVER 修改计划参数，NEVER 执行计划外的方法。use_python=true 的计划中，每项工作项声明的白名单方法仍是完成条件；python_analyze 只用于白名单之外的交叉分组与补充统计，不替代\"}, {\"tool\": \"read_file\", \"output\": \"@@ lines 1-34 of 34 @@\\n---\\nname: plan-drafting\\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——dimension×method 匹配表在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\\n---\\n\\n# 起草分析计划\\n\\n## 角色与读者\\n\\n服务对象：处于阶段 0（计划）的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过 `submit_analysis_plan` 确定性校验的完整草案——字段齐全、aspect 与简报枚举逐字一致、覆盖用户问题的全部子问题与比较维度。\\n\\n## 起草流程（按序执行，完成一步再进入下一步）\\n\\n1. **读任务简报**：研究请求、数据覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，NEVER 凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`，NEVER 用代码探索（代码分析只属于执行阶段）。\\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `\"}, {\"tool\": \"sub"
+ },
+ "job": {
+  "status": "failed",
+  "phase": "失败"
+ },
+ "wall_s": 141.5
+}

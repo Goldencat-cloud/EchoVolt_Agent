@@ -1,0 +1,371 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e025c3a4e459d18f",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "宁波小米SU7车友会"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小鹏P7",
+      "entity_level": "车系",
+      "brand": "小鹏",
+      "series": "P7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上一台是小鹏P7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "雪铁龙世嘉",
+      "entity_level": "车系",
+      "brand": "雪铁龙",
+      "series": "世嘉",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "还有以前一台雪铁龙世嘉的扣扣群"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "MINI",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "MINI",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T15",
+          "source_type": "text",
+          "quote": "以前听说MINI的女车友很多，MINI我是不会去买了"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者自述为老司机，小米SU7是其第二台电车，上一台是小鹏P7，此前还有油车，累计拥有4辆车。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为一名老司机，小米SU7是我第二台电车，上一台是小鹏P7，开了四年，再往前数就是油车了，前前后后加起来4辆。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7原厂颜色很漂亮，基本不需要改色，除非开了一年半载看腻了。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "基本上小米SU7是不需要改色的，除非开个一年半载看腻了颜色以后"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者建议在小米SU7新车到手后安装车衣，后期如需改色膜会更好。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "但是作为老司机我一般建议可以新车到手后装贴车衣，后期需要贴改色膜就更好了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者在杭州为小米SU7贴了福膜品牌的车衣，选择了4999元的7.5mil厚度款式，原因是该店贴小米车衣的多，师傅技术熟练，且能遇到更多小米车友。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "车衣我贴了，福膜的，在杭州贴的...我贴的是4999那款7.5mil厚度...一个是经常去他们店么可以碰到很多小米车友，另外一个师傅贴多了以后用一句老话来说：“无他，唯手熟尔”技术层面可能也会更好一些。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在杭州为车辆贴车衣。",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "车衣我贴了，福膜的，在杭州贴的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者继续使用3W品牌的注塑脚垫，因为其在小鹏P7上使用过，且认为注塑脚垫比吸塑脚垫好，无异味、易打理、服帖。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "之所以继续选择3W，主要还是因为脚垫一点味道都没有，很好打理，也非常服帖...注塑脚垫比起吸塑的来说不要好太多了。"
+        },
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "脚垫我继续选择的是3W，因为之前小鹏P7上用的就是"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者参加了宁波小米SU7车友会在慈溪举办的线下活动，认为活动有趣、组织给力，车友素质高，打破了以往对陌生人聚会的抗拒感。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "原本社恐的我对于这种小面积陌生人大型网友见面会我是比较抗拒的，没曾想，还挺好玩。"
+        },
+        {
+          "block_id": "T16",
+          "source_type": "text",
+          "quote": "但是小米车友会其实挺有趣的，感觉各个说话又好听，长得又好看，活动组织方也挺给力。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者参加了在慈溪上林湖青瓷文化传承园举办的小米车友会线下活动。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "这次的活动在慈溪上林湖青瓷文化传承园"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者表示虽然听说MINI女车友多，但自己不会去买MINI，而是选择了小米SU7并加入了其车友组织。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T15",
+          "source_type": "text",
+          "quote": "以前听说MINI的女车友很多，MINI我是不会去买了，但是小mi是有了，混入组织。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "宁波小米SU7车友会慈溪线下活动",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米车友会前不久在我们慈溪举办宁波车友会"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "这次的活动在慈溪上林湖青瓷文化传承园"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "宁波小米SU7车友会在慈溪上林湖青瓷文化传承园举办了一场线下聚会活动，主题为“天青色等烟雨，而我在等MI”。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "小米SU7是我第二台电车"
+      },
+      {
+        "block_id": "T9",
+        "source_type": "text",
+        "quote": "车衣我贴了，福膜的，在杭州贴的"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视脚垫材质（偏好注塑）",
+      "重视车衣防护"
+    ]
+  },
+  "post_summary": "作者分享了参加宁波小米SU7车友会在慈溪举办的线下活动的经历，表达了对活动组织和车友氛围的认可。文中还回顾了作者作为多车车主的背景，并详细推荐了其使用的福膜车衣和3W注塑脚垫，强调了原厂车色美观及配件的实用价值。",
+  "post_topic": "社群互动与生活分享",
+  "analysis_value": "中"
+}

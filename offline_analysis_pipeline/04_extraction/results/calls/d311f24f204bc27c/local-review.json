@@ -1,0 +1,555 @@
+{
+  "post_id": "d311f24f204bc27c",
+  "state": "FAILED",
+  "cache_key": "03d292056167d36e7483e4591ff5c02a59dd3d2c805e0353688eab75b35ce315",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "d311f24f204bc27c",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 2024款 700km 后驱长续航智驾版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "700km 后驱长续航智驾版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相关车型:小米SU7 2024款 700km 后驱长续航智驾版"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "特斯拉",
+        "entity_level": "品牌",
+        "brand": "特斯拉",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我旁边停了一辆特斯拉"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者因油车每月加油费用过高，考虑购买电车用于上下班通勤以节省油钱，最终选择小米SU7。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "觉得油车每月的加油费用太高了是不是可以搞个电车正常上下班通勤使用，还能省掉一部分油钱，结果当时小米su7一发布我就相中了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "作者在红绿灯起步时发现旁边的特斯拉起步速度远超自己驾驶的2.0T高功率油车，导致其产生强烈挫败感并促使下定购买决心。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我旁边停了一辆特斯拉我自认为我2.0T高工率并且刷过一阶的车可以跟他比一次，结果让我非常失望特斯拉直接拉我二三十米直接追不上，直接忍不了第二天就去小米体验店试驾并完成了锁单"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "动力与性能",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "特斯拉直接拉我二三十米直接追不上"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "在城市道路红绿灯路口起步。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "有一次在红绿灯起步时"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为相较于小米SU7，特斯拉的价格不够经济划算，且功能和内饰的性价比不高。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "买车之前对比过特斯拉感觉特斯拉的价格相比较小米来说不算太经济划算，功能内饰没有太大性价比。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "价格与成本",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "特斯拉的价格相比较小米来说不算太经济划算"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者购买了标准版小米SU7，裸车价215900元，保险5308元，落地价221208元，上牌费200元。虽然认为价格偏高，但因信任品牌历史承诺而接受。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "当时买的是标准版裸车价格215900，保险价格5308，落地价格221208，上牌费200，这个价位对于一个新车企的第一款车来说我认为是比较偏高的，但是我感觉还是可以接受"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7驾驶性能极强，具有运动基因，操控舒适，转向灵敏，变道超车丝滑，起步快，适合追求驾驶乐趣的用户。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米su7在驾驶性能和感受上展现出了极强的运动基因...操控舒适，转向灵敏...变道超车非常丝滑...起步也是没压力基本上都是第一个窜出去"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者称赞小米SU7的车机系统强大、丝滑流畅，可通过手机控制车辆及连接米家生态，语音助手“小爱同学”较智能，L2辅助驾驶表现良好。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "强大的车机系统可直接通过手机控制车辆和米家生态系统...L2级别的辅助驾驶可以很好的做到智能驾驶...车机丝滑流畅...小爱同学还是比较智能的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为车辆外观极具吸引力，防晒效果出色，车内化妆镜大且自带灯光，但内饰质感较粗糙，氛围灯亮度不足（特别是红色内饰）。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车辆外观是最吸引我的地方...车子里面的化妆镜也是非常大的还自带有灯光特效...防晒做的非常好...内饰质感比较粗糙，氛围灯不够亮尤其是选择红色内饰的车主"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出后排空间稍显拥挤，座椅高度偏高导致高个子易顶头，前排未配备座椅按摩，座椅舒适度及承托力不足。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "空间的话前排没问题后拍稍微有点拥挤，座椅有点高了个子高的人容易顶着头...前排没有配备座椅按摩，座椅舒适度不足，承托力太低"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者抱怨冬季续航打折严重，标准版充满电仅能行驶300多公里。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "续航打折有点狠，冬天标准版充满电也就能跑300公里多一点"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "冬季使用。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "冬天标准版充满电"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者发现车辆在雨雪天气加速时容易打滑，推测这是后驱车的通病。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "雨雪天气一加速容易打滑，但这应该是后驱车的通病吧"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "雨雪天气加速行驶。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "雨雪天气一加速"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为自动泊车功能好用，特别是更新后离车泊车更方便；但也指出标准版刹车踏板脚感偏软。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "自动泊车还是挺好用尤其是现在更新以后离车后泊车比之前方便了...标准版刹车太软"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C12",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者原本考虑购买Max版本，但因妻子是女性且认为没必要开大马力的车出于安全考虑，最终选择了标准版。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "本来是考虑买max版本的，考虑到我老婆一个女生没有必要开这么大马力的车终归是比较危险的，况且她也开不出来max的优势"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C13",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者享受车辆的高关注度带来的情绪价值，初期感到自豪，后因社恐给车窗贴上隐私膜。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "情绪价值方面也是非常给力的，我提车的时候小米su7热度还是比较高的，开出去路人总是会行“注目礼”，这时候坐车里的感觉还是相当不错的，后期感觉有点社恐还是给主副驾车窗贴上了隐私玻璃膜"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车以后我感觉和我的油车相比小米确实香"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "用车初体验"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "注重驾驶乐趣与操控",
+        "重视车辆防晒性能",
+        "关注通勤油耗成本"
+      ]
+    },
+    "post_summary": "作者分享了购买小米SU7 2024款标准版的经历，起因是油车成本高及被特斯拉起步性能刺激。文章详细记录了购车费用、提车过程及用车初体验，肯定了其驾驶性能、车机系统和外观，但也指出了冬季续航短、后排空间拥挤、内饰质感粗糙及雨雪天打滑等不足。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C6/evidence/0:non_contiguous_quote",
+    "claims/C7/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C3/evidence/0:non_contiguous_quote",
+    "claims/C4/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11623,
+    "completion_tokens": 4833,
+    "total_tokens": 16456,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 49.504331200005254,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,345 @@
+{
+  "schema_version": "2.3",
+  "post_id": "2145dec9fabf8433",
+  "products": [
+    {
+      "id": "P1",
+      "name": "星途ET5",
+      "entity_level": "车系",
+      "brand": "星途",
+      "series": "ET5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "星途ET5高配悄悄涨了5000"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7预售直接加1.4万"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "极氪007GT",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": "GT",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪007GT说“可能涨5000到8000”"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "文中特别提到即将在二季度上市的“焕新极氪007GT”预计将在现款基础上进行价格调整。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比亚迪和埃安没公开涨"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "埃安",
+      "entity_level": "品牌",
+      "brand": "埃安",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比亚迪和埃安没公开涨"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "五菱宏光MINIEV",
+      "entity_level": "车系",
+      "brand": "五菱",
+      "series": "宏光MINIEV",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "五菱宏光MINIEV这类小车呢？干脆砍配置"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "极氪001",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "右侧是一辆蓝色的轿车，下方标注文字“ZEEKR 001”及中文“豪华猎装轿跑”。"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "价格与成本",
+      "content": "作者认为新能源车停止降价是因为原材料（锂、铜、铝、钴、镍）、芯片（DDR5、车规级芯片）成本大幅上涨，叠加购置税从0%变为5%及补贴减少，导致车企成本压力过大。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "电池贵了，锂价比去年翻了一倍多...现在一辆中端电车光芯片就比去年多花1300块，DDR5内存涨了三倍...购置税从0%变成了5%...价格战停了，不是因为车企良心发现，是成本顶到嗓子眼了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列举了近期多款新能源车型的涨价情况：星途ET5高配涨价5000元，小米SU7预售价增加1.4万元，极氪007GT可能涨价5000至8000元。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "星途ET5高配悄悄涨了5000，小米SU7预售直接加1.4万，极氪007GT说“可能涨5000到8000”，也没否认。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出比亚迪和埃安虽然未公开涨价，但减少了现金优惠（约1万多元），改为“免息贷+置换补”模式，实际上导致落地价升高。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比亚迪和埃安没公开涨，但现金优惠少了1万多，改成“免息贷+置换补”，其实落地价一样高了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为五菱宏光MINIEV等小型车通过削减配置来应对成本压力，例如安全气囊从6个减至2个，电池容量从30度降至20度，而非直接涨价。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "五菱宏光MINIEV这类小车呢？干脆砍配置，气囊从6个减到2个，电池从30度砍到20度，不涨价，但东西变少了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者建议购车者在当前环境下关注三点：赠品（充电桩、保养等）的减少、老款车型配置缩水（气囊、电池、芯片更换）的风险，以及金融方案中隐藏的高首付和长合同期限陷阱。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "想买车的现在得盯紧三件事：一是看送的东西还剩多少...二是对比老款...三是金融方案别光看利息低..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者建议预算在10万元以内的消费者可以考虑燃油车，理由是“以旧换新”补贴最高可达1.5万元，且目前油电差价已缩小至临界点。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算10万内的朋友，真可以看看燃油车。以旧换新补贴最高1.5万，现在油电差价已经缩到临界点了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "存储芯片及原材料价格上涨影响汽车行业",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "正文内容主要报道了存储芯片涨价对汽车行业的影响，指出随着存储芯片成本飙升，车企面临压力，部分车型可能涨价数千元。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "电池贵了，锂价比去年翻了一倍多...现在一辆中端电车光芯片就比去年多花1300块，DDR5内存涨了三倍"
+        }
+      ],
+      "confidence": 0.85,
+      "summary": "媒体报道及作者描述指出，由于存储芯片、锂电池原材料（锂、铜、铝等）成本大幅上升，汽车行业面临巨大成本压力，导致部分车型涨价或变相提高落地价。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "想买车的现在得盯紧三件事"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了新能源车近期停止降价甚至涨价的原因，归结为原材料、芯片成本上涨及政策补贴退坡。作者列举了星途、小米、极氪等品牌的涨价案例，指出比亚迪等品牌通过减少优惠变相涨价，并提醒潜在买家注意配置缩水和金融陷阱，建议低预算用户考虑燃油车。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "高"
+}

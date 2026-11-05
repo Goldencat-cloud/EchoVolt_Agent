@@ -1,0 +1,278 @@
+{
+  "schema_version": "2.3",
+  "post_id": "8c10941a1e8e9fd8",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "作为小米汽车推出的首款车型，预计小米SU7将于3月28日上市。"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小鹏汽车",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小鹏汽车董事长、CEO何小鹏"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "何小鹏表示他与雷军有过很多交流，认为雷军面临压力，但如果小米能利用好自身优势，将大有机会。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "与雷军有过很多交流，雷军压力不大是不可能的，但小米有小米的优势，雷总把小米的优势用好，就大有机会。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "服务与交付",
+      "content": "文章称小米SU7预计3月28日上市，北京王府井东方新天地的小米之家将成为全国首家直营店，预计4月开业并已开放预约试驾。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "预计小米SU7将于3月28日上市。此外，坐落于北京王府井东方新天地的小米之家将成为全国首家小米汽车直营店，目前门店正在装修中，预计4月开业，目前门店已开始预约试驾。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "文章介绍小米SU7定位为C级高性能生态科技轿车，外观设计包括“水滴大灯”、轿跑车身线条、半隐藏式门把手，官方数据显示风阻系数为0.195。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米SU7定位C级高性能生态科技轿车...官方称之为“水滴大灯”。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "官方数据表示，小米SU7的风阻系数仅为0.195。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "文章称小米SU7内饰搭载自研智能座舱系统，配备7.1英寸翻转式全液晶仪表盘、16.1英寸3K分辨率中控屏、骁龙8295芯片及56英寸HUD显示屏。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "新车搭载小米汽车自研的智能座舱系统，采用7.1英寸翻转式全液晶仪表盘，并搭配16.1英寸的悬浮式多媒体中控屏幕，分辨率高达3K，车机采用骁龙8295芯片。...还配备了56英寸的HUD显示屏。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "文章列出小米SU7双电机四驱版参数：综合最大功率495kW，扭矩838Nm，百公里加速2.78秒，最高时速265km/h；搭载101kWh电池，800V平台，最大续航800km，5分钟充电增程220km。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "小米SU7采用双电机四驱系统，综合最大功率495kW，综合最大扭矩838Nm。百公里加速时间2.78秒，最高时速可达265km/h。电池方面，新车搭载宁德时代提供的101kWh三元锂电池包，采用800V高电压平台，最大续航800km。充电方面5分钟可增加续航220km..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "文章称小米SU7还将推出单电机版车型，搭载73.6kWh电池，电机功率220kW，扭矩400Nm，百公里加速5.28秒，最高时速210km/h，采用400V平台，续航分别为628km和668km。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "小米SU7还将推出搭载73.6kWh电池包的单电机驱动车型，电机功率为220kW，最大扭矩为400Nm，百公里加速时间为5.28秒，最高时速210km/h。新车采用400V电压平台，续航分别为628km和668km。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "何小鹏评价小米汽车",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小鹏汽车董事长、CEO何小鹏被问及如何看待小米汽车时，他表示："
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小鹏汽车CEO何小鹏公开回应关于小米汽车的问题，表达了对竞争对手的看法。"
+    },
+    {
+      "id": "E2",
+      "name": "小米SU7上市及首店开业预告",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "预计小米SU7将于3月28日上市。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "文章报道小米SU7预计于3月28日上市，且北京首家直营店预计4月开业。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子转载了一篇关于小米汽车的文章，内容包含小鹏汽车CEO何小鹏对小米汽车的评价，以及小米SU7的上市时间、销售渠道、外观设计、内饰配置、动力性能和电池续航等详细技术参数。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

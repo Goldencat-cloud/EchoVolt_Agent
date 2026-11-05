@@ -1,0 +1,289 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0702d884c8be5261",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2026款 标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "提车26款小米su7标准版"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2026款 标准版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因家庭需增购车辆且油价上涨，选择小米SU7以降低通勤成本，认为其线上统一定价模式合理透明。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "因为家里小孩要上小学，与合伙人通勤地方不一样，家里需要增购一辆车...主要是油车油价一直上涨，用车成本也在增加，选择一辆电车对于通勤里程每日50公里以上的我来说，是个不错的选择。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "通过了解，发现小米汽车价格是线上统一销售价格，我认为非常合理，对于消费者来说，大家购买价格都是一样的，不会觉得有套路和不公平。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出详细购车费用，包括裸车价229400元、选配费用、保险及税费等，利用旧车置换获得15000元补贴，最终落地价为232438元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的卡布里蓝标准版购车价格总价是229400元...因为之前我名下有油车，进行置换，可以补贴15000元，很划算。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "合计落地：247438-置换补贴15000=232438"
+        }
+      ],
+      "confidence": 0.98
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者对卡布里蓝车漆和暗夜黑内饰非常满意，认为蓝色实物比照片更有质感且免费，黑色内饰耐脏适合有孩家庭。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在颜色的选择上，我一眼就被蓝色所吸引，在店里看到实车的那一刻，真的被惊艳到了，太帅了！而且蓝色比照片里看起来更加有质感...完全不输给那些需要加钱的性能车车漆，而且蓝色免费！超值超划算！"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "暗夜黑的内饰黑色永远经典不过时，而且非常的耐脏，家里有小孩也不用担心容易脏！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者对提车过程中的交付服务感到满意，认为交付人员热情大方，赠送礼品和定制相框提供了较高的情绪价值。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在提车过程中，交付人员也是热情大方，提车时还赠送了礼品和鲜花给我们拍了照片，做成相框送给我，让幸福时刻被永远记录，提车情绪价值也是拉满的。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7标准版的动力响应快、加速有力，相比之前的燃油车有明显提升，雨天过烂路时底盘稳定性好，整车平稳性佳。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驾驶感受也是感受到速度与动力的快感...我能明显感觉到小米汽车提速快，动力足，相当好开。超车的时候，轻踩油门即可提速超车，同时坐在主驾驶的我会感受到一阵阵的推背感"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "下雨天的时候，过那种坑坑洼洼的路面时候，底盘也很稳，坐在车内感受不到颠簸感，整车平稳性很好。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1"
+        ,
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "驾驶感受对比我之前的油车，简直是天壤之别"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者在雨天驾驶车辆经过坑洼路面。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "下雨天的时候，过那种坑坑洼洼的路面时候"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为小米汽车的能耗表现优秀，从油车转为电车后用车成本大幅降低，是一次明智的选择。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从耗能上来说，小米汽车也是非常优秀的，在用车成本上也是大幅度降低了成本，从油车转向电车，是明智之举！"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "提车26款小米su7标准版"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "经过提车使用一个多月，我非常满意"
+      }
+    ],
+    "confidence": 0.98
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好蓝色车漆",
+      "偏好黑色内饰",
+      "关注用车成本"
+    ]
+  },
+  "post_summary": "作者分享了提车2026款小米SU7标准版（卡布里蓝）的经历，详细列出了包含置换补贴在内的落地费用。作者对车辆的外观配色、内饰耐脏性、交付服务的仪式感以及驾驶动力和底盘稳定性给予了高度评价，认为相比之前的燃油车，电车在成本和驾驶体验上更具优势。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

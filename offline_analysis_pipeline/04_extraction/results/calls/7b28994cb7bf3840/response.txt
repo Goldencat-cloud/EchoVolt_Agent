@@ -1,0 +1,130 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7b28994cb7bf3840",
+  "products": [
+    {
+      "id": "P1",
+      "name": "26年小米su7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": "2026",
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最新款26年小米su7标准版"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者在试驾过程中认为该车的配置较高，车内氛围感强，有许多细致的设计，且座椅功能丰富，科技感十足。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我感觉整个配置都挺高的，而且挺有氛围感的，有很多小心思和小设计...座椅有各种各样的功能，确实科技感十足！"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在门店进行试驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我到门店他就让我试驾了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为该车底盘较软，刹车脚感也较软，这种调校符合其个人喜好。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我感觉到底盘很软，是我想要的那种感觉，而且刹车也很软，挺适合我的"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在试驾过程中感受车辆行驶特性。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在行驶的过程中"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "仅试驾或借用",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "分享我的试驾经历"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我就让他试驾了"
+      }
+    ],
+    "confidence": 0.95
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好底盘和刹车偏软的调校"
+    ]
+  },
+  "post_summary": "作者分享了试驾2026款小米SU7标准版的经历，对其丰富的配置、科技感十足的内饰设计以及偏软的底盘和刹车调校表示满意，认为符合其个人喜好。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

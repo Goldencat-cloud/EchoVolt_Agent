@@ -1,0 +1,216 @@
+{
+  "schema_version": "2.3",
+  "post_id": "3e92c3ed8a95d96e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "领克07混动",
+      "entity_level": "具体配置",
+      "brand": "领克",
+      "series": "07",
+      "model_year": null,
+      "version": "混动",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "我开的是今年5月份上市的领克07混动车型"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为领克07混动在城区纯电模式下电耗约为12~15 kWh/100km，夏冬开空调时约15 kWh/100km，考虑到车重超过2吨，该能耗表现非常优秀。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "平时城区用电电耗大概在12~15左右，一般夏天和冬天开着空调基本要15个的样子，这辆车毕竟净重有2t以上，我觉得这个能耗其实还算非常的不错。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在城区驾驶，夏季和冬季开启空调。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "平时城区用电电耗大概在12~15左右，一般夏天和冬天开着空调基本要15个的样子"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出领克07混动亏电油耗表显约为5L/100km，但因表显动态不准，作者推测实际可能在6L/100km左右；满油状态下表显综合里程约为1050km。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "亏电油耗大概在五个左右不过表显的话感觉不太准毕竟是动态的，我感觉可能有6个左右。平时把油加满，表显里程油量是显示一个1050的样子。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者表示对领克07混动的油耗和电耗表现比较满意，在电量充足且油电混合使用时，油耗约为2L/100km，电耗约为7-8kWh/100km。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "个人对这个油耗电耗还是比较满意的，如果平时电比较充足，油电一起用的话，那就大概是油两个电七八个的样子。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在日常使用中保持电量充足，采用油电混合模式。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "如果平时电比较充足，油电一起用的话"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为领克07混动的空调制冷效果很好，通常只需开启一档风量即足够，开两档会觉得风力过大。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "再一个就是这个车空调比较给力。一般我都开一档，风都够了，开两档我都觉得风太大，有点受不了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者分享了驾驶领克07混动的省油技巧：起步避免重踩油门，加速至50km/h左右即可；在下坡或等待红绿灯路段适当利用惯性滑行（溜车）。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的省油技巧就是起步不要重踩油门。起步开到个50码就差不多了，不要一下深踩...再一个就是碰到一些下坡或者需要等红绿灯的路段，可以适当的溜车。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在城市道路驾驶，涉及起步、下坡及等待红绿灯的场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "碰到一些下坡或者需要等红绿灯的路段"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "我开的是今年5月份上市的领克07混动车型"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享领克07混动车型的日常用车能耗数据，包括城区纯电、亏电及油电混合模式下的表现，并对空调性能和驾驶省油技巧进行了评价。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

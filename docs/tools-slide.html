@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>AutoInsight · 工具层</title>
+<style>
+  :root{
+    --ink:#16202E;
+    --muted:#6B7A8F;
+    --navy:#2F5597;
+    --line:#D5DEEA;
+    --hair:#E4EBF5;
+    --panel:#F8FAFD;
+    --accent:#BC5C1E;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#fff}
+  body{
+    font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB","SimHei",sans-serif;
+    color:var(--ink);-webkit-font-smoothing:antialiased;
+    height:100%;overflow:hidden;background:#fff;
+  }
+  .page{position:absolute;left:0;top:0;transform-origin:top left;
+        width:1280px;height:720px;padding:32px 44px 22px;display:flex;flex-direction:column;overflow:hidden;background:#fff}
+
+  header{flex:none}
+  h1{font-size:31px;font-weight:700;color:var(--navy);letter-spacing:.3px;line-height:1.25}
+  .sub{margin-top:8px;font-size:14px;color:var(--muted);line-height:1.4}
+  .sub b{color:#43536A;font-weight:600}
+
+  .sec{flex:none;margin-top:14px;height:20px;display:flex;align-items:center;gap:9px;
+       font-size:15px;font-weight:700;color:var(--navy);letter-spacing:.08em}
+  .sec::before{content:"";width:3px;height:11px;border-radius:2px;background:var(--navy)}
+
+  .panel{flex:none;height:406px;margin-top:10px;background:var(--panel);border:1px solid #E8EEF7;border-radius:12px;
+        padding:10px 18px;display:flex;align-items:center}
+  table{width:100%;border-collapse:separate;border-spacing:0 5px}
+  thead th{font-size:11.5px;font-weight:700;color:#93A0AF;letter-spacing:.12em;text-align:left;padding:0 14px}
+  thead th:last-child{text-align:center;padding-right:24px}
+  tbody td{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+           padding:8px 14px;vertical-align:middle}
+  tbody td:first-child{border-left:1px solid var(--line);border-radius:7px 0 0 7px}
+  tbody td:last-child{border-right:1px solid var(--line);border-radius:0 7px 7px 0;text-align:center}
+
+  .cat{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:var(--navy);white-space:nowrap}
+  .cat::before{content:"";width:3px;height:11px;border-radius:1px;background:var(--navy);opacity:.55}
+  .tool{font-family:"Consolas","Cascadia Mono",monospace;font-size:14.5px;color:var(--ink);letter-spacing:-.2px}
+  .desc{font-size:14px;color:#3C4A5C;line-height:1.35}
+  .chip{
+    display:inline-block;font-family:"Consolas","Cascadia Mono",monospace;font-size:12px;
+    border:1px solid #D3DDEA;background:#fff;border-radius:999px;padding:4px 13px;line-height:1.3;color:#4A5A70;
+  }
+  .chip.read{color:var(--navy);border-color:#B9C9E0;background:#FAFCFF}
+  .chip.compute{color:var(--accent);border-color:#E2C2A3;background:#FFFCF8}
+  .chip.plan{color:#5A4A8C;border-color:#CFC7E6;background:#FCFBFF}
+  .chip.submit{color:#2E6B4F;border-color:#BFD9CB;background:#FBFEFC}
+
+  .cards{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:10px;flex:none}
+  .c{background:#fff;border:1px solid #D8E1EE;border-radius:8px;height:56px;
+     display:flex;align-items:center;gap:9px;padding:0 14px}
+  .c::before{content:"";width:3px;height:20px;border-radius:2px;background:#B9C7DA;flex:none}
+  .c:nth-child(1)::before{background:var(--navy)}
+  .c:nth-child(2)::before{background:#2F6FB0}
+  .c:nth-child(3)::before{background:#2E6B4F}
+  .c:nth-child(4)::before{background:#BC5C1E}
+  .c:nth-child(5)::before{background:#7A5AA6}
+  .c:nth-child(6)::before{background:#6B7A8F}
+  .c span{font-size:16px;font-weight:700;color:var(--navy);line-height:1.3}
+
+  footer{flex:none;margin-top:12px;padding-top:10px;border-top:1px solid var(--hair);
+         display:flex;justify-content:space-between;font-size:12.5px;color:#8A97A8;line-height:1.4}
+  footer b{color:var(--muted);font-weight:600}
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>AutoInsight · 工具层</h1>
+    <div class="sub">8 个工具、4 类能力：<b>先计划 → 再取数 → 后提交</b></div>
+  </header>
+
+  <div class="sec">工具清单</div>
+  <div class="panel">
+    <table>
+      <thead>
+        <tr><th style="width:150px">类别</th><th style="width:250px">工具</th><th>作用</th><th style="width:104px">能力</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="cat">认识数据</span></td>
+          <td><span class="tool">semantic_overview</span></td>
+          <td class="desc">预览数据目录与议题样本量；计划阶段使用，不产出可引用结论</td>
+          <td><span class="chip read">read</span></td>
+        </tr>
+        <tr>
+          <td><span class="cat">检索证据</span></td>
+          <td><span class="tool">search_claims</span></td>
+          <td class="desc">按关键词、议题、情感召回精选观点，按相关度排序</td>
+          <td><span class="chip read">read</span></td>
+        </tr>
+        <tr>
+          <td><span class="cat">检索证据</span></td>
+          <td><span class="tool">get_negative_evidence</span></td>
+          <td class="desc">按议题取负面原文：引文、标题、链接、日期、claim_id</td>
+          <td><span class="chip read">read</span></td>
+        </tr>
+        <tr>
+          <td><span class="cat">检索证据</span></td>
+          <td><span class="tool">search_published_report</span></td>
+          <td class="desc">在右侧报告语料中检索章节，返回章节号与原文片段</td>
+          <td><span class="chip read">read</span></td>
+        </tr>
+        <tr>
+          <td><span class="cat">计算统计</span></td>
+          <td><span class="tool">run_semantic_aggregate</span></td>
+          <td class="desc">按计划参数聚合指标，返回数值、统计口径与校验结果</td>
+          <td><span class="chip compute">compute</span></td>
+        </tr>
+        <tr>
+          <td><span class="cat">计算统计</span></td>
+          <td><span class="tool">python_analyze</span></td>
+          <td class="desc">沙箱内做 pandas 交叉计算与图表，仅计划授权时可用</td>
+          <td><span class="chip compute">compute</span></td>
+        </tr>
+        <tr>
+          <td><span class="cat">提交审批</span></td>
+          <td><span class="tool">submit_analysis_plan</span></td>
+          <td class="desc">提交分析方案，触发人工确认；一次运行仅一次</td>
+          <td><span class="chip plan">plan</span></td>
+        </tr>
+        <tr>
+          <td><span class="cat">提交审批</span></td>
+          <td><span class="tool">submit_report</span></td>
+          <td class="desc">提交标题、正文与核心结论，过质量门禁后进入待审</td>
+          <td><span class="chip submit">submit</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sec">设计原则</div>
+  <div class="cards">
+    <div class="c"><span>少而精</span></div>
+    <div class="c"><span>一具一职</span></div>
+    <div class="c"><span>有界输出</span></div>
+    <div class="c"><span>高信号返回</span></div>
+    <div class="c"><span>描述即契约</span></div>
+    <div class="c"><span>错误即指导</span></div>
+  </div>
+
+  <footer>
+    <span>只读语义层 · 沙箱禁止 import 与 I/O</span>
+    <span>AutoInsight · <b>工具层</b></span>
+  </footer>
+</div>
+<script>
+  (function () {
+    var page = document.querySelector('.page');
+    function fit() {
+      var s = Math.min(window.innerWidth / 1280, window.innerHeight / 720);
+      page.style.transform = 'scale(' + s + ')';
+      page.style.left = Math.round((window.innerWidth - 1280 * s) / 2) + 'px';
+      page.style.top = Math.round((window.innerHeight - 720 * s) / 2) + 'px';
+    }
+    window.addEventListener('resize', fit);
+    fit();
+  })();
+</script>
+</body>
+</html>

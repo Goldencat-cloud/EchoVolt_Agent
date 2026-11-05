@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c2d2a1fe5fa874a8",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当然是小米SU7"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者认为在与另一款未具名车辆的比较中，小米SU7在外观、性能和配置方面均胜出。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "不管是外观还是性能配置方面，小米SU7都要胜出"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者表示由于对小米以往产品的信任以及对小米造车态度的认可，倾向于选择小米。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "更何况还是大量的小米，对小米以往产品信任，以及小米做车的态度来说，还是要选择小米。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "如果要选择...还是要选择小米"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "信任小米品牌",
+      "认可小米造车态度"
+    ]
+  },
+  "post_summary": "作者在对比两款车辆时，明确表示小米SU7在外观、性能和配置上优于对手，并基于对小米品牌的信任和对其造车态度的认可，表达了选择小米的倾向。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

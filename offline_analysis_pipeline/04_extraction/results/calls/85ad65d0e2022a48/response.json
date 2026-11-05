@@ -1,0 +1,418 @@
+{
+  "schema_version": "2.3",
+  "post_id": "85ad65d0e2022a48",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "想了解小米SU7？只看这一篇就够了！"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "800km双电机四驱Max版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "吉利银河E8",
+      "entity_level": "车系",
+      "brand": "吉利",
+      "series": "银河E8",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "超越前冠军吉利银河E8（0.199Cd）"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "保时捷Taycan",
+      "entity_level": "车系",
+      "brand": "保时捷",
+      "series": "Taycan",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "这可比保时捷Taycan（84L）和Model S（89L）都大了不少"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "Tesla Model S",
+      "entity_level": "车系",
+      "brand": "Tesla",
+      "series": "Model S",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "这可比保时捷Taycan（84L）和Model S（89L）都大了不少"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "Tesla Model S Plaid",
+      "entity_level": "具体配置",
+      "brand": "Tesla",
+      "series": "Model S",
+      "model_year": null,
+      "version": "Plaid",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "包括Model S Plaid（20000rpm）"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "智界S7",
+      "entity_level": "车系",
+      "brand": "智界",
+      "series": "S7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "智界S7（华为DriveONE量产车上释放转速22000rpm）"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P8",
+      "name": "极氪001 FR",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": "FR",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "极氪001 FR（21000rpm）"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7的风阻系数为0.195Cd，超越了吉利银河E8（0.199Cd），是目前市面上风阻系数最低的量产车型。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "整车风阻系数0.195Cd ，超越前冠军吉利银河E8（0.199Cd）成为目前市面上风阻系数最低的量产车型。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "超越前冠军吉利银河E8（0.199Cd）"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7拥有105L的前备厢空间，比保时捷Taycan（84L）和Model S（89L）都大。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "这使得SU7的车头还拥有105L的前备厢，这可比保时捷Taycan（84L）和Model S（89L）都大了不少。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P4",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T8",
+                "source_type": "text",
+                "quote": "这可比保时捷Taycan（84L）和Model S（89L）都大了不少"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P5",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T8",
+                "source_type": "text",
+                "quote": "这可比保时捷Taycan（84L）和Model S（89L）都大了不少"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为小米SU7 Max的动力参数（0-100km/h加速2.78s，最高车速265km/h）优于Model S双电机全轮驱动版（3.2s和250km/h），但低于Plaid版（2.1s和322km/h）。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "参数表现优于Model S双电机全轮驱动版（对应参数3.2s和250km/h），但低于Plaid版（对应参数2.1s和322km/h）。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P6"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P6",
+            "aspect": "动力与性能",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T12",
+                "source_type": "text",
+                "quote": "参数表现优于Model S双电机全轮驱动版（对应参数3.2s和250km/h），但低于Plaid版（对应参数2.1s和322km/h）。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者介绍小米SU7的智能驾驶系统支持不依赖高精地图的高速/城市领航和无人泊车，并具备自动过闸机、跨多层、无人接驾等功能。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T19",
+          "source_type": "text",
+          "quote": "不依赖高精地图也能实现高速/城市领航和无人泊车。"
+        },
+        {
+          "block_id": "T20",
+          "source_type": "text",
+          "quote": "甚至还能进一步完成自动过闸机、自动跨多层、自动会让车、召唤时无人接驾等“高难度”动作。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出小米SU7 Max版搭载宁德时代三元锂麒麟电池，采用871V充电平台，充电5分钟可延长续航220km，15分钟可延长510km。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T16",
+          "source_type": "text",
+          "quote": "整套系统采用871V（一些其他品牌在宣传上也会称为“准900V”）充电平台，充电速度极快，现场公布的数据显示，充电5分钟可延长续航220km，15分钟可延长510km。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米汽车技术发布会",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车发布会才结束不久，雷总在台上的3个小时将小米SU7从内到外所有信息完完整整呈现了出来。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米举办了汽车技术发布会，雷军在台上介绍了小米SU7的各项技术和配置。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "这是一篇关于小米SU7的详细科普/评测文章，作者基于小米汽车发布会的内容，从外观设计、内饰配置、动力系统、电池续航、智能驾驶等多个维度介绍了小米SU7的技术亮点和参数表现，并与竞品进行了对比。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "高"
+}

@@ -1,0 +1,12 @@
+[project]
+name = "autoinsight-ingestion"
+version = "0.2.0"
+description = "Versioned, replayable AutoInsight data ingestion"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[project.scripts]
+autoinsight-ingestion = "autoinsight_ingestion.cli:main"
+
+[tool.unittest]
+start-directory = "tests"

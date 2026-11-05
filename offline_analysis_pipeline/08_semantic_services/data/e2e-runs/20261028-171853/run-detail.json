@@ -1,0 +1,37 @@
+{
+ "scenario": "detail",
+ "question": "SU7 充电补能体验的负面反馈集中在哪些议题？请给出 3 条原文佐证。",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "4f13790a1f634a988d8b584e644ddf89",
+  "status": "running",
+  "status_url": "/api/agent/report/4f13790a1f634a988d8b584e644ddf89",
+  "request_id": "10a57e5666f4"
+ },
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 21.2,
+   "status": "failed",
+   "phase": "失败"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": null,
+ "regenerate_used": 0,
+ "job_id": "4f13790a1f634a988d8b584e644ddf89",
+ "final_status": "failed",
+ "result": null,
+ "error": {
+  "error": "RuntimeError: Decompressor.decompress() got an unexpected keyword argument 'output_buffer_limit'；最近工具调用：[]"
+ },
+ "job": {
+  "status": "failed",
+  "phase": "失败"
+ },
+ "wall_s": 21.2
+}

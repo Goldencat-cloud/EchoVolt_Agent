@@ -1,0 +1,42 @@
+{
+  "state": "CANCELLED_BY_USER",
+  "cancelled_at_utc": "2026-10-11T01:11:20.704077+00:00",
+  "cancelled_at_shanghai": "2026-10-11T09:11:20.704077+08:00",
+  "no_resume_authorized": true,
+  "task_processes_stopped_or_absent": true,
+  "source_runner_sha256": "a8455b0f1d4fe7a36153278ec0c65e823f3e2acd78659ffc8a02639a94d9e4c5",
+  "original_smoke_status_sha256": "13dcc72e775f593ab84c223ed40ebe38ad6acb1c14ae7d9f52a0993ace90c566",
+  "offline_reproduction": {
+    "timed_out": true,
+    "timeout_seconds": 3,
+    "child_terminated": true,
+    "mock_result_expected": 1,
+    "saved_result_bytes": 0,
+    "saved_counts": {
+      "total": 1,
+      "skipped_resumed": 0,
+      "success": 0,
+      "failed": 0,
+      "chunked": 0,
+      "pending": 1,
+      "states": {
+        "empty_response": 0,
+        "invalid_json_response": 0,
+        "truncated_or_incomplete": 0,
+        "invalid_source_reference": 0,
+        "api_or_transport_failure": 0
+      }
+    }
+  },
+  "existing_offline_tests_exit_code": 0,
+  "existing_test_tail": "....................................\n----------------------------------------------------------------------\nRan 36 tests in 5.646s\n\nOK\n",
+  "no_model_calls_in_reproduction": true,
+  "actual_pipeline_before_cancel": {
+    "built_posts": 9701,
+    "no_image_posts": 4203,
+    "smoke_total": 18,
+    "saved_smoke_success": 0,
+    "saved_smoke_failed": 0,
+    "saved_full_run_results": 0
+  }
+}

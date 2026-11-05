@@ -1,0 +1,217 @@
+{
+  "id": "case-11",
+  "source": "synthetic",
+  "note": "overview + 五个方法步骤",
+  "input": {
+    "question": "五个议题的负面占比",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "overview",
+      "result": {
+        "rows": [
+          {
+            "aspect": "议题1",
+            "total_claims": 93,
+            "negative": 11
+          },
+          {
+            "aspect": "议题2",
+            "total_claims": 86,
+            "negative": 12
+          },
+          {
+            "aspect": "议题3",
+            "total_claims": 79,
+            "negative": 13
+          },
+          {
+            "aspect": "议题4",
+            "total_claims": 72,
+            "negative": 14
+          },
+          {
+            "aspect": "议题5",
+            "total_claims": 65,
+            "negative": 15
+          }
+        ]
+      }
+    },
+    {
+      "kind": "method",
+      "aspect": "可靠性",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "可靠性",
+            "negative_share": 0.2,
+            "negative": 10,
+            "total_claims": 40
+          }
+        ]
+      }
+    },
+    {
+      "kind": "method",
+      "aspect": "空间与舒适性",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "空间与舒适性",
+            "negative_share": 0.23,
+            "negative": 11,
+            "total_claims": 44
+          }
+        ]
+      }
+    },
+    {
+      "kind": "method",
+      "aspect": "充电",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "充电",
+            "negative_share": 0.26,
+            "negative": 12,
+            "total_claims": 48
+          }
+        ]
+      }
+    },
+    {
+      "kind": "method",
+      "aspect": "智能化",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "智能化",
+            "negative_share": 0.29000000000000004,
+            "negative": 13,
+            "total_claims": 52
+          }
+        ]
+      }
+    },
+    {
+      "kind": "method",
+      "aspect": "外观与内饰",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "外观与内饰",
+            "negative_share": 0.32,
+            "negative": 14,
+            "total_claims": 56
+          }
+        ]
+      }
+    }
+  ],
+  "final_text": "五议题负面占比在 20% 到 32% 之间。",
+  "expected": {
+    "answer": "五议题负面占比在 20% 到 32% 之间。",
+    "stats": [
+      {
+        "aspect": "议题1",
+        "total_claims": 93,
+        "negative": 11,
+        "negative_claims": 11
+      },
+      {
+        "aspect": "议题2",
+        "total_claims": 86,
+        "negative": 12,
+        "negative_claims": 12
+      },
+      {
+        "aspect": "议题3",
+        "total_claims": 79,
+        "negative": 13,
+        "negative_claims": 13
+      },
+      {
+        "aspect": "议题4",
+        "total_claims": 72,
+        "negative": 14,
+        "negative_claims": 14
+      },
+      {
+        "aspect": "议题5",
+        "total_claims": 65,
+        "negative": 15,
+        "negative_claims": 15
+      },
+      {
+        "aspect": "可靠性",
+        "negative_share": 0.2,
+        "negative": 10,
+        "total_claims": 40,
+        "negativeShare": 0.2,
+        "negative_claims": 10
+      },
+      {
+        "aspect": "空间与舒适性",
+        "negative_share": 0.23,
+        "negative": 11,
+        "total_claims": 44,
+        "negativeShare": 0.23,
+        "negative_claims": 11
+      },
+      {
+        "aspect": "充电",
+        "negative_share": 0.26,
+        "negative": 12,
+        "total_claims": 48,
+        "negativeShare": 0.26,
+        "negative_claims": 12
+      },
+      {
+        "aspect": "智能化",
+        "negative_share": 0.29000000000000004,
+        "negative": 13,
+        "total_claims": 52,
+        "negativeShare": 0.29000000000000004,
+        "negative_claims": 13
+      },
+      {
+        "aspect": "外观与内饰",
+        "negative_share": 0.32,
+        "negative": 14,
+        "total_claims": 56,
+        "negativeShare": 0.32,
+        "negative_claims": 14
+      }
+    ],
+    "evidence": [],
+    "applied_filters": {
+      "aspects": [
+        "可靠性",
+        "空间与舒适性",
+        "充电",
+        "智能化",
+        "外观与内饰"
+      ]
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 6
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ed6a40d80e656411",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为在分析驾驶相关问题时应首先关注驾驶员本人的操作情况，其次才是车企；作者指出智能辅助驾驶及辅助紧急制动等功能仅为“辅助”，车速控制和刹车始终由驾驶员掌控。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我认为首先还是得关注驾驶员本人的操作情况，再关注车企。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但它只是“辅助驾驶”以及辅助紧急制动等等，开车速度、刹车永远是驾驶员在控制。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者针对智能辅助驾驶话题提出观点，认为在分析驾驶问题时首要责任在于驾驶员的操作，而非车企或智驾系统，强调辅助驾驶功能不能替代驾驶员对速度和刹车的控制。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

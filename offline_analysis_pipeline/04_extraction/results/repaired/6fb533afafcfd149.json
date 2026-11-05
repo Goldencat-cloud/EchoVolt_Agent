@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.3",
+  "post_id": "6fb533afafcfd149",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "su7自动驾驶问题"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者询问在开启自动驾驶或车道保持辅助且车辆缓慢减速时，系统是直接使用刹车，还是遵循用户设置的动能回收等级进行减速，抑或是无论用户设置如何都按最大动能回收加刹车的方式操控。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在开启自动驾驶或者车道保持辅助时候。车辆缓慢减速电脑操控 他是用动能回收还是会是用刹车。还是说我的当前设置开启动能回收他就用 不开启就直接刹车。还是说就算我没开动能回收设置的是0或者很低柔和。电脑也会按照百分百动能回收➕保持就操控车辆 还是根据我自己设置操控车辆 没有动能回收就直接使用刹车呢"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "车辆在开启自动驾驶或车道保持辅助状态下缓慢减速。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在开启自动驾驶或者车道保持辅助时候。车辆缓慢减速"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者针对SU7在开启自动驾驶或车道保持辅助时车辆缓慢减速的控制逻辑提出疑问，询问系统是基于用户设定的动能回收等级工作，还是直接调用刹车，亦或是无视用户设置采用固定的高比例动能回收策略。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

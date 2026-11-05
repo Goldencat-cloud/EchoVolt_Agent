@@ -1,0 +1,459 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4a3512beadfd483b",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "max是最好的，空悬，800v，四驱，最快，尾翼"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "宝马325li m运动耀夜",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "325li",
+      "model_year": null,
+      "version": "m运动耀夜",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一开始就想买宝马325li的m运动耀夜"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "蔚来ES6",
+      "entity_level": "车系",
+      "brand": "蔚来",
+      "series": "ES6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "es6倒是很好，但我对suv不是很感冒"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "蔚来ET5",
+      "entity_level": "车系",
+      "brand": "蔚来",
+      "series": "ET5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我喜欢轿跑，et5太短了，且坐姿高"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "保时捷992",
+      "entity_level": "具体配置",
+      "brand": "保时捷",
+      "series": "992",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果跟992的一样厚一样宽那就好看了"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "P7",
+      "name": "法拉利Roma",
+      "entity_level": "具体配置",
+      "brand": "法拉利",
+      "series": "Roma",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其实我觉得像是四门版的法拉利Roma"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购车预算约30万元，因燃油车贷款压力大、油价高及蓝牌获取困难，转而关注电动车。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算大概在30w左右...所以主要在看电车"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为蔚来ET5车身较短且坐姿偏高，不符合其对轿跑的喜好；虽然认可蔚来ES6，但因不喜欢SUV而未选择。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我喜欢轿跑，et5太短了，且坐姿高。es6倒是很好，但我对suv不是很感冒"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者线下看车后被小米SU7实车惊艳，特别是翻转仪表设计，认为其类似迈凯伦，且整体设计更像四门版法拉利Roma而非网友所说的保时捷。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "非常的惊艳，尤其是翻转仪表，想到了迈凯伦...其实我觉得像是四门版的法拉利Roma"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者多次对比试驾标准版和Max版，认为标准版后驱过弯带来的“屁股滑过来”的感觉更具驾驶乐趣，且Max版空悬最软模式也比标准版硬，因此认为标准版在驾驶乐趣上强于Max版。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驾驶乐趣这一方面，标准强过max的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "驾驶乐趣这一方面，标准强过max的"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行多次对比试驾，体验过弯感受。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我找销售试驾了很多次，每次都是标准和max对比试驾"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者综合考虑日常舒适性、节省资金用于娱乐以及驾驶乐趣，最终决定购买小米SU7标准版，并等待了五个月提车。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "考虑到日常舒适性和省下的钱可以周末到处开车吃喝玩乐，选择了su7标准版"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者在选装时选择了音响、冰箱和免费车漆，选择了低风阻轮毂以换取续航，但因未选装导致没有布雷博四活塞卡钳而感到后悔。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "结果不选没有布雷博四活塞卡钳，血亏啊，该选的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者对提车后的外观和内饰非常满意，特别称赞了白色内饰的氛围灯效果，并发现提车时座椅已变得柔软舒适。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外观内饰都很满意，尤其是白内氛围灯很好。而且我提车的时候座椅已经变柔软了，也更舒服"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为小米售后服务贴心，曾在保养期间享受餐饮服务，且充电成本低廉，使其愿意频繁驾车出行。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米售后都特别贴心，饭也蹭了三次了，充电确实便宜，去哪都开"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者表示不到一年时间行驶里程已超过两万公里，超出了自己的预期。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "两万公里来的很快，自己都没想到一年不到能开两万公里多"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "提车分享"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车过程"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "用车初体验"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "30w左右",
+    "preferences": [
+      "喜欢轿跑",
+      "不喜欢SUV",
+      "重视驾驶乐趣",
+      "重视日常舒适性"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7标准版的提车全过程，包括选车理由、与蔚来及宝马车型的对比、配置选择遗憾、提车流程及费用明细。提车后，作者对车辆的外观内饰、驾驶乐趣及售后服务表示满意，并记录了初期的高频使用情况。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

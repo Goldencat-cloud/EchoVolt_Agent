@@ -1,0 +1,298 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f4794e6a84725ce7",
+  "products": [
+    {
+      "id": "P1",
+      "name": "电车",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "还好我早早就换了电车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "油车",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "想起前几天油车朋友发的加油小票"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为使用电车在日常通勤中充电成本低，相比油车节省费用，且无需担心油耗限制驾驶习惯。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "晚上趁谷电时段充电，一度电才3毛多，充满电也就二三十块，能跑四百多公里，日常上下班通勤一周充一次都够。对比油车朋友每月大几百的油费，我这电费简直可以忽略不计，出门再也不用算计着油耗，空调想开就开，油门想踩就踩，太爽了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在日常市区通勤中使用电车，利用夜间谷电时段充电。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "晚上趁谷电时段充电...日常上下班通勤一周充一次都够"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者承认电车在长途行驶时存在续航焦虑，且需要规划充电桩位置，但认为日常市区代步体验很好。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "当然电车也不是完美的，偶尔跑长途会有点续航焦虑，找充电桩也得提前规划，但日常市区代步真的太香了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者提及偶尔跑长途的场景，以及日常市区代步的场景。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "偶尔跑长途会有点续航焦虑...但日常市区代步真的太香了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为在油价上涨的背景下，当初更换电车的决定是明智的，因为能规避燃油成本波动带来的经济压力。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "油价又涨？还好我早换了电车"
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "看着油车车友群里一片哀嚎，再看看自己手机里的充电账单，瞬间觉得当初换电车的决定太明智了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者观察到加油站汽油价格上涨，92号汽油达到8.76元/升，95号汽油达到9.26元/升，柴油超过8元/升。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "昨天路过加油站，抬头一看价目表直接愣了——92号油都干到8.76元/升，95号更是直奔9.26元，连柴油都涨到8块多了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者转述网络消息称预计油价将上调1.45元/升以上，导致50L家用车加满一箱油需多花费近80元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "刷到消息说这次调价预期要涨1.45元/升以上，50L的家用车加满一箱，得多花近80块钱。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E3",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者提到楼下肠粉店因液化气涨价，宣布肠粉和炒粉价格上调0.5元/份，以此说明油价上涨产生的连锁反应。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "连楼下的肠粉店都贴了通知，说受液化气涨价影响，肠粉、炒粉都要涨5毛一份，这油价上涨的连锁反应，真是连吃个早饭都躲不开。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "加油站汽油价格上涨",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "昨天路过加油站，抬头一看价目表直接愣了——92号油都干到8.76元/升，95号更是直奔9.26元，连柴油都涨到8块多了。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "作者昨日在加油站观察到92号、95号汽油及柴油价格显著上涨。"
+    },
+    {
+      "id": "E2",
+      "name": "预期油价大幅上调",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "刷到消息说这次调价预期要涨1.45元/升以上，50L的家用车加满一箱，得多花近80块钱。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "网络消息称预计油价将上调1.45元/升以上，影响家用车加油成本。"
+    },
+    {
+      "id": "E3",
+      "name": "餐饮店因能源涨价上调菜品价格",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "连楼下的肠粉店都贴了通知，说受液化气涨价影响，肠粉、炒粉都要涨5毛一份"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "作者楼下肠粉店因液化气涨价，宣布肠粉和炒粉价格上调0.5元/份。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T5",
+        "source_type": "text",
+        "quote": "还好我早早就换了电车，现在完全没这方面的焦虑。晚上趁谷电时段充电..."
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "关注用车成本",
+      "偏好电动车以降低能源支出"
+    ]
+  },
+  "post_summary": "作者在油价上涨背景下，分享了自己更换电动车后的低成本用车体验，对比了电车充电与油车加油的费用差异，并指出油价上涨对生活成本的连锁影响，认为换电车是明智之举。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

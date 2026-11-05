@@ -1,0 +1,288 @@
+{
+  "schema_version": "2.3",
+  "post_id": "3636e18c89d59287",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "SU7 4100 km，电耗没降下来，每公里成本0.18元"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者表示车辆行驶约4100公里后，综合电耗维持在20kWh/100km以上，未能显著降低。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "跑了4100公里了...综合算下来一直维持在20以上，有点无奈。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在日常使用中，包含市区拥堵及长途驾驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "平时市区里开，空调、堵车、红绿灯多...但跑长途的时候..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在长途驾驶时将车速控制在100-110km/h并开启节能模式，电耗可降至18kWh/100km左右。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但跑长途的时候，我特意把速度控制在100到110之间，开了节能模式，电耗能压到18左右"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "长途驾驶，车速100-110km/h，开启节能模式。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "跑长途的时候，我特意把速度控制在100到110之间，开了节能模式"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者计算得出每公里用电成本约为0.18元，认为相比燃油车节省较多。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "按我平时充电均价算下来，每公里用电成本大概0.18元，一年下来电费也就千把块，比油车省太多了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出平均电耗数据（26kWh/100km）包含了哨兵模式的耗电，并提到周末停车期间哨兵模式导致电量下降，因此对是否常开该功能感到纠结。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "这数据是包含哨兵模式的...有次周末出门两天，回来发现车自己掉了不少电，查了日志果然是哨兵在“值班”。这功能到底要不要常开，我现在挺纠结的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "停车状态下开启哨兵模式。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "我习惯停车后开着哨兵...有次周末出门两天，回来发现车自己掉了不少电"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者采取了低谷充电、充至80%、调整胎压至推荐上限及使用空调节能模式等措施，但电耗仍未明显下降，推测可能与驾驶风格或天气有关。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "能做的都做了，但电耗还是没明显下降。不知道是不是我开车风格偏急，还是天气影响大。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "近期天气炎热，长时间开启空调。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "最近天气热，空调开得久，估计也有影响。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总体认为车辆使用顺手，但对电耗表现仍有提升空间的期待。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "总之，车是好车，用着顺手，就是电耗这块还有点提升空间。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者询问其他车主在长期使用后电耗是否能降低，以及如何省电的经验。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "不知道大家的SU7跑久了电耗能降下来吗？或者你们平时怎么省电的？求分享点经验。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "跑了4100公里了，SU7这车算是慢慢熟悉了。"
+      },
+      {
+        "block_id": "I1",
+        "source_type": "image_summary",
+        "quote": "80天 和 4167公里"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享SU7行驶4100公里后的用车体验，指出综合电耗维持在20kWh/100km以上，虽采取多种节能措施但未明显改善。作者分析了长途低速节能模式下的较低电耗，并探讨了哨兵模式对静态电耗的影响及每公里0.18元的低成本优势，最后寻求其他车主的省电经验。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

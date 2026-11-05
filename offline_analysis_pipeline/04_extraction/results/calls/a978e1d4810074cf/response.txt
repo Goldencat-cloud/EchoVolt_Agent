@@ -1,0 +1,367 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a978e1d4810074cf",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "SU7租车试驾有感"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "租了1天半的标准版自驾"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "毛豆3",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "坐后排腿部空间比毛豆3好太多"
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "P3",
+      "name": "阿维塔11",
+      "entity_level": "具体配置",
+      "brand": "阿维塔",
+      "series": "阿维塔",
+      "model_year": null,
+      "version": "11",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我自己开的阿维塔11"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "阿维塔12",
+      "entity_level": "具体配置",
+      "brand": "阿维塔",
+      "series": "阿维塔",
+      "model_year": null,
+      "version": "12",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看来看去只有阿维塔12马上会出增程"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为SU7的后排腿部空间比毛豆3好很多，反驳了之前关于空间差的看法。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "感觉SU7空间方面没说的那么不堪...老婆1米7，坐后排腿部空间比毛豆3好太多"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "坐后排腿部空间比毛豆3好太多"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者妻子身高1米7坐在后排进行对比。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "老婆1米7，坐后排腿部空间比毛豆3好太多"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者习惯开SUV，在SU7主驾位置找不到舒适的左脚姿势。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "倒是我开惯SUV一时难适应，在主驾位驾驶时左脚一直没找到舒服的姿势"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者驾驶SU7主驾位。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在主驾位驾驶时"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为SU7在舒适模式下底盘扎实，过减速带过滤效果好，不像毛豆那样生硬。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "默认舒服模式、动能回收是柔和，驾驶起来体感扎实，过沙井盖时的过滤非常到位，用我老婆的话说不会像毛豆那样绑硬，好评"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "不会像毛豆那样绑硬"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者驾驶SU7经过沙井盖（减速带）。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "过沙井盖时的过滤非常到位"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者尝试开启智驾，发现默认开启的是车道保持，未能体验到NOA功能，推测可能需要考试解锁。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智驾按下去开启的是车道保持，NOA没体验出来，大概是要考试才能用？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在租赁车辆上尝试操作智驾功能。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "因为是租的车，账号是车行的我也就没研究"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者希望SU7推出增程版车型，以解决长途自驾的里程焦虑，目前纯电续航让其感到不安。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "说实话，内心是希望SU7出台增程车型的，我和媳妇喜欢自驾，现在纯电的续航大家懂的，市内开开没问题，出去玩不可能没里程焦虑"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者目前驾驶阿维塔11，虽然关注阿维塔12即将推出的增程版，但因不想家中购买两台同品牌车而犹豫。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看来看去只有阿维塔12马上会出增程，我自己开的阿维塔11，不想家里买两台同品牌的车了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我自己开的阿维塔11"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "喜欢自驾",
+      "希望有增程车型以缓解里程焦虑",
+      "不喜欢家中有多台同品牌车辆"
+    ]
+  },
+  "post_summary": "作者分享了租用SU7标准版自驾的体验，肯定了其空间和底盘滤震表现，但也指出了坐姿不适和智驾功能受限的问题。作者表达了对SU7推出增程版的期待，并因已有阿维塔11而对购买阿维塔12增程版持保留态度。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

@@ -1,0 +1,97 @@
+{
+  "source_posts": 9529,
+  "source_claims": 26936,
+  "source_mentions": 15002,
+  "cohorts": {
+    "全部关联SU7": {
+      "claims": 18087,
+      "posts": 6058
+    },
+    "SU7主对象且引文通过（无比较）": {
+      "claims": 7024,
+      "posts": 3377
+    },
+    "产品体验或风险": {
+      "claims": 3356,
+      "posts": 1810
+    },
+    "明确亲历体验或风险": {
+      "claims": 942,
+      "posts": 465
+    },
+    "当前拥有且亲历使用": {
+      "claims": 297,
+      "posts": 148
+    },
+    "明确未拥有的购车前表达": {
+      "claims": 522,
+      "posts": 255
+    },
+    "已订未提表达": {
+      "claims": 140,
+      "posts": 76
+    }
+  },
+  "evidence_checks": {
+    "passed": 22971,
+    "needs_review": 3965
+  },
+  "claim_fields": {
+    "id": 26936,
+    "claim_type": 26936,
+    "target_products": 26936,
+    "related_event_id": 26936,
+    "event_relation": 26936,
+    "aspect": 26936,
+    "content": 26936,
+    "sentiment": 26936,
+    "journey_stage": 26936,
+    "evidence": 26936,
+    "confidence": 26936,
+    "statement_type": 26936,
+    "comparison": 26936,
+    "experience_basis": 26936,
+    "sentiment_intensity": 26936,
+    "usage_context": 26936
+  },
+  "core_sentiments": {
+    "正面": 190,
+    "正负混合": 19,
+    "中性": 22,
+    "负面": 66
+  },
+  "core_usage_context": 78,
+  "core_product_review": 11,
+  "date_min": "2022-10-28 19:07:14",
+  "date_max": "2026-10-03 11:18:02",
+  "ownership": [
+    {
+      "ownership": "仅试驾或借用",
+      "posts": 26
+    },
+    {
+      "ownership": "已订未提",
+      "posts": 408
+    },
+    {
+      "ownership": "当前拥有",
+      "posts": 1514
+    },
+    {
+      "ownership": "无法判断",
+      "posts": 6877
+    },
+    {
+      "ownership": "明确未拥有",
+      "posts": 680
+    },
+    {
+      "ownership": "曾拥有但已出售或退订",
+      "posts": 24
+    }
+  ],
+  "topic_model_run": false,
+  "model_api_calls": 0,
+  "attributes": "actual source has aspect/content/sentiment; no separate normalized attribute field",
+  "identity_limit": "ownership is model-labeled post-level status; neither real identity nor ownership of SU7 independently verified"
+}

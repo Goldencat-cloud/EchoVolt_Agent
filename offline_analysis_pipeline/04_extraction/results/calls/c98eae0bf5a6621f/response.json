@@ -1,0 +1,165 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c98eae0bf5a6621f",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "#小米su7#"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我是SU7上市那天订的车"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者称提车近半年来，车辆与荣耀手机存在严重的蓝牙连接故障，表现为连接不稳定、重启后无法连接甚至无法启动车辆，严重影响使用。作者认为这是车辆连接软件的问题，而非手机问题。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但交车近半年以来一直存在着质量问题，我的荣耀手机每天与汽车不能蓝牙连接，重新设置后下次启动又不能启动车辆，有时前几分钟重新蓝牙连接，后几分钟停车，蓝牙又不能连接了，严重影响车辆使用。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的手机与其它蓝牙产品均无任何问题，手机购买一年多，应该是你汽车与手机做好匹配，不能甩锅是手机问题，是你们的连接软件问题"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者投诉客服将连接问题归咎于手机数据清理，要求更换手机，且技术人员未能提供解决方案，导致作者不得不频繁重装软件，甚至在无信号处无法启动车辆。",
+      "sentiment": "负面",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "联系客服说荣耀和华为手机数据定期清理致不能连接，只能更换小米和苹果手机"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但技术和客服只是推诿，拿不出解决问题的任何办法，致使我每天几次就删软件装连接软件，有几次在无信号的地方根本启动不了车。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者在无信号的地方尝试启动车辆。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "有几次在无信号的地方根本启动不了车。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者因质量问题严重且售后无果，已向客服提出退车要求，并表示若不解决将集体维权。",
+      "sentiment": "负面",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "气的联系客服要求退车"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如不解决我们将集体维权！！！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我是SU7上市那天订的车"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "但交车近半年以来一直存在着质量问题"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主投诉小米SU7存在严重的蓝牙连接故障，导致车辆无法正常启动或使用。作者指责客服推诿责任，要求解决问题或退车，否则将集体维权。",
+  "post_topic": "故障质量与售后",
+  "analysis_value": "高"
+}

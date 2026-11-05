@@ -1,0 +1,8276 @@
+[
+  {
+    "post_id": "005964f6a1b7cd4e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "006a3ddc8646fdda",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0108e21b02773160",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0123d3d0c54fb05d",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "013b6dc724574b39",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "013c71a6c3d9fc56",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0141b3467c2895c6",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": []
+  },
+  {
+    "post_id": "01426bde42c4a30f",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0155a3d8fa5e09fe",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0157ec6e52bc4edd",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C6/evidence/0:non_contiguous_quote"
+    ],
+    "audit": []
+  },
+  {
+    "post_id": "015822682281947a",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "01586615d6ccc683",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0158a2cdf1c5e5fb",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0158f4a3d433b339",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "016f44a9ed5259bd",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0170262d6a0afb5d",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0172013599db436b",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0177cef765bd92e0",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0183defbca8af753",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0188709d5be7ebc0",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "01889e381e0e602a",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "01908cd2aa98d4bd",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "01b196075f83dd33",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "user_context/evidence/1:non_contiguous_quote",
+      "C2/comparison/0/evidence/0:non_contiguous_quote",
+      "C2/comparison/1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": [
+          "T1",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "021f880033cff39d",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "025409da5e67aa44",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "03c0ee8f61053055",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "03d0c31f0ef9eaae",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "03d2a59efe8d9456",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C3/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "03e059814b5ccf79",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "03ef1960e7335fe5",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "040d3d4a43374dc7",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0412423dec70279c",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "0416be99136d84ee",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E3/evidence/1",
+        "block_id": "I4"
+      }
+    ]
+  },
+  {
+    "post_id": "05405060ecea1d7c",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "claims/C3/evidence/0:non_contiguous_quote",
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "05f91092a02805b0",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "061d12dd17733a57",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/2",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "06215697039cb4ec",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "06a6e58cee65975d",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C1/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C1/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "06a853c273e12be6",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "C2/usage_context/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "C2/usage_context/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "0702d884c8be5261",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C5:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C5:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "0743616621c0c114",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "07d022b5dfe80e9b",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "088d801d8d53e4bc",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "08fb0387d9938739",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C3/evidence/0",
+        "before": {
+          "block_id": "T0",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T1",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "096205630bb7ab5e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0a757ce51a6482b8",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C8/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0a7603f524ff4040",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C10/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "0a9f37eecf74fa97",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C10:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "claims/C5/evidence/0:non_contiguous_quote",
+          "claims/C8/evidence/0:non_contiguous_quote",
+          "claims/C11/evidence/0:non_contiguous_quote",
+          "C8:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "0aefbb6ecfabe5e6",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0c0ed7ec4d6a6d35",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0c310af0af038a92",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0c7b446c6f5f62cb",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0dd5f2ae8efc73cd",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/1",
+        "block_id": "I3"
+      }
+    ]
+  },
+  {
+    "post_id": "0dd7209a88e05c21",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C4:unknown_target",
+          "C4:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "0e18f5ee0c01537b",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/1",
+        "before": {
+          "block_id": "T3",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T2",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "0e32a5b11dc7e457",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "products/P1/evidence/1",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "0eb58012d0b32666",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C1/comparison/1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P8/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0eec814218d4c5e1",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0f0e64e4f60dc72e",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0f73de372a57366e",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "0fd86bde7906a847",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/1:non_contiguous_quote",
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "104a3ffaf809de0e",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/1",
+        "block_id": "T2"
+      }
+    ]
+  },
+  {
+    "post_id": "1196e39b8ccf0b85",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C8/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "12b8fc316152aedb",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/1",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E2/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "12c16e48e5cadc23",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "130a80fddec79943",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "14120f563ae63f98",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "14a43ec59a0d601c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P1/evidence/0",
+        "block_id": "T0"
+      }
+    ]
+  },
+  {
+    "post_id": "156a0e1646547138",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C8:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "162bf4ea52ba0840",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "163c93fdbc0be081",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P1/evidence/0",
+        "block_id": "I0"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P2/evidence/0",
+        "block_id": "I0"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P3/evidence/0",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "16a058efff23922a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "I0"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "17803d209341428a",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P2/evidence/0:non_contiguous_quote",
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "180ace52ac90704e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "events/E1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "183b1c30dccec721",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "189d2f1324cd3b77",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "191d79453c97a7af",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "19daffae5faef3da",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "1a163d8bf065dbbd",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "1a33f10d7e490d69",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "verified_post_id",
+        "path": "post_id",
+        "before": "1a33f10d69",
+        "after": "1a33f10d7e490d69"
+      }
+    ]
+  },
+  {
+    "post_id": "1a68b0561087bd33",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "1ac75eb027d8f7fc",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C9:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C11:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "1b11bdf8aadb82b8",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "1ccce05f7e836615",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/0",
+        "block_id": "T5"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/1",
+        "block_id": "T5"
+      }
+    ]
+  },
+  {
+    "post_id": "1cd4a545434e4d40",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "1e1ba2151cb91bd1",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "1efc292adf35c126",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "products/P2/evidence/0",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T3",
+          "source_type": "text"
+        }
+      },
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C6/evidence/1",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T3",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "1f5e15aa4e210a56",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C11/comparison/0/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "1f6b89daa160066e",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C3/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "202b469e468d0aef",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "20dc8c44da066cd9",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "21172d0ab2d741c1",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/1",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "2145dec9fabf8433",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2187d5ba1951bf2b",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "21c330776c87af39",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "21cc70c51c2a3e16",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "230e7ce9ff852753",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C2/comparison/0/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2345a40ac5b833c5",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "234c1fbe7546955c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "24446ee40ee9eaf0",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "events/E1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2495b44cf24f96d9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "24a4ef0f7637282b",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "254dee1b42d59ea7",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "25853344b45d019a",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C10:emotional_intensity_missing"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "25e2abc37cea819e",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "25f10fd41cb7c938",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2642c597ebf09026",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "272c280f94f3a4a6",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2730a9517d8f296c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "27b0b371cbdd3c91",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P1/evidence/0:non_contiguous_quote",
+      "products/P2/evidence/0:non_contiguous_quote",
+      "claims/C4/evidence/0:non_contiguous_quote",
+      "claims/C6/evidence/0:non_contiguous_quote",
+      "claims/C11/evidence/0:non_contiguous_quote",
+      "claims/C13/evidence/0:non_contiguous_quote",
+      "claims/C15/evidence/0:non_contiguous_quote",
+      "C11/comparison/0/evidence/0:non_contiguous_quote",
+      "C13/comparison/0/evidence/0:non_contiguous_quote",
+      "C13/comparison/1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2a2f8dd1f225be09",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2a80a0da6a03b3a3",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2ab7f8025f3252a9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "2ae4f6c298298232",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2cc54eb6a32a9fce",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "2dc4355973002524",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2dd615612047ebf3",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2e07427ddc94a229",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2f339af16bb8efeb",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "2f59b7ebcbea63a5",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P2/evidence/0",
+        "block_id": "T2"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P3/evidence/0",
+        "block_id": "T2"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P4/evidence/0",
+        "block_id": "T2"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P5/evidence/0",
+        "block_id": "T2"
+      }
+    ]
+  },
+  {
+    "post_id": "2f71f5f0cd4027a0",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "30373a8bc6ea8359",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "303b1b23b1743356",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "30f93baeec1ce169",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "incomplete_response"
+    ],
+    "audit": []
+  },
+  {
+    "post_id": "30fcc89c68d070b4",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "317bea52f197a403",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "incomplete_response"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C10/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "31b784a4629fc48d",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C5:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C5:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "332580b8f788f520",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "claims/C1/evidence/2:non_contiguous_quote",
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "events/E1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "332eab8a1dd9236e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "C2/comparison/0/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "33844b76bd0c5c70",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "C7/usage_context/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "33974cef6e37a04a",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "33ca410282f02db8",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "33d9394748477284",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "34406c548f8560b5",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "3449b22d0b9d9731",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "products/P2/evidence/2",
+        "before": {
+          "block_id": "T5",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T6",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "348b4faf94a898ed",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C9/evidence/0:non_contiguous_quote",
+      "claims/C12/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C8/evidence/0",
+        "block_id": "T8"
+      },
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C9/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "35554dc11f9e1cf4",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P4/evidence/0:non_contiguous_quote",
+      "claims/C3/evidence/0:non_contiguous_quote",
+      "C3/comparison/0/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "3577bbcf5ac7d909",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/0",
+        "block_id": "T6"
+      }
+    ]
+  },
+  {
+    "post_id": "35b90460c4153084",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C3:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "36352f449eb25047",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "3636e18c89d59287",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/1",
+        "block_id": "I1"
+      }
+    ]
+  },
+  {
+    "post_id": "37fef3d6aa3cf3f0",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "39f889ac69f59cbd",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P8/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "3aec3b905393136c",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "3c1dd72f177a6c1b",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "3c7a913b47c3e6a6",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "3cd33d4df720757f",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "3d12863fec638acb",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "3e879cb333d73a98",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/1",
+        "block_id": "I1"
+      }
+    ]
+  },
+  {
+    "post_id": "3e92c3ed8a95d96e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "3f3584abb97a801f",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "40364d2109579582",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4042cd8a230e6ec7",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "40bb64948edcc1ab",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "40d00b8a98ccf1eb",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "40e44704cf5fb626",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "40f8b3d0ca066d23",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "41081abca8440f77",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "413852bf4137ab40",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "415bce59700e03ea",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "425e9e2e53502ef8",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "42ec1fae5b4bc9c2",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "43124da8ddc3f868",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "44ff0c162dcf69de",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C5/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "456dc9afd967c6d3",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "459295d076bc0a43",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "45bb2b1efbc7f583",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "47078af97d4951fc",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/3",
+        "block_id": "I3"
+      }
+    ]
+  },
+  {
+    "post_id": "475e03a7587d4566",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C2/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4978ddd6b66b7afc",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "49bc40a9f29d2543",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "49ef0b2ac57ba3ec",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C4:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "4a3512beadfd483b",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "4a9b36d6cc7c50cb",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4ae0d843a85392fa",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4af09f07b492e0bf",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "4afc8327e65beee3",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "4b45a7895e85964d",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4ba4b227d10967c9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T6"
+      }
+    ]
+  },
+  {
+    "post_id": "4ba7c38d0586f921",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P1/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "4bab71854ea0668a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/1",
+        "block_id": "I0"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/2",
+        "block_id": "I1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/3",
+        "block_id": "I2"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/4",
+        "block_id": "I3"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/5",
+        "block_id": "I4"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/6",
+        "block_id": "I5"
+      }
+    ]
+  },
+  {
+    "post_id": "4bbfcb7375231faf",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4bccadaac665e9f0",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4be6f515de74bf9e",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4bfe0c82261084c6",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4cc7b83fb46f70c1",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4dcfbba6468ec7a4",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "4f07304e0adcf900",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "50811bb41f975522",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "5093a6711dee86f7",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "50cc839d43fd4051",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "51060a0c68de8bf9",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "516de3bb151ac519",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P7/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "51934d73628abc86",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "51ece7670298fc3d",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "524fbfecaedb0664",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "536d185ad87236d3",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "53be214e2264ff00",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "53de08ef0e05d34c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "546a6f6664fd68f3",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "548092d4d60b7a56",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "550e008112e8face",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "550f8fb21c04661a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "5525a966b8486eb1",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "5582c42fbb57f707",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "55937b125db8cb8a",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "560ba054758a7469",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "576e4a6a9d97f725",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "59154aae1631a44b",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C10/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "59574e8ec9e77d1e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "59584b1e82c9f50b",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/2",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "598763d40138cd70",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "59b2847ec57440c2",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "5a048566a45f422e",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "5a61d4bb7465745a",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C1/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "5b94ad50424b4d2f",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "5ba054a7898709d6",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "5bfec4741497cb22",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "products/P2/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "I0",
+          "source_type": "image_summary"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "5c10617cb5d67bf1",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "I1"
+      }
+    ]
+  },
+  {
+    "post_id": "5c34aa83de93061f",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "5d3da33d2259c69b",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "events/E1/evidence/1",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "5dc29dc6d9219740",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "5ddd484df7815ddc",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "5e0f71d797392169",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "5f05383d167ba1f3",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote",
+      "C3/comparison/0/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "5f22ba1898ab554a",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C4/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "60ba87bbc0f04019",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C1:unknown_target"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C2:unknown_target"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "61454ae0472847c0",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "61673ab5180d13dd",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C1/comparison/1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "625be9e16bc14edc",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "C1/comparison/0/evidence/0:non_contiguous_quote",
+      "C1/comparison/1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "628cf00bfd6e51be",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "62bf1fd2ac3e173e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "62e53557c291e409",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "6336cf5ab8b95a43",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "633dd24442c1e181",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "6380c8defeb94a62",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "C2/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "643f1840f2ab7279",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T3"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C6/evidence/0",
+        "block_id": "T4"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E2/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "661fca18310ff4ee",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/0",
+        "block_id": "I4"
+      }
+    ]
+  },
+  {
+    "post_id": "665869f72181e855",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "66b1757fa8bf2bc5",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "C1/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "670cc54698dcaf93",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "6741255cbd13059f",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "674af4269b9653c2",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C4:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "67ba825a07a54c8c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "verified_post_id",
+        "path": "post_id",
+        "before": "67ba825a07a4c8c",
+        "after": "67ba825a07a54c8c"
+      }
+    ]
+  },
+  {
+    "post_id": "67e4634e6f4c6403",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/0",
+        "block_id": "T4"
+      },
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "681d1b741bbc2fe2",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/2",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "68906556a2cba776",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P2/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "68a25433f8bd482d",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C6/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "698b9bda602925fa",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote",
+      "claims/C6/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "69f237788575cc6e",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E2/evidence/0",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "6b6c0419964bb5bc",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "6c60e0b93a14f308",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "6c68d193c53a1c40",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "6e0f3b57bffda560",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/0",
+        "block_id": "T2"
+      }
+    ]
+  },
+  {
+    "post_id": "6fb533afafcfd149",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "6fb71f76dd959c3a",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C2:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "7019eb26140e189e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P3/evidence/0:non_contiguous_quote",
+      "products/P4/evidence/0:non_contiguous_quote",
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7088cf69aed28591",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "71a9497058dfd3cd",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T4"
+      }
+    ]
+  },
+  {
+    "post_id": "72573b074246cca8",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "72f2d4a9cbfa0727",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "73a9d2610ddef4c5",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "73c02ade7731178a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "7465bc643f4c6659",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "74f796258994ca7d",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E2/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "753f89351561ce4f",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "76b659bf0bba4a12",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "T2"
+      }
+    ]
+  },
+  {
+    "post_id": "780f197675268ae7",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "C2/comparison/0/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "781b66eeecf4f4e4",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "7860d56203a9c755",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "C7/usage_context/evidence/0",
+        "block_id": "T7"
+      }
+    ]
+  },
+  {
+    "post_id": "78b6f4f86826b3bd",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "T2"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "79094f1818f495a6",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "796c6a2ee806b85c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "7aa3b4fffc1c0283",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7b28994cb7bf3840",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote",
+      "user_context/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7b3686edba4027b3",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "events/E4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7b70859956d87b33",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7c29e1246eee2568",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      },
+      {
+        "rule": "unique_block_reassignment",
+        "path": "C1/usage_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "7c56b0f1ec4e188e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote",
+      "C4/comparison/0/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7d0936716dd03a76",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "claims/C15/evidence/0:non_contiguous_quote",
+          "C8:emotional_intensity_missing"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "7d5058cd13bf3ef9",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C6/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7da9469e24bfc051",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "7dda6e38e43ccbd3",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7ecfe5f2e1326f36",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7ee0bce8da04ca88",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7f13f66fe2a80053",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7f7b79379a073958",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P2/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "products/P2/evidence/1",
+        "before": {
+          "block_id": "T5",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T4",
+          "source_type": "text"
+        }
+      },
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "7f9e9fe7db791c6c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "7fcb0daed8901fa1",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "events/E1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "808e972baf4978cd",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P5/evidence/0:non_contiguous_quote",
+      "products/P6/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "811a0e58693ad6b6",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "81c393fb2e5f2cff",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "829526bbcbfbeed9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C8/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "829f0d86fa953493",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "events/E1/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "82d60e9c2818be50",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C7/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "838d0f1dcd762572",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "events/E1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "84158015be934608",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C1/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "84d49aca3dd90022",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote",
+      "C3/comparison/0/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "84fb60584f1f3420",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C2/evidence/1",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T3",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "85812323680c4bf6",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/1",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "85ad65d0e2022a48",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "862e50062105dc55",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "863330530b5f545a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "86431321756f266d",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "867fdc25f81307c5",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "868697c2150fd077",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E3/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "86bb8a1e3b150158",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "874bb703f94e6332",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "874d7b2244189491",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C8/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "87a5a9e429c2a4b9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "88b8913a9755fd7a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "8a365cbba5bbe4f5",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "8a3de2607e8f1e33",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "8a82eb534da20b66",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "events/E1/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "8bc4ec633e8c7efa",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "8be43c6cbb91fad7",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T5"
+      },
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "C4/comparison/0/evidence/0",
+        "block_id": "T5"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "C4/comparison/1/evidence/0",
+        "block_id": "T5"
+      }
+    ]
+  },
+  {
+    "post_id": "8c10941a1e8e9fd8",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/0",
+        "block_id": "T7"
+      }
+    ]
+  },
+  {
+    "post_id": "8c6d4d3f0fda8dd6",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "8cec4a76425229b4",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "8cfa228ea41707ba",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "8d76b57ddbeb45e9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "8dbbd95de50f8d7d",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C6/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "8dbfb8971d7a35d4",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "8dcb1db8a9a63a3d",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C2/evidence/0",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T1",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "8e9032959634ba60",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "8fab4ec3ed1e7572",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "90063031211a0b85",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "9070ce14e40d85a0",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C6/evidence/0:non_contiguous_quote",
+      "claims/C11/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "908014ebc5ad8725",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C8/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "91036825471ae53d",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9133f5d3ebf0ba1d",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "events/E2/evidence/0",
+        "before": {
+          "block_id": "T3",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T2",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "9172e131b4083847",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C9/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": []
+  },
+  {
+    "post_id": "91aad126cd134ca2",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C1/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C1/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "91c3dc5086ac03b9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "products/P1/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "921be0683e2dbc69",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "92fa5a3bcc43b851",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9300403372a6b4eb",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "935054a155ae418c",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "93eee5112ead9794",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "945eb9ff4d6e2fbd",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "95198fa9aeebebe3",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "9592b0d9d8252647",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "960b4b1d4dfbc553",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "96e0994fe07b3189",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P1/evidence/0:non_contiguous_quote",
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "events/E1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "982551763fd4430f",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C1/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "991ea339f1e34b6b",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C8/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "997623ec6199f07a",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "99d23932f00aede7",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C2/evidence/0",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T1",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "9a5d27f95e2549ff",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9b9def3d756479d7",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9bf242ecb99d9629",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/2:non_contiguous_quote",
+      "user_context/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/2",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9c321b23cdb025ad",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9d41cff5bbad9f56",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9db6e35d75d06e94",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9dc672b8073c8b49",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      },
+      {
+        "rule": "block_match_not_unique",
+        "path": "C5/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9e01a6c778b1cfc6",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9e2a57e3507d7501",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C6/evidence/0",
+        "block_id": "T4"
+      }
+    ]
+  },
+  {
+    "post_id": "9e629b29d025976c",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9e8db18c275ccca3",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9f1ac87cab4318c5",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "9f2daaa9afeccb73",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C2:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C2:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "a09595dba813b161",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C3:comparison_unknown_product",
+          "C5/usage_context/evidence/0:non_contiguous_quote",
+          "C5:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "a11bf5dfd76271bd",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a19ce2a002a996f7",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a2036b145d89e10a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C6/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "a287b64501df635e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "E11:unknown_product",
+      "C11:unknown_target"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "E11:unknown_product",
+          "C11:unknown_target"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "a2bec7263052ef37",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C4:unknown_target",
+          "C4:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "a2d28ad6e250b491",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a2d95d0e3e155bb3",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/1",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "a37aeee86afc2ce5",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/1",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "a3bac8b4552b5e66",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "a40162b06f205ff8",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "a541460169727715",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/0",
+        "block_id": "T0"
+      }
+    ]
+  },
+  {
+    "post_id": "a609c72c93d8e95a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C11/evidence/0",
+        "block_id": "T4"
+      }
+    ]
+  },
+  {
+    "post_id": "a665497c45e93117",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a77d27820b76f9cb",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C3/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a7a83fe25aae8d5c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P2/evidence/0",
+        "block_id": "I0"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P3/evidence/0",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "a829169c88ff6fcc",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C10/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C9/evidence/1",
+        "block_id": "I15"
+      },
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C10/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a831eed84fabe143",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a851e50fdb50100d",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C1/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "a91a36cbf360537f",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a9311478f0028111",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/1:non_contiguous_quote"
+    ],
+    "audit": []
+  },
+  {
+    "post_id": "a9559665708c8d7f",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      },
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a978e1d4810074cf",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C2/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "a9d95e3e99ac9db6",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "aa7407f0e9ef672b",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C7:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "aabad5828ee85196",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "aad57e1fd6701ce3",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "verified_post_id",
+        "path": "post_id",
+        "before": "aad57e1fd67e1ce3",
+        "after": "aad57e1fd6701ce3"
+      }
+    ]
+  },
+  {
+    "post_id": "ac8ad0ccfa3da466",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "C1/usage_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "afcb71030102c93f",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C7:comparison_self_relation"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C7:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "afed3bef53fcc34e",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C2:unknown_target",
+          "C2:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "aff3ac1e52d9d624",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b1a697854c5fae80",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/2",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b38c340131d74cbd",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "b3d2c86044f29514",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C3:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "b40da0ad225af315",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "b4ce17a956910c23",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C3/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b5373136302eb9ab",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b55b836705a079cb",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "b578fa8dcf926492",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "b5c371412efd6de2",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b5cd04e3a9fcfdc1",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b676c14a4d919dc7",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b684b4eac08aa407",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b725f5eb249be223",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P3/evidence/0",
+        "block_id": "T0"
+      }
+    ]
+  },
+  {
+    "post_id": "b7a47eb082572818",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "b7a496ff68c48aa4",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b8226a788609c430",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C3/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b8964bdc5cd3c968",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C6/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b91d62bfda17ae1e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "events/E1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "b9e6cbcdfb0218a1",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "verified_post_id",
+        "path": "post_id",
+        "before": "b9e6cbdfb0218a1",
+        "after": "b9e6cbcdfb0218a1"
+      }
+    ]
+  },
+  {
+    "post_id": "ba92fa9f7ea15159",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "baa4477aa2e7c722",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "user_context/evidence/0:non_contiguous_quote",
+      "user_context/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "bb7234bffdd26c78",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C8/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "bc374b41318e400d",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C2/evidence/1",
+        "before": {
+          "block_id": "I1",
+          "source_type": "image_summary"
+        },
+        "after": {
+          "block_id": "I2",
+          "source_type": "image_summary"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "bcfc7722269cf0b9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P1/evidence/0",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "bd01e8ddbbb49d86",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "bdbfae5888386cff",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C7/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "bdfa0a75951c6411",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C9/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "be2766680585f554",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "be3a8b452d4df298",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "beffa90e885cb207",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c07635474d91649e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c0b6174e7fc6dd4e",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/0",
+        "candidate_block_ids": [
+          "I0",
+          "I1"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "c13e1a5cf0e72101",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c2347030cf56be80",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/1",
+        "block_id": "T2"
+      }
+    ]
+  },
+  {
+    "post_id": "c2709974dd0e3560",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "c2d2a1fe5fa874a8",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c2f084a202d9a981",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C5/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c34a9ed5100de6e2",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C7/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c45e9ea78c92d471",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c461b821cdfb74a3",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C5:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C5:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "c473082466ffefdf",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c48840b76f1ba922",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "events/E1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c4be1c04e8af1733",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "products/P1/evidence/1",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "c4d21c002a92de48",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "products/P1/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "c5120b889a79616d",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "verified_post_id",
+        "path": "post_id",
+        "before": "c5120b89a79616d",
+        "after": "c5120b889a79616d"
+      }
+    ]
+  },
+  {
+    "post_id": "c526592d83756e9e",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c6661707607dec0b",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C5:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "c6a09688d46de504",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C8/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c7d6e22c03a87a7d",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c812debf17aa4896",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P1/evidence/1:non_contiguous_quote",
+      "products/P5/evidence/0:non_contiguous_quote",
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "c8773c0e6aeb4802",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "c98eae0bf5a6621f",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "ca18f80ee16cb7e3",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "ca7cd2ad44e89e12",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C5/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C3/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "cabf209a9b617ff3",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P1/evidence/0:non_contiguous_quote",
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "cbb21f078f7c9a49",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote",
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "cc7da07e09b79c3a",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P5/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "cc913fdbcfd2f2de",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C1/comparison/0/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "cc93dd1d49b4eeca",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "ccd9855207a0e30c",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C4:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C4:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "cd64371f3a6d0779",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "cd84fa8163f826e3",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "ce909c9156968860",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "cf0ab413b48c6c7b",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C12/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "cf23c37260d957a3",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "cf3b1efb2e7482ee",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T1",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "cf60c3840bdc2586",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "d0e2c17a8720ef09",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/0",
+        "block_id": "I2"
+      }
+    ]
+  },
+  {
+    "post_id": "d15c69216dc8b3de",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": []
+  },
+  {
+    "post_id": "d15d2ab4056e6009",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "d233386ee6e224e9",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C9:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C11:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "d2da828fa83fef89",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "d311f24f204bc27c",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C6/evidence/0:non_contiguous_quote",
+      "claims/C7/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "d386334ae74d6b6e",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "d39412d1e3861b85",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C6/comparison/0/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "d3d52696d0c06335",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "d3ede0bc9cd7b2b9",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/2",
+        "block_id": "T4"
+      }
+    ]
+  },
+  {
+    "post_id": "d47d1453278cfaae",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/0",
+        "block_id": "T4"
+      }
+    ]
+  },
+  {
+    "post_id": "d57dfbf19cc87730",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C3/comparison/1/evidence/0:non_contiguous_quote",
+      "C3/comparison/2/evidence/0:non_contiguous_quote",
+      "C3/comparison/3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C3/comparison/1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "d5a3bc4dfa934e41",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/7:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/3",
+        "block_id": "I3"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/4",
+        "block_id": "I4"
+      },
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/7",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "d5d9e84d3ac930df",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E2/evidence/1",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "d609e4a8740042f4",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "d72a418ef4241a28",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C3/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "d7b6848796245b94",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "d8285586508b9684",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "C2/usage_context/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "d89aca7cba68ad3c",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C1/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T2",
+          "source_type": "text"
+        }
+      },
+      {
+        "rule": "unique_block_reassignment",
+        "path": "events/E1/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T2",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "db43d1e952fa6b28",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "dba9e986c80ca2d4",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C8/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C8/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "dc9c36465dd29b5b",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C3/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "dd482866cca34719",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "ddcdb82fd7b105ad",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": []
+  },
+  {
+    "post_id": "de0b5c673e92003e",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "de5eaa8a942c9873",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "df0b0cba94b66101",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "dfbc0acf057e4cee",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e00d5fb65808e153",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e025c3a4e459d18f",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e1ddfd4a42f767b1",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C8/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C11/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e2fd989d4af80984",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C6/evidence/0",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T3",
+          "source_type": "text"
+        }
+      },
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T2",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T3",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "e33a2bd19b9bf5ef",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e3b349b0069e0ff1",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/1",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "e3f395f96bef110a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "e492c1659aa185bc",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C5:comparison_unknown_product",
+      "C7:unknown_target",
+      "C7:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C6:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "e4aeb5c8c3e92196",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e52a651099f74e02",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C7/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e59a053a034d1cda",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "incomplete_response"
+    ],
+    "audit": []
+  },
+  {
+    "post_id": "e5ce121da7b93220",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P2/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e75707f958fa9f02",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e800efa0637f32ea",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "schema:claims/1/comparison/product_ids:uniqueItems"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "e802da62e2196e10",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "e9199de6a48da7aa",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "eae88757f846d9b4",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C11/comparison/1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C11/comparison/2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "eb2c8bf83ec57043",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "incomplete_response"
+    ],
+    "audit": []
+  },
+  {
+    "post_id": "ebe6e9bdb5cbc7b2",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T4"
+      }
+    ]
+  },
+  {
+    "post_id": "ed6a40d80e656411",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "edaa1dd602429a78",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "claims/C2/evidence/1",
+        "before": {
+          "block_id": "T3",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T2",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "edb56d8cc7d8a42d",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C7/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "ee25ecfdd6b3f588",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": [
+          "I0",
+          "T1"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "ee97c8b852a39ff4",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C3/usage_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C3/usage_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "ef1a551af097fb36",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "user_context/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "user_context/evidence/0:non_contiguous_quote",
+          "C2:comparison_self_relation",
+          "C2:comparison_self_relation"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "ef465ac037a01f97",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f0406ec91ff6c134",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f10dac6ae74e7156",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f1940fef5f7fd92a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P2/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "f228c2d8a45c8ec4",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "f254349071476e37",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C6/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "f27ad96d0391be8c",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "products/P3/evidence/0:non_contiguous_quote",
+      "products/P4/evidence/0:non_contiguous_quote",
+      "products/P5/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f2ed07172b61fbf2",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f30847322bea8c24",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "f35c6772e5a95dc2",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C2/evidence/0:non_contiguous_quote",
+      "claims/C4/evidence/1:non_contiguous_quote",
+      "events/E1/evidence/1:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f3b4054be32ac8ce",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "user_context/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f4258c7d0c1b7a93",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f437087280287713",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "f4597d467ee355bd",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C4/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C4/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f4794e6a84725ce7",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/0",
+        "block_id": "T5"
+      }
+    ]
+  },
+  {
+    "post_id": "f4be6e3905bf623a",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P1/evidence/1",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f5285aa181647ba0",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C4/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "f53c86aa4dcb4bde",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/0",
+        "block_id": "T5"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C5/evidence/2",
+        "block_id": "T7"
+      }
+    ]
+  },
+  {
+    "post_id": "f54b41f215f6a3d6",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unique_block_reassignment",
+        "path": "user_context/evidence/0",
+        "before": {
+          "block_id": "T1",
+          "source_type": "text"
+        },
+        "after": {
+          "block_id": "T0",
+          "source_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "post_id": "f6bc65f31e332cbd",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C3:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "f6cd1c4a1d51aa8a",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E2/evidence/1",
+        "block_id": "I5"
+      }
+    ]
+  },
+  {
+    "post_id": "f6dc81220a03aba1",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C3/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f6f4d7be7e8283bb",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C6/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f78bdc86613a8377",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C2/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "f8db50e2c95ce854",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f92e1c13457ed732",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f942b2f2406de171",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C2/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f9b09c02b1c9ff24",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C7/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "f9fac2e67581d40e",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P1/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P2/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P3/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P4/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P5/evidence/0",
+        "block_id": "T1"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "products/P6/evidence/0",
+        "block_id": "T1"
+      }
+    ]
+  },
+  {
+    "post_id": "fb1b0c00e05a5588",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "C4/comparison/1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "fb3a2931664e2229",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C1/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "fb7ba91514c5d971",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C3:comparison_self_relation"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "products/P6/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "fc1abc98bb4f6bea",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C6:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C6:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "fc3fdc982edcc92e",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C1/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "fc986f99d7eafd3c",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "C5:unknown_target",
+      "C5:comparison_unknown_product"
+    ],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "C5:unknown_target",
+          "C5:comparison_unknown_product"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "fcabbd86f3f00201",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "C5/usage_context/evidence/0",
+        "block_id": "T3"
+      }
+    ]
+  },
+  {
+    "post_id": "fd7dd3c57160bed4",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "events/E1/evidence/1",
+        "block_id": "I0"
+      }
+    ]
+  },
+  {
+    "post_id": "fd9c7a95966e4889",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "verified_post_id",
+        "path": "post_id",
+        "before": "fd9c7a959669",
+        "after": "fd9c7a95966e4889"
+      }
+    ]
+  },
+  {
+    "post_id": "fdc1a722f97cfeff",
+    "decision": "rerun_once",
+    "state": "FAILED",
+    "errors": [
+      "claims/C8/evidence/0:non_contiguous_quote"
+    ],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C8/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  },
+  {
+    "post_id": "fed160dda67ca490",
+    "decision": "deterministic_repair",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "claims/C1/evidence/0",
+        "block_id": "T0"
+      },
+      {
+        "rule": "unicode_punctuation_format",
+        "path": "user_context/evidence/0",
+        "block_id": "T0"
+      }
+    ]
+  },
+  {
+    "post_id": "feecd84210762a1d",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "unsupported_contract_error",
+        "errors": [
+          "E2:unknown_product",
+          "C5:unknown_target"
+        ]
+      }
+    ]
+  },
+  {
+    "post_id": "ffba4009956849d1",
+    "decision": "rerun_once",
+    "state": "CONTRACT_PASS",
+    "errors": [],
+    "audit": [
+      {
+        "rule": "block_match_not_unique",
+        "path": "claims/C7/evidence/0",
+        "candidate_block_ids": []
+      }
+    ]
+  }
+]

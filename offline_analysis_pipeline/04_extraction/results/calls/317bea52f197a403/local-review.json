@@ -1,0 +1,29 @@
+{
+  "post_id": "317bea52f197a403",
+  "state": "FAILED",
+  "cache_key": "eb574b371e4ded9cf45e37f3dbe31e55745d13a9ad2982afe13f2ecfe906601c",
+  "schema_parsed": false,
+  "payload": null,
+  "errors": [
+    "incomplete_response"
+  ],
+  "original_errors": [
+    "claims/C10/evidence/1:non_contiguous_quote",
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 17107,
+    "completion_tokens": 8192,
+    "total_tokens": 25299,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 14720
+    }
+  },
+  "elapsed_s": 35.41940600000089,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

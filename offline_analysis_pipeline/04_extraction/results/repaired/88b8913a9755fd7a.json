@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.3",
+  "post_id": "88b8913a9755fd7a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米汽车SU7已于1月22日进行批量生产"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "有接近雷军的小米前期员工透露，雷军可能在为首批购买小米汽车且无北京牌照的车主赠送牌照，小米方面未做官方回应。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2月23日，有接近雷军的小米前期员工透露称，“雷军正在憋大招，首批购买小米汽车的车主，如果没有北京牌照，可能会赠送牌照。”对此，小米方面未做官方回应。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "北京市公安局公安交通管理局相关人员表示，车牌需要摇号，目前没有接到买小米车可以送车牌的通知。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "北京市公安局公安交通管理局相关人员称：“ 车牌是需要摇号的，目前我没有接到相关通知说买小米车可以送车牌 ”。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "小米SU7已于1月22日开始批量生产，预计3月产量约4000台，4月底产能爬坡，6月开始两班倒，2024年计划量产约7万台。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米汽车SU7已于1月22日进行批量生产，预计3月产量计划有望达到4000台左右，4月底产能爬坡，6月开始两班倒生产，2024年计划量产约7万台。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "雷军在央视采访中表示，由于配置丰富成本高，网友猜测的低价是玩笑，小米SU7定价可能确实会有点贵。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米集团创始人、董事长雷军此前在接受央视采访时表示“小米SU7整体配置足够丰富，所以成本很高，像网友们喊的99000元、149000元甚至199000元，我觉得都是在开玩笑，小米SU7定价可能确实会有点贵”"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "北京交管局回应小米汽车送车牌传闻",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "北京交管局回应小米汽车送车牌传闻"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "北京市公安局公安交通管理局相关人员称：“ 车牌是需要摇号的，目前我没有接到相关通知说买小米车可以送车牌 ”。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "针对首批小米汽车车主可能获赠北京牌照的传闻，北京交管局人员回应称车牌需摇号，未收到相关通知。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了关于小米汽车首批车主可能获赠北京牌照的传闻，并引用北京交管局的回应予以澄清。此外，文章还汇总了小米SU7的生产进度、产能规划以及雷军关于车辆定价偏高的表态。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

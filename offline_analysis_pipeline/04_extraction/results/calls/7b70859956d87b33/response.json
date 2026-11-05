@@ -1,0 +1,126 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7b70859956d87b33",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7 Ultra"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7ultra"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者指出小米SU7 Ultra的空气套件版本谍照已曝光，并提到该版本的大尾翼设计令人印象深刻。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "谍照曝光 小米SU7 Ultra空气套件版本现身"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这个大尾翼太吓人了"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者推测小米SU7 Ultra空气套件版本今年不太可能上市。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前还不知道啥时候上市，今年应该是不可能的了"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra空气套件版本谍照曝光",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "谍照曝光 小米SU7 Ultra空气套件版本现身"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米SU7 Ultra的空气套件版本伪装测试车照片流出，展示了其外观细节。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分享了小米SU7 Ultra空气套件版本的谍照，作者对该版本的大尾翼设计表示关注，并推测该版本今年不太可能上市。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

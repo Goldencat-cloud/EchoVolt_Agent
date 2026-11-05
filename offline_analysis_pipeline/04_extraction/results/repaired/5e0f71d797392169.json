@@ -1,0 +1,240 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5e0f71d797392169",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "SU 7Ultra提车是要排队的"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 Ultra(图片|配置|询价)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "性能比肩保时捷"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "服务与交付",
+      "content": "帖子指出小米SU7 Ultra提车需要排队，官方APP显示提车需等待20周以上。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "SU 7Ultra提车是要排队的"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "官方APP显示提车需等20周以上"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称小米SU7 Ultra在二手市场出现加价现象，车商标价最高达65万，比官方指导价高出约12万。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新车还没捂热，就被车商标价65万摆上货架，比官方指导价足足高出12万!"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子描述了小米SU7 Ultra订单转卖市场的情况，称有用户加价2000-5000元转让订单，最高被炒至6万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "首批支付意向金的用户...加价2000-5000元。最疯狂时，一张订单被炒到6万"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "帖子引用网友调侃，批评小米SU7 Ultra的高溢价现象违背了“价格厚道”的品牌形象，并讽刺其为“理财新宠”。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "网友调侃:\"雷总连夜删除了‘感动人心，价格厚道’的 PPT。\""
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "愣是把“性价比之王”玩成了“理财新宠”"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子指出小米SU7 Ultra官方起售价为52.99万，相比之前公布的81.49万降低了近30万。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7 Ultra官方起售价52.99万，比去年公布的81.49万直降近30万"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra上市后供不应求及二手市场炒作",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上市仅一周，竟成了二手车市场的硬通货"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2小时卖光一年指标"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "小米SU7 Ultra上市后订单火爆，导致提车周期延长，进而引发二手车市场和订单转让市场的加价炒作现象。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了小米SU7 Ultra上市后因供不应求导致的提车排队现象，以及由此引发的二手车加价和订单转卖炒作热潮，并引用了网友对此类“理财产品”化现象的调侃与批评。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

@@ -1,0 +1,44 @@
+{
+  "post_id": "03ef1960e7335fe5",
+  "state": "CONTRACT_PASS",
+  "cache_key": "6196c0ccab92cefcfa92f88da54a41d947ce55fbbcd348bcfadda10674addcf3",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "03ef1960e7335fe5",
+    "products": [],
+    "claims": [],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子标题和正文均为简短的感叹和提问，缺乏具体语境和实质信息。",
+    "post_topic": "其他",
+    "analysis_value": "低"
+  },
+  "errors": [],
+  "original_errors": [
+    "api_transport_or_json_error"
+  ],
+  "usage": {
+    "prompt_tokens": 9968,
+    "completion_tokens": 168,
+    "total_tokens": 10136,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 1.1141031000006478,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

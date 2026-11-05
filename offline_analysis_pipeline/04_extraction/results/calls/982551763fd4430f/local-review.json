@@ -1,0 +1,180 @@
+{
+  "post_id": "982551763fd4430f",
+  "state": "CONTRACT_PASS",
+  "cache_key": "630ff1242daffaec56f913ebb293ede9b9e51ac45341436477ea7eed5a29f3c3",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "982551763fd4430f",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "联系了官方的售后...不过小米售后服务还是挺高效的"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "让我对小米还是有信心的"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者的新车提车不到一个月，右后轮胎因扎入钉子导致严重漏气，胎压在短时间内从2.3降至2.1，最终需更换轮胎。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "新车刚提不到一个月就换新胎...胎压掉到了2.3...过了十分钟掉到了2.1，基本就是肯定爆胎了"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "右后胎扎了钉子"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在新车提车不到一个月内，于夜间发现车辆胎压异常。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "当天溜车完回家后...洗完澡后发现胎压掉到了2.3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者原本预计更换轮胎只需几百元，但官方售后报价高达2500元，令作者感到意外和压力。",
+        "sentiment": "负面",
+        "journey_stage": "维修与售后",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我当时想着几百块钱要给出去了，结果一等报价要2500"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者对小米售后的响应效率和服务流程表示满意，认为工作人员高效且后续回访细致，增强了对品牌的信心。",
+        "sentiment": "正面",
+        "journey_stage": "维修与售后",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米售后服务还是挺高效的，1点出头就开始过来这边看车子的情况"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "此次维修服务还是挺满意的，让我对小米还是有信心的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新车刚提不到一个月"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "车主吐槽新车提车不到一个月右后胎扎钉漏气，虽对2500元的换胎报价感到意外，但对小米售后的高效响应和细致服务表示满意。",
+    "post_topic": "故障质量与售后",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "C1/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11096,
+    "completion_tokens": 1368,
+    "total_tokens": 12464,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.291015199996764,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

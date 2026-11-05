@@ -1,0 +1,151 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f6cd1c4a1d51aa8a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7青春版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "青春版",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "我会等等小米su7的青春版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "画面展示了一场新车发布会现场。舞台中央的大屏幕上清晰显示了“XIAOMI SU7 标准版”字样以及巨大的价格数字“21.59万元”。"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "画面背景为发布会现场的大屏幕，顶部居中显示白色文字“Xiaomi SU7 Pro”。"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者表示会等待小米SU7青春版，暗示目前暂不购买现有版本，可能在等待更低价格或更适合的版本。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "我会等等小米su7的青春版"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7发布会公布标准版售价",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "该图片记录了小米SU7标准版在发布会上的官方定价时刻。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "图片说明描述了小米SU7标准版在发布会上公布价格为21.59万元的场景。"
+    },
+    {
+      "id": "E2",
+      "name": "小米SU7 Pro配置及权益发布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "屏幕下方列出了该车型的几项核心参数...以及“小米智驾 Max 城市NOA”。"
+        },
+        {
+          "block_id": "I5",
+          "source_type": "image_summary",
+          "quote": "下方列出了具体的配置组合逻辑：“标准版”（标价21.59万元）加上“130km续航”..."
+        }
+      ],
+      "confidence": 0.85,
+      "summary": "图片说明描述了小米SU7 Pro在发布会上展示其核心参数、配置组合逻辑及相关权益的场景。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "我会等等小米su7的青春版"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者表示会等待小米SU7青春版，暗示对现有版本持观望态度。配图展示了小米SU7标准版和Pro版的发布会现场，包括价格公布、智能驾驶系统及赠送权益等信息。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

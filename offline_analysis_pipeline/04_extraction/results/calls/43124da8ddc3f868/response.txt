@@ -1,0 +1,203 @@
+{
+  "schema_version": "2.3",
+  "post_id": "43124da8ddc3f868",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "定位中大型纯电SUV的小米YU7已正式发布官方图片"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车首款量产车型SU7正式亮相"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者指出小米YU7已发布官方图片并在工信部登记，预计明年上市，文中提及听说会在6、7月上市。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "定位中大型纯电SUV的小米YU7已正式发布官方图片，并在工信部进行登记，预计明年将会正式上市发售。据说会在6、7月上市。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者表示小米YU7是其2025年最期待的年度车型。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同时也成了我2025最期待的年度车型"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为YU7外观设计饱满、低趴，颜值在线，并指出其设计语言与SU7基本一致。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "从外形来看YU7就是SU7的SUV化，整体设计语言基本保持一致...整体尺寸结合组合起来，可以用两个词来形容：低趴、饱满，我个人认为颜值还是非常在线的。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者根据申报情况分析，YU7车长为4999mm，宽1996mm，高1600mm，轴距3000mm；配备前220kW、后288kW的双电机；电池为三元锂电池，但品牌和容量不确定。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车长4999mm，宽度1996mm，高度1600mm，轴距3000mm。...根据申报情况双电机分别为前电机220kw，后电机288kw。电池包采用只知道三元锂电池，不确定是什么品牌和容量。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米YU7工信部登记及上市预告",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "定位中大型纯电SUV的小米YU7已正式发布官方图片，并在工信部进行登记，预计明年将会正式上市发售。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米YU7已发布官方图片并完成工信部登记，预计明年上市，文中提及可能在6、7月发售。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "同时也成了我2025最期待的年度车型"
+      }
+    ],
+    "confidence": 0.8
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了小米即将上市的YU7车型，基于官方图片和工信部申报信息介绍了其外观设计与尺寸参数。作者表达了对该车型的强烈期待，认为其设计延续了SU7的风格且颜值较高。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

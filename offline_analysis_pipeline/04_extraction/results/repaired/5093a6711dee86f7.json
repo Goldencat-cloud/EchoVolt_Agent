@@ -1,0 +1,387 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5093a6711dee86f7",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7pro 提车分享"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 后驱超长续航高阶智驾Pro版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "竞品对比上，我只试驾了特斯拉model3"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米SU7的外观最具吸引力，续航、安全和品牌因素共同促成了其快速下单的决定。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米最吸引我的就是外观了，但肯定光有颜值也不够，续航、安全、品牌是支撑我坚定选择的其他考虑因素。从有买车的念头到下定只用了一周"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为特斯拉Model 3内饰过于精简且屏幕挂档令人不安，相比之下更喜欢小米SU7保留物理按键的设计。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比起小米，其实特斯拉开起来也不错，内饰精简，对我来说其实有点过于精简了，我还是喜欢该有的按钮都在的。另外就是，特斯拉的屏幕挂档让人没有安全感，很担心它屏幕死机什么的，果断放弃了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "智能座舱与车机",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "我还是喜欢该有的按钮都在的。另外就是，特斯拉的屏幕挂档让人没有安全感"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在购车前对两款车进行了试驾体验。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "周末试驾了某品牌后，小米作为第二个试驾车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者记录了小米SU7 Pro的详细购车费用，包括裸车价25.29万、装饰约1万、保险5900多，最终落地价约为26.93万元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "裸车价：pro车型无选配装置，只有颜色紫色加了7000，总计25.29万元。... 最终落地价格大约269300元左右。"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者对小米SU7的外观非常满意，认为其颜值耐看，且紫色内外配色是其最喜欢的搭配。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "颜值：怎么看都看不腻，虽然已经上市这么久了，还是会有路人夸车好看。紫外紫内也是我最喜欢的搭配。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者表示小米SU7 Pro的低风阻续航表现稳定，满电实际行驶650多公里，几乎没有续航焦虑。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "续航：pro低风阻续航嘎嘎稳，满电650多实际里程，很少有续航焦虑。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为小米SU7的智能驾驶虽非顶尖但足够实用，特别是在长途高速和狭窄车位停车场景中表现稳健。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智能程度：智驾称不上顶尖但确实也足够用了，尤其是长途跑高速的场景和有些窄车位停车场景，还是比较稳的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在长途高速公路及狭窄车位停车场景下使用了智能驾驶功能。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "尤其是长途跑高速的场景和有些窄车位停车场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者称赞小米SU7加速快、起步稳，并肯定了新增的防误加速功能能有效避免停车时误踩油门的风险。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "性能：加速快、起步稳，尤其最近多了个防误加速的功能。避免停车状态下误踩油门的危险情况。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7 Pro由于没有空气悬挂，经过坑洼路面时颠簸感较强，且座椅舒适度较为一般。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "缺点：pro没有空气悬挂，过坑什么的特别颠。另外就是座椅舒适度比较一般"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆在过坑洼路面时。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "过坑什么的特别颠"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者建议单人驾驶非常推荐小米SU7，家庭场景适用性不确定，并建议选配尾翼。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "给车友的建议 家庭场景不确定是否合适，但一个人开的话是非常推荐的。颜值、质感、功能、性能都挺值得，哦对了，建议选配尾翼！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米su7pro 提车分享"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "确认无误后就顺利开走了"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好保留物理按键的车机设计",
+      "重视车辆外观颜值",
+      "关注续航、安全及品牌因素"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 Pro的提车全过程，包括选车时对特斯拉Model 3的比较、详细费用清单（落地约26.93万）、提车仪式体验以及初期用车感受。作者高度认可车辆的外观、续航、性能和智驾实用性，但也指出了缺乏空气悬挂导致的颠簸问题和座椅舒适度一般的缺点，最后给出了适合单人驾驶并建议选配尾翼的购车建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

@@ -1,0 +1,391 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c6a09688d46de504",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7标准版提车报告"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7标准版以73.6度电池包达成550km实测续航"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Model3后驱版",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model3",
+      "model_year": null,
+      "version": "后驱版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相较特斯拉Model3后驱版的438km续航优势明显"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为小米SU7标准版的实测续航（550km）相比特斯拉Model3后驱版（438km）有明显优势，解决了其50公里通勤带来的续航焦虑。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7标准版以73.6度电池包达成550km实测续航，相较特斯拉Model3后驱版的438km续航优势明显。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "小米SU7标准版以73.6度电池包达成550km实测续航，相较特斯拉Model3后驱版的438km续航优势明显。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者作为都市上班族，每天往返50公里通勤。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "作为都市上班族，手握20多万预算的我将目光锁定在新能源赛道。每天往返50公里的通勤距离"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为虽然特斯拉Model3操控性略强，但两者差距极小；小米SU7在运动座椅包裹性、底盘滤震舒适度及颜值方面更符合其对中国路况的需求。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾也对比了Model3，特斯拉的操控性略强一点点，几乎感觉不到差距，SU7的运动座椅包裹性和底盘滤震更符合中国路况，既有运动又有舒适还有颜值"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "特斯拉的操控性略强一点点，几乎感觉不到差距"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "SU7的运动座椅包裹性和底盘滤震更符合中国路况，既有运动又有舒适还有颜值"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在小米展厅进行实车对比试驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在小米展厅...试驾也对比了Model3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出小米SU7标准版落地价为22.2万元，其中裸车21.59万，保险5300元，无忧包1300元，且无需缴纳购置税。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "标准版小米su7落地价总费用22.2W：裸车21.59W，保险5300，无忧包1300，电车没有购置税"
+        }
+      ],
+      "confidence": 0.98
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者提车首周实测平均电耗为14.1kWh/100km，动态续航显示可达520km（运动模式下）。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车首周实测数据惊艳：平均电耗14.1kWh/100km，动态续航显示可达520km。这还是运动模式的前提下"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "提车首周，运动模式下的日常通勤。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "提车首周实测数据惊艳...这还是运动模式的前提下"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为2999mm轴距提供了良好的后排空间，身高1米85的同事乘坐后排仍有两拳余量。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最惊喜的是2999mm轴距营造的空间，同事1米85的身高在后排仍有两拳余量。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "同事（身高1米85）乘坐后排的体验。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "同事1米85的身高在后排仍有两拳余量。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者指出1980mm的车宽在窄路会车和倒车入库时需要适应，但全景影像和自动泊车功能缓解了这种压力。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当然，1980mm车宽需要适应，尤其是窄路会车和倒车入库的时候，好在全景影像+自动泊车让窄路会车不再恐慌。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "窄路会车和倒车入库场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "尤其是窄路会车和倒车入库的时候"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者对雅灰外观、红色Nappa真皮内饰及Brembo卡钳的组合感到满意，认为其体现了科技美学。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雅灰外观+红色Nappa真皮内饰与Brembo卡钳交相辉映。这不仅是代步工具，更是科技美学的生活宣言。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车首周实测数据惊艳"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "每次到家下车去电梯口，都忍不住回头看一眼它"
+      }
+    ],
+    "confidence": 0.98
+  ,
+    "age": null,
+    "budget": "20多万",
+    "preferences": [
+      "重视续航",
+      "偏好运动风格与颜值"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7标准版的提车报告，详细记录了选车过程中与特斯拉Model3的对比、22.2万元的落地费用明细，以及提车首周的用车体验，包括续航、空间、操控及内饰评价。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

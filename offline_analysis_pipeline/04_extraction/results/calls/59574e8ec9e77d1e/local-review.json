@@ -1,0 +1,472 @@
+{
+  "post_id": "59574e8ec9e77d1e",
+  "state": "FAILED",
+  "cache_key": "9900e66cb4b8889bce5cc4d584444ba238b643b556f84636054706a8ca866a69",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "59574e8ec9e77d1e",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7提车2个月避坑血泪史！准车主一定要看"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "24.5万全含落地后驱长续航版"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者以24.5万元全含落地价购买了后驱长续航版车型，认为该价格性价比高。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "24.5万全含落地后驱长续航版"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "24.5万能落地这台SU7，性价比真的拉满"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为原厂19寸轮毂比20寸轮毂更实用，具有胎壁厚、滤震好、过减速带舒适且后期换胎成本低的优势；20寸轮毂虽颜值高但胎噪大、滤震差且换胎成本高。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "原厂标配的19寸轮毂是最实用的——胎壁厚、滤震好，过减速带、走烂路不心疼，后期换胎一条才几百块；20寸的虽然颜值高，但是胎噪大、滤震差，换一条胎要2000+"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为标配纳帕皮内饰完全够用，无需花费数千元选装特定配色，可通过后期贴膜解决；车载冰箱占用后备箱空间且使用频率低，认为是“智商税”。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "标配的纳帕皮内饰完全够用，加几千块选的配色，后期贴个内饰膜就能搞定，完全没必要花这个钱。还有那个车载冰箱，99%的人提车后用不了几次，却要占掉后备箱一大半空间，纯纯的智商税。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者在提车时发现4S店报价6800元全险并暗示店内购买，经咨询后自行投保，以4600元获得同等保障，节省了约2000多元。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "4S店直接给我报了6800的全险...直接硬气拒绝，自己出门找保险公司投保，同样的险种、同样的保额，我最后只花了4600，直接省了2000多。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者指出4S店收取1000元上牌代办费不合理，自行前往车管所办理仅需1小时且工本费为120元。",
+        "sentiment": "负面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "4S店张口要1000块代办费，其实自己去车管所办，全程1个小时搞定，工本费只花120块"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者警告进行涉及改动原车线路的非官方改装（如氛围灯、电吸门、底盘灯）会影响三电和整车质保，可能导致官方拒保。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "所有涉及到改动原车线路的改装，比如非官方的氛围灯、电吸门、底盘灯光，一旦改了，直接影响三电和整车质保！后期出了问题，官方完全可以拒保。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者转述朋友经历称低价PVC改色膜易翘边、残留胶水并损伤原厂漆，导致高额补漆费用；建议选用3000-4000元的正规TPU改色膜以保证5年内质量。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我朋友贴了这种，半年就翘边，撕的时候全是胶，还伤了原厂漆，最后补漆花了大几千。预算有限的话，选3000-4000块的正规TPU改色膜就足够，5年之内不会出问题"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为该车原厂漆厚度足够，日常家用无需购买高价进口车衣，5000元左右的国产TPU车衣防护能力已足够。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这车原厂漆厚度足够，日常家用，5000左右的国产TPU车衣，防护能力完全够用，溢价全是品牌智商税。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者指出该车使用磷酸铁锂电池，引用官方售后建议称日常市区通勤充至90%即可，每1-2个月满充一次校准，应避免电量低于20%以防损伤电池。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这车用的是磷酸铁锂电池...官方售后明确说了，日常市区通勤，充到90%就足够，每隔1-2个月满充一次校准电量就行；尽量别把电量用到20%以下再充，长期亏电对电池损伤很大。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "日常市区通勤",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "日常市区通勤"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者建议安装家充桩前需与物业和电网沟通，安装时需监督以防安装队虚报线材长度多收费，并转述邻居被多收800元的经历。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "安装的时候一定要全程盯着，安装队会乱报线材长度，多收材料费，我邻居就被多收了800块"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C11",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者建议少用杂牌快充桩，因其电压不稳可能损伤电池，优先选择国家电网、特来电等正规平台。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "还有外面的杂牌快充桩，尽量少用，电压不稳很伤电池，优先选国家电网、特来电这些正规大平台的桩。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C12",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者指出官方保养周期为1年或2万公里，基础保养费用较低；批评售后推销不必要的“空调管路清洗”、“电池养护”等项目，认为电车无需此类维护。",
+        "sentiment": "负面",
+        "journey_stage": "维修与售后",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我首保的时候，售后就忽悠我做“空调管路清洗”“电池养护”“内饰镀膜”，一套下来要2000多，其实全是没必要的项目"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C13",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者警告车辆发生事故或损伤后，特别是三电和智驾部件，必须去官方售后维修，否则路边店的维修会影响整车质保。",
+        "sentiment": "负面",
+        "journey_stage": "维修与售后",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一旦车子出了事故、有损伤，别随便找路边修理厂修，尤其是三电、智驾相关的部件，一定要去官方售后修，路边店修过之后，直接影响整车质保"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7提车2个月"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车2个月"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者分享了小米SU7提车两个月后的用车经验，详细列举了在选配、保险上牌、改装、充电养护及售后保养中遇到的“坑”及应对策略，旨在帮助准车主节省开支并避免影响质保。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "user_context/evidence/1:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11308,
+    "completion_tokens": 4422,
+    "total_tokens": 15730,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 19.079272500006482,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

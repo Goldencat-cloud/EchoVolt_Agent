@@ -1,0 +1,183 @@
+{
+  "schema_version": "2.3",
+  "post_id": "16a058efff23922a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "老米su7标准版"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为小米SU7标准版在开启哨兵模式停放一周后，续航损耗严重，仅剩几十公里。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果开了哨兵模式。一周停在那里不动，就跑个几十公里，电也掉的差不多了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆开启哨兵模式停放一周。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "如果开了哨兵模式。一周停在那里不动"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者估算小米SU7标准版满电跑高速续航约400公里，电耗15.6kWh/100km；国道脚法好可达近500公里；市内不开哨兵续航超450公里。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是是如果直接满电跑高速，估计是400公里左右的续航，15.6的电耗。在国道如果脚法好的话能跑到将近500公里，市内如果不开哨兵也有个450公里以上的续航。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "涵盖高速、国道及市内多种路况下的续航估算。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "直接满电跑高速...在国道...市内"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者担心不开启哨兵模式会导致车辆被刮蹭或遭遇恶意刮车。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是不开哨兵的话，又怕被刮蹭，恶意刮车。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "图片说明描述了车辆中控屏显示的能耗数据，包括生涯总计行驶30,444公里、平均百公里电耗16.2kWh/100km等信息。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "生涯总计：累计行驶30,444公里，总耗电5,200kWh，平均百公里电耗16.2kWh/100km。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "老米su7标准版的续航真的很难评"
+      },
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "生涯总计：累计行驶30,444公里"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享小米SU7标准版的续航体验，指出开启哨兵模式停车一周掉电严重，但出于防刮蹭顾虑不得不权衡。文中给出了高速、国道及市内的续航估算，并附带了车辆长期的能耗统计截图。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

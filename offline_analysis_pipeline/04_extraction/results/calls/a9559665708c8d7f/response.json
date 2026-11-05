@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a9559665708c8d7f",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "上面清晰印有“xiaomi”字样，表明该车配备了小米音响系统"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者表示安装嵌入式小挂件后，可以将带有汤水的外卖食品挂在上面，解决了无处放置的问题，认为非常方便且牢固。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这个挂件我当时买是因为我经常要去外面买食品，通常都带有汤水没地方放，然后把这个位置换成这个小挂件以后，我就可以直接把外卖食品直接挂到上面去，很方便，而且他的造型很可爱，主价和附加我都挂了一个，他是嵌入式的，也非常的牢固！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者经常外出购买带有汤水的食品。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我经常要去外面买食品，通常都带有汤水没地方放"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我把这个位置换成这个小挂件以后"
+      },
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "这是一张从车内向外拍摄的照片，展示了车辆的副驾驶侧内饰细节"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了在车内安装嵌入式小挂件的经历，主要用于悬挂带有汤水的外卖食品，解决了放置难题，并称赞其方便、牢固且造型可爱。图片展示了车辆内饰及挂件细节。",
+  "post_topic": "社群互动与生活分享",
+  "analysis_value": "低"
+}

@@ -1,0 +1,241 @@
+{
+  "schema_version": "2.3",
+  "post_id": "db43d1e952fa6b28",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车一进入汽车市场，竞争就特别激烈。"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米 SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "就拿大家都很关注的小米 SU7 Ultra 来说"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "小米 YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "而且今年年中小米 YU7 就要上市了"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为小米汽车进入市场后面临激烈竞争，虽然交付量增长迅速，但由于进入行业时间短，今年实现盈利不太现实。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车一进入汽车市场，竞争就特别激烈。小米汽车的交付量涨得特别快。虽说交付成绩很好，但今年想赚钱，对小米汽车来说不太现实。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者评价小米汽车目前质量好、售后服务周到，许多消费者对此感到满意。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从上市到现在，小米汽车质量好，售后服务也周到，很多消费者都挺满意。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出小米 SU7 Ultra 起售价从预期的 80 万降至 52 万，这种定价策略吸引了大量年轻消费者。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一开始预计卖 80 万，结果价格直接砍到 52 万起售，这么有诚意的定价，一下子吸引了好多年轻消费者。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "可能影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为小米 YU7 的上市有望推动小米汽车发展，因此小米汽车今年的首要任务是保证交付率以积累用户并巩固市场地位，而非追求盈利。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在这种发展形势下，小米汽车今年最主要的任务可不是赚钱，而是保证交付率。因为只有交付量稳定增加，才能积累更多用户，巩固在市场上的地位。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为尽管小米汽车今年可能亏损，但对小米集团整体影响不大；随着用户积累和市场扩大，未来有望实现盈利。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "就算小米汽车今年不赚钱，甚至亏点钱，对整个小米公司来说，也没什么大影响。...相信过不了多久，只要保证交付量，口碑也不错，自然就能赚钱了。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米 YU7 即将上市",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "而且今年年中小米 YU7 就要上市了"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "文中提到小米 YU7 将于今年年内上市。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了小米汽车在市场初期的表现，指出其交付量快速增长但短期盈利困难。作者认为小米汽车凭借良好的质量和售后建立了口碑，SU7 Ultra 的低价策略吸引了年轻群体，且 YU7 的上市将进一步提振市场信心。目前小米汽车的首要任务是保证交付率以积累用户，而非追求即时盈利。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

@@ -1,0 +1,172 @@
+{
+  "post_id": "f4be6e3905bf623a",
+  "state": "CONTRACT_PASS",
+  "cache_key": "61d901578dd3faa763aa1f1d97806d34ac4b1c549591424ba1e0a1a891b365dd",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "f4be6e3905bf623a",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "屏幕左上角有醒目的白色标题“SU7牛逼”"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "屏幕左侧有醒目的白色大字“雅灰”以及下方的小字“xiaomi su7”"
+          },
+          {
+            "block_id": "I2",
+            "source_type": "image_summary",
+            "quote": "背景标语清晰可见：“人车合一 我心澎湃”以及英文“Xiaomi SU7”"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "外观与内饰",
+        "content": "作者在观看发布会直播期间指出，发布会上公布了九种车身颜色。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "发布会直播中！公布了九种颜色。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "发布会直播中！公布了九种颜色。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "价格与成本",
+        "content": "作者期待发布会公布最终价格，并表示不确定价格是否与网友预测一致。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "期待价格的最终话公布，不知道是"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "期待价格的最终话公布，不知道是不是和网友预测的一样。 蹲价格ing"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7发布会公布九种颜色",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "发布会直播中！公布了九种颜色。"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "屏幕主体展示了多款不同颜色的轿车侧面渲染图"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米SU7发布会正在进行，现场大屏幕展示了多种车身颜色选项，作者称共公布了九种颜色。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "期待价格的最终话公布，不知道是不是和网友预测的一样。 蹲价格ing"
+        }
+      ],
+      "confidence": 0.8,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者正在观看小米SU7发布会直播，关注公布的九种车身颜色，并期待最终价格的公布，表示不确定价格是否符合网友预测。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "products/P1/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10566,
+    "completion_tokens": 1277,
+    "total_tokens": 11843,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.003457200000412,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

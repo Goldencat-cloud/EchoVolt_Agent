@@ -1,0 +1,275 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f4258c7d0c1b7a93",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米组装了手机，现在又来组装汽车！"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在造车又重新定义了50万以内最好的车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "理想",
+      "entity_level": "品牌",
+      "brand": "理想",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后有理想都说自己是500W以内最好的车"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "极氪",
+      "entity_level": "品牌",
+      "brand": "极氪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "好歹极氪和阿维塔大部分都是自己国产化的东西"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "阿维塔",
+      "entity_level": "品牌",
+      "brand": "阿维塔",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "好歹极氪和阿维塔大部分都是自己国产化的东西"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "苹果",
+      "entity_level": "品牌",
+      "brand": "苹果",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "就像苹果都是自家的东西一样"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者批评小米造车是“组装”，认为其除了车机外，电机、电池、悬挂、刹车片、底盘、轮胎等均非自研，而是采购各厂家配件，并指责其宣传夸大。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米组装了手机，现在又来组装汽车！"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "只有一个自研就是车机，其他电机，电池，悬挂，刹车片，底盘，轮胎都不是自研的，采购各厂家提供配件。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "作者认为极氪和阿维塔大部分部件是自己国产化的，类似苹果的自研模式，相比之下小米依赖采购配件，暗示前者在自主研发程度上优于后者。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "好歹极氪和阿维塔大部分都是自己国产化的东西，就像苹果都是自家的东西一样，这小米吹牛都不打草稿！"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P1",
+            "aspect": "技术原理",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "好歹极氪和阿维塔大部分都是自己国产化的东西...这小米吹牛都不打草稿！"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P4",
+            "object_product_id": "P1",
+            "aspect": "技术原理",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "好歹极氪和阿维塔大部分都是自己国产化的东西...这小米吹牛都不打草稿！"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者对小米宣称“50万以内最好的车”以及理想宣称“500W以内最好的车”等营销言论表示强烈反感，认为这种“吹牛”越来越离谱。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "前有余大嘴，后有理想都说自己是500W以内最好的车，这吹牛真的越来越离谱！"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "车企关于“最好车”的营销言论争议",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷总的重新定义非常强大...现在造车又重新定义了50万以内最好的车？前有余大嘴，后有理想都说自己是500W以内最好的车"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "summary": "作者提及小米雷军提出“50万以内最好的车”的定义，并指出此前余承东和理想也有类似的“最好车”言论，引发了关于车企营销夸张的讨论。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者强烈批评小米造车是“组装”而非自研，并对比极氪、阿维塔的国产化程度，同时对小米及理想等车企“XX万以内最好车”的营销言论表示不屑和反感。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

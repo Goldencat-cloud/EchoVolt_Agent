@@ -1,0 +1,435 @@
+{
+  "schema_version": "2.3",
+  "post_id": "30373a8bc6ea8359",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2026款 标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2026款 标准版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "奔驰E300L",
+      "entity_level": "具体配置",
+      "brand": "奔驰",
+      "series": "E级",
+      "model_year": null,
+      "version": "E300L",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上一台E300L"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "钛7",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "品牌偏好更喜欢钛7"
+        }
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因日常通勤以高速为主且旧车E300L面临油价上涨压力，出于降低通勤成本的考虑选择了小米SU7。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "日常用车通勤主要以高速为主，上一台E300L由于油价上涨更需要一个便宜的通勤车."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "日常通勤以高速公路为主。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "日常用车通勤主要以高速为主"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者原本品牌偏好倾向于“钛7”，但因小米SU7发布会的效果打动了自己和家人，从而决定下单购买SU7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "品牌偏好更喜欢钛7，但是Su7的发布会让我跟我媳妇眼前一亮直接就激情下单了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者在提车前和等待期间两次前往南充小米店进行试驾，对接待人员的热情服务给予好评，但遗憾未能获得额外的优惠福利。",
+      "sentiment": "正负混合",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车前和订车等待期间总共去南充小米店试驾体验了2次，试驾接单的小哥特别热情唯一美中不足的地方就是没薅到羊毛."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出小米购车价格公开透明，虽然因此失去了议价空间且未获折扣，但认为这种模式省去了与销售讨价还价的麻烦。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米购车公开透明免去了跟销售对线的机会，羊毛一分没薅着啊，唯一的羊毛就是试驾送的直饮杯。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出了详细的购车费用：裸车价23.34万元（含科技包6500元和靛石绿外观），加上保险6800元、购置税10000元及上牌费120元，落地总价为250320元。作者认为对于工薪阶层而言，包含保险和购置税后的总成本偏高，但认可其使用体验能弥补这一缺点。",
+      "sentiment": "正负混合",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "整车选装了科技包6500+靛石绿外观总体裸车价来到了23.34万元。 落地价：23.34裸车价+6800保险+10000购置税+120上牌费=250320 ... 整体包含保险+购置税对于工薪来说偏贵，但是使用体验能弥补这一缺点。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者对提车过程中的交付服务表示满意，特别是交付中心工作人员为配合其晚间提车特意等待至8点，且验车上牌流程顺畅高效。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车过程中交付中心由于我晚上提车专门等到8点，这一点可以给交付小姐姐点赞。验车上牌流程丝滑不卡顿。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "晚间提车。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "由于我晚上提车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为车辆在高速通勤中动力响应迅速且平顺，舒适模式下的动力足以满足需求，而运动模式的动力输出过于强烈，令其感到紧张。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "平时通勤主要以高速为主，动力响应随叫随到不卡顿。对于我而言舒适模式的动力已经完全够用了。运动模式的动力输出太狂爆了，直接让我心的揪紧了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "主要在高速公路上通勤驾驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "平时通勤主要以高速为主"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者评价车辆前排空间和布局非常完美，但后排乘坐体验不佳：尽管座椅有所改善，长途乘坐仍会导致腰酸背痛；此外，溜背造型导致后排头部空间极低，身高1米8的人容易顶头。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车内前排空间以及布局非常完美，但是后排乘坐体验却十分的不尽人意。虽然后排座椅有所改善但还是不够舒适，长途坐久了之后腰酸背痛。而且溜背的造型导致后排头部空间极其的矮，以至于1米8的身高稍不注意就会顶头。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "涉及长途乘坐体验。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "长途坐久了之后腰酸背痛"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者对车辆的续航表现非常满意，认为实际续航与标称相符，标准版搭配19寸轮毂可实现566公里的续航里程，完全满足其使用需求。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "电耗方面极其牛逼，实际续航多少就跑多少。标准版19寸轮毂能干566公里，我还能说啥不好呢。完全够用啊Bro！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为车载冰箱实用性有限，仅在长途旅行中能偶尔饮用冷饮，考虑到其体积较小、随处可见的替代品以及增加的能耗，认为其性价比不高。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "冰箱这个家装唯一的用处可能就是跑长途能随时随地的喝上一口冰可乐吧。但随处可见的便利店和平白增加的电耗又让它显得没那么高的性价比了。毕竟冰箱太小了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "长途旅行场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "跑长途能随时随地的喝上一口冰可乐"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米Su7提车到用车分享"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "卡片钥匙到手的那一刻充满了新奇就像拿到了一个新玩具一样。"
+      },
+      {
+        "block_id": "I7",
+        "source_type": "image_summary",
+        "quote": "昵称“小米锅巴”已陪伴用户“42天”，总里程“3901公里”"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好低成本通勤",
+      "重视前排空间与布局",
+      "关注续航表现"
+    ]
+  },
+  "post_summary": "车主分享了小米SU7 2026款标准版的提车及用车体验。文章详细记录了从选车动机（替代高油耗燃油车）、购车费用明细（落地约25万）到交付服务的感受。用车反馈方面，作者高度肯定了车辆的加速性能、续航达成率及前排空间，但对后排头部空间狭窄、长途乘坐舒适性不足以及车载冰箱的实用性价比较低提出了批评。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

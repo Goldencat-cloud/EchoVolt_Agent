@@ -1,0 +1,164 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e5ce121da7b93220",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "问问各位买小米SU7有没有后悔的？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "早下定了小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "领克Z10",
+      "entity_level": "车系",
+      "brand": "领克",
+      "series": "Z10",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是昨天看了对面的领克Z10"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者询问购买小米SU7的用户是否存在后悔的情况。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "问问各位买小米SU7有没有后悔的？"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者已下订小米SU7，但因看到领克Z10提车速度更快且价位略有优势，产生了退订的想法。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "早下定了小米SU7，但是在昨天看了对面的领克Z10，有点想退单了，原因在于提车速度更快，价位上要有点优势。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "服务与交付",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "原因在于提车速度更快"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "价位上要有点优势"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "早下定了小米SU7"
+      }
+    ],
+    "confidence": 0.95
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者已下订小米SU7，但因对比后发现领克Z10在提车速度和价格上具有一定优势，因此产生退订念头，并向网友咨询购买小米SU7后的后悔情况。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

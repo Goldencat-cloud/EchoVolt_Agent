@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f1940fef5f7fd92a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "#小米su7#"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "#小米yu7#"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "社交表达与无实质主张",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者提出关于车内休息时外界噪音大的问题，并引导查看视频，未提供具体解决方案或个人体验。",
+      "sentiment": "中性",
+      "journey_stage": "无法判断",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "如果你想在车里休息，但外面的声音很大怎么办？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "请看VCR"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子标题提出了在车内休息时应对外界噪音的问题，正文仅包含“请看VCR”及小米汽车、雷军、小米SU7、小米YU7的话题标签，未提供具体解答或详细讨论。",
+  "post_topic": "社群互动与生活分享",
+  "analysis_value": "低"
+}

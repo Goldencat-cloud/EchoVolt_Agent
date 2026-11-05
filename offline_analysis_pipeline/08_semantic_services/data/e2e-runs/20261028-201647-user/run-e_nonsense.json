@@ -1,0 +1,227 @@
+{
+ "question": "哈哈哈哈哈哈",
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "clarifying",
+   "phase": "澄清中"
+  },
+  {
+   "t": 9.0,
+   "status": "running",
+   "phase": "数据探索中"
+  },
+  {
+   "t": 30.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 33.1,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 75.3,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 105.4,
+   "status": "done",
+   "phase": "已完成"
+  }
+ ],
+ "clarify_count": 1,
+ "outline": [
+  {
+   "order": 1,
+   "id": "w1",
+   "question": "16 个议题在全量声明口径下的负向观点占比排序如何，哪些议题是口碑风险焦点",
+   "aspect": null,
+   "method": "negative_share_by_aspect",
+   "requires_evidence": false,
+   "visualization": {
+    "type": "bar",
+    "title": "各议题负向观点占比（全量声明级）"
+   }
+  },
+  {
+   "order": 2,
+   "id": "w2",
+   "question": "负向占比最高的可靠性与故障议题，主要负向说法是什么（需原文佐证）",
+   "aspect": "可靠性与故障",
+   "method": "top_negative_claims",
+   "requires_evidence": true,
+   "visualization": null
+  },
+  {
+   "order": 3,
+   "id": "w3",
+   "question": "可靠性与故障议题内部的正面/负面/中性/混合观点结构如何",
+   "aspect": "可靠性与故障",
+   "method": "curated_sentiment_mix",
+   "requires_evidence": false,
+   "visualization": null
+  },
+  {
+   "order": 4,
+   "id": "w4",
+   "question": "精选子集中观点的用户所处阶段分布如何（购车前/交付与上手/拥有与日常使用/维修与售后）",
+   "aspect": "外观与内饰",
+   "method": "journey_distribution",
+   "requires_evidence": false,
+   "visualization": null
+  },
+  {
+   "order": 5,
+   "id": "w5",
+   "question": "精选子集中当前拥有与明确未拥有用户对空间与舒适性的观点结构差异",
+   "aspect": "空间与舒适性",
+   "method": "ownership_experience_mix",
+   "requires_evidence": false,
+   "visualization": null
+  },
+  {
+   "order": 6,
+   "id": "w6",
+   "question": "可靠性与故障议题负向说法在全区间内的月度走势如何",
+   "aspect": "可靠性与故障",
+   "method": "negative_claims_by_month",
+   "requires_evidence": false,
+   "visualization": {
+    "type": "line",
+    "title": "可靠性与故障负向说法月度走势"
+   }
+  }
+ ],
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "0cfd05a03c7340b7a717e7eb23748803",
+ "final_status": "done",
+ "result": {
+  "ok": true,
+  "report_id": "6916a1d601ae",
+  "title": "小米 SU7 全区间口碑全景与风险焦点分析（临时样本口径）",
+  "report_md": "# 小米 SU7 全区间口碑全景与风险焦点分析\n\n**分析主体与品牌范围**：本次分析主体为**小米 SU7**。任务简报中出现的其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）在数据中仅为**帖子层面的共现对比信息**，不是本次分析对象，本报告不对其作任何评价。\n\n## 一、结论摘要\n\n小米 SU7 的口碑结构呈\"外观等强势议题体量大、少数议题负面集中\"的特征。全量声明级数据显示（分母为冻结快照内该议题的全部观点声明）：负面观点占比最高的是**可靠性与故障（54/98 条观点，55.1%）**与**服务与交付（62/132 条观点，47.0%）**，其次是**空间与舒适性（131/302 条观点，43.4%）**；而体量最大的**外观与内饰（717 条观点）负面占比仅 8.8%**，智能座舱与车机 7.6%、动力与性能 2.9%。因此风险不在\"大议题\"，而在\"信任与交付体验\"这类小体量、高负面密度的议题；精选观点样本还显示，讨论主要发生在购车前阶段（外观与内饰议题中购车前观点条数最多，117 条），说明故障与服务类负面已进入潜在买家的决策信息环境。\n\n## 二、分项事实\n\n### 各议题负面观点占比排序（全量声明级口径）\n\n口径：负面观点占比 = 该议题负面观点条数 ÷ 该议题观点条数，分母为冻结快照内全部观点声明，非帖子数。本次取负面占比最高的八项：\n\n| 议题 | 观点条数 | 负面观点 | 负面观点占比 | 相关帖子 | 其中含负面反馈的帖子 |\n|---|---|---|---|---|---|\n| 可靠性与故障 | 98 | 54 | 55.1% | 90 | 52 |\n| 服务与交付 | 132 | 62 | 47.0% | 122 | 55 |\n| 空间与舒适性 | 302 | 131 | 43.4% | 239 | 113 |\n| 安全与质量 | 188 | 66 | 35.1% | 168 | 59 |\n| 价格与成本 | 144 | 42 | 29.2% | 134 | 40 |\n| 智能驾驶 | 152 | 42 | 27.6% | 143 | 40 |\n| 其他 | 54 | 13 | 24.1% | 53 | 13 |\n| 配置与功能 | 284 | 59 | 20.8% | 258 | 52 |\n\n低占比端（引用已登记基准，同口径）：充电与补能 13/64（20.3%）、驾驶与操控 37/223（16.6%）、品牌与口碑 45/291（15.5%）、续航与能耗 31/268（11.6%）、外观与内饰 63/717（8.8%）、智能座舱与车机 23/301（7.6%）、动力与性能 4/137（2.9%）、技术原理 0/1（0%）。\n\n**图表：各议题负面观点占比（全量声明级）**\n类型：柱状图；X 轴：议题；Y 轴：负面观点占比\n\n| 议题 | 可靠性与故障 | 服务与交付 | 空间与舒适性 | 安全与质量 | 价格与成本 | 智能驾驶 | 其他 | 配置与功能 |\n|---|---|---|---|---|---|---|---|---|\n| 负面观点占比 | 55.1% | 47.0% | 43.4% | 35.1% | 29.2% | 27.6% | 24.1% | 20.8% |\n\n### 可靠性与故障议题内部的情感结构（精选观点样本）\n\n口径：仅统计 core/potential 精选观点，不代表全部用户声音。该议题精选观点为：负面 12 条、中性 8 条、正面 3 条，无正负混合观点。负面条数在该议题精选观点中最多。对照全量口径该议题 98 条观点中 54 条负面（55.1%），两个口径方向一致，但条数不可互相换算。\n\n### 观点来自哪个用户阶段（精选观点样本，外观与内饰议题）\n\n口径：用户所处阶段是观点自身的属性，只说明\"这条观点是谁在什么阶段说的\"，不代表用户结构。该议题精选观点分布为：购车前 117 条、拥有与日常使用 61 条、交付与上手 7 条，维修与售后无观点。购车前阶段条数明显最多。\n\n### 车主与关注者的观点构成（精选观点样本，空间与舒适性议题）\n\n口径同上，仅描述观点归属结构，不代表用户占比。\n\n| 车主/关注者身份 | 是否亲历 | 观点条数 |\n|---|---|---|\n| 当前拥有 | 明确亲历 | 44 |\n| 明确未拥有 | 明确亲历 | 23 |\n| 明确未拥有 | 明确非亲历 | 9 |\n| 明确未拥有 | 无法判断 | 4 |\n| 明确未拥有 | 不适用 | 2 |\n\n当前拥有者 44 条为单行最大；明确未拥有者分散在四行（23、9、4、2 条），其中自称亲历的 23 条（如试驾、乘坐体验）不能等同于车主体验。\n\n### 可靠性与故障负面说法的月度分布（精选观点样本）\n\n口径：按观点日期月份聚合的负面观点条数，非发帖热度，共 12 条负面观点（与上一节 12 条一致）：2024-03 1 条、2024-04 3 条、2024-05 1 条、2025-02 1 条、2025-04 1 条、2025-06 1 条、2025-08 1 条、2025-12 1 条、2026-02 1 条、2026-07 1 条。仅有 2024-04 略高于其他月份，其余均为 1 条；分布稀疏，**不能据此判断走势或热度变化**。\n\n**图表：可靠性与故障负面说法月度走势**\n类型：折线图；X 轴：月份；Y 轴：负面观点条数\n\n| 月份 | 2024-03 | 2024-04 | 2024-05 | 2025-02 | 2025-04 | 2025-06 | 2025-08 | 2025-12 | 2026-02 | 2026-07 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| 负面观点条数 | 1 | 3 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |\n\n## 三、归因分析\n\n以下为基于已验证结果的解读与假设，**不是因果结论**：\n\n1. **负面密度与议题体量错位**。负面占比最高的可靠性与故障仅 98 条观点（负面 54 条），而负面观点绝对量最大的是空间与舒适性（负面 131 条，占比 43.4%，观点 302 条）。这说明\"占比高\"主要来自议题声量小、单条负面权重被放大，风险排序应按业务目标选择占比口径或绝对量口径，不能单看一种。\n2. **负面沿两条路径产生：亲历故障 + 购车前预期担忧**。近期取样的 10 条该议题负面说法中，4 条为当前拥有者描述的亲历零部件异常，1 条为维修报价（大灯总成），而 3 条来自明确未拥有、自称非亲历的购车前用户，属于\"看到/听说很多故障\"的预期担忧。两条路径并存意味着仅靠召回维修无法消解全部负面，信息环境同样需要治理。\n3. **交付环节是信任成本的起点，但证据不足以做环节级归因**。取样中出现\"开出交付中心39公里就在高速上抛锚\"一条，与交付与上手阶段观点条数极少（7 条）并不矛盾——数据只能说明该类经历被记录，无法证明交付环节问题普遍。\n4. **车主与关注者的评价基础不同，不可互换**。空间与舒适性议题中车主 44 条、未拥有者自称亲历 23 条，后者的体验基础多为短时接触，判断强度与长期使用不同，做议题结论时应分层看待。\n5. **时间维度不支撑\"恶化/改善\"判断**。该议题精选负面观点仅 12 条、分散在 10 个月份，无法用于趋势归因。\n\n## 四、证据与归组\n\n以下引文均来自可靠性与故障议题的精选观点样本（该议题精选负面观点共 12 条，此处取按日期最近 10 条，**按时间倒序取数，不代表出现频次最高的说法**）。引文与来源原话逐字一致。\n\n**A 组：亲历的零部件/硬件异常（10 条中 4 条）**\n- 「小米su7高位刹车灯掉了」——车主自述高位刹车灯脱落（claim_id: 10a14221f9521f2043a1，2025-08-07，当前拥有，明确亲历）\n- 「刹车盘生锈成这样，什么质量，吓人吓人」——车主对刹车盘锈迹提出质量质疑（claim_id: bf24a63528a6705c6d13，2025-06-21，当前拥有，明确亲历）\n- 「苏7的轮胎有这么脆弱吗，这条路肯定开不快，道路条件也不错，具体原因不知道了」——路遇爆胎并提出质疑，作者自述原因不明（claim_id: baac5bfb490a7cb5f233，2025-04-19，当前拥有，明确亲历）\n- 「刚提的小米SU7 开出交付中心39公里 就在高速上抛锚」——交付环节即发生抛锚（claim_id: 9fcdd622b3b3bfc7a5e6，2024-05-08，交付与上手，当前拥有，明确亲历）\n\n**B 组：维修成本（10 条中 1 条）**\n- 「一套大灯总成5500-6500。」——车主经历大灯总成损坏后的更换报价（claim_id: b14053f17165c546f3a5，2025-02-12，维修与售后，当前拥有，明确亲历）\n\n**C 组：使用细节与软件类不便（10 条中 1 条）**\n- 「但这里有个坑——很多手机导出的音频看着是MP3，实际编码可能不兼容，或者文件体积太大导致上传失败。」——锁车音效自定义上传失败问题（claim_id: 7566fe1cedb66323c47c，2026-07-15，当前拥有，明确亲历）\n\n**D 组：材质耐用性的预期担忧（10 条中 1 条，车主视角）**\n- 「就是不知道小米这材质耐污性能怎么样，我儿的能量是很大的！后续咱们一起见证吧。」——灰白内饰耐污担忧（claim_id: 9cf9f2d6e2b53d99fa37，2024-04-13，当前拥有，明确亲历）\n\n**E 组：购车前的顾虑与非亲历信息传播（10 条中 3 条）**\n- 「第一代车型在交付初期暴露的一些装配工艺细节问题、车机软件的小BUG，在这一代上是否得到了彻底解决？这是光看展厅新车无法获知的。」（claim_id: 35e315ec114490de87af，2026-02-13，购车前，明确未拥有，无法判断）\n- 「混装电池这个事我还是蛮介意的」（claim_id: 07273c52246d0497a64c，2025-12-07，购车前，明确未拥有，明确非亲历）\n- 「但是最近除了看到这车火以外，也接连看到很多故障和问题，搞的心里没底了」（claim_id: 1b0dffe1c9333192e196，2024-04-12，购车前，明确未拥有，明确非亲历）\n\n**归组说明**：A、B、D 组均为当前拥有者的亲历视角，指向具体零部件与维修成本；E 组为购车前用户、且自称非亲历，说明故障类信息在决策阶段以\"听说/看到\"形式传播。上述归组仅对这 10 条样本成立，不能外推为该议题全部 98 条观点的分布。\n\n## 五、限制与不确定性\n\n1. **数据为临时样本**（占位数据），所有占比会随正式快照变化，不可作为发布级结论。\n2. **两个集合不可混用**：\"分项事实\"首节为全量声明级口径；其余各节与\"证据与归组\"均为 core/potential 精选观点样本，不代表全部用户声音，也不得换算成全量占比。\n3. **两个分母不可混用**：声明级（负面观点 ÷ 观点条数）与帖子级（含负面反馈帖子 ÷ 帖子数）已在首节表格分列，二者不可互相推导。\n4. **证据取数方式**：可靠性与故障的负面引文按日期倒序取最近 10 条，属\"近期说法样本\"，不是高频说法排行，因此不能得出\"用户最常抱怨某问题\"这类结论。\n5. **月度走势不可解读为趋势**：该议题精选负面观点仅 12 条、分散在 10 个月份，且多个区间无观点，属样本稀疏。\n6. **用户阶段与身份字段覆盖有限**：\"用户所处阶段\"\"车主/关注者\"是观点自身属性，仅描述精选样本构成，不代表用户结构；阶段分布本次仅覆盖外观与内饰一个议题，未做全议题汇总。\n7. **未覆盖内容**：本次未分析竞品共现关系、未做议题之间的交叉分组（如车主的可靠性与故障观点跨议题对比），也未覆盖精选子集之外的海量观点。\n\n## 六、待验证问题\n\n1. 可靠性与故障负面占比最高（55.1%）但绝对量仅 98 条观点，而空间与舒适性负面观点绝对量为 131 条——风险应按占比还是按绝对量排优先级，需要业务侧定义权重后重新评估。\n2. 服务与交付（62/132 条负面）中\"交付环节\"与\"售后环节\"的责任划分：本数据只能看到结论性观点，无法拆分。\n3. 维修成本（大灯总成报价类）是否构成系统性议题：本次仅取到 1 条精选证据，需要专项取证。\n4. 车主与关注者对同一议题的评价差异是否稳定：本次仅描述观点构成，未做身份×情感交叉，需要后续验证。\n5. 竞品共现（特斯拉 Model 3、极氪 001/007、保时捷 Taycan 等）与本次议题口碑的关联，本次未纳入分析，建议单独立项。\n\n---\n数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质\n",
+  "key_findings": [
+   "全量声明级口径下，负面观点占比最高的是可靠性与故障 54/98（55.1%），其次服务与交付 62/132（47.0%）、空间与舒适性 131/302（43.4%）；体量最大的外观与内饰 717 条观点负面占比仅 8.8%（预置基准）",
+   "风险集中在少数小体量议题而非大议题：外观与内饰、智能座舱与车机、动力与性能的负面占比分别为 8.8%、7.6%、2.9%，与其体量形成明显反差",
+   "可靠性与故障议题精选观点中负面 12 条、中性 8 条、正面 3 条（精选样本口径），与全量口径方向一致但条数不可换算",
+   "外观与内饰议题精选观点中购车前 117 条、拥有与日常使用 61 条、交付与上手 7 条，购车前阶段条数最多，故障与交付类负面已进入潜在买家决策信息环境",
+   "近期取样的 10 条该议题负面说法中，4 条为车主亲历零部件异常（高位刹车灯脱落、刹车盘锈迹、爆胎、提车 39 公里抛锚），3 条为购车前非亲历的故障顾虑传播"
+  ],
+  "publication_status": "pending_review",
+  "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+  "final_message": "报告已提交并通过门禁，现已进入人工复核环节。核心发现是：小米 SU7 的负面观点占比最高集中在“可靠性与故障”（54/98 条观点，55.1%）和“服务与交付”（62/132 条观点，47.0%），而观点量最大的外观与内饰为 717 条观点、负面占比仅 8.8%；风险来自量小但负面密度高的信任型议题，不来自大议题本身。精选观点样本还显示，相关讨论集中在购车前阶段，故障类负面已进入潜在买家的决策信息环境；由于本次快照为临时样本，且月度样本过于稀疏，因此结论只作方向性判断。",
+  "tool_log": [
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/analysis-methods/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-37 of 37 @@\n---\nname: analysis-methods\ndescription: 执行分析计划（执行阶段必读）。何时读：拿到已获批计划、开始逐项执行时——执行循环、取证规则、失败与空结果处置、结果解读检查都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——dimension×method 匹配表在 submit_analysis_plan 工具说明，且方法在计划里已经选定。\n---\n\n# 执行分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 1-2（执行）的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\n\n## 执行循环（对每项 workstream 依次执行，完成一项再取下一项）\n\n1. **取项执行**：调用 `run_analysis_method`，method/aspect 从计划原样抄写——NEVER 修改计划参数，NEVER 执行计划外的方法。use_python=true 的计划中，每项工作项声明的白名单方法仍是完成条件；python_analyze 只用于白名单之外的交叉分组与补充统计，不替代"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-34 of 34 @@\n---\nname: plan-drafting\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——dimension×method 匹配表在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\n---\n\n# 起草分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 0（计划）的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过 `submit_analysis_plan` 确定性校验的完整草案——字段齐全、aspect 与简报枚举逐字一致、覆盖用户问题的全部子问题与比较维度。\n\n## 起草流程（按序执行，完成一步再进入下一步）\n\n1. **读任务简报**：研究请求、数据覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，NEVER 凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`，NEVER 用代码探索（代码分析只属于执行阶段）。\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"先用全量声明级指标定位负向观点占比最高的议题，再对最高风险议题取负向说法原文作证据并刻画其情感结构，补充观点来源的用户阶段与持有状态结构，最后看该议题负向说法的月度走势，形成小米/SU7 全区间口碑全景与风险聚焦。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"16 个议题在全量声明口径下的负向观点占比排序如何，哪些议题是口碑风险焦点\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"各议题负向观点占比（全量声明级）\"}},{\"id\":\"w2\",\"question\":\"负向占比最高的可靠性与故障议题，主要负向说法是什么（需原文佐证）\",\"dimension\":\"other\",\"aspect\":\"可靠性与故障\",\"method\":\"top_negative_claims\",\"requires_evidence\":true},{\"id\":\"w3\",\"question\":\"可靠"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "{\"accepted\": true, \"plan\": {\"coverage\": \"先用全量声明级指标定位负向观点占比最高的议题，再对最高风险议题取负向说法原文作证据并刻画其情感结构，补充观点来源的用户阶段与持有状态结构，最后看该议题负向说法的月度走势，形成小米/SU7 全区间口碑全景与风险聚焦。\", \"workstreams\": [{\"id\": \"w1\", \"question\": \"16 个议题在全量声明口径下的负向观点占比排序如何，哪些议题是口碑风险焦点\", \"dimension\": \"aspect\", \"aspect\": null, \"method\": \"negative_share_by_aspect\", \"requires_evidence\": false, \"visualization\": {\"type\": \"bar\", \"x\": \"aspect\", \"y\": \"negative_share\", \"title\": \"各议题负向观点占比（全量声明级）\"}}, {\"id\": \"w2\", \"question\": \"负向占比最高的可靠性与故障议题，主要负向说法是什么（需原文佐证）\", \"dimension\": \"other\", \"aspect\": \"可靠性与故障\", \"method\": \"top_negative_claims\", \"requires_evidence\": tru"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'negative_share_by_aspect'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"negative_share_by_aspect\", \"params\": {\"limit\": 8}, \"sql\": \"SELECT aspect, claims, negative, posts, negative_posts, negative_share FROM semantic_aspect_metric ORDER BY negative_share DESC LIMIT :limit\", \"columns\": [\"aspect\", \"claims\", \"negative\", \"posts\", \"negative_posts\", \"negative_share\"], \"rows\": [{\"aspect\": \"可靠性与故障\", \"claims\": 98, \"negative\": 54, \"posts\": 90, \"negative_posts\": 52, \"negative_share\": 0.5510204081632653}, {\"aspect\": \"服务与交付\", \"claims\": 132, \"negative\": 62, \"posts\": 122, \"negative_posts\": 55, \"negative_share\": 0.4696969696969697}, {\"aspect\": \"空间与舒适性\", \"claims\": 302, "
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'top_negative_claims', 'aspect': '可靠性与故障', 'limit': 10}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"top_negative_claims\", \"params\": {\"aspect\": \"可靠性与故障\", \"limit\": 10}, \"sql\": \"SELECT claim_id, date, journey, ownership, experience, title, url, substr(content, 1, 240) AS excerpt, quote FROM semantic_claim_evidence WHERE aspect = :aspect AND sentiment = '负面' ORDER BY date DESC LIMIT :limit\", \"columns\": [\"claim_id\", \"date\", \"journey\", \"ownership\", \"experience\", \"title\", \"url\", \"excerpt\", \"quote\"], \"rows\": [{\"claim_id\": \"7566fe1cedb66323c47c\", \"date\": \"2026-07-15 23:17:31\", \"journey\": \"拥有与日常使用\", \"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"title\": \"小米SU7隐藏玩法！锁车音效还能这么玩，手把手教你设置\", \"url\": \""
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '可靠性与故障', 'method': 'curated_sentiment_mix'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"curated_sentiment_mix\", \"params\": {\"aspect\": \"可靠性与故障\"}, \"sql\": \"SELECT sentiment, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY sentiment ORDER BY n DESC\", \"columns\": [\"sentiment\", \"n\"], \"rows\": [{\"sentiment\": \"负面\", \"n\": 12}, {\"sentiment\": \"中性\", \"n\": 8}, {\"sentiment\": \"正面\", \"n\": 3}], \"row_count\": 3, \"caliber\": \"精选子集口径：仅统计 core/potential 精选观点及其引文证据，不代表全部用户声音\", \"elapsed_ms\": 0, \"verification\": {\"ok\": true, \"errors\": [], \"warnings\": [], \"checks\": [\"caliber_declared\", \"rows_present\", \"negative_share_recomputed\", \"curated_counts_reconciled\"]}}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '外观与内饰', 'method': 'journey_distribution'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"journey_distribution\", \"params\": {\"aspect\": \"外观与内饰\"}, \"sql\": \"SELECT COALESCE(journey, '未标注') AS journey, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY journey ORDER BY n DESC\", \"columns\": [\"journey\", \"n\"], \"rows\": [{\"journey\": \"购车前\", \"n\": 117}, {\"journey\": \"拥有与日常使用\", \"n\": 61}, {\"journey\": \"交付与上手\", \"n\": 7}], \"row_count\": 3, \"caliber\": \"精选子集口径：仅统计 core/potential 精选观点及其引文证据，不代表全部用户声音；journey 为源分析分类字段，覆盖有限\", \"elapsed_ms\": 2, \"verification\": {\"ok\": true, \"errors\": [], \"warnings\": [], \"checks\": [\"caliber_declared\", \"rows_present\", \"negative_share_recomputed\", \"c"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '空间与舒适性', 'method': 'ownership_experience_mix'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"ownership_experience_mix\", \"params\": {\"aspect\": \"空间与舒适性\"}, \"sql\": \"SELECT COALESCE(ownership, '未标注') AS ownership, COALESCE(experience, '未标注') AS experience, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY ownership, experience ORDER BY n DESC\", \"columns\": [\"ownership\", \"experience\", \"n\"], \"rows\": [{\"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"n\": 44}, {\"ownership\": \"明确未拥有\", \"experience\": \"明确亲历\", \"n\": 23}, {\"ownership\": \"明确未拥有\", \"experience\": \"明确非亲历\", \"n\": 9}, {\"ownership\": \"明确未拥有\", \"experience\": \"无法判断\", \"n\": 4}, {\"ownership\": \"明确未拥有\", \"experience\": \"不适用\", \"n\""
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '可靠性与故障', 'method': 'negative_claims_by_month'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"negative_claims_by_month\", \"params\": {\"aspect\": \"可靠性与故障\"}, \"sql\": \"SELECT substr(date, 1, 7) AS month, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect AND sentiment = '负面' GROUP BY month ORDER BY month\", \"columns\": [\"month\", \"n\"], \"rows\": [{\"month\": \"2024-03\", \"n\": 1}, {\"month\": \"2024-04\", \"n\": 3}, {\"month\": \"2024-05\", \"n\": 1}, {\"month\": \"2025-02\", \"n\": 1}, {\"month\": \"2025-04\", \"n\": 1}, {\"month\": \"2025-06\", \"n\": 1}, {\"month\": \"2025-08\", \"n\": 1}, {\"month\": \"2025-12\", \"n\": 1}, {\"month\": \"2026-02\", \"n\": 1}, {\"month\": \"2026-07\", \"n\": 1}], \"row_count\": 10, \"caliber\": \"精选子集"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-73 of 73 @@\n---\nname: report-authoring\ndescription: 报告撰写与提交（报告阶段必读）。何时读：提交 submit_report 前——报告结构、证据引用与归组、口径表述红线、术语转换、提交流程都在这里。何时不读：选择与执行分析方法（用 analysis-methods）；起草计划（用 plan-drafting）。误用反例：把本文件当证据获取说明——怎么取证见 analysis-methods 的\"取证规则\"。\n---\n\n# 报告撰写与提交\n\n## 角色与读者\n\n服务对象：准备提交报告的 Agent（阶段 3）。输出标准：通过 report_gate 的五段结构中文报告，每个数字可核验、每条引用可回溯、面向用户说业务语言。报告面向业务负责人和研究人员：先结论后依据，数字可核验，限制如实。正文中文 Markdown；长度上限以服务端发布门禁为准（超限时 submit_report 会返回具体数值与修订要求）。\n\n## 报告结构（五段，顺序固定）\n\n1. **结论摘要**：先回答用户的问题，1 段以内；只写有证据支撑的结论。\n2. **分项事实**：每个 workstream 一小节；数字必须来自工具/代码结果并带口径。\n3. **证据与归组**：观点归组与代表引文，引用规则见下节。\n4. **限制与不确定性**："
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'title': '小米 SU7 全区间口碑全景与风险焦点分析（V2.3 临时样本）', 'markdown': '# 小米 SU7 全区间口碑全景与风险焦点分析\\n\\n**分析主体与品牌范围**：本次分析主体为**小米 SU7**。任务简报中出现的其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）在数据中仅为**帖子层面的共现对比信息**，不是本次分析对象，本报告不对其作任何评价。\\n**数据状态**：基于 V2.3（临时样本，快照 hash ba7dc3feac35），时间区间 2023-12-24 10:15:31 至 2026-09-29 16:09:50。快照为占位性质的临时样本，以下结论应作为方向性判断使用，不能作为正式研究结论对外发布。\\n\\n## 一、结论摘要\\n\\n小米 SU7 的口碑结构呈\"外观等强势议题体量大、少数议题负面集中\"的特征。全量声明级数据显示（all＝冻结快照内该议题全部观点声明）：负面观点占比最高的是**可靠性与故障（54/98 条观点，55.1%）**与**服务与交付（62/132 条观点，47.0%）**，其次是**空间与舒适性（131/302 条观点，43.4%）**；而体量最大的**外观与内饰（717 条观点）负面占比仅 8.8%**，智能座舱与车机 7.6%、动力与性能 2.9%。因此风险不在\"大议题\"，而在\"信任与交付体验\"两类"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"缺少章节：归因分析\", \"正文必须明确写出当前数据版本（上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质），如在页脚写「数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质」\", \"报告包含未在分析工具结果中找到的数字：16, 185, 2.1, 16, 3356, 685, 20.4%, 0.551, 0.470, 0.434, 0.351, 0.292, 0.276, 0.241, 0.208, 2.2, 52.2%, 2.3, 185, 63.2%。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_pro"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"全量声明级口径下，负面观点占比最高的是可靠性与故障 54/98（55.1%），其次服务与交付 62/132（47.0%）、空间与舒适性 131/302（43.4%）；体量最大的外观与内饰 717 条观点负面占比仅 8.8%（预置基准）\",\"风险集中在少数小体量议题而非大议题：外观与内饰、智能座舱与车机、动力与性能的负面占比分别为 8.8%、7.6%、2.9%，与其体量形成明显反差\",\"可靠性与故障议题精选观点中负面 12 条、中性 8 条、正面 3 条（精选样本口径），与全量口径方向一致但条数不可换算\",\"外观与内饰议题精选观点中购车前 117 条、拥有与日常使用 61 条、交付与上手 7 条，购车前阶段条数最多，故障与交付类负面已进入潜在买家决策信息环境\",\"近期取样的 10 条该议题负面说法中，4 条为车主亲历零部件异常（高位刹车灯脱落、刹车盘锈迹、爆胎、提车 39 公里抛锚），3 条为购车前非亲历的故障顾虑传播\"]', 'markdown': '# 小米 SU7 全区间口碑全景与风险焦点分析\\n\\n**分析主体与品牌范围**：本次分析主体为**小米 SU7**。任务简报中出现的其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）在数据中仅为**帖子层面的共现对比信息**，不是本次分析对象，本报告不对其作任何评价。\\n\\n## 一、结论"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"report_id\": \"6916a1d601ae\", \"status\": \"pending_review\", \"saved\": \"D:\\\\Desktop\\\\Competitions\\\\new_energy_data_analysis_agent\\\\offline_analysis_pipeline\\\\08_semantic_services\\\\reports\\\\agent\\\\6916a1d601ae\", \"next_step\": \"由非作者队友复核并通过 report_publisher.py 发布。\"}"
+   }
+  ],
+  "tool_errors": 1,
+  "metrics": {
+   "successful_tool_calls": 8,
+   "tool_errors": 1,
+   "code_failures": 0,
+   "submit_attempts": 2,
+   "gate_rejections": 1
+  },
+  "elapsed_ms": 95320
+ },
+ "error": null,
+ "wall_s": 105.4
+}

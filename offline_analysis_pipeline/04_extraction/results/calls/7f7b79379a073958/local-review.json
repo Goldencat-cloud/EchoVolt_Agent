@@ -1,0 +1,374 @@
+{
+  "post_id": "7f7b79379a073958",
+  "state": "FAILED",
+  "cache_key": "9316571b9b3dd388901d944304d863fe41b3bbe9925f906ac89f8222f35d444c",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "7f7b79379a073958",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7换代不改外观"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "Max版288kW"
+          },
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "Max才是本体"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米SU7 Pro",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Pro",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "Pro版总算像个正经车了"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "小米SU7 标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "标准版螺旋弹簧后排调软了"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "小米YU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "YU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "YU7同款磁吸萌宠上车"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为新一代SU7外观改动极少，除新增车漆、轮毂及细微部件调整外，整体造型与初代高度相似，甚至调侃“改个色就当换代”。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "换壳？不存在的，改个色就当换代"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "外观几乎就是复制粘贴"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者指出新一代SU7补齐了电动前备箱实体按键、车外语音交互、摄像头清洗、标准版激光雷达及高阶智驾芯片等初代缺失的功能，但批评这些基础配置拖延至换代才加入。",
+        "sentiment": "正负混合",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "电动前备箱终于加了实体按键...标准版头顶终于长出激光雷达小包，智驾芯片换成700Tops的Thur-U，算是把初代标准版最大的短板给填了。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "背景提及对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者评价新一代SU7座舱座椅舒适性显著提升，主驾调节功能增强，后排空间与角度优化，并引入了YU7同款的磁吸萌宠功能，认为这对吸引女性用户有帮助。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "座椅终于像给人坐的了...后排坐垫加长加厚，靠背能躺到121度，舒适度没毛病。YU7同款磁吸萌宠上车，这玩意儿比什么零百加速更能让女朋友点头下单。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为虽然新一代SU7全系升级800V平台和电机功率，但电控策略变得保守，激烈驾驶时动力切断早、ESP介入积极，且刹车踏板反馈模糊，影响了驾驶乐趣。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "参数看着漂亮，但开起来明显被电控绑住了手脚。激烈驾驶动力切断更早，ESP介入更积极...刹车踏板模糊，踩下去反应慢半拍，抬起来回位不干脆，CRBS标定得拉胯。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者对比Pro版与标准版，认为Pro版凭借更大的电池、双腔空悬和CDC，舒适性与稳定性显著优于标准版，解决了标准版后排晃动的问题，但车重增加导致加速和响应稍显迟钝。",
+        "sentiment": "正负混合",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "Pro版总算像个正经车了...双腔闭式空悬加CDC上车，过减速带从容不迫，后排晃动明显收敛，舒适度和标准版判若两车。但车重大了加速慢半拍，激烈驾驶车身响应也比标准版迟钝。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P3",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P3",
+              "object_product_id": "P4",
+              "aspect": "空间与舒适性",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "舒适度和标准版判若两车"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者总结认为新一代SU7中Max版本才是具备完整性能和舒适性的“本体”，标准版和Pro版仅为差异化配置产品，因此建议消费者直接选择Max版本。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "说穿了，新一代SU7还是那个配方：标准版和Pro版是刀法产品，Max才是完整版...这代SU7，冲Max就对了。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米新一代SU7发布",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7换代不改外观"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "屏幕上显示着一辆蓝色轿车的渲染图以及中文标语“新一代 SU7”"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米发布了新一代SU7车型，提供了多种颜色选择及配置升级。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子详细评测了小米新一代SU7的外观、座舱、底盘及动力表现。作者认为新车外观改动较小，但补齐了初代的配置短板，座舱舒适性大幅提升。尽管全系升级800V平台，但电控策略偏保守，影响驾驶乐趣。作者对比各版本后，认为Max版本才是真正具备完整实力的车型，推荐购买Max。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "products/P2/evidence/1:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "products/P2/evidence/1:non_contiguous_quote",
+    "claims/C6/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11771,
+    "completion_tokens": 3178,
+    "total_tokens": 14949,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 14.03596120000293,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

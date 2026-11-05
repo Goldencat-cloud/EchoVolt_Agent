@@ -1,0 +1,374 @@
+{
+  "post_id": "12c16e48e5cadc23",
+  "state": "CONTRACT_PASS",
+  "cache_key": "3994b7e0d918dc5513cdbdb76bf754dfae42b34e0b719951a2a0176800c63786",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "12c16e48e5cadc23",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7车衣亲测4大品牌，闭眼冲不踩雷"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "提小米SU7的集合！"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者已提车小米SU7，因担忧小区开门杀、高速飞石、树胶鸟粪等造成车漆损伤及高额补漆费用，决定花费半个月时间实测多款车衣以寻找解决方案。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "提车后却天天提心吊胆——小区开门杀、高速飞石、路边树胶鸟粪，每一样都能给精致车漆留一道“伤疤”，补一次漆动辄大几千，心疼到肉疼！"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "为了守护我的“梦中情车”，我花了半个月时间，实测了海格力斯、途虎王牌、量子膜、龙膜这4款主流车衣"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为海格力斯战神系列荣耀Pro传奇版车衣性价比高，实测显示其热修复率高，能应对日常小剐蹭，且专车专用裁膜贴合度高，提升了车辆颜值。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "No.1 海格力斯战神系列荣耀Pro传奇版｜性价比之王，SU7车主闭眼冲"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "亲测贴完半个月，彻底告别“洗车焦虑”和“剐蹭恐惧”。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "用钥匙轻划、购物车剐蹭，甚至小石子轻砸，膜面只留下短暂痕迹，放在太阳下晒一会儿，居然完全恢复，热修复率能达到90%以上"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "海格力斯采用专车专用电脑裁膜，精准匹配SU7的每一处车身数据...贴完后膜面平整光滑，没有一丝褶皱，卡布里蓝的渐变光泽反而更突出，颜值直接翻倍。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "作者在提车后进行了为期半个月的实测，包括钥匙轻划、购物车剐蹭和小石子轻砸等模拟场景。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "亲测贴完半个月，彻底告别“洗车焦虑”和“剐蹭恐惧”。"
+            },
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "我特意做了实测，用钥匙轻划、购物车剐蹭，甚至小石子轻砸"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者指出海格力斯车衣具有高透光率，不影响小米SU7的ETC、GPS信号及智能驾驶功能的正常使用。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "而且它的透光率很高，完全不影响SU7的ETC和GPS信号，智能驾驶功能正常使用，这点真的很加分。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者认为海格力斯车衣售后服务完善，提供10年官方电子质保，依托途虎全国工场店网络，一年内提供不限次数的免费补膜服务。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "售后也很让人放心，10年官方电子质保，覆盖黄变、起泡、开裂、脱层等所有质量问题，质保卡绑定车牌，全国通用，依托途虎全国8000+工场店，一年内还有40cm×40cm剐蹭不限次数免费补膜"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者评价途虎王牌钻石版车衣品质极高，采用巴斯夫TPU母粒，韧性强，撕膜无残胶，能提升车辆质感，适合追求完美的车主。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "No.2 途虎王牌钻石版｜旗舰品质，追求完美车主首选"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "核心基材选用世界500强德国巴斯夫专属TPU母粒...实测断裂伸长率达到350%，韧性远超行业平均水平"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "最值得夸的是撕膜无残胶，进口胶水附着力强但易剥离，后期换膜或撕膜时，不会在SU7的精细漆面上留下任何痕迹"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者介绍量子膜钻石70系列车衣主打高清防护和低反光，采用进口脂肪族TPU，能有效保护车漆和内饰，适合注重车内视野的车主。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "No.3 量子膜钻石70系列｜高清防护"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "钻石70系列主打“高清防护+低反光”，比较适合注重车内视野的SU7车主。采用进口脂肪族TPU基材，7.5mil厚度，抗穿刺强度优异...紫外线阻隔率99%"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者评价龙膜G1系列车衣作为老牌产品稳定性不错，具备秒级划痕修复技术和出色的抗酸雨能力，并提供10年质保。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "No.4 龙膜G1系列｜老牌品质"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "龙膜作为车衣行业的老牌，稳定性一直不错...秒级划痕修复技术，70℃热风枪30秒就能修复99%的浅层划痕，抗酸雨能力也很出色，10年质保政策完善"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者推荐通过途虎平台购买车衣，认为其相比线下门店具有正品保障、施工专业（针对SU7专项培训）、价格透明且便宜10%-20%、售后便捷等优势。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "亲测过线下门店和其他平台，对比下来途虎的优势真的太明显了，新手车主直接照搬就好！"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "途虎的技师都经过小米SU7车型专项培训...价格透明，APP标价包含材料费、施工费，没有任何隐形消费，经常有专属优惠活动，比线下门店便宜10%-20%"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提小米SU7的集合！"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车后却天天提心吊胆"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "重视车漆保护",
+        "偏好高性价比车衣",
+        "关注车衣对智能驾驶及信号的影响"
+      ]
+    },
+    "post_summary": "作者作为小米SU7车主，因担忧车漆受损及高昂补漆成本，实测并对比了海格力斯、途虎王牌、量子膜、龙膜四款主流车衣。文章详细评测了各品牌的防护力、贴合度、性价比及售后服务，最终强烈推荐途虎平台的海格力斯和途虎王牌车衣，并给出了具体的购买建议。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C3/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11396,
+    "completion_tokens": 3577,
+    "total_tokens": 14973,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 15.61507710001024,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

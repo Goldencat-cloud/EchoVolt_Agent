@@ -1,0 +1,18 @@
+{
+  "schema_version": "research-brief-3",
+  "catalog_version": "2026-10-28.1",
+  "brief_id": "new-energy-owner-research",
+  "title": "新能源汽车用户反馈通用研究任务",
+  "questions": [
+    "{aspect}议题在全量快照中的讨论规模和负面声明占比如何？",
+    "不同议题或精选证据维度之间有哪些可观察差异？",
+    "精选观点具体表达了哪些体验，证据覆盖和解释边界是什么？"
+  ],
+  "metrics": ["negativeShare", "posts", "negative_posts", "claims", "negative"],
+  "dimensions": ["aspect", "sentiment", "journey", "ownership", "product", "time"],
+  "default_aspect": null,
+  "minimum_posts": 10,
+  "required_evidence": ["quote", "url", "claim_id", "data_version"],
+  "required_sections": ["observation", "comparison", "evidence", "interpretation", "limitations", "next_questions"],
+  "coverage_notice": "指标定义及维度覆盖由同版本 research_catalog 提供；未在当前快照或方法目录中支持的切片必须澄清或拒答。journey、ownership、product、time 仅描述精选 core/potential 证据子集，不代表总体分布或全量趋势。"
+}

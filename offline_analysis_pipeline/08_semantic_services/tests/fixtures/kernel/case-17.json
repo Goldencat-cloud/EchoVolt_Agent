@@ -1,0 +1,59 @@
+{
+  "id": "case-17",
+  "source": "synthetic",
+  "note": "溯源式追问",
+  "input": {
+    "question": "可靠性 21 条负面是怎么算的？",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "method",
+      "aspect": "可靠性",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "可靠性",
+            "negative_share": 0.42,
+            "negative": 21,
+            "total_claims": 84
+          }
+        ]
+      }
+    }
+  ],
+  "final_text": "21 条负面声明除以 50 条总声明，得到 42%。",
+  "expected": {
+    "answer": "21 条负面声明除以 50 条总声明，得到 42%。",
+    "stats": [
+      {
+        "aspect": "可靠性",
+        "negative_share": 0.42,
+        "negative": 21,
+        "total_claims": 84,
+        "negativeShare": 0.42,
+        "negative_claims": 21
+      }
+    ],
+    "evidence": [],
+    "applied_filters": {
+      "aspects": [
+        "可靠性"
+      ]
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 1
+  }
+}

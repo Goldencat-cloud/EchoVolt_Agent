@@ -1,0 +1,396 @@
+{
+  "schema_version": "2.3",
+  "post_id": "21172d0ab2d741c1",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看了特斯拉跟极氪001"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看了特斯拉跟极氪001"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在选车过程中对比了特斯拉和极氪001，最终选择了小米SU7 2024款后驱长续航智驾版。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看了特斯拉跟极氪001"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者记录了详细的购车费用：裸车标准版215900元，加装20寸轮毂选配费8000元，车价合计223900元，保险约7700元，购买1299元无忧包，落地总价232900元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "裸车标准版215900，加了8000选配了20寸轮毂，223900车价，保险7700左右，还买了1299无忧包，落地共232900"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为20寸梅花轮毂提升了车辆颜值，实车视觉冲击力强，镂空设计和布雷博四活塞卡钳增强了运动感，使其成为日常通勤的乐趣来源。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "为颜值和操控咬牙加8000元选装的20寸梅花轮毂，已然成为日常通勤的快乐源泉。实车视觉冲击力远超图片，镂空设计搭配布雷博四活塞卡钳，让标准版的运动气场直接拉满"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "日常通勤",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "已然成为日常通勤的快乐源泉"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者体验了20寸轮毂带来的操控提升，认为城市道路变道跟随性强、转向精准、过弯侧倾抑制好，比试驾时的19寸版本更有驾驶信心；高速行驶至110km/h依然稳定，风噪盖过胎噪，噪音可控。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "城市道路变道时车身跟随性极强，转向精准无虚位，过弯侧倾抑制到位，比试驾时的19寸版本更有驾驶信心。高速行驶至110km/h依旧稳如磐石，风噪盖过胎噪，得益于轮胎内置静音棉，噪音控制在可接受范围。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "城市道路变道、过弯及高速公路110km/h行驶",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "城市道路变道时...高速行驶至110km/h"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出20寸轮毂因胎壁较薄，过减速带时颠簸反馈更直接，但未达到网络传言的“颠勺”程度，城市铺装路面通勤完全可以适应。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "舒适性的取舍在预期之内，胎壁较薄导致过减速带时颠簸反馈更直接，但没有网传“颠勺”那么夸张，城市铺装路面通勤完全能适应。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "城市铺装路面通勤，经过减速带",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "过减速带时...城市铺装路面通勤"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者实测提车两周内行驶800公里，市区通勤平均电耗14.2kWh/100km，高速开启LCC后电耗15.5kWh/100km，综合续航约500km，比官方数据少50公里左右，认为属于可接受的妥协，一周充一次电足够日常使用。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车两周行驶800公里...市区通勤平均电耗14.2kWh/100km，高速开启LCC后电耗升至15.5kWh/100km，综合续航约500km，一周充一次电足够日常使用，比官方数据少50公里左右，属于可接受的续航妥协。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "提车两周，市区通勤及高速开启LCC行驶",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "提车两周行驶800公里...市区通勤...高速开启LCC"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者发现20寸轮毂容易卡小石子，洗车时需重点清理；同时提到HyperOS车机已预载轮毂数据，胎压监测精准，无需额外校准。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "20寸轮毂容易卡小石子，洗车时需要重点清理；不过搭配扎实的底盘，路面反馈清晰且不突兀...HyperOS车机已预载轮毂数据，胎压监测精准，无需额外校准。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "日常驾驶及洗车维护",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "洗车时需要重点清理"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结认为20寸轮毂完美契合小米SU7的运动基因，颜值与操控的提升远大于续航和舒适性的小幅妥协，对于追求个性与驾驶乐趣的用户来说是值得的选装。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "短期体验下来，20寸轮毂完美契合小米SU7的运动基因，颜值与操控的提升远大于续航和舒适性的小幅妥协，对于追求个性与驾驶乐趣的用户来说，绝对是值得的选装。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者建议车友不要参考网上的评价。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "给车友的建议 不要看网上的那些评价"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车两周行驶800公里"
+      },
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "我的小米su7"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "追求个性",
+      "注重驾驶乐趣",
+      "关注颜值"
+    ]
+  },
+  "post_summary": "车主分享了小米SU7 2024款后驱长续航智驾版的提车及初期用车体验。详细列出了落地费用23.29万元，重点评测了加钱选装的20寸轮毂，认为其在操控和颜值上的提升显著，虽牺牲部分舒适性但整体值得推荐，并建议车友忽略网络负面评价。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

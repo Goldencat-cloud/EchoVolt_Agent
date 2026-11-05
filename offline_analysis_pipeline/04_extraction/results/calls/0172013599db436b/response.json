@@ -1,0 +1,245 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0172013599db436b",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Pro版的830公里"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为该车续航长，日常用车续航达成率约为7.8折（市区4/5、高速1/5路况）。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Pro版的830公里，日常用车大概7.8折左右。4/5的路程是市区道路，1/5跑的高速。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这车续航长"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "日常用车，4/5路程为市区道路，1/5为高速公路。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "4/5的路程是市区道路，1/5跑的高速。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者认为该车充电速度快，长途补能效率高，因此几乎没有里程焦虑。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "充电也是真的快。跑长途中间补能也快，是真的焦虑不了一点点。"
+        },
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "充电是真的快，里程焦虑不了一点点"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "下班后顺道充电，利用低谷电价时段；提及长途补能场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "下了班之后准备去吃点东西，顺道去给SU7充电。这个时间段充电，电费也还能便宜点。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "跑长途中间补能也快"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为该车性能强劲，市区使用舒适模式即够用，高速行驶动力充沛。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7性能强，在市区实际上舒适模式就完全够用的了。上高速，就想跑多快，只要敢冲就能飚多快。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "市区道路使用舒适模式，高速公路高速行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在市区实际上舒适模式就完全够用的了。上高速，就想跑多快"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为NOA（导航辅助驾驶）功能使用体验良好，操作顺手轻松。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "NOA用起来还不错，挺顺手轻松的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出高速路段电耗较高，约在19-20（单位未明，推测为kWh/100km），高速续航达成率约为7折。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "高速电耗高一点，大概在19-20左右，续航达成率7折吧。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "高速公路行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "高速电耗高一点"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "顺道去给SU7充电"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "日常用车大概7.8折左右"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享小米SU7 Pro的日常用车体验，重点肯定了其快速充电能力和长续航带来的低里程焦虑。同时评价了车辆在市区和高速的动力表现、NOA智驾体验以及高速工况下的能耗情况。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

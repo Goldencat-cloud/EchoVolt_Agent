@@ -1,0 +1,329 @@
+{
+  "schema_version": "2.3",
+  "post_id": "550f8fb21c04661a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 800km 四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "本来是想上pro长续航的"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者原本打算购买SU7 Pro长续航版，但因加装车漆、音响和尾翼后的总价与Max版差距不大，且Max版多了电吸门、抬头显示和空气悬架等配置，最终决定直接购买Max版。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "本来是想上pro长续航的，选了个车漆，选了25扬声器，加个尾翼，算下来和max也就差两三万了。还没有电吸门和抬头显示空气悬架啥的。干脆直接一步到位max了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "还没有电吸门和抬头显示空气悬架啥的"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者实测小米SU7 Max冬季电耗约为18kWh/100km，激烈驾驶时超过20kWh/100km，夏季电耗在14-16kWh/100km之间。满电状态下续航里程可达612km（未计算藏电）。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "电耗冬天是在18kwh左右。开猛一点就是20多。夏天基本在14-16kwh之间。满电续航能跑612km没有算过藏电。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在冬季和夏季的不同驾驶强度下记录了车辆的电耗和续航表现。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "电耗冬天是在18kwh左右。开猛一点就是20多。夏天基本在14-16kwh之间。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者发现小米SU7 Max的哨兵模式较为耗电，夜间停放一晚大约消耗10-20km的续航里程。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "不过哨兵模式挺耗电的。一晚上掉10-20km的样子。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "车辆在夜间停放期间开启了哨兵模式。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一晚上掉10-20km的样子"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者利用小米SU7 Max的后排空间和后备箱进行露营，通过后排放倒并铺设床垫在公园午休，认为这种露营体验很舒服。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "后排放倒加个床垫，停在附近公园里午休。露营体验还是很舒服的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者将车停在附近的公园里，使用后排放倒的空间进行午休和露营。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "后排放倒加个床垫，停在附近公园里午休。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者对小米SU7 Max的外观和内饰设计非常满意，认为都非常好看。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外观内饰都是非常好看的。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "帅，就是帅，帅就完了哈哈哈哈哈"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者详细列出了小米SU7 Max的购车费用：裸车价306900元，选配寒武岩灰车漆7000元，19寸运动轮毂，保险6700元，官方无忧包1200元。通过国家置换补贴17000元和成都本地云闪付红包3000元，总优惠约2万元，且免收购置税。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "裸车价格306900元，型号max ，选了寒武岩灰车漆7000元。轮毂就选的19寸运动轮毂。保险是小米汽车app下单6700元，再买了一个1200的小米官方无忧包。没申请到国家报废补贴，家里确实没有要报废的车。申请了国家置换补贴17000元。成都本地云闪付红包补贴3000元。总的算下来这个车优惠了2w，而且没有购置税。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者描述了小米SU7 Max的提车过程，认为流程非常快速高效。在验车前支付款项，工作人员提供了车辆文件、协助拍摄纪念照、介绍车辆功能，并办理了临时车牌。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车过程非常快速，到车提前一天提醒，我是在验车前就支付了款项。整个提车过程非常快，给了我一系列车的文件，贴心的帮我和车拍了合照，也算是留个纪念。介绍了车的使用功能，没有异议就去打印临时车牌了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米su7max提车日记"
+      },
+      {
+        "block_id": "T4",
+        "source_type": "text",
+        "quote": "刚回家的嫩仔su7。"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好小米品牌",
+      "注重车辆性价比",
+      "喜欢车辆外观"
+    ]
+  },
+  "post_summary": "这是一篇关于小米SU7 Max的提车日记。作者分享了从选车对比、费用明细到提车过程的经历，并对车辆的外观、内饰、冬季和夏季的电耗表现、哨兵模式耗电情况以及露营实用性进行了详细的评价和反馈。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

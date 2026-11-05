@@ -1,0 +1,189 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f35c6772e5a95dc2",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "多名小米SU7标准版车主反映其“自动泊车”功能出现故障"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "智能驾驶",
+      "content": "多名小米SU7标准版车主反映自动泊车功能出现故障，导致车辆发生撞击或剐蹭损伤。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "多名小米SU7标准版车主反映其“自动泊车”功能出现故障，进而导致车辆发生撞击、剐蹭损伤等情况"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "服务与交付",
+      "content": "小米官方回应表示愿意承担因自动泊车故障导致的全部维修费用。",
+      "sentiment": "正面",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米官方迅速做出回应，表示愿意承担全部维修费用"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米承担全责的做法展现了其在面对产品问题时的责任担当，体现了对消费者权益的重视。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这一举措，无疑展现了小米在面对产品问题时的责任担当"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "这一方面是对消费者权益的重视"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "安全与质量",
+      "content": "作者指出自动泊车故障不仅造成车辆损伤，还可能危及人员与车辆安全，因此智能汽车功能研发与测试需更加严谨，以确保安全稳定。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "这也凸显了智能汽车功能研发与测试环节需更加严谨的重要性"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "自动泊车故障不仅能造成车辆外观的损伤，更有可能危及周边人员与车辆的安全"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7标准版自动泊车故障及官方担责",
+      "event_type": "质量与召回",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "多名小米SU7标准版车主反映其“自动泊车”功能出现故障，进而导致车辆发生撞击、剐蹭损伤等情况"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米官方迅速做出回应，表示愿意承担全部维修费用"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "多名小米SU7标准版车主反映自动泊车故障导致车辆受损，小米官方回应愿承担全部维修费用。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了小米SU7标准版自动泊车功能故障导致车辆受损的事件，指出小米官方承诺承担全责维修费用。作者一方面肯定了小米的责任担当，另一方面强调智能汽车研发测试需更加严谨，以确保安全与稳定。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

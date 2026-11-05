@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0aefbb6ecfabe5e6",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者因小米SU7交付周期需排至明年年初，且担心届时竞品推出强力新车导致等待失去价值，从而质疑继续等待购买的必要性。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一问销售等车期心就凉了——最快交付要排到明年年初。就算我有耐心，问题是明年初新车又多又卷，说不定到时候竞品出个王炸我就白等了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者认为小米SU7首批车主虽好评较多但也存在不少小毛病，因此推测等待第二批车辆直至品控稳定可能更为稳妥。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "而且第一批车主虽然好评多但小毛病也不少，等第二批品控稳定岂不是更稳妥？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我问销售等车期"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车辆颜值",
+      "重视生态系统"
+    ]
+  },
+  "post_summary": "作者因小米SU7交付周期过长（排至明年）及对首批车辆品控的担忧，正在权衡是否继续等待购买，并表达了对未来竞品冲击的顾虑。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

@@ -1,0 +1,261 @@
+{
+ "scenario": "detail",
+ "question": "SU7 充电补能体验的负面反馈集中在哪些议题？请给出 3 条原文佐证。",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "481be0d533ea454e961a11d4d5c23e02",
+  "status": "running",
+  "status_url": "/api/agent/report/481be0d533ea454e961a11d4d5c23e02",
+  "request_id": "8816cedc1456"
+ },
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 21.2,
+   "status": "clarifying",
+   "phase": "澄清中"
+  },
+  {
+   "t": 27.2,
+   "status": "running",
+   "phase": "数据探索中"
+  },
+  {
+   "t": 45.3,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 48.3,
+   "status": "failed",
+   "phase": "失败"
+  }
+ ],
+ "clarify_count": 2,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"以小米全量声明级负向占比为总览骨架（先执行议题级排序复核预置基准），再聚焦负向占比最高的可靠性与故障、服务与交付两个议题取负向说法原文与月度走势，并补充服务与交付议题的用户阶段分布与可靠性与故障议题的车主/非车主结构，形成'总览—重点议题说法—走势—人群结构'的品牌健康度覆盖\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"小米各议题的负向观点占比排序，哪些议题是负面集中区\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"小米各议题负向观点占比排序\"}},{\"id\":\"w2\",\"question\":\"负向占比最高的可靠性与故障议题，用户主要负向说法是什么\",\"dimension\":\"other\",\"aspect\":\"可靠性与故障\",\"method\":\"top_negative_claims\",\"requires_evidence\":true,\"visualization\":{\"type\":\"table\",\"title\":\"可靠性与故障主要负向说法\"}},{\"id\":\"w3\",\"question\":\"可靠性与故障的负向说法随时间如何变化\",\"dimension\":\"time\",\"aspect\":\"可靠性与故障\",\"method\":\"negative_claims_by_month\",\"requires_evidence\":false,\"visualization\":{\"type\":\"line\",\"x\":\"month\",\"y\":\"count\",\"title\":\"可靠性与故障负向说法月度走势\"}},{\"id\":\"w4\",\"question\":\"负向占比次高的服务与交付议题，用户主要负向说法是什么\",\"dimension\":\"other\",\"aspect\":\"服务与交付\",\"method\":\"top_negative_claims\",\"requires_evidence\":true,\"visualization\":{\"type\":\"table\",\"title\":\"服务与交付主要负向说法\"}},{\"id\":\"w5\",\"question\":\"服务与交付议题中用户所处阶段如何分布（购车前、交付与上手、拥有使用、维修售后）\",\"dimension\":\"journey\",\"aspect\":\"服务与交付\",\"method\":\"journey_distribution\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"journey\",\"y\":\"count\",\"title\":\"服务与交付议题的用户阶段分布\"}},{\"id\":\"w6\",\"question\":\"可靠性与故障议题中，当前车主与未拥有者的体验结构差异（负面是否来自车主亲历）\",\"dimension\":\"ownership\",\"aspect\":\"可靠性与故障\",\"method\":\"ownership_experience_mix\",\"requires_evidence\":false,\"visualization\":{\"type\":\"table\",\"title\":\"可靠性与故障议题的车主/未拥有者体验结构\"}}]}",
+    "plan": {
+     "coverage": "以小米全量声明级负向占比为总览骨架（先执行议题级排序复核预置基准），再聚焦负向占比最高的可靠性与故障、服务与交付两个议题取负向说法原文与月度走势，并补充服务与交付议题的用户阶段分布与可靠性与故障议题的车主/非车主结构，形成'总览—重点议题说法—走势—人群结构'的品牌健康度覆盖",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "小米各议题的负向观点占比排序，哪些议题是负面集中区",
+       "dimension": "aspect",
+       "aspect": null,
+       "method": "negative_share_by_aspect",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "bar",
+        "x": "aspect",
+        "y": "negative_share",
+        "title": "小米各议题负向观点占比排序"
+       }
+      },
+      {
+       "id": "w2",
+       "question": "负向占比最高的可靠性与故障议题，用户主要负向说法是什么",
+       "dimension": "other",
+       "aspect": "可靠性与故障",
+       "method": "top_negative_claims",
+       "requires_evidence": true,
+       "visualization": {
+        "type": "table",
+        "title": "可靠性与故障主要负向说法"
+       }
+      },
+      {
+       "id": "w3",
+       "question": "可靠性与故障的负向说法随时间如何变化",
+       "dimension": "time",
+       "aspect": "可靠性与故障",
+       "method": "negative_claims_by_month",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "line",
+        "x": "month",
+        "y": "count",
+        "title": "可靠性与故障负向说法月度走势"
+       }
+      },
+      {
+       "id": "w4",
+       "question": "负向占比次高的服务与交付议题，用户主要负向说法是什么",
+       "dimension": "other",
+       "aspect": "服务与交付",
+       "method": "top_negative_claims",
+       "requires_evidence": true,
+       "visualization": {
+        "type": "table",
+        "title": "服务与交付主要负向说法"
+       }
+      },
+      {
+       "id": "w5",
+       "question": "服务与交付议题中用户所处阶段如何分布（购车前、交付与上手、拥有使用、维修售后）",
+       "dimension": "journey",
+       "aspect": "服务与交付",
+       "method": "journey_distribution",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "bar",
+        "x": "journey",
+        "y": "count",
+        "title": "服务与交付议题的用户阶段分布"
+       }
+      },
+      {
+       "id": "w6",
+       "question": "可靠性与故障议题中，当前车主与未拥有者的体验结构差异（负面是否来自车主亲历）",
+       "dimension": "ownership",
+       "aspect": "可靠性与故障",
+       "method": "ownership_experience_mix",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "table",
+        "title": "可靠性与故障议题的车主/未拥有者体验结构"
+       }
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"以小米全量声明级负向占比为总览骨架（先执行议题级排序复核预置基准），再聚焦负向占比最高的可靠性与故障、服务与交付两个议题取负向说法原文与月度走势，并补充服务与交付议题的用户阶段分布与可靠性与故障议题的车主/非车主结构，形成'总览—重点议题说法—走势—人群结构'的品牌健康度覆盖\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"小米各议题的负向观点占比排序，哪些议题是负面集中区\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"小米各议题负向观点占比排序\"}},{\"id\":\"w2\",\"question\":\"负向占比最高的可靠性与故障议题，用户主要负向说法是什么\",\"dimension\":\"other\",\"aspect\":\"可靠性与故障\",\"method\":\"top_negative_claims\",\"requires_evidence\":true,\"visualization\":{\"type\":\"table\",\"title\":\"可靠性与故障主要负向说法\"}},{\"id\":\"w3\",\"question\":\"可靠性与故障的负向说法随时间如何变化\",\"dimension\":\"time\",\"aspect\":\"可靠性与故障\",\"method\":\"negative_claims_by_month\",\"requires_evidence\":false,\"visualization\":{\"type\":\"line\",\"x\":\"month\",\"y\":\"count\",\"title\":\"可靠性与故障负向说法月度走势\"}},{\"id\":\"w4\",\"question\":\"负向占比次高的服务与交付议题，用户主要负向说法是什么\",\"dimension\":\"other\",\"aspect\":\"服务与交付\",\"method\":\"top_negative_claims\",\"requires_evidence\":true,\"visualization\":{\"type\":\"table\",\"title\":\"服务与交付主要负向说法\"}},{\"id\":\"w5\",\"question\":\"服务与交付议题中用户所处阶段如何分布（购车前、交付与上手、拥有使用、维修售后）\",\"dimension\":\"journey\",\"aspect\":\"服务与交付\",\"method\":\"journey_distribution\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"journey\",\"y\":\"count\",\"title\":\"服务与交付议题的用户阶段分布\"}},{\"id\":\"w6\",\"question\":\"可靠性与故障议题中，当前车主与未拥有者的体验结构差异（负面是否来自车主亲历）\",\"dimension\":\"ownership\",\"aspect\":\"可靠性与故障\",\"method\":\"ownership_experience_mix\",\"requires_evidence\":false,\"visualization\":{\"type\":\"table\",\"title\":\"可靠性与故障议题的车主/未拥有者体验结构\"}}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "小米各议题的负向观点占比排序，哪些议题是负面集中区",
+     "aspect": null,
+     "method": "negative_share_by_aspect",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "bar",
+      "title": "小米各议题负向观点占比排序"
+     }
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "负向占比最高的可靠性与故障议题，用户主要负向说法是什么",
+     "aspect": "可靠性与故障",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": {
+      "type": "table",
+      "title": "可靠性与故障主要负向说法"
+     }
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "可靠性与故障的负向说法随时间如何变化",
+     "aspect": "可靠性与故障",
+     "method": "negative_claims_by_month",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "line",
+      "title": "可靠性与故障负向说法月度走势"
+     }
+    },
+    {
+     "order": 4,
+     "id": "w4",
+     "question": "负向占比次高的服务与交付议题，用户主要负向说法是什么",
+     "aspect": "服务与交付",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": {
+      "type": "table",
+      "title": "服务与交付主要负向说法"
+     }
+    },
+    {
+     "order": 5,
+     "id": "w5",
+     "question": "服务与交付议题中用户所处阶段如何分布（购车前、交付与上手、拥有使用、维修售后）",
+     "aspect": "服务与交付",
+     "method": "journey_distribution",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "bar",
+      "title": "服务与交付议题的用户阶段分布"
+     }
+    },
+    {
+     "order": 6,
+     "id": "w6",
+     "question": "可靠性与故障议题中，当前车主与未拥有者的体验结构差异（负面是否来自车主亲历）",
+     "aspect": "可靠性与故障",
+     "method": "ownership_experience_mix",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "table",
+      "title": "可靠性与故障议题的车主/未拥有者体验结构"
+     }
+    }
+   ]
+  },
+  "plan": null,
+  "history_len": 1
+ },
+ "regenerate_used": 0,
+ "job_id": "481be0d533ea454e961a11d4d5c23e02",
+ "clarify_questions": [
+  {
+   "field": "topic",
+   "question": "“充电补能体验”的议题范围希望覆盖到哪一层：只限车辆端的充电表现（充电速度、功率爬升、兼容性、续航与表显、冬季充电等），还是也纳入补能服务侧（公共桩可用性、排队、扫码与 App、充电费用）？"
+  },
+  {
+   "field": "topic",
+   "question": "是否把家用充电桩的安装、报装流程、物业协调及售后处理纳入“补能体验”的负面反馈范围？"
+  }
+ ],
+ "clarify_responses": [
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "topic"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "topic"
+  }
+ ],
+ "outline_decisions": [
+  {
+   "http": 202,
+   "body": {
+    "action": "confirm",
+    "focus": "充电排队与补能",
+    "audience": "售后负责人"
+   },
+   "resp": {
+    "job_id": "481be0d533ea454e961a11d4d5c23e02",
+    "status": "running",
+    "status_url": "/api/agent/report/481be0d533ea454e961a11d4d5c23e02",
+    "request_id": "da7bcea0e0f5"
+   }
+  }
+ ],
+ "final_status": "failed",
+ "result": null,
+ "error": {
+  "error": "RuntimeError: Error code: 400 - {'error': {'message': \"An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. (insufficient tool messages following tool_calls message) (request_id: 40482735-8c41-4f8c-92fc-1d7f8902bf52)\", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}；最近工具调用：[]"
+ },
+ "job": {
+  "status": "failed",
+  "phase": "失败",
+  "delivery_spec": {
+   "focus": "充电排队与补能",
+   "audience": "售后负责人"
+  }
+ },
+ "wall_s": 48.3
+}

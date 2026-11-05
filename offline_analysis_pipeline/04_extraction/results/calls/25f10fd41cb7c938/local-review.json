@@ -1,0 +1,141 @@
+{
+  "post_id": "25f10fd41cb7c938",
+  "state": "CONTRACT_PASS",
+  "cache_key": "627761d72e20c80e648b7f051f18b84ff830418879538ec40928eeb8ac9249fe",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "25f10fd41cb7c938",
+    "products": [],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "作者指出当前汽车行业新车投放密度极高，半年小改、季度微调成为常态，品牌普遍采用短平快的快速迭代模式。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "看看这半年的新车投放密度， 上半年上市新车超600款，平均每天冒出3款新车。 半年小改、季度微调已经是明规则。不少品牌奉行短平快模式，立项快、量产快、迭代快、淘汰更快"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者列举数据显示，燃油车和新能源车的三年保值率在近期显著下滑，认为厂家的高频迭代人为制造了消费焦虑，导致用户因担心过时而过早换车。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "燃油车三年保值率从2022年的67.6%跌到今年上半年的52.7%，新能源车更直接，从54.7%滑至45.2%。 一款车刚落地就过时，不是机械出了问题，是厂家的迭代速度人为制造出消费焦虑。用户三五年换车，并不是因为车子不能开了，而是怕被新款远远甩在身后。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者批评当前汽车改款多在屏幕、语音、续航等表层参数上堆砌，而在底盘调校、转向回馈等核心驾驶质感上投入不足，导致车辆在高速行驶或经过颠簸路面时暴露短板。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "更致命的在于，这些改款几乎全在表层狂奔。 屏幕越来越多，语音越来越快，续航数字越标越高，可一跑高速、一过减速带，底盘的单薄和转向的虚无立刻露馅。 堆砌参数谁都会，但能把车身动态、转向回馈、悬挂韧性做出沟通感的，屈指可数。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者担忧若行业继续追求短期流量和销量，忽视底盘打磨和品牌积淀，将透支整个行业的长期口碑和创新潜力，使汽车沦为短命快消品。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "如果任由快消式内卷蔓延下去，追着短期流量和销量数字跑，不愿意沉下心去打磨底盘、积淀品牌调性、给产品注入经得起时间考验的价值，那透支的就不只是保值率，是整个行业的长期口碑和创新潜力。 别让汽车变成用完即弃的快消品。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子针对汽车行业高频改款现象提出批评，指出新车投放密集和短平快迭代模式导致保值率大幅下滑，并认为这种模式忽视了底盘调校等核心驾驶体验，将汽车异化为缺乏情感价值和耐用性的快消品，进而损害行业长期发展。",
+    "post_topic": "行业政策与市场",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C4/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10644,
+    "completion_tokens": 1396,
+    "total_tokens": 12040,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.622984700006782,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

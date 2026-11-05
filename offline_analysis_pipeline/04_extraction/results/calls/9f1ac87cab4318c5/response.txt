@@ -1,0 +1,517 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9f1ac87cab4318c5",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "极氪007",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "极氪007"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪汉",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "汉",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "比亚迪汉"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "小鹏P7+",
+      "entity_level": "车系",
+      "brand": "小鹏",
+      "series": "P7+",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小鹏P7+"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "新款小米SU7公布预售价，标准版22.99万元起，Pro版25.99万元，Max版30.99万元，标准版较前代价格上涨1.4万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新款小米SU7预售价正式公布，标准版22.99万元起，相较于前代价格上涨1.4万元。Pro版25.99万元，Max版30.99万元。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "服务与交付",
+      "content": "新款小米SU7预计2026年4月正式上市，已开启小订通道，支付1000元意向金可享优先排产权及权益保留。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新车预计2026年4月正式上市，已开启小订通道，支付1000元意向金可享优先排产权及权益保留。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "新款小米SU7在外观和内饰设计上实现创新突破，新增“卡布里蓝”车漆，保留溜背造型并微调灯组，配备20英寸“锋刃”轮毂与红色刹车卡钳，内饰采用“暗夜黑”配色并重新设计方向盘、中控台与座椅。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新一代小米SU7在外观和内饰设计上实现了创新性突破...新增的 “卡布里蓝”车漆 ... 车身线条方面，SU7保留了标志性的 溜背造型 ... 全新20英寸 “锋刃”轮毂 与 红色刹车卡钳 的组合..."
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "内饰设计上，新车采用 “暗夜黑”配色方案 ，对方向盘、中控台与座椅进行了重新设计。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "新款小米SU7座椅采用新型复合材料，官方宣称在保证支撑性的同时，乘坐舒适度提升了15%；后排空间虽受溜背造型限制，但通过座椅角度优化，为身高180cm以下的乘客提供了足够的头部空间。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "座椅采用新型复合材料，官方宣称在保证支撑性的同时，乘坐舒适度提升了15%。后排空间虽然受溜背造型限制，但通过座椅角度优化，为身高180cm以下的乘客提供了足够的头部空间。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "新款小米SU7实行“全系满配”策略，全系标配激光雷达、4D毫米波雷达、700TOPS算力平台及Xiaomi HAD端到端辅助驾驶系统；官方数据显示新系统应对突发情况成功率较老款提升40%。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "新款SU7在配置上实现了 “全系满配”策略 ... 全系车型标配包括 激光雷达、4D毫米波雷达和700TOPS算力平台 在内的智能驾驶硬件。小米自研的Xiaomi HAD端到端辅助驾驶系统也成为标准配置，官方数据显示，新系统应对突发情况的成功率较老款提升了40%。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "新款小米SU7全系标配9个安全气囊（新增后排侧气囊），车身采用2200MPa超强钢防滚架和底部防弹涂层，底盘全系标配V6s Plus超级电机、前四活塞卡钳和后宽胎，Pro与Max版配备闭式双腔空气弹簧+CDC阻尼可变减振器。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "安全配置 方面，新款SU7全系标配 9个安全气囊 ，新增了后排侧气囊。车身结构上采用 2200MPa超强钢防滚架 和底部防弹涂层... 底盘系统同样全面升级，全系标配V6s Plus超级电机、前四活塞卡钳和后宽胎。Pro与Max版还配备了闭式双腔空气弹簧+CDC阻尼可变减振器..."
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "新款小米SU7全系采用高压碳化硅平台（标准/Pro版752V，Max版897V），Max版在常温下使用自营充电桩15分钟可补充670公里续航，10%-80%充电仅需11.3分钟。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "新一代SU7全系采用 高压碳化硅平台 ，标准版与Pro版为752V，Max版则搭载业界领先的 897V高压平台 。高电压平台带来的直接优势是 充电效率大幅提升 ，Max版在常温下使用自营充电桩，15分钟可补充670公里续航，10%到80%充电仅需11.3分钟。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "新款小米SU7 Pro版CLTC续航达902公里，Max版为835公里，文中称该数据在同级别电动轿车中处于领先地位。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "续航能力方面，新款SU7 Pro版CLTC续航达到 902公里 ，Max版为835公里，这一数据在同级别电动轿车中处于领先地位。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "在智能驾驶硬件配置上，新款小米SU7采取全系标配策略，而极氪007为选配策略，小鹏P7+为分级配置，文中认为SU7的策略降低了用户获取智能驾驶功能的门槛。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "与竞争对手相比，新一代SU7的最大差异化体现在 全系标配高阶智能驾驶硬件 。相比极氪007的选配策略和小鹏P7+的分级配置，SU7的全系满配策略降低了用户获取智能驾驶功能门槛。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "智能驾驶",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "相比极氪007的选配策略...SU7的全系满配策略降低了用户获取智能驾驶功能门槛。"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "智能驾驶",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "和小鹏P7+的分级配置，SU7的全系满配策略降低了用户获取智能驾驶功能门槛。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "新款小米SU7 Max版的快速补能能力（11.3分钟10%-80%）被认为明显优于同级竞品，对充电基础设施不完善地区的用户更具吸引力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "充电效率是另一个突出优势， Max版11.3分钟的快速补能能力 ，明显优于同级竞品，对充电基础设施不完善的地区用户尤其具有吸引力。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "新款小米SU7延续了小米的品牌生态优势，对于深度融入小米生态的用户，提供了无缝连接的智能体验，文中认为这是其他品牌难以复制的竞争优势。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "同时，新款SU7 延续了小米的品牌生态优势 。对于已经深度融入小米生态的用户，SU7提供了无缝连接的智能体验，这是其他品牌难以复制的竞争优势。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "尽管新款小米SU7起售价上涨1.4万元，但考虑到全系增加的配置和价值，文中认为其性价比仍保持在较高水平，尤其在智能驾驶和安全配置方面较同价位竞品有明显优势。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "价格方面，虽然新一代SU7起售价上涨1.4万元，但考虑到全系增加的配置和价值，性价比仍然保持在较高水平，尤其是在智能驾驶和安全配置方面，较同价位竞品有明显优势。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新款小米SU7预售开启及上市预告",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新款小米SU7预售价正式公布...新车预计2026年4月正式上市，已开启小订通道"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "新款小米SU7公布各版本预售价，开启小订通道，并预计于2026年4月正式上市。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子介绍了新款小米SU7的预售价、上市时间及小订政策，详细阐述了其在外观设计、内饰材质、智能驾驶硬件（全系标配）、安全配置、高压平台充电效率及续航方面的升级亮点。文章将新款SU7与极氪007、小鹏P7+等竞品进行对比，指出其在智能驾驶配置普及率和充电效率上的优势，并认为其凭借小米生态优势和较高的性价比，在25-30万元纯电轿车市场中具备较强的竞争力。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

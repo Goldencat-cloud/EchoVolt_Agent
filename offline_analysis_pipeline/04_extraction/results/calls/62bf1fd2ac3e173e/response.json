@@ -1,0 +1,261 @@
+{
+  "schema_version": "2.3",
+  "post_id": "62bf1fd2ac3e173e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "SU7价格反转"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一众国产新势力还有特斯拉"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "不是保时捷买不起"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为SU7的外观设计帅气，颜色靓丽不俗气，漆面质感和流线型工艺到位，内饰配置属于豪华级别。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从外观来看的话，我还是挺喜欢的，确实有那么一点点帅，而且颜色也深得我心，靓丽却不显俗气。无论是漆面质感还是这个流线型工艺都还挺到位的，再看一下配置，也属于豪华装修一派"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者称赞SU7的无人代客泊车功能非常厉害。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "无人代客泊车也太牛了吧"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者认为SU7最终定价不亲民，超出了其预算范围，因此表示只能看宣传片和脑补，不会购买。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "果然最后定价不亲民...我们这些贫民窟的孩子们看看宣传片，再自己脑补一下坐在车内的画面就好了"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者通过对比指出，对于追求潮流的用户而言，相比购买保时捷，选择小米SU7更具性价比。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "毕竟对你们来说不是保时捷买不起，而是小米更有性价比"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "不是保时捷买不起，而是小米更有性价比"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7公布售价",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "SU7价格反转"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "果然最后定价不亲民"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "小米SU7公布了最终售价，价格较之前预期的亲民定位有所上调，被称为'价格反转'。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "还没看到实车"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "再看看自己的车"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "看看宣传片，再自己脑补一下坐在车内的画面就好了"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "喜欢高颜值外观",
+      "关注性价比"
+    ]
+  },
+  "post_summary": "作者表达了对小米SU7外观设计、内饰配置及智能功能的喜爱，但因最终定价超出预算（自称'贫民窟孩子'）而感到失望，认为其虽比保时捷性价比高但仍不可负担，目前仅停留在观看宣传和想象阶段。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

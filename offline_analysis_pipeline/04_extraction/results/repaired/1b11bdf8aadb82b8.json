@@ -1,0 +1,293 @@
+{
+  "schema_version": "2.3",
+  "post_id": "1b11bdf8aadb82b8",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7热点集中问题官方解答（第七十一期）"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "01 小米SU7 Ultra性能很强，目前门店可以试驾么，试驾门槛是否会变高？"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "提问者认为小米SU7 Ultra性能很强。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "01 小米SU7 Ultra性能很强，目前门店可以试驾么，试驾门槛是否会变高？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "提问者询问小米SU7 Ultra目前门店是否可以试驾，以及试驾门槛是否会变高。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "01 小米SU7 Ultra性能很强，目前门店可以试驾么，试驾门槛是否会变高？"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "官方回复称目前尚未向公众开放小米SU7 Ultra的试驾体验，已开启咨询预约，并引导关注10月29日的发布会。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前我们还未向公众开放试驾体验。关于后续的产品服务及政策，欢迎您关注10月29日19:00的发布会。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "官方提示小米SU7订单严禁转售，警告通过非官方渠道买卖订单可能导致定金诈骗、车主身份无法认定等不利后果，并建议通过官方APP或小程序下单。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车订单严禁转售，请您不要相信包括不限于微信群、非官方平台、门店外兜售等任何途径的售卖行为。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "通过其他渠道下单或违规收售、转售订单可能导致您遭受定金诈骗、黄牛临时加价、车主身份无法认定、车控账号认证失败、车主权益损失、财产受损等不利后果，甚至连带违法。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "官方解释小米SU7自动雨刮器采用光学传感器原理，在车辆启动后会根据降雨强度自动工作，与挡位无关；并建议在冰雪天气先手动关闭雨刮器以防损坏。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的自动雨刮器采用光学传感器原理...此时若雨刮器处于自动挡位，雨刮器则根据降雨强度自动判断是否工作，与车辆处于驻车挡位还是行车挡位无关。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "若冬天风挡玻璃结冰或有冰雪堆积，为防止雨刮器损坏，建议您上车后先将雨刮器挡位切换为关闭..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "官方说明小米SU7车载电源接口在车辆锁闭后会断电，但可开启“驻车用电保持”功能维持供电，时长可设15分钟至6小时，电量低于20%时自动退出。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的车载电源接口在车辆锁闭后均会断电。如果是临时锁车不希望接口断电，可开启「驻车用电保持」功能。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "用电保持的时长可以设置15分钟~6小时。当车辆电量耗至20%时将自动退出用电保持状态。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "官方介绍小米汽车手机小组件功能可查看续航和充电状态，并支持自定义快捷控车功能，需确保APP为最新版本。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小组件功能可以查看车辆续航和充电状态，并可通过四个快捷功能按键自由设置控车功能。添加小组件之前，需要您确认小米汽车 APP 已经升级到最新版本。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra发布会预告",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "欢迎您关注10月29日19:00的发布会。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "官方预告将于10月29日19:00举行发布会，届时将公布小米SU7 Ultra后续产品服务及政策。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "本文为小米SU7热点问题的官方解答（第71期）。内容涵盖小米SU7 Ultra的试驾预约情况、严禁订单转售的风险提示、自动雨刮器工作原理、锁车后的电源管理策略以及手机小组件的使用方法。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

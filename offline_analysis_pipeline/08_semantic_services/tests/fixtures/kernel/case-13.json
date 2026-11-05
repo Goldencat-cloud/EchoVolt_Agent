@@ -1,0 +1,104 @@
+{
+  "id": "case-13",
+  "source": "synthetic",
+  "note": "跨步骤 claim 去重",
+  "input": {
+    "question": "方法行也带 claim_id 时算什么？",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "method",
+      "aspect": "可靠性",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "可靠性",
+            "negative_share": 0.42,
+            "negative": 21,
+            "total_claims": 84,
+            "claim_id": "c-5001",
+            "url": "https://example.invalid/c-5001"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "evidence",
+      "aspect": "可靠性",
+      "result": {
+        "data": [
+          {
+            "claim_id": "c-5001",
+            "aspect": "可靠性",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-5001",
+            "date": "2026-08-01",
+            "title": "观点 c-5001"
+          },
+          {
+            "claim_id": "c-5002",
+            "aspect": "可靠性",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-5002",
+            "date": "2026-08-01",
+            "title": "观点 c-5002"
+          }
+        ]
+      }
+    }
+  ],
+  "final_text": "方法行与证据行合并去重后共 2 条。",
+  "expected": {
+    "answer": "方法行与证据行合并去重后共 2 条。",
+    "stats": [
+      {
+        "aspect": "可靠性",
+        "negative_share": 0.42,
+        "negative": 21,
+        "total_claims": 84,
+        "claim_id": "c-5001",
+        "url": "https://example.invalid/c-5001",
+        "negativeShare": 0.42,
+        "negative_claims": 21
+      }
+    ],
+    "evidence": [
+      {
+        "claim_id": "c-5001",
+        "aspect": "可靠性",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-5001",
+        "date": "2026-08-01",
+        "title": "观点 c-5001"
+      },
+      {
+        "claim_id": "c-5002",
+        "aspect": "可靠性",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-5002",
+        "date": "2026-08-01",
+        "title": "观点 c-5002"
+      }
+    ],
+    "applied_filters": {
+      "aspects": [
+        "可靠性"
+      ]
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 2
+  }
+}

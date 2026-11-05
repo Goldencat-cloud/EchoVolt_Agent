@@ -1,0 +1,504 @@
+{
+  "post_id": "516de3bb151ac519",
+  "state": "CONTRACT_PASS",
+  "cache_key": "70501d80480626f0418056d82bb26c3929fc8d8a2da8b92118654be84dc1b3ce",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "516de3bb151ac519",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米汽车",
+        "entity_level": "品牌",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米汽车定金不退-小米人气的绝路"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "比亚迪",
+        "entity_level": "品牌",
+        "brand": "比亚迪",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前比亚迪、小鹏、理想、蔚来、特斯拉、宝马、大众等需要预定的量产款车辆的40万以下车型就算车到了。"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P3",
+        "name": "小鹏",
+        "entity_level": "品牌",
+        "brand": "小鹏",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前比亚迪、小鹏、理想、蔚来、特斯拉、宝马、大众等需要预定的量产款车辆的40万以下车型就算车到了。"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "理想",
+        "entity_level": "品牌",
+        "brand": "理想",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前比亚迪、小鹏、理想、蔚来、特斯拉、宝马、大众等需要预定的量产款车辆的40万以下车型就算车到了。"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P5",
+        "name": "蔚来",
+        "entity_level": "品牌",
+        "brand": "蔚来",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前比亚迪、小鹏、理想、蔚来、特斯拉、宝马、大众等需要预定的量产款车辆的40万以下车型就算车到了。"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P6",
+        "name": "特斯拉",
+        "entity_level": "品牌",
+        "brand": "特斯拉",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前比亚迪、小鹏、理想、蔚来、特斯拉、宝马、大众等需要预定的量产款车辆的40万以下车型就算车到了。"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P7",
+        "name": "宝马",
+        "entity_level": "品牌",
+        "brand": "宝马",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前比亚迪、小鹏、理想、蔚来、特斯拉、宝马、大众等需要预定的量产款车辆的40万以下车型就算车到了。"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P8",
+        "name": "大众",
+        "entity_level": "品牌",
+        "brand": "大众",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前比亚迪、小鹏、理想、蔚来、特斯拉、宝马、大众等需要预定的量产款车辆的40万以下车型就算车到了。"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P9",
+        "name": "宋plus dmi",
+        "entity_level": "具体配置",
+        "brand": "比亚迪",
+        "series": "宋plus",
+        "model_year": null,
+        "version": "dmi",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "比亚迪靠的就是宋plus dmi起家的。"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P10",
+        "name": "宋plus ev",
+        "entity_level": "具体配置",
+        "brand": "比亚迪",
+        "series": "宋plus",
+        "model_year": null,
+        "version": "ev",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "宋plus ev亦是。"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "作者指出小米汽车采取定金不退的政策。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米汽车定金不退-小米人气的绝路"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米这次不退定金。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "明确影响判断",
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米不退定金的政策是自绝人气之路，会导致潜在消费者减少，损害品牌形象。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米这次不退定金。绝对是自绝其路。 小米自绝的是人气之路。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "预测小米不退定金会少太多的潜在消费者。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者明确表示由于小米定金不退，自己不会缴纳小米的定金，如果购买只买现车。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "反正我是不会交小米的定金。我要买也只买现车。确定买的那一天再交钱。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P6",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P7",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P8",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者对比了其他品牌（比亚迪、小鹏等）40万以下车型可退定金的惯例，认为小米不退定金违背了消费者预期和行业惯例。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "之前比亚迪、小鹏、理想、蔚来、特斯拉、宝马、大众等需要预定的量产款车辆的40万以下车型就算车到了。消费者只要不想提车了。和销售说一声就好。再不济还得给400报备一下。定金就回来了。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "价格与成本",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "之前比亚迪...定金就回来了。小米这次不退定金。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者批评小米在手机业务上从高性价比转向高价且竞争力下降，并以此类比推断其在汽车业务上也会面临类似困境，认为其犯了“对弱势方进行强权压制”的商家大忌。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米的大本营以性价比著称的拳头产品k系列现在都这样了。那么小米的汽车情况可想而知。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "但是小米犯了商家大忌。对弱势方进行强权压制。不退定金。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P9",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为中国消费者更倾向于选择空间大、实用（如可开启天窗）、安全的SUV车型，而非小米SU7这类主打设计感（溜背、全景天幕）的车型，并以比亚迪宋PLUS DMI的成功为例佐证这一观点。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "中国人要什么车已经给出了答案。比亚迪靠的就是宋plus dmi起家的。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "他们要的不是白天晒的要死的全景天幕。他们要的是能开启式带遮阳帘的全景天窗。"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米汽车实行定金不退政策",
+        "event_type": "价格与销售政策",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米汽车定金不退-小米人气的绝路"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米这次不退定金。"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米汽车针对其预订车辆实施定金不退的销售政策。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "反正我是不会交小米的定金。我要买也只买现车。"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "偏好现车交易",
+        "偏好空间大、实用的SUV车型",
+        "重视安全性"
+      ]
+    },
+    "post_summary": "作者强烈批评小米汽车“定金不退”的政策，认为此举违背行业惯例，损害消费者权益并导致潜在客户流失。作者结合自身不愿缴纳定金的决策，并结合对小米手机业务转型的观察，预测小米汽车将因人气受损而难以成功，同时表达了对更符合中国家庭需求的SUV车型的期待。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "products/P7/evidence/0:non_contiguous_quote",
+    "claims/C6/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11116,
+    "completion_tokens": 4093,
+    "total_tokens": 15209,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 17.765892399998847,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,217 @@
+{
+ "scenario": "detail",
+ "question": "SU7 充电补能体验的负面反馈集中在哪些议题？请给出 3 条原文佐证。",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "a902684ff992424eb228164ee742ac6f",
+  "status": "running",
+  "status_url": "/api/agent/report/a902684ff992424eb228164ee742ac6f",
+  "request_id": "8ed21ba2514c"
+ },
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 27.2,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 30.2,
+   "status": "failed",
+   "phase": "失败"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"先在全议题口径下定位充电与补能的负向水平，再进入该议题内部：情感结构、全量与精选子集口径对照、负向说法内容（带原文佐证）、月度走势、车主与未拥有者构成，回答“负面反馈集中在哪些议题/哪些抱怨点”。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"全部议题的负向占比排序，充电与补能在其中的相对位置\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"各议题负面观点占比（全量声明级）\"}},{\"id\":\"w2\",\"question\":\"充电与补能议题内部的情感结构（正面/负面/中性/正负混合各自条数）\",\"dimension\":\"aspect\",\"aspect\":\"充电与补能\",\"method\":\"curated_sentiment_mix\",\"requires_evidence\":false,\"visualization\":{\"type\":\"pie\",\"x\":\"sentiment\",\"y\":\"claims\",\"title\":\"充电与补能议题情感结构\"}},{\"id\":\"w3\",\"question\":\"充电与补能议题的全量声明级与精选子集口径是否一致（负向占比对照）\",\"dimension\":\"aspect\",\"aspect\":\"充电与补能\",\"method\":\"aspect_scope_compare\",\"requires_evidence\":false},{\"id\":\"w4\",\"question\":\"充电与补能议题的主要负向说法是什么，需带原文佐证\",\"dimension\":\"other\",\"aspect\":\"充电与补能\",\"method\":\"top_negative_claims\",\"requires_evidence\":true,\"visualization\":{\"type\":\"table\",\"x\":\"claim/说法\",\"y\":\"count\",\"title\":\"充电与补能主要负向说法\"}},{\"id\":\"w5\",\"question\":\"充电与补能负向说法的月度分布（时间上是否集中）\",\"dimension\":\"time\",\"aspect\":\"充电与补能\",\"method\":\"negative_claims_by_month\",\"requires_evidence\":false,\"visualization\":{\"type\":\"line\",\"x\":\"month\",\"y\":\"negative_claims\",\"title\":\"充电与补能负向说法月度走势\"}},{\"id\":\"w6\",\"question\":\"充电与补能议题中车主与未拥有者的观点构成，判断负面反馈是否来自亲历\",\"dimension\":\"ownership\",\"aspect\":\"充电与补能\",\"method\":\"ownership_experience_mix\",\"requires_evidence\":false}]}",
+    "plan": {
+     "coverage": "先在全议题口径下定位充电与补能的负向水平，再进入该议题内部：情感结构、全量与精选子集口径对照、负向说法内容（带原文佐证）、月度走势、车主与未拥有者构成，回答“负面反馈集中在哪些议题/哪些抱怨点”。",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "全部议题的负向占比排序，充电与补能在其中的相对位置",
+       "dimension": "aspect",
+       "aspect": null,
+       "method": "negative_share_by_aspect",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "bar",
+        "x": "aspect",
+        "y": "negative_share",
+        "title": "各议题负面观点占比（全量声明级）"
+       }
+      },
+      {
+       "id": "w2",
+       "question": "充电与补能议题内部的情感结构（正面/负面/中性/正负混合各自条数）",
+       "dimension": "aspect",
+       "aspect": "充电与补能",
+       "method": "curated_sentiment_mix",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "pie",
+        "x": "sentiment",
+        "y": "claims",
+        "title": "充电与补能议题情感结构"
+       }
+      },
+      {
+       "id": "w3",
+       "question": "充电与补能议题的全量声明级与精选子集口径是否一致（负向占比对照）",
+       "dimension": "aspect",
+       "aspect": "充电与补能",
+       "method": "aspect_scope_compare",
+       "requires_evidence": false
+      },
+      {
+       "id": "w4",
+       "question": "充电与补能议题的主要负向说法是什么，需带原文佐证",
+       "dimension": "other",
+       "aspect": "充电与补能",
+       "method": "top_negative_claims",
+       "requires_evidence": true,
+       "visualization": {
+        "type": "table",
+        "x": "claim/说法",
+        "y": "count",
+        "title": "充电与补能主要负向说法"
+       }
+      },
+      {
+       "id": "w5",
+       "question": "充电与补能负向说法的月度分布（时间上是否集中）",
+       "dimension": "time",
+       "aspect": "充电与补能",
+       "method": "negative_claims_by_month",
+       "requires_evidence": false,
+       "visualization": {
+        "type": "line",
+        "x": "month",
+        "y": "negative_claims",
+        "title": "充电与补能负向说法月度走势"
+       }
+      },
+      {
+       "id": "w6",
+       "question": "充电与补能议题中车主与未拥有者的观点构成，判断负面反馈是否来自亲历",
+       "dimension": "ownership",
+       "aspect": "充电与补能",
+       "method": "ownership_experience_mix",
+       "requires_evidence": false
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"先在全议题口径下定位充电与补能的负向水平，再进入该议题内部：情感结构、全量与精选子集口径对照、负向说法内容（带原文佐证）、月度走势、车主与未拥有者构成，回答“负面反馈集中在哪些议题/哪些抱怨点”。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"全部议题的负向占比排序，充电与补能在其中的相对位置\",\"dimension\":\"aspect\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"requires_evidence\":false,\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"各议题负面观点占比（全量声明级）\"}},{\"id\":\"w2\",\"question\":\"充电与补能议题内部的情感结构（正面/负面/中性/正负混合各自条数）\",\"dimension\":\"aspect\",\"aspect\":\"充电与补能\",\"method\":\"curated_sentiment_mix\",\"requires_evidence\":false,\"visualization\":{\"type\":\"pie\",\"x\":\"sentiment\",\"y\":\"claims\",\"title\":\"充电与补能议题情感结构\"}},{\"id\":\"w3\",\"question\":\"充电与补能议题的全量声明级与精选子集口径是否一致（负向占比对照）\",\"dimension\":\"aspect\",\"aspect\":\"充电与补能\",\"method\":\"aspect_scope_compare\",\"requires_evidence\":false},{\"id\":\"w4\",\"question\":\"充电与补能议题的主要负向说法是什么，需带原文佐证\",\"dimension\":\"other\",\"aspect\":\"充电与补能\",\"method\":\"top_negative_claims\",\"requires_evidence\":true,\"visualization\":{\"type\":\"table\",\"x\":\"claim/说法\",\"y\":\"count\",\"title\":\"充电与补能主要负向说法\"}},{\"id\":\"w5\",\"question\":\"充电与补能负向说法的月度分布（时间上是否集中）\",\"dimension\":\"time\",\"aspect\":\"充电与补能\",\"method\":\"negative_claims_by_month\",\"requires_evidence\":false,\"visualization\":{\"type\":\"line\",\"x\":\"month\",\"y\":\"negative_claims\",\"title\":\"充电与补能负向说法月度走势\"}},{\"id\":\"w6\",\"question\":\"充电与补能议题中车主与未拥有者的观点构成，判断负面反馈是否来自亲历\",\"dimension\":\"ownership\",\"aspect\":\"充电与补能\",\"method\":\"ownership_experience_mix\",\"requires_evidence\":false}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "全部议题的负向占比排序，充电与补能在其中的相对位置",
+     "aspect": null,
+     "method": "negative_share_by_aspect",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "bar",
+      "title": "各议题负面观点占比（全量声明级）"
+     }
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "充电与补能议题内部的情感结构（正面/负面/中性/正负混合各自条数）",
+     "aspect": "充电与补能",
+     "method": "curated_sentiment_mix",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "pie",
+      "title": "充电与补能议题情感结构"
+     }
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "充电与补能议题的全量声明级与精选子集口径是否一致（负向占比对照）",
+     "aspect": "充电与补能",
+     "method": "aspect_scope_compare",
+     "requires_evidence": false,
+     "visualization": null
+    },
+    {
+     "order": 4,
+     "id": "w4",
+     "question": "充电与补能议题的主要负向说法是什么，需带原文佐证",
+     "aspect": "充电与补能",
+     "method": "top_negative_claims",
+     "requires_evidence": true,
+     "visualization": {
+      "type": "table",
+      "title": "充电与补能主要负向说法"
+     }
+    },
+    {
+     "order": 5,
+     "id": "w5",
+     "question": "充电与补能负向说法的月度分布（时间上是否集中）",
+     "aspect": "充电与补能",
+     "method": "negative_claims_by_month",
+     "requires_evidence": false,
+     "visualization": {
+      "type": "line",
+      "title": "充电与补能负向说法月度走势"
+     }
+    },
+    {
+     "order": 6,
+     "id": "w6",
+     "question": "充电与补能议题中车主与未拥有者的观点构成，判断负面反馈是否来自亲历",
+     "aspect": "充电与补能",
+     "method": "ownership_experience_mix",
+     "requires_evidence": false,
+     "visualization": null
+    }
+   ]
+  },
+  "plan": null,
+  "history_len": 1
+ },
+ "regenerate_used": 0,
+ "job_id": "a902684ff992424eb228164ee742ac6f",
+ "outline_decisions": [
+  {
+   "http": 202,
+   "body": {
+    "action": "confirm",
+    "focus": "充电排队与补能",
+    "audience": "售后负责人"
+   },
+   "resp": {
+    "job_id": "a902684ff992424eb228164ee742ac6f",
+    "status": "running",
+    "status_url": "/api/agent/report/a902684ff992424eb228164ee742ac6f",
+    "request_id": "9c1102c807a6"
+   }
+  }
+ ],
+ "final_status": "failed",
+ "result": null,
+ "error": {
+  "error": "RuntimeError: 'decisions'；最近工具调用：[]"
+ },
+ "job": {
+  "status": "failed",
+  "phase": "失败",
+  "delivery_spec": {
+   "focus": "充电排队与补能",
+   "audience": "售后负责人"
+  }
+ },
+ "wall_s": 30.2
+}

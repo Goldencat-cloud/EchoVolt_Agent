@@ -1,0 +1,112 @@
+{
+  "post_id": "0158f4a3d433b339",
+  "state": "CONTRACT_PASS",
+  "cache_key": "6f0191ff3e10c5cbfc5cf9133664b21db40b7fc09a7e5dc3f3e37184d6d7f87c",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0158f4a3d433b339",
+    "products": [],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者认为上车即锁门的习惯并非过度焦虑，而是一种获取安全感的自我保护仪式，有助于隔绝车外环境并提供心理安慰。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我觉得这算不上过度焦虑，更像是一种给自己安全感的小仪式。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "锁门这个动作，更像是给自己加了一层防护...就是图个心里安稳，隔绝了车外的环境，待在车里会觉得很安全。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在日常驾驶场景中，特别是在单人驾驶或夜间偏僻停车时，会有意识地执行锁门动作以获得安全感。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "尤其是一个人开车的时候，不管是白天还是晚上，锁上车门，车门咔哒一声落锁，心里瞬间就踏实了。"
+            },
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "尤其是女生独自开车，或者晚上停车的地方比较偏、人少的时候，锁门这个动作，更像是给自己加了一层防护。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "技术与产品机制",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者指出车辆门锁机制除了提供心理安全感外，还具有防止意外开门和杜绝潜在麻烦的实际物理保护作用。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "毕竟开车的时候，车门锁好，既能防止意外开门，也能杜绝一些潜在的麻烦"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子讨论了驾驶员上车后立即锁门的习惯。作者认为这是一种正常的自我保护和安全意识体现，而非过度焦虑，旨在通过简单的动作获得心理安全感和实际的物理防护。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "api_transport_or_json_error"
+  ],
+  "usage": {
+    "prompt_tokens": 10257,
+    "completion_tokens": 870,
+    "total_tokens": 11127,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 4.354282400003285,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

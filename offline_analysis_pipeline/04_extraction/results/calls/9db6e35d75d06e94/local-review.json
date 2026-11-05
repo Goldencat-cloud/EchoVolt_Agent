@@ -1,0 +1,194 @@
+{
+  "post_id": "9db6e35d75d06e94",
+  "state": "CONTRACT_PASS",
+  "cache_key": "2de8f957cc7fdbd62e6f9126ad5dbd002c3d73e9d60f7a149ab882f95ea1cd42",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "9db6e35d75d06e94",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7｜简单升级案例分享 想看看你们的SU7"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者对其小米SU7进行了多项外观及底盘改装，包括AUTOFACE镜面电镀微喷涂装、博德绞牙避震、AP8521刹车套装、定制轮毂及轮胎、钛合金螺帽、玻璃膜和隐形车衣，并展示了完工后的黑红配色效果。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7升级清单 1. AUTOFACE镜面电镀微喷涂装 2. 博德绞牙避震 (全国首套） 3. AP8521刹车套装 4. 个性化定制轮毂+卫途SPZ轮胎 5. 钛合金螺帽 6. 日本ghost幽灵88玻璃膜 7. 保镖挑战者隐形车衣"
+          },
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "把自己的车打造成喜欢的样子"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者认为刹车系统是车辆升级中最重要的一部分，因此安排了AP8521刹车套装。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "刹车是最最最重要的，必须要安排上！"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者对车辆改装后的视觉效果非常满意，特别是镜面电镀膜在阳光下产生的反射效果，形容其“帅的不行不行的”。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "帅的不行不行的"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "阳光下，不戴墨镜根本不敢直视的机盖，因为他是镜面的电镀膜呀"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者通过展示带有纽博格林赛道图的改装车，表达了对国产造车新势力崛起的认可和对雷军的致敬。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "纽博格林赛道图 至敬雷总 国产造车新势力已经崛起"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "把自己的车打造成喜欢的样子"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "喜欢黑红配色",
+        "注重车辆外观个性化改装",
+        "重视刹车性能"
+      ]
+    },
+    "post_summary": "车主分享了对小米SU7进行深度外观及底盘改装的案例，包括镜面电镀膜、AP刹车、定制轮毂等，表达了对改装效果的满意以及对国产品牌的自豪感。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C1/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12451,
+    "completion_tokens": 1591,
+    "total_tokens": 14042,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 7.0898832000093535,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

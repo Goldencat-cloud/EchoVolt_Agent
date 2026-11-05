@@ -1,0 +1,123 @@
+{
+  "schema_version": "2.3",
+  "post_id": "01889e381e0e602a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今天去试驾了小米汽车"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者在试驾过程中观察到车辆顶部为一整块玻璃，并认为其外观设计好看。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看到他的顶部是一整块的玻璃，觉得很好看"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者进行试驾体验。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今天去试驾了小米汽车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者担忧车辆在发生严重碰撞时，由于车顶是大面积玻璃且感觉缺乏保护，可能存在安全隐患。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是又有点担心安全性，如果发生很严重的碰撞，感觉车顶什么保护都没有，有点危险"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行试驾体验。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今天去试驾了小米汽车"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "仅试驾或借用",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "今天去试驾了小米汽车"
+      }
+    ],
+    "confidence": 0.95
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了试驾小米汽车的经历，称赞了其全景玻璃车顶的外观设计，但同时表达了对严重碰撞下车顶安全防护性能的担忧。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

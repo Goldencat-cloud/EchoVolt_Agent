@@ -1,0 +1,448 @@
+{
+ "question": "SU7在智能座舱和空间舒适性上，哪个负面占比更高？用柱状图展示主要议题的负面占比排序。",
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 15.0,
+   "status": "running",
+   "phase": "计划预检未通过，退回重写"
+  },
+  {
+   "t": 18.0,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 21.0,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 54.1,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 66.2,
+   "status": "done",
+   "phase": "已完成"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"先用全量声明级口径给出 16 个议题的负面观点占比排序（柱状图），据此直接回答智能座舱与车机 vs 空间与舒适性谁更高；再对这两个点名议题分别取精选子集的负向原文佐证，说明负面说法的具体内容。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"各议题负面观点占比（按观点条数）排序，用于柱状图展示与两议题对比\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":16,\"population\":\"experience\"},\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negativeShare\",\"title\":\"SU7 主要议题负面观点占比排序（全量声明级口径）\"}},{\"id\":\"w2\",\"question\":\"智能座舱与车机议题的负面占比与负面说法原文佐证\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"requires_evidence\":true,\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"智能座舱与车机\"},\"limit\":3,\"population\":\"experience\"}},{\"id\":\"w3\",\"question\":\"空间与舒适性议题的负面占比与负面说法原文佐证\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"requires_evidence\":true,\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"空间与舒适性\"},\"limit\":3,\"population\":\"experience\"}}]}",
+    "plan": {
+     "coverage": "先用全量声明级口径给出 16 个议题的负面观点占比排序（柱状图），据此直接回答智能座舱与车机 vs 空间与舒适性谁更高；再对这两个点名议题分别取精选子集的负向原文佐证，说明负面说法的具体内容。",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "各议题负面观点占比（按观点条数）排序，用于柱状图展示与两议题对比",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "aspect"
+        ],
+        "order": [
+         {
+          "field": "negativeShare",
+          "dir": "desc"
+         }
+        ],
+        "limit": 16,
+        "population": "experience"
+       },
+       "visualization": {
+        "type": "bar",
+        "x": "aspect",
+        "y": "negativeShare",
+        "title": "SU7 主要议题负面观点占比排序（全量声明级口径）"
+       }
+      },
+      {
+       "id": "w2",
+       "question": "智能座舱与车机议题的负面占比与负面说法原文佐证",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "requires_evidence": true,
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "aspect"
+        ],
+        "filters": {
+         "aspect": "智能座舱与车机"
+        },
+        "limit": 3,
+        "population": "experience"
+       }
+      },
+      {
+       "id": "w3",
+       "question": "空间与舒适性议题的负面占比与负面说法原文佐证",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "requires_evidence": true,
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "aspect"
+        ],
+        "filters": {
+         "aspect": "空间与舒适性"
+        },
+        "limit": 3,
+        "population": "experience"
+       }
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"先用全量声明级口径给出 16 个议题的负面观点占比排序（柱状图），据此直接回答智能座舱与车机 vs 空间与舒适性谁更高；再对这两个点名议题分别取精选子集的负向原文佐证，说明负面说法的具体内容。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"各议题负面观点占比（按观点条数）排序，用于柱状图展示与两议题对比\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":16,\"population\":\"experience\"},\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negativeShare\",\"title\":\"SU7 主要议题负面观点占比排序（全量声明级口径）\"}},{\"id\":\"w2\",\"question\":\"智能座舱与车机议题的负面占比与负面说法原文佐证\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"requires_evidence\":true,\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"智能座舱与车机\"},\"limit\":3,\"population\":\"experience\"}},{\"id\":\"w3\",\"question\":\"空间与舒适性议题的负面占比与负面说法原文佐证\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"requires_evidence\":true,\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"空间与舒适性\"},\"limit\":3,\"population\":\"experience\"}}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "各议题负面观点占比（按观点条数）排序，用于柱状图展示与两议题对比",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": {
+      "type": "bar",
+      "title": "SU7 主要议题负面观点占比排序（全量声明级口径）"
+     }
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "智能座舱与车机议题的负面占比与负面说法原文佐证",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": true,
+     "visualization": null
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "空间与舒适性议题的负面占比与负面说法原文佐证",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": true,
+     "visualization": null
+    }
+   ]
+  },
+  "plan_json": null,
+  "history_len": 1
+ },
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "9cbab73ee9b74c88b9a08e1f31a5cc0e",
+ "outlines": [
+  {
+   "t": 18.0,
+   "plan_json": null,
+   "history_len": 1
+  }
+ ],
+ "outline_http": 202,
+ "final_status": "done",
+ "result": {
+  "ok": true,
+  "report_id": "97a2bc9671e6",
+  "title": "SU7 智能座舱与空间舒适性负面占比对比：空间与舒适性显著更高（43.4% vs 7.6%）",
+  "report_md": "# SU7 智能座舱与空间舒适性负面占比对比\n\n**分析主体与品牌范围**：本次分析主体为小米 / SU7（快照 2026-11-03.4）。数据中其他品牌仅作为帖子共现的对比信息存在，不作为分析对象。时间窗口为全区间（2023-12-24 至 2026-09-29）。\n\n**口径说明**：所有占比均为**观点级**口径——负面观点条数 ÷ 观点条数（负面观点占比，按观点条数），统计单位为观点、不可跨议题相加；数字来自平台模型口径聚合（底层按观点计数汇总），与快照口径不同源，不与快照数字混用。本次聚合得到的各议题观点条数与数据覆盖声明中全量声明级的议题计数一一一致，因此可视为**全量声明级观点**口径；引用的原文证据则来自**精选观点样本**（仅说明\"有人这样说\"，不代表全部用户声音）。\n\n## 一、结论摘要\n\n1. **空间与舒适性的负面占比明显更高**：43.4%（131/302 条观点），而智能座舱与车机为 7.6%（23/301 条观点），前者约为后者的 5.7 倍。两者观点条数量级相当（302 条 vs 301 条），因此差异来自负面占比本身，不是样本量差异。\n2. 放到 16 个议题的完整排序里看，**空间与舒适性排在第 3 位**（仅次于可靠性与故障、服务与交付），**智能座舱与车机排在第 14 位**，属于用户认可度较高的模块。\n3. 智能座舱这一侧的负面声音总量很小（23 条），且分散在硬件观感、HUD、语音交互、OTA 等细节，缺少一条占主导的抱怨主线；空间与舒适性这一侧则高度集中在**后排头部空间与乘坐空间**。\n4. 需注意空间与舒适性的引文中相当一部分来自**看车前的推断与转述**（6 条引文中 3 条为\"明确非亲历\"），亲历实测与推断并存，真实负面强度应以占比数值为准，引文只作说明。\n\n## 二、分项事实\n\n### 2.1 主要议题负面占比排序（子问题：各议题负面占比排序）\n\n负面观点占比（按观点条数）从高到低，全量声明级观点口径，全区间：\n\n```\nSU7 主要议题负面观点占比排序（全量声明级口径）\n\n可靠性与故障    |██████████████████████████████████████████████████| 55.1%  (54/98)\n服务与交付      |███████████████████████████████████████████       | 47.0%  (62/132)\n空间与舒适性    |███████████████████████████████████████           | 43.4%  (131/302)\n安全与质量      |████████████████████████████████                  | 35.1%  (66/188)\n价格与成本      |██████████████████████████                        | 29.2%  (42/144)\n智能驾驶        |█████████████████████████                         | 27.6%  (42/152)\n其他            |██████████████████████                            | 24.1%  (13/54)\n配置与功能      |███████████████████                               | 20.8%  (59/284)\n充电与补能      |██████████████████                                | 20.3%  (13/64)\n驾驶与操控      |███████████████                                   | 16.6%  (37/223)\n品牌与口碑      |██████████████                                    | 15.5%  (45/291)\n续航与能耗      |██████████                                        | 11.6%  (31/268)\n外观与内饰      |████████                                          |  8.8%  (63/717)\n智能座舱与车机  |███████                                           |  7.6%  (23/301)\n动力与性能      |███                                               |  2.9%  (4/137)\n技术原理        |                                                  |  0.0%  (0/1)\n```\n\n图表与正文同源，数值逐项对应下表：\n\n| 议题 | 负面观点占比 | 观点条数 | 负面观点条数 |\n|---|---|---|---|\n| 可靠性与故障 | 55.1% | 98 | 54 |\n| 服务与交付 | 47.0% | 132 | 62 |\n| 空间与舒适性 | 43.4% | 302 | 131 |\n| 安全与质量 | 35.1% | 188 | 66 |\n| 价格与成本 | 29.2% | 144 | 42 |\n| 智能驾驶 | 27.6% | 152 | 42 |\n| 其他 | 24.1% | 54 | 13 |\n| 配置与功能 | 20.8% | 284 | 59 |\n| 充电与补能 | 20.3% | 64 | 13 |\n| 驾驶与操控 | 16.6% | 223 | 37 |\n| 品牌与口碑 | 15.5% | 291 | 45 |\n| 续航与能耗 | 11.6% | 268 | 31 |\n| 外观与内饰 | 8.8% | 717 | 63 |\n| 智能座舱与车机 | 7.6% | 301 | 23 |\n| 动力与性能 | 2.9%（样本不足，仅作线索） | 137 | 4 |\n| 技术原理 | 0.0%（样本不足，n=1，不作结论） | 1 | 0 |\n\n### 2.2 两个点名议题的直接对比（子问题：智能座舱与车机 / 空间与舒适性各自的负面占比）\n\n- **空间与舒适性**：负面观点占比 43.4%，观点条数 302，负面观点 131 条。\n- **智能座舱与车机**：负面观点占比 7.6%，观点条数 301，负面观点 23 条。\n\n两个议题的观点基数几乎相同（302 vs 301），因此\"空间与舒适性负面占比更高\"这一判断不受基数差异干扰；差值为 35.9 个百分点。\n\n## 三、证据与归组\n\n以下引文来自**精选观点样本**，逐字引用，仅用于说明负面说法的**具体内容类型**，不作为统计推断依据。计数为\"本轮抽样引文中出现该说法的条数\"，只对该组引文成立。\n\n### 3.1 空间与舒适性（负面观点 131 条中的 6 条代表引文）\n\n归组方式：内容归纳（作者判断，非统计结果）。归纳出三类说法：\n\n- **后排头部/乘坐空间偏小（核心说法，4/6 条）**\n  - 亲历实测：「后排坐着，头距离顶只有半拳。我才166的个子。这要是180左右的个，头基本碰到顶了。」（claim_id: ea614dcd423cba050c09，2024-03-30，明确亲历）\n  - 看车推断：「后排一看就是空间很小，175以上的人坐上去，舒适度估计不咋滴，头部空间估计也不咋滴！」（claim_id: 4feac092445b5c0d14d1，2024-03-29，明确非亲历）\n  - 转述：「另一个不好的，据说后排头部空间相对较小，对于身高较高的乘客来说可能会感到有些压抑。」（claim_id: 74efffafa2b6544a3b46，2024-03-26，明确非亲历）\n  - 基于车身尺寸的推断：「家庭唯一用车的可能会比较难接受，车身尺寸虽然较大，修长的车头可以参照纵置发动机燃油车空间。1.45米左右的车身高度车内的空间应该也不会大。」（claim_id: cade3a7904c0176ed977，2024-03-29，明确非亲历）\n- **天幕设计压缩头部空间（1/6 条）**：认为电池占位挤占车内高度、只能用玻璃天幕，呼吁推出无天幕或小天窗版本（claim_id: 26d4bbcf59603efdf805，2024-03-27，评价判断）。\n- **线下体验受限（1/6 条）**：作者表示到店却无法进入车内查看空间（claim_id: 7c4a68f32bd4a78a4284，2024-03-25，明确亲历）。\n\n反例提示：该组 6 条引文中有 3 条为\"明确非亲历\"的推断或转述，说明这一议题的负面量里包含相当比例的**看车前预判**，而非全部来自车主实测。\n\n### 3.2 智能座舱与车机（负面观点 23 条中的 6 条代表引文）\n\n归组方式：内容归纳（作者判断，非统计结果）。负面说法分散在四类，无单一主导：\n\n- **HUD 与配置门槛（2/6 条）**：「SU7 MAX 的 HUD 是一个很大的槽点。第一感受就是不太清晰，有点模糊。或者说分辨率很低。」（claim_id: 8c08a04a041d765e34e7，2024-05-06，当前拥有/明确亲历）；另有用户质疑 HUD 只配顶配、建议去掉旋转仪表盘换取 HUD（claim_id: ff40444366b4d9ff94ef，2024-03-30，明确非亲历）。\n- **屏幕硬件观感（1/6 条）**：「屏幕为什么会那么厚，1cm以上了，小米也做平板，不应该啊」（claim_id: 1d64cc08281d752b3869，2024-03-26，明确亲历）。\n- **语音/交互细节（1/6 条）**：「前排的中间的冰箱，只能手动打开好麻烦，因为小爱同学帮不了我。」（claim_id: c565ea811581e0c1dd99，2024-04-03，当前拥有/明确亲历）。\n- **OTA 与软件迭代（2/6 条）**：车机功能仍需迭代（claim_id: 88b167dec9688069fdb5，2024-05-04，当前拥有/明确亲历）；以及一次 OTA 更新导致刹车参数重置、险些引发事故的经历（claim_id: 575f129984553aa710dc，2025-06-24，当前拥有/明确亲历）。\n\n两议题的对比特征：空间与舒适性的负面声音**指向单一、重复出现**（后排头部空间），智能座舱与车机的负面声音**长尾分散**（6 条引文覆盖 4 类不同问题，其中 4 条来自当前车主亲历）。\n\n## 四、限制与不确定性\n\n1. **集合边界**：占比数字为全量声明级观点口径；第三节引文仅来自精选观点样本，不代表全部用户声音。引文与占比不能互相推导。\n2. **口径来源**：占比为平台模型口径聚合，与快照口径不同源；报告内未混用两者，也不与其他来源的比例直接比较。\n3. **薄样本议题**：技术原理仅 1 条观点（0 条负面），动力与性能负面仅 4 条（占 137 条观点的 2.9%），这两项标注\"样本不足，仅作线索\"，不作排序结论使用；其余议题样本量在 54 条以上。\n4. **未覆盖维度**：本次未按时间或用户所处阶段切分占比，因此无法判断两议题的负面占比是否随时间或车主/非车主身份变化；用户所处阶段与拥有情况的分布只描述精选样本属性，不代表用户结构。\n5. **构念边界**：智能座舱与车机议题包含 HUD、屏幕、语音、OTA 等车机与交互体验；驾驶辅助能力归属\"智能驾驶\"议题（27.6%），如业务上把智驾也算进\"智能座舱\"，需另行合并计算，本报告未做该合并。\n6. **共现信息**：数据中其他品牌仅出现在帖子共现中，未作对比分析，不可据此得出品牌间优劣结论。\n\n## 五、待验证问题\n\n1. 空间与舒适性的高负面占比是否主要来自**看车前的推断**而非车主实测？需要按\"拥有情况\"或\"用户所处阶段\"切分该议题的负面占比才能判断。\n2. 智能座舱与车机仅 7.6% 的低负面占比是否随 OTA 版本迭代发生变化？按月份看该议题的负面说法走势可验证。\n3. HUD 与配置门槛（仅顶配才有 HUD）在\"配置与功能\"议题（20.8%）中是否也重复出现？跨议题归并同一类抱怨可评估其真实影响面。\n4. 空间与舒适性与\"可靠性与故障\"（55.1%）、\"服务与交付\"（47.0%）在优化优先级上的排序，需要引入观点量级与影响面权重，本数据只能给出占比、无法给出影响面。\n\n---\n数据版本：semantic-2026-11-03.4（快照 2026-11-03.4，hash 74aeb7735973）",
+  "key_findings": [
+   "空间与舒适性的负面观点占比为 43.4%（131/302 条观点），智能座舱与车机仅 7.6%（23/301 条观点），后者是 16 个议题中负面占比第二低的议题",
+   "16 个主要议题的负面占比全部排序中，空间与舒适性排第 3，智能座舱与车机排第 14；负面占比最高的是可靠性与故障 55.1%（54/98）",
+   "空间与舒适性的负面说法主要围绕后排头部/乘坐空间偏小，既有车主实测（≥166cm 时头顶只剩半拳），也有看车前的推断与转述",
+   "智能座舱与车机的负面说法分散在屏幕厚度、HUD 清晰度与配置门槛、冰箱与小爱语音交互、OTA 升级与参数重置等细节上，没有单一集中的主线",
+   "分析主体范围：小米/SU7；观点级口径（负面观点条数 ÷ 观点条数），证据来自精选观点样本，非全部用户声音"
+  ],
+  "publication_status": "pending_review",
+  "data_version": "semantic-2026-11-03.4",
+  "charts": [
+   {
+    "title": "SU7 主要议题负面观点占比排序（全量声明级口径）",
+    "anchor": "SU7 主要议题负面观点占比排序（全量声明级口径）",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"670\" height=\"492\" viewBox=\"0 0 670 492\" role=\"img\" aria-label=\"SU7 主要议题负面观点占比排序（全量声明级口径）\"><text x=\"0\" y=\"16\" font-size=\"13\" fill=\"#12233d\">SU7 主要议题负面观点占比排序（全量声明级口径）</text><text x=\"0\" y=\"43\" font-size=\"12\" fill=\"#12233d\">可靠性与故障</text><rect x=\"200\" y=\"30\" width=\"400\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"606\" y=\"43\" font-size=\"11\" fill=\"#12233d\">55.1%</text><text x=\"0\" y=\"71\" font-size=\"12\" fill=\"#12233d\">服务与交付</text><rect x=\"200\" y=\"58\" width=\"340\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"546\" y=\"71\" font-size=\"11\" fill=\"#12233d\">47.0%</text><text x=\"0\" y=\"99\" font-size=\"12\" fill=\"#12233d\">空间与舒适性</text><rect x=\"200\" y=\"86\" width=\"314\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"520\" y=\"99\" font-size=\"11\" fill=\"#12233d\">43.4%</text><text x=\"0\" y=\"127\" font-size=\"12\" fill=\"#12233d\">安全与质量</text><rect x=\"200\" y=\"114\" width=\"254\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"460\" y=\"127\" font-size=\"11\" fill=\"#12233d\">35.1%</text><text x=\"0\" y=\"155\" font-size=\"12\" fill=\"#12233d\">价格与成本</text><rect x=\"200\" y=\"142\" width=\"211\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"417\" y=\"155\" font-size=\"11\" fill=\"#12233d\">29.2%</text><text x=\"0\" y=\"183\" font-size=\"12\" fill=\"#12233d\">智能驾驶</text><rect x=\"200\" y=\"170\" width=\"200\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"406\" y=\"183\" font-size=\"11\" fill=\"#12233d\">27.6%</text><text x=\"0\" y=\"211\" font-size=\"12\" fill=\"#12233d\">其他</text><rect x=\"200\" y=\"198\" width=\"174\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"380\" y=\"211\" font-size=\"11\" fill=\"#12233d\">24.1%</text><text x=\"0\" y=\"239\" font-size=\"12\" fill=\"#12233d\">配置与功能</text><rect x=\"200\" y=\"226\" width=\"150\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"356\" y=\"239\" font-size=\"11\" fill=\"#12233d\">20.8%</text><text x=\"0\" y=\"267\" font-size=\"12\" fill=\"#12233d\">充电与补能</text><rect x=\"200\" y=\"254\" width=\"147\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"353\" y=\"267\" font-size=\"11\" fill=\"#12233d\">20.3%</text><text x=\"0\" y=\"295\" font-size=\"12\" fill=\"#12233d\">驾驶与操控</text><rect x=\"200\" y=\"282\" width=\"120\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"326\" y=\"295\" font-size=\"11\" fill=\"#12233d\">16.6%</text><text x=\"0\" y=\"323\" font-size=\"12\" fill=\"#12233d\">品牌与口碑</text><rect x=\"200\" y=\"310\" width=\"112\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"318\" y=\"323\" font-size=\"11\" fill=\"#12233d\">15.5%</text><text x=\"0\" y=\"351\" font-size=\"12\" fill=\"#12233d\">续航与能耗</text><rect x=\"200\" y=\"338\" width=\"83\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"289\" y=\"351\" font-size=\"11\" fill=\"#12233d\">11.6%</text><text x=\"0\" y=\"379\" font-size=\"12\" fill=\"#12233d\">外观与内饰</text><rect x=\"200\" y=\"366\" width=\"63\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"269\" y=\"379\" font-size=\"11\" fill=\"#12233d\">8.8%</text><text x=\"0\" y=\"407\" font-size=\"12\" fill=\"#12233d\">智能座舱与车机</text><rect x=\"200\" y=\"394\" width=\"55\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"261\" y=\"407\" font-size=\"11\" fill=\"#12233d\">7.6%</text><text x=\"0\" y=\"435\" font-size=\"12\" fill=\"#12233d\">动力与性能</text><rect x=\"200\" y=\"422\" width=\"21\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"227\" y=\"435\" font-size=\"11\" fill=\"#12233d\">2.9%</text><text x=\"0\" y=\"463\" font-size=\"12\" fill=\"#12233d\">技术原理</text><rect x=\"200\" y=\"450\" width=\"2\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"208\" y=\"463\" font-size=\"11\" fill=\"#12233d\">0.0%</text></svg>"
+   }
+  ],
+  "evidence_index": [
+   {
+    "claim_id": "1d64cc08281d752b3869",
+    "url": "https://club.autohome.com.cn/bbs/thread/cd91b1cd533b9f10/107873585-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-26T16:19:59+08:00",
+    "title": "说下个人对小米SU7的看法",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "26d4bbcf59603efdf805",
+    "url": "https://club.autohome.com.cn/bbs/thread/69e12b6cab1a4a26/107886054-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-27T22:30:27+08:00",
+    "title": "#新能源超测# 新能源车到底和油车区别在哪里？SU7行不行？",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "不适用"
+   },
+   {
+    "claim_id": "4feac092445b5c0d14d1",
+    "url": "https://club.autohome.com.cn/bbs/thread/51b77839eb4eca3d/107897034-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-29T10:12:11+08:00",
+    "title": "一个普通人怎么看小米SU7",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "575f129984553aa710dc",
+    "url": "https://club.autohome.com.cn/bbs/thread/560ba054758a7469/112104937-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2025-06-24T18:01:58+08:00",
+    "title": "每日分享6",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "74efffafa2b6544a3b46",
+    "url": "https://club.autohome.com.cn/bbs/thread/ca1ad5da0a8cb54e/107872792-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-26T15:13:54+08:00",
+    "title": "雷总我有话说，老司机对小米SU7的个人观点",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "7c4a68f32bd4a78a4284",
+    "url": "https://club.autohome.com.cn/bbs/thread/50fab8b0c357707a/107862749-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-25T11:57:29+08:00",
+    "title": "小米su7～进去店里-进不到车里。",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "88b167dec9688069fdb5",
+    "url": "https://club.autohome.com.cn/bbs/thread/e00b9aa091996875/108162081-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-05-04T22:13:35+08:00",
+    "title": "随拍感受一下小米SU7的音响和暗光下氛围灯效果，麦克风很小巧",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "8c08a04a041d765e34e7",
+    "url": "https://club.autohome.com.cn/bbs/thread/79aba2b132c3f554/108175112-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-05-06T22:02:51+08:00",
+    "title": "SU7 MAX 的 HUD 是一个很大的槽点。",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "c565ea811581e0c1dd99",
+    "url": "https://club.autohome.com.cn/bbs/thread/6ee894965e1c4c47/107935014-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-04-03T14:05:50+08:00",
+    "title": "小米SU7是不是典型的中看不中用呢！",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "cade3a7904c0176ed977",
+    "url": "https://club.autohome.com.cn/bbs/thread/626d519a69f4e675/107895865-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-29T06:45:20+08:00",
+    "title": "小米SU7讨论一下。 一，顶配确实不错，不考虑预算的前提下。",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "ea614dcd423cba050c09",
+    "url": "https://club.autohome.com.cn/bbs/thread/13aceb731ee8b85d/107905524-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-30T11:49:17+08:00",
+    "title": "刚刚去杭州交付中心看了实车，整体感觉还不错，就是20多万车该",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "ff40444366b4d9ff94ef",
+    "url": "https://club.autohome.com.cn/bbs/thread/8093b28e8bd94f64/107909637-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-03-30T22:26:53+08:00",
+    "title": "雷总，为什么只有顶配才有HUD？？？",
+    "aspect": "智能座舱与车机",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   }
+  ],
+  "final_message": "报告已提交（report_id: 97a2bc9671e6）。空间与舒适性的负面观点占比为 43.4%（131/302 条观点），明显高于智能座舱与车机的 7.6%（23/301 条观点）；在 16 个主要议题中，两者分别排第 3 位和第 14 位。报告包含全议题负面占比排序柱状图、两个议题带 claim_id 的代表引文，以及口径与样本限制说明；该报告当前状态为待复核。",
+  "tool_log": [
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/deep-analysis/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-40 of 40 @@\n---\nname: deep-analysis\ndescription: 深度数据分析主工作流（入口）：任务需要产出基于数据的分析报告时从本技能开始。单点事实问答、闲聊、口径解释不要使用本技能。\n---\n\n# 深度数据分析工作流（主入口）\n\n## 角色与读者\n\n你是数据分析执行者，产出面向业务负责人与研究人员的中文报告。输出标准：每个数字可核验、口径清楚、限制如实、失败不伪装。\n\n## 核心流程（四阶段，完成一步再进入下一步）\n\n开场消息的任务简报已附数据目录（列、枚举、口径分区）与预置基准——**先读简报，不重新探索**；仅当简报缺失或需复核时调用一次 `semantic_overview`。\n\n**阶段 0 分析计划**\n- 提交分析草案（字段契约见 `submit_analysis_plan` 工具说明）；拆解、映射与自查读 `plan-drafting`。\n- 一个工作项 = 计划可选的一个方法 + 可选议题；仅当计划内方法确实无法完成必要分析时才设 `use_python=true`。\n\n**阶段 1-2 执行**\n- 执行循环、解读三关、失败与空结果处置、图表同源：读 `execute-plan`。\n- 每个获批 workstream 至少执行一次；计划标注了证据需求的工作项必须取得带 `claim_id` 的证据。\n\n**"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-38 of 38 @@\n---\nname: plan-drafting\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——方法语义与字段契约在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\n---\n\n# 起草分析计划\n\n## 角色与读者\n\n服务对象：处于计划阶段的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过确定性校验的完整草案——覆盖用户问题的全部子问题与比较意图。\n\n## 起草流程（按序执行，完成一步再进入下一步）\n\n1. **读任务简报**：研究请求、覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，不凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`；代码分析只属于执行阶段。\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `semantic_overview(aspects=[...])` 预览数据支撑——样本量 <5 条的议题须在大纲/报告标注\"支撑不足\"或直接剔除；预览不产生可引"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"先用全量声明级口径给出 16 个议题的负面观点占比排序（柱状图），据此直接回答智能座舱与车机 vs 空间与舒适性谁更高；再对这两个点名议题分别取精选子集的负向原文佐证，说明负面说法的具体内容。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"各议题负面观点占比（按观点条数）排序，用于柱状图展示与两议题对比\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":16,\"population\":\"experience\"},\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negativeShare\",\"title\":\"SU7 主要议题负面观点占比排序（全量声明级口径）\"}},{\"id\":\"w2\",\"question\":\"智能座舱与车机议题的负面占比与负面说法原文佐证\",\"aspect\":null,\"method"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "User rejected the tool call for `submit_analysis_plan` with reason: 草案未通过确定性校验（无需人工确认），请修正后重新提交：w2: parameter 'dimensions' must be a non-empty string array；w3: parameter 'dimensions' must be a non-empty string array"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"先用全量声明级口径给出 16 个议题的负面观点占比排序（柱状图），据此直接回答智能座舱与车机 vs 空间与舒适性谁更高；再对这两个点名议题分别取精选子集的负向原文佐证，说明负面说法的具体内容。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"各议题负面观点占比（按观点条数）排序，用于柱状图展示与两议题对比\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":16,\"population\":\"experience\"},\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negativeShare\",\"title\":\"SU7 主要议题负面观点占比排序（全量声明级口径）\"}},{\"id\":\"w2\",\"question\":\"智能座舱与车机议题的负面占比与负面说法原文佐证\",\"aspect\":null,\"method"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "{\"accepted\": true, \"plan\": {\"coverage\": \"先用全量声明级口径给出 16 个议题的负面观点占比排序（柱状图），据此直接回答智能座舱与车机 vs 空间与舒适性谁更高；再对这两个点名议题分别取精选子集的负向原文佐证，说明负面说法的具体内容。\", \"workstreams\": [{\"id\": \"w1\", \"question\": \"各议题负面观点占比（按观点条数）排序，用于柱状图展示与两议题对比\", \"dimension\": \"other\", \"aspect\": null, \"method\": \"semantic_aggregate\", \"requires_evidence\": false, \"params\": {\"metrics\": [\"negativeShare\", \"claims\", \"negative\"], \"dimensions\": [\"aspect\"], \"order\": [{\"field\": \"negativeShare\", \"dir\": \"desc\"}], \"limit\": 16, \"population\": \"experience\"}, \"visualization\": {\"type\": \"bar\", \"x\": \"aspect\", \"y\": \"negativeShare\", \"title\": \"SU7 主要议题负面观点占比排序（全量声"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/execute-plan/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-42 of 42 @@\n---\nname: execute-plan\ndescription: 执行已获批的分析计划（执行阶段必读）。何时读：拿到获批计划、开始逐项执行时——执行循环、失败与空结果处置、解读三关（事实/集合/分母）、图表同源都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——方法契约在工具说明，具体方法在计划里已经选定。\n---\n\n# 执行分析计划\n\n## 角色与读者\n\n服务对象：处于执行阶段的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\n\n## 执行循环（逐项执行，完成一项再取下一项）\n\n1. **取项执行**：按该项在计划里声明的 method 调用对应工具，参数从计划原样抄写。计划边界与工具边界由工具强制；此处只提醒一条判断：`python_analyze` 是白名单之外的交叉与补充，不替代计划声明的方法。\n2. **取证**（计划标注了证据需求的工作项，或任何需要引文佐证结论的时刻）：走哪个工具、怎么去重、引文怎么挑，读 `reference/collect-evidence.md`。\n3. **解读三关**"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":16,\"population\":\"experience\"}'}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/execute-plan/reference/collect-evidence.md', 'limit': 1000}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"negativeShare\", \"claims\", \"negative\"], \"dimensions\": [\"aspect\"], \"order\": [{\"field\": \"negativeShare\", \"dir\": \"desc\"}], \"limit\": 16, \"population\": \"experience\"}, \"sql\": \"SELECT t0.\\\"aspect\\\" AS \\\"aspect\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"negativeShare\\\", COUNT(*) AS \\\"claims\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"negative\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population WHERE population = ?) AND (t0.\\\"aspect\\\" IS"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-37 of 37 @@\n# 取证：需要引文时\n\n## 何时用\n\n计划标注了证据需求的工作项，或任何要引用原话佐证结论的时刻。\n\n## 前提\n\n计划声明的是**证据需求**（服务端已推导并标注），不是具体取证工具。在下面三种中**任选其一**：\n\n| 工具 | 返回什么 | 何时用 |\n|---|---|---|\n| `top_negative_claims` | 议题的负向说法列表（claim_id + 短引文） | 要看\"负向声音的清单\"，按议题看模式 |\n| `get_negative_evidence` | 议题的负面原文（quote/title/url/date，带 claim_id） | 报告要引用原话，需要完整引文与出处 |\n| `search_claims` | 按结论关键词语义召回，不限情感 | 需要正面/中性对照，或按具体说法找样本 |\n\n## 规则\n\n- **同一议题只取一次**：三种工具返回的集合高度重叠，重复取证只会得到重复引文；要换视角就换问题，不是换工具。\n- **议题必须在计划内**：越界会被拒（`evidence_not_in_plan`），这是授权闸，不是故障。\n- **证据只说明\"有人这样说\"**：要数量就回到统计方法。\n- **覆盖如实**：证据只覆盖精选子集，表述规则见报告阶段的口径节。\n\n## 代表引文怎么选（最容易出"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"智能座舱与车机\"},\"limit\":3,\"population\":\"experience\"}'}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"空间与舒适性\"},\"limit\":3,\"population\":\"experience\"}'}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"negativeShare\", \"claims\", \"negative\"], \"dimensions\": [\"aspect\"], \"filters\": {\"aspect\": \"智能座舱与车机\"}, \"limit\": 3, \"population\": \"experience\"}, \"sql\": \"SELECT t0.\\\"aspect\\\" AS \\\"aspect\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"negativeShare\\\", COUNT(*) AS \\\"claims\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"negative\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population WHERE population = ?) AND (t0.\\\"aspect\\\" IS NULL OR t0.\\\"aspect\\"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"negativeShare\", \"claims\", \"negative\"], \"dimensions\": [\"aspect\"], \"filters\": {\"aspect\": \"空间与舒适性\"}, \"limit\": 3, \"population\": \"experience\"}, \"sql\": \"SELECT t0.\\\"aspect\\\" AS \\\"aspect\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"negativeShare\\\", COUNT(*) AS \\\"claims\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"negative\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population WHERE population = ?) AND (t0.\\\"aspect\\\" IS NULL OR t0.\\\"aspect\\\""
+   },
+   {
+    "tool": "get_negative_evidence",
+    "args": "{'aspect': '空间与舒适性', 'limit': 6}"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "args": "{'aspect': '智能座舱与车机', 'limit': 6}"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "output": "{\"data\": [{\"claim_id\": \"7c4a68f32bd4a78a4284\", \"aspect\": \"空间与舒适性\", \"sentiment\": \"负面\", \"content\": \"作者表示在小米门店内无法进入小米SU7车内。\", \"quote\": \"进去店里-进不到车里\", \"url\": \"https://club.autohome.com.cn/bbs/thread/50fab8b0c357707a/107862749-1.html?bbsid=6962#pvareaid=6830286\", \"title\": \"小米su7～进去店里-进不到车里。\", \"date\": \"2024-03-25T11:57:29+08:00\", \"journey\": \"购车前\", \"ownership\": \"明确未拥有\", \"experience\": \"明确亲历\", \"statement\": \"经历陈述\", \"comparison\": null, \"usage_context\": null, \"source_type\": \"精选观点证据\", \"source_set\": \"curated\"}, {\"claim_id\": \"74efffafa2b6544a3b46\", \"aspect\": \"空间与舒适性\", \"sentiment\": \"负面\", \"content\": \"作者提到据传小米SU"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "output": "{\"data\": [{\"claim_id\": \"1d64cc08281d752b3869\", \"aspect\": \"智能座舱与车机\", \"sentiment\": \"负面\", \"content\": \"作者认为小米SU7的屏幕厚度超过1厘米，不符合小米作为平板制造商的技术预期。\", \"quote\": \"屏幕为什么会那么厚，1cm以上了，小米也做平板，不应该啊\", \"url\": \"https://club.autohome.com.cn/bbs/thread/cd91b1cd533b9f10/107873585-1.html?bbsid=6962#pvareaid=6830286\", \"title\": \"说下个人对小米SU7的看法\", \"date\": \"2024-03-26T16:19:59+08:00\", \"journey\": \"购车前\", \"ownership\": \"明确未拥有\", \"experience\": \"明确亲历\", \"statement\": \"评价判断\", \"comparison\": null, \"usage_context\": null, \"source_type\": \"精选观点证据\", \"source_set\": \"curated\"}, {\"claim_id\": \"ff40444366b4d9ff94ef\", \"aspect\": \"智能座舱与车机\", \"sentimen"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/execute-plan/reference/write-code.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-87 of 87 @@\n---\nname: report-authoring\ndescription: 报告撰写与提交（报告阶段必读）。何时读：调用 submit_report 之前——五段结构、数字口径与引文规则、提交前的完成标准。何时不读：选择与执行分析方法（用 execute-plan）；起草计划（用 plan-drafting）。误用反例：把本文件当证据获取说明——怎么取证见 `execute-plan` 技能的取证参考。\n---\n\n# 报告撰写与提交\n\n## 角色与读者\n\n服务对象：准备提交报告的 Agent。输出标准：通过 report_gate 的五段结构中文报告——每个数字可核验、每条引用可回溯、面向业务负责人说业务语言。先结论后依据，长度上限以服务端门禁为准（超限时返回具体修订要求）。\n\n## 撰写流程\n\n1. **搭五段骨架**（顺序固定）：\n   1. **结论摘要**：先回答用户问题，3–5 条，每条一句结论 + 带口径的核心数字；只写有证据支撑的。小样本（n < 30）句尾标「（置信度：低，n=12）」。\n   2. **分项事实**：每个 workstream 一小节，数字必须来自工具或代码结果并带口径。\n   3. **证据与归组**：观点归组与代表引文，遵守下文「证据与引文」。\n   4. **限制与不确定性**：数据集合边界、"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-37 of 37 @@\n# 写代码：沙箱里的自定义统计\n\n## 何时用\n\n计划 `use_python=true`、需要图表数据、或语义聚合与白名单方法都算不出想要的形态时。\n\n## 可用变量\n\n- `pd`：pandas 已预载\n- `frames.<name>`：语义关系导出的数据框（`frames.xx` 与 `frames['xx']` 都可用）\n- `meta`：数据版本等字典\n\n具体有哪些 frames、各自的列与行数，以 `semantic_overview` 返回的变量信息为准——会随数据版本变化，不凭记忆写列名。\n\n## 写法规则\n\n1. **一段代码只回答一个子问题**，并把该子问题的口径（分母是谁、哪个集合）写在注释第一行。\n2. 中间量用 `print` 输出，便于事后核对。\n3. 关键结论赋给 `result`（DataFrame 自动转记录列表）。\n4. 一段代码保持在 40 行以内；再长说明该拆成多次调用。\n\n## 图表\n\n把 dict 赋给 `chart`，结构见 `python_analyze` 工具说明（`type/title/x_label/y_label/data`）。\n\n- data 必须由 frames 计算得出，只做格式转换与排序，不重算数值\n- 图表数值与已验证行数据必须同源（同源检查点见执行循环第 6 步）\n\n"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'title': 'SU7 智能座舱与空间舒适性负面占比对比：空间与舒适性显著更高（43.4% vs 7.6%）', 'key_findings': '[\"空间与舒适性的负面观点占比为 43.4%（131/302 条观点），智能座舱与车机仅 7.6%（23/301 条观点），后者是 16 个议题中负面占比第二低的议题\",\"16 个主要议题的负面占比全部排序中，空间与舒适性排第 3，智能座舱与车机排第 14；负面占比最高的是可靠性与故障 55.1%（54/98）\",\"空间与舒适性的负面说法主要围绕后排头部/乘坐空间偏小，既有车主实测（≥166cm 时头顶只剩半拳），也有看车前的推断与转述\",\"智能座舱与车机的负面说法分散在屏幕厚度、HUD 清晰度与配置门槛、冰箱与小爱语音交互、OTA 升级与参数重置等细节上，没有单一集中的主线\",\"分析主体范围：小米/SU7；观点级口径（负面观点条数 ÷ 观点条数），证据来自精选观点样本，非全部用户声音\"]', 'markdown': '# SU7 智能座舱与空间舒适性负面占比对比\\n\\n**分析主体与品牌范围**：本次分析主体为小米 / SU7（快照 2026-11-03.4）。数据中其他品牌仅作为帖子共现的对比信息存在，不作为分析对象。时间窗口为全区间（2023-12-24 至 2026-09-29）。\\n\\n**口径说明**：所有占比均为**"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"正文必须明确写出当前数据版本（semantic-2026-11-03.4），如在页脚写「数据版本：semantic-2026-11-03.4」\", \"报告包含内部实现词（不得出现在用户可见文本）：语义层\"], \"warnings\": [], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_provenance\"]}, \"attempt\": 1, \"attempts_left\": 3}"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"空间与舒适性的负面观点占比为 43.4%（131/302 条观点），智能座舱与车机仅 7.6%（23/301 条观点），后者是 16 个议题中负面占比第二低的议题\",\"16 个主要议题的负面占比全部排序中，空间与舒适性排第 3，智能座舱与车机排第 14；负面占比最高的是可靠性与故障 55.1%（54/98）\",\"空间与舒适性的负面说法主要围绕后排头部/乘坐空间偏小，既有车主实测（≥166cm 时头顶只剩半拳），也有看车前的推断与转述\",\"智能座舱与车机的负面说法分散在屏幕厚度、HUD 清晰度与配置门槛、冰箱与小爱语音交互、OTA 升级与参数重置等细节上，没有单一集中的主线\",\"分析主体范围：小米/SU7；观点级口径（负面观点条数 ÷ 观点条数），证据来自精选观点样本，非全部用户声音\"]', 'markdown': '# SU7 智能座舱与空间舒适性负面占比对比\\n\\n**分析主体与品牌范围**：本次分析主体为小米 / SU7（快照 2026-11-03.4）。数据中其他品牌仅作为帖子共现的对比信息存在，不作为分析对象。时间窗口为全区间（2023-12-24 至 2026-09-29）。\\n\\n**口径说明**：所有占比均为**观点级**口径——负面观点条数 ÷ 观点条数（负面观点占比，按观点条数），统计单位为观点、不可跨议题相加；数字来自平台"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"report_id\": \"97a2bc9671e6\", \"status\": \"pending_review\", \"saved\": \"D:\\\\Desktop\\\\Competitions\\\\new_energy_data_analysis_agent\\\\offline_analysis_pipeline\\\\08_semantic_services\\\\reports\\\\agent\\\\97a2bc9671e6\", \"next_step\": \"由非作者队友复核并通过 report_publisher.py 发布。\"}"
+   }
+  ],
+  "tool_errors": 0,
+  "metrics": {
+   "successful_tool_calls": 8,
+   "tool_errors": 0,
+   "code_failures": 0,
+   "submit_attempts": 2,
+   "gate_rejections": 1
+  },
+  "elapsed_ms": 56693
+ },
+ "error": null,
+ "wall_s": 66.2
+}

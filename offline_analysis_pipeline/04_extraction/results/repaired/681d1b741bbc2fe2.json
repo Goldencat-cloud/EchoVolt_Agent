@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.3",
+  "post_id": "681d1b741bbc2fe2",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "网传su7交付时间表"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张手机屏幕截图，展示了一份名为“小米SU7交付&预估（仅供参考）”的电子表格。"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "服务与交付",
+      "content": "作者分享了一张网传的小米SU7交付时间表截图，图片说明称该表格包含了从第1周到第40周的交付计划与预测数据，涵盖了标准版、Pro版和Max版的比例预估，以及4月至12月的月度划分。表格中还记录了诸如“3号确认锁单超4万”、“9号确认日产能下周拉到400+”、“20号确认锁单量7万+，年交付10万+”、“非创始版18号开始交付”等销售里程碑和产能情况，并展示了后期交付周期延长的预测趋势。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "网传su7交付时间表"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张手机屏幕截图，展示了一份名为“小米SU7交付&预估（仅供参考）”的电子表格。表格详细列出了从第1周到第40周的交付计划与预测数据。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "备注信息：右侧备注栏记录了具体的销售里程碑和产能情况，如“3号确认锁单超4万”、“9号确认日产能下周拉到400+”、“20号确认锁单量7万+，年交付10万+”、“非创始版18号开始交付”、“本周非创始版交付爬坡期”、“24号确认锁单量75700+台”等。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "网传小米SU7交付时间表流出",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "网传su7交付时间表"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张手机屏幕截图，展示了一份名为“小米SU7交付&预估（仅供参考）”的电子表格。"
+        }
+      ],
+      "confidence": 0.85,
+      "summary": "网络流传一份关于小米SU7交付进度和预估的电子表格截图，标题注明“仅供参考”，内容涉及各版本交付周期预测及销售里程碑数据。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分享了一张网传的小米SU7交付时间表截图。图片说明显示该表格详细列出了未来40周的交付计划、各版本占比预估以及相关的销售里程碑和产能数据，旨在展示交付周期的预测趋势。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

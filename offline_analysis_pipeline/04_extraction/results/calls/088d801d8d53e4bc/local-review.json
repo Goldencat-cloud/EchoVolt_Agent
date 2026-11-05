@@ -1,0 +1,243 @@
+{
+  "post_id": "088d801d8d53e4bc",
+  "state": "CONTRACT_PASS",
+  "cache_key": "adfa2ef4421376f12a4d29a0dd6e17bf94c6aad10077f2b9444d2f38b93a65f2",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "088d801d8d53e4bc",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "车型标识“xiaomi SU7”"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "特斯拉",
+        "entity_level": "品牌",
+        "brand": "特斯拉",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特斯拉在电动汽车领域那可是老大哥了"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P3",
+        "name": "小米SU7 Ultra",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "屏幕左上角有“xiaomi SU7 Ultra”字样"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "作者认为小米汽车刚起步，在质量、性能和产能磨合上面临挑战，且需面对激烈的市场竞争，因此今年超越特斯拉交付量的可能性不大。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米汽车刚出来，大家对它的质量、性能啥的还处于观望状态。"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米汽车刚起步，生产线可能还需要时间来磨合，产能不一定能一下子提上去。"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小米汽车今年要超越特斯拉的交付量，可能性不大。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者指出特斯拉在电动汽车领域积累深厚，具备技术、市场、配套及服务网络等优势。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特斯拉在电动汽车领域那可是老大哥了，这么多年积累了不少技术和市场优势。"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "特斯拉已经建立了比较完善的销售和服务体系"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米拥有庞大粉丝群体和高性价比传统，若价格有优势可能吸引消费者。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米也有自己的优势，它有庞大的粉丝群体...而且小米一向以性价比高著称，如果小米汽车能在价格上有优势，那也可能吸引不少消费者。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7 10月交付2万台",
+        "event_type": "市场竞争与行业数据",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "左侧黑色背景上醒目地标注着白色大字“20000台”，下方小字注明“10月已完成交付”"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "图片说明显示小米SU7在10月完成了2万台的交付。"
+      },
+      {
+        "id": "E2",
+        "name": "小米SU7 Ultra预售开启",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "计划或预告",
+        "related_product_ids": [
+          "P3"
+        ],
+        "evidence": [
+          {
+            "block_id": "I2",
+            "source_type": "image_summary",
+            "quote": "主标题为“2025年3月 正式发布”。下方列出了预售信息：“今晚22:30 开启预订 可享优先交付权益”"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "图片说明显示小米SU7 Ultra将于2025年3月正式发布，并开启了预订。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子结合小米SU7交付数据和SU7 Ultra预售信息，分析了小米汽车与特斯拉在市场地位、产能、渠道及竞争力方面的差异。作者认为小米虽具粉丝基础和性价比优势，但因起步晚、磨合期短，今年超越特斯拉交付量的难度较大，持观望态度。",
+    "post_topic": "行业政策与市场",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C3/evidence/0:non_contiguous_quote",
+    "events/E2/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10826,
+    "completion_tokens": 1935,
+    "total_tokens": 12761,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 8.331185799994273,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

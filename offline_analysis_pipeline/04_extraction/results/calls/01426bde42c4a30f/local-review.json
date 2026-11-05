@@ -1,0 +1,98 @@
+{
+  "post_id": "01426bde42c4a30f",
+  "state": "CONTRACT_PASS",
+  "cache_key": "f13721728defd8949d417be7fcce643a381ace5d1a9f75bfc2e8c49f8697e3c3",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "01426bde42c4a30f",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米su7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "su7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米su7"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者询问小米su7是否需要缴纳购置税。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米su7要不要购置税"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "提问",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7要不要购置税"
+        }
+      ],
+      "confidence": 0.8,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子询问小米su7是否需要缴纳购置税。",
+    "post_topic": "价格成本与交易",
+    "analysis_value": "低"
+  },
+  "errors": [],
+  "original_errors": [
+    "api_transport_or_json_error"
+  ],
+  "usage": {
+    "prompt_tokens": 9969,
+    "completion_tokens": 558,
+    "total_tokens": 10527,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 2.533302299998468,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

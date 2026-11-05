@@ -1,0 +1,405 @@
+{
+  "post_id": "afcb71030102c93f",
+  "state": "FAILED",
+  "cache_key": "3305d369777115a071a97e50355002d6b41afafc9fa1a1509d26472725f80d68",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "afcb71030102c93f",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7改款",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "改款",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "先说SU7改款：据说上半年就到店！"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "SU7 行政版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "行政版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "SU7 行政版：下半年来，车身直接抻长一截"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P3",
+        "name": "昆仑",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "昆仑",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "七座 SUV（叫 “昆仑”）：车长快赶上小中巴"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "事件涉及对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "其他",
+        "content": "作者转述消息称小米汽车明年计划推出4款新车，涵盖轿车和SUV，旨在满足自用、家庭及商务等不同需求。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米汽车明年是真不藏着掖着了，一口气端出 4 款新车 —— 轿车、SUV 全给你整明白，不管你是自己开、拉家人还是谈事儿，闭眼挑都能对上胃口！"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "据传小米SU7改款充电速度快，5分钟可补充200公里续航，适合通勤场景。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "充电贼快 5 分钟能补 200 公里电，上班通勤一周充一次够够的。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者设想用于上班通勤场景。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "上班通勤一周充一次够够的"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "据传小米SU7改款标配激光雷达，具备在雨天或雾气环境下感知路况的能力，且后续支持升级。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "还标配了激光雷达，下雨起雾也能瞅清路，后面还能升级"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者提及雨天和起雾的天气条件。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "下雨起雾也能瞅清路"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "据传小米SU7行政版车身加长，后排空间宽敞至可跷二郎腿，座椅柔软舒适并配备按摩功能。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车身直接抻长一截，后排能跷二郎腿,座椅软和得像家里沙发，还能按摩"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "据传名为“昆仑”的小米七座SUV车长较长，7人乘坐不拥挤，身高1米8的成年男性坐在第三排也不会顶腿。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车长快赶上小中巴,7 个人坐进去不挤,1 米 8 壮汉坐第三排都不顶腿"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者描述了7人乘坐及特定体型乘客乘坐第三排的场景。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "7 个人坐进去不挤,1 米 8 壮汉坐第三排都不顶腿"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "据传这4款新车均支持与家中空调、扫地机等智能家居设备互联，实现远程控制和自动化场景联动。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "而且这 4 款车都能连家里的空调、扫地机 —— 下班路上提前开空调，到家直接钻暖被窝；扫地机也能提前启动，进门地板锃亮"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者描述了下班回家前的远程控制场景。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "下班路上提前开空调，到家直接钻暖被窝；扫地机也能提前启动"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为这4款车定价策略类似小米手机，相比其他品牌同配置车型价格更低，具有较高的性价比。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "关键是价格还跟小米手机似的，比别家同配置的便宜一大截，花小钱办大事儿！"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P1",
+              "aspect": "价格与成本",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "比别家同配置的便宜一大截"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米汽车明年计划发布4款新车",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "传闻或未证实",
+        "related_product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米汽车明年是真不藏着掖着了，一口气端出 4 款新车"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "帖子称小米汽车明年将推出包括SU7改款、SU7行政版及名为“昆仑”的七座SUV在内的4款新车。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子转述了关于小米汽车明年将发布4款新车（SU7改款、SU7行政版、昆仑SUV等）的消息，详细介绍了其在充电速度、激光雷达配置、后排空间、智能家居互联及价格优势等方面的预期亮点。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "C7:comparison_self_relation"
+  ],
+  "original_errors": [
+    "C7:comparison_unknown_product"
+  ],
+  "usage": {
+    "prompt_tokens": 10481,
+    "completion_tokens": 3393,
+    "total_tokens": 13874,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 14.661215200001607,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

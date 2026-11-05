@@ -1,0 +1,276 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f27ad96d0391be8c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "理想汽车",
+      "entity_level": "品牌",
+      "brand": "理想",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "理想汽车再次引领行业创新潮流"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "能效电气",
+      "entity_level": "品牌",
+      "brand": "能效电气",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "能效电气不断推动充电桩行业发展"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "而能效电气，作为这一领域的佼佼者"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "宝马",
+      "entity_level": "品牌",
+      "brand": "宝马",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "墙面上方排列了宝马(BMW)、比亚迪(BYD)、蔚来(NIO)等品牌的Logo"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "墙面上方排列了宝马(BMW)、比亚迪(BYD)、蔚来(NIO)等品牌的Logo"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "蔚来",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "墙面上方排列了宝马(BMW)、比亚迪(BYD)、蔚来(NIO)等品牌的Logo"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "文章称理想汽车在OTA 6.5版本升级中新增了充电预热/预冷剩余时间显示功能，认为该功能提升了用户充电体验。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其最新发布的OTA 6.5版本升级中，尤为引人注目的是新增的充电预热/预冷剩余时间显示功能。这一功能不仅极大地提升了用户的充电体验"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "文章介绍能效电气将于2024年12月26日在北京举办“百城百讲”第100场活动，并于2025年1月8日在宜宾启动“千城千讲”第0001场活动。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2024年12月26日，充电桩科普大讲堂“百城百讲”第100场将在北京开展...2025年1月8日，“千城千讲”第0001场将在宜宾开启"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "文章称在“百城百讲”收官之际，能效电气创始人将发表“WE Future”主题演讲，分享品牌故事并发布面向2035年的战略路线图及双向充电桩系列产品。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在“百城百讲”的收官之际，能效电气的创始人将发表“WE Future”主题演讲，分享品牌故事，发布面向2035年的战略路线图及双向充电桩系列产品。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "文章指出预约充电、共享充电、刷脸充电将成为家充桩行业的三大主题词，并称能效电气将引领这一潮流。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预约充电、共享充电、刷脸充电将成为家充桩行业的三大主题词，而能效电气将引领这一潮流"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "文章介绍能效电气发起“共享充电桩志愿者联盟（S联盟）”，旨在以自组织方式利用稀缺可充电停车位，促进邻里交流。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "为了更好地服务用户，能效电气发起了“共享充电桩志愿者联盟（S联盟）”。这一联盟旨在以自组织的方式让稀缺的可充电停车位得到充分利用"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "能效电气“百城百讲”第100场及“千城千讲”启动",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2024-12-26",
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2024年12月26日，充电桩科普大讲堂“百城百讲”第100场将在北京开展...2025年1月8日，“千城千讲”第0001场将在宜宾开启"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "能效电气计划于2024年12月26日在北京举行“百城百讲”第100场活动，随后于2025年1月8日在宜宾启动“千城千讲”系列，期间创始人将进行主题演讲并发布新产品及战略。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "这是一篇关于充电桩品牌“能效电气”的宣传软文。文章介绍了其“百城百讲”第100场活动的安排、创始人演讲计划、S联盟志愿者项目以及对家充桩行业趋势的看法，并顺带提及了理想汽车的OTA升级功能。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

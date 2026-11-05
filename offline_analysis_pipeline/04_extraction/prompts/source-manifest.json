@@ -1,0 +1,82 @@
+{
+  "source_path": "E:\\Users\\ASUS\\Desktop\\prompt.md",
+  "snapshot": "source-v2.1.md",
+  "sha256": "d6daf0a5e29dbb7c6b6065f2b165683aa9cb2cce88ec9ffed2095e8afc35abda",
+  "bytes": 27869,
+  "migration_policy": "完整原文注入两个阶段；仅候选阶段临时输出结构不同，最终输出保留原V2.1契约",
+  "sections": [
+    {
+      "number": 1,
+      "heading": "角色与任务",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 2,
+      "heading": "输入格式",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 3,
+      "heading": "输出结构",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 4,
+      "heading": "证据规则",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 5,
+      "heading": "products：车辆产品表",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 6,
+      "heading": "claims：核心主张表",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 7,
+      "heading": "events：外部事件表",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 8,
+      "heading": "user_context：作者状态与明确画像信息",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 9,
+      "heading": "post_summary：帖子摘要",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 10,
+      "heading": "post_topic：帖子主导主题",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 11,
+      "heading": "analysis_value：分析价值",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    },
+    {
+      "number": 12,
+      "heading": "输出前检查",
+      "candidate": "全文可见；最终输出字段在此阶段仅用于识别覆盖范围",
+      "post_pack": "全文生效"
+    }
+  ],
+  "known_source_issue": "6.3示例claim_type=产品评价与6.4枚举不一致；保留原文，按6.4正式枚举约束，并在阶段说明中显式注明"
+}

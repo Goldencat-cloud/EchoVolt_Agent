@@ -1,0 +1,920 @@
+{
+  "schema_version": "2.3",
+  "post_id": "317bea52f197a403",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 MAX创始版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "MAX创始版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "大家应该都知道我提的是一台橄榄绿MAX创始版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "保时捷Taycan",
+      "entity_level": "车系",
+      "brand": "保时捷",
+      "series": "Taycan",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "像保时捷Taycan"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因发票非本地及错过以旧换新补贴时机，未能享受新能源补贴和1万元补贴，造成经济损失。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "忧的是一发票不是鄂尔多斯本地不能享受新能源补贴，二是在以旧换新补贴政策前不能享受1W的补贴。唉！损失了很多钱"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7外观好看，许多看过实车的人评价其与保时捷Taycan相似，尽管有人认为是抄袭，但车主普遍满意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的外观那是没的说，所有看过实车的人给的评价就是“好看”，“像保时捷Taycan”。也有被很多人说是抄袭，总的来说车主都是很满意的"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "像保时捷Taycan"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者在日常通勤中使用舒适模式，认为车辆高性能有助于快速到达公司和高速超车，但运动模式因速度过快在市区不太适合。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我常用的是舒适模式，每天从家到公司5公里往返4次，让我体会最深的就是它的高性能，能让我快速到达公司。高速中遇到大车可以快速超车"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者每日在市区通勤，单程约5公里，往返4次。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "每天从家到公司5公里往返4次"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者发现自动泊车功能在同一车位多次出现距离左侧柱子过近的泊出问题，认为系统缺乏学习功能以避免重复错误。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "同一个车位，第一次出现了距离左侧柱子过近泊出后重新倒入，后续还经常出现同样的状况，按理来说应该具有学习功能，避免出现之前第一次靠近的问题。不能知错还错。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者每天回家使用自动泊车功能。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "每天回家都会使用自动泊车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出小米手机蓝牙解锁存在失败Bug，导致无法解锁需等待，而苹果手机无此问题，希望后期优化。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "但有个Bug一直没有修复，就是小米手机蓝牙解锁会出现失败的情况，你就会被罚站。但体验下来苹果手机没有这个问题"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为座椅设计不错，但腰部支撑不完全，需自行购买腰靠。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "座椅的设计我感觉还不错，但在腰部还是没有做到完全支撑，需要自行购买一个腰靠。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为1.2.2版本更新后的小憩模式总体不错，方便午休娱乐，但腰部调节过高导致不适，建议增加自定义调节功能。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "1.2.2版本更新后的小憩模式，总体来说还是不错的...腰部调节的过于高了，有些不舒服。建议可以改为自定义"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在中午于车内进行简单午休。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "尤其是中午在车里简单的午休时"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为前排空间对其足够，但轿车坐姿较低，对于习惯开SUV的人可能感觉不舒服。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "前排的空间对于我而言也足够大...轿车的座位相比来说要低，如果以前开SUV的人来说，确实感觉不太舒服"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者称赞空调调节方式灵活，支持分区控制和自动降温，能在炎热夏季有效降低车内温度。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "空调的调节方式很棒，每个出风口可以单独调节方向，主副驾也可以分开进行温度和风量调节...炎热的夏天车内温度达到40℃还能自动进行降温。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在炎热夏季使用，车内温度曾达40℃。",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "炎热的夏天车内温度达到40℃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者喜欢利用车内冰箱、彩电和大沙发看电影、看星空和K歌，认为体验很爽。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "最喜欢的还是呆在车里看个电影，躺着看看蓝蓝的天空或者夜晚的星空，还能接个麦克风在车里K歌，很爽。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者体验了鄂尔多斯到呼和浩特248公里往返全程高速NOA，认为体验极佳，且系统成功预警前方事故。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "体验了从鄂尔多斯到呼和浩特248公里往返全程高速NOA，不得不说太爽了，途中还提前预警到了前方有事故"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者驾驶车辆在鄂尔多斯至呼和浩特间进行248公里往返高速公路行驶。",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "从鄂尔多斯到呼和浩特248公里往返全程高速NOA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者3个月行驶6000公里，平均能耗18.8kWh/100km，认为市区使用无充电焦虑，充电速度快。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "3个月的使用下来，市区内使用完全不会有充电焦虑...我的平均能耗是18.8kWh/100km"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "这才3个月就已经干出去6000公里了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者主要在市区使用车辆，3个月内行驶6000公里。",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "市区内使用完全不会有充电焦虑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C13",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出哨兵模式特别耗电，导致停放期间电量消耗较快，希望厂家优化该功能的能耗。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "但是不得不说哨兵模式下特别的耗电...前段时间出去旅游几天，车停在机场，走之前就充满了电，生怕回来时电耗没了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者外出旅游几天，车辆停在机场。",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "前段时间出去旅游几天，车停在机场"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C14",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米手车互联功能目前较少，但现有功能如远程控温、查电量等很方便，期待增加更多手机直控功能和自动化场景。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "小米的手车互联目前来说还是功能比较少...也是一句话的事，特别的方便。期待后续能增加更多的功能"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C15",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为人车家智能生态是最大亮点，可实现车家设备联动和自动化场景，但目前哨兵模式无法自定义触发条件，且车辆不能作为设备执行，期待优化。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "人车家智能生态也是小米汽车最大的亮点...目前自动化中的哨兵模式不能进行自定义中危或高危事件来执行自动化。而且车辆也不能作为设备执行"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C16",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "针对近期小米汽车被黑的导航失灵、冒烟、泊车误撞等事件，作者作为车主呼吁就事论事，配合技术人员解决问题，反对一味博取流量和黑粉行为。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T13",
+          "source_type": "text",
+          "quote": "最近关于导航失灵、车辆冒烟、泊车误撞的事件也不少...我觉得就事论事，有问题解决问题...而不是一味的在各个平台去发视频博取流量"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C17",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为手机支架位置未预留电源不便，墨镜无顶部收纳位置，顶衬拉手设计太小，储物格缺乏配套产品设计，这些都是细节设计的不足。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T14",
+          "source_type": "text",
+          "quote": "为什么就没有预留电源呢"
+        },
+        {
+          "block_id": "T15",
+          "source_type": "text",
+          "quote": "为什么就没在顶部设计墨镜收纳的位置"
+        },
+        {
+          "block_id": "T16",
+          "source_type": "text",
+          "quote": "这个顶衬拉手设计的太小了"
+        },
+        {
+          "block_id": "T17",
+          "source_type": "text",
+          "quote": "香薰上边的储物格应该也设计一些配套的产品"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C18",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为实体按键操作方便，特别是在某些情况下比语音控制更高效，可用于启动、调节空调、尾翼和悬挂高度。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T18",
+          "source_type": "text",
+          "quote": "这个实体按键真是太方便了...有些情况下手动是要比语音更方便。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C19",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为车机WPS功能实用，接键鼠后可应急处理文件。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T20",
+          "source_type": "text",
+          "quote": "车机有了WPS功能，接个键鼠就能办公，这也是很棒的，应急处理文件还是很方便的。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C20",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者建议小爱同学同步手机自定义声音功能，以增加个性化和趣味性。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T22",
+          "source_type": "text",
+          "quote": "小爱同学建议可以同步手机的自定义声音功能，使用更具有个性化。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C21",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者发现哨兵模式在公司位置偶发未自动关闭，继续录制，建议增加自定义位置设置。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T23",
+          "source_type": "text",
+          "quote": "哨兵模式已设置在公司的位置自动关闭，但偶尔也会出现未关闭，继续录制的情况。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C22",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为车机视频导出仅能通过U盘不便，建议增加云存储或扫码导出功能。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T24",
+          "source_type": "text",
+          "quote": "车机的行车记录、哨兵模式导出视频只能通过拔插U盘，太不方便了，建议后期增加云存储"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C23",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者指出小米手机和苹果手机同时接近时，苹果登录更快，建议增加车主账号优先功能以减少切换麻烦。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T25",
+          "source_type": "text",
+          "quote": "小米手机和苹果手机同时接近时，苹果登录更快，建议增加车主账号优先功能"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C24",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者建议车机下拉菜单支持自定义功能，以便根据个人习惯预设。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T26",
+          "source_type": "text",
+          "quote": "能像手机一样，下来菜单可以实现自定义功能，根据自己的需要和使用习惯进行预设。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C25",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者建议车载冰箱、空调开启习惯同步到个人账号，避免每日重复操作。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T27",
+          "source_type": "text",
+          "quote": "车载冰箱、空调开启的使用习惯也同步到个人账号下，不用每天重复去开启"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C26",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者总结3个月体验认为车是好车但需优化，类比小米早期产品发展史，鼓励大家耐心等待技术突破，并推荐试驾后做决定。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T27",
+          "source_type": "text",
+          "quote": "3个月的真实使用体验，车是辆好车，但也是需要继续优化的...总的来说，小米Su7是小米的一款不错的产品，还是推荐大家去试驾后再做决定。"
+        }
+      ],
+      "confidence": 0.

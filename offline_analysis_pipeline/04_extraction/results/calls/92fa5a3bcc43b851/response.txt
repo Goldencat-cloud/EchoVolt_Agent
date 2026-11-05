@@ -1,0 +1,363 @@
+{
+  "schema_version": "2.3",
+  "post_id": "92fa5a3bcc43b851",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "标题栏左侧标注车型“SU7”"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "本田思域",
+      "entity_level": "车系",
+      "brand": "本田",
+      "series": "思域",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "跟我思域的暗金蓝挺像的"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪汉",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "汉",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "比亚迪汉挺不错的"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "小鹏",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小鹏有些过时"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "特斯拉Model 3",
+      "entity_level": "车系",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "model3换新版 改动太大了不适应"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "极氪001",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "极氪001还不错但是超预算了"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "极氪007",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "007外观不太能接受"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P8",
+      "name": "比亚迪秦",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "秦",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "那不如买个秦开网约车得了"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者观察到许多5-8周交期的订单已进入生产阶段，对自己订单尚未开始生产感到疑惑，并询问排产是按定金时间还是锁单时间计算。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我看很多5-8周的都有生产中的了，都是几点锁的啊这么快，到底是按定金时间来还是锁单时间来的。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者计划在无锡提车，担心当地分配到的车辆数量较少。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "无锡提车离得也挺近，就是不知道无锡会不会到的车少一点。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者选择了红色内饰，认为虽然买不起保时捷或法拉利，但将其视为一种“平替”；同时喜欢橄榄绿车漆的大气感，但也表示更喜欢寒武岩灰，因为其与自己思域的暗金蓝颜色相似。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "既然买轿跑了，那真抗拒不了红内饰，上不了保时捷法拉利，买个平替也是可以，橄榄绿也很大气，不过我更喜欢寒武岩灰，跟我思域的暗金蓝挺像的"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在20-24万预算区间内对比了多款燃油车和新能源车，认为该价位燃油车油耗高，比亚迪汉显得老气且驾驶体验不佳，小鹏略显过时，Model 3新版改动大不适应，极氪001超预算，极氪007外观不可接受，最终因小米发布会心动并下单。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "从年后也看了很久的车市了，从油车看到电车，实在是20万级别的油车，油耗都不低，想想还是买个电车开开吧，比亚迪汉挺不错的，但是太老气了，驾驶体验也不太行，区间放在20-24万选择不算多，小鹏有些过时，以前挺喜欢的，model3换新版 改动太大了不适应，极氪001还不错但是超预算了，007外观不太能接受。本来是想看雷总发布会观望观望的，没想到一下心动了，配置上基本说的过去，小米的产品质量都不会太差，果断下定金锁单"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为20万以上车辆主要看品牌价值和实用价值，认为小米此次营销成功提升了品牌形象，且众多试车拆车视频证明了其使用上没有大问题。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "说实在话，买20万以上的车无非就是看品牌价值和车的使用价值，一辆车能足够你日常使用，品牌价值符合定位，那就足够了，这波营销打响了品牌，这么多试车拆车的人也证明了使用上没太大问题。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者反驳关于400V电压平台的负面评价，认为其不影响日常充电和续航，速度也没有慢多少，并批评过分纠结纸面配置的观点。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "天天扯什么性价比，那不如买个秦开网约车得了，这价位该给的也都有，400v又怎么了，影响日常充电和续航吗，也没慢多少吧，介意就买别的，都看纸面配置，那其他车都别卖了，车还是要开自己喜欢的。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "当前状态为“车辆待生产”... 进度条分为四步：“锁定订单”..."
+      },
+      {
+        "block_id": "I1",
+        "source_type": "image_summary",
+        "quote": "付款明细部分显示定金“¥ 5,000”状态为“已支付”"
+      },
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "果断下定金锁单"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "20-24万",
+    "preferences": [
+      "偏好轿跑造型",
+      "偏好红色内饰",
+      "注重品牌价值",
+      "偏好低油耗/电动化"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7的订单进度，对排产速度表示疑惑并咨询排产规则。文中详细记录了其在20-24万预算下对比比亚迪汉、小鹏、Model 3、极氪等竞品后的选车心路历程，表达了对小米品牌营销和产品配置的认可，并反驳了关于400V平台和性价比的负面舆论。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

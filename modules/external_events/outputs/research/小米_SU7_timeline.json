@@ -1,0 +1,2971 @@
+{
+  "schema_version": 2,
+  "meta": {
+    "brand": "小米",
+    "product": "SU7",
+    "domain_hint": null,
+    "generated_at": "2026-10-05T20:09:58+08:00",
+    "time_window": {
+      "from": "2022-10-28",
+      "to": "2026-10-03"
+    },
+    "status": "partial",
+    "llm_used": true,
+    "query_stats": [
+      {
+        "query": "小米SU7 大事记 时间线",
+        "aspect": "overview",
+        "hits": 5,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 盘点 回顾",
+        "aspect": "overview",
+        "hits": 4,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 发展历程",
+        "aspect": "overview",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 发布 上市 2022",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 发布 上市 2023",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 发布 上市 2024",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 发布 上市 2025",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 发布 上市 2026",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 价格 2022",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 价格 2023",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 价格 2024",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 价格 2025",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 价格 2026",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 更新 升级 2022",
+        "aspect": "product",
+        "hits": 7,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 更新 升级 2023",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 更新 升级 2024",
+        "aspect": "product",
+        "hits": 0,
+        "ok": false
+      },
+      {
+        "query": "小米SU7 更新 升级 2025",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 更新 升级 2026",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 召回 质量 2022",
+        "aspect": "product",
+        "hits": 4,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 召回 质量 2023",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 召回 质量 2024",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 召回 质量 2025",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 召回 质量 2026",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 竞品 对比 2022",
+        "aspect": "competitor",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 竞品 对比 2023",
+        "aspect": "competitor",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 竞品 对比 2024",
+        "aspect": "competitor",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 竞品 对比 2025",
+        "aspect": "competitor",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 竞品 对比 2026",
+        "aspect": "competitor",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 行业 政策 监管 2022",
+        "aspect": "policy",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 行业 政策 监管 2023",
+        "aspect": "policy",
+        "hits": 1,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 行业 政策 监管 2024",
+        "aspect": "policy",
+        "hits": 5,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 行业 政策 监管 2025",
+        "aspect": "policy",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 行业 政策 监管 2026",
+        "aspect": "policy",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 技术 2022",
+        "aspect": "tech",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 技术 2023",
+        "aspect": "tech",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 技术 2024",
+        "aspect": "tech",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 技术 2025",
+        "aspect": "tech",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 技术 2026",
+        "aspect": "tech",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 舆情 争议 2022",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 舆情 争议 2023",
+        "aspect": "public",
+        "hits": 2,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 舆情 争议 2024",
+        "aspect": "public",
+        "hits": 7,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 舆情 争议 2025",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 舆情 争议 2026",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 事故 投诉 2022",
+        "aspect": "public",
+        "hits": 1,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 事故 投诉 2023",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 事故 投诉 2024",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 事故 投诉 2025",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "小米SU7 事故 投诉 2026",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      }
+    ],
+    "filter_stats": {
+      "noise_dropped": 6,
+      "out_of_window": 22,
+      "duplicate_url": 67,
+      "member_ignored": 50,
+      "llm_ignored": 14,
+      "fallback": 0,
+      "low_authority_dropped": 4
+    }
+  },
+  "events": [
+    {
+      "event_id": "908fe9572a1a",
+      "event_date": "2023-12-28",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车发布",
+      "relevance": "core",
+      "title": "小米汽车技术发布 SU7正式亮相",
+      "summary": "2023年12月28日，小米汽车首次举行技术发布会，公布五大自研核心技术，首款车型SU7同步亮相，定位C级高性能生态科技轿车；雷军称9.9万、14.9万元定价不可能。",
+      "media_coverage": {
+        "source_count": 5,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "www.notebookcheck-cn.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.notebookcheck-cn.com/SU7-500-2024.787817.0.html",
+          "published_date": "2023-12-28",
+          "title": "小米 SU7 电动汽车规格预览，500 英里续航版本售价最高，发布日期为 2024 年 - Notebookcheck-cn.com News"
+        },
+        {
+          "source_domain": "www.xinhuanet.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "http://www.xinhuanet.com/auto/20231228/053ac48fe8ed4311b0445dbd225cc936/c.html",
+          "published_date": "2023-12-28",
+          "title": "小米SU7正式亮相 定位C级高性能生态科技轿车-新华网"
+        },
+        {
+          "source_domain": "www.stcn.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.stcn.com/article/detail/1077843.html",
+          "published_date": "2023-12-28",
+          "title": "雷军回应小米汽车价格，9.9万、14.9万不可能！“尊重一下科技啊”"
+        },
+        {
+          "source_domain": "sichuan.scol.com.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://sichuan.scol.com.cn/amsc/202312/82437935.html",
+          "published_date": "2023-12-29",
+          "title": "小米汽车技术大公开 1003天交出首款车型答卷_四川在线"
+        },
+        {
+          "source_domain": "xinwen.bjd.com.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://xinwen.bjd.com.cn/content/s658e5eb4e4b064178154dc7a.html",
+          "published_date": "2023-12-29",
+          "title": "小米发布五大汽车核心技术 首款车型小米SU7正式亮相"
+        }
+      ]
+    },
+    {
+      "event_id": "0c5cc2a490b0",
+      "event_date": "2024-01-04",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "技术发布会",
+      "relevance": "core",
+      "title": "小米汽车首秀 公布五大核心技术",
+      "summary": "2023年12月28日，小米在宣布造车后第1003天首次举行汽车技术发布会，公布五大自研核心技术，首款车型小米SU7同步亮相，并称造车出发点是打造先进“移动智能空间”。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "zqb.cyol.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://zqb.cyol.com/html/2024-01/04/nw.D110000zgqnb_20240104_1-08.htm",
+          "published_date": "2024-01-04",
+          "title": "小米汽车首秀揭开车市新战局"
+        },
+        {
+          "source_domain": "auto.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://auto.sina.cn/zz/hy/2024-01-05/detail-inaamqyf5288713.d.html",
+          "published_date": "2024-01-05",
+          "title": "带“7”必火？盘点名字中带有数字“7”的车型-手机新浪汽车"
+        }
+      ]
+    },
+    {
+      "event_id": "9252098e4c63",
+      "event_date": "2024-02-03",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "路测与上市准备",
+      "relevance": "core",
+      "title": "雷军：小米SU7开启全国全面路测",
+      "summary": "2024年2月3日，雷军宣布小米汽车SU7开启全国范围全面路测，为上市做最后准备；同时集团总裁卢伟冰兼任小米品牌总经理，手机发布会由其主讲，雷军强调手机仍是核心业务。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.yicai.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.yicai.com/news/101982134.html",
+          "published_date": "2024-02-03",
+          "title": "雷军：小米汽车SU7开启全国范围全面路测 为上市做最后准备"
+        }
+      ]
+    },
+    {
+      "event_id": "f9ca171ebf0c",
+      "event_date": "2024-02-28",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "competitor",
+      "subtype": "竞品定价影响",
+      "relevance": "context",
+      "title": "极氪001上市影响小米SU7定价",
+      "summary": "全新极氪001上市，同价格段产品采取高性价比策略，给尚未公布最终售价的小米SU7带来定价难题，潜客口味也变得更挑剔。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.stcn.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.stcn.com/article/detail/1131564.html",
+          "published_date": "2024-02-28",
+          "title": "全新极氪001给小米汽车留下一道定价难题"
+        }
+      ]
+    },
+    {
+      "event_id": "f9f7c68c1447",
+      "event_date": "2024-03-12",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "上市定档",
+      "relevance": "core",
+      "title": "小米SU7定档3月28日上市",
+      "summary": "2024年3月12日报道，小米宣布首款电动车SU7正式发布定档3月28日；该车此前于2023年底技术发布会亮相，小米曾称其媲美特斯拉、保时捷。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.dw.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.dw.com/zh/%E8%AA%93%E8%A8%80%E5%AA%B2%E7%BE%8E%E7%89%B9%E6%96%AF%E6%8B%89%E4%BF%9D%E6%97%B6%E6%8D%B7%E7%9A%84%E5%B0%8F%E7%B1%B3su7%E5%8D%B3%E5%B0%86%E4%B8%8A%E5%B8%82/a-68501627",
+          "published_date": "2024-03-12",
+          "title": "誓言媲美特斯拉、保时捷的小米SU7即将上市"
+        }
+      ]
+    },
+    {
+      "event_id": "47b1e4b8e9fc",
+      "event_date": "2024-03-18",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "工厂揭幕/上市前",
+      "relevance": "core",
+      "title": "小米汽车超级工厂揭幕 2023年投入67亿",
+      "summary": "2023年小米汽车业务投入67亿元，小米汽车超级工厂正式揭幕；首款车型SU7计划3月28日上市，雷军称第一年销售目标10万辆，此后三年累计交付90万辆。",
+      "media_coverage": {
+        "source_count": 6,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "m.eeo.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "http://m.eeo.com.cn/2024/0318/645392.shtml",
+          "published_date": "2024-03-18",
+          "title": "小米汽车：尊重“米粉”还是尊重市场？-经济观察网"
+        },
+        {
+          "source_domain": "m.jiemian.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.jiemian.com/article/10936041.html",
+          "published_date": "2024-03-19",
+          "title": "小米汽车超级工厂正式揭幕，去年相关业务投入67亿元 | 界面新闻"
+        },
+        {
+          "source_domain": "www.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sohu.com/a/765329092_118021",
+          "published_date": "2024-03-19",
+          "title": "小米SU7真的能打吗？六大竞品对比解析（上）_搜狐汽车_搜狐网"
+        },
+        {
+          "source_domain": "m.ce.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "http://m.ce.cn/qc/gd/202403/20/t20240320_38941528.shtml",
+          "published_date": "2024-03-20",
+          "title": "2023年小米汽车业务投入67亿元，超级工厂正式揭幕_中国经济网"
+        },
+        {
+          "source_domain": "chedongxi.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://chedongxi.com/p/315027.html",
+          "published_date": "2024-03-20",
+          "title": "小米汽车内饰全曝光！原厂自带手机支架，实体按键回归 - 车东西"
+        },
+        {
+          "source_domain": "xueqiu.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://xueqiu.com/6638978246/283024236",
+          "published_date": "2024-03-21",
+          "title": "小米SU7真的能打吗？六大竞品对比解析（中） 作者｜芳超\n3月28日， 小米 SU7即将上市。这是本年度汽车圈的大事儿，各路豪强、四方看客，在过去一年里吵来吵去，终于... - 雪球"
+        }
+      ]
+    },
+    {
+      "event_id": "7a366a282535",
+      "event_date": "2024-03-25",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车发布",
+      "relevance": "core",
+      "title": "小米SU7正式发布 标准版售21.59万元",
+      "summary": "2024年3月28日小米SU7正式发布，标准版售价21.59万元，较特斯拉Model 3便宜约4千美元；雷军称押上全部声誉，并将此视为人生最后一次创业。",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T3",
+        "level": "medium"
+      },
+      "authority": 65,
+      "sources": [
+        {
+          "source_domain": "m.voc.com.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://m.voc.com.cn/xhn/news/202403/19652057.html",
+          "published_date": "2024-03-25",
+          "title": "雷军重磅官宣！“人生最后一战”"
+        },
+        {
+          "source_domain": "wallstreetcn.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://wallstreetcn.com/articles/3711546",
+          "published_date": "2024-03-28",
+          "title": "米粉激动、友商纷纷祝贺！小米SU7发布会倒计时 价格终于要揭晓了"
+        },
+        {
+          "source_domain": "www.cnbc.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.cnbc.com/2024/03/28/xiaomi-releases-electric-car-4k-cheaper-than-teslas-model-3-as-price-wars-heat-up.html",
+          "published_date": "2024-03-28",
+          "title": "China: Xiaomi releases electric car $4K cheaper than Tesla's Model 3"
+        }
+      ]
+    },
+    {
+      "event_id": "1f2099251473",
+      "event_date": "2024-03-29",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "高管访谈",
+      "relevance": "core",
+      "title": "雷军揭秘小米SU7设计历程",
+      "summary": "雷军称小米SU7在2022年初推倒重做，第一款车输不起；他每天早八点与设计师团队打磨细节，并表示小米不怕“卷”，未来汽车都是AI加持。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.cls.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.cls.cn/detail/1633371",
+          "published_date": "2024-03-29",
+          "title": "雷军揭秘小米SU7：小米不怕“卷” 未来汽车都是AI加持的"
+        }
+      ]
+    },
+    {
+      "event_id": "2e1b87a1ff93",
+      "event_date": "2024-04-03",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "市场反响/争议",
+      "relevance": "core",
+      "title": "小米SU7市值大涨与抄袭争议",
+      "summary": "小米SU7上市后，小米港股4月2日一度涨近16%、收涨近9%，市值超过通用汽车和福特；有机构预测其每售一辆车或亏近1万美元；同时外界有声音指SU7外观抄袭保时捷。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "www.voachinese.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.voachinese.com/a/china-xiaomi-s-ev-launch-propels-its-market-value-by-7-6-billion-above-gm-and-ford-20240402/7553141.html",
+          "published_date": "2024-04-03",
+          "title": "赔本赚吆喝？小米SU7电动车受市场追捧 市值超过通用汽车和福特"
+        },
+        {
+          "source_domain": "finance.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.cn/2024-04-03/detail-inaqqitn5909177.d.html?vt=4",
+          "published_date": "2024-04-03",
+          "title": "被指抄袭保时捷的小米SU7，中国汽车行业还需要一辆新的“山寨车”吗？|小米汽车|华为|车企|雷军|压铸机_手机新浪网"
+        }
+      ]
+    },
+    {
+      "event_id": "339ff0b52175",
+      "event_date": "2024-04-10",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "competitor",
+      "subtype": "行业对标",
+      "relevance": "context",
+      "title": "小米SU7引发车企配置对标风潮",
+      "summary": "3月底小米在发布会上将Model 3与SU7逐项对比后，配置对标在新车发布会蔚然成风；智己L6直接对标SU7，新款腾势N7对标Model Y。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sohu.com/a/770341544_430289",
+          "published_date": "2024-04-10",
+          "title": "小米智己连夜“吵架” 正面硬刚能力成车企必备武器_搜狐汽车_搜狐网"
+        }
+      ]
+    },
+    {
+      "event_id": "e00aec168272",
+      "event_date": "2024-08-13",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "OTA更新",
+      "relevance": "core",
+      "title": "小米SU7公布最新OTA更新项目",
+      "summary": "小米汽车公布SU7最新OTA更新项目，并提到年底销量目标上看12万辆。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "speed.ettoday.net",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://speed.ettoday.net/news/2796766",
+          "published_date": "2024-08-13",
+          "title": "小米汽車公布「SU7最新OTA更新項目」！年底銷量目標上看12萬輛 | ETtoday車雲 | ETtoday新聞雲"
+        }
+      ]
+    },
+    {
+      "event_id": "3beede859bb2",
+      "event_date": "2024-09-06",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "安全测评",
+      "relevance": "core",
+      "title": "小米SU7参与C-IASI碰撞测评",
+      "summary": "C-IASI于9月5日发布公告，按2023版规程对8款车型进行测评，其中包含小米SU7。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.eet-china.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.eet-china.com/news/202409065165.html",
+          "published_date": "2024-09-06",
+          "title": "小米SU7、极氪007、理想MEGA谁更硬？权威机构碰撞测试结果来了-电子工程专辑"
+        }
+      ]
+    },
+    {
+      "event_id": "6e3b8110d6a1",
+      "event_date": "2024-09-30",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "获奖",
+      "relevance": "core",
+      "title": "小米SU7获2024中国十佳车身等奖项",
+      "summary": "小米SU7获2024中国十佳车身和车身最佳结构奖。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "finance.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.com.cn/tech/roll/2024-09-30/doc-incqxmqs5067701.shtml",
+          "published_date": "2024-09-30",
+          "title": "小米SU7获2024中国十佳车身和车身最佳结构奖_新浪科技_新浪网"
+        }
+      ]
+    },
+    {
+      "event_id": "2612f2654209",
+      "event_date": "2024-12-09",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车官宣",
+      "relevance": "core",
+      "title": "小米官宣SUV车型YU7 2025年6-7月上市",
+      "summary": "12月9日晚，小米汽车宣布第二款车、SUV车型小米YU7将于2025年6—7月正式上市；该车为纯电动，长4999mm、宽1993mm、高1600mm，轴距3000mm。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "m.21jingji.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.21jingji.com/article/20241209/herald/fd53d8806b485b9ed82377a681302ed9.html",
+          "published_date": "2024-12-09",
+          "title": "小米汽车官宣SUV车型“小米YU7”，预计于明年六七月正式上市 - 21财经"
+        },
+        {
+          "source_domain": "m.caixin.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.caixin.com/m/2024-12-10/102266319.html",
+          "published_date": "2024-12-10",
+          "title": "小米第二款车定位SUV 预计2025年中上市"
+        }
+      ]
+    },
+    {
+      "event_id": "40e2055dd2c3",
+      "event_date": "2025-01-03",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "other",
+      "subtype": "股价/造车业务",
+      "relevance": "context",
+      "title": "小米股价创历史新高 造车成第二增长曲线",
+      "summary": "小米集团股价创历史新高，报道称造车成为其第二增长曲线；此前股价高点为2021年1月，2024年8月开始加速上行。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "m.21jingji.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.21jingji.com/article/20250103/herald/e77b79ce0f59f0e2954b1650d9feba54.html",
+          "published_date": "2025-01-03",
+          "title": "小米股价创历史新高！造车成第二增长曲线（一文回顾小米造车时间线） - 21财经"
+        }
+      ]
+    },
+    {
+      "event_id": "1538d4a1fd13",
+      "event_date": "2025-01-24",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "召回",
+      "relevance": "core",
+      "title": "小米召回超3万辆SU7标准版",
+      "summary": "1月24日，小米汽车宣布主动向国家市场监督管理总局备案，召回超3万辆SU7标准版；报道称召回原因是智能泊车存在隐患。",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "finance.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.com.cn/zmt/2025-01-24/doc-inehatru3801403.shtml",
+          "published_date": "2025-01-24",
+          "title": "小米汽车召回3.1万辆SU7智能泊车存在隐患|小米_新浪财经_新浪网"
+        },
+        {
+          "source_domain": "www.cqnews.net",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.cqnews.net/1/detail/1332386441455751168/web/content_1332386441455751168.html",
+          "published_date": "2025-01-24",
+          "title": "小米回应“召回超3万辆SU7”-华龙网"
+        },
+        {
+          "source_domain": "startup.aliyun.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://startup.aliyun.com/info/1091936.html",
+          "published_date": "2025-01-25",
+          "title": "智能泊车事故公开，小米汽车召回 3 万台SU7；字节 2026 年停发春节红包；《权游》作者发表物理学论文"
+        }
+      ]
+    },
+    {
+      "event_id": "910a539dc7ee",
+      "event_date": "2025-02-27",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车发布/定价",
+      "relevance": "core",
+      "title": "小米SU7 Ultra发布售价52.99万元",
+      "summary": "2月27日小米发布会推出SU7 Ultra，售价52.99万元，较预售价81.49万元降低近30万元，标准版可直接上赛道。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "www.yicai.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.yicai.com/news/102490767.html",
+          "published_date": "2025-02-27",
+          "title": "小米发布会：SU7 Ultra售价52.99万元，标准版能直接上赛道"
+        },
+        {
+          "source_domain": "stcn.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://stcn.com/article/detail/1552017.html",
+          "published_date": "2025-02-27",
+          "title": "降价近30万元！小米发布“地表最强”车型，雷军称要“让喜欢的人真正买得起！”"
+        }
+      ]
+    },
+    {
+      "event_id": "757e48f8b5a1",
+      "event_date": "2025-03-07",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "市场热度",
+      "relevance": "context",
+      "title": "小米汽车热度持续引发关注",
+      "summary": "2月27日小米双Ultra新品发布会前，雷军穿皮衣话题从小米15 Ultra和SU7 Ultra相关讨论发酵，小米汽车热度持续。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.21jingji.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "http://www.21jingji.com/article/20250307/herald/a4bb81b96a77b6aa4506a674e81c6a02.html",
+          "published_date": "2025-03-07",
+          "title": "小米汽车“爆了又爆”，凭啥？ - 21经济网"
+        }
+      ]
+    },
+    {
+      "event_id": "86d1cc5610b6",
+      "event_date": "2025-03-18",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "other",
+      "subtype": "财报/营收",
+      "relevance": "context",
+      "title": "小米2024年报：SU7创收321亿元",
+      "summary": "小米发布2024年报，称利润创新高，SU7创收321亿元；小米大模型升级至第二代MiLM2，已在澎湃OS、小爱同学、智能座舱等落地。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.caiwennews.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.caiwennews.com/article/1371966.shtml",
+          "published_date": "2025-03-18",
+          "title": "雷军眼中的“小米史上最强年报”：利润创新高，SU7创收321亿元 - 财闻网"
+        }
+      ]
+    },
+    {
+      "event_id": "3f04eea4b308",
+      "event_date": "2025-04-02",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "交通事故/舆论",
+      "relevance": "core",
+      "title": "小米SU7致命车祸致3死引发舆论",
+      "summary": "4月1日小米声明称，事故前车辆处于NOA辅助驾驶，时速116km/h，事发路段施工改道；车辆检测障碍后提醒减速，驾驶员接管。事故致3死，雷军微博发声后引发大量跟贴争议。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.bbc.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.bbc.com/zhongwen/articles/c2lz9nq7eneo/simp",
+          "published_date": "2025-04-02",
+          "title": "小米SU7：致命车祸致3死，雷军微博发声后大量跟贴护“雷”贬死者家属 - BBC News 中文"
+        }
+      ]
+    },
+    {
+      "event_id": "1ee07056dd36",
+      "event_date": "2025-04-08",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "营销争议/信任危机",
+      "relevance": "core",
+      "title": "小米信任危机：营销与现实差距引反思",
+      "summary": "4月8日报道称，小米SU7 Ultra曾宣传赛车级350km/h极速、纽北最速四门车等卖点；此次事故后，舆论反思高调营销与现实的差距，小米面临信任危机。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.21jingji.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.21jingji.com/article/20250408/herald/db6ef8b02b8ff6d23e710578792d9d5d.html",
+          "published_date": "2025-04-08",
+          "title": "信任危机中的小米：营销神话能否承受生命之重？ - 21经济网"
+        }
+      ]
+    },
+    {
+      "event_id": "77e4df504687",
+      "event_date": "2025-04-17",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "policy",
+      "subtype": "辅助驾驶宣传监管",
+      "relevance": "core",
+      "title": "工信部规范辅助驾驶宣传",
+      "summary": "2025年4月，工信部要求辅助驾驶不得夸大和虚假宣传；公安部道研中心称虚假宣传自动驾驶可面临2年以下刑期。报道称智能化体验在购车决策中权重升至14%。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.nbd.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.nbd.com.cn/articles/2025-04-17/3836753.html",
+          "published_date": "2025-04-17",
+          "title": "最新！工信部对辅助驾驶出手：不得夸大和虚假宣传！公安部道研中心：虚假宣传自动驾驶可面临2年以下刑期 | 每经网"
+        }
+      ]
+    },
+    {
+      "event_id": "2adaff275f5d",
+      "event_date": "2025-04-21",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "policy",
+      "subtype": "智驾宣传监管",
+      "relevance": "core",
+      "title": "小米SU7车祸后监管整治智驾宣传",
+      "summary": "2025年4月报道称，小米SU7车祸后，公安部、工信部等监管部门出手整治智驾营销；原因包括新能源车竞争激烈，车企将智驾作为卖点，压缩测试周期、夸大技术功能，“智驾平权”浪潮下多数新能源车企推智驾。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "hao.cnyes.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://hao.cnyes.com/post/163648",
+          "published_date": "2025-04-21",
+          "title": "事情越鬧越大！小米SU7車禍後，中國出手了 | 汽車 | 鉅亨號 | Anue鉅亨"
+        }
+      ]
+    },
+    {
+      "event_id": "63dea1e983fd",
+      "event_date": "2025-05-08",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "软件更新争议",
+      "relevance": "core",
+      "title": "小米SU7 Ultra软件更新限制动力引争议",
+      "summary": "2025年5月报道，小米SU7 Ultra软件更新将性能限制在900匹，引发争议。官方称为安全，超1500匹动力仅应由有赛道经验且认证的驾驶者使用；新增Qualifying Mode，需特定赛道成绩解锁完整动力。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.storm.mg",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.storm.mg/lifestyle/5369603",
+          "published_date": "2025-05-08",
+          "title": "小米SU7 Ultra軟體更新爭議 安全性問題導致性能大減650匹 | Carture車勢文化 | 風生活 - 風傳媒"
+        }
+      ]
+    },
+    {
+      "event_id": "e164528979c9",
+      "event_date": "2025-05-13",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "车主退车维权",
+      "relevance": "core",
+      "title": "数百小米SU7 Ultra车主要求退车",
+      "summary": "2025年5月，数百名小米SU7 Ultra车主指车辆不符宣传，要求退车。部分车主称订车时宣传与实际不符，有车主喊话雷军“保持真诚”。报道称事件发生在新车YU7问世前。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 60,
+      "sources": [
+        {
+          "source_domain": "www.orientaldaily.com.my",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.orientaldaily.com.my/news/business/2025/05/13/732824",
+          "published_date": "2025-05-13",
+          "title": "质疑小米SU7 Ultra“货不对办” 数百车主要求退车"
+        },
+        {
+          "source_domain": "m.cyol.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "http://m.cyol.com/gb/articles/2025-05/13/content_Zv4XEjh2qe.html",
+          "published_date": "2025-05-13",
+          "title": "小米SU7 Ultra风波升级：数百名车主要求退车，车主喊话雷军“保持真诚”"
+        }
+      ]
+    },
+    {
+      "event_id": "0078f6dcc1ca",
+      "event_date": "2025-06-26",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车预售",
+      "relevance": "core",
+      "title": "小米YU7开启预售，起售价25.35万元",
+      "summary": "6月26日晚，小米首款SUV车型YU7开启预售，起售价25.35万元。财新报道称，小米2025年挑战卖出35万辆车。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "m.caixin.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.caixin.com/m/2025-06-26/102335155.html",
+          "published_date": "2025-06-26",
+          "title": "小米首款SUV起售价25.35万元 2025年挑战卖出35万辆车"
+        }
+      ]
+    },
+    {
+      "event_id": "e16d424fbf20",
+      "event_date": "2025-07-18",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "产能交付",
+      "relevance": "context",
+      "title": "小米二期工厂7月投产，承担YU7生产",
+      "summary": "截至2025年5月底，小米SU7与SU7 Ultra累计终端交付27万辆，5月单月交付2.9万辆；一期工厂双班生产SU7系列，二期工厂7月投产，主要承担YU7生产任务。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "m.yoojia.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://m.yoojia.com/article/10327084976042364607",
+          "published_date": "2025-07-18",
+          "title": "高颜值、新旗舰小米YU7为何受到“追捧”？ - 有驾"
+        }
+      ]
+    },
+    {
+      "event_id": "be8b556d6dfb",
+      "event_date": "2025-09-19",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "车辆召回",
+      "relevance": "core",
+      "title": "小米召回超11.6万辆SU7标准版",
+      "summary": "2025年9月19日，小米汽车备案召回2024年2月至2025年8月生产的部分SU7标准版，共116887辆，原因为高速领航辅助驾驶在极端场景识别处置不足，将通过OTA升级优化。",
+      "media_coverage": {
+        "source_count": 9,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "www.ifanr.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.ifanr.com/1638415",
+          "published_date": "2025-09-19",
+          "title": "小米宣布因「辅助驾驶隐患」召回 11 万辆 SU7，最严智驾新规即将出炉 | 爱范儿"
+        },
+        {
+          "source_domain": "news.bjd.com.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://news.bjd.com.cn/2025/09/19/11314600.shtml",
+          "published_date": "2025-09-19",
+          "title": "小米汽车OTA秋季大版本升级，SU7、YU7今日将同步升级_京报网"
+        },
+        {
+          "source_domain": "news.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://news.sina.cn/minsheng/2025-09-19/detail-infqytkt8189045.d.html?vt=4",
+          "published_date": "2025-09-19",
+          "title": "小米召回超11.6万辆SU7标准版汽车|小米汽车|小米su7|预警|电动汽车|免费升级_手机新浪网"
+        },
+        {
+          "source_domain": "stcn.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://stcn.com/article/detail/3347634.html",
+          "published_date": "2025-09-19",
+          "title": "股价下挫！小米汽车宣布：召回超11万辆SU7！召回编号、原因公布"
+        },
+        {
+          "source_domain": "m.bjnews.com.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://m.bjnews.com.cn/detail/1758282341129168.html",
+          "published_date": "2025-09-19",
+          "title": "小米汽车备案召回超11万辆，远程升级优化辅助驾驶可靠性"
+        },
+        {
+          "source_domain": "www.guancha.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.guancha.cn/qiche/2025_09_19_790679.shtml",
+          "published_date": "2025-09-19",
+          "title": "首起辅助驾驶功能隐患召回案例，小米召回11.6万辆SU7预示什么？"
+        },
+        {
+          "source_domain": "www.jiemian.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.jiemian.com/article/13376114.html",
+          "published_date": "2025-09-19",
+          "title": "小米汽车召回三成已售SU7，辅助驾驶告别“野蛮生长”|界面新闻 · 汽车"
+        },
+        {
+          "source_domain": "www.ifanr.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.ifanr.com/1638463",
+          "published_date": "2025-09-20",
+          "title": "早报｜小米将召回11万辆SU7/追觅官宣旗舰手机/OpenAI多款硬件曝光，最快明年发布 | 爱范儿"
+        },
+        {
+          "source_domain": "finance.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.com.cn/tech/roll/2025-09-22/doc-infrivct3707287.shtml",
+          "published_date": "2025-09-22",
+          "title": "中国质量报告：11万辆小米SU7并非例行OTA，而是受调查后被动召回|小米|主动召回_新浪科技_新浪网"
+        },
+        {
+          "source_domain": "eu.36kr.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://eu.36kr.com/zh/p/3477750061996421",
+          "published_date": "2025-09-22",
+          "title": "36氪_让一部分人先看到未来"
+        }
+      ]
+    },
+    {
+      "event_id": "753cc9619941",
+      "event_date": "2025-09-25",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "手机发布",
+      "relevance": "core",
+      "title": "小米17系列发布，首发骁龙8至尊版",
+      "summary": "9月25日晚，小米17系列正式发布，推出小米17、小米17 Pro、小米17 Pro Max三款机型，全球首发第五代骁龙8至尊版处理器。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.stcn.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.stcn.com/article/detail/3357378.html",
+          "published_date": "2025-09-25",
+          "title": "雷军最新发声：五十来岁，正是闯的年纪！小米17系列今晚发布，全球首发第五代骁龙8至尊版处理器"
+        }
+      ]
+    },
+    {
+      "event_id": "5521b63cd988",
+      "event_date": "2025-10-13",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "安全事故",
+      "relevance": "core",
+      "title": "成都小米SU7事故救援中车门无法打开",
+      "summary": "2025年10月13日报道，成都天府大道发生涉及小米SU7的交通事故，车辆起火，救援中车门无法打开，引发车门安全担忧；小米股价一度下跌。",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "auto.ce.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "http://auto.ce.cn/auto/gundong/202510/t20251013_2514250.shtml",
+          "published_date": "2025-10-13",
+          "title": "成都天府大道交通事故引关注，救援中小米SU7车门无法打开！_中国经济网——国家经济门户"
+        },
+        {
+          "source_domain": "www.cnbc.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.cnbc.com/2025/10/13/xiaomi-shares-sink-most-since-april-after-fatal-ev-crash-raises-door-safety-concerns.html",
+          "published_date": "2025-10-13",
+          "title": "Xiaomi shares sink most since April after fatal EV crash raises door safety concerns - CNBC"
+        },
+        {
+          "source_domain": "m.ce.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "http://m.ce.cn/bwzg/202510/t20251013_2514465.shtml",
+          "published_date": "2025-10-13",
+          "title": "成都天府大道交通事故引关注，救援中小米SU7车门无法打开！_中国经济网"
+        }
+      ]
+    },
+    {
+      "event_id": "b9d5320906ff",
+      "event_date": "2025-10-17",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "股价与安全",
+      "relevance": "core",
+      "title": "小米股价因电动车安全担忧创最差周",
+      "summary": "10月17日，路透社报道，受电动车安全事故担忧影响，小米股价创三年半来最大周跌幅；9月国内乘用车召回中，小米SU7标准版因辅助驾驶问题召回116887辆，数量最多。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 60,
+      "sources": [
+        {
+          "source_domain": "www.reuters.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.reuters.com/business/autos-transportation/xiaomi-shares-post-worst-week-3-12-years-accidents-stoke-ev-safety-concerns-2025-10-17/",
+          "published_date": "2025-10-17",
+          "title": "Xiaomi shares post worst week in 3-1/2 years as accidents stoke EV safety concerns - Reuters"
+        },
+        {
+          "source_domain": "user.guancha.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://user.guancha.cn/main/content?id=1534573&s=fwzlwzbt",
+          "published_date": "2025-10-20",
+          "title": "9月国内乘用车召回41.8万辆 小米汽车数量最多_风闻"
+        }
+      ]
+    },
+    {
+      "event_id": "5ebc19ab3ec9",
+      "event_date": "2025-10-23",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "召回",
+      "relevance": "core",
+      "title": "小米召回116887辆SU7标准版",
+      "summary": "小米汽车备案召回计划，召回2024年2月6日至2025年8月30日生产的部分SU7标准版电动汽车，共计116887辆。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.21jingji.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.21jingji.com/article/20251023/herald/3d87a90ad4488c1bbf18f8ceb5a9ded4.html",
+          "published_date": "2025-10-23",
+          "title": "当人们谈起小米汽车，究竟在讨论什么？ - 21经济网"
+        }
+      ]
+    },
+    {
+      "event_id": "6a6a6a4e43f8",
+      "event_date": "2025-11-04",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "competitor",
+      "subtype": "召回",
+      "relevance": "core",
+      "title": "理想召回11411辆MEGA",
+      "summary": "因电池起火风险，理想汽车召回11411辆旗舰纯电MPV MEGA。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.insurancejournal.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.insurancejournal.com/news/international/2025/11/04/846336.htm",
+          "published_date": "2025-11-04",
+          "title": "Li Auto Recalls Over 11,000 of Its Flagship EV on Battery Fire - Insurance Journal"
+        }
+      ]
+    },
+    {
+      "event_id": "1f6640fd3ff6",
+      "event_date": "2025-11-20",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "产量里程碑",
+      "relevance": "core",
+      "title": "小米汽车50万辆下线创纪录",
+      "summary": "小米汽车不到20个月实现50万辆下线，创新能源车企50万辆下线最快纪录；截至10月，SU7位列2025国内中大型轿车销量第一，YU7连续3个月中大型SUV销量第一，10月登顶全品类SUV销量第一。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "hb.dzwww.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://hb.dzwww.com/p/pewJRNiQi8.html",
+          "published_date": "2025-11-20",
+          "title": "海量财经丨不到20个月，小米汽车创新能源车企50万辆下线最快纪录 - 海报新闻"
+        }
+      ]
+    },
+    {
+      "event_id": "79dc8ccc15a2",
+      "event_date": "2025-11-22",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "公关换帅/安全争议",
+      "relevance": "core",
+      "title": "小米汽车公关换帅及安全争议",
+      "summary": "小米汽车公关换帅，报道围绕其智能驾驶安全争议，提及有财经媒体被指通过缺失数据分母、嫁接死亡事故等构建“不安全”形象，黑稿单条报价1.8万至3.8万元，国家开展行业整治。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "news.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://news.sina.cn/bignews/insight/1970-01-01/detail-infyfnms6452316.d.html?vt=4",
+          "published_date": "2025-11-22",
+          "title": "公关换帅背后，小米汽车安全争议的真相是什么？(含视频)|自动驾驶|自动驾驶法规完善|智驾系统争议|智驾事故责任|小米su7_手机新浪网"
+        }
+      ]
+    },
+    {
+      "event_id": "da36b4123c1b",
+      "event_date": "2025-11-25",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "tech",
+      "subtype": "OTA升级",
+      "relevance": "core",
+      "title": "小米汽车推送OTA冬季大版本",
+      "summary": "11月25日，小米SU7、YU7、SU7 Ultra推送Xiaomi HyperOS 1.11.0冬季大版本OTA，升级辅助驾驶与智能座舱，新增运动声浪音量调节等功能。",
+      "media_coverage": {
+        "source_count": 4,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "news.qq.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://news.qq.com/rain/a/20251125A04PEE00",
+          "published_date": "2025-11-25",
+          "title": "小米汽车OTA冬季大版本开始推送：辅助驾驶、智能座舱全面升级_腾讯新闻"
+        },
+        {
+          "source_domain": "finance.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.com.cn/tech/digi/2025-11-25/doc-infyqyue3077225.shtml",
+          "published_date": "2025-11-25",
+          "title": "小米 SU7、YU7、SU7 Ultra 迎来 Xiaomi HyperOS 1.11.0 OTA 冬季大版本升级_新浪科技_新浪网"
+        },
+        {
+          "source_domain": "www.news18a.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.news18a.com/news/storys_210955.html",
+          "published_date": "2025-11-25",
+          "title": "网通社汽车-更新-更全-更权威的全球汽车资讯"
+        },
+        {
+          "source_domain": "news.mydrivers.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://news.mydrivers.com/1/1088/1088604.htm",
+          "published_date": "2025-11-25",
+          "title": "小米汽车OTA冬季大版本开始推送：辅助驾驶、智能座舱全面升级--快科技--科技改变未来"
+        }
+      ]
+    },
+    {
+      "event_id": "d66a29ba36d4",
+      "event_date": "2025-12-18",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "换代传闻",
+      "relevance": "core",
+      "title": "曝小米SU7换代明年二季度上市",
+      "summary": "2025年12月18日报道称，小米SU7将迎来换代，或于2026年二季度上市，并可能取消标准版、起步即Pro，价格或上涨2万元；现款累计销量突破25万台。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "www.gasgoo.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.gasgoo.com/robot/news/70439150-%E7%9B%96%E4%B8%96%E5%BF%AB%E8%AE%AF-%E6%9B%9D%E6%8D%A2%E4%BB%A3%E5%B0%8F%E7%B1%B3su7%E6%98%8E%E5%B9%B4%E4%BA%8C%E5%AD%A3%E5%BA%A6%E4%B8%8A%E5%B8%82",
+          "published_date": "2025-12-18",
+          "title": "【盖世快讯】曝换代小米SU7明年二季度上市；魏建军回应长城不用一体压铸技术 | 盖世汽车"
+        },
+        {
+          "source_domain": "www.ifanr.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.ifanr.com/1648906",
+          "published_date": "2025-12-18",
+          "title": "砍掉标准版！小米 SU7 换代起步即 Pro，价格或上涨 2 万元 | 爱范儿"
+        }
+      ]
+    },
+    {
+      "event_id": "e9988a5e7673",
+      "event_date": "2025-12-24",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "policy",
+      "subtype": "自动驾驶监管",
+      "relevance": "context",
+      "title": "小米SU7事故后中国推迟自动驾驶量产计划",
+      "summary": "3月底一辆小米SU7在安徽高速发生致命车祸，造成三名女大学生死亡；事故后中国监管机构收紧政策，推迟自动驾驶汽车量产计划。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "cn.nytimes.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://cn.nytimes.com/business/20251224/china-autonomous-cars-driving",
+          "published_date": "2025-12-24",
+          "title": "小米SU7事故后，中国推迟自动驾驶汽车量产计划 - 纽约时报中文网"
+        }
+      ]
+    },
+    {
+      "event_id": "69addaee6a28",
+      "event_date": "2026-01-04",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车官宣/预售",
+      "relevance": "core",
+      "title": "雷军官宣新一代小米SU7 4月上市",
+      "summary": "2026年1月6日，雷军宣布新一代小米SU7预计4月上市；1月7日开启预订，强调安全配置。新车全系标配激光雷达，辅助驾驶满配，续航、底盘、座舱升级；现款SU7上市21个月交付超36万辆。",
+      "media_coverage": {
+        "source_count": 7,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "wallstreetcn.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://wallstreetcn.com/articles/3762491",
+          "published_date": "2026-01-04",
+          "title": "回应“绿化带战神”、“1300公里只充一次电”，“200公里瞬间刹停”、“小字营销”--雷军260分钟“拆车直播”讲了什么？"
+        },
+        {
+          "source_domain": "www.jiemian.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.jiemian.com/article/13851446.html",
+          "published_date": "2026-01-06",
+          "title": "雷军正式官宣：新一代小米SU7预计4月份上市|界面新闻 · 汽车"
+        },
+        {
+          "source_domain": "www.chnfund.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.chnfund.com/article/AR18210b35-44d5-cd17-a373-3a1ea864d69b",
+          "published_date": "2026-01-07",
+          "title": "雷军：新一代SU7豪华高性能纯电轿车预计4月份上市 中国基金报"
+        },
+        {
+          "source_domain": "chejiahao.autohome.com.cn",
+          "source_tier": "T2",
+          "confidence": 40,
+          "url": "https://chejiahao.autohome.com.cn/info/24685638",
+          "published_date": "2026-01-07",
+          "title": "小米SU7推新款，2026年4月上市_车家号_发现车生活_汽车之家"
+        },
+        {
+          "source_domain": "eu.36kr.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://eu.36kr.com/zh/p/3629142189851649",
+          "published_date": "2026-01-07",
+          "title": "爆！21个月卖36万辆，雷军拆车4天后官宣新小米SU7，提车得等几月？"
+        },
+        {
+          "source_domain": "www.reuters.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.reuters.com/business/autos-transportation/xiaomi-begins-pre-orders-spruced-up-version-su7-sedan-stresses-safety-features-2026-01-07/",
+          "published_date": "2026-01-07",
+          "title": "Xiaomi begins pre-orders for spruced up version of SU7 sedan, stresses safety features - Reuters"
+        },
+        {
+          "source_domain": "www.automotiveworld.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.automotiveworld.com/news/xiaomi-opens-pre-orders-for-souped-up-su7-refresh/",
+          "published_date": "2026-01-07",
+          "title": "Xiaomi opens pre-orders for souped-up SU7 refresh - Automotive World"
+        }
+      ]
+    },
+    {
+      "event_id": "9fbe40933a7b",
+      "event_date": "2026-01-08",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "中期改款/预售",
+      "relevance": "core",
+      "title": "新款小米SU7开启小订，22.99万起",
+      "summary": "1月7日，小米汽车公布新一代小米SU7预售价22.99万元起并开启小订；该车为首次中期改款，安全配置增强，全系标配9气囊、2200MPa防滚架，Pro/Max配空气悬架+CDC，CLTC最高续航902公里。",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "m.gasgoo.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.gasgoo.com/news/70441510.html",
+          "published_date": "2026-01-08",
+          "title": "盖世汽车"
+        },
+        {
+          "source_domain": "auto.ifeng.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://auto.ifeng.com/c/8pkRVinl1wZ",
+          "published_date": "2026-01-08",
+          "title": "新款小米SU7涨价增配开启预售，这次对比竞品价格不再占优_凤凰网"
+        },
+        {
+          "source_domain": "www.jiemian.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.jiemian.com/article/13868213.html",
+          "published_date": "2026-01-10",
+          "title": "一周新车盘点 | 中改小米SU7开启小订 极氪8X官图发布|界面新闻 · 汽车"
+        }
+      ]
+    },
+    {
+      "event_id": "1382cf8c6cac",
+      "event_date": "2026-01-16",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "配置升级",
+      "relevance": "core",
+      "title": "小米SU7升级续航与智驾配置",
+      "summary": "小米SU7升级，标配902公里续航、激光雷达、700 TOPS和高压技术。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.notebookcheck-cn.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.notebookcheck-cn.com/SU7-902-700-TOPS.1205657.0.html",
+          "published_date": "2026-01-16",
+          "title": "小米 SU7 升级：标配 902 公里续航、激光雷达、700 TOPS 和高压技术 - Notebookcheck-cn.com News"
+        }
+      ]
+    },
+    {
+      "event_id": "10976b8624ae",
+      "event_date": "2026-01-21",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "产品规划",
+      "relevance": "core",
+      "title": "小米汽车称新品节奏更保守",
+      "summary": "小米汽车李肖爽回应“2026年发六款新车”传闻，称遵循爆品逻辑，新品推出节奏会比其他友商更保守。小米SU7于2024年3月发布，YU7于2025年6月上市。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.nbd.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.nbd.com.cn/articles/2026-01-21/4229690.html",
+          "published_date": "2026-01-21",
+          "title": "2026年放大招发六款新车？小米汽车李肖爽：遵循“爆品逻辑”，新品推出节奏会比其他友商更保守 | 每经网"
+        }
+      ]
+    },
+    {
+      "event_id": "0408c4f66dab",
+      "event_date": "2026-01-31",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "销量下滑",
+      "relevance": "core",
+      "title": "小米SU7 Ultra月销45辆，1月不足4万",
+      "summary": "2026年1月，小米SU7 Ultra月销量跌至45辆；小米汽车1月整体销量不足4万辆，降幅超20%。2025年小米SU7全年销量近26万辆。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "www.21jingji.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.21jingji.com/article/20260131/herald/97c70d6bebea769f7e6e77dcb21e8454.html",
+          "published_date": "2026-01-31",
+          "title": "小米SU7 Ultra月销量跌至45辆 - 21经济网"
+        },
+        {
+          "source_domain": "chejiahao.autohome.com.cn",
+          "source_tier": "T2",
+          "confidence": 40,
+          "url": "https://chejiahao.autohome.com.cn/info/24813332",
+          "published_date": "2026-02-01",
+          "title": "降幅超20%：小米汽车1月销量不足4万，都是黑水军惹的祸？_车家号_发现车生活_汽车之家"
+        }
+      ]
+    },
+    {
+      "event_id": "0e1fa3b162c1",
+      "event_date": "2026-02-03",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "policy",
+      "subtype": "车门把手新规",
+      "relevance": "context",
+      "title": "中国将禁用隐藏式车门把手",
+      "summary": "中国工业和信息化部推出新规，明年起禁用隐藏式车门把手设计，为全球首例。报道称隐藏式把手在断电、冰雪等情况下可能导致车门无法打开，阻碍逃生救援。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 60,
+      "sources": [
+        {
+          "source_domain": "global.hk01.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://global.hk01.com/%E5%8D%B3%E6%97%B6%E4%B8%AD%E5%9B%BD/60318706/%E5%B0%8F%E7%B1%B3%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6%E8%B5%B7%E7%81%AB%E9%9A%BE%E6%95%91%E6%8F%B4-%E4%B8%AD%E5%9B%BD%E7%A6%81%E6%AD%A2%E6%B1%BD%E8%BD%A6%E7%94%A8%E9%9A%90%E8%97%8F%E5%BC%8F%E9%97%A8%E6%8A%8A%E6%89%8B%E5%88%9B%E5%85%A8%E7%90%83%E9%A6%96%E4%BE%8B",
+          "published_date": "2026-02-03",
+          "title": "小米电动汽车起火难救援？中国禁止汽车用隐藏式门把手创全球首例"
+        },
+        {
+          "source_domain": "www.bbc.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.bbc.com/zhongwen/articles/c77kppmxg8yo/trad",
+          "published_date": "2026-02-04",
+          "title": "把手斷電、無法逃生、阻礙救援：中國明年禁用隱藏式車門把手設計 - BBC News 中文"
+        }
+      ]
+    },
+    {
+      "event_id": "22ace39e28fc",
+      "event_date": "2026-02-10",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "对撞测试造假",
+      "relevance": "core",
+      "title": "博主造假SU7对撞影片遭索赔",
+      "summary": "有博主疑造假小米SU7对撞测试影片，公开道歉后仍被索赔284万元。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.orientaldaily.com.my",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.orientaldaily.com.my/news/buzz/2026/02/10/796580",
+          "published_date": "2026-02-10",
+          "title": "博主疑造假小米SU7对撞影片　公开道歉仍遭索赔284万 | 世界万象 | 東方網 馬來西亞東方日報"
+        }
+      ]
+    },
+    {
+      "event_id": "372189ad6df8",
+      "event_date": "2026-02-26",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "安全事故争议",
+      "relevance": "core",
+      "title": "成都小米SU7事故报告曝光引发安全争议",
+      "summary": "2025年10月成都天府大道一辆小米SU7失控起火，司机死亡；2026年2月报告显示车辆167km/h撞击后低压系统断电无法开门。小米汽车再陷安全争议并试图挽回信任。",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "global.hk01.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://global.hk01.com/%E5%8D%B3%E6%97%B6%E4%B8%AD%E5%9B%BD/60325364/%E5%B0%8F%E7%B1%B3su7%E5%8F%B8%E6%9C%BA%E7%83%A7%E6%AD%BB%E6%8A%A5%E5%91%8A%E5%87%BA%E7%82%89-167km-h%E6%92%9E%E5%87%BB%E5%90%8E%E4%BD%8E%E5%8E%8B%E7%B3%BB%E7%BB%9F%E6%96%AD%E7%94%B5%E6%97%A0%E6%B3%95%E5%BC%80%E8%BD%A6%E9%97%A8",
+          "published_date": "2026-02-26",
+          "title": "小米SU7司机烧死报告出炉：167km/h撞击后低压系统断电无法开车门"
+        },
+        {
+          "source_domain": "finance.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.cn/stock/jdts/2026-02-27/detail-inhphcxa9898963.d.html?vt=4",
+          "published_date": "2026-02-27",
+          "title": "成都小米SU7事故细节进一步曝光，小米汽车再陷安全争议|成都市|四川省|驾驶员|车辆|车门_手机新浪网"
+        },
+        {
+          "source_domain": "m.gasgoo.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.gasgoo.com/news/70448355.html",
+          "published_date": "2026-02-28",
+          "title": "盖世汽车"
+        }
+      ]
+    },
+    {
+      "event_id": "36fd0a5c9cad",
+      "event_date": "2026-03-05",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "安全沟通机制",
+      "relevance": "core",
+      "title": "小米计划建立常态化公众安全沟通机制",
+      "summary": "小米计划建立常态化公众安全沟通机制，定期与车主、媒体、行业专家开展沟通会，主动通报安全测试数据、品控整改进展、技术升级方案和事故调查流程；首期沟通会定于2026年上半年举办。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "m.gasgoo.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.gasgoo.com/news/70448814.html",
+          "published_date": "2026-03-05",
+          "title": "盖世汽车"
+        }
+      ]
+    },
+    {
+      "event_id": "966cf2c26a53",
+      "event_date": "2026-03-13",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "发布预告",
+      "relevance": "core",
+      "title": "雷军宣布新一代小米SU7本月发布",
+      "summary": "2026年3月13日，雷军称新一代小米SU7将于本月正式发布，目前已全力投入备产，发布后将开启大规模交付。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.stcn.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.stcn.com/article/detail/3675277.html",
+          "published_date": "2026-03-13",
+          "title": "雷军称新一代小米SU7将于本月正式发布，之后开启大规模交付"
+        }
+      ]
+    },
+    {
+      "event_id": "27cf0b7f4e5a",
+      "event_date": "2026-03-18",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车上市",
+      "relevance": "core",
+      "title": "新一代小米SU7正式上市",
+      "summary": "2026年3月19日，新一代小米SU7正式上市，起售价21.99万元。雷军称门把手有三重安全冗余设计，100%符合新国标；初代SU7累计交付超38.1万辆。",
+      "media_coverage": {
+        "source_count": 12,
+        "max_tier": "T2",
+        "level": "high"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "www.21jingji.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.21jingji.com/article/20260318/herald/ce08fe6b5f5e21653043fbf07d05804d.html",
+          "published_date": "2026-03-18",
+          "title": "提前上市！新一代小米SU7官宣3月19日发布 - 21经济网"
+        },
+        {
+          "source_domain": "chejiahao.autohome.com.cn",
+          "source_tier": "T2",
+          "confidence": 40,
+          "url": "https://chejiahao.autohome.com.cn/info/25018835",
+          "published_date": "2026-03-18",
+          "title": "新一代SU7明日发布：雷军称智驾2年走完同行10年路？_车家号_发现车生活_汽车之家"
+        },
+        {
+          "source_domain": "www.thecover.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.thecover.cn/news/0hzPfmDtk/CH90qSdq8Jkw==",
+          "published_date": "2026-03-19",
+          "title": "小米新一代SU7正式发布 雷军：门把手有三重安全冗余设计，100%符合新国标 - 封面新闻"
+        },
+        {
+          "source_domain": "www.ifanr.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.ifanr.com/1658962",
+          "published_date": "2026-03-19",
+          "title": "21.99 万元起，新一代小米 SU7 变贵了，但强到可怕 | 爱范儿"
+        },
+        {
+          "source_domain": "finance.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.com.cn/tech/roll/2026-03-19/doc-inhrpnfx7474055.shtml",
+          "published_date": "2026-03-19",
+          "title": "第一代小米SU7累计交付超38万辆：2025年力压特斯拉Model 3成销冠|小米|特斯拉Model 3|保值率_新浪科技_新浪网"
+        },
+        {
+          "source_domain": "article.pchome.net",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://article.pchome.net/news/11991.html",
+          "published_date": "2026-03-19",
+          "title": "小米SU7累计交付达38.1万台：斩获2025年20万元以上轿车销量冠军"
+        },
+        {
+          "source_domain": "finance.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.com.cn/tech/digi/2026-03-19/doc-inhrpwvm8525983.shtml",
+          "published_date": "2026-03-19",
+          "title": "小米春季新品发布会一文汇总：新一代 SU7 上市，台下友商大佬表情亮了，时隔四年推出“公斤本”|小米_新浪科技_新浪网"
+        },
+        {
+          "source_domain": "www.news18a.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "http://www.news18a.com/news/storys_240419.html",
+          "published_date": "2026-03-19",
+          "title": "网通社汽车-更新-更全-更权威的全球汽车资讯"
+        },
+        {
+          "source_domain": "www.caiwennews.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.caiwennews.com/article/1426881.shtml",
+          "published_date": "2026-03-20",
+          "title": "小米新一代SU7涨价引争议，发布会次日股价下跌约8.59% - 财闻网"
+        },
+        {
+          "source_domain": "www.caiwennews.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.caiwennews.com/article/1426750.shtml",
+          "published_date": "2026-03-20",
+          "title": "禾赛科技：新一代小米SU7上市 全系标配禾赛激光雷达 - 财闻网"
+        },
+        {
+          "source_domain": "auto.news18a.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://auto.news18a.com/news/storys_240640.html",
+          "published_date": "2026-03-20",
+          "title": "新一代SU7售价21.99万元起，辅助驾驶升级XLA架构|新一代SU7-网通社汽车-更新-更全-更权威的全球汽车资讯"
+        },
+        {
+          "source_domain": "stcn.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://stcn.com/article/detail/3687546.html",
+          "published_date": "2026-03-20",
+          "title": "4个月之内，小米把SU7改款做成了一次“精益”销售切换"
+        },
+        {
+          "source_domain": "www.automotiveworld.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.automotiveworld.com/news/xiaomi-refreshes-su7-safety-upgrades-minor-cost-bump/",
+          "published_date": "2026-03-20",
+          "title": "Xiaomi refreshes SU7: safety upgrades, minor cost bump - Automotive World"
+        },
+        {
+          "source_domain": "news.tvbs.com.tw",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://news.tvbs.com.tw/cars/3157239",
+          "published_date": "2026-03-21",
+          "title": "舒淇代言新款SU7上市！售價下調　門把手升級「撞擊不卡死」"
+        }
+      ]
+    },
+    {
+      "event_id": "1bee3e4aae8f",
+      "event_date": "2026-03-24",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "订单表现",
+      "relevance": "core",
+      "title": "新一代小米SU7上市8小时获1.5万订单",
+      "summary": "2026年3月24日报道，新一代小米SU7推出Standard、Pro、Max三款车型，起售价21.99万元，顶配30.39万元；上市8小时收获1.5万张订单。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "news.tvbs.com.tw",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://news.tvbs.com.tw/cars/3159410",
+          "published_date": "2026-03-24",
+          "title": "售價102萬起！小米新SU7「8h衝1.5萬張訂單」"
+        }
+      ]
+    },
+    {
+      "event_id": "3a26a7fd50cc",
+      "event_date": "2026-04-02",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "competitor",
+      "subtype": "对标竞争",
+      "relevance": "context",
+      "title": "特斯拉在华沦为小米SU7等背景板",
+      "summary": "媒体报道特斯拉因产品迭代缓慢和与中国市场脱节，成为国产车企对比的“背景板”；小米新SU7等车型以Model 3为标准进行对标，形成竞争压力。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "www.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sohu.com/a/1004425764_121925623",
+          "published_date": "2026-04-02",
+          "title": "小米新SU7，逼急特斯拉_Model_销售_年化"
+        },
+        {
+          "source_domain": "tech.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://tech.sina.cn/mobile/xp/2026-04-03/detail-inhtfeqw0301963.d.html?oid=hana+kiem+tien+online%E3%80%908888.FUTBOL%E3%80%91.rwzg&vt=4",
+          "published_date": "2026-04-03",
+          "title": "特斯拉 在中国沦为“明星背景板”|novitec model 3|Model 3|小米汽车|novitec|小米su7_手机新浪网"
+        }
+      ]
+    },
+    {
+      "event_id": "3704db95355e",
+      "event_date": "2026-04-11",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "tech",
+      "subtype": "OTA升级",
+      "relevance": "core",
+      "title": "小米SU7全系OTA升级",
+      "summary": "小米汽车宣布对SU7系列及相关车型进行全量OTA升级，覆盖SU7 Pro、SU7 Max，升级智能座舱与高阶辅助驾驶功能。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sohu.com/a/1008261082_121924584",
+          "published_date": "2026-04-11",
+          "title": "小米SU7全系OTA升级：智驾与智能座舱功能再突破_搜狐网"
+        }
+      ]
+    },
+    {
+      "event_id": "71d4fbd20ee0",
+      "event_date": "2026-04-17",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "续航直播",
+      "relevance": "core",
+      "title": "雷军直播验证小米SU7续航",
+      "summary": "雷军进行15小时直播，展示小米SU7标准版1313公里中途只充一次电；此前其北京到上海1300公里中间只充一次电的表述被恶意剪辑为单次充电跑1300公里，引发虚假宣传质疑。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "view.inews.qq.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://view.inews.qq.com/a/20260417A099R500",
+          "published_date": "2026-04-17",
+          "title": "1313公里中途只充1次电，雷军15小时“超变态、超疯狂”直播_腾讯新闻"
+        }
+      ]
+    },
+    {
+      "event_id": "62fd86d9a86d",
+      "event_date": "2026-04-23",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "车展/交付",
+      "relevance": "core",
+      "title": "北京车展：新一代小米SU7交付2.6万辆",
+      "summary": "2026北京车展首日，雷军宣布新一代小米SU7已交付2.6万辆、锁单6万辆，并预告5月底发布YU7 GT。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.jiemian.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.jiemian.com/article/14311594.html",
+          "published_date": "2026-04-23",
+          "title": "雷军预告5月底发布YU7 GT，新一代SU7已交付2.6万辆｜2026北京车展|界面新闻 · 汽车"
+        }
+      ]
+    },
+    {
+      "event_id": "cc0fe295cc75",
+      "event_date": "2026-05-04",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "competitor",
+      "subtype": "海外扩张",
+      "relevance": "context",
+      "title": "小米在慕尼黑设研发设施",
+      "summary": "报道称小米已在德国慕尼黑开设研发设施并招聘人员，计划进入欧洲市场，与宝马、兰博基尼等品牌竞争。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.inkl.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.inkl.com/news/xiaomi-has-conquered-china-it-s-about-to-put-the-screws-to-europe",
+          "published_date": "2026-05-04",
+          "title": "Xiaomi Has Conquered China. It’s About To Put the Screws To Europe - inkl"
+        }
+      ]
+    },
+    {
+      "event_id": "236d4a23c5e0",
+      "event_date": "2026-05-26",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车发布与圈速纪录",
+      "relevance": "core",
+      "title": "小米YU7新车型发布并刷新纽北SUV圈速",
+      "summary": "2026年1-4月小米SU7居20万元以上纯电轿车销量榜首，YU7列SUV销量第二；5月21日小米推出YU7标准版与YU7 GT，后者由小米欧洲研发中心参与研发，以7分22秒755刷新纽北北环SUV圈速纪录。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "m.gasgoo.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.gasgoo.com/news/70459354.html",
+          "published_date": "2026-05-26",
+          "title": "盖世汽车"
+        }
+      ]
+    },
+    {
+      "event_id": "7d272359ff0d",
+      "event_date": "2026-06-18",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "policy",
+      "subtype": "新能源下乡目录",
+      "relevance": "context",
+      "title": "小米SU7首次纳入新能源汽车下乡车型",
+      "summary": "工信部、商务部等五部门办公厅（综合司）联合发布通知，2026年新能源汽车下乡活动将于近期启动，155款车型入选，首次纳入小米SU7。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.moomoo.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.moomoo.com/hans/news/post/71721752",
+          "published_date": "2026-06-18",
+          "title": "2026新能源汽车下乡155款车型 首次纳入小米SU7"
+        }
+      ]
+    },
+    {
+      "event_id": "d90f852806c4",
+      "event_date": "2026-06-23",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "销量下滑",
+      "relevance": "core",
+      "title": "小米YU7月销量大幅下滑引讨论",
+      "summary": "相关内容称小米YU7月销量由此前的3.8万辆跌至不足1万辆，并讨论其销量下滑原因。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "post.smzdm.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://post.smzdm.com/p/a4qv48ll",
+          "published_date": "2026-06-23",
+          "title": "月销量从3.8万跌至不足万台——小米YU7，为何拉了？_新能源车_什么值得买"
+        }
+      ]
+    },
+    {
+      "event_id": "7359d522c278",
+      "event_date": "2026-07-03",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "交付量与保值率",
+      "relevance": "core",
+      "title": "小米汽车6月交付再超3万台",
+      "summary": "报道称小米汽车6月交付量再超3万台，并讨论高交付量常态化后对二手小米SU7保值率与老车主残值的影响。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "auto.news18a.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "http://auto.news18a.com/news/storys_271584.html",
+          "published_date": "2026-07-03",
+          "title": "小米汽车6月交付再超3万台，二手SU7残值要跌了？老车主亏多少算笔账_网通社号"
+        }
+      ]
+    },
+    {
+      "event_id": "b14e23bdb718",
+      "event_date": "2026-07-10",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "competitor",
+      "subtype": "新车发布",
+      "relevance": "context",
+      "title": "吉利银河TT发布并公布交付节奏",
+      "summary": "2026年7月6日吉利银河TT全球首秀，预计8月预售、第四季度交付，预售价15万-20万元；全系标配800V平台、激光雷达和高阶智驾。Ultra版578马力、3.8秒破百，11分钟补能400公里。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "auto.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://auto.sina.cn/2026-07-10/detail-inihiwvv5114152.d.html?vt=4",
+          "published_date": "2026-07-10",
+          "title": "吉利银河TT上市时间定了吗？3个维度说清交付节奏与购车建议+FAQ|Model 3|小米su7|特斯拉|智驾|悬架_手机新浪网"
+        },
+        {
+          "source_domain": "auto.news18a.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "http://auto.news18a.com/news/storys_274877.html",
+          "published_date": "2026-07-13",
+          "title": "3.8秒破百！吉利银河TT Ultra发布，20万级纯电性能新标杆_网通社号"
+        }
+      ]
+    },
+    {
+      "event_id": "0705fc68971c",
+      "event_date": "2026-07-29",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "发布会预告",
+      "relevance": "core",
+      "title": "小米澎程发布会临近",
+      "summary": "报道称小米澎程发布会在即，雷军能否续写“神话”受关注；专家称当前增程技术处于下滑阶段，但小米项目约在两年前立项，存在开发周期因素。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "finance.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.cn/stock/jdts/2026-07-29/detail-iniknvxf2453251.d.html?oid=%E5%8D%A1%E5%9C%B0%E4%BA%9A%E6%89%8B%E9%95%AF%E5%8E%BB%E5%93%AA%E9%87%8C%E4%B9%B0%E4%BE%BF%E5%AE%9C%E2%95%AF%E5%BE%AE%E4%BF%A189486682%E2%95%B0JYEn&vt=4&cid=76993&node_id=76993",
+          "published_date": "2026-07-29",
+          "title": "小米澎程发布会在即，雷军还能续写“神话”么？|小米科技|小米汽车|小米su7|小米su7 ultra|财经_手机新浪网"
+        }
+      ]
+    },
+    {
+      "event_id": "689c8c94fd8c",
+      "event_date": "2026-08-06",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "预订单",
+      "relevance": "core",
+      "title": "小米Sky Nomad预订单超10万",
+      "summary": "CleanTechnica报道称小米Sky Nomad已推出，标题提及该车型预订单超过10万份，并延续此前的预订表现。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "cleantechnica.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://cleantechnica.com/2026/08/05/more-than-100000-pre-orders-for-the-xiaomi-sky-nomad/",
+          "published_date": "2026-08-06",
+          "title": "More Than 100,000 Pre-Orders For The Xiaomi Sky Nomad? - CleanTechnica"
+        }
+      ]
+    },
+    {
+      "event_id": "58ed31da06ee",
+      "event_date": "2026-08-17",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "交付里程碑",
+      "relevance": "core",
+      "title": "小米SU7系列累计交付破50万台",
+      "summary": "2026年8月17日小米汽车宣布，SU7系列累计交付突破50万台，用时28.5个月。第一代SU7于2024年3月28日上市、4月3日交付，SU7 Ultra于2025年2月27日上市。",
+      "media_coverage": {
+        "source_count": 5,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "news.mydrivers.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://news.mydrivers.com/1/1144/1144269.htm",
+          "published_date": "2026-08-17",
+          "title": "雷军回应小米SU7交付破50万台：感谢每一位车主的信任与支持--快科技--科技改变未来"
+        },
+        {
+          "source_domain": "m.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.sohu.com/a/1063905700_115831?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+          "published_date": "2026-08-17",
+          "title": "小米汽车：小米SU7系列28.5个月交付突破50万台_搜狐网"
+        },
+        {
+          "source_domain": "news.mydrivers.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://news.mydrivers.com/1/1144/1144320.htm",
+          "published_date": "2026-08-17",
+          "title": "小米SU7系列交付量破50万台！雷军送礼庆祝：10000份车模先到先得--快科技--科技改变未来"
+        },
+        {
+          "source_domain": "www.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sohu.com/a/1064258173_121071031",
+          "published_date": "2026-08-18",
+          "title": "雷军晒小米SU7战报，创下多项行业新纪录_搜狐汽车_搜狐网"
+        },
+        {
+          "source_domain": "m.gasgoo.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.gasgoo.com/news/70469359.html",
+          "published_date": "2026-08-18",
+          "title": "盖世汽车"
+        },
+        {
+          "source_domain": "insideevs.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://insideevs.com/news/805236/xiaomi-su7-500k-delivered-months/",
+          "published_date": "2026-08-18",
+          "title": "Xiaomi's First EV Just Hit A Massive Milestone - InsideEVs"
+        }
+      ]
+    },
+    {
+      "event_id": "88f7ac811709",
+      "event_date": "2026-08-21",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "车辆召回",
+      "relevance": "core",
+      "title": "小米SU7系列因门把手隐患启动召回",
+      "summary": "2026年8月，据国家市场监督管理总局备案，特斯拉、小米、小鹏、吉利、零跑等9家车企集中召回，均涉及车内应急机械拉手隐患，合计超400万辆；小米召回2024款SU7系列纯电动汽车，其中一批339069台。",
+      "media_coverage": {
+        "source_count": 5,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "www.chnfund.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.chnfund.com/article/AR725e8aaf-e537-c9b5-287a-3a23367ff2db",
+          "published_date": "2026-08-21",
+          "title": "因车辆门把手存在安全隐患，小米等9家车企集体召回 中国基金报"
+        },
+        {
+          "source_domain": "www.eet-china.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.eet-china.com/mp/a519288.html",
+          "published_date": "2026-08-21",
+          "title": "国家出手整改，特斯拉、零跑、吉利、小米等9大厂商宣布召回-电子工程专辑"
+        },
+        {
+          "source_domain": "auto.ifeng.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://auto.ifeng.com/c/8vnLwP4C2gE",
+          "published_date": "2026-08-22",
+          "title": "注意！超39万台小米SU7被召回，发生了啥？_凤凰网"
+        },
+        {
+          "source_domain": "finance.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://finance.sina.com.cn/wm/2026-08-22/doc-inipeimv1224354.shtml",
+          "published_date": "2026-08-22",
+          "title": "突发！涉九大车企，超400万辆汽车集中召回！_新浪财经_新浪网"
+        },
+        {
+          "source_domain": "tidenews.com.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://tidenews.com.cn/tmh_news.html?id=6a8b8e25aa7f55000195d9c8",
+          "published_date": "2026-08-24",
+          "title": "召回超400万辆！涉及小米、特斯拉、小鹏等品牌 - 潮新闻"
+        }
+      ]
+    },
+    {
+      "event_id": "4b99857462a3",
+      "event_date": "2026-09-07",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车上市",
+      "relevance": "core",
+      "title": "小米澎程系列上市 4分钟锁单破万",
+      "summary": "2026年9月7日晚，小米在秋季旗舰新品发布会上推出澎程系列车型，基于全新昆仑架构平台；上市4分钟锁单破万，报道称其上市成绩超越第一代SU7。",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "m.36kr.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://m.36kr.com/p/3973526689165829",
+          "published_date": "2026-09-07",
+          "title": "小米再次背水一战"
+        },
+        {
+          "source_domain": "timeline.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://timeline.sohu.com/news/b2xy0KX1NY",
+          "published_date": "2026-09-07",
+          "title": "排面拉满！小米澎程即将上市，车圈集体送祝福，阿维塔成唯一华系品牌 - 搜狐时间线"
+        },
+        {
+          "source_domain": "timeline.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://timeline.sohu.com/news/IU8pfLRFsd",
+          "published_date": "2026-09-08",
+          "title": "电厂 | 小米澎程上市成绩超越第一代SU7：价格背后，要正视小米做产品的能力 - 搜狐时间线"
+        },
+        {
+          "source_domain": "news.cnyes.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://news.cnyes.com/news/id/6600136",
+          "published_date": "2026-09-08",
+          "title": "最便宜小米汽車上市澎程系列4分鐘鎖單破萬"
+        },
+        {
+          "source_domain": "timeline.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://timeline.sohu.com/news/a31bMiIPTO",
+          "published_date": "2026-09-08",
+          "title": "小米万元机：参赛资格不等于席位 - 搜狐时间线"
+        }
+      ]
+    },
+    {
+      "event_id": "457ddee52aa8",
+      "event_date": "2026-09-19",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "供应链",
+      "relevance": "context",
+      "title": "小米SU7、YU7新增二线电池供应商",
+      "summary": "报道称小米SU7与YU7此前主要电池供应商均为宁德时代，小米正强化欣旺达、中创新航的配套地位，以降低对头部电池企业的依赖，理想有类似举动。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "m.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.sohu.com/a/1078000603_250147?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+          "published_date": "2026-09-19",
+          "title": "宁德时代之外：理想与小米为何对欣旺达、中创新航动了心？_搜狐网"
+        }
+      ]
+    },
+    {
+      "event_id": "c3fdb2299f33",
+      "event_date": "2026-09-21",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车预售",
+      "relevance": "core",
+      "title": "尚界Z7预售 24小时销量破2.5万",
+      "summary": "尚界Z7开启预售，起售价22.98万元，文章称24小时销量破2.5万台；全系标配华为896线双光路图像级激光雷达。与小米SU7对比，尚界Z7提供前排双零重力座椅、21扬声器及首发随动屏。",
+      "media_coverage": {
+        "source_count": 3,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 65,
+      "sources": [
+        {
+          "source_domain": "chejiahao.autohome.com.cn",
+          "source_tier": "T2",
+          "confidence": 40,
+          "url": "https://chejiahao.autohome.com.cn/info/25075697",
+          "published_date": "2026-09-21",
+          "title": "“贴”保时捷必火？预售22.98万起，尚界Z7销量24小时破2万5千台_车家号_发现车生活_汽车之家"
+        },
+        {
+          "source_domain": "post.smzdm.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://post.smzdm.com/p/ae6v343z",
+          "published_date": "2026-09-21",
+          "title": "50万车主替你踩完坑：小米SU7怎么选不后悔_新能源车_什么值得买"
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.youtube.com/shorts/0JiFFKFBZz0",
+          "published_date": "2026-09-23",
+          "title": "錢每24年貶1倍！靠這招年金「活多久領多久」！  #annuity #年金 #退休規劃"
+        }
+      ]
+    },
+    {
+      "event_id": "a16ebf8c121b",
+      "event_date": "2026-09-26",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新车上市",
+      "relevance": "core",
+      "title": "新一代小米SU7上市 21.99万起",
+      "summary": "2026年3月19日，新一代小米SU7上市，共3款车型，指导价21.99万-30.39万元；标准版21.99万、Pro版24.99万、Max版30.39万，全系较第一代上调4000元；2024款已停售。",
+      "media_coverage": {
+        "source_count": 8,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "cj.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://cj.sina.cn/articles/view/7879923182/1d5ae15ee06801i3vw?froms=ggmp&vt=4",
+          "published_date": "2026-09-26",
+          "title": "小米SU7涨价4000元还值吗？21.99万起换代车3个维度说清+FAQ__财经头条__新浪财经"
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.youtube.com/watch?v=Yxnr1RBA4w0",
+          "published_date": "2026-09-26",
+          "title": "Taiwan's ETF Buying Frenzy: Are You Following the Crowd or Do You Really Get It? | After Meeting ..."
+        },
+        {
+          "source_domain": "cj.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://cj.sina.cn/articles/view/7879995973/1d5af324506801h3ww?froms=ggmp&vt=4",
+          "published_date": "2026-09-28",
+          "title": "小米SU7价格多少？2026款21.99万起全系上调4000元，3个版本怎么选不踩坑+FAQ__财经头条__新浪财经"
+        },
+        {
+          "source_domain": "m.ttplus.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://m.ttplus.cn/wiki/shenzhen/docs/97485522.htm",
+          "published_date": "2026-09-28",
+          "title": "2026年数字入口监管趋严，八戒体育足球技术迭代倒逼行业升级-体坛网_体坛+"
+        },
+        {
+          "source_domain": "m.ttplus.cn",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://m.ttplus.cn/lzlz171227622.shtml",
+          "published_date": "2026-09-28",
+          "title": "云开app中国官方网站窗口期背后：数字平台加速合规化转型"
+        },
+        {
+          "source_domain": "www.eet-china.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.eet-china.com/mp/a306405.html",
+          "published_date": "2026-09-29",
+          "title": "小米SU7拆解及成本分析，到底有没有卖贵？-电子工程专辑"
+        },
+        {
+          "source_domain": "news.qq.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://news.qq.com/rain/a/20260929A03UER00?adChannelId=news",
+          "published_date": "2026-09-29",
+          "title": "“含华量”拉满，两月销量却还不足4000辆：狂学小米的启境如何破局_腾讯新闻"
+        },
+        {
+          "source_domain": "auto.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://auto.sina.cn/2026-09-29/detail-initmkkp8224748.d.html?vt=4",
+          "published_date": "2026-09-29",
+          "title": "小米SU7 Max现车值得抢吗？交付1-5周+6.9万权益，3个维度说清+FAQ_手机新浪网"
+        },
+        {
+          "source_domain": "www.jobs.nhs.uk",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.jobs.nhs.uk/candidate/search/results",
+          "published_date": "2026-09-29",
+          "title": "12303 jobs found - NHS Jobs"
+        },
+        {
+          "source_domain": "www.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sina.cn/gc/article/nitkxuz3545089.html",
+          "published_date": "2026-09-29",
+          "title": "25-30万轿车怎么选？2026年5款爆款深度横评+FAQ|多车导购|中级车导购|宝马|华晨宝马|宝马3系_新浪新闻"
+        }
+      ]
+    },
+    {
+      "event_id": "d51f86a12767",
+      "event_date": "2026-09-30",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "车系导购",
+      "relevance": "core",
+      "title": "小米SU7 Ultra与2026款产品信息",
+      "summary": "小米SU7 Ultra提供三版本，纽北限量版81.49万元、限量100台，碳纤维前舱盖+车顶选装6.7万元；小米SU7 2026款Max版30.39万元，0-100km/h加速3.08秒，Pro版续航902公里。",
+      "media_coverage": {
+        "source_count": 9,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "chejiahao.m.autohome.com.cn",
+          "source_tier": "T2",
+          "confidence": 40,
+          "url": "https://chejiahao.m.autohome.com.cn/info/26080354",
+          "published_date": "2026-09-30",
+          "title": "雷军回应小米澎程能否比肩 SU7、YU7 系列_车家号_汽车之家"
+        },
+        {
+          "source_domain": "chejiahao.m.autohome.com.cn",
+          "source_tier": "T2",
+          "confidence": 40,
+          "url": "https://chejiahao.m.autohome.com.cn/info/26445487",
+          "published_date": "2026-09-30",
+          "title": "当新车都开始“半价”，那便宜掉的是什么？_车家号_汽车之家"
+        },
+        {
+          "source_domain": "www.eoffcn.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.eoffcn.com/insights/wiki/2026-09-28/K4NJqOPXsFF-okhxOR",
+          "published_date": "2026-09-30",
+          "title": "LPL菠菜行业深度分析：现状、趋势与未来展望"
+        },
+        {
+          "source_domain": "k.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://k.sina.com.cn/article_7880069028_1d5b04fa406801y4e8.html?from=auto",
+          "published_date": "2026-10-01",
+          "title": "20-25万哪款车值得买？小米SU7安全实测告诉你答案+FAQ-新浪汽车"
+        },
+        {
+          "source_domain": "k.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://k.sina.com.cn/article_5952915720_162d2490806704xtne.html?from=auto",
+          "published_date": "2026-10-02",
+          "title": "交付 19 天，小米澎程破万台，雷军又赢了。-新浪汽车"
+        },
+        {
+          "source_domain": "auto.news18a.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "http://auto.news18a.com/news/storys_301651.html",
+          "published_date": "2026-10-02",
+          "title": "极氪2027款极氪001计划明年一季度上市，公布十月购车权益_网通社号"
+        },
+        {
+          "source_domain": "drivewanderlust.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://drivewanderlust.com/news/2026-10-03_73b837.html",
+          "published_date": "2026-10-02",
+          "title": "小米SU7跨界造车案例：从手机生态到智能汽车赛道的破局路径"
+        },
+        {
+          "source_domain": "weibo.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://weibo.com/a/hot/66134fcbea914630_0.html?type=grab",
+          "published_date": "2026-10-02",
+          "title": "武汉小米_微博"
+        },
+        {
+          "source_domain": "www.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sina.cn/gc/article/nitxnhi4873336.html",
+          "published_date": "2026-10-03",
+          "title": "小米SU7 Ultra多少钱一台？2026年落地价全解析+FAQ|小米SU7 Ultra|小米汽车|购车价格|新能源车|2026年购车_新浪新闻"
+        },
+        {
+          "source_domain": "www.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sina.cn/gc/article/nitxnhi4874378.html",
+          "published_date": "2026-10-03",
+          "title": "小米SU7 Ultra多少钱一台？2026年落地价全解析+FAQ|单车导购|50-70万导购|新能源|小米汽车|小米SU7 Ultra_新浪新闻"
+        },
+        {
+          "source_domain": "chejiahao.autohome.com.cn",
+          "source_tier": "T2",
+          "confidence": 40,
+          "url": "https://chejiahao.autohome.com.cn/info/25075441",
+          "published_date": "2026-10-03",
+          "title": "两年才换代，小米SU7到底是快了还是慢了？_车家号_发现车生活_汽车之家"
+        },
+        {
+          "source_domain": "www.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sina.cn/gc/article/nitvyez5545169.html",
+          "published_date": "2026-10-03",
+          "title": "小米SU7落地价全解析：22.3万起，2026年购置税多花1.3万？值不值看完这篇再下单+FAQ|汽车税费|20-25万三厢车|新能源|小米汽车|小米SU7_新浪新闻"
+        },
+        {
+          "source_domain": "cj.sina.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://cj.sina.cn/articles/view/7879923803/1d5ae185b06801m6e0?froms=ggmp",
+          "published_date": "2026-10-03",
+          "title": "小米SU7 Ultra多少钱一台？2026年落地价全解析+FAQ__财经头条__新浪财经"
+        },
+        {
+          "source_domain": "chejiahao.autohome.com.cn",
+          "source_tier": "T2",
+          "confidence": 40,
+          "url": "https://chejiahao.autohome.com.cn/info/26591288",
+          "published_date": "2026-10-03",
+          "title": "每次看到小米SU7，都会多瞄几眼_车家号_发现车生活_汽车之家"
+        },
+        {
+          "source_domain": "k.sina.com.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://k.sina.com.cn/article_7879923803_1d5ae185b06801m66g.html",
+          "published_date": "2026-10-03",
+          "title": "小米SU7值得买吗？安全实测+销量双冠，3个维度说清真相+FAQ-新浪汽车"
+        }
+      ]
+    }
+  ]
+}

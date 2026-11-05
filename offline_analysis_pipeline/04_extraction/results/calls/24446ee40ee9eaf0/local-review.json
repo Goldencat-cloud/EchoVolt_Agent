@@ -1,0 +1,232 @@
+{
+  "post_id": "24446ee40ee9eaf0",
+  "state": "FAILED",
+  "cache_key": "eb40540f5b9b8ffefb0bf076a83629dc7aa9d1496d9f92aed548b29259d134fc",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "24446ee40ee9eaf0",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 24款标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我的su7是24款标准版"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "有钱我也想上梅花轮毂和舒淇max"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者选择小米SU7 24款标准版的主要原因是喜欢雅灰色车漆搭配暮光红内饰的年轻运动风格。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "雅灰是我当时一眼就看中的颜色，非常的耐看，配上暮光红的内饰显得特别的年轻运动"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者因预算有限选择了标准版和低风阻轮毂，而非更高配置的Max版本或梅花轮毂。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "主要的原因就是因为钱包不够鼓，有钱我也想上梅花轮毂和舒淇max"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者表示当时对智驾功能兴趣不大，因此未将其作为选车的主要因素。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "加上当时我对智驾也不是特别感兴趣"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "配置与功能",
+        "content": "作者得知小米全系标配智驾后，对自己当初未选择高配智驾感到些许遗憾和羡慕。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "不过现在看来全新的小米全系都标配了智驾，还是有一点羡慕嫉妒恨的"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米汽车全系标配智驾",
+        "event_type": "技术与软件更新",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "现在全新的小米全系都标配了智驾"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "作者提到目前小米汽车全系车型均已标配智能驾驶功能。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的su7是24款标准版"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "偏好年轻运动的外观内饰风格",
+        "关注性价比"
+      ]
+    },
+    "post_summary": "车主分享了自己选择小米SU7 24款标准版的理由，主要出于对雅灰配色和暮光红内饰的喜爱，以及预算限制导致未能选择更高配置。作者同时对如今小米全系标配智驾表示了一丝羡慕。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "events/E1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C4/evidence/0:non_contiguous_quote",
+    "events/E1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10227,
+    "completion_tokens": 1755,
+    "total_tokens": 11982,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 7.675370400000247,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

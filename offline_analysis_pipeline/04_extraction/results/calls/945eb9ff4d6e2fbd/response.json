@@ -1,0 +1,183 @@
+{
+  "schema_version": "2.3",
+  "post_id": "945eb9ff4d6e2fbd",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7交付量预测与产能挑战分析"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者预测小米SU7首周交付约1000台，预计后续每周交付量约为2500台，并认为随着市场开拓和口碑传播，该数字有望逐步上升。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "首周交付在1000台左右，根据这个预测估计后面每周2500台左右。 随着市场的进一步开拓和口碑的传播，这一数字有望逐步上升。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者指出小米SU7面临产能压力，具体包括原材料供应（如芯片、电池等）的全球供应链稳定性影响，以及生产线能力限制（如60JPH的效率瓶颈）导致需增加生产线从而带来时间成本上涨的问题。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "1. 原材料供应：汽车生产依赖于多种原材料和零部件，如芯片、显示屏、电池等。全球供应链的稳定性直接影响到生产效率和成本。... 2. 生产线能力：一条生产线能够做到60JPH已经算非常好了，就是一个小时60台车，后期如果订单较多，不增加生产线绝对是不够的，但增加生产线意味着时间成本也会上涨。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者认为随着产量增加，保持产品质量一致性变得重要，并提到之前出现的悬挂问题可能导致订单下降，因此质量控制至关重要。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "3. 质量控制：好的口碑才会带来正效应，随着生产量的增加，保持产品质量的一致性将变得更加重要。像之前出的悬挂问题可能导致订单下降，质量是必须要控制好的。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者推测小米SU7在未来三个月内有可能进入销量前三名，但这取决于市场竞争、消费者偏好及营销策略等因素，且作者认为由于汽车行业激烈的价格战，后期能否维持该地位存在不确定性。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "个人觉得小米粉丝还是挺多的，按现在的热度，未来三个月应该可以突破前三名，但后期会不会一直这样不好说，毕竟汽车现在价格战打得火热，价格才是王道。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者评价小米的营销能力很强，认为其热度很高，但同时指出汽车不同于手机，涉及因素更多，后期的驾驶感受和质量是关键。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "雷军的营销能力确实很强，没想到小米的热度这么高，但汽车不是手机，关乎的东西太多，主要还是后期驾驶感受和质量。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了小米SU7的交付量预测、面临的产能压力（包括原材料、生产线和质量控制）以及销量前景。作者预测初期周交付量约2500台，并推测未来三个月可能进入销量前三，但强调了价格战和质量对长期销量的影响。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "2.3",
+  "post_id": "548092d4d60b7a56",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "如果 SU7 的限时权益真的很诱人"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "这是一张小米SU7汽车的促销海报"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为真皮座椅具有档次高、乘坐舒适、质感好、透气性好等优点，能提升豪华感和驾乘体验。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "真皮座椅看起来就很有档次，坐上去也比较舒服。它的质感很好，柔软度适中，而且透气性也比一般的座椅材质要好。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出真皮座椅在实际使用中可能存在保养要求高、易受损影响美观，以及在夏季过热、冬季过凉的缺点。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "真皮座椅需要比较精心的保养，不能随便弄脏或者划伤，不然就会影响美观。而且在一些极端的天气下，比如夏天特别热的时候，真皮座椅可能会比较烫，冬天又可能会比较凉。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者认为不应仅因真皮座椅权益而冲动下单，需综合考量价格合理性、个人预算、对性能/安全等其他需求的满足程度以及个人喜好，深思熟虑后再做决定。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "如果其他方面不能满足自己的要求，仅仅因为真皮座椅下单可能会有点冲动。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "不能仅仅因为一时的冲动就做出决定，要深思熟虑后再做选择，这样才能买到真正适合自己的车。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 12月限时购车权益",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "标题为“12月 限时购车权益”，并注明活动时间为“12月1日-31日”... 一是“全系赠送 价值8000元 Nappa真皮座椅”"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "对于 SU7 推限时权益"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "图片说明显示小米SU7推出12月限时购车权益，包括赠送价值8000元的Nappa真皮座椅及终身免费使用Xiaomi Pilot增强智驾功能。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T4",
+        "source_type": "text",
+        "quote": "对于 SU7 推限时权益，要不要为真皮座椅下单"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "关注真皮座椅的优缺点",
+      "重视车辆性能、安全性或油耗"
+    ]
+  },
+  "post_summary": "帖子讨论了小米SU7推出的限时购车权益（赠送Nappa真皮座椅）。作者分析了真皮座椅的优缺点，并建议消费者不要仅因该权益冲动下单，而应综合考虑价格、预算及个人对车辆其他方面的需求。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

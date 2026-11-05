@@ -1,0 +1,381 @@
+{
+  "schema_version": "2.3",
+  "post_id": "74f796258994ca7d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新一代SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新一代SU7首销期不可退的锁单"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "初代SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "先拿初代SU7比"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉新款Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": "新款",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "再看特斯拉新款Model 3"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者称新一代SU7首销期不可退锁单达到8万台，并强调这是支付5000元定金后的真实订单，而非可随时取消的小定。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新一代SU7首销期不可退的锁单，直接干到8万台！...是5000块下去就铁了心要提车的8万个准车主。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者对比初代SU7和新一代SU7，指出初代24小时大定虽号称8万多台但多为可退订单，真实转化率有限；而新一代8万台为不可退锁单，因此认为新一代订单含金量更高。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "先拿初代SU7比，当年24小时大定号称8万多台，但玩的是可退套路，按行业惯例真实转化率顶多40%。新一代直接玩真实的，8万是不可退锁单，含金量能把老款按在地上摩擦。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "新一代直接玩真实的，8万是不可退锁单，含金量能把老款按在地上摩擦。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者将新一代SU7与特斯拉新款Model 3进行销量对比，称Model 3月销约1万多台，而SU7在48天内锁单8万台，认为SU7销量远超Model 3。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "再看特斯拉新款Model 3，常规一个月哼哧哼哧交1万多台，小米这48天锁的单，够它卖半年的了。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "小米这48天锁的单，够它卖半年的了。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者认为尽管网络上存在大量针对SU7的负面舆论（如“绿化带战神”、“速成车”等），但其锁单量依然逆势增长，这表明消费者对产品力的认可超过了网络噪音的影响。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "网上关于SU7的负面就没断过...按理说这车应该口碑崩盘了吧？嘿，你猜怎么着，锁单量它愣是逆势狂飙。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E3",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者描述了雷军进行15小时长途续航直播的事件，认为这种透明的测试方式增强了消费者的信任感，体现了小米与传统车企不同的透明度。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷军自己上阵搞了场15个小时不间断的长途续航直播...这种透明度和参与感，恰恰是很多传统车企最缺的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者承认小米SU7的智能驾驶目前不属于第一梯队，且大马力可能对新手造成挑战，但认为其迭代速度快。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "你可以嘲笑小米有缺点，比如智驾确实不是第一梯队，马力太大新手可能HOLD不住，但它迭代和改进的速度，快得让人害怕。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者推测购买小米SU7的用户群体是那些信任自我判断、厌倦传统4S店套路、愿意为性能和生态买单的人，认为其长板足以掩盖短板。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "答案可能是那群更信任自己判断、厌倦了传统4S店套路、愿意为顶级性能和智能生态买单的人。它是一身毛病，但它的长板...长到了足以让很多人接受短板的地步。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新一代SU7首销期锁单达8万台",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新一代SU7首销期不可退的锁单，直接干到8万台！"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "帖子称新一代SU7在首销期间获得了8万台不可退的锁单。"
+    },
+    {
+      "id": "E2",
+      "name": "小米SU7遭受持续网络负面舆论",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "网上关于SU7的负面就没断过。什么绿化带战神、速成车、智驾拉垮..."
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "帖子提到网络上一直存在针对小米SU7的各种负面评价和谣言。"
+    },
+    {
+      "id": "E3",
+      "name": "雷军进行15小时长途续航直播",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷军自己上阵搞了场15个小时不间断的长途续航直播。从北京一脚底板电干到上海，全程1313公里，中间只充了一次电。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "帖子称雷军进行了从北京到上海的15小时不间断长途续航直播，全程1313公里，中途仅充电一次。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了小米新一代SU7在面临大量网络负面舆论的情况下，首销期仍获得8万台不可退锁单的现象。作者通过与初代SU7及特斯拉Model 3的销量对比，以及雷军进行的长途续航直播事件，论证了小米SU7凭借产品力、透明度和生态优势赢得了市场认可，认为其实质产品力超越了网络噪音的影响。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

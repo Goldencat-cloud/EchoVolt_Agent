@@ -1,0 +1,309 @@
+{
+  "schema_version": "2.3",
+  "post_id": "183b1c30dccec721",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 后驱长续航版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2025",
+      "version": "后驱长续航版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车型版本：小米汽车 2025款 SU7 后驱长续航版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为实车视觉冲击力强，低趴轿跑车身设计，改款后细节外观优化，比图片更耐看。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "实车视觉冲击力很强，低趴轿跑车身，改款之后细节外观有所优化，展厅实车比图片更加耐看"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在小米体验店进行静态体验",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "周末专程前往小米体验店看最新款SU7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者评价车内内饰做工升级，座椅软硬适中且前排包裹感强，前排空间宽裕，但受溜背影响后排头部空间一般，身高173cm以上乘客会感到压抑。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车内内饰做工进一步升级，座椅填充物软硬适中，前排包裹感很强...前排腿部、头部空间很宽裕。受溜背造型影响，后排头部空间一般，身高173cm以上乘客会感受到压抑"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在小米体验店进行静态体验",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "周末专程前往小米体验店看最新款SU7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为车机系统是改款亮点，系统更新后语音识别响应快，连续对话和多指令执行流畅，手机互联体验好，中控屏操作顺滑。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车机是改款一大亮点，系统版本更新，语音识别响应更快，连续对话、多指令执行很流畅，手机互联联动体验很棒"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在小米体验店进行静态体验",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "周末专程前往小米体验店看最新款SU7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者试驾后认为动力调校平顺，普通模式柔和，运动模式推背感强；底盘滤震优化，过弯侧倾控制好，方向盘手感精准轻巧。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "动力调校更加平顺，普通模式输出柔和，运动模式推背感很强...底盘滤震有优化...过弯侧倾控制到位...方向盘转向手感精准轻巧"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在城市道路进行试驾",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "城市超车很从容"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出车辆在高速行驶时风噪比较突出，胎噪控制尚可。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车速拉高之后，风噪依旧比较突出，胎噪控制尚可"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在进行道路试驾，车速拉高",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车速拉高之后"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为底盘离地间隙低，经过减速带或坑洼路段必须减速，否则容易剐蹭底盘。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "底盘离地间隙低，过减速带、坑洼路段必须减速，不然容易剐蹭底盘"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在经过减速带和坑洼路段时",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "过减速带、坑洼路段"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结整体试驾体验不错，适合城市日常通勤，并建议意向车友亲身试驾后再结合用车场景选择。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "整体试驾体验很不错，非常适合城市日常通勤。建议意向车友一定要亲身试驾"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "仅试驾或借用",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "到店试驾小米SU7完整体验"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "周末专程前往小米体验店看最新款SU7"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视城市通勤适用性",
+      "关注底盘、隔音和空间表现"
+    ]
+  },
+  "post_summary": "作者分享了到店试驾2025款小米SU7后驱长续航版的完整体验。文章详细描述了实车外观、内饰做工、空间布局、车机系统及驾驶操控等方面的优缺点，认为该车适合城市通勤，并建议潜在买家亲自试驾体验。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

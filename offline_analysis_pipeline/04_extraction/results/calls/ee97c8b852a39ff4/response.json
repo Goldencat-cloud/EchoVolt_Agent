@@ -1,0 +1,205 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ee97c8b852a39ff4",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7 max",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": "max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "买了SU7max之后就去网上查询了充电桩安装流程"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "长安深蓝充电桩",
+      "entity_level": "未明确",
+      "brand": "长安深蓝",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最终选了性价比选手——长安深蓝的充电桩"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为购买二手车企赠送的充电桩安装包（含安装、30米线及PVC管、官方售后及两年质保）比自行购买更划算，因此选择在二手交易平台以1200元购买了长安深蓝的充电桩。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "买了之后看到车友推荐去收一个车企赠送的充电桩安装包最划算（包安装跟30米线30米pvc管，官方售后，质保两年），最终选了性价比选手——长安深蓝的充电桩...我是在海鲜市场收了一个，1200💰"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者所在小区只能安装220V电表，因此选择了7kW充电桩，作者认为夜间充电一晚的电量完全够用。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我的小区只能安装220V电表最后选择了7kw的充电桩，充一晚上也完全够用了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在小区地下停车场使用220V电表进行夜间充电。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我的小区只能安装220V电表最后选择了7kw的充电桩，充一晚上也完全够用了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者描述了充电桩安装的完整流程，包括线上申请电表、等待师傅上门勘测及安装，整个过程大约花费一周时间，实际安装耗时约二十几分钟，且在30米范围内无需额外付费。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "大概等了一周时间，师傅来安装二十几分钟就搞好了，因为在30米以内全包了，直接通电就可以使用。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在自家小区进行充电桩安装，线缆长度在30米以内。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "大概在30米以内全包了，直接通电就可以使用。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者通过深蓝App绑定充电桩编号后可控制充电，并展示了在App中设置预约充电时间段的功能。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "深蓝app绑定好充电桩编号就可以控制充电啦"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "深蓝app 预约充电在车子上设置时间段就可以啦"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "买了SU7max之后"
+      },
+      {
+        "block_id": "T5",
+        "source_type": "text",
+        "quote": "看我su7与充电桩合影"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享了购买SU7 Max后安装家用充电桩的详细流程与经验。作者通过二手平台低价购入长安深蓝充电桩，介绍了从申请电表、物业沟通到师傅上门安装的完整步骤，并演示了如何通过App进行充电控制和预约设置。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.3",
+  "post_id": "df0b0cba94b66101",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米Su7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "Su7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米Su7冬测成绩领跑"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "续航与能耗",
+      "content": "作者指出小米Su7在冬测中取得低温及寒冷区续航双第一的成绩，认为这给友商带来了较大压力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米Su7冬测成绩领跑，给友商带来了较大压力。其在低温及寒冷"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米Su7冬测成绩领跑，给友商带来了较大压力。其在低温及寒冷区续航双第一的成绩"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为小米Su7的优异表现会促使友商加大研发投入以提升产品性能，并为消费者提供更优质选择，从而推动新能源汽车行业在续航和智能配置方面创新优化。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这会促使友商加大研发投入，提升自身产品性能...推动整个新能源汽车行业不断进步，促使各品牌在续航、智能配置等方面进行创新和优化。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米Su7冬测成绩公布",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米Su7冬测成绩领跑...其在低温及寒冷区续航双第一的成绩"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "小米Su7在冬季测试中取得低温及寒冷区续航双第一的成绩。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了小米Su7在冬测中取得低温及寒冷区续航双第一的成绩，认为这体现了其技术实力并对友商造成竞争压力，进而可能推动新能源汽车行业的技术进步。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

@@ -1,0 +1,364 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ee25ecfdd6b3f588",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米 SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米 SU7 领跑"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第1名为小米 SU7，销量258,164台"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "奥迪 A6L",
+      "entity_level": "具体配置",
+      "brand": "奥迪",
+      "series": "A6L",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第2名为奥迪 A6L，销量170,821台"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "奔驰 E 级",
+      "entity_level": "车系",
+      "brand": "奔驰",
+      "series": "E 级",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第3名为奔驰 E 级，销量130,810台"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "比亚迪汉",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "汉",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第4名为比亚迪汉，销量119,821台"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "宝马 5 系",
+      "entity_level": "车系",
+      "brand": "宝马",
+      "series": "5 系",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第5名为宝马 5 系，销量116,173台"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "小鹏 P7+",
+      "entity_level": "具体配置",
+      "brand": "小鹏",
+      "series": "P7+",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第6名为小鹏 P7+，销量75,716台"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "银河星耀 8",
+      "entity_level": "具体配置",
+      "brand": "吉利银河",
+      "series": "星耀 8",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第7名为银河星耀 8，销量73,612台"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P8",
+      "name": "启源 A07",
+      "entity_level": "具体配置",
+      "brand": "长安启源",
+      "series": "A07",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第8名为启源 A07，销量53,862台"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P9",
+      "name": "风云 A9L",
+      "entity_level": "具体配置",
+      "brand": "奇瑞风云",
+      "series": "A9L",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第9名为风云 A9L，销量51,014台"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P10",
+      "name": "日产 N7",
+      "entity_level": "具体配置",
+      "brand": "日产",
+      "series": "N7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "第10名为日产 N7，销量45,382台"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P8",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P9",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P10",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "图片说明展示了2025年全国中大型轿车零售销量排行榜，其中小米SU7以258,164台位居第一，奥迪A6L、奔驰E级、比亚迪汉等分列其后。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张关于“2025年，全国中大型轿车零售销量排行（台）”的数据图表...第1名为小米 SU7，销量258,164台；第2名为奥迪 A6L，销量170,821台..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5",
+          "P6",
+          "P7",
+          "P8",
+          "P9",
+          "P10"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "政策与市场",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "I0",
+                "source_type": "image_summary",
+                "quote": "第1名为小米 SU7，销量258,164台；第2名为奥迪 A6L，销量170,821台"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者认为在2025年中大型轿车市场中，小米SU7处于领跑地位，而奥迪A6L、奔驰E级和宝马5系等传统豪华品牌车型依然具有较强的市场竞争力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米 SU7 领跑，56E"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米 SU7 领跑，56E 依然能打～"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "2025年全国中大型轿车零售销量排行发布",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张关于“2025年，全国中大型轿车零售销量排行（台）”的数据图表"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "图片展示了一份2025年全国中大型轿车零售销量排行榜，列出了前十名车型及其具体销量数据。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分享了一张2025年全国中大型轿车零售销量排行榜图片，数据显示小米SU7以25.8万辆位居榜首。作者评论称小米SU7在该细分市场领跑，同时认为奥迪A6L、奔驰E级和宝马5系等传统豪华车型依然具备较强的市场竞争力。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

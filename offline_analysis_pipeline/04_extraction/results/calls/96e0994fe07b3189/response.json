@@ -1,0 +1,152 @@
+{
+  "schema_version": "2.3",
+  "post_id": "96e0994fe07b3189",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车的老板雷军，决定跨行制造的小米汽车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "极越汽车",
+      "entity_level": "品牌",
+      "brand": "极越",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "极越汽车背靠着吉利和百度两大金主"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米汽车成功发布与上市，打破了外界对其保值率和前景的不认可，取得了良好成绩。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车的老板雷军，决定跨行制造的小米汽车，并且成功发布与上市，打开了很多流量，打破了很多对于新能源车都不认可，比如说它的保值率是榜首的行列。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者指出极越汽车虽然背靠吉利和百度，但最终倒闭，认为这对创业者和车企新势力是一个警示。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "第二件事就是含着金钥匙出生的极越汽车背靠着吉利和百度两大金主，竟然最终的结果是倒闭，结束了他辉煌的历史，这也给我们创业者以及车企的新势力敲响了一个大大的警钟"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米汽车发布与上市",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车的老板雷军，决定跨行制造的小米汽车，并且成功发布与上市"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米汽车由雷军主导跨行制造，成功发布并上市。"
+    },
+    {
+      "id": "E2",
+      "name": "极越汽车倒闭",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "极越汽车背靠着吉利和百度两大金主，竟然最终的结果是倒闭"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "极越汽车在获得吉利和百度支持后最终倒闭。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者回顾了2024年车圈两件印象深刻的事：一是小米汽车成功上市并获得市场认可，二是极越汽车尽管有强大背景却最终倒闭。作者借此对新势力车企提出警示，认为需反思内部管理和战略定位。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

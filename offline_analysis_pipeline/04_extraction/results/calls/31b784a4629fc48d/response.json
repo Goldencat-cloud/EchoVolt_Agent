@@ -1,0 +1,393 @@
+{
+  "schema_version": "2.3",
+  "post_id": "31b784a4629fc48d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 830km 后驱超长续航高阶智驾Pro版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "830km 后驱超长续航高阶智驾Pro版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 830km 后驱超长续航高阶智驾Pro版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为在30万以内预算下，小米SU7是唯一的选择，主要看中其口碑和颜值。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "30w内非su7不可，口碑跟颜值担当"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出购车费用明细，落地价为27.8万元，裸车价为24.59万元，包含保险、无忧包、上牌费及贷款利息等。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "落地价：27.8w （保险7.9k+无忧包1.3k+上牌费350+五年利息首付30% 2.3w利息） 裸车价：24.59w"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者表示提车过程顺利，销售人员提供了全程辅助办理服务。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "很顺利，给三百多小米全程辅助帮忙办理"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者使用车辆6个月，行驶8000多公里，日均行驶40多公里，认为车辆购买值得。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "去年国庆提车，不知不觉已经6个月，行驶8000多公里，平均一天跑40多公里！感觉车没白买哈哈哈🫣"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者日常通勤，平均每天行驶40多公里。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "平均一天跑40多公里"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7的外观帅气，能提供较高的情绪价值和回头率，虽然承认与保时捷仍有差距，但起步时有类似保时捷的视觉感受。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "小米情绪价值真的给的满满的...起步那一刻，感觉自己在开\"保时捷既视感\"哈哈...当然只是外观帅跟保时捷差距还是在！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T7",
+                "source_type": "text",
+                "quote": "当然只是外观帅跟保时捷差距还是在！"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在日常通勤中电耗约为15-16，自述驾驶习惯较稳，并指出其他车友的电耗通常在17-19左右。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "每天通勤40多公里，平时电耗差不多是15-16，可能因为我踩刹车踩油门比较稳妥哈哈哈，其他车友的电耗比较高，油耗17-19左右"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者每天通勤40多公里。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "每天通勤40多公里"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在开空调1档风速的情况下，实际纯电续航约650公里，略低于官方标示的800公里，作者认为这在性能车中是很好的数据，并指出天气冷会导致续航打折。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "纯电续航官方标的是800，开空调1档风速差不多能跑650左右，和官方标的差距一丢丢，毕竟是性能车（电车算很好的数据了～天气冷续航会打折）"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者开启空调1档风速进行驾驶。",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "开空调1档风速"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者称赞车辆液态金属银色外观颜值高且耐脏，半个月不洗也不显脏；红色内饰也容易打理，不易脏。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "液态金属银颜值是真的高🫡而且很耐脏！有时候半个月不洗都不怎么显脏。内饰的话简单装扮一下，红内偶尔擦一下就行也不容易脏！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者高度赞扬智驾功能，表示高速90%使用智驾，城市道路50%使用智驾，至今未发生意外；碰撞预警多次救命，前雷达探测范围广，雨雾天智驾效果好，自动泊车170多次从未失败。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "智驾是我要夸赞的一点，高速基本90%都智驾，城市道路占据50%左右，现为止没有出现过意外，城市来说太有用！自己开遇上别车碰撞预警也救我好几次！前雷达能探测200米范围，雨雾天能很好的智驾，还有自动泊车，泊车170多次没失败过🅿️"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者在高速和城市道路日常驾驶中使用智能驾驶功能，包括雨雾天气。",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "高速基本90%都智驾，城市道路占据50%左右...雨雾天能很好的智驾"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为车内空间足够大，收纳空间多，后排可放倒，视觉上有豪华感，易于打理，甚至想躺在里面睡觉。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "我觉得空间是足够的，能放好多东西，su7 C级轿车长且大的车内，到处都是收纳隐藏空间。车车的后排是可以放倒的，有保时捷那种豪华感，衬托空间还显的更大了视觉上哈哈～我都想躺进去睡上一觉干净又好打理！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "去年国庆提车，不知不觉已经6个月，行驶8000多公里"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "30w内",
+    "preferences": [
+      "注重口碑",
+      "注重颜值"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 Pro版6个月的真实用车体验。文章涵盖了选车理由（30万内首选）、详细费用清单（落地27.8万）、顺利的提车过程，以及在通勤、续航、外观、智驾和空间等方面的积极评价。作者特别强调了智驾的高使用率和安全性，以及车辆在外观情绪价值和空间实用性上的优势。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

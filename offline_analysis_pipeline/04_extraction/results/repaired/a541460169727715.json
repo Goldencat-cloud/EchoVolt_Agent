@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a541460169727715",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者对新势力车主在公共场所的不文明行为（如随地丢弃垃圾、在车旁方便）表示强烈谴责，认为这种行为让新势力车主群体蒙羞、丢人。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "为新势力车主。。蒙羞，丢人 丢垃圾，上厕所.."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新势力车主不文明行为曝光",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "图片显示在户外草坪上，有两名男子正在行走...暗示图中行为与新势力车主相关的不文明举动。"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "车辆左后轮附近的地面上散落着一些红色的物体碎片。"
+        }
+      ],
+      "confidence": 0.85,
+      "summary": "图片展示了疑似新势力车主在路边停车后，在车旁进行丢弃垃圾或不雅行为的场景，引发了关于车主素质的负面舆论。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子通过图片和文字批评了新势力车主在公共场所的不文明行为（如丢垃圾、随地方便），表达了对此类行为损害品牌形象的愤慨。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

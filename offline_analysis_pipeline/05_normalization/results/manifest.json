@@ -1,0 +1,134 @@
+{
+  "version": "taxonomy-2.0",
+  "source_hashes": {
+    "G:\\AutoInsight\\collaboration\\result\\auto016-modular-post-extraction\\single-v23-full-repair1\\contract-passed.jsonl": "96a463e7ea76037d847e106bcbd8f4126e0dd1d776d0f87a35ecbda8a2032d1c",
+    "G:\\Download\\su7_配置明细_长表.csv": "18f980bef339211080f469f8362d84ece6c3f876c7f493d59efb760df81acb4f",
+    "G:\\AutoInsight\\collaboration\\data\\004_A4_图片策展_主链路终版.csv": "f5959790c0fa597f176ae1318faf33d765f6cf1921dd279f567de4bd00c1cf56",
+    "G:\\AutoInsight\\collaboration\\result\\auto018-product-entity-normalization\\v1\\final\\mention-mapping.jsonl": "2974f969df6645721bb0abfa223d86d56ba89340e6f15e07c84cf4267f7eab45",
+    "G:\\AutoInsight\\collaboration\\result\\auto018-product-entity-normalization\\v1\\final\\corpus-name-anchors.json": "08b24422dea88df600239d4bde976407bb532292a4cb005ad15f729bb7ee3c67",
+    "G:\\AutoInsight\\collaboration\\result\\auto018-product-entity-normalization\\v1\\normalize_entities.py": "8ed0b2f20c1c277e43ba77c7bc07da462778973878614a96a2a261da7e5767e4",
+    "G:\\AutoInsight\\collaboration\\result\\auto018-product-entity-normalization\\v2\\aliases.json": "f28d5ad530a56d9b644de693c543611b012ad69e86cf9ed58092d59770c4b273",
+    "G:\\AutoInsight\\collaboration\\result\\auto018-product-entity-normalization\\v2\\normalize_taxonomy.py": "e49cd53e038bb073fb085b4336f4e8f9b68981d40645d283fc2740d7d4b6febe",
+    "G:\\AutoInsight\\collaboration\\result\\auto018-product-entity-normalization\\v2\\test_taxonomy.py": "f4f9246645feee43e385948a858aca288d5e8bf8198586faf3024d1373958cd5"
+  },
+  "stats": {
+    "posts": 9529,
+    "mentions": 15002,
+    "taxonomy_nodes_excluding_root": 673,
+    "node_counts_by_level": {
+      "root": 1,
+      "brand": 125,
+      "series": 541,
+      "configuration": 7
+    },
+    "mention_counts_by_level": {
+      "series": 10740,
+      "unresolved": 924,
+      "brand": 3118,
+      "configuration": 220
+    },
+    "status_counts": {
+      "mapped": 14078,
+      "unresolved": 734,
+      "excluded": 190
+    },
+    "methods": {
+      "own_named_target_with_alias_support": 9862,
+      "null": 734,
+      "brand_name_only": 2563,
+      "forum_alias": 23,
+      "own_explicit_name": 287,
+      "forum_implicit_target": 105,
+      "forum_context_alias": 574,
+      "own_explicit_brand": 383,
+      "non_vehicle_or_group": 190,
+      "explicit_brand_override": 131,
+      "existing_supported_series": 40,
+      "brand_only_generic_vehicle": 37,
+      "title_and_post_coreference": 24,
+      "post_coreference": 7,
+      "corpus_model_alias": 31,
+      "colloquial_alias": 5,
+      "colloquial_brand_only": 6
+    },
+    "needs_review_mentions": 1514,
+    "claim_product_links": 29212,
+    "newly_mapped_from_v1": 3169,
+    "catalog_linked_mentions": 220
+  },
+  "scope": "offline_taxonomy_preparation",
+  "no_model_calls": true,
+  "human_semantic_acceptance": "pending",
+  "files": [
+    {
+      "name": "alias-dictionary.json",
+      "bytes": 2104,
+      "sha256": "c5ef25d78d6df8865fb88f82c57375c9a5acd331088a16bad37ff2a3f9a3b4aa"
+    },
+    {
+      "name": "alias-mapping.csv",
+      "bytes": 265024,
+      "sha256": "9f67521940ea8ff82f60d378c22e7ce0a5da2f469b68e4cf62cc2f79a0bfa690"
+    },
+    {
+      "name": "analysis-readiness.json",
+      "bytes": 2311,
+      "sha256": "c0e490fbe73b09230310ebe71cc86d8ccc3f9c9b20c0f32869153fbba29c63d8"
+    },
+    {
+      "name": "catalog-reference.json",
+      "bytes": 3479,
+      "sha256": "b584f46bacee77b03729565d10cc3522f8b5c67d893a8168a650656344a97a6f"
+    },
+    {
+      "name": "checks.json",
+      "bytes": 432,
+      "sha256": "12249f0c1b1580229b7f644f89933ad0097ffe6b91cbcef618ceb89b462c2dd5"
+    },
+    {
+      "name": "claim-product-links.jsonl",
+      "bytes": 9194123,
+      "sha256": "77046a4d366f744cd66c56132b25973bce808c5b24403d7b56da867c0f5a374b"
+    },
+    {
+      "name": "mention-mapping.csv",
+      "bytes": 3101188,
+      "sha256": "ab906afc3b630cbd3728511472fb2184e7a5023b792c98728c98edf473cb2455"
+    },
+    {
+      "name": "mention-mapping.jsonl",
+      "bytes": 23525150,
+      "sha256": "bf0cafb89f8f7d1fee45b522607d2635e5214a0336fc4852906459afaf38abea"
+    },
+    {
+      "name": "review-queue.csv",
+      "bytes": 68586,
+      "sha256": "0ec6f7bf1b9f0095624d7b85b7fcaddbd039eeea8d0ff65ac37d6f0656b77089"
+    },
+    {
+      "name": "review.html",
+      "bytes": 27721574,
+      "sha256": "17fb56895c50d8274de42a385f80a589728c590accf8da7a2d6e0d8f92c56597"
+    },
+    {
+      "name": "summary.json",
+      "bytes": 1141,
+      "sha256": "ba39625b6f9341b33382315df08cbb6a666ede504bddb2f8471f8be21f6c0827"
+    },
+    {
+      "name": "taxonomy.csv",
+      "bytes": 49433,
+      "sha256": "e9df97a57da9dde557a8b908a1619ee445ec8acc359575c4b841a3d2eb8e831d"
+    },
+    {
+      "name": "taxonomy.json",
+      "bytes": 150634,
+      "sha256": "59d2e4e56da4f3cd702502a0250269647fd86291877fc027bfceb751484be717"
+    },
+    {
+      "name": "v1-comparison.json",
+      "bytes": 1797,
+      "sha256": "9a3b1657c62c1b66f93254307fa16a766462f2997a6e5d81e538bc1a3c02a8fa"
+    }
+  ]
+}

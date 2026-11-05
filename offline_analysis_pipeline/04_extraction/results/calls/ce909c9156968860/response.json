@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ce909c9156968860",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者指出第六届《汽车风云盛典》播出的小品《如此宣传》揭露了汽车市场中泛滥的虚假宣传问题。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "里的一个小品《如此宣传》，直击当下汽车市场最让人头疼、最泛滥的问题，也就是“虚假宣传”。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者批评部分车企将发布会变成“修辞秀场”和“幻术表演”，采用“忽悠式营销”手段。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "现在的...有不少直接滑向了“娱乐至死”，硬生生把发布会开成了“修辞秀场”和“幻术表演”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "安全与质量",
+      "content": "作者认为厂家发明“L2.99999”等词汇是为了在事故发生后逃避安全责任，并批评“无限接近自动驾驶”等宣传误导消费者。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "明明法规界定只有L2级辅助驾驶，有些厂家非得发明个“L2.99999”的荒唐词汇，这少掉的“0.00001”，恰恰是出事后逃避安全责任的避风港。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为新能源汽车赛道降低了结构性门槛，导致缺乏敬畏心的投机者涌入，依靠造新词和PPT收割流量而非深耕核心技术。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "新能源赛道的转换改变了结构性门槛，让一帮缺乏对工业和生命敬畏心的投机者涌了进来。他们不在底层核心技术上死磕，专靠PPT画大饼、造新词来收割流量。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者呼吁车企停止造词营销，回归对底层技术的钻研和对生命的敬畏。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "希望央视这记响亮的警钟，能把那些沉迷于造词营销的车企打醒，让造车回归对底层技术的钻研和对生命的敬畏，少点戏法和套路，多点技法和真诚。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "央视《汽车风云盛典》小品《如此宣传》播出",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第六届《汽车风云盛典》，终于重磅播出了！里的一个小品《如此宣传》，直击当下汽车市场最让人头疼、最泛滥的问题，也就是“虚假宣传”。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "文中特别提到一个名为《如此宣传》的小品，由总台主持人联袂演绎，通过幽默犀利的表演揭示汽车销售中的虚假宣传和套路。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "中央广播电视总台主办的第六届《汽车风云盛典》播出小品《如此宣传》，通过表演形式揭露汽车行业虚假宣传现象。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了央视在《汽车风云盛典》中通过小品《如此宣传》揭露汽车行业虚假宣传乱象的现象。作者批评部分车企利用“L2.999”等误导性术语和夸张宣传逃避责任、收割流量，认为这反映了行业门槛降低后的投机心态，并呼吁车企回归技术和真诚。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

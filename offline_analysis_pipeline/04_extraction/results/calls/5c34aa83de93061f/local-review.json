@@ -1,0 +1,477 @@
+{
+  "post_id": "5c34aa83de93061f",
+  "state": "FAILED",
+  "cache_key": "53d178d410c284ba2cf65012d10e43dfa1aea8c669caf188f255c7468be1d0b0",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "5c34aa83de93061f",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "喜提小米SU7 Max"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车型：小米SU7 Max"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "极氪001",
+        "entity_level": "车系",
+        "brand": "极氪",
+        "series": "001",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "对比了极客001"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P3",
+        "name": "比亚迪宋Pro",
+        "entity_level": "车系",
+        "brand": "比亚迪",
+        "series": "宋Pro",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "比亚迪宋Pro"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "问界M9",
+        "entity_level": "车系",
+        "brand": "问界",
+        "series": "M9",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "问界M9"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "理想L6",
+        "entity_level": "车系",
+        "brand": "理想",
+        "series": "L6",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "理想L6"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者在已有燃油车的情况下，出于入手电车的想法，对比了极氪001、比亚迪宋Pro、问界M9和理想L6，最终从价格和性能配置角度选择了小米SU7 Max。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "其实我在提这个车之前我已经有一个燃油车了，但是有想入手一个电车，对比了极客001、比亚迪宋Pro、问界M9和理想L6等，最后从价格角度还有性能配置来看，我选择了小米SU7 Max。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为小米SU7 Max虽然为运动风格牺牲了部分后排空间，但对于其两口之家的现状，前排空间足够宽敞。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "虽然为了运动风格牺牲了一些后排空间，但对于我这种还没有小孩刚结婚的两口之家来说，前排空间已经足够宽敞。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者作为刚结婚的两口之家使用车辆。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "对于我这种还没有小孩刚结婚的两口之家来说"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者作为米粉，家中已有多个小米智能设备，认为小米SU7 Max能很好融入车家生态，这是其区别于其他品牌的独特优势。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "作为米粉，家中已有好几个小米智能设备，小米SU7 Max可以很好地融入车家生态，哈哈哈，这是与其他品牌最不同的点。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者列出小米SU7 Max的费用明细：裸车29.99万元，保险约5556.29元，免购置税，上牌费500元，加装车载智能冰箱2000元；交5000定金赠送智驾增强功能终身免费及Nappa真皮座椅，另有灭火器、脚垫、香薰、保养及雷军签名证书等赠品。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "裸车：29.99万元（Max版本） 保险：约5556.29元（以实际购买为准） 购置税：由于小米SU7 Max为新能源车型，免征购置税 上牌费：500元 加装：车载智能冰箱2000元 优惠：交5000定金送智驾增强功能终身免费、Nappa真皮座椅 赠品：灭火器，脚垫，香薰，保养，包括雷总签名证书"
+          }
+        ],
+        "confidence": 0.98,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者提车后首次外出兜风电耗约为18.6kWh/100km；随后高速行驶，续航达600公里时剩余电量不多，下高速充电，认为续航保持率接近80%，高速百公里平均电耗15.7kWh/100km，对此电耗表现感到满意，并认为在同类车型中表现领先。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "提完车我就迫不及待的开出去兜风了，它的电耗大概为18.6kWh/100km，然后我又去跑了一段高速，小米SU7 Max在高速路况下的续航达到了600公里，还有一点电量，我担心没电赶紧下高速找个地方充电了，续航保持率接近80%，百公里平均电耗为15.7kWh/100km。这一成绩在同类车型中表现遥遥领先，对于这个电耗我还是满意的。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "提车后初次短途兜风及随后的长途高速行驶。",
+          "evidence": [
+            {
+              "block_id": "T5",
+              "source_type": "text",
+              "quote": "提完车我就迫不及待的开出去兜风了...然后我又去跑了一段高速"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "作者介绍小米SU7 Max零百加速2.78秒，搭载前后双电机，综合功率495kW，扭矩838N·m，极速265km/h，认为其动力表现满足了其对高性能电动车的期待。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "小米SU7 Max的零百加速仅需2.78秒，搭载了前后双电机，综合最大功率495kW，峰值扭矩838N·m。它能够提供迅猛的加速体验，最高时速可达265km/h，这样的动力满足我对高性能电动车的期待。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7 Max外观设计低趴运动，内饰做工精细，自己选择的黑色车漆漆面饱满度和组装做工都不错。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "小米SU7 Max的外观设计低趴且运动，内饰做工精细，我选的是台黑色的，车色的漆水饱满度和组装做工我感觉都还不错。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出小米SU7 Max前备箱105L，后备箱517L（纵深112cm，宽102cm），二排座椅60:40放倒后无台阶落差，后备箱盖板下有储物空间，并配有网兜、挂钩及180W 12V电源接口，认为细节到位。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "前备箱容积达到105L，后备箱容积为517L，后备箱纵深达到了112cm，宽度102cm，第二排座椅支持60:40比例放倒，放倒后后备箱和座椅连接处也没有高低台阶落差，平顺过渡。 后备箱盖板下方空间实用，可以藏点私人用品，同时后备箱还有网兜、挂钩、12V电源接口（180W）等，细节也算到位。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者列举小米SU7 Max全系标配自动驻车、上坡辅助、雷达、全景影像及L2辅助驾驶，Max版增加激光雷达、空气悬架和电动尾翼。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "小米SU7 Max配备了自动驻车、上坡辅助、前后驻车雷达、全景影像、L2级别辅助驾驶等全系标配功能。Max版本还增加了激光雷达、空气悬架、电动尾翼等配置。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者提车后租赁车位以防剐蹭，但因不放心经常去查看车辆状况，表示这种心态只有刚提车的车主才懂。",
+        "sentiment": "中性",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "提完车后，我就给它租了一个车位，担心停外面被刮，然后停车位上，我还是不放心，3天2头跑下来看看，我想这个只有刚提车的车主才懂。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车时间：2024年10月25日"
+        },
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "提完车后，我就给它租了一个车位"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "喜欢电动车",
+        "注重车家生态互联",
+        "偏好运动风格外观"
+      ]
+    },
+    "post_summary": "作者分享了购买小米SU7 Max的经历，对比了多款竞品后因价格和性能配置选择该车。文中详细介绍了提车费用、空间、能耗、动力、外观内饰及配置等用车体验，表达了满意之情，并分享了提车初期的护车心态。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12898,
+    "completion_tokens": 4523,
+    "total_tokens": 17421,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 19.45056630000181,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

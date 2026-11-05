@@ -1,0 +1,476 @@
+{
+  "post_id": "c7d6e22c03a87a7d",
+  "state": "FAILED",
+  "cache_key": "9146945d9826b56ec81c503840e7821e5bd7f5be7ae5141b137b14ccb34409cc",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "c7d6e22c03a87a7d",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "我的小米su7提车小分享"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "对比下来，SU7开起来最舒服了"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "Model Y",
+        "entity_level": "车系",
+        "brand": "特斯拉",
+        "series": "Model Y",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "线下我试驾过Model Y和理想L6，Model Y的内饰比较毛坯"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "理想L6",
+        "entity_level": "车系",
+        "brand": "理想",
+        "series": "L6",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "线下我试驾过Model Y和理想L6，理想i6是家庭车不适合我"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者基于通勤和短途出游需求，对比试驾Model Y和理想L6后，认为SU7开起来最舒服，且喜欢其转向灯、内饰科技感及外观，最终决定购买SU7。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "平时主要就是上下班通勤，周末偶尔跑个短途出游，想要颜值很帅而且好开的车，线下我试驾过Model Y和理想L6，Model Y的内饰比较毛坯，理想i6是家庭车不适合我，对比下来，SU7开起来最舒服了，转向灯、内饰科技感跟车的外观我也很喜欢，最后决定就定这台车。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "驾驶与操控",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "对比下来，SU7开起来最舒服了"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "其他",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "理想i6是家庭车不适合我，对比下来，SU7开起来最舒服了"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者主要进行上下班通勤，周末偶尔短途出游。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "平时主要就是上下班通勤，周末偶尔跑个短途出游"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者通过谈判获得车衣和无忧包赠品，最终核算SU7裸车价23.4万元，加上保险、上牌费和购置税后，落地总价约25.2万元。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "跟销售一直在谈赠品磨了很久，因为小米有个大客户权益送车衣，还有无优包。算下来裸车23.4万，保险选的人保6950元，上牌费300，购置税10500，全部加起来落地大概25.2万，其他就没有额外的消费了。"
+          }
+        ],
+        "confidence": 0.98,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者对提车体验非常满意，描述了店内接待、办理手续、提供午餐、赠送鲜花等服务细节，并提到提车时心情激动。",
+        "sentiment": "正面",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这次提车体验我超级满意！！体验感非常好，到店的时候就各种接待办手续，中午还管了一顿午饭。为了验车，我还单独买了一个手电筒，围着车子仔仔细细检查车漆、轮胎，车内大大小小功能全部试一遍，没发现啥毛病。而且还收到了一束提车鲜花，拿到钥匙坐进车里的那一刻，心里莫名的开心和激动！！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "作者认为车辆动力表现不错，电门响应快，市区超车轻松。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "开了一段时间，分享下我的用车感受，动力表现确实不错，电门响应快，市区超车轻轻松松。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在市区行驶。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "市区超车轻轻松松"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为底盘调校舒适，日常上下班颠簸感不强；前备箱和后备箱空间实用，可存放物品及多个行李箱。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "底盘调校也很舒适，日常上下班不会觉得颠簸感很强。而且前辈箱可以放东西，后备箱还能放好几个行李箱"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者日常上下班通勤。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "日常上下班不会觉得颠簸感很强"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者习惯晚上充电，认为电费便宜，单次充电费用30多元。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "平时通勤都是晚上去充电，电费也很便宜，一次30多。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者平时通勤，晚上充电。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "平时通勤都是晚上去充电"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出中央扶手较短，跑长途时手臂搭在上面难受，需要垫高。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "但是车子也有些我用很不顺手的小问题，中央扶手很短，跑长途胳膊搭着很难受！要垫高。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者跑长途。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "跑长途胳膊搭着很难受"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者反馈车机有时会出现小卡顿。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "有时候车机会出现一点小卡顿"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为底盘特别低，每次出行前需查询路况以防刮底，感到心累，感觉该车更适合在大城市驾驶。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "底盘特别低！每次出行前都查询各种路况，生怕刮到底盘，这点很心累！感觉更适合大城市开这辆车～"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者出行前查询路况，担心刮到底盘。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "每次出行前都查询各种路况，生怕刮到底盘"
+            }
+          ]
+        }
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开了一段时间，分享下我的用车感受"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "平时通勤都是晚上去充电"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "偏好颜值高",
+        "偏好好开/驾驶舒适",
+        "适合个人使用而非家庭车"
+      ]
+    },
+    "post_summary": "车主分享小米SU7提车及初期用车体验。文章详细记录了购车决策过程、落地价格（约25.2万）及满意的提车服务。用车方面，作者肯定了动力、底盘舒适度、空间实用性及充电成本，但也指出了中央扶手短、车机偶发卡顿及底盘过低易刮蹭等缺点。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "products/P3/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "products/P3/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11071,
+    "completion_tokens": 4026,
+    "total_tokens": 15097,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 17.170781499997247,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

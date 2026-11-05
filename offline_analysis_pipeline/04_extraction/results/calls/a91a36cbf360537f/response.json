@@ -1,0 +1,175 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a91a36cbf360537f",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7事故的醒世语"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "图片说明称，媒体报道了小米SU7在高速上碰撞爆燃致人员伤亡的事故，遇难者家属称车企尚未联系，交警正在固定证据。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "内容描述了关于“小米 SU7 高速上碰撞爆燃致人员伤亡”事件的报道...提到“女儿遗体已碳化”、“车企仍没来联系”以及交警部门正在固定证据等细节"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者建议小米全系车型加入防错踩设计（DFAMA）、机械门把手日式引导位置标识，以及车辆碰撞后由黑匣子电池供电的警报麦克风持续播报逃生规范、位置信息和报警电话等功能。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "建议全系加入防错踩设计DFAMA，机械门把手日式引导位置标识，车辆碰撞后黑匣子电池供电警报麦克风🎙️持续播报逃生规范，位置信息，报警电话等"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者建议在无激光雷达车型的遮阳板上增加警示标识，标注L2级规范，提醒驾驶员时刻关注车辆。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "无激光雷达车型在遮阳板上增加警示⚠️标识，必须时刻关注车辆 标注L2级规范"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "作者认为纯视觉自动驾驶方案存在局限，称其为“扯犊子”，指出即使有激光雷达也无法杜绝电子产品死机问题，并认为两套独立ADAS系统可降低风险但会增加成本。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "纯视觉的自动驾驶就是扯犊子...就算是激光雷达一大堆了，也杜绝不了电子产品会死机的问题一直在且不可测。当然两套独立的ADAS系统可大大大降低风险，成本升高"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7高速碰撞爆燃事故",
+      "event_type": "交通事故与公共安全",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "内容描述了关于“小米 SU7 高速上碰撞爆燃致人员伤亡”事件的报道"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "图片说明称，媒体报道了一起小米SU7在高速上碰撞爆燃致人员伤亡的事故，遇难者家属表示车企尚未联系，警方正在调查中。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "非个人旅程或泛行业讨论",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "本人最早一批接触ADAS采购"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子针对一起小米SU7高速爆燃事故发表评论，作者推测事故原因可能与驾驶员操作失误有关，并对小米提出多项安全改进建议，包括防错踩设计和碰撞后的语音提示功能。此外，作者还表达了对纯视觉自动驾驶技术的质疑，认为其存在局限性。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

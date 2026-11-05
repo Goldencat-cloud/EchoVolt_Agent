@@ -1,0 +1,22 @@
+{
+  "phase": "build",
+  "model": "qwen3.8-27b",
+  "prompt_sha256": "82af1e4cdf1c388b53b7fbf94583e0e8e95c64315fa34188077749e97966e7b6",
+  "prompt_version": "auto-008-v1",
+  "total_posts": 9701,
+  "unique_post_id": 9701,
+  "no_image_posts": 4203,
+  "with_image_posts": 5498,
+  "ambiguous_pairs": 0,
+  "selection_buckets": {
+    "AUTO-006": 19172,
+    "AUTO-007": 628,
+    "null_summary": 9,
+    "AUTO-006-fallback": 1,
+    "unmapped": 6
+  },
+  "max_est_input_tokens": 18098,
+  "input_token_budget": 20000,
+  "would_chunk": 0,
+  "est_method": "heuristic:cjk=1tok/char,noncjk=1tok/3char,conservative(upper-bound);no matching local qwen3.8-27b tokenizer available (weights not loaded/downloaded)"
+}

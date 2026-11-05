@@ -1,0 +1,453 @@
+{
+  "schema_version": "2.3",
+  "post_id": "862e50062105dc55",
+  "products": [
+    {
+      "id": "P1",
+      "name": "方程S",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "方程S",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "方程S预售23到28万"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 2026款已经上市"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Pro版24.99万"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Max版30.39万"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出方程S车长5060mm、宽1967mm、轴距2960mm，小米SU7车长4997mm、宽1963mm、轴距3000mm。虽然方程S外部尺寸更大，但SU7轴距多出40mm。作者认为不能简单认为车大空间就一定大，建议到店体验后排坐姿、头部空间和上下车便利性，并提醒近2米车宽在狭窄车位停车存在压力。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "方程S长5060毫米，宽1967毫米，轴距2960毫米。SU7长4997毫米，宽1963毫米，轴距3000毫米。方程S外部尺寸更大，SU7轴距反而多出40毫米。别简单理解成谁大谁空间一定大。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "到店重点体验后排坐姿、头部空间、上下车便利性。两车都不小，老小区窄车位、机械车位、狭窄地库，近2米车宽都得提前掂量。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "空间与舒适性",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "方程S长5060毫米，宽1967毫米，轴距2960毫米。SU7长4997毫米，宽1963毫米，轴距3000毫米。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者对比了两车续航，方程S为730-900公里，SU7标准版720公里、Pro版902公里、Max版835公里。作者认为最长续航基本同一水平，无需纠结2公里差距。建议根据是否有家充及通勤距离选择，有固定桩700公里以上足够，常跑高速依赖公桩则需900公里级。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "方程S续航730到900公里...SU7标准版720公里，Pro版902公里，Max版835公里。最长续航基本同一水平，别纠结900和902那2公里差距。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "每天通勤三四十公里，有固定桩，700公里以上版本绰绰有余。经常跨城高速，主要依赖公桩，900公里级才体现价值。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "续航与能耗",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T3",
+                "source_type": "text",
+                "quote": "最长续航基本同一水平，别纠结900和902那2公里差距。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者描述了两种典型使用场景：一是每天通勤三四十公里且有固定充电桩；二是经常跨城高速行驶且主要依赖公共充电桩。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "每天通勤三四十公里，有固定桩...经常跨城高速，主要依赖公桩"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者对比充电速度，方程S宣称10%-70%约5分钟，10%-97%约9分钟，但依赖高功率闪充桩且网络铺设中；SU7 Max版10%-80%约12分钟，15分钟补670公里，充电网络兼容性更好。作者认为方程S闪充是“期货”，SU7快充是“现货”，常跑长途依赖公桩选SU7更稳，有家充偶尔用闪充方程S够用。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "方程S闪充数据炸裂...但前提是匹配高功率闪充桩...第三方普通公桩达不到峰值功率。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "SU7高压平台升级...充电网络兼容性更好，不挑桩。方程S闪充是期货，SU7快充是现货。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "经常跑长途依赖公桩，SU7更稳。有家充偶尔用闪充，方程S够用。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "充电与补能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "经常跑长途依赖公桩，SU7更稳。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者区分了“经常跑长途依赖公桩”和“有家充偶尔用闪充”两种使用情境来评估充电方案。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "经常跑长途依赖公桩...有家充偶尔用闪充"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者对比底盘技术，方程S采用云辇-M智能磁流变悬架（部分版本云辇-A），属新技术，调校功底未知；SU7采用前双叉臂后五连杆，Pro/Max配闭式双腔空悬加CDC，经市场验证，运动偏硬但支撑好。作者建议想要新鲜感选方程S，想要成熟稳定选SU7。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "方程S用云辇-M智能磁流变悬架...云辇-M是新技术，调校功底未知。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "SU7前双叉臂后五连杆...经过市场验证...SU7底盘口碑已经建立，运动偏硬但支撑好。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "想要新鲜感等方程S，想要成熟稳定选SU7。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "想要成熟稳定选SU7。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者针对25万左右的预算，建议在长续航后驱版本中进行选择。若看重成熟稳定、充电兼容性好、配置明确，推荐小米SU7 Pro（24.99万，902km续航+空悬）；若看重闪充、云辇-M新底盘及比亚迪生态，则等待方程S正式价格。作者认为不应盲目追求最高性能版，而应关注高频使用的续航、充电和底盘舒适性。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "预算25万上下，两车真正值得比的都不是最高性能版，而是长续航后驱。"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "看重成熟稳定、充电兼容性好、配置明确，选SU7 Pro。看重闪充、云辇-M新底盘、比亚迪生态，等方程S正式价格。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者设定了25万左右的预算范围，并聚焦于长续航后驱版本的日常使用需求。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "预算25万上下"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "方程S预售及发布计划",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-09-16",
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "方程S预售23到28万，9月16号正式发布。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "文章提到方程S目前处于预售阶段，价格区间为23-28万元，并计划在9月16日正式发布。"
+    },
+    {
+      "id": "E2",
+      "name": "小米SU7 2026款上市",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 2026款已经上市"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "文章指出小米SU7 2026款已经上市，并列举了标准版、Pro版和Max版的价格。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "手握23万预算，选择方程S还是小米SU7？"
+      }
+    ],
+    "confidence": 0.9
+  ,
+    "age": null,
+    "budget": "23万",
+    "preferences": [
+      "重视续航",
+      "重视充电便利性",
+      "重视底盘稳定性"
+    ]
+  },
+  "post_summary": "帖子对比了方程S和小米SU7两款纯电轿车，从尺寸空间、续航里程、充电速度、底盘技术及价格配置等多个维度进行分析。作者认为两车各有优劣，方程S胜在新技术和闪充潜力，SU7胜在成熟稳定和充电兼容性。针对25万左右预算，作者建议根据对成熟度或新技术的偏好进行选择，并强调了日常使用场景中续航和补能的重要性。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

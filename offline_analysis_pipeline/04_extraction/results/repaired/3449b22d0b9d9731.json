@@ -1,0 +1,430 @@
+{
+  "schema_version": "2.3",
+  "post_id": "3449b22d0b9d9731",
+  "products": [
+    {
+      "id": "P1",
+      "name": "第一代SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "第一代",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "第一代SU7车主"
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "作为第一代SU7车主"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "新一代SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "新一代",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "新款发布会"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新一代SU7的发布会直播"
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "新一代SU7的升级"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "新一代SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "Pro版续航直接干到902km"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者在前往小米汽车服务中心途中遇到复杂路口，导航未能及时反应导致走错路，随后启用HAD功能辅助驾驶返回。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "结果路上那个路口太绕，导航都没反应过来，直接开错路绕了个大圈...最后还是让开启HAD让小爱自己回娘家。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者下班后驾车前往小米汽车服务中心，途中经过复杂路口。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一下班就火急火燎往小米汽车服务中心赶...结果路上那个路口太绕"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "服务与交付",
+      "content": "作者评价小米汽车服务中心环境舒适，休息区宽敞明亮，提供自助零食和咖啡，工作人员服务态度热情。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "一进门就被服务中心的环境吸引了，宽敞明亮的休息区...工作人员特别热情"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者到达小米汽车服务中心参加发布会直播。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "一进门就被服务中心的环境吸引了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "新一代SU7起售价为21.99万元，低于预售价，现场许多车友在价格公布后立即进行了锁单操作。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "当价格公布，21.99万起，比预售价还低...很多人二话不说，直接掏出手机开始操作。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "官方锁单时间是21:30，我看不少人就在那个点，手指飞快地在屏幕上点下了确认"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者在发布会现场看到许多人锁单，内心受到触动差点冲动下单，但最终保持理智没有购买。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "说实话，那一刻我心里真的狠狠动了一下，差点也想跟着冲动一把，还好最后理智占了上风。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为新一代SU7配置升级到位，全系标配激光雷达，Pro版续航达902km，配备机械门把手、更好的内饰用料、双层隔音玻璃及升级后的座椅调节功能。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "这次配置升级确实到位。全系都给了激光雷达...Pro版续航直接干到902km...机械门把手...内饰用料摸起来更扎实...座椅还升级了18向调节"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者对比两代车型，指出老款悬挂较硬、过减速带颠簸，而新款采用双腔空悬+CDC，预计舒适性会有显著提升。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "老款的悬挂有点硬，过减速带的时候颠得慌，新款直接上了双腔空悬+CDC，舒适性肯定提升不少"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T6",
+                "source_type": "text",
+                "quote": "老款的悬挂有点硬...新款直接上了双腔空悬+CDC，舒适性肯定提升不少"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者对比两代车型，指出老款车机偶尔卡顿，而新款升级了Thor芯片，算力达到700TOPS，预计使用会更流畅。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "还有老款的车机偶尔会卡顿，新款升级了Thor芯片，算力直接拉到700TOPS，用起来肯定更丝滑。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "智能座舱与车机",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T6",
+                "source_type": "text",
+                "quote": "老款的车机偶尔会卡顿，新款升级了Thor芯片...用起来肯定更丝滑。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者希望官方能为老车主提供专属福利，如免费软件升级或置换补贴，并表示目前打算先攒钱，未来再考虑购买。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "希望官方能给咱们老车主一些专属福利...先攒攒钱再说吧，下次带家人一起来体验下。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新一代SU7发布会及定价公布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新一代SU7的发布会直播"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "当价格公布，21.99万起"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米举办新一代SU7发布会，公布起售价为21.99万元，并提供限时购车权益。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "第一代SU7车主"
+      },
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "作为第一代SU7车主"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "关注车辆舒适性配置（如空悬）",
+      "关注车机流畅度",
+      "喜欢绿色车漆"
+    ]
+  },
+  "post_summary": "一位第一代SU7车主分享了参加新一代SU7发布会的经历。作者描述了前往服务中心途中的导航体验及现场的服务环境，记录了新车公布21.99万起售价后现场车友踊跃锁单的热烈氛围。作者详细对比了两代车型在悬挂、车机等方面的升级优势，虽心动但未冲动下单，表达了对老车主专属福利的期待。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

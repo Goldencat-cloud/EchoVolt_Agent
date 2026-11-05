@@ -1,0 +1,489 @@
+{
+  "post_id": "7d0936716dd03a76",
+  "state": "CONTRACT_PASS",
+  "cache_key": "c4b6848bf7b8242876de967f33078400c044b2f940c9b90568d18ea1efffc3a6",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "7d0936716dd03a76",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7体验"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "刚刚推出的小米的首款车型SU7"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 MAX",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "MAX",
+        "evidence": [
+          {
+            "block_id": "T27",
+            "source_type": "text",
+            "quote": "我们今天试驾的顶配MAX版来说"
+          },
+          {
+            "block_id": "T29",
+            "source_type": "text",
+            "quote": "本次主要试驾的最顶配车型就是29.99万元的"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7的海湾蓝颜色最好看，搭配其造型时尚元素拉满。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "个人认为海湾蓝颜色是最好看的，搭配上SU7的造型时尚元素拉满"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在小米龙泉驿交付中心查看展车。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "趁着假期来到了小米位于龙泉驿的交付中心"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7的前脸设计时尚且具有运动风格，四眼式大灯配合日行灯显得呆萌。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "前脸设计是比较时尚以及具有运动风格...也仿佛透露出了一丝呆萌的气息"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在小米龙泉驿交付中心查看展车。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "趁着假期来到了小米位于龙泉驿的交付中心"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7的侧面造型惊艳，让人过目不忘，体现了车厂的设计功底。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "侧面是非常让人觉得好看，过目不忘的感觉"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在小米龙泉驿交付中心查看展车。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "趁着假期来到了小米位于龙泉驿的交付中心"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为小米SU7的中控屏响应速度快，卡片式界面操作方便，车机表现令人放心。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "中控屏的响应速度非常快，而且卡片式的界面设计操作起来非常方便，对于车机这一块妥妥的不用担心了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在小米龙泉驿交付中心体验展车。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "趁着假期来到了小米位于龙泉驿的交付中心"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为小米SU7的后排空间相对充裕，但头部空间对有身高要求的乘客有一定影响。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T23",
+            "source_type": "text",
+            "quote": "SU7的整体后排空间相对来说也还是比较充裕了，头部空间虽然采用了有弧度的设计，但对于个子高一点的乘客来说还是会有些影响"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在小米龙泉驿交付中心体验展车。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "趁着假期来到了小米位于龙泉驿的交付中心"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "作者试驾小米SU7 MAX版，认为其加速性能强劲，全力加速时有眩晕感，但日常行驶油门调校线性。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T26",
+            "source_type": "text",
+            "quote": "试驾的车型为最顶配的四驱双电机版本...实际感受下来大差不差，在全力加速时能给人一种眩晕感，不过日常行驶的话电门调教还是很线性"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者试驾小米SU7 MAX版。",
+          "evidence": [
+            {
+              "block_id": "T26",
+              "source_type": "text",
+              "quote": "试驾的车型为最顶配的四驱双电机版本"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7的转向手感力度适中，在运动模式下会略微加重，符合驾驶员习惯。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T27",
+            "source_type": "text",
+            "quote": "转向手感方面，整体的力度刚好合适，不会过于轻巧也不会特别沉重，符合正常我们驾驶员驾驶的一个转向力度"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者试驾小米SU7 MAX版。",
+          "evidence": [
+            {
+              "block_id": "T26",
+              "source_type": "text",
+              "quote": "试驾的车型为最顶配的四驱双电机版本"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7的底盘调校出色，空悬+CDC组合对路面震动处理到位，兼具舒适性与韧性。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T28",
+            "source_type": "text",
+            "quote": "SU7的底盘确实也很不错...空悬+CDC的组合，对路面震动的处理还是很到位的，舒适但又不乏有一股韧劲，底盘质感挺高级"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者试驾小米SU7 MAX版。",
+          "evidence": [
+            {
+              "block_id": "T26",
+              "source_type": "text",
+              "quote": "试驾的车型为最顶配的四驱双电机版本"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者指出小米SU7三个配置的价格区间为21.59万至29.99万元，并认为若不看重极致动力，较低价位版本也足够使用。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T29",
+            "source_type": "text",
+            "quote": "小米目前一共三个配置，根据配置的不同价格分别为21.59-29.99万元...选择21或者25万元的版本也足够使用了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米SU7上市后热度极高，成为车圈顶流，承载了小米及消费者对自主品牌的期望，呼吁理性看待舆论。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T30",
+            "source_type": "text",
+            "quote": "SU7的热度依然不减，可以称得上是这段时间的流量之王了...我都希望我们消费者能够理性的看待"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7上市及热销",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "从上市发布会大定9万台的数据到目前无论是小米展厅或者交付中心人山人海的场面"
+          },
+          {
+            "block_id": "T30",
+            "source_type": "text",
+            "quote": "从小米SU7发布上市到现在，已经过去了快两周时间了"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米首款车型SU7上市，发布会大定9万台，近期热度持续高涨，展厅人流众多。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "趁着假期来到了小米位于龙泉驿的交付中心，让我们一起来看看小米的首款车型到底是什么样的表现吧"
+        },
+        {
+          "block_id": "T26",
+          "source_type": "text",
+          "quote": "试驾的车型为最顶配的四驱双电机版本"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "博主探访小米龙泉驿交付中心，详细评测了小米SU7的外观、内饰、车机系统及试驾体验。作者对SU7的设计、性能和底盘调校给予高度评价，认为其是当前的流量顶流，并介绍了各配置版本的价格区间。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C15/evidence/0:non_contiguous_quote",
+    "C8:emotional_intensity_missing"
+  ],
+  "usage": {
+    "prompt_tokens": 16457,
+    "completion_tokens": 4144,
+    "total_tokens": 20601,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 14720
+    }
+  },
+  "elapsed_s": 29.323949199999333,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

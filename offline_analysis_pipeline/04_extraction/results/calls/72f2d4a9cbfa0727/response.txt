@@ -1,0 +1,192 @@
+{
+  "schema_version": "2.3",
+  "post_id": "72f2d4a9cbfa0727",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "车牌位置悬挂着写有“xiaomi SU7”字样的展示牌"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "车头正前方悬挂着白色车牌，上面印有黑色文字“xiaomi SU7”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "领克Z10",
+      "entity_level": "具体配置",
+      "brand": "领克",
+      "series": "Z10",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "图片上方有“LYNK&CO”品牌Logo以及“领克 Z10”字样"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "享界S9",
+      "entity_level": "具体配置",
+      "brand": "享界",
+      "series": "S9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "图片上方显著位置标注了“鸿蒙智行”Logo以及“STELATO 享界 S9”字样"
+        },
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "车头引擎盖前沿印有“STELATO”字样，表明其身份为享界品牌"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "宝马",
+      "entity_level": "品牌",
+      "brand": "宝马",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I5",
+          "source_type": "image_summary",
+          "quote": "这是一张展示宝马（BMW）车型前排座舱内部视角的照片"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为目前的智能驾驶水平虽有所提高，但仍只能称为辅助驾驶，距离真正的智能驾驶还有差距。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "虽然智能驾驶的水平有了很大提高，但是，就其目前情况来看，智能驾驶只能称作辅助驾驶，离真正的智能驾驶还有许多路要走"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者明确表示不会在拥挤的城市道路高峰期使用智能驾驶，原因是感到担心。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的选择是“不”。 这是因为...我们上下班通勤时间，一般都是城市最拥挤的道路高峰期，这期间使用智能驾驶的话，我感觉还是有点担心。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在城市最拥挤的道路高峰期进行上下班通勤。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我们上下班通勤时间，一般都是城市最拥挤的道路高峰期"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者表示在车流量相对较低的高速公路自驾游过程中，可以使用智能驾驶来缓解长途驾驶疲劳，对此持接受态度。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果有车流量相对低点的高速公路上，在我自驾游的过程中，通过使用智能驾驶来缓解一下长途驾驶的疲劳，这种情况下我还是可以接受。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在车流量相对较低的高速公路上进行自驾游。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "如果有车流量相对低点的高速公路上，在我自驾游的过程中"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了智能驾驶在不同环境下的适用性。作者认为当前智能驾驶仍属辅助驾驶，因此拒绝在拥挤的城市高峰时段使用，但接受在车流量较低的高速公路自驾游中使用以缓解疲劳。配图展示了多款新能源及传统燃油车型的宣传图或实拍图。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

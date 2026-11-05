@@ -1,0 +1,833 @@
+{
+  "schema_version": "2.3",
+  "post_id": "cf23c37260d957a3",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7低趴溜背无框车门回头率拉满"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "Tesla Model 3",
+      "entity_level": "车系",
+      "brand": "Tesla",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米这波把Model 3逼到墙角了"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "对比特斯拉model 3轴距更长后排腿更松快"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪汉EV",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "汉EV",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "对比比亚迪汉ev轿跑外观辨识度更高"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7外观颜值高，低趴溜背和无框车门设计回头率高。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "颜值能打...小米su7低趴溜背无框车门回头率拉满"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7底盘调校扎实，转向精准，路感清晰，城市穿梭灵活。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "前双叉臂后五连杆底盘调校扎实转向精准路感清晰，城市穿梭灵活得像条泥鳅"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "城市道路行驶",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "城市穿梭灵活得像条泥鳅"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为小米SU7全系标配的高阶智驾在高速自动变道、跟车以及早晚高峰拥堵路况下表现省心省力。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "全系标配高阶智驾高速自动变道跟车省心省力，早晚高峰堵车智能跟车不用来回踩踏板"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "高速公路及早晚高峰拥堵路段",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "高速自动变道跟车省心省力，早晚高峰堵车智能跟车"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者认为小米SU7的800V高压快充速度快，配合家用充电桩通勤成本低。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "800v高压快充补能快过刷短视频，有家充桩通勤一周充一次电费低到忽略不计"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "日常通勤，使用家用充电桩",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有家充桩通勤一周充一次"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的HyperOS车机与手机、智能家居无缝流转，语音识别响应快。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "hyperos车机跟小米手机智能家居无缝流转，语音连续指令识别快过人脑反应"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7溜背造型导致后排头部空间压缩，身高超过1米8的乘客乘坐会顶头，且长途腿部伸展空间不足。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "溜背造型好看是真好看但后排头部空间被压缩，身高超过1米8的坐后面顶头长途腿撑不足"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "后排乘坐，特别是身高超过1米8的乘客及长途行驶",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "身高超过1米8的坐后面顶头长途腿撑不足"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者指出小米SU7底盘离地间隙偏小，在下地库、过减速带、乡村坑洼路及碎石路面时需要减速避让，容易蹭底盘。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "底盘离地间隙偏小下地库过减速带得减速避让，乡村坑洼路碎石路面容易蹭底盘"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "下地库、过减速带、乡村坑洼路及碎石路面",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "下地库过减速带得减速避让，乡村坑洼路碎石路面容易蹭底盘"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7标准版悬架偏运动，过烂路时后排颠簸感明显；高速时A柱风噪略大；全景天幕隔热偏弱导致夏天车内升温快；入门版后排无通风导致夏季闷热。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "标准版悬架偏运动过烂路后排颠簸感明显，高速a柱风噪略大静谧性还有提升空间。全景天幕原厂隔热偏弱夏天车内升温快得像烤箱。入门版后排没通风夏季闷热感明显"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "过烂路、高速行驶、夏季高温环境",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "过烂路后排颠簸感明显，高速a柱风噪略大...夏天车内升温快得像烤箱"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者指出在三四线城市，小米SU7的维保网点偏少，预约周期较长。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "三四线城市维保网点偏少预约周期长"
+        }
+      ],
+      "confidence": 0.85
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "无法判断",
+    "sentiment_intensity": "弱",
+    "usage_context": {
+      "summary": "三四线城市地区",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "三四线城市维保网点偏少"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C10",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为相比特斯拉Model 3，小米SU7轴距更长，后排腿部空间更宽松。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "对比特斯拉model 3轴距更长后排腿更松快"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": {
+      "product_ids": [
+        "P1",
+        "P2"
+      ],
+      "relations": [
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P2",
+          "aspect": "空间与舒适性",
+          "relation": "优于",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "对比特斯拉model 3轴距更长后排腿更松快"
+            }
+          ]
+        }
+      ]
+    },
+    "experience_basis": "无法判断",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的HyperOS与小米全家桶联动的流畅度优于特斯拉Model 3，且车内储物点位更丰富，座舱精致感更强。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "hyperos跟小米全家桶联动流畅度碾压，车内储物点位更丰富座舱精致感更强"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": {
+      "product_ids": [
+        "P1",
+        "P2"
+      ],
+      "relations": [
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P2",
+          "aspect": "智能座舱与车机",
+          "relation": "优于",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "hyperos跟小米全家桶联动流畅度碾压"
+            }
+          ]
+        }
+      ]
+    },
+    "experience_basis": "无法判断",
+    "sentiment_intensity": "强",
+    "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者指出小米SU7的800V快充效率领先特斯拉Model 3，但超充站密度不及特斯拉。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "800v快充效率领先...但超充站密度不及特斯拉"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": {
+      "product_ids": [
+        "P1",
+        "P2"
+      ],
+      "relations": [
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P2",
+          "aspect": "充电与补能",
+          "relation": "存在差异但方向不明",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "800v快充效率领先...但超充站密度不及特斯拉"
+            }
+          ]
+        }
+      ]
+    },
+    "experience_basis": "无法判断",
+    "sentiment_intensity": "无法判断",
+    "usage_context": null
+    },
+    {
+      "id": "C13",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者指出小米SU7在城市复杂路口的智驾策略偏激进，且高速电耗略高于特斯拉Model 3。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "城市智驾复杂路口偏激进，高速电耗略高"
+        }
+      ],
+      "confidence": 0.85
+    	,
+    "statement_type": "评价判断",
+    "comparison": {
+      "product_ids": [
+        "P1",
+        "P2"
+      ],
+      "relations": [
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P2",
+          "aspect": "智能驾驶",
+          "relation": "弱于",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "城市智驾复杂路口偏激进"
+            }
+          ]
+        },
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P2",
+          "aspect": "续航与能耗",
+          "relation": "弱于",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "高速电耗略高"
+            }
+          ]
+        }
+      ]
+    },
+    "experience_basis": "无法判断",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "城市复杂路口及高速公路",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "城市智驾复杂路口偏激进，高速电耗略高"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C14",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为相比比亚迪汉EV，小米SU7轿跑外观辨识度更高，底盘侧向支撑更强，且全系智驾硬件不缩水、快充峰值功率更高。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "对比比亚迪汉ev轿跑外观辨识度更高底盘侧向支撑更强，全系智驾硬件不缩水快充峰值功率更高"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": {
+      "product_ids": [
+        "P1",
+        "P3"
+      ],
+      "relations": [
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P3",
+          "aspect": "外观与内饰",
+          "relation": "优于",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "外观辨识度更高"
+            }
+          ]
+        },
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P3",
+          "aspect": "驾驶与操控",
+          "relation": "优于",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "底盘侧向支撑更强"
+            }
+          ]
+        }
+      ]
+    },
+    "experience_basis": "无法判断",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    },
+    {
+      "id": "C15",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7的后排头部空间不如比亚迪汉EV，通过性更差，且缺少外放电功能，影响了露营实用性。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "后排头部空间不如汉通过性更差，缺外放电功能露营实用性打折"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": {
+      "product_ids": [
+        "P1",
+        "P3"
+      ],
+      "relations": [
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P3",
+          "aspect": "空间与舒适性",
+          "relation": "弱于",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "后排头部空间不如汉"
+            }
+          ]
+        },
+        {
+          "subject_product_id": "P1",
+          "object_product_id": "P3",
+          "aspect": "驾驶与操控",
+          "relation": "弱于",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "通过性更差"
+            }
+          ]
+        }
+      ]
+    },
+    "experience_basis": "无法判断",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "露营场景",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "缺外放电功能露营实用性打折"
+        }
+      ]
+    }
+    },
+    {
+      "id": "C16",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者建议单人或双人通勤、小米生态用户及性能操控党适合购买小米SU7；但经常满载高个子乘客、跑烂路或对二手残值敏感的用户需慎重考虑。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "单人双人通勤小米生态用户性能操控党直接下单...经常满载高个子乘客跑烂路下地库的慎重...打算三五年换车的也得掂量"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "不适用",
+    "sentiment_intensity": null,
+    "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "有家充桩通勤一周充一次电费低到忽略不计"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "通勤像在开轨道车"
+      }
+    ],
+    "confidence": 0.95
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者详细分享了小米SU7的用车体验，肯定了其在底盘操控、智能驾驶、快充效率及生态互联方面的优势，但也指出了后排空间局促、底盘偏低易刮擦、部分配置缺失及三四线城市维保不便等缺点。文章还将其与特斯拉Model 3和比亚迪汉EV进行了多维度对比，并给出了针对不同人群（如通勤族、生态用户 vs 满载家庭）的购车建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

@@ -1,0 +1,629 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a829169c88ff6fcc",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 700km 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "700km 后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 700km 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "福特嘉年华",
+      "entity_level": "车系",
+      "brand": "福特",
+      "series": "嘉年华",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "福特嘉年华虽然空间小但着实好开"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "因为model3优惠3月底结束"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "极氪007",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "期间也考虑过007，那车太丑了跟个胖头鱼一样"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "P5",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "001还能看一下，当时优惠也不小，但是车太宽了我车位一边是柱子另一边是墙，不好倒，就放弃了"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购车预算约为25万元左右，主要用于家庭使用。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算大概25万左右，用车主要是家用"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7的空间满足自家四口人的需求，因为家庭成员平均身高较低（不到150cm），即使作者身高175cm也觉得空间够用。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我一家四口，还有2个娃，我最高175，全家平均身高还不到150，SU7的空间够够的。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者一家四口乘坐，成员平均身高低于150cm。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我一家四口，还有2个娃，我最高175，全家平均身高还不到150"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为小米SU7 PRO版的标配配置比特斯拉Model 3高出很多。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看看标配的配置已经比Model3高很多了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "看看标配的配置已经比Model3高很多了"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在特斯拉Model 3焕新版涨价、极氪007外观不满意、极氪001车身过宽不适合车位的情况下，等待小米SU7发布并最终决定购买。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "到了9月出了焕新版，价格26万起步 太夸张了，等降价等到12月底，小米发布会来了，看了发布会决定继续等下去。期间也考虑过007，那车太丑了跟个胖头鱼一样，001还能看一下，当时优惠也不小，但是车太宽了我车位一边是柱子另一边是墙，不好倒，就放弃了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者试驾小米SU7标准版后，对避震、操控和加速表现感到满意，并对车内模拟声浪效果印象深刻。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "避震、操控、加速都很满意，里面的模拟声浪让我眼前一亮，原来可以这么逼真，太有感觉了"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行试驾体验。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "订的标准版就试的标准版"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7的防晒玻璃效果好，相比之下特斯拉Model 3在试驾时车内较热，导致孩子在后排吵闹。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "钻到试驾车里后发现头顶一下子不热了...第一次觉得防晒玻璃还真管用，这里不得不喷特斯拉那个，试驾的时候晒的我老二在后排大吵大闹的。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T3",
+                "source_type": "text",
+                "quote": "第一次觉得防晒玻璃还真管用，这里不得不喷特斯拉那个，试驾的时候晒的我老二在后排大吵大闹的。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "晴天下午试驾，阳光强烈。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "站在太阳底下晒得满头的汗...抬头看了下天空，白晃晃的太阳还在那（约的下午一点试驾）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者以24.59万元的价格购买了小米SU7，未进行额外选配，享受了首发权益赠送的真皮座椅、25个音响和冰箱。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "价格就是24.59万，什么也没有选配，有那个首发权益嘛送的真皮座椅、25个音响、冰箱"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7的保险费用并不高，其购买的交强险、商险和驾乘意外险共计5300元，低于朋友燃油车（奥迪A4、沃尔沃S60）8000元至1万元的保费。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "强险、商险、驾乘意外险一共才5300，朋友的A4、S60不是8000就是1万，哪里贵了？"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者驾驶小米SU7从青岛回济南，全程约300多公里，其中90%为高速路段，保持120km/h车速并开启空调，实际行驶303公里后剩余电量32%，对能耗表现感到满意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "到家后这个电耗真是惊艳啊！300公里90%的高速，全程120，空调24-25度跑的。"
+        },
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "走的时候应该是充到93%左右吧，现在跑了303还剩32%,还是很满意的。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "青岛至济南高速往返，全程约300公里，90%为高速，车速120km/h，空调24-25度。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "我跟媳妇两个从青岛一路开回济南的，全程300多点公里 跑的青银-济潍高速，高速能占90%吧"
+          },
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "300公里90%的高速，全程120，空调24-25度跑的。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者指出小米SU7的哨兵模式非常耗电，开启时一晚可能消耗20-30公里续航，关闭后仅消耗1-2公里。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "然后是哨兵模式！ 这个是用电的大爷，一晚上自己掉二三十公里，现在关了一晚上才掉1-2公里，就这么离谱、"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆夜间停放，开启哨兵模式。",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "一晚上自己掉二三十公里"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者在贴膜过程中，技师操作不当导致车窗玻璃镀银层被划伤，更换玻璃需花费1045元，加上往返青岛的费用总计约1500-1600元，作者对此感到困扰。",
+      "sentiment": "负面",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T13",
+          "source_type": "text",
+          "quote": "我这个今天就被贴膜的师傅给划伤了，划上了好几道...问了售后 换一块玻璃价格1045元，我得开车青岛换来回高速费、电费乱七八糟的一千五六了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在贴膜店进行玻璃贴膜作业。",
+        "evidence": [
+          {
+            "block_id": "T13",
+            "source_type": "text",
+            "quote": "另外奉劝大家贴玻璃膜的时候千万要注意，我这个今天就被贴膜的师傅给划伤了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C12",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者指出小米SU7侧窗玻璃镀银层硬度较低，容易在清洁或贴膜时被划伤，且售后建议使用毛刷而非毛巾清洁玻璃。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T13",
+          "source_type": "text",
+          "quote": "其实并不是划伤的玻璃，而是玻璃的镀银层。贴膜店店长说他没想到小米的侧挡也有镀层 镀层的硬度是明显不如玻璃的，不干净的毛巾擦都有可能划伤。 小米售后说不建议贴膜，平时清理玻璃的时候不要用毛巾，我问他用什么 他说用毛刷。。。。头一次听说。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C13",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者提醒其他车主，由于小米SU7贯穿式尾灯中间缝隙较小，贴车衣时容易将尾灯中间部分撑裂，已有至少两位车主因此受损。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T13",
+          "source_type": "text",
+          "quote": "还有贴车衣的时候贯穿尾灯中间的部分，小米的缝隙很小，已经至少2个人发贴车衣时把尾灯中间弄裂的了，因为要往里塞车衣，大概是撑裂的。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T12",
+        "source_type": "text",
+        "quote": "买来今天第9天，我已经充了第二次充电了"
+      }
+    ],
+    "confidence": 0.95,
+    "age": 40,
+    "budget": "25万左右",
+    "preferences": [
+      "车辆必须好开",
+      "喜欢新鲜事物"
+    ]
+  },
+  "post_summary": "一位接近40岁的用户分享了购买小米SU7的经历。他因预算限制、家庭身材特点及对操控的追求，在对比特斯拉、极氪等车型后选择了小米SU7。文章详细记录了提车过程、保险费用、首次长途驾驶的能耗表现，以及遇到的贴膜划伤玻璃和哨兵模式耗电等问题。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

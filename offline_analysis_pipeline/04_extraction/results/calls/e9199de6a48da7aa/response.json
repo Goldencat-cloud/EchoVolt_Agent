@@ -1,0 +1,217 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e9199de6a48da7aa",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "直播中，雷军重点介绍了SU7 Pro版本的核心产品力"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "此前他明确表述为SU7标准版满电后从北京驶往上海的1300公里路程中仅充电一次"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小米17Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "17",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "当时小米多款产品（如小米17Pro“逆光之王”）的宣传采用“大字吸睛、小字标注限制条件或定义”的方式"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "雷军在直播中介绍SU7 Pro版本，强调其CLTC续航902公里、搭载96.3kWh磷酸铁锂电池及752V碳化硅高压平台，并以此为例阐述小米“反小字营销”的理念。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "直播中，雷军重点介绍了SU7 Pro版本的核心产品力：该车型CLTC续航里程达902公里，搭载96.3kWh磷酸铁锂电池，并采用752V碳化硅高压平台。针对续航里程数值精确到个位数这一细节，他专门强调，小米正全力践行“反小字营销”理念"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "雷军回应关于“1300公里只充一次电”的争议，称原意是SU7标准版从北京到上海1300公里路程中仅充电一次，指责该说法被恶意剪辑，并指出行业内多家友商也有类似宣传。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "他同时再次回应了“小米汽车1300公里只充一次电”的争议：此前他明确表述为SU7标准版满电后从北京驶往上海的1300公里路程中仅充电一次，却被恶意剪辑为“1300公里只充一次电”广泛传播，而类似表述在行业内多家友商的宣传中均有使用"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "文章指出“小字营销”争议源于2025年9月小米多款产品（如小米17Pro）的宣传方式，被网友质疑误导消费者，雷军承认其为行业陋习并承诺整改。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "据悉，“小字营销”争议始于2025年9月，当时小米多款产品（如小米17Pro“逆光之王”）的宣传采用“大字吸睛、小字标注限制条件或定义”的方式，被网友调侃为“雷式括号”，并被质疑存在“误导消费者”的嫌疑。此前雷军已在直播中直面该争议，承认其为行业陋习并承诺全面整改"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "文章结尾提出疑问，探讨精准标注能否成为行业常态，以及仅靠企业自律能否杜绝宣传套路，并询问读者是否有被误导的经历及对精准化的期待。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "对于消费者而言，“反小字营销”无疑是件好事，但也有人疑惑：“精准标注能成为行业常态吗？”“仅靠企业自律，能否真正杜绝宣传套路？”你是否遇到过被“小字标注”误导的消费经历？对于企业宣传的“精准化”，你又有怎样的期待？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "雷军直播解读新一代SU7并回应小字营销",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1月15日，小米集团创始人雷军通过直播对新一代SU7展开深度解读，同时再次回应了此前引发热议的“小字营销”相关话题"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "雷军在1月15日的直播中解读新一代SU7，并回应“小字营销”争议，强调小米坚持精准透明宣传。"
+    },
+    {
+      "id": "E2",
+      "name": "“小米汽车1300公里只充一次电”争议",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "他同时再次回应了“小米汽车1300公里只充一次电”的争议"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "雷军此前关于SU7标准版续航的表述被剪辑传播，引发关于宣传边界的争议。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了雷军在直播中解读新一代SU7 Pro并回应“小字营销”争议的事件。文中详细列举了SU7 Pro的技术参数，解释了“1300公里只充一次电”争议的来龙去脉，并探讨了汽车行业宣传规范及消费者如何辨别真实参数的问题。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

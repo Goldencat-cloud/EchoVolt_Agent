@@ -1,0 +1,172 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f9fac2e67581d40e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7：作为小米汽车的首款旗舰车型"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小鹏P7+",
+      "entity_level": "车系",
+      "brand": "小鹏",
+      "series": "P7+",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小鹏P7+：小鹏P7+以其高性价比和丰富的配置赢得了市场的青睐"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "福特烈马",
+      "entity_level": "车系",
+      "brand": "福特",
+      "series": "烈马",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "福特烈马：福特烈马以其独特的外观设计和强大的改装潜力"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "问界M9",
+      "entity_level": "车系",
+      "brand": "问界",
+      "series": "M9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "问界M9：作为年度最成功的豪华车型"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "奇瑞艾瑞泽8",
+      "entity_level": "车系",
+      "brand": "奇瑞",
+      "series": "艾瑞泽8",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "奇瑞艾瑞泽8：作为年度A级轿车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "长安启源A07",
+      "entity_level": "车系",
+      "brand": "长安",
+      "series": "启源A07",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "长安启源A07：作为年度畅销新能源车"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者列举了小米SU7、小鹏P7+、福特烈马、问界M9、奇瑞艾瑞泽8和长安启源A07作为2024年度车型候选，并简要说明了各车型入选的理由或市场表现。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2024年度车型包括以下几款?： ?小米SU7?：作为小米汽车的首款旗舰车型... ?小鹏P7+?... ?福特烈马?... ?问界M9?... ?奇瑞艾瑞泽8?... ?长安启源A07?..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子列举了小米SU7、小鹏P7+、福特烈马、问界M9、奇瑞艾瑞泽8和长安启源A07六款车型，称其为2024年度车型候选，并简述了各自的特点和市场表现。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

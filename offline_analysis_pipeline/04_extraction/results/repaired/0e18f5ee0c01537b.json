@@ -1,0 +1,509 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0e18f5ee0c01537b",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7后驱标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "后驱标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我是今年6月15号提的小米su7后驱标准版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "别克至境L7",
+      "entity_level": "具体配置",
+      "brand": "别克",
+      "series": "至境L7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "最开始我们家里看的是别克至境L7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "同时也对比了特斯拉Model 3"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "方程豹钛3",
+      "entity_level": "具体配置",
+      "brand": "方程豹",
+      "series": "钛3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "方程豹的钛3"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "方程豹钛7",
+      "entity_level": "具体配置",
+      "brand": "方程豹",
+      "series": "钛7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "钛7"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者于6月15日提车小米SU7后驱标准版，裸车价23.99万元，落地价25.39万元，保险费用6800元。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我是今年6月15号提的小米su7后驱标准版...裸车价是23.99w 落地下来25.39w...保险价格是6800元"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者原本倾向燃油车，后因看到小米SU7外观及店内体验转为考虑电车；在对比别克至境L7、特斯拉Model 3、方程豹钛3/钛7后，因不喜欢SUV风格、认为Model 3内饰简单空间小，最终坚定选择小米SU7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "最开始我对电车一点都不感冒...去店里看了一下，发现新能源车的智能化、舒适度是真的高！...同时也对比了特斯拉Model 3，方程豹的钛3、钛7。对比一圈下来，SUV的风格不是我想要的轿跑质感，特斯拉Model 3的内饰太过简单，车内空间也小，思来想去，还是最喜欢小米SU7。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "特斯拉Model 3的内饰太过简单，车内空间也小，思来想去，还是最喜欢小米SU7。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为该车动力强劲，5.28秒破百，运动模式下油门响应零延迟，底盘扎实，转向精准，高速变道稳定。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这车的动力真的很足，5.28秒的百米加速，开起来超车特别轻松。运动模式下，油门动力零延迟，特别的跟脚"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "整车底盘特别扎实，转向精准好操控，指哪打哪，快速路变道一点都不飘。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者在高速及快速路驾驶，体验运动模式和舒适模式。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "在高速上大家都跑120码...快速路变道一点都不飘。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出座椅偏硬，长途驾驶易导致腰臀酸痛，坐垫支撑不贴合身体，需携带腰靠缓解不适。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "座椅偏硬，长途驾驶腰酸臀部酸胀。单次高速连续开120公里，腰臀就会出现明显的酸痛感，它的坐垫支撑过于板正，不太贴合身体"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行长途高速驾驶，单次连续行驶约120公里。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "单次高速连续开120公里"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为原厂车载音响音质差，低音下潜浅，人声与伴奏分离度差，调节均衡器或使用网络参数均无明显改善。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "原厂车载音响的音质比较拉胯...它的低音下潜很浅，人声和伴奏分离度很差，均衡器高低音参数我调了很多次，也没有啥改善。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在通勤和出游途中听音乐。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "像我通勤、出游路上都必须听音乐"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者抱怨主驾左侧证件箱过小且易卡住证件，无法通过车机语音控制开启，仅能通过物理按键操作，长期使用担心损坏车身。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "主驾驶位左侧的证件箱太小，位置放不对就特别容易卡住...车机小爱也操作不了，只有物理按键，无法进行语音控制"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者反馈乘客易晕车，即使在最低动能回收档位下，市区跟车松电门仍有明显拖拽感，导致乘客出现反胃头晕，需开启防晕模式。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "乘客容易晕车...就算我把动能回收调到最低档位，市区30～40码跟车，松电门也有明显的拖拽减速力。实测没坐过这辆车的人，跑个15公里的市区公路，就会出现明显的反胃、头晕。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在市区道路（30-40km/h）跟车行驶，搭载乘客。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "市区30～40码跟车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为舒适模式省电，日常通勤往返20km，开空调情况下百公里电耗约13度，路况好时约11度；提车一个月跑高速及小区充电共花费240元，用车成本低。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "每天通勤往返20公里...百公里综合电耗大概13度，路况比较好走的情况下11度左右...这期间都是用的商用充电桩，加上平时在小区里充电一共才花了240块钱"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者日常通勤往返20公里，早晚高峰开空调；期间包含烟台到青岛高速及回老家行程。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "每天通勤往返20公里...跑了两趟烟台到青岛的高速，还回了一次老家跑的高速"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者称赞车机系统流畅，语音控制响应快，可实现导航、空调、车窗及后备箱控制，无需分心操作屏幕，安全性高。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "车机系统流畅，语音控制功能好用。语音唤醒小爱同学响应的速度特别快...日常操作都不用点屏幕，这一点在开车途中特别重要，我不用分心去操作屏幕，很安全。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在驾驶过程中使用语音控制功能。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "这一点在开车途中特别重要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为车辆外观颜值高，靛石绿配色受到各年龄段路人夸赞，出门氛围感和面子感强。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "它的外观颜值没得说，开着它走到哪儿都是焦点，上到六七十岁的大爷大妈，下到八九岁的小朋友没有不夸我这台靛石绿小米su7好看的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我是今年6月15号提的小米su7后驱标准版"
+      },
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "从提车到现在差不多一个月的时间，我跑了2200多公里"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好轿跑风格",
+      "重视车机智能化与舒适度",
+      "重视隔音效果"
+    ]
+  },
+  "post_summary": "车主分享小米SU7后驱标准版的提车经过及一个月左右的驾驶体验。作者对比多款竞品后选定该车，对其动力、底盘、隔音、车机流畅度及外观给予高度评价，但也指出了座椅偏硬、音响音质差、证件箱设计不合理及乘客易晕车等缺点。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

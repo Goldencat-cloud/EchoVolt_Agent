@@ -1,0 +1,136 @@
+{
+  "schema_version": "2.3",
+  "post_id": "560ba054758a7469",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "恭喜您成为SU7 Pro车主"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者认为小米SU7存在“堆料”不等于可靠的矛盾，指出其电池管理系统成本仅为行业均值的60%，且部分零部件品控堪忧。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "“堆料”≠可靠：871V碳化硅平台、25个扬声器等配置看似豪华，但电池管理系统成本仅为行业均值的60%，部分零部件品控堪忧。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者经历了一次OTA更新导致刹车参数重置，险些引发事故，由此意识到“软件定义汽车”带来的风险。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一次刹车参数重置的更新险些引发事故，让我意识到“软件定义汽车”的风险。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者批评小米SU7售后体系薄弱，指出外包维修点技术储备不足、客服响应迟缓，并与传统车企4S店的专业服务进行对比。",
+      "sentiment": "负面",
+      "journey_stage": "维修与售后",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "售后体系的薄弱：外包维修点技术储备不足，客服响应迟缓，与传统车企4S店的专业服务形成鲜明对比。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "恭喜您成为SU7 Pro车主"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "让我意识到“软件定义汽车”的风险"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了小米SU7 Pro的提车界面及实车照片，并结合用车经历批评了该车型在零部件品控、OTA更新安全性以及售后服务体系方面存在的问题。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

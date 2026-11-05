@@ -1,0 +1,14 @@
+# ── 密钥（.env.example 需入库，.env 严禁入库）──
+.env
+
+# ── Python ──
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# ── 运行期新产物（outputs/ 下的示例产出是随仓库发布的，只忽略 *_run 后缀）──
+outputs/**/*_run.json
+outputs/**/*_run.txt
+
+.local/

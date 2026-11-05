@@ -1,0 +1,183 @@
+{
+  "schema_version": "2.3",
+  "post_id": "78b6f4f86826b3bd",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在小米SU7大获全胜"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "二代车型（YU7）蓄势待发"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "雷军于2026年3月25日正式辞任金山云非执行董事及董事长职务。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2026年3月25日晚间...雷军正式辞任金山云非执行董事及董事长职务"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "其他",
+      "content": "作者认为雷军辞任金山云是因为在小米SU7成功及YU7即将上市的背景下，其个人精力有限，需将战略精力集中投入小米汽车生态链。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在小米SU7大获全胜、二代车型（YU7）蓄势待发的2026年，雷军的个人精力已近乎极限。从金山云这种重资产、长周期的业务中抽身，意味着他正将最后一份战略精力，全数梭哈在“小米汽车生态链”的终极博弈上。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "其他",
+      "content": "作者评价此次人事变动体现了金山云内部权力的平稳交接，并指出小米高管屈恒加入董事会保留了小米与金山云之间的关联想象空间。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "接任者邹涛是典型的“金山系”嫡系老将，这种人事安排既保证了战略的稳定性，也体现了金山云内部权力的平稳交接。更值得关注的是，小米高管屈恒同时加入董事会，这微妙地保留了小米与金山云之间“血脉连接”的想象空间。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "其他",
+      "content": "作者认为雷军淡出金山云有助于职业经理人团队应对亏损难题，减轻高期待值压力，是对公司的成全。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "雷军的“淡出”或许是为了让职业经理人团队能更从容地处理亏损难题，摆脱“大佬光环”下的高期待值压力。 雷军的离开，不是放弃，而是另一种形式的成全。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "雷军辞任金山云非执行董事及董事长",
+      "event_type": "企业与品牌动态",
+      "event_time": "2026-03-25",
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2026年3月25日晚间，一则公告引发资本市场震动，雷军正式辞任金山云非执行董事及董事长职务。"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "金山云在港交所公告 雷军因其他工作安排 已辞任非执行董事，自3月25日起生效"
+        }
+      ],
+      "confidence": 0.98,
+      "summary": "2026年3月25日，雷军正式辞任金山云非执行董事及董事长职务，邹涛接任董事长。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了雷军于2026年3月25日辞任金山云董事长一事。作者认为此举反映了雷军将精力集中于小米汽车业务，同时也标志着金山云管理层的平稳交接，有利于公司应对经营挑战。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

@@ -1,0 +1,347 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d386334ae74d6b6e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米 SU7、SU7 Ultra 和小米 YU7 三款车型将全部参展"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米 SU7、SU7 Ultra 和小米 YU7 三款车型将全部参展"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米 SU7、SU7 Ultra 和小米 YU7 三款车型将全部参展"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "Xiaomi Vision Gran Turismo",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": "Vision Gran Turismo",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Xiaomi Vision Gran Turismo也将于北京车展开启国内首秀"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "特斯拉Model Y",
+      "entity_level": "车系",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "业内普遍认为，它的核心假想敌只有一个，那就是销量霸主特斯拉Model Y。"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者转述雷军公布小米汽车2026北京车展参展阵容，包括小米SU7、SU7 Ultra、YU7及VGT概念车，并提供1:64合金车模和卡布里蓝饮用水领取活动。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军正式公布小米汽车2026北京车展的参展阵容， 小米 SU7、SU7 Ultra 和小米 YU7 三款车型将全部参展 ，同时 Xiaomi Vision Gran Turismo也将于北京车展开启国内首秀 ，观众还可以到展位领取 1:64 合金车模和卡布里蓝饮用水。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者引述业内普遍观点，认为小米YU7的核心竞争对手是特斯拉Model Y。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "业内普遍认为，它的核心假想敌只有一个，那就是销量霸主特斯拉Model Y。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P5",
+            "aspect": "品牌与口碑",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "业内普遍认为，它的核心假想敌只有一个，那就是销量霸主特斯拉Model Y。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者推断小米YU7上市后将在空间、三电技术和智驾能力等方面与Model Y、比亚迪及华为系SUV进行激烈对比，且定价策略将是决定胜负的关键因素。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "无论是空间布局、三电技术还是智驾能力，YU7势必会被拿来与Model Y、比亚迪以及华为系SUV进行像素级的对比。 定价策略将成为这场硬仗的最终胜负手。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者评价小米SU7 Ultra是提升品牌调性的性能图腾，认为其实车质感值得期待。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "一同登场的小米SU7 Ultra则是负责拔高品牌调性的性能图腾。...这台性能怪兽的实车质感值得期待。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为Xiaomi Vision Gran Turismo概念车的国内首秀展示了未来的技术储备和审美走向，具有强烈的科幻色彩。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "Xiaomi Vision Gran Turismo概念车的国内首秀，不仅是在秀设计肌肉，更是在向外界展示未来的技术储备和审美走向。 这种带有强烈科幻色彩的车型..."
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者指出展台赠送1:64合金车模和饮用水的营销策略引发了争议，有人认为这是创新，也有人认为是噱头，预计会引发两极分化的讨论。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "这种将汽车展台打造成网红属性的做法，究竟是创新还是噱头，势必会在各大论坛引发两极分化的口水战。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米汽车2026北京车展参展安排公布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军正式公布小米汽车2026北京车展的参展阵容， 小米 SU7、SU7 Ultra 和小米 YU7 三款车型将全部参展 ，同时 Xiaomi Vision Gran Turismo也将于北京车展开启国内首秀"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "雷军公布小米汽车将携SU7、SU7 Ultra、YU7及VGT概念车参加2026北京车展，并提供车模和水领取活动。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了小米汽车在2026北京车展的参展阵容，重点讨论了YU7与特斯拉Model Y的竞争关系、SU7 Ultra的品牌定位以及VGT概念车的技术展示。同时，文章探讨了展台赠送车模和水的营销策略可能引发的舆论争议及对品牌心智的影响。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

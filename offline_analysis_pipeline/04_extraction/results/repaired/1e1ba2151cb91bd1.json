@@ -1,0 +1,298 @@
+{
+  "schema_version": "2.3",
+  "post_id": "1e1ba2151cb91bd1",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7是一上线到现在我都喜欢的车型"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 MAX",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "MAX",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "感觉如果买SU7，好像还是得选顶配的MAX版本"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果选21万的标准版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "阿维塔06",
+      "entity_level": "车系",
+      "brand": "阿维塔",
+      "series": "06",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最好的备选是阿维塔06"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因担心2026年补贴政策减少且目前资金未攒够首付，决定不再等待，计划在近期购车以享受当前的购置税优惠政策。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "本来想着一是等攒够了首付，二是想着26年补贴政策会不会更多一些。没想到，钱还没攒够，补贴就全退坡了。所以也决定不等了，就这几天，至少还占个购置税的政策。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者自上线以来一直喜欢小米SU7，认为其颜值很高。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7是一上线到现在我都喜欢的车型，颜值确实在线"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者喜欢小米SU7电芯向下的设计，认为这种设置在车辆起火时能为自己争取逃生时间。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其次是喜欢它那个电芯向下的设置，万一真起火高低还给自己争取一点时间吧"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为如果要购买小米SU7，最好选择顶配MAX版本，因为只有MAX版本配备激光雷达，而低配和中配使用的是纯视觉辅助驾驶方案。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "感觉如果买SU7，好像还是得选顶配的MAX版本。一个是辅助驾驶的方案，低配和中配的是纯视觉方案，MAX才有激光雷达。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者认为小米SU7 21万标准版的电池供应商不确定，可能是宁德时代也可能是比亚迪刀片电池，这种不确定性增加了选购难度。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果选21万的标准版，还要仔细看看是不是宁德时代的电池，感觉这个选择就很难...可能抽到比亚迪的刀片电池"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为阿维塔06是更好的备选，因为其全系标配宁德时代电池、华为智驾和激光雷达，避免了小米SU7入门款的配置不确定性，且入门价约20万，相比小米SU7 MAX节省了约10万元。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后来看了一圈，最好的备选是阿维塔06，全系都是宁德时代的电池、华为智驾和激光雷达，这个就不用抽盲盒，而且入门的价格20万就可以搞定，足足省下了10万。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P4",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P4",
+            "object_product_id": "P2",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "入门的价格20万就可以搞定，足足省下了10万"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "第一辆车"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "钱还没攒够"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车辆安全性（如电池布局）",
+      "重视智能驾驶硬件配置（如激光雷达）",
+      "偏好特定电池供应商（宁德时代）",
+      "关注性价比"
+    ]
+  },
+  "post_summary": "作者计划购买人生第一辆车，原本心仪小米SU7，但因担心入门款电池供应商不确定及高阶智驾需选高价MAX版，转而看好阿维塔06，认为其配置透明且价格更具优势。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

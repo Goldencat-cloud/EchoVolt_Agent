@@ -1,0 +1,189 @@
+{
+  "schema_version": "2.3",
+  "post_id": "50cc839d43fd4051",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7被列入风险车型清单一样"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者认为关于小米汽车被处罚1.2亿的报道是造谣，并对相关谣言表达不满。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "造谣小米被处罚1.2亿"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "造谣小米被处罚1.2亿"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米SU7被列入风险车型清单的报道也是造谣，并将其与前述处罚谣言相提并论。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7被列入风险车型清单一样"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7被列入风险车型清单一样"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为针对汽车的造谣后果严重，不同于手机领域，暗示小米可能会进行严厉追责。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这两件事你以为只是小米会追责吗？你以为这是小米手机，你随便造个谣，小米法务忍一忍就过去了，这玩意是汽车。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "网传小米汽车因路测数据造假被罚1.2亿",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "顶部标题为“惊爆！小米汽车路测数据造假遭坐实 工信部重拳开出1.2亿罚单”"
+        },
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "造谣小米被处罚1.2亿"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "图片说明描述了一篇新闻截图，称工信部对小米汽车开出1.2亿罚单，指控其伪造路测数据；作者在文中将此定性为造谣。"
+    },
+    {
+      "id": "E2",
+      "name": "网传小米SU7被列入车险风险车型清单",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "指出小米SU7被列入“新势力重点观测车型”（第3类风险等级）"
+        },
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7被列入风险车型清单一样"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "图片说明描述了一条微博截图，引用所谓监管公告称小米SU7被列为高风险车型并需加装监测设备；作者在文中将此定性为造谣。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者针对网传小米汽车被罚1.2亿及小米SU7列入风险车型清单的两则消息，明确表示其为造谣。作者认为汽车行业造谣后果严重，不同于手机行业，暗示品牌方将进行严肃追责。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

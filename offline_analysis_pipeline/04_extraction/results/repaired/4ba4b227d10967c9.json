@@ -1,0 +1,265 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4ba4b227d10967c9",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "亲历小米/深圳 SU7 Ultra 先锋分享会"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "SU7 Max",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "尾部标识清晰可见“SU7 Max”"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7 Ultra的外观设计流畅，具有科技感，空气动力学套件和碳纤维装饰彰显了其赛道底蕴。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "那流畅线条勾勒出的车身...空气动力学套件、碳纤维装饰，无不彰显着其赛道王者的底蕴。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在小米SU7 Ultra先锋分享会现场驻足观赏车辆。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "有幸参与小米 SU7 Ultra 先锋分享会"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者陈述小米SU7 Ultra搭载三电机系统，综合功率1548马力，零百加速1.98秒，并在纽北赛道创下6分46秒874的四门车圈速纪录。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "搭载的三电机系统，综合功率高达 1548 马力，零百加速仅需 1.98 秒...在纽北赛道以 6 分 46 秒 874 的成绩，刷新了四门车的圈速纪录"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者在专业车手驾驶的试乘环节中，体验到小米SU7 Ultra极强的推背感、高速行驶时的稳定性、精准的操控以及强大的制动系统。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "在专业车手的驾驶下，真切感受到了小米 SU7 Ultra 的极致性能...强大的制动系统能在短时间内将车速平稳降下来"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者参加分享会的试乘环节，由专业车手驾驶。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "试乘环节堪称整场分享会的高潮。在专业车手的驾驶下"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者的孩子在参观后表达了想要购买小米SU7 Ultra的愿望，作者对此感到欣慰并认为这激发了孩子对科技的好奇心。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "孩子还一步三回头地望着小米 SU7 Ultra，跟我说：“妈妈，以后我们也买一辆这样的车好不好？”"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者带孩子参加分享会，离场时与孩子对话。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "离场时，孩子还一步三回头地望着小米 SU7 Ultra"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者观察到现场其他车迷和科技爱好者对小米SU7 Ultra的评价非常积极，有人表示其性能超出想象，有人表示对其有了更全新的认识。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "与现场其他车迷和科技爱好者交流，大家都对小米 SU7 Ultra 赞不绝口。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在分享会现场与他人交流。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "与现场其他车迷和科技爱好者交流"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra深圳先锋分享会",
+      "event_type": "展会与行业活动",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有幸参与小米 SU7 Ultra 先锋分享会，小米汽车销售服务中心（深圳深业车城店）"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米在深圳深业车城店举办了SU7 Ultra先锋分享会，包含车辆展示、试乘体验和互动交流等环节。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "以后我们也买一辆这样的车好不好"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "家庭用车",
+      "高性能电动车"
+    ]
+  },
+  "post_summary": "作者分享了带孩子参加小米SU7 Ultra深圳先锋分享会的经历，描述了车辆的外观、性能参数及试乘体验，并记录了现场其他参会者的积极反馈和孩子对该车的喜爱。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

@@ -1,0 +1,34 @@
+{
+  "experiment": "AUTO016 single-v23-full",
+  "model": "qwen3.8-27b",
+  "prompt": "full-v2.3.md",
+  "schema": "output.schema.json",
+  "planned_posts": 9701,
+  "closed_posts": 9701,
+  "parsed": 9667,
+  "contract_pass": 9147,
+  "failures": 554,
+  "pending": 0,
+  "interrupted_before_retry": 11,
+  "retry_results": {
+    "attempted": 11,
+    "contract_pass": 10,
+    "failed": 1
+  },
+  "tokens": {
+    "prompt_tokens": 101492093,
+    "completion_tokens": 13576219,
+    "total_tokens": 115068312
+  },
+  "cached_tokens": 85451072,
+  "cache_hit_ratio": 0.8419480717576688,
+  "usage_unknown": 25,
+  "semantic_accuracy": "NOT_MEASURED",
+  "elapsed_s_original": 5956.542816162109,
+  "limitations": [
+    "契约通过率不是语义准确率",
+    "保留11条中断原始记录并各重试一次",
+    "失败记录不自动修复或补造证据"
+  ],
+  "generated_at": "2026-10-17T03:48:14.379805+00:00"
+}

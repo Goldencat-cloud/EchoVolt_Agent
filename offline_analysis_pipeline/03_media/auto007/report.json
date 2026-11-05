@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-10T10:08:21.813183+00:00",
+  "change_id": "auto-007-irrelevant-context-reanalysis",
+  "model": "qwen3.8-27b",
+  "summary": {
+    "total": 798,
+    "success": 797,
+    "failed": 1,
+    "error_counts": {
+      "schema_mismatch": 1
+    },
+    "context_relevance_counts": {
+      "有关": 630,
+      "无关": 161,
+      "证据不足": 6
+    },
+    "expanded_count": 0,
+    "insufficient_evidence_count": 6,
+    "confidence_mean": 0.9452,
+    "confidence_min": 0.1,
+    "confidence_max": 1.0
+  },
+  "outputs": {
+    "results_final": "G:\\AutoInsight-context-experiment\\results_final.jsonl",
+    "comparison_jsonl": "G:\\AutoInsight-context-experiment\\comparison.jsonl",
+    "comparison_csv": "G:\\AutoInsight-context-experiment\\comparison.csv",
+    "stratified_eval": "G:\\AutoInsight-context-experiment\\stratified_eval.json",
+    "html": "G:\\AutoInsight-context-experiment\\auto-007_before_after_comparison.html"
+  },
+  "notes": [
+    "变化不代表改进；增强后的质量仍需新的独立人工判断。",
+    "technical_failure 与 证据不足 为不同状态，前者会由 resume 重试。",
+    "100 个人工标签仅用于离线分层，从未进入模型输入。"
+  ]
+}

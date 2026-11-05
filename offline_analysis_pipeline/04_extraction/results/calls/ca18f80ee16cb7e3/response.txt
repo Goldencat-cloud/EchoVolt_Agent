@@ -1,0 +1,194 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ca18f80ee16cb7e3",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上个月车展在su7上看到了后期加装的空调物理按键和氛围灯"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "雷克萨斯",
+      "entity_level": "品牌",
+      "brand": "雷克萨斯",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对比了下轻豪车系列的雷克萨斯等车型也大量保留空调物理按键"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者在车展上看到小米SU7后期加装的空调物理按键和氛围灯，认为这种设计让氛围感显著提升。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上个月车展在su7上看到了后期加装的空调物理按键和氛围灯 氛围感确实一下子拉满"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在上海车展现场观察车辆",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "上个月车展在su7上看到了后期加装的空调物理按键和氛围灯"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者指出汽车空调虽被定义为舒适性功能，但前除霜除雾等细分功能直接影响驾驶安全，属于核心安全相关功能，且是强制法规要求。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "汽车空调被定义为舒适性功能，但实际上某些细分功能和设计会直接影响驾驶安全，比如前除霜除雾是核心安全相关，安全等级达到五颗星，也是强制法规要求"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为保留空调物理按键具有操作直观、便于盲操、可靠性强、用户体验友好及减少分心等优势，有助于提升驾驶安全性。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "空调保留物理按键有明显优势： 1️?操作直观高效、便于盲操、缩短反应时间、提升驾驶安全性 2️?可靠性强、故障或者极端天气下抗干扰性强、寿命也更长 3️?用户体验友好、独立按键优先级高 4️?减少分心 更安全"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出保留物理按键也存在缺点，包括成本与维护投入更高，以及对设计灵活性造成一定限制。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "保留物理按键当然也有不好的地方 首先成本与维护上需要投入更多，另外，设计灵活的也有一定限制"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者建议在智能化潮流下，高频使用的空调物理按键（如温度、风量、开关、前除霜）仍应保留在便捷位置。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在时代潮流的更迭中，高频使用的空调物理按键比如温度、风量、开关、前除霜等还是要保留在便捷位置"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者基于在上海车展看到小米SU7加装空调物理按键的经历，探讨了汽车空调物理按键的重要性。文章分析了物理按键在驾驶安全、操作便利性及可靠性方面的优势，同时也指出了其在成本和设计灵活性上的劣势，最后建议高频使用的空调功能应保留物理按键。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

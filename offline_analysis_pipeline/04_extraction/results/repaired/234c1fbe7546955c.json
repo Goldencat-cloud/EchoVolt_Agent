@@ -1,0 +1,347 @@
+{
+  "schema_version": "2.3",
+  "post_id": "234c1fbe7546955c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我选的是标准版赤霞红21.99"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者因外观设计吸引而选择SU7，认为其车漆颜色、车身线条、前脸和大灯设计辨识度高且美观。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "之所以选择SU7，第一眼就被外观设计吸引过去了，好看的车漆颜色，流畅的车身线条，再加那个很灵动的前脸和大灯设计，辨识度拉满"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者在首次试驾中体验良好，认为车内装饰细节精致舒适，行驶静谧性好，智能语音助手响应便捷。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一次预约试驾的时候体验感受就非常好，车内装饰细节很精致、舒服，行驶在路上车内又很静谧...智能一体化，需要做什么直接呼叫小爱同学一键搞定"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行首次预约试驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第一次预约试驾的时候"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为车辆续航满足通勤需求，实际使用中约一周充电一次，且充电速度快，不到半小时充满。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "首先续航对于我来说完全够用...基本一周充一次电就行，而且充电也很快，不到半小时就充满了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者日常通勤使用。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "实际用下来通勤使用完全不担心"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者评价车辆动力强劲，舒适模式市区平顺，运动模式接近燃油车感觉，底盘调校偏运动，过弯跟随性好，处理颠簸干脆。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "动力很好，舒适模式下在市区很平顺，运动模式下就跟油车用车感觉差不多，底盘调校偏运动，过弯都跟的上，过减速带或者坑洼路段都处理的干脆"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在城市道路及包含减速带/坑洼路段的日常驾驶中。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "舒适模式下在市区很平顺...过减速带或者坑洼路段都处理的干脆"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出由于溜背造型，后排头部空间受限，身高178cm以上人员易触顶，且后排坐垫偏短导致大腿支撑不足，不适合多人长途乘坐。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最想吐槽后排空间吧，因为是溜背造型，后排头部空间被压缩得厉害。身高178以上的人坐进去，头顶基本会扫到车顶...后排坐垫也偏短，大腿支撑不足，长途久坐容易累"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者评估后排乘坐空间，特别是针对身高178cm以上乘客及长途乘坐场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "身高178以上的人坐进去...长途久坐容易累"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者发现雨刮器自动感应灵敏度不佳，小雨时刮动频繁而大雨时反而间歇刮动，需手动调节。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雨刮器的自动感应感觉迟钝不灵活，有时候毛毛雨猛刮，大雨反而间歇刮，需要手动调节"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在不同降雨强度下使用雨刮器自动感应功能。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "有时候毛毛雨猛刮，大雨反而间歇刮"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者观察到无线充电板发热明显，放置iPhone半小时有时触发温度警告。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "还有无线充电板发热很明显，我的iPhone放半小时有时候会弹温度警告"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者将iPhone放置在车辆无线充电板上充电。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我的iPhone放半小时有时候会弹温度警告"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者建议车友慎选米色内饰，因其虽视觉舒适但极不耐脏，使用后易显旧，作者因此加装了全包座椅套。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在选择内饰上面还尽量不要选米色，我选择的砂陶米虽然给人感觉很舒服，但是实在是太不耐脏了，用车没多久就包浆了，后来又加装了全包座椅套"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者日常使用车辆期间观察内饰清洁状况。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "用车没多久就包浆了"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "提车作业"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "用车真实感受"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "注重外观设计",
+      "注重内饰质感与舒适度"
+    ]
+  },
+  "post_summary": "车主分享小米SU7标准版的提车及用车体验。作者因外观和试驾体验入手该车，肯定了其动力、静谧性及智能座舱表现，但也指出了后排空间局促、雨刮感应不准、无线充电发热及米色内饰不耐脏等问题。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

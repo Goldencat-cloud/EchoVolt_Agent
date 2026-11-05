@@ -1,0 +1,204 @@
+{
+  "post_id": "b1a697854c5fae80",
+  "state": "CONTRACT_PASS",
+  "cache_key": "976cec493e2cf4fda6baf2531b40ae1fc891891e5af0bf51b22874bfc3fe7ee8",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "b1a697854c5fae80",
+    "products": [
+      {
+        "id": "P1",
+        "name": "SU7",
+        "entity_level": "车系",
+        "brand": null,
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "SU7没那么差"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者表示提车初期因网络负面评价感到担忧，但经过日常通勤、长途驾驶和早高峰使用后，认为车辆小问题很少，质量表现良好。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "刚提车那会儿也紧张，毕竟网上骂的声音不小...看得我心里直打鼓。"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "天天开着上下班，跑过长途，挤过早高峰，小问题没遇到几个，质量这块真没得挑。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者进行日常上下班通勤、长途驾驶以及早高峰时段行驶。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "天天开着上下班，跑过长途，挤过早高峰"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者评价车辆车身结实，关门声音厚实，内饰用料不廉价。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "车身结实，关门声听着就踏实，内饰用料也没抠门。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者指出该车相比2025年新出的车型，在2024年的配置上显得较旧，例如缺少变色天幕和座椅按摩等功能，但认为这些缺失不影响日常使用体验。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "现在都2025年了，回头看它24年的配置，确实有些地方显得老一点。比如没有变色天幕，没有座椅按摩...但这些东西，日常用其实够了，没到影响体验的地步。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为网络上存在针对该车型的有组织负面攻击（水军），这些人并非真实车主且言论模板化，导致真实车主需要花费精力解释，作者呼吁潜在买家不要被此类噪音误导。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "最让我反感的是，有些人专门在网上集中黑它，说法都一个模子刻出来的，明显不是真实车主...别让水军毁了一辆本该被公平看待的好车。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "刚提车那会儿也紧张"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "天天开着上下班"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者作为SU7车主，反驳了网络上关于车辆质量的负面传言。基于日常通勤和长途驾驶的亲历经验，作者肯定了车辆的质量和做工，但也承认其配置相比新款略显老旧。作者批评了疑似水军的恶意抹黑行为，并建议潜在买家通过试驾和咨询真实车主来获取客观信息。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "user_context/evidence/2:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10730,
+    "completion_tokens": 1689,
+    "total_tokens": 12419,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 7.985729599997285,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

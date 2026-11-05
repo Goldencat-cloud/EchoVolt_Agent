@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0183defbca8af753",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者计划为刚提的车贴膜，因预算有限，寻求性价比高且具备隔绝紫外线和防晒隔热功能的国产窗膜推荐。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近打算给刚提的车贴膜，预算有限，想看看有没有性价比高的国产窗膜可以选。有谁知道哪些牌子的窗膜质量不错，主要就是隔绝紫外线和防晒隔热这方面"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "最近打算给刚提的车贴膜"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好高性价比",
+      "重视隔绝紫外线",
+      "重视防晒隔热"
+    ]
+  },
+  "post_summary": "作者刚提车，因预算有限，正在寻找性价比高的国产窗膜，主要关注隔绝紫外线和防晒隔热功能。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

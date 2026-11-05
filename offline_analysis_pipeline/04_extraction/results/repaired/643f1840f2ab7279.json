@@ -1,0 +1,327 @@
+{
+  "schema_version": "2.3",
+  "post_id": "643f1840f2ab7279",
+  "products": [
+    {
+      "id": "P1",
+      "name": "比亚迪汉L",
+      "entity_level": "具体配置",
+      "brand": "比亚迪",
+      "series": "汉",
+      "model_year": null,
+      "version": "L",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "比亚迪汉L"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪汉系列",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "汉",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "比亚迪汉系列"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者正在关注比亚迪汉L和小米SU7，认为需要从车祸数据和维保事件角度仔细考量这两款车型。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近一直在关注比亚迪汉L和小米SU7，从车祸数据和维保事件来看，这两款车还真得好好琢磨琢磨。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "作者转述称，2023年4月5日一起比亚迪汉系列车辆在包茂高速发生事故致驾驶员死亡，原因是撞杆后起火且隐藏式门把手无法打开。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "比亚迪汉系列在2023年4月5日发生的那起致人死亡事故...当时驾驶员驾车撞上包茂高速指示牌铁杆后车辆起火，而隐藏式门把手在关键时刻打不开，导致驾驶员不幸遇难。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者认为隐藏式门把手虽然美观且降低风阻，但在紧急情况下若无法正常开启会导致严重后果，存在安全隐患。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "隐藏式门把手这种设计，在美观和降低风阻上确实有优势，可一旦遇到紧急情况无法正常开启，那后果不堪设想。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "作者列举了小米SU7自上市以来的多起事故案例，包括2025年1月在吉林辽源和宁波发生的两起事故，以及2024年12月的两起事故。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "2025年1月2日在吉林辽源，一辆小米SU7与出租车猛烈相撞致侧翻；1月6日在宁波，试驾车辆与闯红灯电动自行车碰撞致骑车人受伤。2024年同样有多起事故发生..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者指出小米SU7在部分事故中表现出较好的安全性（如人员仅受轻伤），但因事故频发，对其整体稳定性表示担忧。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "虽说从这些事故中能看出小米SU7在部分情况下安全性表现不错，但事故频发，难免会让人心里犯嘀咕，怀疑这车的整体稳定性是不是真有点“毛躁”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者对比两款车，认为比亚迪技术底蕴深厚，小米在智能配置上有独特优势，两者互为竞争对手，需看谁能更快解决现存问题。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "比亚迪在新能源领域深耕多年，技术底蕴深厚；小米作为科技新势力，在智能配置方面有着独特的优势。在市场上，它们肯定是棋逢对手..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "品牌与口碑",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "比亚迪在新能源领域深耕多年，技术底蕴深厚；小米作为科技新势力，在智能配置方面有着独特的优势。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "2023年4月比亚迪汉系列高速致死事故",
+      "event_type": "交通事故与公共安全",
+      "event_time": "2023-04-05",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "比亚迪汉系列在2023年4月5日发生的那起致人死亡事故...当时驾驶员驾车撞上包茂高速指示牌铁杆后车辆起火，而隐藏式门把手在关键时刻打不开，导致驾驶员不幸遇难。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "2023年4月5日，一辆比亚迪汉系列车辆在包茂高速撞击指示牌铁杆后起火，因隐藏式门把手无法打开导致驾驶员死亡。"
+    },
+    {
+      "id": "E2",
+      "name": "小米SU7多起交通事故报道",
+      "event_type": "交通事故与公共安全",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "2025年1月2日在吉林辽源，一辆小米SU7与出租车猛烈相撞致侧翻；1月6日在宁波，试驾车辆与闯红灯电动自行车碰撞致骑车人受伤。2024年同样有多起事故发生..."
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "作者列举了小米SU7在2024年底至2025年初的多起交通事故案例，包括侧翻、碰撞受伤及轻微损伤等情况。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "最近一直在关注比亚迪汉L和小米SU7"
+      },
+      {
+        "block_id": "T4",
+        "source_type": "text",
+        "quote": "对咱中年大叔来说，买车是大事"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "注重车辆安全",
+      "追求省心踏实"
+    ]
+  },
+  "post_summary": "作者作为中年男性购车者，正在对比比亚迪汉L和小米SU7。文章详细列举了两款车型近期的车祸案例，分析了比亚迪隐藏式门把手的安全隐患及小米SU7事故频发的现象，同时肯定了双方的技术优势，表达了对车辆安全性和稳定性的关切。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

@@ -1,0 +1,303 @@
+{
+  "post_id": "7019eb26140e189e",
+  "state": "FAILED",
+  "cache_key": "8c4ff77b5d2273d68de7f722abff95008051a993d96ae47a4be2e2ac4aa80842",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "7019eb26140e189e",
+    "products": [
+      {
+        "id": "P1",
+        "name": "特斯拉",
+        "entity_level": "品牌",
+        "brand": "特斯拉",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "本来，品牌效应和市场检验后，特斯拉蛮有优势的"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "小米",
+        "entity_level": "品牌",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相对来说，小米是性价比更高"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "名爵MG4EV",
+        "entity_level": "车系",
+        "brand": "名爵",
+        "series": "MG4EV",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我是在名爵MG4EV和比亚迪海豚之间徘徊不定"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "比亚迪海豚",
+        "entity_level": "车系",
+        "brand": "比亚迪",
+        "series": "海豚",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我是在名爵MG4EV和比亚迪海豚之间徘徊不定"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "明确影响判断",
+        "aspect": "价格与成本",
+        "content": "作者推测部分原本准备购买特斯拉的用户会转而购买小米，理由是特斯拉涨价而小米性价比更高，这一价格变动构成了用户决策的转折点。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "目测一部分准备下手特斯拉的用户会转战小米"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特斯拉竟然逆势涨价...对那些之前还徘徊不定的人来说，恐怕就是一个很大的转折点了"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为特斯拉虽然品牌优势明显，但价格较贵；相比之下，小米的性价比更高。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特斯拉蛮有优势的...不过定价也是贵的，相对来说，小米是性价比更高"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "价格与成本",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "相对来说，小米是性价比更高"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "作者当前使用对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者分享了自己之前的购车经历：在名爵MG4EV和比亚迪海豚之间犹豫，后因比亚迪海豚涨价、名爵MG4EV降价，最终选择了名爵MG4EV。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我之前买车的时候，也是在名爵MG4EV和比亚迪海豚之间徘徊不定，后来比亚迪海豚涨价，MG4EV降价了，一下子就抛弃了海豚，下手了MG4EV"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "背景提及对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为新能源汽车领域与燃油车不同，外资品牌不一定占优，反而可能是国产品牌更有优势，因此具有爱国情怀的消费者可能会选择小米。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "新能源可能就是反过来的。所以很多具有爱国情怀的人可能就是选小米了！"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "特斯拉逆势涨价",
+        "event_type": "价格与销售政策",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特斯拉竟然逆势涨价"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "作者指出特斯拉进行了价格上涨操作，并将其视为营销策略上的失误。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "下手了MG4EV"
+        }
+      ],
+      "confidence": 0.8,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者预测特斯拉涨价会导致部分潜在买家转向小米，并结合自己曾因价格波动从比亚迪海豚转向名爵MG4EV的经历进行类比。作者认为小米性价比高，且在新能源领域国产品牌更具吸引力。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "products/P3/evidence/0:non_contiguous_quote",
+    "products/P4/evidence/0:non_contiguous_quote",
+    "claims/C4/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "products/P3/evidence/0:non_contiguous_quote",
+    "products/P4/evidence/0:non_contiguous_quote",
+    "claims/C4/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10465,
+    "completion_tokens": 2254,
+    "total_tokens": 12719,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 10.234210900001926,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

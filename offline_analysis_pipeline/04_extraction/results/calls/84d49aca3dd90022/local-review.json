@@ -1,0 +1,426 @@
+{
+  "post_id": "84d49aca3dd90022",
+  "state": "FAILED",
+  "cache_key": "81a6118bec53e7c8997d7d10cd2cdc8f6d4bdbb7be03486623bff7ee716d9fe7",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "84d49aca3dd90022",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "极氪001",
+        "entity_level": "车系",
+        "brand": "极氪",
+        "series": "001",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "极氪001"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P3",
+        "name": "某想",
+        "entity_level": "品牌",
+        "brand": "某想",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "某想"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者实车体验极氪001后，认为其操控手感不满意，具体表现为上电起步略有延迟，加速虽快但输出不稳定流畅，存在卡顿情况。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "实车体验过，操控手感不是很满意。上电起步略微有些延迟，加速是快，但输出不是很稳定流畅，有卡顿情况。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者原本看中极氪001，但因操控体验不佳转而关注小米SU7并等待其上市，自认是米粉并对雷军造车持看好态度。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "后来看到了小米SU7，就等着了。本人也算是米粉，对雷总造车还是比较看好的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7的外观造型设计更具超跑风范，在车身比例、大灯及轮包视觉感受上比极氪001更帅气。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "再看它的外观造型设计，也确实更有超跑风范。不管是车身比例、大灯还是那种肌肉感轮包，确实看起来更有那味道。至少视觉上，感觉要比极氪更帅。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "外观与内饰",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "至少视觉上，感觉要比极氪更帅。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为小米SU7的智能人车家生态功能超出预期，视其为科技公司造车的天然优势，能提升生活、出行的智能、便利与安全水平。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "看发布会展示，要比预期的还要更牛批一点。这算是科技公司造车自带的天然优势吧。科技赋能生活，让生活、出行更智能、便利、安全。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者推测小米SU7的实际使用体验及智能驾驶表现应该不错，但承认目前尚不清楚实际效果。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "就是不知道实际使用体验如何，包括智能驾驶之类的，应该也不错。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者对比指出小米SU7宣称15分钟充电续航510公里，认为这比某想车型宣称的10分钟充电续航500公里更为出色且低调。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "15分钟续航510公里这是真的牛！前段时间某想出的那个车充电10分钟续航500公里就要吹爆了，还没小米SU7这么给力低调呢。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "充电与补能",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "还没小米SU7这么给力低调呢。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为小米SU7公布的定价相比某想车型55万起步的价格更加亲民接地气，虽然未达到20万的预期，但仍属惊喜。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "而且那车要加55万起步，这小SU7公布的价格，算是惊喜的了。20万是不敢想的，但这价格也确实接地气了。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "价格与成本",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "这小SU7公布的价格，算是惊喜的了。"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者强烈期待试驾小米SU7，推测官方可能会先安排媒体体验测评，随后开放用户试驾，甚至可能在赛道进行试驾。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "真的太想要试驾了...不知道什么时候可以开放用户试驾，估计会先给媒体体验测评。是真的期待住了！"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后来看到了小米SU7，就等着了。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "真的太想要试驾了"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "重视操控手感",
+        "偏好超跑风格外观",
+        "看重智能生态与便利性",
+        "关注充电效率",
+        "期望价格亲民"
+      ]
+    },
+    "post_summary": "作者分享了自己从看中极氪001但因操控体验不佳转而期待小米SU7的心路历程。文中详细对比了两车在外观、充电速度及价格方面的优劣，高度认可小米SU7的设计、智能生态及性价比，并表达了对即将进行的实车试驾的强烈期待。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C3/evidence/0:non_contiguous_quote",
+    "C3/comparison/0/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C3/evidence/0:non_contiguous_quote",
+    "C3/comparison/0/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10853,
+    "completion_tokens": 3439,
+    "total_tokens": 14292,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 14.78919739999401,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

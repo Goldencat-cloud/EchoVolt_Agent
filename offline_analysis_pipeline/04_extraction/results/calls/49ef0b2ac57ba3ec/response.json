@@ -1,0 +1,177 @@
+{
+  "schema_version": "2.3",
+  "post_id": "49ef0b2ac57ba3ec",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的小米SU7后备箱真的超出我的预期"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7的后备箱空间超出了预期，实际装载能力较好。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "实际用下来，我的小米SU7后备箱真的超出我的预期"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者在搬家场景中实测，发现小米SU7后备箱能容纳堆叠的纸箱和硬纸板，空间利用率高于预期。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这次地下室搬纸箱...后备箱打开，堆叠纸箱、硬纸板都能塞进去，空间利用率比我想象的要好不少"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行地下室搬家，装载纸箱和硬纸板。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "这次地下室搬纸箱"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出由于溜背造型限制，小米SU7后备箱开口高度有限，不适合放置超高的大件物品，但足以应对普通纸箱、行李和杂物的装载需求。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "虽然溜背造型导致开口高度有限，超高的大件不好放，但普通纸箱、行李、杂物完全hold得住"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者将小米SU7与旅行车对比，承认其容积不如旅行车夸张，但认为其在兼顾轿车颜值的同时，满足了家用应急装货的需求。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "没有旅行车那么夸张的容积，但家用应急装货完全够用。颜值和实用性兼顾"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我的小米SU7"
+      },
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "换了轿跑"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "兼顾颜值与实用性",
+      "适合家用应急装货"
+    ]
+  },
+  "post_summary": "车主分享小米SU7后备箱的实际使用体验，反驳了轿跑车型储物空间小的刻板印象。通过搬家和日常通勤的实例，作者认为该车虽不及旅行车容积大，但空间利用率高，能很好地平衡轿跑的颜值与家用的装载实用性。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

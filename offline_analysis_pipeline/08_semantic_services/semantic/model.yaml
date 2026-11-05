@@ -1,0 +1,482 @@
+# AutoInsight 语义模型（唯一真源）
+#
+# 这个文件定义"业务概念怎么算"。代码只解释它，不重复它：指标名单、口径文案、
+# 维度枚举都不得出现在 Python 代码里。
+#
+# 表达式的约束：只能写列名、常量、比较与白名单运算；不得包含 SQL 关键字、
+# 语句分隔符或多条语句。语义视图与查询语句由构建/编译器生成。
+
+model_version: 2026-11-03.4
+schema: autoinsight-semantic-1
+
+snapshot:
+  # 相对 offline_analysis_pipeline/ 根目录。摘要由构建写入元信息，用于识别陈旧产物。
+  paths:
+    source_db: data/stock/db/ingestion.sqlite3
+    extraction: 04_extraction/results/contract-passed.jsonl.gz
+    mentions: 05_normalization/results/mention-mapping.jsonl.gz
+    taxonomy: 05_normalization/results/taxonomy.json
+
+# ---------- 数据集：一行代表什么 ----------
+datasets:
+  claim:
+    relation: semantic_claim
+    source: fct_claim
+    grain: claim
+    primary_key: claim_id
+    entity: [claim, post]
+    population: experience
+    description: 一条观点声明。态度的基本单位，也是引用与取证的单位。
+
+  claim_product:
+    relation: semantic_claim_product
+    source: fct_claim_product
+    grain: claim_product
+    primary_key: [claim_id, product_id]
+    entity: [claim, product]
+    population: experience
+    description: 一条观点 × 一个被提及车型。一条观点提到 N 个车型就有 N 行，因此不能加回观点条数。
+
+  post:
+    relation: semantic_post
+    source: dim_post
+    grain: post
+    primary_key: post_id
+    entity: [post, user]
+    description: 一次发言。声量的基本单位；时间、作者、拥有状态都挂在这里。
+
+  mention:
+    relation: semantic_mention
+    source: fct_mention
+    grain: mention
+    primary_key: [post_id, product_id]
+    entity: [post, product]
+    description: 一条"帖子 × 产品提及"。独立成表，避免提及塞进帖子后重复计数。
+
+  product:
+    relation: semantic_product
+    source: dim_product
+    grain: product_node
+    primary_key: node_id
+    entity: [product]
+    description: 产品层级节点（品牌 / 车系 / 配置），是一棵树而非平行字段。
+
+  user:
+    relation: semantic_user
+    source: dim_user
+    grain: user
+    primary_key: user_id
+    entity: [user]
+    description: 发言者。地域维度暂不开放，见 design.md 开放问题。
+
+# ---------- 关系：谁连谁、会不会放大 ----------
+relationships:
+  - name: claim_to_post
+    from: {dataset: claim, field: post_id}
+    to: {dataset: post, field: post_id}
+    cardinality: many_to_one
+    note: 多条观点属于同一次发言
+
+  - name: post_to_user
+    from: {dataset: post, field: author_id}
+    to: {dataset: user, field: user_id}
+    cardinality: many_to_one
+
+  - name: post_to_mention
+    from: {dataset: post, field: post_id}
+    to: {dataset: mention, field: post_id}
+    cardinality: one_to_many
+    note: 一条帖子可提多个产品；经此路径聚合必须先降到帖子或提及粒度
+
+  - name: mention_to_product
+    from: {dataset: mention, field: product_id}
+    to: {dataset: product, field: node_id}
+    cardinality: many_to_one
+
+  - name: claim_product_to_claim
+    from: {dataset: claim_product, field: claim_id}
+    to: {dataset: claim, field: claim_id}
+    cardinality: many_to_one
+    note: 车型归属行指回观点；按观点维度切片经此路径，不会放大
+
+  - name: claim_product_to_product
+    from: {dataset: claim_product, field: product_id}
+    to: {dataset: product, field: node_id}
+    cardinality: many_to_one
+    note: 多归属的正确路径：连的是"观点×车型"，不是"帖子×提及"
+
+# ---------- 口径阶梯：每个数字属于哪一级样本 ----------
+# parent 表示包含关系；source=rule 可重算，source=frozen 由构建期导入且不可本地重算。
+populations:
+  extracted:
+    dataset: claim
+    source: rule
+    note: 全部抽取结果，未做任何范围筛选
+
+  su7_linked:
+    dataset: claim
+    source: rule
+    parent: extracted
+    filter: has_su7_target = 1
+    note: 观点的目标产品中包含小米 SU7
+
+  su7_primary:
+    dataset: claim
+    source: rule
+    parent: su7_linked
+    filter: su7_is_main_target = 1 AND competing_main = 0 AND evidence_ok = 1 AND is_comparison = 0
+    note: SU7 是主要讨论对象，且无竞品同时作为主要对象，且引文回挂校验通过
+
+  experience:
+    dataset: claim
+    source: rule
+    parent: su7_primary
+    filter: claim_type IN ('产品体验与评价','故障与风险')
+    note: 仅体验评价与故障风险两类说法；对外主口径
+
+  firsthand:
+    dataset: claim
+    source: rule
+    parent: experience
+    filter: experience = '明确亲历'
+    note: 说话人明确表示亲历
+
+  curated:
+    dataset: claim
+    source: rule
+    parent: su7_primary
+    filter: (ownership = '当前拥有' AND experience = '明确亲历' AND journey IN ('拥有与日常使用','维修与售后','交付与上手') AND claim_type IN ('产品体验与评价','故障与风险')) OR (ownership = '明确未拥有' AND journey = '购车前' AND claim_type IN ('购车与交易决策','产品体验与评价','故障与风险'))
+    note: 精选样本 =「拥有者亲历体验」与「未拥有者购车前表达」两条分支的并集，两支都落在 su7_primary 之内（第一支额外限定为体验类说法，因此同时落在 experience 之内）；ownership 为帖子属性，在事实行上物化一份仅供成员判定，切片仍走 post 维度
+
+# ---------- 维度：怎么切、取值从哪来 ----------
+dimensions:
+  aspect:
+    dataset: claim
+    column: aspect
+    type: categorical
+    label: 关注话题
+    enum_source: query
+    excluded: [政策与市场, 无法判断]
+    null_label: 未标注
+    description: 这条观点谈的是哪个方面
+
+  sentiment:
+    dataset: claim
+    column: sentiment
+    type: categorical
+    label: 反馈倾向
+    enum_source: static
+    enum: [正面, 负面, 中性, 正负混合, 不明确]
+    alias:
+      混合: 正负混合
+    null_label: 未标注
+    description: 观点的情感方向；别名表把旧接口的"混合"归一到规范值
+
+  claim_type:
+    dataset: claim
+    column: claim_type
+    type: categorical
+    label: 说法类型
+    enum_source: query
+
+  journey:
+    dataset: claim
+    column: journey
+    type: categorical
+    label: 用户所处阶段
+    enum_source: query
+
+  experience:
+    dataset: claim
+    column: experience
+    type: categorical
+    label: 亲历程度
+    enum_source: query
+
+  ownership:
+    dataset: post
+    column: ownership_status
+    type: categorical
+    label: 车辆持有情况
+    enum_source: query
+    description: 发言者自述的拥有状态；属于人的属性，因此放在帖子而非观点上
+
+  claim_id:
+    dataset: claim
+    column: claim_id
+    type: entity
+    label: 观点标识
+    enum_source: query
+    description: 用于取证与报告引用
+
+  time_month:
+    dataset: claim
+    column: month
+    type: time
+    label: 发言月份
+    enum_source: query
+    grain: month
+    coverage: ["2022-10", "2026-10"]
+    description: 由发言时间派生，时区固定不做转换
+
+  product:
+    dataset: product
+    column: node_id
+    type: entity
+    label: 提及车型
+    enum_source: query
+    description: 产品树上的车型节点；按车型计数必须走 claim_product（观点×车型），经帖子直连提及会放大行数
+
+  product_label:
+    dataset: product
+    column: label
+    type: entity
+    label: 车型名称
+    enum_source: query
+    description: 车型节点的中文名；与 product 同用时保留标识与可读名
+
+# ---------- 指标：类型 + 口径 + 单位 + 可加性 ----------
+metrics:
+  claims:
+    label: 观点条数
+    type: simple
+    dataset: claim
+    population: experience
+    grain: claim
+    additive: true
+    agg: count
+    allowed_dimensions: [aspect, sentiment, claim_type, journey, experience, ownership, time_month]
+    synonyms: [观点数, 评价条数]
+
+  negative:
+    label: 负面观点条数
+    type: simple
+    dataset: claim
+    population: experience
+    grain: claim
+    additive: true
+    agg: count
+    filter: sentiment = '负面'
+    allowed_dimensions: [aspect, claim_type, journey, experience, ownership, time_month]
+    synonyms: [负向条数, 差评数]
+
+  negativeShare:
+    label: 负面观点占比
+    type: ratio
+    dataset: claim
+    population: experience
+    grain: claim
+    additive: false
+    numerator: negative
+    denominator: claims
+    allowed_dimensions: [aspect, claim_type, journey, experience, ownership, time_month]
+    synonyms: [负面率, 负向占比, 差评率]
+    description: 体验类观点口径；比率不可跨分组相加
+
+  posts:
+    label: 相关帖子数
+    type: simple
+    dataset: claim
+    population: experience
+    grain: post
+    additive: true
+    agg: count_distinct
+    field: post_id
+    allowed_dimensions: [aspect, claim_type, journey, experience, ownership, time_month]
+    synonyms: [帖子数, 声量]
+
+  negativePosts:
+    label: 含负面观点的帖子数
+    type: simple
+    dataset: claim
+    population: experience
+    grain: post
+    additive: true
+    agg: count_distinct
+    field: post_id
+    filter: sentiment = '负面'
+    allowed_dimensions: [aspect, claim_type, journey, experience, ownership, time_month]
+
+  productClaims:
+    label: 观点×车型条数
+    type: simple
+    dataset: claim_product
+    population: experience
+    grain: claim_product
+    additive: true
+    agg: count
+    allowed_dimensions: [aspect, sentiment, claim_type, journey, experience, ownership, time_month, product, product_label]
+    synonyms: [车型观点数, 各车型观点量]
+    description: 一条观点提到 N 个车型时计 N 次（多归属）；不可加回观点条数
+
+  productNegative:
+    label: 观点×车型负面条数
+    type: simple
+    dataset: claim_product
+    population: experience
+    grain: claim_product
+    additive: true
+    agg: count
+    filter: sentiment = '负面'
+    allowed_dimensions: [aspect, claim_type, journey, experience, ownership, time_month, product, product_label]
+
+  productNegativeShare:
+    label: 负面观点占比（观点×车型）
+    type: ratio
+    dataset: claim_product
+    population: experience
+    grain: claim_product
+    additive: false
+    numerator: productNegative
+    denominator: productClaims
+    allowed_dimensions: [aspect, claim_type, journey, experience, ownership, time_month, product, product_label]
+    synonyms: [各车型负面率]
+    description: 多归属口径；与 experience 口径的负向占比不是同一个数
+
+  productPosts:
+    label: 提及该车型的帖子数
+    type: simple
+    dataset: claim_product
+    population: experience
+    grain: post
+    additive: true
+    agg: count_distinct
+    field: post_id
+    allowed_dimensions: [aspect, claim_type, journey, experience, ownership, time_month, product, product_label]
+    synonyms: [车型声量]
+    description: 按帖子去重：同一条帖子多个观点提到同一车型只计一次
+
+  curatedClaims:
+    label: 精选观点条数
+    type: simple
+    dataset: claim
+    population: curated
+    grain: claim
+    additive: true
+    agg: count
+    allowed_dimensions: [aspect, sentiment, claim_type, journey, experience, ownership, time_month]
+
+  curatedNegative:
+    label: 精选负面观点条数
+    type: simple
+    dataset: claim
+    population: curated
+    grain: claim
+    additive: true
+    agg: count
+    filter: sentiment = '负面'
+    allowed_dimensions: [claim_id, aspect, claim_type, journey, experience, ownership, time_month]
+
+  curatedNegativeShare:
+    label: 负面观点占比（精选）
+    type: ratio
+    dataset: claim
+    population: curated
+    grain: claim
+    additive: false
+    numerator: curatedNegative
+    denominator: curatedClaims
+    allowed_dimensions: [aspect, claim_type, journey, experience, ownership, time_month]
+    synonyms: [精选负面率]
+    description: 精选样本口径；与 experience 口径不可混用
+
+# ---------- 命名查询：查询协议的固定组合 ----------
+saved_queries:
+  negative_share_by_aspect:
+    summary: 各议题的负面观点占比与排名（体验口径）
+    metrics: [negativeShare]
+    dimensions: [aspect]
+    order: [{field: negativeShare, dir: desc}]
+    limit: 16
+
+  aspect_scope_compare:
+    summary: 单一议题的观点级占比与帖子级计数并列（口径对照）
+    metrics: [negativeShare, claims, negative, posts, negativePosts]
+    dimensions: [aspect]
+    filters: {aspect: $aspect}
+    params:
+      aspect: {type: aspect, required: true}
+    limit: 5
+
+  curated_sentiment_mix:
+    summary: 指定议题精选观点的情感结构
+    metrics: [curatedClaims]
+    dimensions: [sentiment]
+    population: curated
+    filters: {aspect: $aspect}
+    params:
+      aspect: {type: aspect, required: true}
+    limit: 10
+
+  top_negative_claims:
+    summary: 指定议题的精选负面观点标识（用于取证）
+    metrics: [curatedNegative]
+    dimensions: [claim_id]
+    population: curated
+    filters: {aspect: $aspect}
+    params:
+      aspect: {type: aspect, required: true}
+    order: [{field: claim_id, dir: asc}]
+    limit: 8
+
+  journey_distribution:
+    summary: 指定议题精选观点的用户阶段分布
+    metrics: [curatedClaims]
+    dimensions: [journey]
+    population: curated
+    filters: {aspect: $aspect}
+    params:
+      aspect: {type: aspect, required: true}
+    limit: 20
+
+  ownership_experience_mix:
+    summary: 指定议题精选观点的拥有状态与亲历程度交叉分布
+    metrics: [curatedClaims]
+    dimensions: [ownership, experience]
+    population: curated
+    filters: {aspect: $aspect}
+    params:
+      aspect: {type: aspect, required: true}
+    limit: 50
+
+  co_mention_products:
+    summary: 指定议题相关帖子中提及的车型（按帖子去重）
+    metrics: [productPosts]
+    dimensions: [product, product_label]
+    filters: {aspect: $aspect}
+    params:
+      aspect: {type: aspect, required: true}
+    order: [{field: productPosts, dir: desc}]
+    limit: 20
+
+  product_claim_volume:
+    summary: 指定议题下各车型的观点量（一条观点提到多个车型时各计一次）
+    metrics: [productClaims, productNegative, productNegativeShare]
+    dimensions: [product, product_label]
+    filters: {aspect: $aspect}
+    params:
+      aspect: {type: aspect, required: true}
+    order: [{field: productClaims, dir: desc}]
+    limit: 20
+
+  negative_claims_by_month:
+    summary: 指定议题精选负面观点的月度分布
+    metrics: [curatedNegative]
+    dimensions: [time_month]
+    population: curated
+    filters: {aspect: $aspect}
+    params:
+      aspect: {type: aspect, required: true}
+    order: [{field: time_month, dir: asc}]
+    limit: 60
+
+  snapshot_overview:
+    summary: 快照元信息（版本、摘要、构建时间、各级口径规模）
+    kind: meta
+
+# ---------- 策略：查询的硬上限与禁止面 ----------
+policies:
+  max_rows: 200
+  max_dimensions: 2
+  thin_sample_threshold: 5
+  forbid: ["staging_*", "fct_*", "dim_*"]

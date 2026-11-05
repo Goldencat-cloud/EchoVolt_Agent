@@ -1,0 +1,355 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7465bc643f4c6659",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7试驾感受"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "林肯航海家油混",
+      "entity_level": "具体配置",
+      "brand": "林肯",
+      "series": "航海家",
+      "model_year": null,
+      "version": "油混",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "我林肯航海家油混几乎没有这股味道"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "问界M9",
+      "entity_level": "具体配置",
+      "brand": "问界",
+      "series": "M9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "试驾问界M9和M7后"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "问界M7",
+      "entity_level": "具体配置",
+      "brand": "问界",
+      "series": "M7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "试驾问界M9和M7后"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "智界S7",
+      "entity_level": "具体配置",
+      "brand": "智界",
+      "series": "S7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "看到一辆luxeed智界s7"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7车内空间显得憋屈，内饰塑料感较强，且试驾车仍有刺激性气味。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "虽然还是能闻到新车的那种刺激性气味...这个近5米的车，怎么觉得很憋屈，看看俩边，塑料感很强"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在小米汽车门店进行静态体验和试驾。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "进入车仓，坐上副驾"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7的方向盘手感较重，不如自己的林肯航海家油混轻盈，缺乏电车的丝滑感。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "驾驶起来，觉得方向盘很重，比我的航海家油混还重，丝毫没有开电车的那种丝滑轻柔的感觉"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "驾驶与操控",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "比我的航海家油混还重"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者对比了自己驾驶的林肯航海家油混与试驾的小米SU7。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "比我的航海家油混还重"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为问界的华为智驾表现不错，但出于安全顾虑不敢长期使用；同时认为问界的自动泊车功能远好于其林肯航海家。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "试驾过程中觉得华为智驾确实还是不错的...如果经常用它，我还是不敢的...问界自动泊车做得非常好，比我的林肯航海家油混好的太多了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P4",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P2",
+            "aspect": "智能驾驶",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "问界自动泊车做得非常好，比我的林肯航海家油混好的太多了"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者试驾了问界M9和M7，并与自己的林肯航海家进行了对比。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "后面在我试驾问界M9和M7后"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者计划为妻子更换车辆，因此前往小米门店进行试驾。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "想给媳妇换个车子，昨天在高德地图搜了下附近的小米汽车服务店"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者观察到智界S7外形漂亮、内饰简洁，认为适合女性驾驶。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "看到一辆luxeed智界s7，这车外型设计得还是很漂亮的，内部也非常简洁，女孩子开应该不错的"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在小米门店外观察到了停放的智界S7。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我跑到店外溜达，看到一辆luxeed智界s7"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T3",
+        "source_type": "text",
+        "quote": "我林肯航海家油混几乎没有这股味道"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "想给媳妇换个车子"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好SUV车型",
+      "关注车辆异味情况"
+    ]
+  },
+  "post_summary": "作者记录了为妻子选车期间试驾小米SU7的经历。他对SU7的空间、内饰质感及方向盘手感持负面评价，认为其不如自己的林肯航海家舒适轻盈。同时，他在文中对比了问界车型的智驾与泊车优势，并表达了对长期依赖自动驾驶的安全担忧。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

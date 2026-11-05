@@ -1,0 +1,220 @@
+{
+  "schema_version": "2.3",
+  "post_id": "73c02ade7731178a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2026款 标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2026款 标准版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "YU7",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当初YU7刚刚上市的当晚"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者在未试驾的情况下，因长期关注并偏爱小米汽车，在YU7上市当晚盲下订单；后因订单积压未交付，在第二代SU7上市时利用改配准现车机会，基于单人通勤场景及对SU7颜值、轿跑姿态的偏好，最终选定SU7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但我从小米汽车还没有官宣、第一代车型还没正式发布的时候，就一直在默默关注，心里始终偏爱小米汽车。当初YU7刚刚上市的当晚，重来都没试驾过小米汽车，就第一时间盲下定，满心期待提车。奈何当时订单太多、手速跟不上，再加上各种客观原因，一路等到了第二代SU7上市了都还没交付，后期刚好赶上可以改配准现车，我认真斟酌了自己的用车场景，日常基本都是自己一个人通勤代步，比较少载人出行。对比了同价位的各种SUV和轿车，还是被SU7的颜值和轿跑姿态打动，整车线条流畅高级，视觉质感完全碾压同级别SUV。最终敲定配色，外色选了经典耐看的靛石绿，内饰选择沉稳的黑色，轮毂选的大家都喜欢的梅花。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者记录了小米SU7 2026款标准版的购车费用：裸车价245400元，保险7000元，落地总价252400元，享受购置税补贴10000元，并认为老订单转单的优惠力度较大。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "不喜欢讲价，这种统一一口价最适合我了，裸车价245400，加上7000保险，落地一共252400，购置税直接补贴10000，老订单转单的优惠力度相当给力。"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者提车后认为车辆颜值很高，符合选车初衷。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "很符合选车初衷，颜值太哇塞了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者作为新手司机，认为车辆动力响应及时，易于驾驶。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我是新手司机，动力也响应也非常及时，好开爱开"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者指出小米APP默认的保险基础版配置缺少“三者外医保用药”项目，认为该配置容易误导消费者，虽然后续可自行修改加入，但仍视为一种“坑”。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "就是保险这块，保险按 照小米APP默认基础版配置，结果没有三者外医保用药，这个应该算是必买的吧，这个搭配有点会让人带坑里，还好后边可以修改把这项给加进去了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "2026款新一代SU7提车日记"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车过程"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "用车初体验"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好小米品牌",
+      "重视车辆颜值与轿跑姿态",
+      "适合单人通勤代步"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 2026款标准版的提车日记，详细描述了从盲订YU7到改配SU7的选车心路历程，记录了25.24万元的落地费用及购置税补贴情况。作者对车辆的高颜值和易驾性表示满意，但指出了APP默认保险配置缺失“三者外医保用药”的避坑经验。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

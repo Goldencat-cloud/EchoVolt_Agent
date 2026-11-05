@@ -1,0 +1,19 @@
+# Preserve snapshot bytes across Windows/Linux clones; hashes include line endings.
+* -text
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.sqlite3 binary
+*.gz binary
+*.png binary
+*.jpg binary
+# Frozen source/results are byte-preserved evidence, not newly formatted prose.
+data/** -diff -whitespace
+03_media/source_metadata/** -diff -whitespace
+03_media/auto007/** -diff -whitespace
+03_media/auto008/** -diff -whitespace
+04_extraction/frozen_inputs/** -diff -whitespace
+04_extraction/results/** -diff -whitespace
+04_extraction/upstream/** -diff -whitespace
+04_extraction/prompts/** -whitespace
+05_normalization/results/** -diff -whitespace
+06_reporting/** -whitespace
+docs/reference/** -whitespace

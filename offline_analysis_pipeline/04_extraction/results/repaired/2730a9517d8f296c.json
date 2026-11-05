@@ -1,0 +1,78 @@
+{
+  "schema_version": "2.3",
+  "post_id": "2730a9517d8f296c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 标准版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者拟以5000元的价格转让其持有的小米SU7标准版订单，若无买家则自行提车。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "5000出。。。要是没人买就自己提。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "个人订单转让"
+      },
+      {
+        "block_id": "I1",
+        "source_type": "image_summary",
+        "quote": "定金“¥ 5,000”（状态：已支付）"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "楼主在南京地区寻求转让一份小米SU7标准版的个人购车订单，报价5000元。帖子附带了订单详情截图，显示车辆正在生产中，预计还需5-8周交付。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

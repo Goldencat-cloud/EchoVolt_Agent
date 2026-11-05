@@ -1,0 +1,18 @@
+[
+ {
+  "name": "ownership",
+  "question": "车主和潜在用户的负面关注点有什么差异？分别给1条有代表性的原话。",
+  "status": "failed",
+  "wall_s": 177.4,
+  "clarify": 0,
+  "tools": null,
+  "tool_errors": null,
+  "code_failures": null,
+  "submit_attempts": null,
+  "gate_rejections": null,
+  "report_chars": 0,
+  "evidence": 0,
+  "charts": 0,
+  "error": "{'error': 'RuntimeError: 深度分析未完成：Agent 未提交通过门禁的报告。最终消息：分析本身已跑通并经校验（精选观点样本：潜在用户负面 127/522 条、占 24.3%，其中价格与成本 32 条为第一大类；车主负面 66/297 条、占 22.2%，其中空间与舒适性 21 条为第一大类），但报告未能发布：计划中两个需要引文佐证的分项因取证明细未按议题授权而无法取得证据记录，工具错误预算已用尽，报告门禁两次以“"
+ }
+]

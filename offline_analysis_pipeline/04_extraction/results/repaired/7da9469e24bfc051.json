@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.3",
+  "post_id": "7da9469e24bfc051",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者指出一起涉及三名00后女性大学生的死亡事故中，涉事车辆为小米SU7。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一、死的是“00后”大学生，性别女，三位... 二、小米SU7最近很火"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米SU7事故之所以引人关注，是因为受害者身份特殊（00后女性大学生）、品牌近期热度极高以及若非该品牌则关注度较低（暗示品牌效应放大了舆论）。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "为什么小米SU7事故这么引人关注？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "二、小米SU7最近很火，现在更火，火到惨烈级别； 三、如果不是小米SU7，那就是一起单方事故..."
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7致三人死亡交通事故",
+      "event_type": "交通事故与公共安全",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一、死的是“00后”大学生，性别女，三位"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "一起涉及小米SU7的交通事故导致三名00后女性大学生死亡。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子针对一起造成三名00后女性大学生死亡的小米SU7交通事故，分析了该事故为何引发高度关注的三个原因：受害者身份特殊、品牌近期热度极高以及品牌效应导致的舆论放大。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

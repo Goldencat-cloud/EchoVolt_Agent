@@ -1,0 +1,504 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a2036b145d89e10a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "领克10",
+      "entity_level": "车系",
+      "brand": "领克",
+      "series": "10",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "选了领克10"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "放弃小米SU7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "奥迪E5",
+      "entity_level": "车系",
+      "brand": "奥迪",
+      "series": "E5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "奥迪E5"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "极氪007 GT",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": "GT",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪007 GT"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "海豹08",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "海豹",
+      "model_year": null,
+      "version": "08",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "海豹08"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "保时捷Macan",
+      "entity_level": "车系",
+      "brand": "保时捷",
+      "series": "Macan",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上一台车是家里的保时捷Macan"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在预算20-25万范围内，经过对比后决定选择领克10，放弃小米SU7和奥迪E5。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "预算20万，为何我放弃小米SU7和奥迪E5选了领克10？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算20-25万，决赛圈五台车"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者强烈建议在领克10上选择不选“千里浩瀚H7”智驾包，而是选择运动包（轮毂+卡钳+尾翼），认为后者带来的感官体验更值。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "选配只看钱包厚度，但有一条铁律——“千里浩瀚H7”别碰，省下那一万块去选运动包（轮毂+卡钳+尾翼），提车那天你会隔着屏幕给我磕一个。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者之前的保时捷Macan车龄11年、16万公里，频繁出现故障，去年发动机烧机油，今年修变速箱，每年维修费用约2万元。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上一台车是家里的保时捷Macan...11年车龄，16万公里，不是正在修车就是在去修车的路上。去年发动机烧机油，今年修变速箱，每年固定2万“养老费”"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者选择领克10的重要原因之一是后排空间较大，能容纳婴儿座椅且家人乘坐腿部空间充足，相比奥迪E5有明显优势。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后排能装下“未来”：婴儿座椅装进去，老婆坐后面腿部还有两拳，比奥迪E5大出整整一个维度。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "比奥迪E5大出整整一个维度"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为领克10底盘扎实，路感清晰，高速稳定性好，制动细腻；但指出城区低速方向盘偏轻，且车辆存在轻微向右跑偏的问题（已预约售后）。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "底盘巨整！全铝前双叉臂+后多连杆，路感清晰到能告诉你压过的井盖是圆是方。高速拉到140km/h，稳如吸在地上...但是！ 城区低速方向盘太轻（即使调最运动模式），而且我这台车轻微向右跑偏（已约售后四轮定位）。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者描述了在城区、高速及山路综合路况下的驾驶体验，特别是高速140km/h的状态。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "以下体验基于城区+高速+山路综合路况"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者评价小米SU7（后驱版）驾驶质感极佳，车身虽大但操控灵活，方向盘指向精准，刹车脚感线性，且驾驶参数支持无极调节，可玩性高。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "🥇 第一名：小米SU7（后驱版）\n将近5米的车，开起来像台A级小车。方向盘指向精准到指尖，刹车脚感线性得像吸在脚上。最变态的是驾驶参数支持0-100%无极调节..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为领克10的仪表盘设计精致有仪式感，但车机UI逻辑不够跟手，期待OTA优化。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "· 领克10（赢在“克制”）：路特斯下放的那块细长条仪表盘，精致程度像是奢侈品腕表表盘，每次上车都有仪式感。...槽点：车机UI逻辑不够跟手，等OTA吧。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者实测领克10行驶1800公里后，城区电耗稳定在14.5kWh/100km，高速限速行驶时电耗为18kWh/100km，配合家充桩每月电费低于100元。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1800公里了，城区电耗稳定在14.5kWh/100km，高速顶着限速跑18kWh/100km，家充桩一插，每月电费不到100块。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在日常使用中记录了城区和高速两种工况下的能耗数据。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "城区电耗稳定在14.5kWh/100km，高速顶着限速跑18kWh/100km"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出在同配置下，小米SU7比领克10贵了4万多元，且认为SU7街车属性太强，不符合自己偏爱小众的需求。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "· 小米SU7：同配置比领克10贵了4万多，而且街车属性太强，我偏爱小众。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "价格与成本",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "同配置比领克10贵了4万多"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者透露领克10 816版加运动包的裸车价约为19.6万，自己享受置换和地补后裸车价为17.6万。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "· 领克10 816版+运动包：≈19.6万（我拿满置换+地补后裸车17.6万，不具备普适性，但足以见诚意）"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "1800公里了，城区电耗稳定在14.5kWh/100km"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "而且我这台车轻微向右跑偏（已约售后四轮定位）"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "20-25万",
+    "preferences": [
+      "偏好纯电轿车",
+      "重视驾驶质感和底盘反馈",
+      "偏好小众车型",
+      "需要后排空间容纳婴儿座椅"
+    ]
+  },
+  "post_summary": "车主分享了自己从保时捷Macan换购至领克10的决策过程。在20-25万预算下，对比了小米SU7、奥迪E5、极氪007 GT和海豹08，最终因领克10的运动包视觉效果、精致的仪表盘设计、扎实的底盘功底以及更大的后排空间而胜出。文章详细评测了各车型的优缺点，并给出了领克10的实际能耗数据和购车建议。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

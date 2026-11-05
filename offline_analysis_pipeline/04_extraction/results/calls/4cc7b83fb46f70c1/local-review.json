@@ -1,0 +1,165 @@
+{
+  "post_id": "4cc7b83fb46f70c1",
+  "state": "FAILED",
+  "cache_key": "7ac9d475b8d3f983bf17e634068caa05a491b748ab128eadeef6582684351859",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "4cc7b83fb46f70c1",
+    "products": [
+      {
+        "id": "P1",
+        "name": "丰田",
+        "entity_level": "品牌",
+        "brand": "丰田",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "肯定是丰田不好"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "奥迪",
+        "entity_level": "品牌",
+        "brand": "奥迪",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "还是奥迪不香"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "比亚迪",
+        "entity_level": "品牌",
+        "brand": "比亚迪",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "再或者是比亚迪不行"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "背景提及对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "背景提及对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "背景提及对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为某些情况“肯定不值”，并通过反问排除了丰田、奥迪和比亚迪品牌本身存在问题的可能性，暗示问题不在于这些品牌的品质或吸引力。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "肯定不值，难道是丰田不好，还是奥迪不香，再或者是比亚迪不行，"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "技术原理",
+        "content": "作者指出比亚迪拥有自己的整体技术。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "而且比亚迪还有自己的整体技术"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者针对“肯定不值”的情况进行反驳，认为这与丰田、奥迪或比亚迪的品牌实力无关，并特别强调了比亚迪具备自主的整体技术优势。",
+    "post_topic": "行业政策与市场",
+    "analysis_value": "低"
+  },
+  "errors": [
+    "products/P1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "products/P1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10010,
+    "completion_tokens": 1092,
+    "total_tokens": 11102,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 5.122768300003372,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

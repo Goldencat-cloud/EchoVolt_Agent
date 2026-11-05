@@ -1,0 +1,398 @@
+{
+  "schema_version": "2.3",
+  "post_id": "35b90460c4153084",
+  "products": [
+    {
+      "id": "P1",
+      "name": "特斯拉 Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "涵盖国产及进口的Model 3、Model Y、Model X、Model S"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉 Model Y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "涵盖国产及进口的Model 3、Model Y、Model X、Model S"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉 Model X",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model X",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "涵盖国产及进口的Model 3、Model Y、Model X、Model S"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "特斯拉 Model S",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model S",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "涵盖国产及进口的Model 3、Model Y、Model X、Model S"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7约39万辆"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P6",
+      "name": "零跑C11",
+      "entity_level": "具体配置",
+      "brand": "零跑",
+      "series": "C11",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "零跑C11和C01约37.1万辆"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "零跑C01",
+      "entity_level": "具体配置",
+      "brand": "零跑",
+      "series": "C01",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "零跑C11和C01约37.1万辆"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P8",
+      "name": "小鹏G6",
+      "entity_level": "具体配置",
+      "brand": "小鹏",
+      "series": "G6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小鹏G6/P7+/X9约26.57万辆"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P9",
+      "name": "小鹏P7+",
+      "entity_level": "具体配置",
+      "brand": "小鹏",
+      "series": "P7+",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小鹏G6/P7+/X9约26.57万辆"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P10",
+      "name": "小鹏X9",
+      "entity_level": "具体配置",
+      "brand": "小鹏",
+      "series": "X9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小鹏G6/P7+/X9约26.57万辆"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P8",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P9",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P10",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "国家市场监管总局发布召回公告，特斯拉、小米、零跑、小鹏、极氪、奇瑞新能源、东风、北汽蓝谷麦格纳、中国一汽九家车企共计427.6万辆车辆因车内应急机械拉手不易识别和操作而被召回。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "国家市场监管总局集中发布了一批召回公告...九家合计召回427.6万辆。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "全隐藏式门把手依赖低压电工作，在严重碰撞或起火导致整车断电时，电动外把手会失效，且车内应急机械拉手位置隐蔽、颜色与内饰一致，导致紧急情况下难以找到和操作。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "隐藏式门把手依赖低压电工作，一旦严重碰撞或起火导致整车断电，电动外把手完全失效...车内应急机械拉手位置隐蔽、颜色和内饰一致、没有醒目标识，慌乱中很难找到。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "数据显示，全隐藏式门把手在碰撞后能通过机械方式正常开启的概率仅为19%，而传统外露式机械门把手高达98%。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "有数据显示，全隐藏式门把手在碰撞后能通过机械方式正常开启的概率只有19%，而传统外露式机械门把手高达98%。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "安全与质量",
+      "content": "部分车主对召回整改措施表示不满，认为仅张贴警示标识是对消费者智商的侮辱。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "有车主吐槽\"召回整改机械门把手就弄一块贴纸，是侮辱智商吗\""
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E2",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为当前的召回措施（贴纸和OTA）只是临时补丁，真正解决问题的方案是即将执行的强制性国标GB48001-2026，该标准禁止全隐藏弹出式和全电子门把手。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "贴纸和OTA当然有用，但它们没触及根本...真正的解决方案是 今年1月28日批准发布的强制性国标GB48001-2026...427万辆召回是补丁，新国标才是根治。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "九家车企427.6万辆新能源车召回",
+      "event_type": "质量与召回",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "国家市场监管总局集中发布了一批召回公告...九家合计召回427.6万辆。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "国家市场监管总局发布公告，特斯拉、小米等九家车企因车门应急拉手安全隐患召回共计427.6万辆车辆。"
+    },
+    {
+      "id": "E2",
+      "name": "GB48001-2026《汽车车门把手安全技术要求》发布",
+      "event_type": "政策法规与行业标准",
+      "event_time": "2026-01-28",
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "今年1月28日批准发布的强制性国标GB48001-2026《汽车车门把手安全技术要求》"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "强制性国标GB48001-2026于2026年1月28日发布，规定车门外把手需保留特定尺寸的操作空间并配备机械释放功能，2027年起对新车型生效。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了近期九家车企因车门应急拉手安全隐患召回427.6万辆新能源车的事件。作者分析了全隐藏式门把手在断电情况下的安全风险，指出当前召回措施（贴纸、OTA）仅是临时手段，并强调新发布的强制性国标GB48001-2026才是解决此类安全问题的根本方案。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

@@ -1,0 +1,1009 @@
+{
+  "rule": "SU7 + top 8 explicitly compared non-Xiaomi series by unique posts, minimum 10 posts; brands only as ancestors or genuinely brand-only mentions",
+  "whitelist": [
+    [
+      "小米",
+      "SU7"
+    ],
+    [
+      "特斯拉",
+      "Model 3"
+    ],
+    [
+      "极氪",
+      "001"
+    ],
+    [
+      "极氪",
+      "007"
+    ],
+    [
+      "比亚迪",
+      "汉"
+    ],
+    [
+      "保时捷",
+      "Taycan"
+    ],
+    [
+      "尚界",
+      "Z7"
+    ],
+    [
+      "特斯拉",
+      "Model S"
+    ],
+    [
+      "阿维塔",
+      "12"
+    ]
+  ],
+  "counts": {
+    "in_scope": 10392,
+    "out_of_scope": 3686,
+    "unresolved": 734,
+    "excluded": 190
+  },
+  "candidates": [
+    {
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "posts": 201
+    },
+    {
+      "brand": "极氪",
+      "series": "001",
+      "posts": 73
+    },
+    {
+      "brand": "极氪",
+      "series": "007",
+      "posts": 63
+    },
+    {
+      "brand": "比亚迪",
+      "series": "汉",
+      "posts": 38
+    },
+    {
+      "brand": "保时捷",
+      "series": "Taycan",
+      "posts": 31
+    },
+    {
+      "brand": "尚界",
+      "series": "Z7",
+      "posts": 29
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Model S",
+      "posts": 28
+    },
+    {
+      "brand": "阿维塔",
+      "series": "12",
+      "posts": 27
+    },
+    {
+      "brand": "小鹏",
+      "series": "P7",
+      "posts": 26
+    },
+    {
+      "brand": "智界",
+      "series": "S7",
+      "posts": 25
+    },
+    {
+      "brand": "智己",
+      "series": "L6",
+      "posts": 24
+    },
+    {
+      "brand": "阿维塔",
+      "series": "06",
+      "posts": 24
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "posts": 23
+    },
+    {
+      "brand": "比亚迪",
+      "series": "汉L",
+      "posts": 19
+    },
+    {
+      "brand": "比亚迪",
+      "series": "汉EV",
+      "posts": 15
+    },
+    {
+      "brand": "蔚来",
+      "series": "ET5",
+      "posts": 15
+    },
+    {
+      "brand": "领克",
+      "series": "Z10",
+      "posts": 14
+    },
+    {
+      "brand": "宝马",
+      "series": "3系",
+      "posts": 13
+    },
+    {
+      "brand": "小鹏",
+      "series": "P7+",
+      "posts": 11
+    },
+    {
+      "brand": "银河",
+      "series": "E8",
+      "posts": 11
+    },
+    {
+      "brand": "享界",
+      "series": "S9",
+      "posts": 10
+    },
+    {
+      "brand": "小鹏",
+      "series": "P7I",
+      "posts": 10
+    },
+    {
+      "brand": "吉利",
+      "series": "银河TT",
+      "posts": 8
+    },
+    {
+      "brand": "宝马",
+      "series": "5系",
+      "posts": 7
+    },
+    {
+      "brand": "尚界",
+      "series": "Z7T",
+      "posts": 7
+    },
+    {
+      "brand": "比亚迪",
+      "series": "海豹",
+      "posts": 7
+    },
+    {
+      "brand": "理想",
+      "series": "L6",
+      "posts": 7
+    },
+    {
+      "brand": "问界",
+      "series": "M9",
+      "posts": 7
+    },
+    {
+      "brand": "奔驰",
+      "series": "C级",
+      "posts": 6
+    },
+    {
+      "brand": "宝马",
+      "series": "I3",
+      "posts": 6
+    },
+    {
+      "brand": "极越",
+      "series": "07",
+      "posts": 6
+    },
+    {
+      "brand": "保时捷",
+      "series": "帕拉梅拉",
+      "posts": 5
+    },
+    {
+      "brand": "奥迪",
+      "series": "A4L",
+      "posts": 5
+    },
+    {
+      "brand": "宝马",
+      "series": "三系",
+      "posts": 5
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Model 3P",
+      "posts": 5
+    },
+    {
+      "brand": "领克",
+      "series": "10",
+      "posts": 5
+    },
+    {
+      "brand": "保时捷",
+      "series": "718",
+      "posts": 4
+    },
+    {
+      "brand": "保时捷",
+      "series": "911",
+      "posts": 4
+    },
+    {
+      "brand": "凯迪拉克",
+      "series": "CT5",
+      "posts": 4
+    },
+    {
+      "brand": "启源",
+      "series": "A07",
+      "posts": 4
+    },
+    {
+      "brand": "奥迪",
+      "series": "A6L",
+      "posts": 4
+    },
+    {
+      "brand": "比亚迪",
+      "series": "汉 EV",
+      "posts": 4
+    },
+    {
+      "brand": "蔚来",
+      "series": "ET5T",
+      "posts": 4
+    },
+    {
+      "brand": "问界",
+      "series": "M5",
+      "posts": 4
+    },
+    {
+      "brand": "问界",
+      "series": "M7",
+      "posts": 4
+    },
+    {
+      "brand": "阿维塔",
+      "series": "11",
+      "posts": 4
+    },
+    {
+      "brand": "丰田",
+      "series": "亚洲龙",
+      "posts": 3
+    },
+    {
+      "brand": "丰田",
+      "series": "凯美瑞",
+      "posts": 3
+    },
+    {
+      "brand": "仰望",
+      "series": "U9",
+      "posts": 3
+    },
+    {
+      "brand": "保时捷",
+      "series": "Panamera",
+      "posts": 3
+    },
+    {
+      "brand": "别克",
+      "series": "至境L7",
+      "posts": 3
+    },
+    {
+      "brand": "吉利",
+      "series": "银河E8",
+      "posts": 3
+    },
+    {
+      "brand": "启境",
+      "series": "GT7",
+      "posts": 3
+    },
+    {
+      "brand": "宝马",
+      "series": "IX3",
+      "posts": 3
+    },
+    {
+      "brand": "方程豹",
+      "series": "S",
+      "posts": 3
+    },
+    {
+      "brand": "智界",
+      "series": "R7",
+      "posts": 3
+    },
+    {
+      "brand": "比亚迪",
+      "series": "唐",
+      "posts": 3
+    },
+    {
+      "brand": "蔚来",
+      "series": "ES6",
+      "posts": 3
+    },
+    {
+      "brand": "蔚来",
+      "series": "ET7",
+      "posts": 3
+    },
+    {
+      "brand": "迈凯伦",
+      "series": "720S",
+      "posts": 3
+    },
+    {
+      "brand": "零跑",
+      "series": "C01",
+      "posts": 3
+    },
+    {
+      "brand": "东风",
+      "series": "007+",
+      "posts": 2
+    },
+    {
+      "brand": "东风风行",
+      "series": "星海S7",
+      "posts": 2
+    },
+    {
+      "brand": "保时捷",
+      "series": "taycan",
+      "posts": 2
+    },
+    {
+      "brand": "别克",
+      "series": "凯越",
+      "posts": 2
+    },
+    {
+      "brand": "吉利",
+      "series": "银河",
+      "posts": 2
+    },
+    {
+      "brand": "哪吒",
+      "series": "GT",
+      "posts": 2
+    },
+    {
+      "brand": "大众",
+      "series": "捷达",
+      "posts": 2
+    },
+    {
+      "brand": "奔驰",
+      "series": "E",
+      "posts": 2
+    },
+    {
+      "brand": "奔驰",
+      "series": "S",
+      "posts": 2
+    },
+    {
+      "brand": "奔驰",
+      "series": "S级",
+      "posts": 2
+    },
+    {
+      "brand": "奥迪",
+      "series": "A4",
+      "posts": 2
+    },
+    {
+      "brand": "奥迪",
+      "series": "A6",
+      "posts": 2
+    },
+    {
+      "brand": "奥迪",
+      "series": "E5 Sportback",
+      "posts": 2
+    },
+    {
+      "brand": "奥迪",
+      "series": "Q5",
+      "posts": 2
+    },
+    {
+      "brand": "宝马",
+      "series": "325LI",
+      "posts": 2
+    },
+    {
+      "brand": "宝马",
+      "series": "I5",
+      "posts": 2
+    },
+    {
+      "brand": "宝马",
+      "series": "M3",
+      "posts": 2
+    },
+    {
+      "brand": "宝马",
+      "series": "M4",
+      "posts": 2
+    },
+    {
+      "brand": "宝马",
+      "series": "M系列",
+      "posts": 2
+    },
+    {
+      "brand": "小鹏",
+      "series": "G6",
+      "posts": 2
+    },
+    {
+      "brand": "方程",
+      "series": "S系列",
+      "posts": 2
+    },
+    {
+      "brand": "极氪",
+      "series": "007GT",
+      "posts": 2
+    },
+    {
+      "brand": "极狐",
+      "series": "阿尔法S5",
+      "posts": 2
+    },
+    {
+      "brand": "林肯",
+      "series": "MKZ",
+      "posts": 2
+    },
+    {
+      "brand": "欧拉",
+      "series": "好猫",
+      "posts": 2
+    },
+    {
+      "brand": "比亚迪",
+      "series": "元",
+      "posts": 2
+    },
+    {
+      "brand": "比亚迪",
+      "series": "海豹07",
+      "posts": 2
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Model X",
+      "posts": 2
+    },
+    {
+      "brand": "理想",
+      "series": "L7",
+      "posts": 2
+    },
+    {
+      "brand": "理想",
+      "series": "L9",
+      "posts": 2
+    },
+    {
+      "brand": "腾势",
+      "series": "Z9GT",
+      "posts": 2
+    },
+    {
+      "brand": "阿斯顿·马丁",
+      "series": "DB11",
+      "posts": 2
+    },
+    {
+      "brand": "MINI",
+      "series": "Cooper",
+      "posts": 1
+    },
+    {
+      "brand": "smart",
+      "series": "精灵6号",
+      "posts": 1
+    },
+    {
+      "brand": "一汽大众",
+      "series": "高尔夫",
+      "posts": 1
+    },
+    {
+      "brand": "上汽",
+      "series": "MG07",
+      "posts": 1
+    },
+    {
+      "brand": "丰田",
+      "series": "不插电混动",
+      "posts": 1
+    },
+    {
+      "brand": "丰田",
+      "series": "铂智7",
+      "posts": 1
+    },
+    {
+      "brand": "乐道",
+      "series": "L60",
+      "posts": 1
+    },
+    {
+      "brand": "享界",
+      "series": "S9T",
+      "posts": 1
+    },
+    {
+      "brand": "保时捷",
+      "series": "Boxster",
+      "posts": 1
+    },
+    {
+      "brand": "保时捷",
+      "series": "GT3",
+      "posts": 1
+    },
+    {
+      "brand": "保时捷",
+      "series": "Macan",
+      "posts": 1
+    },
+    {
+      "brand": "保时捷",
+      "series": "Tycan",
+      "posts": 1
+    },
+    {
+      "brand": "别克",
+      "series": "微蓝6",
+      "posts": 1
+    },
+    {
+      "brand": "别克",
+      "series": "英朗",
+      "posts": 1
+    },
+    {
+      "brand": "吉利",
+      "series": "星愿",
+      "posts": 1
+    },
+    {
+      "brand": "吉利领克",
+      "series": "Z10",
+      "posts": 1
+    },
+    {
+      "brand": "哪吒",
+      "series": "S",
+      "posts": 1
+    },
+    {
+      "brand": "大众",
+      "series": "ID.3",
+      "posts": 1
+    },
+    {
+      "brand": "大众",
+      "series": "ID.7",
+      "posts": 1
+    },
+    {
+      "brand": "大众",
+      "series": "POLO",
+      "posts": 1
+    },
+    {
+      "brand": "大众",
+      "series": "宝来",
+      "posts": 1
+    },
+    {
+      "brand": "大众",
+      "series": "速腾",
+      "posts": 1
+    },
+    {
+      "brand": "奔驰",
+      "series": "AMG",
+      "posts": 1
+    },
+    {
+      "brand": "奔驰",
+      "series": "C260L",
+      "posts": 1
+    },
+    {
+      "brand": "奔驰",
+      "series": "E 级",
+      "posts": 1
+    },
+    {
+      "brand": "奔驰",
+      "series": "E级",
+      "posts": 1
+    },
+    {
+      "brand": "奔驰",
+      "series": "smart",
+      "posts": 1
+    },
+    {
+      "brand": "奕派",
+      "series": "007",
+      "posts": 1
+    },
+    {
+      "brand": "奥迪",
+      "series": "A5",
+      "posts": 1
+    },
+    {
+      "brand": "奥迪",
+      "series": "A5L",
+      "posts": 1
+    },
+    {
+      "brand": "奥迪",
+      "series": "A8",
+      "posts": 1
+    },
+    {
+      "brand": "奥迪",
+      "series": "RS6",
+      "posts": 1
+    },
+    {
+      "brand": "宝马",
+      "series": "3",
+      "posts": 1
+    },
+    {
+      "brand": "宝马",
+      "series": "5 系",
+      "posts": 1
+    },
+    {
+      "brand": "宝马",
+      "series": "7系",
+      "posts": 1
+    },
+    {
+      "brand": "宝马",
+      "series": "I4",
+      "posts": 1
+    },
+    {
+      "brand": "宝马",
+      "series": "M2",
+      "posts": 1
+    },
+    {
+      "brand": "宝马",
+      "series": "X5",
+      "posts": 1
+    },
+    {
+      "brand": "宝马",
+      "series": "Z4",
+      "posts": 1
+    },
+    {
+      "brand": "宾尼法利纳",
+      "series": "Battista",
+      "posts": 1
+    },
+    {
+      "brand": "小鹏",
+      "series": "G9",
+      "posts": 1
+    },
+    {
+      "brand": "小鹏",
+      "series": "MONA M03",
+      "posts": 1
+    },
+    {
+      "brand": "小鹏",
+      "series": "新P7",
+      "posts": 1
+    },
+    {
+      "brand": "岚图",
+      "series": "追光",
+      "posts": 1
+    },
+    {
+      "brand": "布加迪",
+      "series": "Bolide",
+      "posts": 1
+    },
+    {
+      "brand": "广汽埃安",
+      "series": "RAY7",
+      "posts": 1
+    },
+    {
+      "brand": "方程豹",
+      "series": "7",
+      "posts": 1
+    },
+    {
+      "brand": "方程豹",
+      "series": "方程 S",
+      "posts": 1
+    },
+    {
+      "brand": "方程豹",
+      "series": "方程S",
+      "posts": 1
+    },
+    {
+      "brand": "方程豹",
+      "series": "钛3",
+      "posts": 1
+    },
+    {
+      "brand": "方程豹",
+      "series": "钛7",
+      "posts": 1
+    },
+    {
+      "brand": "日产",
+      "series": "GT-R",
+      "posts": 1
+    },
+    {
+      "brand": "日产",
+      "series": "N7",
+      "posts": 1
+    },
+    {
+      "brand": "日产",
+      "series": "逍客",
+      "posts": 1
+    },
+    {
+      "brand": "日产",
+      "series": "骐达",
+      "posts": 1
+    },
+    {
+      "brand": "昊铂",
+      "series": "GT",
+      "posts": 1
+    },
+    {
+      "brand": "昊铂",
+      "series": "SSR",
+      "posts": 1
+    },
+    {
+      "brand": "星途",
+      "series": "星纪元ES",
+      "posts": 1
+    },
+    {
+      "brand": "智己",
+      "series": "L7",
+      "posts": 1
+    },
+    {
+      "brand": "智己",
+      "series": "S6",
+      "posts": 1
+    },
+    {
+      "brand": "极星",
+      "series": "4",
+      "posts": 1
+    },
+    {
+      "brand": "极氪",
+      "series": "01",
+      "posts": 1
+    },
+    {
+      "brand": "极氪",
+      "series": "7X",
+      "posts": 1
+    },
+    {
+      "brand": "极氪",
+      "series": "8X",
+      "posts": 1
+    },
+    {
+      "brand": "极氪",
+      "series": "MIX",
+      "posts": 1
+    },
+    {
+      "brand": "极狐",
+      "series": "S5",
+      "posts": 1
+    },
+    {
+      "brand": "比亚迪",
+      "series": "DMi",
+      "posts": 1
+    },
+    {
+      "brand": "比亚迪",
+      "series": "元PLUS",
+      "posts": 1
+    },
+    {
+      "brand": "比亚迪",
+      "series": "夏",
+      "posts": 1
+    },
+    {
+      "brand": "比亚迪",
+      "series": "宋L",
+      "posts": 1
+    },
+    {
+      "brand": "比亚迪",
+      "series": "海豹06",
+      "posts": 1
+    },
+    {
+      "brand": "江淮",
+      "series": "钇为3",
+      "posts": 1
+    },
+    {
+      "brand": "法拉利",
+      "series": "Purosangue",
+      "posts": 1
+    },
+    {
+      "brand": "深蓝",
+      "series": "L06",
+      "posts": 1
+    },
+    {
+      "brand": "深蓝",
+      "series": "S07",
+      "posts": 1
+    },
+    {
+      "brand": "深蓝",
+      "series": "SL03",
+      "posts": 1
+    },
+    {
+      "brand": "澎程",
+      "series": "N90",
+      "posts": 1
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Roadster",
+      "posts": 1
+    },
+    {
+      "brand": "理想",
+      "series": "MEGA",
+      "posts": 1
+    },
+    {
+      "brand": "理想",
+      "series": "ONE",
+      "posts": 1
+    },
+    {
+      "brand": "红旗",
+      "series": "E-HS9",
+      "posts": 1
+    },
+    {
+      "brand": "红旗",
+      "series": "EH7",
+      "posts": 1
+    },
+    {
+      "brand": "红旗",
+      "series": "S9",
+      "posts": 1
+    },
+    {
+      "brand": "莲花",
+      "series": "Emeya",
+      "posts": 1
+    },
+    {
+      "brand": "蔚来",
+      "series": "ES7",
+      "posts": 1
+    },
+    {
+      "brand": "蔚来",
+      "series": "ES8",
+      "posts": 1
+    },
+    {
+      "brand": "蔚来",
+      "series": "ES9",
+      "posts": 1
+    },
+    {
+      "brand": "蔚来",
+      "series": "ET9",
+      "posts": 1
+    },
+    {
+      "brand": "长安",
+      "series": "UNI-V",
+      "posts": 1
+    },
+    {
+      "brand": "长安启源",
+      "series": "A07",
+      "posts": 1
+    },
+    {
+      "brand": "问界",
+      "series": "M8",
+      "posts": 1
+    },
+    {
+      "brand": "阿维拉",
+      "series": "12",
+      "posts": 1
+    },
+    {
+      "brand": "零跑",
+      "series": "C10",
+      "posts": 1
+    },
+    {
+      "brand": "零跑",
+      "series": "C11",
+      "posts": 1
+    },
+    {
+      "brand": "零跑",
+      "series": "D19",
+      "posts": 1
+    },
+    {
+      "brand": "零跑",
+      "series": "LAFA5",
+      "posts": 1
+    },
+    {
+      "brand": "领克",
+      "series": "小八",
+      "posts": 1
+    },
+    {
+      "brand": "高合",
+      "series": "Y",
+      "posts": 1
+    },
+    {
+      "brand": "高合",
+      "series": "Z",
+      "posts": 1
+    }
+  ]
+}

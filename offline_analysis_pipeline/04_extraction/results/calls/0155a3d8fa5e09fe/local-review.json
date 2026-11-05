@@ -1,0 +1,124 @@
+{
+  "post_id": "0155a3d8fa5e09fe",
+  "state": "CONTRACT_PASS",
+  "cache_key": "cd47a0c9b46ea26d389cb1e45eba2a6b40356532d720cf12d9d2152e67e5bb93",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0155a3d8fa5e09fe",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米su7安装充电桩问题"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "有哪位su7车主安装了比亚迪7kw的车库充电桩"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "比亚迪7kw车库充电桩",
+        "entity_level": "未明确",
+        "brand": "比亚迪",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "安装了比亚迪7kw的车库充电桩"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者询问是否有SU7车主安装过比亚迪7kW车库充电桩，并咨询该充电桩是否可以设置12点自动充电和自动断电功能。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "有哪位su7车主安装了比亚迪7kw的车库充电桩，可以设置12点自动充电，自动断电功能吗，求大神答疑，谢谢"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "提问",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "恭喜您成为SU7 Max车主！"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者作为小米SU7车主，询问关于安装比亚迪7kW车库充电桩的功能设置问题，特别是能否实现定时自动充电和自动断电。",
+    "post_topic": "产品功能与技术",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "api_transport_or_json_error"
+  ],
+  "usage": {
+    "prompt_tokens": 10155,
+    "completion_tokens": 831,
+    "total_tokens": 10986,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 3.5241163999889977,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c4be1c04e8af1733",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7标准版",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "su7标准版的充电桩咋选啊？？"
+        },
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "su7标准版的充电桩咋选啊？？"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者询问SU7标准版应如何选择合适的充电桩，具体纠结于申请220V还是380V电压，并倾向于认为选择7kW充电桩即可，因为其认知中标准版最大支持功率为7kW。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "su7标准版的充电桩咋选啊？？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有点搞不清楚到底是申请220v还是380，充电桩选个7kw的就够了吧，标准版最大也就支持7kw"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "su7标准版的充电桩咋选啊？？"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者询问SU7标准版家用充电桩的选择方案，主要困惑在于电压规格（220V vs 380V）及功率匹配，认为7kW可能已满足标准版需求。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

@@ -1,0 +1,366 @@
+{
+  "schema_version": "2.3",
+  "post_id": "130a80fddec79943",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 800km 四驱超长续航高阶智驾Max版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 800km 四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7 Max定价29.9万，具备价格竞争力和高性价比，适合预算在该范围内的消费者。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算：小米SU7max的定价为29.9w，适合预算在此范围内的消费者。小米SU7max在价格上具有一定的竞争力，且性价比高。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者表示主要城市通勤偶尔长途，认为小米SU7 Max实际续航（冬约400km，夏约500km）能满足日常使用，且电动车低维护成本和环保特性吸引人。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "用车需求：主要在城市内通勤，偶尔有长途需求，小米SU7max的实际续航里程（冬天大约在400km左右，夏天在500km左右）能够满足日常使用。此外，电动车的低维护成本和环保特性也是吸引人的地方。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "主要在城市内通勤，偶尔有长途需求。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "主要在城市内通勤，偶尔有长途需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出购车费用明细：裸车30.19万，选配霞光紫车漆7000元与20寸轮毂，合计30.69万；加上保险7319元，落地价31.4219万。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "价格透明，SU7max定价29.99W，裸车共30.19W，选配霞光紫车漆7000元与20寸轮毂，共计30.69w\n落地裸车30.69W？保险7319（免购置税？没有优惠没有套路=31.4219W"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者评价试驾感受良好，有多种驾驶模式选择（舒适、动力、自创），可静可动，智能驾驶辅助系统提供便捷体验。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驾驶体验：多种模式选择，舒适模式动力模式还可以自创模式，让你有丰富的体验和感受，可静可动，智能驾驶辅助系统也提供了便捷的驾驶体验。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为外观现代简约、流畅且富有科技感，前脸辨识度高，车身线条流畅营造运动感，尾部设计简洁协调；内饰采用大量软质材料和皮革，触感舒适，做工精细，提升豪华感。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "设计风格：小米SU7max采用了现代简约的设计语言，整体造型流畅且富有科技感。前脸设计简洁，搭配贯穿式LED灯带，辨识度较高。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "材质与做工：内饰采用了大量软质材料和皮革包裹，触感舒适，做工精细，提升了整体的豪华感。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为车内空间宽敞，前后排座椅间距合理，乘坐舒适；后排座椅支持比例放倒，前后备厢容积较大，储物格设计方便。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "空间：车内空间宽敞，前后排座椅间距合理，乘坐舒适。后排座椅支持比例放倒，进一步扩展储物空间。前后备厢容积较大，日常使用完全足够。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出车辆搭载宁德时代101kWh电池，续航冬天约400km，夏天约500km，认为续航表现耐打；800V平台充电快，30分钟可充至80%。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "电耗表现：小米SU7max是宁德时代101kw的电池，续航里程冬天在400km公里，夏天在500km。总体来说这续航里程还是很耐打的。\n充电效率：800v电压平台，充电速率还是很快的，30分钟内可充电至80%，方便长途出行。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "冬季和夏季不同季节条件下的续航表现。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "续航里程冬天在400km公里，夏天在500km"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者满意于智能驾驶辅助系统和生态系统深度整合，实现人车家互联，提供便捷驾驶体验和智能化生活方式；同时认可电动机动力强劲平顺。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "满意的点：\n小米SU7的智能驾驶辅助系统和生态系统的深度整合，成功建设了人车家三位一体，提供了便捷的驾驶体验和智能化的生活方式。电动机的强劲动力和平顺输出，使得驾驶体验非常愉悦。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者不满意点在于充电设施不完善地区会影响充电便利性；且作为新品牌，小米的品牌认知度和售后服务网络可能不如传统品牌完善。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "不满意的点：\n虽然支持快充，但在充电设施不完善的地区，充电便利性可能会受到影响。而且作为新进入汽车市场的小米，品牌认知度和售后服务网络可能不如传统汽车品牌完善。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为虽然性价比高，但对于预算有限的消费者来说，价格仍然偏高。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "虽然性价比高，但对于预算有限的消费者来说，价格仍然偏高。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "我的小米su7提车作业分享"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车过程"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "29.9w-31.4219w",
+    "preferences": [
+      "注重智能化体验",
+      "注重性价比",
+      "城市通勤为主"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 Max的提车作业，详细记录了选车理由、费用清单、提车过程及用车初体验。作者对该车的外观、内饰、空间、动力及智能化配置表示满意，认为其性价比高，但也指出了充电便利性及品牌售后网络的潜在不足。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

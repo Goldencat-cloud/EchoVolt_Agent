@@ -1,0 +1,211 @@
+{
+  "schema_version": "2.3",
+  "post_id": "021f880033cff39d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "阿维塔",
+      "entity_level": "品牌",
+      "brand": "阿维塔",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "上到30万的热门车型阿维塔"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "比亚迪下到10万级别的"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪海鸥",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "海鸥",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "比亚迪海鸥"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "小米su7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米su7"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "汽车之家在呼伦贝尔开展针对10-30万元主流价位纯电动及混动车型的冬季测试活动，旨在评估车辆在极寒环境下的表现。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "10~30万是老百姓买电动车最多的范围。也是这个区间最热门的几款车型的汽车之家冬季测试来到了呼伦贝尔，来到极寒的地方进行最苛刻的测试。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这次汽车之家的冬测，集齐了市面上热门的所有车型，并且打出口号做有用的冬测，从各个角度，各个维度评测一下当前热门的10~30的电动车型。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "本次冬测涵盖了阿维塔、比亚迪（含海鸥）、小米su7等不同价位的热门车型。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "上到30万的热门车型阿维塔。比亚迪下到10万级别的。比亚迪海鸥还有热门超热门的20万级别小米su7。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者信任汽车之家能够进行公平、公正、公开的测试，认为其结果能为消费者购车提供参考。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "这次的测试我非常相信之家可以做到公平，公正，公开等专业的电动车冬季测试的结果。可以更好的为老百姓买车做一个更好的参考。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "汽车之家2024冬季测试",
+      "event_type": "展会与行业活动",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "汽车之家冬季测试来到了呼伦贝尔"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "2024 AUTOHOME SUPER TEST"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "汽车之家在呼伦贝尔举办针对10-30万元主流电动车型的冬季测试活动，涵盖多款热门纯电及混动车型。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子介绍了汽车之家在呼伦贝尔进行的10-30万元主流电动车型冬季测试活动，列举了阿维塔、比亚迪、小米su7等参测车型，并表达了对测试公正性的信任及对结果的期待。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

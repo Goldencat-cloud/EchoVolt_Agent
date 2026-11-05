@@ -1,0 +1,319 @@
+{
+  "post_id": "fb1b0c00e05a5588",
+  "state": "CONTRACT_PASS",
+  "cache_key": "39704d6b60e9f5a659f31027dd285c6587860dfba228682d2f79361d8b28db5d",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "fb1b0c00e05a5588",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Ultra",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小米SU7 Ultra搭载双V8s+V6s三电机全轮驱动系统"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "小米SU7采用高能量密度电池系统"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P3",
+        "name": "小米汽车",
+        "entity_level": "品牌",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米汽车：从技术革新到市场突破，打造未来出行新标杆"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "文章指出小米SU7 Ultra搭载双V8s+V6s三电机全轮驱动系统，最大输出功率达1548马力，0-100km/h加速时间为1.98秒，并称其为目前地表最快的量产四门车之一。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小米SU7 Ultra搭载双V8s+V6s三电机全轮驱动系统，最大输出功率达到1548马力，0-100km/h加速仅需1.98秒。这一性能使其成为目前地表最快的量产四门车之一"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "文章介绍小米SU7采用高能量密度电池系统，续航里程可达668-800公里，并配备800V高压平台和CTB电池一体化技术以提升充电效率。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "小米SU7采用高能量密度电池系统，续航里程可达668-800公里...其800V高压平台和CTB电池一体化技术进一步提升了充电效率和车辆性能。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "文章称小米汽车配备全场景智能辅助驾驶系统“Xiaomi Pilot”，支持自适应变焦BEV技术和超分辨率占用网络技术，以提升驾驶安全性和复杂路况适应能力。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "小米汽车配备了全场景智能辅助驾驶系统“Xiaomi Pilot”，支持自适应变焦BEV技术和超分辨率占用网络技术。这些技术不仅提升了驾驶安全性，还增强了车辆在复杂路况下的适应能力。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "文章指出小米SU7采用全主动悬架技术，可根据路况动态调整悬挂参数，并配备48V线控制动系统和超级四电机系统以增强安全性和操控性。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "小米SU7采用了全主动悬架技术，能够根据路况动态调整悬挂参数，提升车辆的行驶稳定性和舒适性。此外，其48V线控制动系统和超级四电机系统进一步增强了车辆的安全性和操控性。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "文章转述称雷军曾亲自驾驶小米SU7完成沙漠漂移挑战，展示底盘调校和轮胎控制能力，并指出其在雨雪天气下的后驱系统表现出色。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "雷军曾亲自驾驶小米SU7完成沙漠漂移挑战，展示了其卓越的底盘调校和轮胎控制能力。在雨雪天气下，小米SU7的后驱系统也表现出色"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "文章提及沙漠漂移挑战及雨雪天气驾驶场景。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "雷军曾亲自驾驶小米SU7完成沙漠漂移挑战...在雨雪天气下"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "文章汇总用户反馈，称用户普遍认为小米SU7驾驶感受优秀，特别是在高速公路加速性能和曲线道路操控性方面表现突出。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "用户普遍认为小米SU7的驾驶感受优秀，尤其是在高速公路上的加速性能和曲线道路上的操控性方面表现突出。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "文章提及用户在高速公路和曲线道路上的驾驶体验。",
+          "evidence": [
+            {
+              "block_id": "T8",
+              "source_type": "text",
+              "quote": "尤其是在高速公路上的加速性能和曲线道路上的操控性方面表现突出"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "文章提出小米汽车计划在2025年进入行业第一梯队，覆盖全国主要城市，并通过技术创新和规模效应推动成本下降以提高市场渗透率。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小米汽车计划在2025年进入行业第一梯队，覆盖全国主要城市。其目标是通过技术创新和规模效应，推动成本边际下降，从而实现更高的市场渗透率。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "这是一篇关于小米汽车的分析文章，主要从市场分析、性能表现（动力、续航、智驾、底盘）及用户反馈等角度阐述其技术优势和市场前景。文章引用了多项技术参数和用户评价，整体持正面看法，但未提供作者个人的购车或使用经历。",
+    "post_topic": "产品功能与技术",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "C4/comparison/1/evidence/0:non_contiguous_quote",
+    "C4/comparison/2/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12959,
+    "completion_tokens": 2850,
+    "total_tokens": 15809,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 12.173492599991732,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

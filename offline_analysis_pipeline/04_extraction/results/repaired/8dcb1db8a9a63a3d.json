@@ -1,0 +1,293 @@
+{
+  "schema_version": "2.3",
+  "post_id": "8dcb1db8a9a63a3d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7连续4个月夺冠，7月卖出21044辆"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车7月的成绩出来了"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "澎程N90",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "澎程",
+      "model_year": null,
+      "version": "N90",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "定位稍高的N90单月销量预计达到1.8万台"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "澎程N70",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "澎程",
+      "model_year": null,
+      "version": "N70",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "定位入门级的N70预计为6000台"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "文章指出小米SU7在2026年7月终端销量为21044辆，并连续4个月位居国内20万元以上价格带轿车销量第一。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7全系列终端销量达到21044辆，连续4个月排在国内20万元以上价格带轿车销量第一"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为SU7销量领先说明其已摆脱新鲜感依赖，在主流市场站稳脚跟，优势源于品牌关注度、设计、智能座舱及手机生态带来的差异化竞争力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7已经不只是靠新鲜感吸引消费者，而是在主流市场站住了位置"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米在这方面有现成的用户基础，这给SU7带来了传统车企不容易快速复制的优势"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者指出小米汽车7月品牌整体交付量超30000台，认为稳定的交付节奏有助于支撑工厂排产、门店扩张及减少用户对交付周期的担忧。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "2026年7月品牌整体新车交付量继续超过30000台"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "交付节奏稳定，才能支撑工厂排产、门店扩张和售后服务"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "文章引述高盛预测，2026年9月小米澎程系列N90预计销量1.8万台，N70预计6000台，合计约2.4万台。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "高盛发布的最新销量预测显示，9月作为两款澎程系列新车的初期交付阶段，定位稍高的N90单月销量预计达到1.8万台，定位入门级的N70预计为6000台，两款车型合计约2.4万台"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为小米面临从单一爆款向多车型增长的挑战，关键在于新车型能否带来增量而不分流SU7用户，并将品牌总交付推向更高平台。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米接下来要面对的，正是从单一爆款向多车型增长的考验"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "真正关键的是，N90和N70能否连续几个月保持表现，能否在不明显削弱SU7的情况下，把品牌总交付继续推高"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 2026年7月销量数据发布",
+      "event_type": "市场竞争与行业数据",
+      "event_time": "2026-07-31",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这份数据来自懂车帝发布的2026年7月全国轿车零售销量排行榜"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "懂车帝发布2026年7月全国轿车零售销量排行榜，数据显示小米SU7销量为21044辆。"
+    },
+    {
+      "id": "E2",
+      "name": "高盛发布小米澎程系列9月销量预测",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "高盛发布的最新销量预测显示"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "高盛发布针对小米澎程系列新车的销量预测，预计9月N90和N70合计销量约2.4万台。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "文章分析了小米SU7在2026年7月取得21044辆销量并蝉联20万+轿车销冠的表现，指出其成功得益于品牌效应和智能化优势。同时，文章讨论了小米汽车整体交付量突破3万的稳定性意义，并基于高盛预测展望了澎程系列新车上市后的市场增量与挑战。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "高"
+}

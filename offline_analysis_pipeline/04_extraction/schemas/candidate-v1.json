@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "candidates"],
+  "properties": {
+    "schema_version": {"const": "candidate-v1"},
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_id", "kind", "raw_text", "speaker", "source_status", "evidence"],
+        "properties": {
+          "candidate_id": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["experience", "problem", "need", "evaluation", "comparison", "event_mention", "author_fact"]},
+          "raw_text": {"type": "string"},
+          "speaker": {"enum": ["author", "quoted_other", "unknown"]},
+          "source_status": {"enum": ["author_text", "quoted_text", "unknown"]},
+          "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/evidence"}}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["block_id", "source_type", "quote"],
+      "properties": {"block_id": {"type": "string"}, "source_type": {"enum": ["title", "text"]}, "quote": {"type": "string", "minLength": 1}}
+    }
+  }
+}

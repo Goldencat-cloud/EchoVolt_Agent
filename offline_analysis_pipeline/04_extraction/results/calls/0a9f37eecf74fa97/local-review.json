@@ -1,0 +1,668 @@
+{
+  "post_id": "0a9f37eecf74fa97",
+  "state": "FAILED",
+  "cache_key": "819fe190f512fed11c28b03ec643255ea5b6281f7829e0d57c837042e44eca21",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0a9f37eecf74fa97",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7车机1.2.2版本"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "SU7 Pro、SU7 Max"
+          },
+          {
+            "block_id": "I14",
+            "source_type": "image_summary",
+            "quote": "发送至 Xiaomi SU7 MAX"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能座舱与车机",
+        "content": "作者完成了小米SU7车机1.2.2版本的升级，更新耗时约半小时，选择在停车场进行。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "终于等到小米SU7车机1.2.2版本的升级推送了...更新版本大概半小时左右，找了个停车场开始更新。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "作者在停车场进行车机系统更新。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "找了个停车场开始更新"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能驾驶",
+        "content": "作者指出此次更新的重点是智能城市领航辅助，但因所在内蒙古鄂尔多斯未在开放的十个城市中，故无法体验。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "这次更新最大的还是智能行车部分的智能城市领航辅助，不过目前只开放了十个城市，我们内蒙古鄂尔多斯目前还没有，所以无法体验分享。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "作者位于内蒙古鄂尔多斯。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "我们内蒙古鄂尔多斯目前还没有"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能驾驶",
+        "content": "作者抱怨智能泊车功能在倒入车位时若距离左侧柱子较近，会频繁出现重新开出再倒入的情况，感觉算法“知错还犯”。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "回家自动泊车时，倒入车位距离左侧柱子比较近，会重新开出去再倒入，这种情况会经常遇到，有种知错还犯的感觉。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "回家自动泊车场景。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "回家自动泊车时"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能座舱与车机",
+        "content": "作者认为新增的小憩模式非常方便，解决了以往需手动调节座椅的问题，且支持闹钟提醒和不设唤醒时间看电影。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "这个对我来说很方便...这次的更新就很不错，一句话就调节到小憩模式，还增加了闹钟提醒功能。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "充电时或在车内休息时使用。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "以前经常会在充电时、中午在车里休息一下时"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "空间与舒适性",
+        "content": "作者认为小憩模式的默认座椅调节不适合自己，感到不舒服，建议增加座椅位置自定义调节功能。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "实话说本次更新的小憩模式座椅调节的并不是很适合我，不太舒服。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "配置与功能",
+        "content": "作者评价新增的转向影像功能对老司机用处不大，但对依赖360影像的用户较为实用。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "不过对于老司机来说用处并不大，还是以后视镜为主去观察。不知道你们遇到过那种只看360影像的人，那么就相当实用了。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "转弯时。",
+          "evidence": [
+            {
+              "block_id": "T5",
+              "source_type": "text",
+              "quote": "在转弯时屏幕上会显示同侧转向影像"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能座舱与车机",
+        "content": "作者指出转向影像位置只能在屏幕左侧和中部调整，无法移至右侧，容易遮挡卡片内容，建议支持自由移动。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "目前转向影像只能在整个屏幕的左侧和中部四个区域调整位置，是无法移动到右侧的，使用时可能会遮挡正在使用的卡片内容。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "外观与内饰",
+        "content": "作者作为创始版车主，认为车机显示碳纤维后视镜和铭牌增强了限量版的感觉，对此表示满意。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "车机中控屏可显示碳纤维后视镜和创始版的铭牌，更有限量版的感觉，这个不错。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "配置与功能",
+        "content": "作者认为行车记录功能分类更清晰，且详细记录了档位、速度等驾驶状态数据，有助于判断驾驶情况。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "这次更新的行车记录，有了更清晰的分类...展示了档位、安全带、速度、车辆报警、刹车、油门等信息，更好的判断当时行驶时一个驾驶状态。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能座舱与车机",
+        "content": "作者对比车机小爱与家用小爱音箱，认为车机版本更聪明听话，级别更高。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "车机的小爱同学是高智商也是很听话的，相比家里的小爱音箱，那简直不是一个级别的。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "智能座舱与车机",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T9",
+                  "source_type": "text",
+                  "quote": "相比家里的小爱音箱，那简直不是一个级别的"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C11",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能座舱与车机",
+        "content": "作者建议车机增加手机端自定义声音同步及声纹数据同步功能，以实现车机与手机的深度互联。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "还是希望能增加手机端自定义的功能，手机端的定制声音可以同步至车机系统...包括声纹的录制和管理也可以与小米手机去做数据同步。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C12",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "配置与功能",
+        "content": "作者建议在行车记录和哨兵模式中增加视频直接保存至手机的功能，以避免拔U盘拷贝的麻烦。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "所以我想到是否可以在行车记录和哨兵模式下也增加同样的功能，可以将某条视频可以直接保存至手机，因为每次拔U盘拷视频实在是太麻烦了。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C13",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能座舱与车机",
+        "content": "作者发现人车家生态联动中，手机创建的地理围栏场景在米家和车机上均无执行日志反馈，导致无法确认是否执行成功。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "但是手机创建了智能场景，车到了设置的地理围栏区域，就打开插座。在米家APP和车机上是完全没有日志反馈的，所以也不知道是否执行成功。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "车辆到达设定的地理围栏区域时。",
+          "evidence": [
+            {
+              "block_id": "T11",
+              "source_type": "text",
+              "quote": "车到了设置的地理围栏区域"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C14",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能座舱与车机",
+        "content": "作者实测发现小米手机推送位置至车机无需连接热点即可使用，但不同APP（高德、百度、美团）分享入口存在兼容性问题，部分图标分享失败。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "实测不连热点也可以。但是也存在一些问题。在高德地图分享时出现小米汽车图标直接分享没问题，但在百度分享时会出现一个小米汽车图标和一个发送至Xiaomi SU7 MAX的提示，图标分享时显示失败。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C15",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能座舱与车机",
+        "content": "作者建议优化位置分享入口，改为基于账号同步而非热点连接，并期望未来推出后排乘客碰一碰连热点的产品。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "建议：优化为一个出口，同时车主可根据小米的账号来做分享数据同步...后期是否也能出一款给后排人碰碰连热点的产品。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C16",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者总体评价小米车机系统“听劝”且更新常有惊喜，对小憩模式、位置分享等功能表示认可，希望体验越来越好。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "小米作为互联网科技公司，车机系统那是非常听劝的，每一次的更新都有很多的惊喜...希望小米的车机体验越来越棒"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7车机系统升级至Xiaomi HyperOS 1.2.2",
+        "event_type": "技术与软件更新",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "终于等到小米SU7车机1.2.2版本的升级推送了"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "版本号为“Xiaomi HyperOS 1.2.2”"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米汽车推送了车机系统1.2.2版本更新，包含智能驾驶、座舱功能等多项优化。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "终于等到小米SU7车机1.2.2版本的升级推送了"
+        },
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "作为5000名创始版其中的一员"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "希望车机系统持续优化",
+        "重视智能化互联体验"
+      ]
+    },
+    "post_summary": "作者分享了小米SU7车机升级至1.2.2版本的体验，肯定了小憩模式、位置分享等新功能，但也指出了智能泊车逻辑、转向影像位置限制及生态联动反馈缺失等问题，并对部分功能提出了改进建议。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "C10:comparison_unknown_product"
+  ],
+  "original_errors": [
+    "claims/C5/evidence/0:non_contiguous_quote",
+    "claims/C8/evidence/0:non_contiguous_quote",
+    "claims/C11/evidence/0:non_contiguous_quote",
+    "C8:comparison_unknown_product"
+  ],
+  "usage": {
+    "prompt_tokens": 13801,
+    "completion_tokens": 5885,
+    "total_tokens": 19686,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 11776
+    }
+  },
+  "elapsed_s": 25.1044072000077,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": "2.3",
+  "post_id": "332580b8f788f520",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7显神勇，坠崖一家四口安然"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一位男子驾车小米SU7带着家人出游"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "转述消息称，一名男子驾驶小米SU7载着一家四口出游时，车辆失控坠崖，在坠落过程中翻转并与山石剧烈碰撞，导致车顶被砸碎，最终车辆被一棵大树挡住停止坠落，车内四人均安然无恙。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一位男子驾车小米SU7带着家人出游...车辆突然失控坠崖"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在坠落过程中不断翻转，与山石发生了剧烈碰撞，那冲击力使得车顶都被硬生生砸碎了"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "车子被一棵大树挡住了去路...车内一家四口居然全都安然无恙"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "安全与质量",
+      "content": "作者认为此次事故凸显了小米SU7在极端危险状况下对驾乘人员的有效保护能力，推测可能是车身结构坚固或安全配置发挥作用所致。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "这无疑凸显了小米SU7在极端危险状况下，对驾乘人员的有效保护能力"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "或许是其车身结构足够坚固，又或许是安全配置在关键时刻发挥了巨大作用"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7坠崖事故致车顶破碎但乘客幸存",
+      "event_type": "交通事故与公共安全",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一位男子驾车小米SU7带着家人出游...车辆突然失控坠崖"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "车内一家四口居然全都安然无恙"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "一则消息报道了一名男子驾驶小米SU7载着一家四口出游时发生坠崖事故，车辆翻滚撞石致车顶破碎，后被树木阻挡停下，车内四人幸免于难。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子转述了一则关于小米SU7坠崖事故的新闻，描述了车辆在极端撞击下车顶破碎但车内四人幸存的细节，并借此评价了该车型的安全保护能力。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

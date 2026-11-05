@@ -1,0 +1,435 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ef1a551af097fb36",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2026款 后驱Pro版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这个价位看过特斯拉Model 3、极氪007、智界S7。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "极氪007",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这个价位看过特斯拉Model 3、极氪007、智界S7。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "智界S7",
+      "entity_level": "具体配置",
+      "brand": "智界",
+      "series": "S7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这个价位看过特斯拉Model 3、极氪007、智界S7。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Max版3秒破百很爽，但日常用不上，且贵5万。"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买了2026款小米SU7 Pro，裸车价265900元，加上保险、购置税等费用后落地总价为286393元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "裸车价265900，2026款Pro版，雅灰...落地总价286393"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为该车续航扎实，市区通勤百公里电耗12-13kWh，高速110km/h巡航约15kWh，满电市区能跑650km+，高速约600km，一周充一次电够用。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "续航扎实到离谱：市区通勤百公里电耗12-13kWh，高速110km/h巡航约15kWh。满电状态下，市区能跑650km+，高速也能稳在600km左右。一周充一次电完全够用"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者进行市区通勤及110km/h高速巡航。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "市区通勤百公里电耗12-13kWh，高速110km/h巡航约15kWh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为双腔空气悬架过滤颠簸效果好，过老路时家人坐后排不觉得颠，高速底盘降低后贴地感强且稳定。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "空悬质感越级：过宁波那些坑坑洼洼的老路，双腔空悬过滤得很干净，家人坐后排再也不喊颠了。高速上底盘自动降低，贴地感很强，稳如老狗。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在宁波坑洼老路及高速行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "过宁波那些坑坑洼洼的老路...高速上底盘自动降低"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为Xiaomi Pilot Max在高速NOA表现成熟，自动变道和进出匝道逻辑清晰，城市拥堵跟车顺滑且接管率低。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智驾真能用：Xiaomi Pilot Max在高速NOA上表现成熟，自动变道、进出匝道逻辑清晰。城市路段拥堵时跟车也很顺滑，接管率很低。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在高速NOA及城市拥堵路段使用智驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "Xiaomi Pilot Max在高速NOA上表现成熟...城市路段拥堵时跟车也很顺滑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者对比了特斯拉Model 3、极氪007、智界S7，认为特斯拉内饰素且续航短，极氪007智驾一般，智界S7品牌新鲜感不足，最终因SU7 Pro的动力、空悬和车机体验选择小米。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特斯拉内饰太素、续航偏短；极氪007空间不错但智驾差点意思；智界S7各方面均衡但品牌新鲜感不足。最后去小米交付中心试驾了一次SU7 Pro，5.7秒破百的推背感+空悬过减速带的绵柔感+小爱同学秒懂方言的流畅度，当场就下定了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "特斯拉内饰太素"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "特斯拉...续航偏短"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "智能驾驶",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "极氪007...智驾差点意思"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者建议有长途需求和看重空悬/激光雷达的用户选择Pro版，认为Max版虽然加速快但日常用不上且贵5万，性价比不如Pro。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果日均通勤<50km、不跑长途，标准版够用；但如果像我一样有长途需求、看重空悬和激光雷达，Pro版是性价比最优解。Max版3秒破百很爽，但日常用不上，且贵5万。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P5",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "Pro版是性价比最优解。Max版...且贵5万"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者后悔提车时未加装尾翼，看到别人的尾翼觉得很帅；认为原装音响效果一般，建议加装音响。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "音响我觉的还是需要的，本身原装音响略拉...尾翼建议一定要装，我买的时候没装，看别人的尾翼越看越帅，及其后悔。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "【提车作业】小米SU7 Pro到手！"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我工作日通勤每天约60km"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "25-28万",
+    "preferences": [
+      "续航够长",
+      "智驾好用",
+      "底盘舒服"
+    ]
+  },
+  "post_summary": "车主分享小米SU7 Pro提车作业，详细记录了选车对比、费用明细及提车过程。作者对车辆的续航、空气悬架舒适性及智能驾驶功能给予高度评价，认为其在25万级纯电轿车中无明显短板，并给出了关于版本选择和选装的实用建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

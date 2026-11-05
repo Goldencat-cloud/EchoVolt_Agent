@@ -1,0 +1,652 @@
+{
+  "post_id": "524fbfecaedb0664",
+  "state": "FAILED",
+  "cache_key": "8c2e1ed3f0900c534f6f6be840e5fbb893f129572d53ab1b25c16b42689d3dad",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "524fbfecaedb0664",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米su7极简流线轿跑造型低趴溜背车身"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "Model 3",
+        "entity_level": "车系",
+        "brand": null,
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "把Model 3摁在地上摩擦"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "极氪001",
+        "entity_level": "车系",
+        "brand": null,
+        "series": "极氪001",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "对比极氪001空间更佳但操控精准度高速稳定性不如"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7的低趴溜背造型兼具运动氛围与高端质感，日常通勤精致低调，长途出行体面大气。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "低趴溜背造型可盐可雅...日常通勤精致低调，长途出行体面大气"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为小米SU7车身尺寸充裕，后排腿部空间宽裕，四人满载出行依旧舒适，后备箱容量充足。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车身尺寸充裕后排腿部空间宽裕，四人满载出行依旧舒适。后备箱容量充足轻松收纳出行行李与户外装备"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者认为小米SU7常规版本能耗经济、续航扎实、性价比突出，高性能版本动力强悍、操控极致。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "常规版本能耗经济续航扎实性价比突出，高性能版本动力强悍操控极致"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者认为小米SU7依托高端高压平台补能效率大幅提升，能有效缓解纯电出行续航焦虑，快充高效。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "依托高端高压平台补能效率大幅提升，有效缓解纯电出行续航焦虑"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "快充高效彻底告别充电等待焦虑"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7底盘调校扎实，过弯支撑稳定，高速沉稳不飘，操控质感远超同级家用纯电车型，铺装路面滤震细腻，高速巡航静谧性优异。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "底盘调校扎实过弯支撑稳定高速沉稳不飘，操控质感远超同级家用纯电车型。铺装路面滤震细腻日常代步舒适，高速巡航静谧性优异有效隔绝行车噪音"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为小米SU7全系搭载高阶智驾硬件，高速领航辅助、自动泊车、智能跟车成熟实用，能大幅缓解长途驾驶疲劳。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "全系搭载高阶智驾硬件，高速领航辅助自动泊车智能跟车成熟实用，大幅缓解长途驾驶疲劳"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为小米SU7自研车机流畅，语音交互精准灵敏，并能深度联动米家智能家居实现车家互联。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "自研车机流畅语音交互精准灵敏，深度联动米家智能家居实现车家互联"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出小米SU7常规版悬架偏硬，烂路行驶颠簸感明显，座椅整体偏硬，长途久坐易疲劳。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "常规版悬架偏硬烂路行驶颠簸感明显...座椅整体偏硬长途久坐易疲劳"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者指出小米SU7智能驾驶在复杂路况下逻辑偏激进，需人工及时接管。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "智能驾驶复杂路况逻辑偏激进需人工及时接管"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者指出小米SU7不支持苹果车载互联，苹果用户适配性差。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "不支持苹果车载互联苹果用户适配性差"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者指出小米SU7车顶雷达凸起易发生剐蹭，底盘通过性一般，非铺装路面易刮底。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "车顶雷达凸起易发生剐蹭，底盘通过性一般非铺装路面易刮底"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C12",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者指出小米SU7车型上市时间短，二手保值率尚未稳定。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "车型上市时间短二手保值率尚未稳定"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C13",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者认为相比Model 3，小米SU7在底盘、动力、智驾配置和能耗方面全面领先，尽管Model 3品牌保值更稳。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "对比model 3品牌保值更稳但底盘动力智配置能耗全面落后"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "驾驶与操控",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "对比model 3品牌保值更稳但底盘动力智配置能耗全面落后"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "动力与性能",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "对比model 3品牌保值更稳但底盘动力智配置能耗全面落后"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "智能驾驶",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "对比model 3品牌保值更稳但底盘动力智配置能耗全面落后"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "续航与能耗",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "对比model 3品牌保值更稳但底盘动力智配置能耗全面落后"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "价格与成本",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "对比model 3品牌保值更稳但底盘动力智配置能耗全面落后"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C14",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为相比极氪001，小米SU7空间更佳，但操控精准度和高速稳定性不如极氪001。",
+        "sentiment": "正负混合",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "对比极氪001空间更佳但操控精准度高速稳定性不如"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "空间与舒适性",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "对比极氪001空间更佳但操控精准度高速稳定性不如"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "驾驶与操控",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "对比极氪001空间更佳但操控精准度高速稳定性不如"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C15",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者建议追求高颜值、强性能、高智能的年轻用户及小米生态用户直接下单小米SU7；常走烂路、需要高通过性或有多人口刚需七座需求的用户应慎重考虑。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "追求高颜值强性能高智能的年轻用户小米生态用户的直接下单...常走烂路需要高通过性多人口刚需七座的慎重"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子详细评测了小米SU7的外观、空间、操控、智驾及车机互联等优势，同时也指出了其悬架偏硬、不支持苹果互联、保值率未定等劣势。通过与Model 3和极氪001的对比，作者认为小米SU7是国产纯电轿跑中兼顾驾控与智能生态的均衡标杆，适合年轻科技用户，但不适合对通过性和大空间有极高要求的用户。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C2/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C2/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10940,
+    "completion_tokens": 5553,
+    "total_tokens": 16493,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 22.780744600007893,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

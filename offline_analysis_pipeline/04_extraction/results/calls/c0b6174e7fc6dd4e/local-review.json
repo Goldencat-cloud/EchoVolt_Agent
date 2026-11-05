@@ -1,0 +1,151 @@
+{
+  "post_id": "c0b6174e7fc6dd4e",
+  "state": "CONTRACT_PASS",
+  "cache_key": "7e9497380deeae4d93c94cebcbd84c28bd52830b5d161ebe4796610e08234445",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "c0b6174e7fc6dd4e",
+    "products": [
+      {
+        "id": "P1",
+        "name": "东风汽车",
+        "entity_level": "品牌",
+        "brand": "东风",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "东风国企，也是央企，宣传固态电池来了"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "技术原理",
+        "content": "作者转述东风汽车宣传其350Wh/kg固态电池具备高安全、长续航、耐低温特性，具体包括能量密度350Wh/kg支撑超1000公里续航、通过170℃热箱测试、-30℃下能量保持率72%。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "宣传固态电池来了，高安全、长续航、耐低温！能量密度达350Wh/kg，可支撑整车超1000公里续航；安全性能通过严苛的170℃热箱测试；在-30℃低温环境下，能量保持率高达72%！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者对东风汽车宣称固态电池即将量产持怀疑态度，提出“是真要来了还是吹牛逼”的质疑。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "如此来说，固态电池真要来了还是吹牛逼？"
+          },
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "固态电池真要来了还是吹牛逼"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "提问",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "东风汽车发布350Wh/kg固态电池并启动漠河冬测",
+        "event_type": "技术与软件更新",
+        "event_time": "2026-01-14",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "发布时间为2026年1月14日。正文内容宣布搭载东风汽车350Wh/kg固态电池的样车正式前往漠河开展-40℃极寒冬测。"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "发布时间为1-14 23:20...今天，搭载东风汽车350Wh/kg固态电池的样车，正式前往漠河，开展-40℃极寒测试！"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "东风汽车官方账号于2026年1月14日宣布搭载350Wh/kg固态电池的样车前往漠河进行-40℃极寒测试，并列出高安全、长续航、耐低温三大优势，计划下半年在旗下车型搭载。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者针对东风汽车官方发布的350Wh/kg固态电池样车漠河冬测消息及技术参数（高安全、长续航、耐低温），表达了对其宣传真实性的强烈质疑，询问固态电池究竟是真正到来还是虚假宣传。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "products/P1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10477,
+    "completion_tokens": 1317,
+    "total_tokens": 11794,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 5.844445800001267,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.3",
+  "post_id": "cbb21f078f7c9a49",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的整车造型自发布以来，就受到了广泛的喜爱和认可"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "文章介绍小米自建油泥造型实验室，采用保时捷同款KOLB五轴油泥铣削设备、蔡司手持式蓝光扫描仪及269英寸三星LED显示屏等设备，旨在提高整车造型设计的开发质量和效率。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米自建油泥造型实验室...投入了价值1500万+的世界顶级实验设备"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米油泥造型实验室采用了保时捷同款的KOLB 五轴油泥铣削超一流设备"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "实验室采用了蔡司手持式蓝光扫描仪"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "实验室采用了269英寸超大三星LED显示屏"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "文章称KOLB五轴油泥铣削设备采用双臂设计，加工速度比传统单臂设备快1.5倍，3天可加工完一个油泥模型，且精度高至加工完即可开始专业评审，无需额外修面。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这款铣削设备采用了双臂设计，因此它的加工速度比传统单臂设备快了1.5倍，3天就可以加工完一个油泥模型...甚至加工完即可开始专业评审，无需额外油泥模型师修面。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "文章称蔡司手持式蓝光扫描仪轻巧便携，扫描速度提升1倍，只需2小时即可扫描完整车，并能将油泥模型参数高效转化为数字模型参数。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "它轻巧便携，扫描速度提升了1倍...使用该扫描仪，只需要2小时就可以扫描完整车"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "文章指出小米SU7的造型设计经过了300多次造型调整，最终形成了好看、低风阻的外形，并认为该造型自发布以来受到广泛喜爱和认可。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "这台高效、高精度的加工设备，助力小米SU7完成了300+次的造型调整，最终才给大家带来了今天的好看、低风阻的外形。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的整车造型自发布以来，就受到了广泛的喜爱和认可"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "本文介绍了小米自建油泥造型实验室的设备配置（如KOLB铣削机、蔡司扫描仪、三星大屏）及其在小米SU7造型设计中的应用，强调了其在提升设计效率和精度方面的作用。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

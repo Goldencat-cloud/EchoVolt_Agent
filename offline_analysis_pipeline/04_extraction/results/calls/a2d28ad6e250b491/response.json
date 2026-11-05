@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a2d28ad6e250b491",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米su7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "su7pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": "pro",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "su7pro"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者在小米su7和su7pro之间犹豫，询问应该选择哪一个。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7和su7pro选哪个？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "请教各位大神，小米su7和su7pro选哪个？"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "请教各位大神，小米su7和su7pro选哪个？"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "用户在小米su7和su7pro两款车型之间犹豫不决，发帖向社区求助以获取选购建议。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "低"
+}

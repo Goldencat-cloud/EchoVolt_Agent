@@ -1,0 +1,245 @@
+{
+  "schema_version": "2.3",
+  "post_id": "03d0c31f0ef9eaae",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "精准盲猜小米SU7的售价"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "阿维塔12",
+      "entity_level": "具体配置",
+      "brand": "阿维塔",
+      "series": "12",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "可参考阿维塔12"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "极氪007",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪007"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "极氪001",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "001"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "汉EV",
+      "entity_level": "具体配置",
+      "brand": "比亚迪",
+      "series": "汉",
+      "model_year": null,
+      "version": "EV",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "汉ev"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "Model Y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "modely"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者推测小米SU7的价格区间可能在19万至33万之间，并列举了阿维塔12、极氪007、极氪001、汉EV和Model Y作为参考对象。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "感觉价格区间是在主流的19w-33w区间，可参考阿维塔12、极氪007、001、汉ev、modely"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者详细推测了小米SU7三个版本（Air、Pro、Max）的售价分别为19.8万、25.8万和29.8万，并基于电池、电机、芯片等配置的成本估算及约20%的毛利率进行了推导。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1、基础版本，小米Su7 air，19.8万... 2、长续航版，小米Su7 pro，25.8万... 3、性能版，小米Su7 Max，29.8万..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者推测小米SU7的高阶辅助驾驶、电动尾翼、特殊颜色、音响系统、空气悬架及不同规格轮毂等选配项价格分别在0.5万至2万元不等，以实现价格差异化。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "可选配高阶辅助驾驶，预计1-2万元左右... 可选配电动尾翼，预计0.5-1万元左右... 可选空悬系统，预计1.5万左右..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者转述雷军关于小米SU7售价不会太低的说法，并推测这可能是为了给用户设定较低的预期售价，以便在预售发布时通过低价策略刺激下订。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷总说苏7售价不会太低，可能是给大家个比较低预期售价，预售发布再来那么一波预售低价刺激大家下订"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "精准盲猜小米SU7的售价"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子作者对尚未正式公布售价的小米SU7进行价格预测，推测其主力价格区间在19万至33万之间。作者基于电池、电机等硬件成本及20%左右的毛利率，详细推演了Air、Pro、Max三个版本的预估售价及选配项目价格，并分析了可能的营销定价策略。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

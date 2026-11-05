@@ -1,0 +1,241 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a851e50fdb50100d",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "在格力电器2025年度股东大会上，董明珠拒绝股东签名请求，并称“我不是雷总”，引发全场大笑。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "董明珠股东会婉拒签名要求，称“我不是雷总”，引发哄堂大笑"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "董明珠听后婉拒：\n“我不是雷总。”\n话音未落，引发全场大笑。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "董明珠在股东大会上极力推荐格力最新研发的脱谷机，称“为了你们的健康，一定要买脱谷机！”，现场有股东当场下单。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "董明珠不仅反复给自家售价1600元的脱谷机“带货”"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "董明珠称：“为了你们的健康，一定要买脱谷机！”"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现场有股东马上响应支持，当场下单并提出签名留念的要求。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "雷军在湖北小米门店被围观时，曾在多位消费者的小米手机上签名，被称为车圈和数码圈的名场面。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "此前，雷军在湖北小米门店被围观时，曾热情地在多位消费者的小米手机上签名，成了车圈和数码圈的名场面。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E3",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "雷军在北京图书博览会上反思与董明珠的“十亿赌局”，自称“非常懊悔”，称当时是为了活动调动气氛，结果董明珠当真了。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷军在公开对谈中，首次反思了多年前与董明珠的“十亿赌局”。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷军直言自己“非常懊悔”：“当年营收200亿的小米打赌5年内超过1200亿的格力， 本来只是为了活动调动气氛 。结果董大姐当真了。”"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E3",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "雷军透露，董明珠在许多场合公开批评他和小米，“讲得特别难听”，并表示自己作为晚辈不能反击，只能用行动证明小米也能把空调做好。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷军透露，此后董大姐在很多场合公开批评他和小米，“ 讲得特别难听 ”。雷军表示自己作为晚辈不能反击，只能用行动证明小米也能把空调做好。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "董明珠在股东大会上建议股东拿到分红后将家电换成格力，称“家电不改为格力，凭什么分红？”，事后格力官方澄清这只是活跃现场气氛的“轻松玩笑”。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "随后她强烈建议股东们拿到钱后把家电都换成格力：“家电不改为格力，凭什么分红？”"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "事后格力官方澄清这只是活跃现场气氛的“轻松玩笑”。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "格力电器2025年度股东大会",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在近日召开的格力电器2025年度股东大会上"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "格力电器召开2025年度股东大会，董明珠在会上推荐脱谷机、拒绝签名并调侃雷军，还就分红发表争议言论。"
+    },
+    {
+      "id": "E2",
+      "name": "雷军在湖北小米门店签名事件",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "此前，雷军在湖北小米门店被围观时，曾热情地在多位消费者的小米手机上签名"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "雷军在湖北小米门店被围观时，在多位消费者的小米手机上签名，成为车圈和数码圈的名场面。"
+    },
+    {
+      "id": "E3",
+      "name": "雷军在北京图书博览会反思十亿赌局",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "就在不久前的北京图书博览会上，雷军在公开对谈中，首次反思了多年前与董明珠的“十亿赌局”。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "雷军在北京图书博览会上公开对谈，反思与董明珠的“十亿赌局”，表示懊悔并提及董明珠后续的批评。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了格力电器2025年度股东大会上董明珠的言行，包括推荐脱谷机、拒绝签名并调侃雷军，以及关于分红的争议言论。文章还回顾了雷军近期反思“十亿赌局”及在小米门店签名的相关事件。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

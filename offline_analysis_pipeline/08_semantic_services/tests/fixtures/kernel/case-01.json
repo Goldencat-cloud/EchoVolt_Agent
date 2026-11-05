@@ -1,0 +1,32 @@
+{
+  "id": "case-01",
+  "source": "synthetic",
+  "note": "零工具直答",
+  "input": {
+    "question": "你们能做什么？",
+    "history": [],
+    "session": {}
+  },
+  "steps": [],
+  "final_text": "我可以基于冻结快照回答关于可靠性与空间的统计问题。",
+  "expected": {
+    "answer": "我可以基于冻结快照回答关于可靠性与空间的统计问题。",
+    "stats": [],
+    "evidence": [],
+    "applied_filters": {
+      "aspects": []
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 0
+  }
+}

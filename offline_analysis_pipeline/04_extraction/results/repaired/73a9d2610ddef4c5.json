@@ -1,0 +1,467 @@
+{
+  "schema_version": "2.3",
+  "post_id": "73a9d2610ddef4c5",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当初选择小米SU7有70%是冲着它的颜值去的"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小鹏",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "画面展示了车辆的黑色内饰，包括带有“XPENG”标识的方向盘"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者表示当初选择小米SU7有70%是因为其颜值。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当初选择小米SU7有70%是冲着它的颜值去的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7驾驶配置拉满，5秒多的加速度日常够用，方向盘虚位小，山路攻弯时能通过震动感知抓地力变化，动力充沛且超车有信心。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我觉得驾驶方面的配置拉满了，5秒多的加速度日常完全够用"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "方向盘虚位极小，指哪打哪，山路攻弯时通过方向盘的震动能清晰感知车轮抓地力变化，动力充沛，路上超车信心十足"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在山路驾驶并进行攻弯操作。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "山路攻弯时通过方向盘的震动能清晰感知车轮抓地力变化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7舒适度方面性价比极低，相比同价位新能源车型，其缺少电动前备箱以及前后排座椅通风、加热、按摩等功能，甚至不提供选配。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是舒适度方面性价比极低，同价位的新能源，电动前备箱，前后排座椅通风、加热、按摩都已经安排上了，SU7连选配都不给"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者指出小米SU7过减速带时会出现异响。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "槽点：过减速带时车辆会异响"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆经过减速带。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "过减速带时车辆会异响"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为标准版纯视觉辅助驾驶在高速上够用，但超车时会突然减速再加速，且辅助驾驶时车辆常偏向车道右边。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "标准版的纯视觉辅助驾驶在高速上面完全够用，就是超车的时候有点毛病会突然减速再加速，而且每次都感觉辅助驾驶时车辆偏向车道右边"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆在高速行驶并使用辅助驾驶功能。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "标准版的纯视觉辅助驾驶在高速上面完全够用"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为车机语音助手“小爱同学”能完成大部分命令且响应速度快。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小爱同学基本上能完成你的所有命令，而且响应速度极快"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者提出三点改进意见：1.手机App只能控制空调开关，无法调节内外循环；2.官网购买的香氛机需改进，建议间断开启以避免嗅觉适应；3.前置摄像头密封不好，早晨易起雾，售后表示需重新做密封。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "需要改进的有几点：1、手机只能控制空调开启关闭，无法调节空调内外循环；2、官网购买的香氛机有需要改进的地方，个人觉得香氛系统应该要间断开启，不然一直开着嗅觉适应了就闻不到味道；3、前置摄像头未做好密封，每次早上都会起雾，去了售后说要重新做密封"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者早晨发现前置摄像头起雾，并前往售后咨询。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "每次早上都会起雾，去了售后说要重新做密封"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者身高191cm体重80kg，认为开车很舒服，但未评价后排空间。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我191 80kg 开起来很舒服，后排不评价，就前排坐人"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者表示后悔没有选择20寸的梅花轮毂。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "就是后悔没上20寸的梅花轮毂"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在日常出行（50%高速、50%国道，动能回收20%，空调27度）条件下，几千公里下来的能耗约为14kWh/100km，认为对中大型车辆来说表现不错。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "续航能耗是日常出行基本是50%高速，50%国道，动能回收开到20%，空调一般开到27°，几千公里下来能耗在14KWh/100KM，中大型车辆能有这个能耗表现应该算是不错了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "日常出行路况为50%高速和50%国道，动能回收设置为20%，空调设定为27度。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "日常出行基本是50%高速，50%国道，动能回收开到20%，空调一般开到27°"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者提车后第一时间贴了淘宝PONS品牌的车衣以防石子磕碰，并称赞其服务和售后是其在淘宝十多年遇到的最好。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "提车后第一时间就去贴了车衣主要是为了防止大货车的小石头磕伤车漆。顺便说一下，我贴的是淘宝PONS车衣，那服务和售后真是我淘宝10多年遇到最好的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者表示目前行驶约2400公里，单位可以充电，刚在家安装了小米充电桩，并认为其外观好看。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我开到现在2400公里左右，单位能充电，刚刚在家装了充电桩，小米的充电桩也很好看"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "2400公里后，我也聊聊我的SU7"
+      },
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "我开到现在2400公里左右"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车辆颜值",
+      "偏好运动风格轮毂（20寸梅花轮毂）"
+    ]
+  },
+  "post_summary": "作者分享了驾驶小米SU7 2400公里的用车体验。他肯定了车辆的颜值、驾驶操控、动力及车机语音交互，但也指出了舒适配置缺失、过减速带异响、辅助驾驶逻辑缺陷、摄像头密封不良等问题。此外，作者还分享了能耗数据、家充桩安装情况以及对车衣服务的推荐。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

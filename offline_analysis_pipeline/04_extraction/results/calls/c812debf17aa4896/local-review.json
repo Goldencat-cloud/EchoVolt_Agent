@@ -1,0 +1,354 @@
+{
+  "post_id": "c812debf17aa4896",
+  "state": "FAILED",
+  "cache_key": "1eee8fa76b599a852ce5ac657be3e7750b17d9ff0f99da3b4c20fb324ea8a9fa",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "c812debf17aa4896",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Ultra",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2025",
+        "version": "Ultra",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我最期待的广州车展新车就是小米SU7 Ultra了"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "右下角悬浮着一个直播窗口... 底部显示该车型为“2025款”"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "雷军携手发布了小米SU7三个版本的车子"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "仰望U8",
+        "entity_level": "车系",
+        "brand": "仰望",
+        "series": "U8",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "实现了仰望U8那种掉头"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "仰望U9",
+        "entity_level": "车系",
+        "brand": "仰望",
+        "series": "U9",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "和仰望U9那种掉头"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P5",
+        "name": "智己L6",
+        "entity_level": "车系",
+        "brand": "智己",
+        "series": "L6",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "当时的同期的自己l6全系标配四轮转向"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米SU7 Ultra是其最期待的2024广州车展新车。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我个人观点，我最期待的广州车展新车就是小米SU7 Ultra了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者评价早期发布的小米SU7外观时尚，车漆质感好，内饰中规中矩，但方向盘的一键战斗按钮设计炫酷。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "感觉SU7当时最大特色就是外观了... 内饰不是说多么的优秀，也中规中矩吧，但是方向盘是个特色"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者对比认为早期小米SU7 Max在悬挂和控制逻辑上不如同期智己L6，后者全系标配四轮转向可实现蟹行，而前者未配备此类炫技功能。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "悬挂比较一般吧，没有配备四轮转向、四电机还有原地掉头这些炫技的控制逻辑。要知道当时同期的自己l6全系标配四轮转向可以实现蟹型行走。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P2",
+            "P5"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P5",
+              "aspect": "配置与功能",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "没有配备四轮转向... 同期的自己l6全系标配四轮转向"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者根据网络爆料视频称，小米SU7 Ultra配备了四电机和四轮转向，能够实现类似仰望U8和U9的掉头功能。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "我这里了解到这个小米SU7Ultra版本还是配备了四电机。从网上爆出来的实际动态视频来看，实现了仰望U8那种掉头和仰望U9那种掉头，四轮转向也系统也配备上了。"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为小米SU7 Ultra目前的预售价较贵，但如果不考虑价格，其硬件水平处于领先地位。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "至于这个价位可能目前穿的价位是比较贵一点，抛开价位不谈的话，车子的各种硬件水平已经是处于这个领先。"
+          },
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "价格信息显示“81.49万起”以及“预售价 81.49万”"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "2024广州国际汽车展览会",
+        "event_type": "展会与行业活动",
+        "event_time": "2024-11-15",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第二十二届广州国际汽车展览会将于2024年11月15日至24日举办"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "第二十二届广州国际汽车展览会于2024年11月15日至24日举行，小米SU7 Ultra作为参展车型受到关注。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我在这里发表一下看法。 个人观点，我最期待的广州车展新车就是小米SU7 Ultra了"
+        }
+      ],
+      "confidence": 0.8,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "重视车辆外观设计",
+        "重视科技配置与性能"
+      ]
+    },
+    "post_summary": "作者表达了对2024广州车展上小米SU7 Ultra的高度期待，认为其相比初代SU7在科技配置、动力性能和操控逻辑上有显著提升，尽管价格昂贵，但硬件水平领先。",
+    "post_topic": "选购决策与车型比较",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "products/P1/evidence/1:non_contiguous_quote",
+    "products/P5/evidence/0:non_contiguous_quote",
+    "claims/C1/evidence/0:non_contiguous_quote",
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "products/P5/evidence/0:non_contiguous_quote",
+    "claims/C1/evidence/0:non_contiguous_quote",
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12210,
+    "completion_tokens": 2808,
+    "total_tokens": 15018,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 12.200571699999273,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

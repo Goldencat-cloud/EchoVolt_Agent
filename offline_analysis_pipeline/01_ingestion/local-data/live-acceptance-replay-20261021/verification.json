@@ -1,0 +1,4954 @@
+{
+  "implementation": {
+    "package_version": "0.2.0",
+    "python_version": "3.11.9",
+    "source_sha256": "bbce71d674d8964484fd0321ffc3e8546e1b14e270c6881469accea9f4d9bad0",
+    "runtime_dependencies": "stdlib-only"
+  },
+  "external_network_calls": 0,
+  "replay_results": [
+    {
+      "run_id": "2f8fe95e3e054ea5b8524bcd41b9aea9",
+      "response_id": "0289f09ccdcf33a85c6bf85ea47195fcf0fb80bc85dc3113c2010ceea2a409e3",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "4dd16af0c2df4d269702fe09e7ef17ac",
+      "response_id": "03c12a7caf3b444b4d2b0393860d1d9ea5f12f84f3aa4194f1026b73ce441711",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "c4fd073bb31e49029b32a1e83cee4265",
+      "response_id": "05af8e270f83274ecc28b6e8b2547117f9dd2d00219a82665dddc91456eb42f7",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "0b40fa526f11e9c4184d1595390531991e868302019c4393258b0fe88b749016",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "e3c389e6cdf349a19a0c35ee89772189",
+      "response_id": "0b5b7000213966ddd8e149b11afb38960573cc06acfdbcd191e02f69cbd323be",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 0,
+        "review_required": 1,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "0ca75162c0967da1be59fa80e1e51245c711d918dbd8bf5d9e94d07fc3f00d0d",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "767bef97ce054f58bf2204b163413437",
+      "response_id": "0d710273c2dbe5eaefc6c1780b7c38e43684dc2f50c6d1598940ae860e81a781",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "0e7c638b78dd3a52956c9946fa9311570a7077d899d14d0a954263f339fd6e71",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "458e752abe4e437bb39175ca8919bf91",
+      "response_id": "0f4818b1b7de1f4854b01d0969ac1dee01f460530108ed6619cf42f40639cd44",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "132657cf6de7e479eba3d0dbc3e5b73ec16d6de414dfb6bf5c07d5611a208883",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "320c1d029ea948aa83491dc8f06327a7",
+      "response_id": "13d958b06a71bc9ddd5ef467b47bfca91e462cf28e359006922cf3490868aacc",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "d70980e65d8d477eb948d343a8c17d2b",
+      "response_id": "15242d11a593e45d7fe881a47a048f76ecf72f45125894ff4b114354dd86f12c",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 0,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname",
+              "following"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "1eb08ee704474e4b8514235a77cf9c0d",
+      "response_id": "16fb8cfc2b58167808d1e03b05bd6287afc54c1c9f845b25a83cb2b0eef73697",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "19aedbb252a14d8fbfe38de2ab177973",
+      "response_id": "1e2c133a626aff82c8020c1bb6d9f2b52d8a2bcf7aae44ec545c0254967f0139",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "6b963b4c25d84514b8a8c021b5cdd8ab",
+      "response_id": "20daa8207b6a7db31daf79d1b33133e3556235eed6fd2fc97ba432ca35a5b38c",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "eec868b54c674b32b9b612d663a29264",
+      "response_id": "2120090602f584ccfa600d06080210d1c69b74ac1dccb8c232c484e5e5c68080",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "6ea048a686df40a38b48b78ef4b082d2",
+      "response_id": "2337fbed74da4ef889ac8d8c7eae345cbc447254542ca998407a549fba1c6ef8",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 0,
+        "review_required": 1,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "846aff3da33646f589175bf291b10b9f",
+      "response_id": "266a130f2ed6a68cba2f5408a35d44faacf4f46f4b89919f3d4a00d6bdb25254",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "2213ccfaae8742ed8dd9f2071c39fc4c",
+      "response_id": "2b379eab4c8c5013f15aa618566fc108ea81e8f794178cd302ccaee79999cb24",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "1de5a77a55fa493fafe61e16108a51ba",
+      "response_id": "2e093b672370321d95b5b0eb23425cd05eca5c9f398510cfe7bb163b1d2a1433",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "b1fdca0916cd497bb71411d9ed673803",
+      "response_id": "2e7eb58aa40d8f84ecd1070eccd56339a7f33723344534b319e953b0c82c9ce1",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "541faf78662b4544b584fbefd62bfc31",
+      "response_id": "2ffc7a168540e9027478e54d75cf72b2e43fd64019725be27a61d4636d97a990",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "30e0e11d9e98f20b25f21d83dd59cec76ed639fb85d43e6b4677de272465a8be",
+      "validated_list_items": 30,
+      "network_calls": 0
+    },
+    {
+      "response_id": "38e74b54a0b0dcff51399b44c6951a54f7fe04cdcaddebd9757f3706fff9db1d",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "run_id": "1c356a8c71fb45578fc61c66671df60f",
+      "response_id": "39010fc39ce0a4d8b653dd913cc4dd155d89efae6dd8c20c0282e4eefb76e5e3",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 0,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname",
+              "following"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "08405a5d47374bb4b783ecb55c8fad78",
+      "response_id": "39cf67a924dadc9292987ee8c67082d3ff448b3b68e312dd2b4050727e2ccade",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 0,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname",
+              "following"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "3c9b028d823dec06518c44ed32b0420423a5209e354899c4e3282c700faeac89",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "17232252206c49cb9428636247dde6f7",
+      "response_id": "3cc125d3fab35abb0b87fd0b3d48a90037170a4e8b7f8c6834db70f087fefba4",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 0,
+        "review_required": 1,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "3e6a030830db373d7439b1f7ceddba874d24b6023e84e94fe8add427f629f428",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "40eef899fd7007e42fa1e2be2a4591f69256924cb4afe28d3ac5f37eb61c543e",
+      "error_code": "author_card_counters_missing"
+    },
+    {
+      "run_id": "e5a4dd029e4f435cac83b6ebf36e8894",
+      "response_id": "41009182225068304fcc6e476c26dcc6e9f09e782f0ec70b36c904d4aba41de2",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "4125e5bbd50c6734975195e3288c7c56fdcf07a98a1697735ee2745290b69b74",
+      "validated_interaction_items": 30,
+      "network_calls": 0
+    },
+    {
+      "run_id": "d19362cebd474987bb9093bacab1cee7",
+      "response_id": "43ea6b86a88a622aa47d83872ae239c1c7eca0b97225302b9fc8ab77aaa2ded6",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "440a42f93d6c306fd612098f04cccec4e53ba04feaedd7aa523c787f62338def",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "run_id": "8d0e60f31ae94aaba9c81b3087d0e4af",
+      "response_id": "4436cb27a138dad98eefd2ee3cd5970dd126de3318f2528ed66cdaa381543af3",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "42796290696c45c098e26f14f3afde24",
+      "response_id": "45921a8c0f874400b4e2554b9950906ae883e4efcb93b908957551d6e824308d",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "3856ae89d442443eb1957cefc54eefe7",
+      "response_id": "4ce81579d579f05259c6ae1cb20cd580b5aa6dda947a8d0e23c9cf2732cc2eb2",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "9e5274d344d14ca8a40f822118962d73",
+      "response_id": "5789a54cf5e015c2ae612aae5347d40a0fa87c634cc3781843e66d3ecc7868fa",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "d329198b184041d7af05d1c52200c22e",
+      "response_id": "57c99af13e0ee50adb51d6696e4bfdbd18ad473b29abfac9ac7dcdf574e9636a",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "617a42c1d670033f371acaa7b2edf08b763270e874e0b78a9ca2329722266bd6",
+      "validated_list_items": 30,
+      "network_calls": 0
+    },
+    {
+      "run_id": "92045fa1106e4d2bacb47536250f7894",
+      "response_id": "6246c293640419e28a841a7957b40ea288aaac4b67e76aecd9e377d9dc920902",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "ff7d07770e89457197dbddc1fe44aa83",
+      "response_id": "67817961ba1406f66491c2bea0db4917d414b8acc654279d764a24ba7731441e",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 0,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname",
+              "following"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "156d56f3925b46b9a2e43b42602a44f4",
+      "response_id": "6ce38915d83ac676831c7feacb4f2ffdc7b479af0aba3060e2833668d25779f7",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "4fb32e3e29464af19112e3841f86da80",
+      "response_id": "6e5681afa96cdc71b4ac3c8338a9fb316dcfd754d712a6706f9ac2bda7d09c20",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 0,
+        "review_required": 1,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "89a57940dd974410b42556b175ff1bee",
+      "response_id": "6f83f4628707dc6adad39423f5e1a9d5020c9f85ce2dd645deea9cd321eb0b31",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 0,
+        "review_required": 1,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "37bd03da9bf247a38fae4915349908fa",
+      "response_id": "7170b0fac2edf0327029f3daa0a2aee5de71efbbb573bfc4a3fcb4df5980da81",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "aebeea26daeb407c80f8b83adca13dbf",
+      "response_id": "7527e705b4929fea7eaf0758bf19b690052bb56985c25709a054a50eb26e8350",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "6eca7bb92cb0401c9d742609fc644834",
+      "response_id": "773434562d0eb19f62abb30ef4c29e4cbf31a9e5646d83a66858a6326a6796b4",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "77c3359ff0e65494f408190657b50fed0b49ea13bc642917d4e006eadd9a8141",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "20088361e8094dfabf5588dce7f437fa",
+      "response_id": "77cb5bef8722149117f75141252f771bd9bd79be782ff2e61df77052e774e4b8",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "393959dde4d64f209c88cdf042d3985f",
+      "response_id": "7c93cd12e38beadaff3f54c269cd38e8eb45521c95a59da1527c827d487aea5d",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "81bd9a75c55de7befca4a0b9ba20bf0e7271e88e37177f0a48ca16b7b6f8bebf",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "run_id": "29c9d78a8e534db5a8c0faed638fbfb4",
+      "response_id": "8673e7e7d5b69d75dcfde5f8b291e9fdd5a48d35435c8a44aae23b2c82345c8b",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "8a37ca35c623a1ab73562d67f96cb42523d43ed4b486a70c479277e79960a7ec",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "8f4b47175ab8eaee9a6fcee2746e462e9d07cc3edc909482ff1d9eb29d15f9ad",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "64ccdb912aa94657bde2feea941cda4c",
+      "response_id": "90dff64f91d07c2c6f08839d3368186765b8b7bf3738c5a1ae073c7e98155704",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "0e2231a483d9443ab08d802bc04d45c1",
+      "response_id": "95330ed65fb0cd0ed351d4da9101b381a9cfcabcfd7d07b36ebbb0be76d885f9",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "a4e7e49c75c34eb08220426e684363cf",
+      "response_id": "953e4e7bbd9048455d1eb1f0771ad641f4732c465a802471be731210c4302d81",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "96e1a8ff36bd1f6d3b0a29b7de44970627b4e6edffb71e335675641ad04353cf",
+      "error_code": "author_card_counters_missing"
+    },
+    {
+      "response_id": "976c311c29feb5cc4f3188bd5109dea73d319deff0a55ad22dc5f66489095f97",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "fddf6f2bde644d0e9c20c93b00d79570",
+      "response_id": "984fd5915a4da788ea2638f12beb0608bc51b45d0929734e7b67f9b0daffa607",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "9baa4fe344c39e732ff54c50b36c86fe9e111b7813b54d97ddc314511df7bd61",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "213f09992b38484081efca9759bbc0d7",
+      "response_id": "9d336c73608a215ef4974edb90a23f35409fa6474bf9067fb425338bb7bf3dc8",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "46a0d5de8c6340da9e4641b9a970e343",
+      "response_id": "9e5981c8cbd259bfdfec2e61cda6a1d089e7fa91117ff132cbf349c596547f3e",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "49a3c196e6414f68b0f6c48b53360f3e",
+      "response_id": "9edd23f43f01ab761f3ff35060981c27bc121894617ca5da3b96ed82c7b8d9cb",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "a12dc0a55a27f35df499aac49b91ad3c05af602ec6d4ac2e1e136275e2b1054c",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "089450fd641c4db1aacbe479cdd1f8d3",
+      "response_id": "a17ea0dfd4db40e3c2fe53e3c47ef29a82b4e63d79d22ba1570f65f8d95962c5",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "fe94de3bdd424320bcf79d9371c4be0a",
+      "response_id": "a3786648b0cba75ad0a9545da3f3c5fe74f107d98bdb11d59c20de2adc5621d3",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "895bdef0f47c436e9525a15691bb989e",
+      "response_id": "a55a7d25d8a2df8f112060e19c388caaa4e703bcd5fca8beb3434d7fba6324ba",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "a781dae9dce701e6bfd3c7a24a9f3ca74db74288ecc6f69602b06487c6ff39b9",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "a7da1314609221eeaeaa37dda159ffcb951afabf600bd296c793a909f1fb96fe",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "response_id": "aa99a8f6552d9533746ef9d252d336f721bb05051139e600dec7677f62950e26",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "d1571e428db44319b73064164c0200c1",
+      "response_id": "adc14604091f1426faba45e84f6610f3148a4b17810417b49d1e12630ae86fe7",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "09a968447a0a41dea9e4df665eec3fd3",
+      "response_id": "ae47695b30bc6cb781b105f9fd53200417d23a8308019bd398718960144c5c17",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "727d34c006664fb0a328efcf2c932a02",
+      "response_id": "aeb289d2ab57f19f14ce261bf5a82b0c5ba5e9cf4008c92154ac4853533b10f4",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "af65d95858a416a994be9f5fa7897f58aa688658f00cae7a7011a29fddb565b7",
+      "validated_spec_index": true,
+      "network_calls": 0
+    },
+    {
+      "response_id": "b3e4c242502153abe1943a89b2ea172928e324ca496159495fbac501f8b5719b",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "response_id": "b496a5531b8917087e100dd85b846e4c5e524dc307f2dfe461761a5d7ce49e96",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "1fcfa2d451284af8a8a66ff795ad6d46",
+      "response_id": "b666a507bb206f7a562259f4d973e793c61a728cffddc3088646f798f1ac03de",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "763e0292e11646dc9f595be8f3df44ac",
+      "response_id": "b7327a1ce13c7288d7d56967afe11ac13eb326f43b057edba7237dabffe2b29a",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "b79f4951337f801f1025df9319e289fa5faa06f0920a0d9778e76cc7b658468c",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "b86b1331c63e431da2095285d16b9a76b1c52af0da8402e65dba5074dd3a226d",
+      "error_code": "author_card_counters_missing"
+    },
+    {
+      "run_id": "3fb5310c87cd41bb93e59353e136120b",
+      "response_id": "b9121433781b261dac16aec85baf65a06c0c636e46afd07071be939be2c6dea3",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "ca4f7e8dd8354d74a3d8e4dc4b64a81c",
+      "response_id": "b96144ea9ac1ccde9d336de07d0044b3ae20b87f249fc7355934020c289eaf18",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "b964968079caca3352df5780e1b51d1b34a631c9ddf06692569847a06ed903e3",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "e6242b689f054833b22840aa7d6c2978",
+      "response_id": "b9ac69af60a0abac620c35cad6ceea179d262b5fabb3a668663ea27211dc190e",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "e7972d811a0d43fa82228e8e897d1553",
+      "response_id": "baecda522bac3fcb176a46700ce6f8f939400f938e2e6601eb653b04d66ff0f2",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "bd5f3ea155c094a7401f75d6572294d66d89bdb2d10df1c4d975f8ebe96fe7ca",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "bde17d8c791ff3a557e809062e913ee3d763f83d3dae0357ae5a50f59a4a9ac9",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "06b480af37e24e4088bb9dcb1ef46dc8",
+      "response_id": "c021f040613f3a7b7b3dafcfbeb1d1bd454715086c9af7475405238385653ced",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "1235baf4f4b14d49b044aec0538a0c29",
+      "response_id": "c0b3aaf731d1915ba3867933201c139b8db12b2b3c77a45e38567967088bc38f",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "cda473214dc5490f90fb13524a20cb82",
+      "response_id": "c50af8f68f0f8bb5c550f23984c5cdd3b49a4f3a823ece4ecd16c79e9ef43931",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "ffa5dde6f70243b9b0f15280a407bf49",
+      "response_id": "c65602de68b0d305fd270575f8d94af746ae188c19a56a98107c257aee908885",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "91c376d44ef44d1cbdfff440f1f67c16",
+      "response_id": "c713beab9988eb391dd8d87b7079562862d186ae969c6456900943d07ddeaaf5",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "fc157752c0df4a2aa7aa45ace497a60c",
+      "response_id": "cdf59860f4be832678eea55ab783c4687810da67313f1e8230d6e6be6f0f984c",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "cfecb60bb8b93af538b91ac992440d6dd98b58a5544bebeca163bae7ae688410",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "aae80bd354944f74b9641aabe5fe7455",
+      "response_id": "d03accf26942a206de73d631f17fd028598aae525ae8f66ef80cda7ce70928f1",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "d2ca773aed94ac4f8333d2532f6a2da78ae136a74c937e99d931c4ac5fe8f61d",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "run_id": "08d85ee6d876437ea9ce0df3bd4dc6bf",
+      "response_id": "d4617d3299e1b7e1816b21beb5aa85272a6b16df87ba1ef0211c7bc2d6cdc030",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "b4f3fea039e64b38894660ffe182b55a",
+      "response_id": "d490a8100603470ea71aff1f756c3294690004be02416813dc9e7ccda3ceaca0",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "69f2381d56ab43a8a54e8e0ec03f7a5e",
+      "response_id": "dbdeeda7bc0462ea955766befce1813281e9ce0ac57b6e5f8eb424394ba04dc9",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 0,
+                "source_url": 1,
+                "following": 1,
+                "followers": 1,
+                "ip_location": 1,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "nickname"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "dd94831ff9e2ec8b0703e8bab9b744759ef81cb264c761cd1eaa7193e0a88977",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "run_id": "ea58d260862b4bec847a7c7fac0e1375",
+      "response_id": "de7734ad4696381b341885586ae7b3bfe0c4542ca978a7c4ffbeb78b5d008d8f",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "a9e2ea853bea4708ae860bc01b3eccc3",
+      "response_id": "df2730376e110aa1a1487ee456123baf5226fa5d41964148258d8745dbbb2c5f",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "5dea90ffa80d4b2ea0f4cc1a852148ca",
+      "response_id": "dfb906dda13025d979ef51ce5337bd887f1f1e964ceda397ec6e906acb1fd3ca",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "3bcc44c271a645b6b00dbef7bd24f2ee",
+      "response_id": "e16e87b26b5c7453f2270ec6d008c625f81db2e578c877c2d9454428a76e2f53",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "older_skipped": 0,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 0,
+        "review_required": 1,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": true,
+          "kinds": {
+            "posts": {
+              "rows": 1,
+              "populated": {
+                "title": 1,
+                "source_url": 1,
+                "text_content": 1,
+                "user_id": 1,
+                "views": 1,
+                "replies": 1,
+                "list_time_raw": 1,
+                "author_context.platform_post_count": 1,
+                "author_context.popular_post_count": 1,
+                "author_context.platform_reply_count": 1,
+                "author_context.registered_at_raw": 1,
+                "author_context.declared_location": 1,
+                "author_context.declared_vehicle": 0,
+                "author_context.popular_post_urls_raw": 1
+              },
+              "not_displayed": {
+                "title": 0,
+                "source_url": 0,
+                "text_content": 0,
+                "user_id": 0,
+                "views": 0,
+                "replies": 0,
+                "list_time_raw": 0,
+                "author_context.platform_post_count": 0,
+                "author_context.popular_post_count": 0,
+                "author_context.platform_reply_count": 0,
+                "author_context.registered_at_raw": 0,
+                "author_context.declared_location": 0,
+                "author_context.declared_vehicle": 1,
+                "author_context.popular_post_urls_raw": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "posts": []
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "59b9239d884c41d180cedff5867eb54c",
+      "response_id": "ecc5ebb8367b13b41b193914441c727cc82da92454a8a0055b222becd456bd43",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "ecdac616508741dea089b4f3077f34f5",
+      "response_id": "efcd8eb274cf8da6bc6323af18560aa6266e4c55b7c3a11e5ed4adb272b0d379",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 1,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 0,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "run_id": "d8b5dab9cba34201bfbe7f8d835080c6",
+      "response_id": "f0b985c66c827689f853be6b5f06f36e75b5ac5bc50eec2afae28babd6c3a8d2",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "f4bc394a33c34d2e0522784029bf99c78211d979df9c12e2c62aac1c58ba83f9",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "f591b5e18119bb01c33e44b78acb62bdd8d040b88575b9f1f5595e810b48dec7",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "fae511afecad4d82127e33b0ed9ec24a608c1b20b949c7a353392cb48752cda5",
+      "error_code": "author_card_counters_missing"
+    },
+    {
+      "response_id": "fd49a6bae7f8313d02ee7af0a5b1c842db45ccf2f3b2b209e3c74940cf083d8e",
+      "validated_list_items": 30,
+      "network_calls": 0
+    },
+    {
+      "run_id": "4b84ca420bc44312ae91ad10e93d92ad",
+      "response_id": "ff4ef2d0d0c4bf4fc7ab54549bcddcef5cf02696b99810d5b6813968f151737c",
+      "counts": {
+        "rows": 1,
+        "excluded": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "older_skipped": 1,
+        "conflict": 0,
+        "incomplete_skipped": 0,
+        "ready": 1,
+        "review_required": 0,
+        "rejected": 0,
+        "batch_quality": {
+          "passed": false,
+          "kinds": {
+            "users": {
+              "rows": 1,
+              "populated": {
+                "nickname": 1,
+                "source_url": 1,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 1,
+                "popular_post_count": 1,
+                "platform_reply_count": 1,
+                "declared_vehicle": 0,
+                "popular_post_urls": 1
+              },
+              "not_displayed": {
+                "nickname": 0,
+                "source_url": 0,
+                "following": 0,
+                "followers": 0,
+                "ip_location": 0,
+                "platform_post_count": 0,
+                "popular_post_count": 0,
+                "platform_reply_count": 0,
+                "declared_vehicle": 1,
+                "popular_post_urls": 0
+              }
+            }
+          },
+          "all_blank_fields": {
+            "users": [
+              "following",
+              "followers",
+              "ip_location"
+            ]
+          }
+        },
+        "exclusion_policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a"
+      },
+      "network_calls": 0
+    },
+    {
+      "response_id": "ffde4b99bc520cfbb05f7a44eb2590266089a7fd5ad3fdcd50ffe758627fed5a",
+      "error_code": "cannot_replay_failed_http_response"
+    }
+  ],
+  "repeated_replay_unchanged": true,
+  "checks": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "posts": 30,
+      "users": 26,
+      "product_specs": 9,
+      "product_parameters": 2619,
+      "source_snapshots": 115,
+      "collection_runs": 167,
+      "collection_failures": 5,
+      "collection_checkpoints": 0
+    },
+    "unregistered_files": []
+  },
+  "live_business_rows_unchanged": true,
+  "second_pass_errors": [
+    {
+      "response_id": "0b40fa526f11e9c4184d1595390531991e868302019c4393258b0fe88b749016",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "0ca75162c0967da1be59fa80e1e51245c711d918dbd8bf5d9e94d07fc3f00d0d",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "0e7c638b78dd3a52956c9946fa9311570a7077d899d14d0a954263f339fd6e71",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "132657cf6de7e479eba3d0dbc3e5b73ec16d6de414dfb6bf5c07d5611a208883",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "38e74b54a0b0dcff51399b44c6951a54f7fe04cdcaddebd9757f3706fff9db1d",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "response_id": "3c9b028d823dec06518c44ed32b0420423a5209e354899c4e3282c700faeac89",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "3e6a030830db373d7439b1f7ceddba874d24b6023e84e94fe8add427f629f428",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "40eef899fd7007e42fa1e2be2a4591f69256924cb4afe28d3ac5f37eb61c543e",
+      "error_code": "author_card_counters_missing"
+    },
+    {
+      "response_id": "440a42f93d6c306fd612098f04cccec4e53ba04feaedd7aa523c787f62338def",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "response_id": "77c3359ff0e65494f408190657b50fed0b49ea13bc642917d4e006eadd9a8141",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "81bd9a75c55de7befca4a0b9ba20bf0e7271e88e37177f0a48ca16b7b6f8bebf",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "response_id": "8a37ca35c623a1ab73562d67f96cb42523d43ed4b486a70c479277e79960a7ec",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "8f4b47175ab8eaee9a6fcee2746e462e9d07cc3edc909482ff1d9eb29d15f9ad",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "96e1a8ff36bd1f6d3b0a29b7de44970627b4e6edffb71e335675641ad04353cf",
+      "error_code": "author_card_counters_missing"
+    },
+    {
+      "response_id": "976c311c29feb5cc4f3188bd5109dea73d319deff0a55ad22dc5f66489095f97",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "9baa4fe344c39e732ff54c50b36c86fe9e111b7813b54d97ddc314511df7bd61",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "a12dc0a55a27f35df499aac49b91ad3c05af602ec6d4ac2e1e136275e2b1054c",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "a781dae9dce701e6bfd3c7a24a9f3ca74db74288ecc6f69602b06487c6ff39b9",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "a7da1314609221eeaeaa37dda159ffcb951afabf600bd296c793a909f1fb96fe",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "response_id": "aa99a8f6552d9533746ef9d252d336f721bb05051139e600dec7677f62950e26",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "b3e4c242502153abe1943a89b2ea172928e324ca496159495fbac501f8b5719b",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "response_id": "b496a5531b8917087e100dd85b846e4c5e524dc307f2dfe461761a5d7ce49e96",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "b79f4951337f801f1025df9319e289fa5faa06f0920a0d9778e76cc7b658468c",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "b86b1331c63e431da2095285d16b9a76b1c52af0da8402e65dba5074dd3a226d",
+      "error_code": "author_card_counters_missing"
+    },
+    {
+      "response_id": "b964968079caca3352df5780e1b51d1b34a631c9ddf06692569847a06ed903e3",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "bd5f3ea155c094a7401f75d6572294d66d89bdb2d10df1c4d975f8ebe96fe7ca",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "bde17d8c791ff3a557e809062e913ee3d763f83d3dae0357ae5a50f59a4a9ac9",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "cfecb60bb8b93af538b91ac992440d6dd98b58a5544bebeca163bae7ae688410",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "d2ca773aed94ac4f8333d2532f6a2da78ae136a74c937e99d931c4ac5fe8f61d",
+      "error_code": "unversioned_processing_change"
+    },
+    {
+      "response_id": "dd94831ff9e2ec8b0703e8bab9b744759ef81cb264c761cd1eaa7193e0a88977",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "f4bc394a33c34d2e0522784029bf99c78211d979df9c12e2c62aac1c58ba83f9",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "f591b5e18119bb01c33e44b78acb62bdd8d040b88575b9f1f5595e810b48dec7",
+      "error_code": "cannot_replay_failed_http_response"
+    },
+    {
+      "response_id": "fae511afecad4d82127e33b0ed9ec24a608c1b20b949c7a353392cb48752cda5",
+      "error_code": "author_card_counters_missing"
+    },
+    {
+      "response_id": "ffde4b99bc520cfbb05f7a44eb2590266089a7fd5ad3fdcd50ffe758627fed5a",
+      "error_code": "cannot_replay_failed_http_response"
+    }
+  ],
+  "post_states": [
+    {
+      "post_id": "116482632",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116480956",
+      "parser_version": "autohome-page-2",
+      "quality_state": "review_required"
+    },
+    {
+      "post_id": "116480566",
+      "parser_version": "autohome-page-2",
+      "quality_state": "review_required"
+    },
+    {
+      "post_id": "116472358",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116471160",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116470846",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116467632",
+      "parser_version": "autohome-page-1",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116465026",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116463385",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116461998",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116455114",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116450343",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116449519",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116449383",
+      "parser_version": "autohome-page-1",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116446199",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116444298",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116443556",
+      "parser_version": "autohome-page-2",
+      "quality_state": "review_required"
+    },
+    {
+      "post_id": "116442495",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116440845",
+      "parser_version": "autohome-page-1",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116440696",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116439965",
+      "parser_version": "autohome-page-1",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116439738",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116437430",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116436297",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116433689",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116432438",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116429696",
+      "parser_version": "autohome-page-2",
+      "quality_state": "ready"
+    },
+    {
+      "post_id": "116428255",
+      "parser_version": "autohome-page-2",
+      "quality_state": "review_required"
+    },
+    {
+      "post_id": "116428089",
+      "parser_version": "autohome-page-2",
+      "quality_state": "review_required"
+    },
+    {
+      "post_id": "116427825",
+      "parser_version": "autohome-page-2",
+      "quality_state": "review_required"
+    }
+  ],
+  "limitations": [
+    "Saved source assertions, not independent semantic acceptance",
+    "Initial live run is retained unchanged",
+    "No fresh external requests"
+  ],
+  "unexpected_replay_errors": 10,
+  "replay_acceptance_passed": false
+}

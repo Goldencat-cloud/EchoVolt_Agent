@@ -1,0 +1,360 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4af09f07b492e0bf",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 800km 四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "问界M5标准版",
+      "entity_level": "具体配置",
+      "brand": "问界",
+      "series": "M5",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾过问界M5标准版（25.98万）"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉Model 3焕新版",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": "焕新版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特斯拉Model 3焕新版（23.19万）"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者作为人生第一台车买家，预算限制在30万以内，决定从燃油车转为新能源车。在试驾了问界M5标准版和特斯拉Model 3焕新版后，因小米SU7 Max的外观设计（无框车门、主动尾翼、贯穿式灯带及星幕紫车漆）而做出最终选择。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为人生第一台车，预算卡死30万，新能源大势下决定“油转电”。试驾过问界M5标准版（25.98万）和特斯拉Model 3焕新版（23.19万），前者智驾惊艳但设计中庸，后者操控犀利却内饰简陋。最终被小米SU7 Max的颜值暴击——无框车门、主动尾翼、贯穿式灯带，配合「星幕紫」车漆的流光质感，瞬间明白“为设计买单”的真谛。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "前者智驾惊艳但设计中庸...最终被小米SU7 Max的颜值暴击"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "后者操控犀利却内饰简陋...最终被小米SU7 Max的颜值暴击"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者详细列出了小米SU7 Max的费用清单，包括裸车价299,900元，个性化定制（霞光紫车漆7,000元+20英寸运动轮毂6,000元），保险10,358元，上牌399元，享受新能源免购置税优惠约26,500元，最终落地价为323,657元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "裸车价：299,900元 个性定制：霞光紫车漆7,000元+20英寸运动轮毂6,000元 保险费用：10,358元（含交强险+300万三责险+车损险） 上牌服务：399元（小米代验车服务） 政策优惠：新能源免购置税（省约26,500元） 赠品福利：雷军签名款棒球帽（价值299元） 最终落地价：323,657元"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者对小米的“全托管服务”给予高度评价，认为其上牌流程比传统4S店更高效，全程仅需2小时，且APP预传证件、专员陪同验车等服务体验极佳。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米“全托管服务”碾压4S店体验！全程2小时搞定： 提前3天在APP上传身份证、发票扫描件 到店直接打印验车单，专员陪同验车 50选1车牌号池更新快"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者对车辆外观高度满意，特别是霞光紫配色和20寸低风阻轮毂带来的视觉效果，以及解锁时的流水灯语仪式感。内饰方面，作者认为三辐D型方向盘具有战斗气息，且可物理翻转的仪表盘比Model 3更人性化。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "外观：霞光紫+20寸低风阻轮毂（实测降低7%电耗），解锁时流水灯语仪式感拉满 内饰：三辐D型方向盘战斗气息十足，可物理翻转的仪表盘比Model 3更人性化"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "智能座舱与车机",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "可物理翻转的仪表盘比Model 3更人性化"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者分享了实际能耗数据：市区通勤为15.3kWh/100km，高速120km/h巡航约为19.6kWh/100km，并指出这大约是CLTC工况下的8折水平。此外，作者提到狂暴模式下双电机功率达495kW，起步加速强劲，但建议关闭模拟声浪，因其听起来略显塑料感。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "狂暴模式：双电机495kW，红绿灯起步秒杀90%燃油车（但建议关闭“赛道声浪”，模拟音略显塑料感） 真实电耗：市区通勤15.3kWh/100km，高速120km/h巡航约19.6kWh（CLTC打8折）"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者描述了市区通勤和高速120km/h巡航两种驾驶工况下的能耗表现。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "真实电耗：市区通勤15.3kWh/100km，高速120km/h巡航约19.6kWh（CLTC打8折）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者称赞小米的跨端互联功能，实现了手机日程自动导航、离家自动开空调、车库自动降充电桩等生态闭环体验，认为非常实用。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "跨端互联：手机日程→自动导航→离家1km开空调→车库自动降充电桩，生态闭环真香"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出了车辆的几个缺点：后排头顶空间较为局促，建议身高175cm以上的用户选装可调航空头枕；无线充电板存在明显发热现象；应用商店内的APP数量不足。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "槽点直击 💔 后排头顶空间局促（身高175cm以上建议选装“可调航空头枕”） 无线充电板发热明显 应用商店APP不足"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "【小米SU7 Max提车作业】"
+      },
+      {
+        "block_id": "T4",
+        "source_type": "text",
+        "quote": "用车初体验"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "30万",
+    "preferences": [
+      "注重外观设计",
+      "偏好智能化生态互联"
+    ]
+  },
+  "post_summary": "这是一篇关于小米SU7 Max的提车作业。作者作为首任车主，在30万预算内对比了问界M5和特斯拉Model 3后，因颜值选择了SU7 Max。文章详细记录了费用清单、高效的交付上牌体验，并分享了初期用车感受，包括对能耗、智能互联的满意以及对后排空间和充电发热的吐槽。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

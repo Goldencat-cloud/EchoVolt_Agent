@@ -1,0 +1,430 @@
+{
+  "post_id": "7b3686edba4027b3",
+  "state": "FAILED",
+  "cache_key": "6ba0f1b3cadbd02184dea817370e31343b97a1481fb46e8159238ca38ca1c44b",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "7b3686edba4027b3",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "智界S7",
+        "entity_level": "具体配置",
+        "brand": "智界",
+        "series": "S7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "智界S7"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "蔚来ET5",
+        "entity_level": "具体配置",
+        "brand": "蔚来",
+        "series": "ET5",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "蔚来ET5"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "小鹏P7系列",
+        "entity_level": "车系",
+        "brand": "小鹏",
+        "series": "P7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小鹏P7系列"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "小鹏P7i",
+        "entity_level": "具体配置",
+        "brand": "小鹏",
+        "series": "P7",
+        "model_year": null,
+        "version": "P7i",
+        "evidence": [
+          {
+            "block_id": "I2",
+            "source_type": "image_summary",
+            "quote": "#小鹏P7i#"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "服务与交付",
+        "content": "雷军在社交平台表示小米SU7产能和交付速度正在快速提升，标准版和Max版已提前交付，部分准车主发现预计交付时间提前。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "目前小米SU7的产能和交付速度正在快速提升，标准版和Max已经提前交付。不少准车主在小米汽车App里发现，预计交付时间提前了。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": "E2",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "雷军向网友推荐智界S7、蔚来ET5、小鹏P7系列等国内其他新能源品牌车型，建议着急购车的用户可以考虑选购。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "如果网友们实在着急购车，国内新能源汽车都不错。比如，智界S7、蔚来ET5、小鹏P7系列等，大家也可以考虑选购。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E3",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "小鹏汽车和智界汽车官方微博转发雷军动态并表示感谢推荐。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小鹏汽车、智界汽车官微均转发了雷军动态并表示，“感谢雷总推荐”。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E4",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "媒体此前报道智界推出针对小米SU7订单车主的5000元现金补贴政策，华为工作人员确认该政策存在，持续至5月底，但公开渠道未见此信息。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "为了“截胡”小米的订单，智界拿出5000元现金补贴...华为工作人员表示：“确实有这样的政策。全国的鸿蒙智行签约门店，都能为客户申请。”...不过目前华为体验店、华为官方网站及其他公开渠道，都没有上述补贴政策的信息。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "文章指出小米SU7与智界S7在命名、售价区间（部分重叠）、配置（如碳化硅高压平台、8295芯片）及续航（均超700km）等方面高度重合，仅在车机系统上有所不同。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "小米SU7与智界S7在多方面高度重合...智界S7售价区间为24.98-34.98万元，小米SU7售价区间为21.59-29.9万元...二者配置层面也没有拉开差距...续航均在700km以上。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "价格与成本",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "智界S7售价区间为24.98-34.98万元，小米SU7售价区间为21.59-29.9万元，部分车型的价格区间重叠。"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "配置与功能",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "二者配置层面也没有拉开差距，例如碳化硅高压平台、8295座舱芯片等"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "续航与能耗",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "并且续航均在700km以上"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "雷军披露小米SU7交付提速",
+        "event_type": "企业与品牌动态",
+        "event_time": "2024-04-23",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "4月23日，小米集团董事长雷军在国内社交平台透露小米SU7订单生产情况时表示，目前小米SU7的产能和交付速度正在快速提升"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "雷军在4月23日表示小米SU7产能和交付速度快速提升，标准版和Max版已提前交付。"
+      },
+      {
+        "id": "E2",
+        "name": "雷军推荐竞品车型",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "雷军也向网友们推荐了国内其他新能源品牌旗下产品"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "雷军在介绍小米SU7后，向网友推荐了智界S7、蔚来ET5、小鹏P7系列等其他品牌车型。"
+      },
+      {
+        "id": "E3",
+        "name": "竞品官微回应雷军推荐",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P2",
+          "P4"
+        ],
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小鹏汽车、智界汽车官微均转发了雷军动态并表示，“感谢雷总推荐”"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小鹏汽车和智界汽车官微转发雷军动态并致谢。"
+      },
+      {
+        "id": "E4",
+        "name": "智界推出针对小米订单的补贴政策",
+        "event_type": "价格与销售政策",
+        "event_time": null,
+        "event_status": "传闻或未证实",
+        "related_product_ids": [
+          "P1",
+          "P2"
+        ],
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "此前有媒体报道称，为了“截胡”小米的订单，智界拿出5000元现金补贴...华为工作人员表示：“确实有这样的政策。”...不过目前华为体验店、华为官方网站及其他公开渠道，都没有上述补贴政策的信息。"
+          }
+        ],
+        "confidence": 0.85,
+        "summary": "媒体报道智界推出5000元补贴吸引小米SU7订单车主，华为人员口头确认但公开渠道无公示。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子报道了雷军在社交平台披露小米SU7交付提速，并向网友推荐智界、蔚来、小鹏等竞品车型的事件。随后，相关品牌官微积极互动致谢。文章还梳理了媒体关于智界推出针对小米订单补贴政策的报道，并对比了两款车型在价格、配置和续航上的高度重合性。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "events/E4/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "events/E4/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11434,
+    "completion_tokens": 3684,
+    "total_tokens": 15118,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 28.478091500001028,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

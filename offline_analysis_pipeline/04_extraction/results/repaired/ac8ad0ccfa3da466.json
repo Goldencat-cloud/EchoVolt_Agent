@@ -1,0 +1,174 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ac8ad0ccfa3da466",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在小米SU7挺火的"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "油车",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开着我的油车在高速上堵了快6小时"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者在五一期间驾驶燃油车在高速拥堵近6小时，观察到油耗显著上升，对此感到不满。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开着我的油车在高速上堵了快6小时，看着油耗表蹭蹭往上涨"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "五一假期，高速公路严重拥堵，持续约6小时。",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "五一走高速堵到怀疑人生"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在高速上堵了快6小时"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者考虑更换电动汽车，关注在日常通勤（单程40km）和偶尔自驾的场景下，相比燃油车能节省多少费用，并询问小米SU7标准版是否满足需求。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "想彻底换电车...像我这种场景，真换电车能省下多少钱？选标准版够用吗？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "日常通勤单程40公里，节假日偶尔自驾游。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我日常通勤单程40公里，节假日偶尔会自驾游"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者因家中无充电桩且担心长途充电排队，对全面转向电动汽车持有顾虑。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但家里没充电桩，又担心长途充电排队"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "开着我的油车"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "想彻底换电车"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "关注用车成本",
+      "适合日常通勤及偶尔长途自驾"
+    ]
+  },
+  "post_summary": "作者分享了五一高速拥堵导致燃油车油耗高的糟糕体验，对比了旁边电动车的稳定表现。基于日常通勤40公里和偶尔自驾的需求，作者正在考虑换购电动汽车，特别询问小米SU7标准版的适用性及潜在的成本节约，但受限于家充桩缺失和对长途充电排队的担忧。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

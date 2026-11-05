@@ -1,0 +1,306 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c07635474d91649e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2025",
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7 ultra发售"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "右侧车型为“小米SU7 Ultra 2025款 Ultra”"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "仰望U9",
+      "entity_level": "具体配置",
+      "brand": "仰望",
+      "series": "U9",
+      "model_year": "2024",
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "仰望U9"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "左侧车型为“仰望U9 2024款 标准版”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "奔驰C63",
+      "entity_level": "具体配置",
+      "brand": "奔驰",
+      "series": "C63",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "奔驰C63"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "保时捷911",
+      "entity_level": "具体配置",
+      "brand": "保时捷",
+      "series": "911",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "保时捷911"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "小米SU7 Ultra正式发售，起售价为52.99万元，相比此前81.49万元的预售价降低了约30万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "售价比预售时大降30万，起售价来到了52.99万元，此前预售价为81.49万元"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为小米SU7 Ultra的性能远超售价为其三倍的仰望U9，尽管SU7 Ultra的电机数量比U9少一个。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "就拿售价是他三倍的仰望U9来说，它的性能也远超U9，虽然电机比U9少一个"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "动力与性能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "它的性能也远超U9"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者类比燃油车时代的奔驰C63和保时捷911，认为虽然SU7 Ultra和仰望U9车型定位不同（GT与超跑），但消费者在购买时会将它们放在一起比较。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "这两个车就像油车时代里边的性能双雄奔驰C63和保时捷911，虽然不是一类车但是车主买车的时候会放在一起比较"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者调侃由于SU7 Ultra大幅降价消除了价格劣势，竞争对手（友商）难以找到攻击点，甚至可能需要修改负面稿件。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "估计小米发布会后友商***黑稿要连夜赶工修改了，就怕揪掉不少头发也找不出太多可以黑的点"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者担忧SU7 Ultra因价格降低使得更多年轻群体（“精神小伙”）能够购买，若在公共道路不当驾驶可能会增加事故风险。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "如果在公共道路上瞎开，可能又会增加不少事故风险吧！"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra正式发售及降价",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "昨天晚上备受关注的小米su7 ultra发售，售价比预售时大降30万"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米SU7 Ultra于昨晚正式发售，起售价定为52.99万元，较预售价81.49万元大幅下调。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了小米SU7 Ultra正式发售并大幅降价至52.99万元的事件。作者认为该车性能超越同级别竞品仰望U9，并调侃竞争对手因价格优势丧失而难以进行负面营销，同时也表达了对低价高性能车普及可能带来的道路交通安全风险的担忧。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

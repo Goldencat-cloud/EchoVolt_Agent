@@ -1,0 +1,36 @@
+{
+  "pid": 31776,
+  "started_at": "2026-10-10T16:52:37.853161+00:00",
+  "updated_at": "2026-10-10T16:52:37.853161+00:00",
+  "state": "running",
+  "concurrency": 4,
+  "max_retries": 3,
+  "model": "qwen3.8-27b",
+  "params": {
+    "max_tokens": 2048,
+    "temperature": 0.0,
+    "enable_thinking": false,
+    "timeout": 180
+  },
+  "params_fingerprint": "ef50cd74846d0e79",
+  "prompt_version": "auto-008-v1",
+  "prompt_sha256": "82af1e4cdf1c388b53b7fbf94583e0e8e95c64315fa34188077749e97966e7b6",
+  "schema_version": "auto-008-v1",
+  "chunk_policy_version": "chunk-v1",
+  "counts": {
+    "total": 18,
+    "skipped_resumed": 0,
+    "success": 0,
+    "failed": 0,
+    "chunked": 0,
+    "pending": 18,
+    "states": {
+      "empty_response": 0,
+      "invalid_json_response": 0,
+      "truncated_or_incomplete": 0,
+      "invalid_source_reference": 0,
+      "api_or_transport_failure": 0
+    }
+  },
+  "eta_s": null
+}

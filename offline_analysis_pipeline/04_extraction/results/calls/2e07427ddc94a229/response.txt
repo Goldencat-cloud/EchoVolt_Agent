@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.3",
+  "post_id": "2e07427ddc94a229",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者询问近期官媒批评商家“大字吸睛、小字免责”营销手段的新闻，为何评论区普遍认为这是对某特定对象（“那谁”）的特指。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "问题来了，为何评论区都说是有所特指那谁呢？"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "帖子文字称这是“官媒纷纷下场点评”，并询问为何评论区认为这种批评是“有所特指那谁”，暗示该新闻背景与某特定车企的营销争议有关。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "官媒批评商家“大字吸睛、小字免责”营销现象",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近官媒纷纷下场点评，直指营销中的乱相……比如，“小字”。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "屏幕中央展示了新华社发布的评论文章，核心观点是批评商家使用“大字吸睛、小字免责”的营销手段"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "官方媒体发表评论文章，批评部分商家采用“大字吸睛、小字免责”的营销方式，指出此举缺乏诚意并损害消费环境。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子针对近期官媒批评商家“大字吸睛、小字免责”营销手段的新闻，提出疑问，探讨为何公众普遍猜测该批评是针对某特定车企的营销争议。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

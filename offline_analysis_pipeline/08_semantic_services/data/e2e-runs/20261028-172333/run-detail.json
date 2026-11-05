@@ -1,0 +1,71 @@
+{
+ "scenario": "detail",
+ "question": "SU7 充电补能体验的负面反馈集中在哪些议题？请给出 3 条原文佐证。",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "03f556499a2b45149f4b2090e03363f9",
+  "status": "running",
+  "status_url": "/api/agent/report/03f556499a2b45149f4b2090e03363f9",
+  "request_id": "25222f0b859f"
+ },
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 24.3,
+   "status": "clarifying",
+   "phase": "澄清中"
+  }
+ ],
+ "clarify_count": 2,
+ "outline": null,
+ "regenerate_used": 0,
+ "job_id": "03f556499a2b45149f4b2090e03363f9",
+ "clarify_questions": [
+  {
+   "field": "topic",
+   "question": "“充电补能体验”需限定到哪些具体场景/环节：仅公共快充，还是也包含家用充电、超充、充电桩兼容性、充电功率/速度、费用、占位/故障、App/客服/安装等？"
+  },
+  {
+   "field": "topic",
+   "question": "是否需限定SU7版本（标准/Pro/Max等）、地区或充电运营商？不同版本和地区补能体验差异会影响议题集中度。"
+  },
+  {
+   "field": "topic",
+   "question": "负面反馈的判定与议题分类粒度如何设定：是否只纳入SU7车主真实体验并排除媒体/转发/评测？议题需细分到哪些类别，是否需要统计频次、占比和情感强度？"
+  },
+  {
+   "field": "other",
+   "question": "数据来源与平台范围是什么：小米社区、微博、小红书、抖音、汽车之家/懂车帝、黑猫投诉、应用商店等哪些平台？采集正文、评论还是两者都采？"
+  },
+  {
+   "field": "other",
+   "question": "3条原文佐证的引用规则是什么：按议题各选3条还是全文共3条？按代表性、最高互动、随机抽样还是时间最新？是否需附链接、发布时间并脱敏？"
+  },
+  {
+   "field": "compare",
+   "question": "是否需要设置对比基准（如其他车型/品牌/充电场景）来判断“集中”，还是仅做SU7内部议题分布？"
+  },
+  {
+   "field": "other",
+   "question": "最终交付是否需要包含议题频次/占比表、负面情感强度、典型原文摘录及链接，还是只要议题清单和3条佐证？"
+  }
+ ],
+ "clarify_responses": [
+  {
+   "http": 202,
+   "answer": "聚焦充电补能与可靠性的负面反馈，需要具体原文佐证。",
+   "field": "other"
+  },
+  {
+   "http": 202,
+   "answer": "聚焦充电补能与可靠性的负面反馈，需要具体原文佐证。",
+   "field": "other"
+  }
+ ],
+ "fatal": "timeout",
+ "wall_s": 4607.1
+}

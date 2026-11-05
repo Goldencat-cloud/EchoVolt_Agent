@@ -1,0 +1,340 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5f05383d167ba1f3",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "随着小米SU7正式上市"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "长安启源A07",
+      "entity_level": "车系",
+      "brand": "长安启源",
+      "series": "A07",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "长安启源A07真香版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "极越汽车",
+      "entity_level": "品牌",
+      "brand": "极越",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极越汽车有百度和吉利两大巨头加持"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为造车需要长时间磨合，小米SU7成功在于营销，而极越汽车失败也在于营销。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "汽车有上万个零部件，不是砸钱两三年就能造出好车的...极越汽车...输在了营销上！小米赢在了营销上！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为长安启源A07设计原创度高，而小米SU7因类似保时捷Taycan而被质疑抄袭。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "相比很多高仿脸，长安启源A07真香版的这个设计，原创度真的是非常高...小米SU7有抄袭的嫌疑"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T5",
+                "source_type": "text",
+                "quote": "长安启源A07真香版的这个设计，原创度真的是非常高...小米SU7有抄袭的嫌疑"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出长安启源A07在舒适性配置（如座椅按摩、香氛、后视镜记忆）和部分智能配置（如AR-HUD）上优于小米SU7入门版。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "长安启源A07真香版...座椅按摩、香氛系统...小米SU7 2024款后驱标准长续航智驾版...竟然没有后视镜记忆...座椅按摩和香氛系统这种很香的配置，也给省掉了"
+        },
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "50英寸AR-HUD...这些都是小米SU7 2024款后驱标准长续航智驾版所不具备的"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T7",
+                "source_type": "text",
+                "quote": "长安启源A07真香版...座椅按摩、香氛系统...小米SU7 2024款后驱标准长续航智驾版...竟然没有后视镜记忆"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者对比两车续航，认为长安启源A07的710km CLTC续航比小米SU7的700km更有优势，尤其在高速场景下。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "长安启源A07真香版的710km，而小米SU7只有700km，差了10km...尤其是高速上，谁开谁知道"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T8",
+                "source_type": "text",
+                "quote": "长安启源A07真香版的710km，而小米SU7只有700km，差了10km"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者推测在高速行驶场景下，10km的续航差异可能有实际帮助。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "尤其是高速上，谁开谁知道"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为长安启源A07真香版相比小米SU7入门版具有更高的性价比，购买后者相当于交“智商税”。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "不是小米SU7买不起，而是长安启源A07真香版太有性价比"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T9",
+                "source_type": "text",
+                "quote": "不是小米SU7买不起，而是长安启源A07真香版太有性价比"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T9",
+        "source_type": "text",
+        "quote": "你更愿意选择售价更低、顶配的长安启源A07真香版，还是售价更高、入门版的小米SU7呢？"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "注重性价比",
+      "偏好高配置"
+    ]
+  },
+  "post_summary": "作者通过详细对比长安启源A07真香版与小米SU7入门版的外观、配置、续航及安全性能，认为前者在同等价位下提供了更丰富的配置和更高的性价比，批评小米SU7存在“智商税”现象，并呼吁读者关注启源A07的价值。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

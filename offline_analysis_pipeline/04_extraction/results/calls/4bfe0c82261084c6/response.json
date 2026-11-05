@@ -1,0 +1,78 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4bfe0c82261084c6",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "顶部标题显示“SU7 Pro”"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者询问已交付用户关于交付日期的计算方式，即按较短时间还是较长时间计算，并担心自己的交付日期可能导致无法赶上置换补贴。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "问下已经交付的朋友 给你们的日期是按前边短的算的还是后边时间算的 我这个交付日期有点尴尬 怕赶不上置换补贴了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "当前的状态为“车辆待生产”"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我这个交付日期有点尴尬"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者展示了SU7 Pro的订单界面，显示车辆待生产且预计还需16-19周交付。作者询问已交付用户关于交付日期是按短周期还是长周期计算，并担心因此错过置换补贴。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

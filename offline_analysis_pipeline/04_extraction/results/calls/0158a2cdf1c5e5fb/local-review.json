@@ -1,0 +1,69 @@
+{
+  "post_id": "0158a2cdf1c5e5fb",
+  "state": "CONTRACT_PASS",
+  "cache_key": "8d290ea56ae66a2da6fa7e0123e056c3345cdd14c72d34c023f951214efb84fc",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0158a2cdf1c5e5fb",
+    "products": [],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为某对象不值，最高价应为12万元。",
+        "sentiment": "负面",
+        "journey_stage": "无法判断",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "不值，最多12万"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者简短表达了对某对象的价值判断，认为其不值，最高价格不超过12万元。",
+    "post_topic": "价格成本与交易",
+    "analysis_value": "低"
+  },
+  "errors": [],
+  "original_errors": [
+    "api_transport_or_json_error"
+  ],
+  "usage": {
+    "prompt_tokens": 9970,
+    "completion_tokens": 379,
+    "total_tokens": 10349,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 1.9093486000056146,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

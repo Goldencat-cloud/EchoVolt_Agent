@@ -1,0 +1,512 @@
+{
+  "post_id": "808e972baf4978cd",
+  "state": "FAILED",
+  "cache_key": "fbfc6136eeede6375d3214d740ca755858d0734ec8981d39cca8d69457b39924",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "808e972baf4978cd",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7试驾小报告"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 MAX",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "MAX",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "今天这台试驾车是顶配的MAX版本"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "特斯拉Model 3",
+        "entity_level": "具体配置",
+        "brand": "特斯拉",
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "没跟“标杆车型”特斯拉Model3学坏"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "雪铁龙爱丽舍",
+        "entity_level": "具体配置",
+        "brand": "雪铁龙",
+        "series": "爱丽舍",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "我家二十年前买的雪铁龙爱丽舍也是这个设计呢"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P5",
+        "name": "保时捷帕拉梅拉",
+        "entity_level": "具体配置",
+        "brand": "保时捷",
+        "series": "帕拉梅拉",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T21",
+            "source_type": "text",
+            "quote": "那帕拉梅拉、奥迪A7这个级别才有的配置"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P6",
+        "name": "奥迪A7",
+        "entity_level": "具体配置",
+        "brand": "奥迪",
+        "series": "A7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T21",
+            "source_type": "text",
+            "quote": "那帕拉梅拉、奥迪A7这个级别才有的配置"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7的外观设计成功，特别是海湾蓝配色搭配21寸轮毂显得帅气、年轻且动感。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "不得不说SU7的外观设计还是挺成功的，尤其是海湾蓝配上21寸大轮毂，真帅！"
+          },
+          {
+            "block_id": "T20",
+            "source_type": "text",
+            "quote": "海湾蓝配21寸大轮毂真是绝了！非常年轻，非常动感。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "作者试驾小米SU7 MAX版本，认为其加速推背感强烈，虽然试驾模式限制了功率，但依然很快；同时称赞油门调校线性跟脚，与特斯拉相似。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "前后双电机这推背感不是盖的！...不过还是很快了！...小米SU7的电门我觉得调教的非常棒，渐进性很不错，踩多少动力来多少，非常跟脚，这点和特斯拉挺相似的～"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在人和车相对少的道路上，将驾驶模式调整为运动+模式进行试驾。",
+          "evidence": [
+            {
+              "block_id": "T12",
+              "source_type": "text",
+              "quote": "找了条人和车相对少的路，调整到运动+模式，电门到底！"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7底盘调校出色，空悬+CDC组合对路面震动处理到位，兼具舒适性与韧性，质感高级，优于同行竞品的“百万级底盘”。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T15",
+            "source_type": "text",
+            "quote": "SU7的底盘确实也很不错...空悬+CDC的组合，对路面震动的处理还是很到位的，舒适但又不乏有一股韧劲，底盘质感挺高级。一句话总结，比他同行造的车的“百万级底盘”强很多～"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出小米SU7前排视野通透无明显问题，但后排头部空间局促，身高175cm以上的男性容易扫头发，影响乘坐舒适度。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T25",
+            "source_type": "text",
+            "quote": "SU7的前排没啥毛病，视野也很通透，但后排的头部空间真的稍微有点局促，身高175以上的男生基本就快扫头发了，这点还是挺影响乘坐舒适度的！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者称赞小米SU7中控屏响应速度快，卡片式界面操作方便，支持手机投屏及CarPlay功能，认为其生态优势明显。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T23",
+            "source_type": "text",
+            "quote": "中控屏的响应速度非常快，而且卡片式的界面设计操作起来非常方便，小米用户还能直接把手机投屏上去...同时也感谢雷总为我们苹果用户带来了CarPlay，这太香了，这在新能源车中是头一个！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为小米SU7 MAX版本的驾驶模式切换旋钮阻尼手感好，配合仪表变化和音效，氛围感强，具有性能车特质。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "通过方向盘下方的小旋钮就可以切换，这个非常有性能车的感觉...而且这个小旋钮的阻尼也很棒，调整模式后车内仪表的样式会跟着变化，同时还有音效，氛围感相当到位！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者指出小米SU7前排座椅的主动腰托反应迟钝，在弯道中未能及时提供支撑，实用性不佳。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T16",
+            "source_type": "text",
+            "quote": "这个主动腰托的确不太好用，它的反应给人感觉慢半拍，我弯都要转完了它才慢慢顶起......"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者对比了小米SU7不同轮毂版本的续航达成率，认为其三电管理系统相比特斯拉仍有差距，但考虑到是首款车，表现尚可。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "根据汽车之家的实测，19寸轮毂版本续航达成率70.49%...21寸轮毂版，99%高速的情况下续航达成率65.79%。三电管理相比特斯拉还是有点差距，不过对于一个全新品牌的第一款车，我觉得这表现还是挺不错的了～"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "续航与能耗",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T18",
+                  "source_type": "text",
+                  "quote": "三电管理相比特斯拉还是有点差距"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为小米SU7性价比高，有意购买顶配版本，并幽默地请求网友借钱刷卡。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T26",
+            "source_type": "text",
+            "quote": "我反正觉得SU7挺香的，想冲一台顶配，所以哪位大哥能把卡借我刷一下啊～"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "安全与质量",
+        "content": "作者提及近期小米SU7试驾车转弯失控的新闻，推测原因是驾驶员关闭防滑并急加速，调侃称“年轻人的第一台车还没提到手，先出了第一场事故”。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "最近不是有小米SU7试驾车转弯时失控的新闻吗，我估计是驾驶员关闭防滑了，然后转弯时大脚电门。年轻人的第一台车还没提到手，先出了第一场事故～"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7试驾车转弯失控新闻",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "最近不是有小米SU7试驾车转弯时失控的新闻吗"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "近期有新闻报道小米SU7试驾车在转弯时发生失控事故。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T26",
+          "source_type": "text",
+          "quote": "想冲一台顶配，所以哪位大哥能把卡借我刷一下啊～"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "所以周一我六点就起床了，从德阳出发开了两小时的车，到小米汽车成都龙泉交付中心赶早八！"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "偏好运动风格外观",
+        "重视车机生态与CarPlay支持"
+      ]
+    },
+    "post_summary": "博主分享了小米SU7 MAX版本的深度试驾体验。文章详细记录了从预约试驾到动态驾驶的全过程，高度评价了其外观设计、动力性能、底盘质感及车机生态，但也指出了后排头部空间局促和主动腰托反应慢的问题。此外，博主表达了对购买顶配版本的强烈意向，并简要回顾了静态展示亮点。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "products/P5/evidence/0:non_contiguous_quote",
+    "products/P6/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "products/P5/evidence/0:non_contiguous_quote",
+    "products/P6/evidence/0:non_contiguous_quote",
+    "claims/C6/evidence/0:non_contiguous_quote",
+    "claims/C9/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 17775,
+    "completion_tokens": 4523,
+    "total_tokens": 22298,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 16192
+    }
+  },
+  "elapsed_s": 19.862340799998492,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

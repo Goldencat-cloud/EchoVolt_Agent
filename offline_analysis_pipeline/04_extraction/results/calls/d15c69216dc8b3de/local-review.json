@@ -1,0 +1,836 @@
+{
+  "post_id": "d15c69216dc8b3de",
+  "state": "FAILED",
+  "cache_key": "c46c36de03c4dfa0df5a6009a710f5d288e2d65b7400ac55917c3f1ef6c6428b",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "d15c69216dc8b3de",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 标准版创始人版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "标准版创始人版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7创始人标准版"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "最终抢到了雅灰+红内标准创始人版本的SU7"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 MAX",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "MAX",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "因为MAX版比较吸引人，所以让销售无论如何也得安排一次MAX"
+          },
+          {
+            "block_id": "I4",
+            "source_type": "image_summary",
+            "quote": "SU7 Max试驾"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "极氪007",
+        "entity_level": "具体配置",
+        "brand": "极氪",
+        "series": "007",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "极氪007：极氪007哪哪都不错，但是就是长的太不符合我的兴趣了"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "比亚迪汉",
+        "entity_level": "车系",
+        "brand": "比亚迪",
+        "series": "汉",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "比亚迪汉：比亚迪汉颜值符合我的要求、但是混动我又不是第一考虑的"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "比亚迪海豹",
+        "entity_level": "车系",
+        "brand": "比亚迪",
+        "series": "海豹",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "比亚迪海豹：海豹新平台、新出的荣耀版相对其他比亚迪荣耀版车型诚意显得不够充足"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P6",
+        "name": "零跑C01",
+        "entity_level": "具体配置",
+        "brand": "零跑",
+        "series": "C01",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "零跑C01：C01底盘前双后五、电池度数大，主要讲究的就是量大管饱"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P7",
+        "name": "银河E8",
+        "entity_level": "具体配置",
+        "brand": "吉利银河",
+        "series": "E8",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "银河e8：E8大连屏完全不符合要求、被劝退"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P8",
+        "name": "奥迪A4L",
+        "entity_level": "具体配置",
+        "brand": "奥迪",
+        "series": "A4L",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "奥迪A4L：入门级豪华品牌，去过4S店问过，低配+后排出风口，贷款落地26.8W"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P9",
+        "name": "凯迪拉克CT5",
+        "entity_level": "具体配置",
+        "brand": "凯迪拉克",
+        "series": "CT5",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "凯迪拉克CT5：内饰朴素、油耗不低，虽然可以20出头买到，但是最终没有考虑"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为小米SU7标准版创始人版性价比高，虽顶配诱人但因预算限制和家庭使用场景选择了标准版。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "顶配十分的香，但是预算的确超了一些，想想对于自己也大多数是家用的场景，最后还是没有加预算上顶配，标准版创始人版本已经很香了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为极氪007各方面不错但外观设计不符合其审美，因此排除。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "极氪007哪哪都不错，但是就是长的太不符合我的兴趣了，一点都提不起来"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为比亚迪汉EV相比新款电车在底盘和智能化方面落后一代，且等待换代时间过长。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "汉EV相比较新出来的电车，底盘、智能化方面还是差距比较多，感觉就是落后了一代，如果等换代又是等到年底，时间太久了等不起"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为比亚迪海豹荣耀版诚意不足，底盘用料不如小米SU7，电机诚意小，智能化不够顶尖。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "同级别底盘也没有小米SU7用料好，电机诚意小...智能化上也是不够顶"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P5",
+            "P1"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P5",
+              "object_product_id": "P1",
+              "aspect": "配置与功能",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "同级别底盘也没有小米SU7用料好"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P6",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为零跑C01底盘硬件好但调校不佳，新品亮点不多，品质有待考验。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "但是调教不行、空有一身好本领难以发挥，而且新车型上市主要还是小增配而已，没有特别大的亮点，产品品质有待考验"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P7",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者因银河E8的大连屏设计不符合要求而将其排除。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "E8大连屏完全不符合要求、被劝退"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P8",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为奥迪A4L落地价偏高且养车成本高，不适合其预算。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "贷款落地26.8W，价格有点小贵，平时养车用车成本也不便宜，不太适合我普通打工人使用"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者试驾小米SU7 MAX后，对其加速性能、SPORT模式下的动力、底盘滤震及空间表现给予高度评价，认为其易于驾驶。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "加速十分的快，特别是开了SPORT模式后，动力强劲，推背感十足，底盘过减震带平稳，空间上对于我这种175左右的人完全是够了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "作者在南京小米总部体验店进行了约10-15分钟的短途试驾。",
+          "evidence": [
+            {
+              "block_id": "T6",
+              "source_type": "text",
+              "quote": "每个人只有10-15分钟试驾时间"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者在南京至镇江的高速路况下（空调开启，平均时速110km/h左右）测得能耗约为15kWh/100km，对此表示满意。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "从南京-镇江，走了大概60多km高速，空调开，平均时速110左右，能耗15多一点"
+          },
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "总体上来说，我对这个能耗还是很满意的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者驾驶车辆在南京至镇江的高速公路上行驶，开启空调，平均时速约110km/h。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "从南京-镇江，走了大概60多km高速，空调开，平均时速110左右"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者在市区低速（50km/h左右）且未开空调的情况下，测得能耗约为12kWh/100km。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "正常在市区开开，空调因为晚上冷，没开，速度应该在50多，能耗在12左右"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "作者在夜间市区道路行驶，车速约50km/h，未开启空调。",
+          "evidence": [
+            {
+              "block_id": "T8",
+              "source_type": "text",
+              "quote": "正常在市区开开，空调因为晚上冷，没开，速度应该在50多"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者实测从36%充至95%耗时40多分钟。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "实测40多分钟 从36%到95%"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C12",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为车机流畅度高，8295芯片表现出色，语音、媒体、导航等功能良好，UI设计符合手感，离线地图好评；但指出小爱同学在无网环境下功能受限，音响音量随车门开关自动调节不可控，蓝牙钥匙需绑定账号，近距解锁过于频繁。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "流畅度很优秀，毕竟8295芯片，语音控制、媒体、导航、360等功能都很不错"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "小爱同学应该是云端算力，在隧道切换到2G一次，直接变傻瓜...所以需要联网才行"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "车内音响在开门的时候就会减小，这个不能手动调整"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "靠近就解锁还是太频繁了...最后被我关了这功能"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C13",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为后备箱空间大且实用，但找不到主驾手机放置处（除无线充电外）和眼镜盒；前备箱关闭方式不直观；后排腿部空间因前排座椅低而受限；身高185cm以上的人在后排容易顶头。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "后备箱空间比较大、想放的东西都能放得下，挺满意的"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "没找到主驾手机放在哪...眼镜盒好像我也没找到"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "后排因为前排座位设计的低，脚是伸不进去前排座椅底下的"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "后排公认的高个子（185以上）必顶头...家里高个子多的不要买！"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C14",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为隔音效果不错，高速噪音小；车内气味正常无异味；内饰质感尚可但非豪华，真皮触感好；氛围灯白天不明显；迎宾灯仅顶配有；顶棚织物颜色搭配略显突兀。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "隔音真的算很不错了...高速声音也不大"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "味道没闻到什么离谱的异味...感觉就是正常的味道"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "内饰相对来说，中规中矩，谈不上豪华，但质感还可以"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "氛围灯有等于没有，除了夜晚，白天不明显"
+          },
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "迎宾灯只有顶配才标配，中配和低配都没有，有点难受！"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C15",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者推荐购买遮阳帘、靠枕、遮阳伞和香氛套装等配件，认为其实用性强；不推荐实体按键、双标盘、拾音氛围灯和平板支架。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "我觉得比较实用的有以下几个：1、遮阳帘...2、靠枕...3、遮阳伞...4、香氛套装"
+          },
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "说一下不推荐的：不是十分有必要的或者强迫症的不要买实体按键...双标盘代价太大...拾音氛围灯装上去感觉拉低这车的档次...平板支架我也不推荐"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C16",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者总结小米SU7是好开、经济、续航长、颜值高的车，适合预算20多万且有刚需的用户，但长期质量和售后尚待检验。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "小米SU7目前来看是一辆好开的车，能耗不高，做的很经济，续航长，颜值高，用料实在。但长期的质量、售后服务等还需要时间的检验"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7发布会及定价",
+        "event_type": "产品发布与上市",
+        "event_time": "2024-03-28",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2"
+        ],
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "3.28号发布会晚上去小米南京华东总部体验店参加小米汽车发布会"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "等到发布会时，雷总正式确定价格的时候，看到21.59的时候还是有一点点的失望的"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米举办SU7发布会，公布标准版起售价21.59万元，并提供实用三件套赠品。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我提了小米SU7"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "体验了一整天"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": "20-25W",
+      "preferences": [
+        "偏好轿车而非SUV",
+        "重视品牌价值溢价",
+        "家有充电条件",
+        "日常通勤无需长途"
+      ]
+    },
+    "post_summary": "南京首批小米SU7车主分享提车日记，详细记录了从选车对比、发布会抢购、试驾体验到提车后的能耗、车机、空间及内饰评价。作者最终选择标准版创始人版，对车辆的整体表现持积极态度，但也指出了部分配置和空间上的不足。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "incomplete_response"
+  ],
+  "usage": {
+    "prompt_tokens": 14417,
+    "completion_tokens": 7388,
+    "total_tokens": 21805,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 11776
+    }
+  },
+  "elapsed_s": 31.17152370000258,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

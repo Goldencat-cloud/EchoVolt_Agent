@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.3",
+  "post_id": "013c71a6c3d9fc56",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "关于小米SU7你怎么看"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7赠送冰箱、豪华音响、电动尾翼和轮毂可能是营销手段，并推测未来热度降低后可能会取消赠品或直接降价。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在又送冰箱又送豪华音响还有电动尾翼和轮毂，感觉是一种营销手段...过段时间热度没这个高了直接一个降价不送了有没有这种可能"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者指出其所在城市距离最近的小米交付店超过1000公里，提车需板车运输，且当地缺乏售后处理网点，担心维修时效问题。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "离我最近的小米提车交付店在北京1000多公里买台车只能用板车拉回来，在自己的城市开有点什么小毛病都没售后处理的地方，还有就是维修时效，眼下小米售后这一块就还没落实"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者表示虽然对小米SU7心动，但因缺乏试错成本和售后顾虑，建议等待观望，认为目前该车更适合富裕人群。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是我只是一个普通老百姓没有试错的成本...所以说先别急让子弹飞一会，只能说眼下的SU7还是富人的玩具"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "但是我只是一个普通老百姓没有试错的成本"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者在观看小米SU7发布会及测评后，表达了对当前赠送权益可能为短期营销策略的疑虑，并重点指出了异地购车面临的物流困难及本地售后服务缺失的问题。尽管对车辆感兴趣，但出于对售后体系和试错成本的考量，作者建议潜在买家暂时观望。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

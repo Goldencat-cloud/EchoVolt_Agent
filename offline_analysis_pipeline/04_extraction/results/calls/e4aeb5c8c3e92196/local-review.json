@@ -1,0 +1,153 @@
+{
+  "post_id": "e4aeb5c8c3e92196",
+  "state": "FAILED",
+  "cache_key": "7bcc1f4a127ddd38bc6baced11fbf58bb59566bc92f7f1129df4547b3227b4da",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "e4aeb5c8c3e92196",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米",
+        "entity_level": "品牌",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "发现小米的一个隐藏的自动功能，提醒各位车主注意！！！！"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者指出小米车辆存在一项自动调整底盘高度的功能：当空气悬架因泄漏导致底盘高度与设定值的偏差超过一定限值时，系统会自动调整高度以恢复至设定值。作者强调这不是Bug或故障，而是正常的自动功能运作。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "原因是，如果你把底盘高度的设定在某个挡位，车辆行驶过程中，由于是空气悬架，不可避免的会有少量泄露发生。当泄露造成底盘高度与设定偏差超过一定限值后，小米就会自动调整高度恢复到设定的高度。就是这个功能。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "不是bug，不是故障，是一个自动的功能在工作。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "作者在路口停车等待时观察到车头自动升降，且底盘高度设定在中等位置而非随速档。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "有好几次在开车的过程中，路口停车等待的时候，无意中发现车头会自己升降，底盘一直放在中等位置，没有放在随速档。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者通过与小米客服及后台技术人员沟通，确认了车辆在该时间点确实发生了自动调整底盘高度的行为，并建议官方应向所有用户清晰说明此功能以避免误解。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "昨天又发生了一次，把对应的视频交给客服，然后上传车辆日志，后台的一个技术小姑娘和我反复沟通，找到了那个时间点小米确实在自动调整底盘高度。"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我提醒小米客服，这个应该和所有的用户都要说清楚，否则容易造成误解。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有好几次在开车的过程中，路口停车等待的时候，无意中发现车头会自己升降"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "把对应的视频交给客服，然后上传车辆日志"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者分享了小米车辆的一项隐藏自动功能：当空气悬架因微量泄漏导致底盘高度偏离设定值超过限值时，系统会自动调整高度以恢复设定。作者通过联系客服和技术人员确认了这一现象并非故障，并建议官方加强对此功能的用户告知，以免引起误解。",
+    "post_topic": "产品功能与技术",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10138,
+    "completion_tokens": 1248,
+    "total_tokens": 11386,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 5.632121999995434,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

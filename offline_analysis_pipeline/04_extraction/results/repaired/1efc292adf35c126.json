@@ -1,0 +1,326 @@
+{
+  "schema_version": "2.3",
+  "post_id": "1efc292adf35c126",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7 Max"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "Pro版CLTC续航甚至做到了902公里"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "特斯拉来了也一样得跪"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "续航与能耗",
+      "content": "在零下25℃极寒环境的高速行驶测试中，小米SU7 Max（双电机四驱版）实测续航385公里，续航达成率为47.5%，并获得该测试小组第一的成绩。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最终结果显示，小米SU7 Max（双电机四驱版） 在这个环节里拿到了小组第一的成绩。具体数据来看，这台车的CLTC标称续航是800km，在零下25℃的低温加高速行驶条件下，实测跑了385公里，续航达成率47.5%"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "零下25℃极寒环境，高速行驶工况。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在零下25℃的低温加高速行驶条件下"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "一位车主分享其在气温较低时驾驶小米SU7 Max（选配21寸轮毂，CLTC续航725km）从深圳回山东老家，高速百公里电耗约22kWh，实际续航约450公里；回到广东气温回暖后，电耗降至15kWh左右，续航表现更稳。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "一位虎扑的老哥分享了他开小米SU7 Max（选配21寸轮毂，CLTC续航725km） 从深圳开回山东老家的长途体验。... 据他描述，进入山东地界后，天气确实冷冽，气温比较低。在这种环境下跑高速，百公里电耗在22kWh左右，算下来实际续航能跑到差不多450公里 。 而等他开回广东，气温回暖，电耗立马就降到了15kWh左右，续航表现就更稳了"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "冬季长途自驾，从深圳至山东，经历低温环境后返回广东。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "从深圳开回山东老家的长途体验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "数据显示，在零下15℃的常规冬季环境下，SU7的市区续航达成率约为6.5折；在高速120km/h限速行驶时，续航达成率约为7折。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "另外也有数据显示，在零下15℃的常规冬季环境下，SU7的市区续航达成率大概在6.5折左右 。而在高速顶着120km/h限速跑的时候，续航达成率大概能做到7折的水平"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "零下15℃环境，分别进行市区行驶和高速120km/h行驶。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "在零下15℃的常规冬季环境下，SU7的市区续航达成率大概在6.5折左右 。而在高速顶着120km/h限速跑的时候"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "小米官方解释称，SU7通过0.195Cd风阻系数、全域碳化硅应用及高效热管理系统优化能耗，这些细节合计可为续航优化贡献超过150km。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米官方的解释是，SU7在能耗优化上确实下了一些功夫。比如0.195Cd的超低风阻系数，这在跑高速的时候帮助很大；再加上全域碳化硅（电驱动、充电、空调压缩机都用上了） 和高效的热管理系统，这些细节加起来，据说能为续航优化贡献超过150km"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为电动车冬季续航打折是物理特性决定的普遍现象，即使是特斯拉也会面临同样情况，关键在于标称续航基础和能耗控制水平。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "电动车的冬季续航打折是常态，这是物理特性决定的，特斯拉来了也一样得跪 。关键看两点：一是标称续航的基础够不够厚实（底子厚了打折后依然够用），二是能耗控制水平够不够细（能不能把每一度电都用在刀刃上）"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "续航与能耗",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T3",
+                "source_type": "text",
+                "quote": "特斯拉来了也一样得跪"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者建议北方或有长途刚需的用户选择Max版，因其四驱稳定性和更大的电池容量（配合897V高压平台，15分钟可补能670公里）；南方城市通勤用户则推荐性价比更高的后驱标准版或Pro版（CLTC续航902公里）。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "如果你正在看这台车，而且你在北方，或者有长途刚需，Max版可能是更稳妥的选择。 一方面它是四驱，在雪地湿滑路面的稳定性更好；另一方面电池容量更大，配合897V的高压平台，除了续航本身更长，充电速度也快——理论上15分钟能补能670公里"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "当然，如果你主要在南方城市通勤，后驱的标准版或者Pro版性价比就很高，Pro版CLTC续航甚至做到了902公里"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "汽车之家新能源汽车冬季测试",
+      "event_type": "其他",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在汽车之家近期进行的新能源汽车冬季测试中，测试团队把车拉到了零下25℃的极寒环境，并且进行了高速行驶的极端工况测试。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "汽车之家组织了一次新能源汽车冬季测试，在零下25℃极寒环境下进行高速行驶测试，小米SU7 Max参与其中并取得小组第一。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子汇总了小米SU7 Max在冬季不同工况下的续航实测数据，包括极寒环境下的专业测试结果和车主长途自驾的真实反馈。文章分析了影响续航的温度和车速因素，介绍了官方宣称的技术优势，并为不同地区用户提供了版本选择建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

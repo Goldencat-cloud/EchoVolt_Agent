@@ -1,0 +1,244 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a37aeee86afc2ce5",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7热点集中问题官方解答（第六十五期）"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Max车型由于采用了前后双电机四驱，可以毫秒级地分配前后轮的牵引力，可以更有效地避免弹射起步时的车轮打滑。"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "官方解答称小米SU7续航里程显示采用四舍五入取整数方式，不影响实际里程统计、能耗计算及保养标准，且里程统计精度经测试验证高于行业水平。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的续航里程显示采用四舍五入取整数的方式...这样的做法是为了让驾驶员能够快速读取里程信息，同时不会影响系统的实际里程统计，更不会影响判断能耗计算以及保养标准。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的里程精度高于行业水平。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "官方解答称目前暂无计划增加远程控制空调风速功能，但该功能将加入后续OTA升级评估；现有APP远程开启空调功能会根据车内外温度综合判断风量。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前暂无计划增加该功能，我们将加入到后续OTA升级的评估中。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7可以在手机APP远程开启空调。空调系统将根据车内外温度综合判断风量大小..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "官方解答称小米SU7全系标配弹射起步功能，通过电子系统限制车轮打滑，但在湿滑路面等条件下抓地力下降可能导致打滑，建议避免在此类路况使用该功能。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7全系标配弹射起步功能，该功能会调用电机的最大功率输出，并通过电子系统限制车轮打滑..."
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "建议用户不要在湿滑路面、雨雪等天气下使用弹射起步功能，会存在一定的安全风险。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "官方解答指出Max车型因采用前后双电机四驱，可毫秒级分配前后轮牵引力，相比其他配置能更有效避免弹射起步时的车轮打滑。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Max车型由于采用了前后双电机四驱，可以毫秒级地分配前后轮的牵引力，可以更有效地避免弹射起步时的车轮打滑。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "Max车型由于采用了前后双电机四驱，可以毫秒级地分配前后轮的牵引力，可以更有效地避免弹射起步时的车轮打滑。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "官方解答称小米SU7配置表中的标配及选配项均为出厂前装，不支持后续到店安装（包括HUD、电动尾翼），建议在下单时仔细斟酌选装；但CarIoT车载智能设备支持购车后购买和安装。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7配置表中的标配项及选配项均为出厂前装，不支持后续到店安装，HUD、电动尾翼等配置也包括在内。因此建议用户在下单时，更加仔细斟酌相关配置，确定选装。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我们也为用户提供了丰富的CarIoT车载智能设备...也支持购车后随时购买和安装。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "该帖子为小米SU7官方热点问题解答（第六十五期），详细解释了里程续航统计规则、远程控制空调功能现状、弹射起步防打滑机制及配置后装政策。内容侧重于技术原理澄清和购车配置建议，旨在消除用户对车辆功能和配置的疑虑。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

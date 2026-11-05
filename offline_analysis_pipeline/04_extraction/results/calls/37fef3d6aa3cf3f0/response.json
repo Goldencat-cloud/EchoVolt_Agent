@@ -1,0 +1,158 @@
+{
+  "schema_version": "2.3",
+  "post_id": "37fef3d6aa3cf3f0",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我比较关注车型的，就是小米汽车的SU7了"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "续航与能耗",
+      "content": "作者认为小米SU7在冬季测试中取得了亮眼的续航成绩，缓解了其在寒冷冬天的续航焦虑，并因此更加相信小米品牌在新能源车方面的硬实力。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今年他的成绩可谓是非常的亮眼...对于我们车主和准车主来说，却是一个妥妥的好消息"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "续航与能耗",
+      "content": "作者转述了小米SU7在冬季测试中的具体数据：低温时续航737公里，极寒地区续航385公里，续航达成率91%，百公里能耗分别为14度和27度。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "低温时的续航737公里，极寒地区的续航表现也有385公里的成绩，91%的续航达成率...分别是接近百公里14度电和百公里27度电的表现"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为小米SU7优异的冬季续航成绩给同级别竞争对手带来了很大压力，对其他同级别车企而言不是一个好消息。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "给同级别的竞争对手非常大的压力...这对于其他同级别的车企来说，并不是一个好消息"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 2024冬季首测",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今年的冬测消息面很多...今年他的成绩可谓是非常的亮眼"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "标题为“2024冬季首测单车成绩”"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米SU7参加了2024年的冬季续航测试，并公布了低温区和寒冷区的续航及能耗数据。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "对于在寒冷的冬天有续航焦虑的我...让我们更加相信小米品牌"
+      }
+    ],
+    "confidence": 0.6,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "关注冬季续航表现"
+    ]
+  },
+  "post_summary": "作者关注小米SU7的冬季测试结果，认为其亮眼的续航和能耗数据缓解了冬季续航焦虑，提升了品牌信心，同时也给同级竞争对手带来了压力。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

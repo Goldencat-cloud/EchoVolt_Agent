@@ -1,0 +1,7 @@
+{
+  "same_job_id_returned": true,
+  "created_new_job": false,
+  "job_id": "9141b94dc9bd47458c0b14f9922b32e6",
+  "queued_requests_triggered": 0,
+  "note": "create_job with same idempotency key and identical request hash returns existing job"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.3",
+  "post_id": "fd9c7a95966e4889",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者指出车辆翻车时，无论何时都必须系好安全带，这可以保障约70%的安全。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一个不管什么时候，必须扎好安全带，就可以保障70%左右的安全。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者建议在车辆停止翻滚时想办法割断安全带逃离驾驶室，特别针对新能源汽车要防止爆燃并尽快远离汽车。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第二个在车辆停止翻滚时，要想办法割断安全带逃离驾驶室，特别是新能源汽车，防止爆燃，尽快远离汽车。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分享了车辆翻车时的自救常识，强调全程系好安全带的重要性，并建议在车辆停止翻滚后割断安全带逃离，特别是新能源汽车需警惕爆燃风险。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

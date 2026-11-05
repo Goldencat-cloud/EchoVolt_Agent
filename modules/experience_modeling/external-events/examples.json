@@ -1,0 +1,120 @@
+{
+  "note": "All examples, names, IDs, dates and amounts are synthetic validation fixtures, not real-world event assertions.",
+  "examples": [
+    {
+      "name": "体验与外部事件同时存在",
+      "input": {
+        "source_id": "POST_TEST_001",
+        "text": "2026年5月1日，品牌A公告车型A售价下调5000元。我已经下单，看到降价有点担心。"
+      },
+      "output": {
+        "source_id": "POST_TEST_001",
+        "external_events": [
+          {
+            "event_id": "EE_TEST_001",
+            "event_type": "price_adjustment",
+            "statement_type": "announced",
+            "description": "原文称品牌A公告车型A售价下调5000元。",
+            "evidence": {
+              "source_id": "POST_TEST_001",
+              "quote": "2026年5月1日，品牌A公告车型A售价下调5000元。"
+            },
+            "verification_status": "unverified",
+            "extraction_confidence": 0.92,
+            "event_time": {
+              "raw_text": "2026年5月1日",
+              "value": "2026-05-01",
+              "precision": "day"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "只有外部事件传闻，没有作者体验",
+      "input": {
+        "source_id": "POST_TEST_002",
+        "text": "听说车型A正在召回，具体涉及哪些车暂不清楚。"
+      },
+      "output": {
+        "source_id": "POST_TEST_002",
+        "external_events": [
+          {
+            "event_id": "EE_TEST_002",
+            "event_type": "recall",
+            "statement_type": "rumor",
+            "description": "原文转述车型A可能正在召回，涉及范围不明确。",
+            "evidence": {
+              "source_id": "POST_TEST_002",
+              "quote": "听说车型A正在召回，具体涉及哪些车暂不清楚。"
+            },
+            "verification_status": "unverified",
+            "extraction_confidence": 0.92
+          }
+        ]
+      }
+    },
+    {
+      "name": "只有体验，普通使用场景不是外部事件",
+      "input": {
+        "source_id": "POST_TEST_003",
+        "text": "我冬天跑高速能耗偏高。"
+      },
+      "output": {
+        "source_id": "POST_TEST_003",
+        "external_events": []
+      }
+    },
+    {
+      "name": "假设降价不能抽成已发生的降价事件",
+      "input": {
+        "source_id": "POST_TEST_004",
+        "text": "如果明年降价，我可能再考虑买车。"
+      },
+      "output": {
+        "source_id": "POST_TEST_004",
+        "external_events": []
+      }
+    },
+    {
+      "name": "不完整日期，不补年份",
+      "input": {
+        "source_id": "POST_TEST_005",
+        "text": "公告说3月开始升级车机，具体年份没写。"
+      },
+      "output": {
+        "source_id": "POST_TEST_005",
+        "external_events": [
+          {
+            "event_id": "EE_TEST_005",
+            "event_type": "software_update",
+            "statement_type": "planned",
+            "description": "原文称公告计划在3月升级车机，年份不明确。",
+            "evidence": {
+              "source_id": "POST_TEST_005",
+              "quote": "公告说3月开始升级车机，具体年份没写。"
+            },
+            "verification_status": "unverified",
+            "extraction_confidence": 0.92,
+            "event_time": {
+              "raw_text": "3月",
+              "value": null,
+              "precision": "month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "没有体验或事件",
+      "input": {
+        "source_id": "POST_TEST_006",
+        "text": "路过看看。"
+      },
+      "output": {
+        "source_id": "POST_TEST_006",
+        "external_events": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c2347030cf56be80",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我选择了pro版本"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "下方标注具体车型为“SU7 Pro”"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因预算有限选择Pro版本，认为24.99万的车型选装后约27.5万，落地接近30万。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一当然是预算有限，24.99万的车车选装下来也要27.5左右，落地直奔30"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者选择Pro版本是因为其续航最长，有助于缓解从燃油车转换到电动车的续航焦虑，并提及雷军测试过北京到上海只需充一次电。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第二pro版本是续航最长的，这方面从油车换电车还是有一些焦虑的，雷总亲自测试过，从北京到上海只需要充一次电"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者选择Pro版本是因为配有空气悬架，满足其对舒适性的需求，特别是考虑到底盘较低的情况。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第三是有空气悬架，对于我来说还是很有必要的，因为底盘比较低也注重舒适性"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为科技包中的HUD非常实用，看导航、时间及影像都很方便，无需频繁查看屏幕。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "hud当然是当之无愧很有用，再也不用乱看屏幕了，看导航时间，包括影像都非常方便"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为电吸门方便，但因车辆配备无框玻璃，需提醒朋友注意以免玻璃松动。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "电吸门很方便，因为车是无框玻璃，很容易造成玻璃松动，就是得反复提醒朋友“我车有电吸门”哈哈哈"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为电动方向盘调节功能非常好用，可以保存专属座位设置，避免他人驾驶时改动。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "电动方向盘也非常非常好用，直接调整到自己的专属座位，也不怕别人开车动来动去"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者推荐加装科技包，认为其最有用，并列举了自己加装的音响、电动尾翼、车漆和轮毂等项目，特别强调轮毂美观但科技包最实用。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我是加装了科技包，音响，电动尾翼，车漆和轮毂，轮毂是非常好看，但最有用的还是科技包，一定一定要加"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "屏幕主要展示“提车成功”的大字标题...恭喜您成为 新一代小米SU7 车主"
+      },
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "我是加装了科技包..."
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": "24.99万-30万",
+    "preferences": [
+      "注重舒适性",
+      "关注续航",
+      "喜欢科技感配置"
+    ]
+  },
+  "post_summary": "作者分享了选择小米SU7 Pro版本的理由，包括预算限制、长续航优势以及空气悬架带来的舒适性。同时详细评价了加装的科技包（HUD、电吸门、电动方向盘）等配置的实用性，强烈推荐使用科技包。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

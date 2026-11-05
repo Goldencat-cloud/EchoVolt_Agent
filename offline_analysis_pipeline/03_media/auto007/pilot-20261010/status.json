@@ -1,0 +1,30 @@
+{
+  "pid": 45316,
+  "started_at": "2026-10-10T08:46:09.971729+00:00",
+  "updated_at": "2026-10-10T08:47:48.904234+00:00",
+  "state": "completed",
+  "wall_clock_s": 98.9,
+  "concurrency": 4,
+  "max_retries": 3,
+  "model": "qwen3.8-27b",
+  "params": {
+    "image_max_edge": 1280,
+    "max_tokens": 2048,
+    "temperature": 0.0,
+    "enable_thinking": false,
+    "timeout": 180
+  },
+  "params_fingerprint": "65c7c1389663685c",
+  "prompt_version": "83e1813e727760c6",
+  "schema_version": "e4aed0947a738254",
+  "context_version": "ctx-v1",
+  "counts": {
+    "total": 10,
+    "skipped_resumed": 0,
+    "success": 0,
+    "failed": 10,
+    "expanded": 0,
+    "insufficient_evidence": 0,
+    "pending": 0
+  }
+}

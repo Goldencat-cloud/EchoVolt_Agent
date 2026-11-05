@@ -1,0 +1,207 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e3b349b0069e0ff1",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "之前觉得小米SU7标准版完全够用"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Pro版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但看过媒体和博主对比，这下觉得Pro版性价比更高"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者此前认为小米SU7标准版颜值高、续航长且试驾体验好，觉得完全够用。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "之前觉得小米SU7标准版完全够用，颜值高，续航长，试驾体验也很好"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在观看媒体和博主对比后，认为小米SU7 Pro版的性价比高于标准版。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但看过媒体和博主对比，这下觉得Pro版性价比更高"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "但看过媒体和博主对比，这下觉得Pro版性价比更高"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "服务与交付",
+      "content": "作者对厂商开放限时改配渠道持肯定态度，认为体现了听取建议和公平，但也因担心改配后需重新排队导致交付时间不确定而感到纠结。",
+      "sentiment": "正负混合",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "厂商是真的听取了建议。公平也是真公平，反正决定权在用户手里。能给一次机会改配就不错了，但是改配后订单要重新排队，不知道交付会在什么时候，所以到底要不要改配，我现在很纠结啊~"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7开启限时改配",
+      "event_type": "价格与销售政策",
+      "event_time": "2024-04-19",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月19号开启限时改配"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "4月19日上午9点起，开启24小时限时改配。非创始版的已锁单用户可以在小米汽车APP进行改配。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米汽车于4月19日开启针对非创始版已锁单用户的24小时限时改配通道，用户可通过小米汽车APP进行操作。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "非创始版的已锁单用户可以在小米汽车APP进行改配"
+      },
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "到底要不要改配，现在很纠结啊~"
+      }
+    ],
+    "confidence": 0.85,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视颜值",
+      "重视续航",
+      "重视性价比"
+    ]
+  },
+  "post_summary": "作者已预订小米SU7，原本看好标准版，但在看到对比后认为Pro版性价比更高。面对厂商推出的限时改配政策，作者虽认可其公平性，但因担心改配后需重新排队影响交付进度，目前正处于是否改配的纠结中。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

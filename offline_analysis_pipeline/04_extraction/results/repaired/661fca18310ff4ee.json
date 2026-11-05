@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.3",
+  "post_id": "661fca18310ff4ee",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米YU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "图片展示了一辆橙色的小米YU7（车牌位置标识）SUV停放在室内的整车环境模拟试验室中。"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "车头正前方悬挂着白色牌照，上面印有黑色文字“xiaomi YU7”。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "车辆左前侧车牌位置可见“YU7”字样，结合车头设计特征，该车疑似小米SU7系列。"
+        }
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "雷军在2026年全国两会上提出了关于共建智能汽车时代交通安全文明体系的建议，指出当前智能化技术路线多元难统一规范、驾驶培训考核未与新功能衔接、多方协同治理及安全宣传有待加强等问题。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "智能化技术路线多元，目前难以用统一标准进行规范；驾驶培训内容与考核标准，尚未与车辆的新技术、新功能做好衔接配套，未能全面涵盖智能配置操作；多方协同治理机制有待优化，智能驾驶安全宣传普及有待加强。"
+        },
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "画面下半部分以白色字体展示标题“雷军：我的2026两会建议”，以及一段引语：“今年我向大会提交了5份建议。大家对哪份建议最感兴趣？”"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "雷军在2026年全国两会上提出了关于进一步加快培育智能网联新能源汽车复合型人才的建议，认为产业竞争转向生态协同能力较量，需加快培育复合型人才以破解人才供需脱节。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "产业竞争已从单点技术比拼，转向生态协同能力较量，人才成为核心竞争力的关键支撑...加快培育智能网联新能源汽车复合型人才，是破解人才供需脱节、应对技术变革挑战、夯实产业发展根基的关键举措。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "雷军提交2026年两会建议",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "画面下半部分以白色字体展示标题“雷军：我的2026两会建议”，以及一段引语：“今年我向大会提交了5份建议。”"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "雷军作为全国人大代表，在2026年全国两会上提交了5份建议，其中包括关于智能汽车交通安全体系和智能网联新能源汽车人才培养的建议。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子汇总了雷军在2026年全国两会上提交的关于智能汽车交通安全文明体系建设及智能网联新能源汽车人才培养的建议内容，并配有多张雷军及相关车型（小米YU7/SU7）在实验室环境的图片。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

@@ -1,0 +1,192 @@
+{
+  "post_id": "8cec4a76425229b4",
+  "state": "CONTRACT_PASS",
+  "cache_key": "970171ae133d13b2e74ab6369251eefe518c4909de736f11a791a4d734f95642",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "8cec4a76425229b4",
+    "products": [
+      {
+        "id": "P1",
+        "name": "凯迪拉克纯电IQ傲歌",
+        "entity_level": "具体配置",
+        "brand": "凯迪拉克",
+        "series": "IQ傲歌",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "给大家正式介绍一下凯迪拉克纯电IQ傲歌！"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "此前有关傲歌海报暗讽小米SU7"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "凯迪拉克官方回应有关小米争议海报"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "此前有关傲歌海报暗讽小米SU7"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "凯迪拉克官方微博回应了关于其发布的傲歌海报疑似暗讽小米SU7的争议，承认收到了公众的批评与关注，并表示之前只是开玩笑（'皮了一下'）。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "3月31日晚，凯迪拉克官方微博发文回应此前有关傲歌海报暗讽小米SU7 ???事件：大家的批评、关注都一一收到了...我们只是皮了一下！"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E2",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "凯迪拉克此前发布了模仿“椰树椰汁”风格的系列海报，文案中包含“对不起雷神...”、“我们既不像保时捷也不像特斯拉...”等内容，引发了舆论关注。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "此前，凯迪拉克社交媒体官方账号发布“椰树椰汁”风格的海报，称“对不起，搞了120年营销忽然给我整不会了”；“”对不起雷神，我们帮你把50万以内也挺好的SUV造出来了”；“我们既不像保时捷也不像特斯拉，我们只想美美地做自己就好。”等文案。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "凯迪拉克官方回应海报争议",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": "2024-03-31",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "3月31日晚，凯迪拉克官方微博发文回应此前有关傲歌海报暗讽小米SU7 ???事件"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "凯迪拉克官方微博针对此前海报引发的争议进行回应，表示收到批评并澄清意图。"
+      },
+      {
+        "id": "E2",
+        "name": "凯迪拉克发布争议营销海报",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "此前，凯迪拉克社交媒体官方账号发布“椰树椰汁”风格的海报"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "凯迪拉克发布了一系列模仿特定广告风格的营销海报，文案涉及与其他品牌的对比。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子报道了凯迪拉克官方微博就此前发布的疑似暗讽小米SU7的争议海报作出回应的事件。文中指出凯迪拉克承认收到公众批评，并称之前的行为只是玩笑，同时回顾了引发争议的“椰树椰汁”风格海报文案内容。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C2/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10286,
+    "completion_tokens": 1574,
+    "total_tokens": 11860,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 7.145601299998816,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

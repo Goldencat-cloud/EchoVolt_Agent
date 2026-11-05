@@ -1,0 +1,399 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c34a9ed5100de6e2",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "车辆型号标识为“SU7 Pro”"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "选择pro版真的没选错"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者起初觉得座椅较硬，但在完成两千多公里长途自驾后认为前排舒适性尚可，已适应座椅硬度；后排乘坐两名儿童体验良好，但作者本人未乘坐后排故无法评价。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "刚提车的时候，觉得座椅很硬，坐着不太舒服...但这一趟两千多公里跑下来，觉得还好，前排舒适性还可以，也不觉得座椅很硬了...后排坐了家里两个小孩...她们坐着很爽...但我基本上没坐，所以评价不了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行从广东到江西的两千多公里长途自驾游，后排乘坐两名儿童。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "刚跑完一趟广东到江西两千多公里的自驾游"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "后排坐了家里两个小孩"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为车载冰箱体验很好，适合喜欢冷饮的用户，但希望体积更大、制冷效果更强。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有冰箱好评，对于喜欢喝冻饮的我来说，体验感很棒，如果再大点，制冷再给力点就更棒了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为车辆防晒性能优异，在高温下未使用遮阳帘也不觉炎热刺眼，但指出前排侧窗隔热效果相对较差，会有些晒痛。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "确实苏七的防晒非常棒...我也没觉得很晒...不过前排侧窗相对没那么隔热，还是会晒得有点疼"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "室外气温三十六七度，阳光强烈，车内空调设定23-25度，风速自动，座椅通风3档。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "室外三十六七度的天气"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "空调基本上是开23至25度，风速自动，座椅通风3档"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为驾驶感受很棒，已在多种路况下验证，但因底盘较低需注意路面状况。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驾驶感受就不多说...确实觉得很棒，但底盘比较低，还是要注意一下路面状况"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在城市道路、高速路、乡村泥路和山路上行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "城市道路、高速路、乡村泥路、山路我都跑过了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者评价高速NOA功能仅为及格水平，存在行驶不居中、遇右侧大货车或障碍物易突然减速等问题，需人工干预；作者认为作为新车初期的小问题可以接受。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "整体感觉只能算及格，谈不上优秀，主要问题是行驶不居中...有大货车在右边车道的时候会感到紧张...遇到特别宽或者行驶偏左的货车，有时候会突然减速...有些小问题还是可以接受的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在高速路段使用NOA功能，所在区域未开通城区智驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "由于我所在的东莞还没开通城区智驾，所以只评价高速NOA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者高度赞扬智能泊车和记忆泊车功能，认为识别快、准确、停车迅速且体验良好。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米在这部分做得非常棒！识别车位又快又准确，停车速度快...记忆泊车也是很好用...体验感很好！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为续航表现极佳，无续航焦虑。长途自驾电耗约16.2 kWh/100km，城市道路满电续航可达600-700km，高速满电续航500km以上。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "真得非常顶，完全没有续航焦虑...跑这趟长途前电耗基本上都是13左右，城市道路满电跑六百多轻轻松松...这趟两千多公里的自驾游电耗是16.2...高速满电跑五百多很轻松"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "行程 A...平均行驶能耗为16.2 kWh/100km"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "长途自驾中约70%为高速路段，车速约为限速加10%。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "百分之七十左右都是高速路段，而且我基本上是顶着限速+10%跑的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者认为充电速度可接受，最高功率110kW，快充至80%耗时较短，足以满足日常补能需求，认为无需纠结400V平台。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "充电速度也可以接受，最高去到110kw，服务区吃个饭休息一下基本上就充到80%以上了...不用纠结400伏"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在服务区充电桩充电，观察到周边多为60-120kW的桩。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "服务区吃个饭休息一下基本上就充到80%以上了"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这趟长途看见的充电站基本上都是60-120kw的桩"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者表示选择Pro版本是正确的决定，并称该车是自己的“梦中情车”。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "选择pro版真的没选错"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "总体来说，小米苏七对于我来说确实是梦中情车"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "转眼间已经提车一个月了"
+      },
+      {
+        "block_id": "I1",
+        "source_type": "image_summary",
+        "quote": "顶部标题显示“已提车”"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "喜欢喝冷饮",
+      "重视座椅舒适性",
+      "重视防晒性能",
+      "重视续航表现"
+    ]
+  },
+  "post_summary": "作者分享小米SU7 Pro提车一个月的用车心得，重点描述了长途自驾中的座椅适应性、优秀的防晒与续航表现、可接受的充电速度，以及高速NOA存在的局限性和智能泊车的优势。作者对该车整体评价极高，认为是“梦中情车”。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

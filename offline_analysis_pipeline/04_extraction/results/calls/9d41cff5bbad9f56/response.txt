@@ -1,0 +1,231 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9d41cff5bbad9f56",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7值不值得买？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "#小米SU7 自上市就霸榜热搜！"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者宣称小米SU7具备优秀的冬季续航表现，在零下20℃环境下续航达成率超过56%，并引用懂车帝冬测成绩称其为续航第一。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "零下20℃照样稳！...冬季续航达成率超56%。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "懂车帝冬测续航第一"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "冬季零下20℃环境下的续航表现。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "零下20℃照样稳！"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者宣称小米SU7支持800V超快充，5分钟可补能200公里，且充电速度在前半段可达180kW，能有效缓解长途焦虑。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "800V超快充5分钟补能200公里，充电速度前半段直接拉满180kW，长途焦虑？不存在的！。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者宣称小米SU7双电机四驱版零百加速仅需2.78秒，极速265km/h，底盘调校稳健，在冰雪路段操控精准。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "双电机四驱版功率495kW，一脚电门直接起飞，极速265km/h，同级纯电轿车天花板级加速。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "底盘调校稳如老狗，冰雪路段操控精准，车身不飘不晃，高速过弯信心感拉满。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "冰雪路段及高速行驶场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "冰雪路段操控精准，车身不飘不晃，高速过弯信心感拉满。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者宣称小米SU7搭载高通8295芯片和骁龙智驾系统，具备无人泊车等功能，车机交互流畅，硬件配置丰富。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "高通8295芯片+骁龙智驾系统，无人泊车、自动过闸、礼让行人全系标配，新手也能优雅停进“极窄车位”。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "16.1英寸3K大屏+56英寸HUD，交互流畅到像玩iPad，语音助手“小爱同学”随叫随到。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者称赞小米SU7的外观设计和内饰豪华感，认为其配色多样、用料高级，回头率高，豪华感对标百万级车型。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "9种炫酷外观配色+4种内饰，新增“璀璨洋红”限量版，回头率200%。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "无边框车门+5.35㎡全景玻璃，通透感绝了！Nappa真皮座椅、杜比音响、氛围灯，豪华感直接对标百万级"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子以夸张的语气推荐小米SU7，列举其在冬季续航、充电速度、动力性能、智能座舱及外观设计方面的优势，将其定位为适合年轻人的全能电车。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

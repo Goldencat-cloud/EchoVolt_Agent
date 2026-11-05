@@ -1,0 +1,433 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ffba4009956849d1",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7pro 三个月实际体验"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 Pro的强项在于情绪价值拉满的设计、扎实的续航、小米生态的无缝融合"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "极氪007",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "可能需要对比极氪007、智己L6等竞品"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "智己L6",
+      "entity_level": "具体配置",
+      "brand": "智己",
+      "series": "L6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "可能需要对比极氪007、智己L6等竞品"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为该车动力强劲，底盘调校偏运动，过弯支撑性好，但悬挂偏硬，后排颠簸感明显。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "底盘调校偏运动，过弯支撑性强...但悬挂偏硬，过减速带或坑洼路面时颠簸感明显，尤其后排弹跳感更强"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "市区和高速行驶，经过减速带或坑洼路面。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在市区和高速超车时游刃有余...过减速带或坑洼路面时"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者实测城市通勤续航约650-700km，高速120km/h巡航续航约580km，认为续航表现扎实。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "实测城市通勤（空调22℃+音乐）电耗约14.5kWh/100km，实际续航650-700km；高速120km/h巡航时续航约580km"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "城市通勤（空调22℃+音乐）及高速120km/h巡航。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "实测城市通勤（空调22℃+音乐）...高速120km/h巡航时"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者指出车辆在80%电量后充电功率骤降，充满需额外30分钟，建议日常充至80%。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但80%后功率骤降，充满需额外30分钟。建议日常充到80%即走"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "使用第三方超充（如华为液冷桩）充电。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第三方超充（如华为液冷桩）从10%充至80%仅需34分钟"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为车机生态联动好，操作流畅，能与手机及智能家居无缝连接。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米手机无缝投屏、远程控制智能家居...是高频刚需功能，高通8295芯片让车机操作流畅"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者评价高速NOA表现较好但制动生硬，城区NOA策略保守且复杂路口需接管，自动泊车在狭小车位会急刹。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "高速NOA：变道果断...但被加塞时制动稍显生硬；城区NOA：保守型策略为主...复杂路口需频繁接管...狭小车位会触发急刹"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "高速及城区道路行驶，进行自动泊车。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "高速NOA...城区NOA...自动泊车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为后排空间局促，坐垫短、靠背陡，1.8米身高乘员头部空间不足，不适合家庭用户。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后排坐垫短、靠背陡，1.8米身高乘员头部几乎顶棚，长途乘坐易疲劳。家庭用户慎选"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "1.8米身高乘员乘坐后排，长途行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "1.8米身高乘员头部几乎顶棚，长途乘坐易疲劳"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者遇到偶发的账号退出、座椅记忆失效等软件Bug，以及哨兵模式耗电快、存储占用高的问题。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "偶发账号退出、座椅记忆失效等Bug...哨兵模式：耗电惊人（一夜间掉电3%），且围观者过多导致U盘存储快速占满"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "日常使用及夜间开启哨兵模式。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "偶发账号退出...一夜间掉电3%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者喜欢车辆外观设计，但指出无框车门导致高速风噪大，且车身较宽在窄路会车时有压力。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "海湾蓝配色+无框车门回头率超高...但1.95米车宽在窄路会车时压力大...高速110km/h以上风噪明显（无框车门密封性问题）"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "窄路会车及高速110km/h以上行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在窄路会车时压力大...高速110km/h以上"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结该车适合追求驾驶乐趣与科技的年轻用户，若看重全家舒适性或细节，建议对比极氪007、智己L6等竞品。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "适合追求驾驶乐趣与科技尝鲜的年轻用户。但若看重全家出行舒适性、完美细节或极端快充，可能需要对比极氪007、智己L6等竞品"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米su7pro 三个月实际体验"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "三个月下来，它给我的感觉更像一位“个性鲜明的伙伴”"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "追求驾驶乐趣",
+      "注重科技感",
+      "年轻用户群体"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 Pro三个月的实际用车体验。肯定了其运动操控、长续航、智能生态及外观设计，但也指出了悬挂偏硬、后排空间局促、高速风噪大、部分软件Bug及充电后期慢等缺点。作者认为该车适合年轻科技爱好者，家庭用户需谨慎考虑。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

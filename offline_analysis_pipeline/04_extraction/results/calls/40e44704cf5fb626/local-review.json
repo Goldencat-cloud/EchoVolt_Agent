@@ -1,0 +1,174 @@
+{
+  "post_id": "40e44704cf5fb626",
+  "state": "CONTRACT_PASS",
+  "cache_key": "a5a6f4f9721885d2af3255bc2cd154d0379711bf82f320f1cbdd64e13155ed04",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "40e44704cf5fb626",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我的是小米SU7 Max版"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者在高温露天停车环境下，车辆停放三天期间触发多次哨兵模式及电池过热保护，导致消耗约63公里续航（约6-7度电），作者认为该功能有助于缓解对电池的担忧。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "之前停了三天...总共消耗了约63公里的续航...好在有这个功能，不然更担心电池。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "夏季高温天气，车辆停在露天车位，停放三天。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "那几天天气确实热，地表温度高，车停在露天车位"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者发现日常短途通勤（几分钟路程）因频繁冷启动导致电耗较高（22-25kWh/100km），而周末中长距离出行（一两百公里）电耗可降低至18kWh/100km左右，认为该车更适合中长途出行。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "日常通勤因为路程特别短...表显平均电耗一直卡在22-25kWh/100km...但一到周末出去跑长途...电耗就能降到18左右...说明这车还是更适合中长途出行。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "对比了日常短途通勤（小区到地库）与周末郊区长途出行两种场景。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "日常通勤因为路程特别短，就几分钟，从小区到地库出入口...但一到周末出去跑长途，比如开到郊区玩"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者认为Max版本的大电池使得即使在高耗电场景下（如三天哨兵加过热保护），对总续航的影响也在可接受范围内，整体使用体验省心。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "总的来说，Max版本101度大电池，哪怕三天哨兵+过热保护一起上，对总续航影响还在可接受范围...整体来看，用起来还算省心。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的是小米SU7 Max版"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "车主分享小米SU7 Max的实际能耗体验，指出高温露天停放时哨兵模式和电池过热保护会消耗一定续航，但得益于大电池仍在可接受范围；同时对比了短途通勤与中长途出行的电耗差异，认为该车更适合中长途使用。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C2/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11038,
+    "completion_tokens": 1481,
+    "total_tokens": 12519,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.862485399993602,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

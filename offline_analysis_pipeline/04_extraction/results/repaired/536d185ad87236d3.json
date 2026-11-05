@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.3",
+  "post_id": "536d185ad87236d3",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "其他",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者认为吉林集安是理想的东北旅行目的地，因其具备“东北小江南”的风貌、安静的氛围、丰富的古迹及独特的边境风情。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果只能挑一个东北旅行地，我会毫不犹豫选吉林集安... 这里古迹不少，还能近距离看看对岸，感受不一样的边境风情。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "其他",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者推荐集安的特色美食，特别是高丽火盆和炖江鱼，认为其味道地道、鲜美。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "首推高丽火盆，各种肉、蔬菜、豆腐堆在一个炭火盆里，边烤边吃，热气腾腾，味道特别地道。还有鲜美的炖江鱼..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "这是一篇关于吉林集安的旅游分享帖。作者强烈推荐集安作为东北旅行首选地，描述了其“东北小江南”的自然风光、边境风情以及高丽火盆、炖江鱼等特色美食，旨在推荐一个适合休闲放松的旅游目的地。",
+  "post_topic": "社群互动与生活分享",
+  "analysis_value": "低"
+}

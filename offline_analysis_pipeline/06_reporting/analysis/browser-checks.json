@@ -1,0 +1,21 @@
+{
+  "preview": "http://127.0.0.1:8874/?view=1",
+  "build_status": "complete",
+  "observed_checks": {
+    "report_and_all_authored_sections_loaded": true,
+    "first_horizontal_chart_marks_visually_visible": true,
+    "sentiment_chart_legend_and_axis_loaded": true,
+    "all_three_chart_categories_present_in_accessibility_tree": true,
+    "case_filter_comfort_only_then_all": true,
+    "original_quote_disclosure_and_post_link": true,
+    "percentage_table_8_8_and_43_4_percent": true,
+    "completion_badge_replaced_creating_state": true
+  },
+  "limitations": [
+    "Narrow viewport and exhaustive shared-runtime behavior not checked.",
+    "Current preview was observed in Edit mode during final inspection; it was not saved, canceled, or reloaded afterward, preserving the current editing session.",
+    "Source menu entry observed; source sidebar full interaction not completed.",
+    "Rendered chart marks were visually checked for the first chart only; remaining chart values/categories were inspected through the accessibility tree, not a full visual acceptance."
+  ],
+  "human_semantic_acceptance": "not_measured"
+}

@@ -1,0 +1,283 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5f22ba1898ab554a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "24款小米SU7 后驱超长续航高阶智驾pro版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "后驱超长续航高阶智驾pro版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "24款小米SU7，后驱超长续航高阶智驾pro版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为该车续航表现良好，标称CLTC续航830公里，市区开空调通勤实际能跑700公里左右，一周充一次电够用，无需频繁担心充电。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "标称CLTC续航830公里，平时市区开空调通勤，实际能跑700公里左右，一周充一次电完全够用"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "市区通勤，开启空调",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "平时市区开空调通勤"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者评价该车后驱驾驶体验丝滑，转向精准，过弯不飘，易于驾驭，兼顾驾驶乐趣和日常代步实用性。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "后驱开着特别丝滑，转向精准，过弯不飘...兼顾了驾驶乐趣和日常代步的实用性"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者高度认可高阶智驾功能，在高速上使用NOA领航可实现自动跟车、变道及匝道汇入汇出；在乡村小路能精准识别行人和非机动车并提前提醒，减轻了驾驶疲劳，提升了乘坐稳定性。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "上了高速我就开启了NOA领航，它能自动跟车、变道，遇到匝道还能自动汇入汇出...智驾系统也能精准识别行人、非机动车，遇到突发情况还会提前提醒"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "上月带家人去周边县城走亲戚，全程高速加乡村小路，约120公里",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "上个月我开车带家人去周边县城走亲戚，全程高速加乡村小路，大概120公里"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出悬挂偏硬是最大不足，市区过减速带时颠簸感强，尤其后排乘客长时间乘坐会感到不舒服，影响日常通勤体验。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "最大的不足就是悬挂偏硬...平时在市区过减速带，颠簸感特别强，尤其是后排，家人坐久了会说不舒服"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "日常通勤，经过减速带",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "每天通勤要过好几个减速带"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者抱怨高速行驶时风噪明显，特别是速度超过110km/h时，无框车门导致风噪清晰，需调大音乐音量掩盖，长时间行驶感觉吵闹。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "高速风噪有点明显...上了高速，速度超过110码，无框车门的风噪就很清晰，得把音乐声调大才能盖过去"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "高速公路行驶，车速超过110km/h",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "上了高速，速度超过110码"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米生态联动方便，具备靠近自动解锁、上车同步手机导航和音乐、远程控制等功能，提升了用车便利性。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "小米生态联动也很方便，靠近车自动解锁，上车就能同步手机导航和音乐，平时还能远程控制车辆"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结对小米SU7整体满意，认为其续航、智驾和实用性覆盖了日常需求，虽有小不足但仍是家庭出行好伙伴，让生活更便捷有趣。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "总的来说，这3个多月开下来，我对小米SU7还是很满意的...让我的生活变得更便捷、更有乐趣"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我是2025年12月1号提的24款小米SU7...到现在刚好3个多月"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享拥有24款小米SU7三个多月的真实用车体验。作者肯定了车辆在续航、驾驶操控、高阶智驾及生态互联方面的优秀表现，但也指出了悬挂偏硬和高速风噪明显的缺点。总体而言，作者对该车满意度较高，认为其满足了日常通勤和家庭出行需求。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

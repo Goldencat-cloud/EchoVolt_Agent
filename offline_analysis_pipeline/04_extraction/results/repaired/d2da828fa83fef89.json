@@ -1,0 +1,150 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d2da828fa83fef89",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "服务与交付",
+      "content": "作者陈述小米SU7针对非创始版已锁单用户开启了限时24小时的改配活动，时间为4月19日上午9点至4月20日上午9点，需通过小米汽车APP操作。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月19日上午9点起限时24小时改配。非创始版已锁单用户，可以在小米汽车APP上改配。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者评价小米SU7此次响应准车主呼声进行改配的行为是“听劝”。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "行吧，就说小米听劝吧。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "可能影响判断",
+      "aspect": "服务与交付",
+      "content": "作者指出改配后会重新安排生产计划和交付时间，并推测这会有一大批用户因为等待时间变长而抱怨。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但改配后会重新安排生产计划和交付时间，呵呵，盲猜又会有一大批因为改配等久又来骂的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7限时改配活动",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月19日上午9点起限时24小时改配。非创始版已锁单用户，可以在小米汽车APP上改配。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "限时改配时间：4月19日 9:00 - 4月20日 9:00，仅限非创始版的已锁单用户参与"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米汽车为非创始版已锁单用户提供为期24小时的限时改配机会，改配成功后将重新计算生产计划和交付时间。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了小米SU7针对非创始版已锁单用户推出的限时24小时改配活动。作者对此表示小米“听劝”，但同时推测改配导致的交付延期可能会引发部分用户的不满。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

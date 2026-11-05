@@ -1,0 +1,30 @@
+{
+  "policy_sha256": "3f784352662fccee917c8699d1f266ee84314c2753577ce1f4532166c70ede4a",
+  "raw_sources_modified": false,
+  "results": [
+    {
+      "data_root": "G:\\AutoInsight-wt-auto021\\offline_pipeline\\evidence\\local-data\\ingestion-v2-20261021-verified\\original",
+      "removed_posts": 127,
+      "posts_before": 10121,
+      "posts_after": 9994,
+      "remaining_excluded_posts": 0,
+      "integrity_ok": true
+    },
+    {
+      "data_root": "G:\\AutoInsight-wt-auto021\\offline_pipeline\\evidence\\local-data\\ingestion-v2-20261021-verified\\backup",
+      "removed_posts": 127,
+      "posts_before": 10121,
+      "posts_after": 9994,
+      "remaining_excluded_posts": 0,
+      "integrity_ok": true
+    },
+    {
+      "data_root": "G:\\AutoInsight-wt-auto021\\offline_pipeline\\evidence\\local-data\\ingestion-v2-20261021-verified\\恢复 目录",
+      "removed_posts": 127,
+      "posts_before": 10121,
+      "posts_after": 9994,
+      "remaining_excluded_posts": 0,
+      "integrity_ok": true
+    }
+  ]
+}

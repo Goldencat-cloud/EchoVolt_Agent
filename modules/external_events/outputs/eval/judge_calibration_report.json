@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-06T20:31:53",
+  "judge_model": "deepseek(AGENT_MODEL)",
+  "annotator": "GLM-cross",
+  "human_review_applied": true,
+  "n_items": 50,
+  "n_labeled": 50,
+  "agreement": 1.0,
+  "judge_positive_rate": 0.3,
+  "annotator_positive_rate": 0.3,
+  "confusion": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 35
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "disagreements": []
+}

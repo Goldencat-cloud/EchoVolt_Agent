@@ -1,0 +1,556 @@
+{
+  "post_id": "0743616621c0c114",
+  "state": "CONTRACT_PASS",
+  "cache_key": "caa8056b6972aa91693577e97bf33f0a392999c44665686ea6f022e91ac6ff8b",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0743616621c0c114",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "雷军专访：SU7价格临时调低2万，诚意做到底"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米SU7的目标定位是纯电豪华轿车的前3。"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "特斯拉Model 3",
+        "entity_level": "具体配置",
+        "brand": "特斯拉",
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "特斯拉Model 3的盈亏点就是22.3万元"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "保时捷",
+        "entity_level": "品牌",
+        "brand": "保时捷",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "雷军既是特斯拉车主，也是保时捷车主"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "特斯拉",
+        "entity_level": "品牌",
+        "brand": "特斯拉",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "雷军既是特斯拉车主，也是保时捷车主"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P5",
+        "name": "苹果",
+        "entity_level": "品牌",
+        "brand": "苹果",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "谈苹果放弃造车"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P6",
+        "name": "小鹏",
+        "entity_level": "品牌",
+        "brand": "小鹏",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "之前是我先跟小鹏说过的"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P7",
+        "name": "华为",
+        "entity_level": "品牌",
+        "brand": "华为",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "我觉得小米、华为的水平比其他品牌的确高一个数量级。"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P8",
+        "name": "Cybertruck",
+        "entity_level": "具体配置",
+        "brand": "特斯拉",
+        "series": "Cybertruck",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "我们要做个Cybertruck，你们肯定把我骂死。"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "雷军在专访中表示，小米SU7的价格经过内部讨论后临时调低，原本考虑23.9万元，最终决定比特斯拉Model 3便宜3万元，顶配也从35万元降至29.9万元，以表达诚意。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我们原来的思考是定23.9万元，昨天7点开始讨论，最后我说比特斯拉便宜3万元有没有诚意？... 我们的顶配最早定价是35万元... 最后大家说反正第一年产能也有限，诚意就做到底，所以顶配直接看到了29.9万元"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "雷军指出特斯拉Model 3的盈亏点在22.3万元，而小米SU7的配置高于Model 3，尽管电耗表现不如特斯拉，但通过大量研发投入达到了类似水平，并将SU7定价定为比Model 3便宜3万元。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "特斯拉Model 3的盈亏点就是22.3万元，我们的配置真的比特斯拉Model 3高很多... 人家电耗比我做的好很多，我投了很多钱才能达到他这个水平... 我们比Model 3便宜3万元"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "价格与成本",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "我们比Model 3便宜3万元"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "配置与功能",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "我们的配置真的比特斯拉Model 3高很多"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "续航与能耗",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "人家电耗比我做的好很多"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "雷军表示小米汽车的长期目标是利用15到20年时间成为全球前5的车厂，并认为这是一场比拼耐力和后劲的马拉松，重视核心技术的积累。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "小米汽车的长期目标，用15年到20年的时间成为全球前5，雷军表示。“这是一场马拉松，比的是耐力，比的是后劲，我们更重视核心技术的积累。”"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "雷军透露小米SU7在设计过程中曾因过于前卫而被推翻重做，最终调整为经得起时间考验的设计。他提到设计师克里斯·班戈评价SU7的形面、流畅度和完成度达到了惊人水平。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "去年，克里斯·班戈看了几乎国内所有的车，他对SU7的评价，第一是完整，所有的形面、流畅度、完成度，小米的第一辆车就做到了惊人的水平。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "雷军表示小米SU7在第一分钟就有10万人加入心愿单，认为用户热情充足，小米的诚意也已充分表达。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小米SU7第一分钟就有10万人加心愿单，我觉得用户的热情是足够的，我觉得小米的诚意也表达的是足够的。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": "E2",
+        "event_relation": "态度反应",
+        "aspect": "政策与市场",
+        "content": "针对苹果放弃造车一事，雷军表示理解苹果遇到的困难，但他认为造车是一个完全不能放弃的战略，并指出苹果放弃后小米少了一个潜在竞争对手，目标是让小米汽车成为苹果用户的首选。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "当然，苹果放弃了，我也轻松了，又少了一个潜在的竞争对手，苹果用户他们自己不管，我们管，我们小米汽车支持苹果，让小米汽车成为苹果用户首选，这就是我现在的目标。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "雷军阐述小米“人车家全生态”战略，认为车是全屋智能的一部分，底层由澎湃OS、芯片和AI打通。他强调小米在软件兼容性、流畅度和易用性方面具有优势，认为小米和华为的技术水平比其他品牌高一个数量级。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "小米的战略是“人车家全生态”... 底层全部是澎湃OS，底层加芯片和操作系统一打通，再加AI。"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "我觉得小米、华为的水平比其他品牌的确高一个数量级。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "雷军建议政府加大充电桩建设力度并提升质量标准，初期可能需要补贴以消除用户对纯电车补能的顾虑，从而促进纯电车普及。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "我觉得政府部门可能要下巨大的功夫要做充电桩的建设以及提升充电桩质量标准充电的效率。我觉得初期可能这些公用的充电网络是亏损的，可能政府部门要有一定的补贴，这样才能让大家买纯电车完全无忧。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "雷军表示小米认真研究了冬季续航，因此北方用户购买电车应首选小米。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "我们认真地研究了冬季续航，所以北方用户买电车首选小米。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7价格调整",
+        "event_type": "价格与销售政策",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "雷军专访：SU7价格临时调低2万，诚意做到底"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我们原来的思考是定23.9万元... 最后我说比特斯拉便宜3万元有没有诚意？"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "雷军在专访中披露小米SU7在发布会前夕临时下调价格，标准版比原定计划更低，顶配从35万降至29.9万，以展现诚意。"
+      },
+      {
+        "id": "E2",
+        "name": "苹果放弃造车",
+        "event_type": "企业与品牌动态",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P5"
+        ],
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "谈苹果放弃造车"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "当然，苹果放弃了，我也轻松了"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "雷军在采访中提及苹果公司放弃了造车项目，并表示这使小米少了一个潜在竞争对手。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "本文整理了雷军在小米SU7发布会后的媒体专访内容。雷军解释了SU7价格临时调低的决策过程，将其定位为比特斯拉Model 3便宜3万元以表达诚意；阐述了小米汽车15-20年成为全球前五的长期战略目标；回应了苹果放弃造车的影响，并强调了小米在“人车家全生态”、智能化技术及供应链方面的竞争优势。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C6/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12892,
+    "completion_tokens": 4871,
+    "total_tokens": 17763,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 21.206640800010064,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

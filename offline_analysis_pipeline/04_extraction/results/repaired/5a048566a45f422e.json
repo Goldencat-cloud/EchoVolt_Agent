@@ -1,0 +1,142 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5a048566a45f422e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7在内饰设计方面兼顾了现代化的智能体验与传统的操作便利性"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "电动尾翼控制按键（仅限小米SU7Pro选装）：针对于选装了电动尾翼的小米SU7Pro车型"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "小米SU7中控台保留两个实体按键用于调节空调温度和风量，目的是方便快速操作并确保驾驶时无需分心查找触摸屏菜单。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "空调物理按键：为了方便快捷操作，中控台保留了两个实体按键，分别用于调节空调的温度和风量，确保驾驶时无需分心查找触摸屏菜单。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "选装电动尾翼的小米SU7 Pro车型中控台新增四个物理按键，用于直接控制电动尾翼状态，以提升行驶中的动态调节能力。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "电动尾翼控制按键（仅限小米SU7Pro选装）：针对于选装了电动尾翼的小米SU7Pro车型，中控台新增了四个物理按键，以便驾驶者能直接控制电动尾翼的状态，提升了行驶中的动态调节能力。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "小米SU7保留实体按键被认为能满足不同用户的操作偏好，提高行车安全性与便捷度，并与触控大屏及语音控制系统结合实现科技感与实用性共存。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这些实体按键的存在不仅满足了不同用户的操作偏好，还在一定程度上提高了行车的安全性与便捷度，让用户能够在复杂的驾驶环境中迅速做出反应。与此同时，结合小米汽车高度集成的触控大屏与语音控制系统，实现了科技感与实用性的和谐共生。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子介绍了小米SU7保留实体按键的设计考量，指出空调物理按键便于驾驶中快速操作，SU7 Pro选装电动尾翼后的专用按键提升动态调节能力，并认为这种设计平衡了科技感与实用性。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

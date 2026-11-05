@@ -1,0 +1,483 @@
+{
+  "schema_version": 3,
+  "meta": {
+    "brand": "苹果",
+    "product": "iPhone15",
+    "domain_hint": null,
+    "generated_at": "2026-10-05T20:47:01+08:00",
+    "time_window": {
+      "from": "2023-09-01",
+      "to": "2024-06-30"
+    },
+    "status": "ok",
+    "llm_used": true,
+    "query_stats": [
+      {
+        "query": "苹果iPhone15 大事记 时间线",
+        "aspect": "overview",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 盘点 回顾",
+        "aspect": "overview",
+        "hits": 3,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 发展历程",
+        "aspect": "overview",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 发布 上市 2023",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 发布 上市 2024",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 价格 2023",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 价格 2024",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 更新 升级 2023",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 更新 升级 2024",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 召回 质量 2023",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 召回 质量 2024",
+        "aspect": "product",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 竞品 对比 2023",
+        "aspect": "competitor",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 竞品 对比 2024",
+        "aspect": "competitor",
+        "hits": 5,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 行业 政策 监管 2023",
+        "aspect": "policy",
+        "hits": 1,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 行业 政策 监管 2024",
+        "aspect": "policy",
+        "hits": 3,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 技术 2023",
+        "aspect": "tech",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 技术 2024",
+        "aspect": "tech",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 舆情 争议 2023",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 舆情 争议 2024",
+        "aspect": "public",
+        "hits": 5,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 事故 投诉 2023",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      },
+      {
+        "query": "苹果iPhone15 事故 投诉 2024",
+        "aspect": "public",
+        "hits": 8,
+        "ok": true
+      }
+    ],
+    "filter_stats": {
+      "noise_dropped": 43,
+      "out_of_window": 78,
+      "duplicate_url": 2,
+      "member_ignored": 2,
+      "llm_ignored": 5,
+      "fallback": 0,
+      "low_authority_dropped": 0
+    }
+  },
+  "events": [
+    {
+      "event_id": "2bd83858d49d",
+      "event_date": "2023-09-12",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "新品发布",
+      "relevance": "core",
+      "title": "苹果发布iPhone 15系列及Pro机型",
+      "summary": "苹果举行秋季发布会，推出iPhone 15系列，包括iPhone 15 Pro和Pro Max；Pro机型采用航空级钛金属，并支持Thread智能家居协议。有媒体称其在中国市场与华为Mate 60竞争。",
+      "media_coverage": {
+        "source_count": 4,
+        "max_tier": "T2",
+        "level": "medium"
+      },
+      "authority": 95,
+      "sources": [
+        {
+          "source_domain": "dushi.singtao.ca",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://dushi.singtao.ca/toronto/%E8%B4%A2%E7%BB%8F/%E8%B4%A2%E7%BB%8F%E8%A6%81%E9%97%BB/phone15%E7%99%BB%E5%9C%BA%EF%BC%8Capple%E5%8F%91%E5%B8%83%E4%BC%9A%E4%BB%8A%E6%97%A5%E4%B8%BE%E8%A1%8C%EF%BC%8C%E4%BC%A0%E6%9C%89%E5%B7%A8%E5%8F%98%EF%BC%81",
+          "published_date": "2023-09-12",
+          "title": "iPhone15登场，Apple发布会今日举行，传有巨变！"
+        },
+        {
+          "source_domain": "www.abc.net.au",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.abc.net.au/chinese/2023-09-13/apple-rolls-out-iphone-15-with-competition-from-huawei-china/102848620",
+          "published_date": "2023-09-13",
+          "title": "苹果发布iPhone15系列手机 在中国与华为Mate60一争高下 - ABC News"
+        },
+        {
+          "source_domain": "cn.technode.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://cn.technode.com/post/2023-09-13/apple-iphone-15-pro-iphone-15-pro-max",
+          "published_date": "2023-09-13",
+          "title": "苹果发布 iPhone 15 Pro 和 iPhone 15 Pro Max，首度由航空级钛金属打造"
+        },
+        {
+          "source_domain": "www.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sohu.com/a/720188557_99900743",
+          "published_date": "2023-09-13",
+          "title": "iPhone 15 Pro/Max成为首款配备Thread网络技术的手机"
+        }
+      ]
+    },
+    {
+      "event_id": "199241c70a01",
+      "event_date": "2023-09-23",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "public_opinion",
+      "subtype": "网民抵制",
+      "relevance": "core",
+      "title": "中国网民呼吁抵制印度产iPhone 15",
+      "summary": "2023年9月，部分中国网民呼吁抵制印度生产的iPhone 15，称担心有“咖喱味”。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.voachinese.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.voachinese.com/a/apple-india-china-20230922/7279960.html",
+          "published_date": "2023-09-23",
+          "title": "部分中国网民呼吁抵制印度产iPhone 15，称: “怕有咖喱味”"
+        }
+      ]
+    },
+    {
+      "event_id": "6ba048f63b3d",
+      "event_date": "2023-09-27",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "系统更新",
+      "relevance": "core",
+      "title": "iOS 17.0.2修复iPhone 15数据迁移",
+      "summary": "2023年9月，苹果发布iOS 17.0.2更新，用户可下载安装，以解决iPhone 15的数据迁移问题。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sohu.com/a/724003781_362225",
+          "published_date": "2023-09-27",
+          "title": "苹果发布iOS 17.0.2更新，解决iPhone 15数据迁移问题"
+        }
+      ]
+    },
+    {
+      "event_id": "e90889b5d523",
+      "event_date": "2023-09-28",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "tech",
+      "subtype": "拆解/芯片",
+      "relevance": "core",
+      "title": "拆解：iPhone 15 Pro首搭美光D1β内存",
+      "summary": "TechInsights拆解iPhone 15 Pro发现，其采用美光D1β LPDDR5 16Gb DRAM芯片，为全球首搭，该芯片绕开EUV技术。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.eet-china.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.eet-china.com/news/202309282724.html",
+          "published_date": "2023-09-28",
+          "title": "拆解iPhone 15 Pro：全球首搭美光“D1β”LPDDR5 DRAM 芯片，绕开EUV技术"
+        }
+      ]
+    },
+    {
+      "event_id": "1ed56fcd0098",
+      "event_date": "2023-10-09",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "tech",
+      "subtype": "拆解/5G",
+      "relevance": "core",
+      "title": "拆解显示iPhone 15升级高通5G调制解调器",
+      "summary": "拆解分析显示，iPhone 15和15 Plus采用高通升级的5G调制解调器；iPhone 15 Pro和Pro Max搭载A17 Pro，15和15 Plus使用A16 Bionic。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.notebookcheck-cn.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.notebookcheck-cn.com/iPhone-15-15-Plus-5G.758408.0.html",
+          "published_date": "2023-10-09",
+          "title": "iPhone 15 和 15 Plus：拆解显示高通公司升级了 5G 调制解调器"
+        }
+      ]
+    },
+    {
+      "event_id": "991f3744625c",
+      "event_date": "2023-12-03",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "MR头显",
+      "relevance": "core",
+      "title": "苹果Vision Pro量产在即",
+      "summary": "财联社12月3日报道，苹果本周二在上海举行Apple Vision Pro开发者实验室活动；据界面新闻，苹果将在12月正式量产第一代MR。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.cls.cn",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.cls.cn/detail/1533665",
+          "published_date": "2023-12-03",
+          "title": "苹果第一代MR产品Vision Pro量产在即！受益上市公司梳理"
+        }
+      ]
+    },
+    {
+      "event_id": "f10aa8262e78",
+      "event_date": "2023-12-18",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "policy",
+      "subtype": "外国手机限制",
+      "relevance": "context",
+      "title": "中国机构限制使用外国手机",
+      "summary": "VOA中文网报道，中国更多政府机构及国企被下令不得使用外国手机。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.voachinese.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.voachinese.com/a/china-s-iphone-ban-accelerates-across-government-and-state-firms-20231218/7402537.html",
+          "published_date": "2023-12-18",
+          "title": "中国更多政府机构及国企被下令不得使用外国手机"
+        }
+      ]
+    },
+    {
+      "event_id": "af2f87259f42",
+      "event_date": "2024-01-02",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "产品线升级",
+      "relevance": "context",
+      "title": "苹果Mac产品线2023年全线升级",
+      "summary": "搜狐盘点文章指出，过去一年苹果Mac产品线迎来全线升级，包括M3版MacBook Pro、15英寸MacBook Air、新款Mac mini、iMac等。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "www.sohu.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://www.sohu.com/a/748926599_121119003",
+          "published_date": "2024-01-02",
+          "title": "【盘点】苹果12年来首次！2023 Apple产品线回顾"
+        }
+      ]
+    },
+    {
+      "event_id": "ba0b720c0368",
+      "event_date": "2024-03-06",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "造车项目终止",
+      "relevance": "core",
+      "title": "苹果叫停造车项目",
+      "summary": "外媒报道，苹果历经10年投入后已叫停汽车项目；消息引发中文媒体关注，马斯克、李想、雷军等人在社交媒体回应。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 80,
+      "sources": [
+        {
+          "source_domain": "view.inews.qq.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://view.inews.qq.com/a/20240306A08EU300",
+          "published_date": "2024-03-06",
+          "title": "一个苹果，等于几个华为？"
+        }
+      ]
+    },
+    {
+      "event_id": "699d699903be",
+      "event_date": "2024-05-22",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "降价促销",
+      "relevance": "core",
+      "title": "iPhone加入618价格战降价2300元",
+      "summary": "2024年618购物节期间，苹果iPhone参与降价促销，降价2300元。",
+      "media_coverage": {
+        "source_count": 1,
+        "max_tier": "T3",
+        "level": "low"
+      },
+      "authority": 50,
+      "sources": [
+        {
+          "source_domain": "www.hstong.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.hstong.com/news/detail/24052123320028421",
+          "published_date": "2024-05-22",
+          "title": "降价2300元，iPhone加入618价格战，背后是苹果在AI时代的窘境 港美股资讯"
+        }
+      ]
+    },
+    {
+      "event_id": "9223d429b392",
+      "event_date": "2024-06-02",
+      "date_precision": "day",
+      "date_missing": false,
+      "event_type": "product",
+      "subtype": "降价促销",
+      "relevance": "core",
+      "title": "iPhone 15天猫618最多直降2300元",
+      "summary": "5月20日至28日，天猫Apple Store官方旗舰店iPhone 15系列促销，最多直降2300元；618开卖首小时苹果成交超15亿元。另有报道称iPhone 15中国价格创史上最低。",
+      "media_coverage": {
+        "source_count": 2,
+        "max_tier": "T2",
+        "level": "low"
+      },
+      "authority": 90,
+      "sources": [
+        {
+          "source_domain": "www.epochtimes.com",
+          "source_tier": "T3",
+          "confidence": 50,
+          "url": "https://www.epochtimes.com/gb/24/6/2/n14262449.htm",
+          "published_date": "2024-06-02",
+          "title": "iPhone 15中国价格大跳水 史上最低 | 大紀元"
+        },
+        {
+          "source_domain": "m.21jingji.com",
+          "source_tier": "T2",
+          "confidence": 80,
+          "url": "https://m.21jingji.com/article/20240602/herald/97f2b29374acb61378a330faa7a01a93.html",
+          "published_date": "2024-06-02",
+          "title": "价格大跳水，史上最低！ - 21财经"
+        }
+      ]
+    }
+  ]
+}

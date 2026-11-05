@@ -1,0 +1,262 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f53c86aa4dcb4bde",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7家用充电桩怎么选？带你深度拆解新国标参数与选购逻辑"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米SU7 Max版支持高压架构"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者建议小米SU7车主选购家用充电桩时，优先选择符合GB 39752-2024和GB 44263-2024新国标且具备CCC强制性产品认证的交流桩，以规避安全风险。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "优先锁定符合GB 39752-2024和GB 44263-2024新国标，且具备CCC强制性产品认证的交流桩"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者指出新国标相比旧国标增加了6mA直流漏电保护要求，原因是电动车充电时若车载充电机绝缘失效可能产生直流漏电，普通A型漏电保护器无法感应，存在触电隐患。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "新国标强制要求具备6mA直流漏电保护。这是因为电动车在充电时，若车载充电机绝缘失效可能产生直流漏电，普通A型漏电保护器无法感应，存在触电隐患。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者建议根据家庭电表电压选择充电桩功率：若能申请380V三相电，建议选择21kW充电桩以兼容小米SU7的11kW或7kW充电并适配未来车型；若只有220V条件，则选择7kW充电桩。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "若具备380V电表申请条件，建议一步到位选择21kW充电桩...若只有220V条件，稳定可靠的7kW桩是主流选择。"
+        },
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "能申请到380V三相电，选21kW规格可以跑满Max版11kW的交流充电上限；若只有220V电表，选7kW即可。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米原厂7kW家用充电桩的优势在于深度集成米家生态，支持通过米家APP进行远程状态查看、预约充电及小爱同学语音控制，适合追求原厂系统一致性的车主。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "核心优势在于深度集成米家生态。通过米家APP可以实现远程状态查看、预约充电，甚至支持小爱同学语音控制。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者介绍了几种第三方充电桩品牌的定位：公牛适合看重品牌知名度和线下维修便利性；雷迪恩主打硬件用料与多重安全防护，提供4年质保及前2年只换不修服务；挚达技术方案成熟，贴合车企标准，适合追求原厂品质感。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "公牛，凭借电工领域的深厚积累，产品做工扎实，售后网点遍布全国..."
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "雷迪恩，主打硬件用料与多重安全防护...4年质保，前2年只换不修..."
+        },
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "挚达，技术方案成熟，产品设计贴合车企标准..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者建议在安装充电桩时确认线缆规格：7kW建议使用3芯6平铜线，21kW建议使用5芯6平铜线，并强调CCC认证是硬性指标。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "安装时务必确认线缆规格，7kW建议用3芯6平铜线，21kW建议用5芯6平铜线。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新国标实施与CCC认证强制要求",
+      "event_type": "政策法规与行业标准",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从2026年8月起，未获CCC认证的充电桩将禁止销售。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "新国标GB 39752和GB 44263发布，规定从2026年8月起未获CCC认证的充电桩将禁止销售。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "本文针对小米SU7车主深入解析了家用充电桩的选购逻辑。文章强调了新国标下CCC认证、直流漏电保护及IP防护等级的重要性，并根据家庭电表电压（220V/380V）给出了7kW或21kW充电桩的选型建议。同时对比了小米原厂及公牛、雷迪恩、挚达等第三方品牌的特点，提供了具体的线缆规格和安全选购指南。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "高"
+}

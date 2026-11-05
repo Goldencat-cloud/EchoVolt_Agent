@@ -1,0 +1,511 @@
+{
+  "schema_version": "2.3",
+  "post_id": "8a3de2607e8f1e33",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 700km 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "700km 后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 700km 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "CT5",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "CT5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当时是在考虑CT5和A4L"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "A4L",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "A4L",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当时是在考虑CT5和A4L"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "大众",
+      "entity_level": "品牌",
+      "brand": "大众",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有亲戚还告诉我说开个大众很好"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者在最初考虑CT5和A4L的情况下，因观看小米发布会直播并被SU7的外观吸引，加之父亲也喜欢该车，最终决定下订小米SU7，且未进行试驾。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当时是在考虑CT5和A4L...最主要的是车辆的外观...有次回家和老爸聊起这个事...所以那天我们就直接下订了，下订的很干脆，甚至都没有试驾过。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为SU7价格公开透明，无地域差异，相比朋友在各店询价的过程更为便捷。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7有一点让我觉得很好...就是价格是公开透明，没有什么地域等等的差异，我的朋友们在购车的时候总是会各个店里询价做对比，在我看来是比较麻烦的事情。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者选择了标准版SU7，裸车价为21.59万元，加上保险和上牌等费用总计22万余元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我选择的是标准版，裸车21.59W，加上保险和上牌等等在22W出头。"
+        }
+      ],
+      "confidence": 0.98
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者因是第一台车且不想花费过多，选配时未选择额外配置，虽然后来觉得选更高版本会更好，但认为标准版满足了大部分需求。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在当初选配的时候也是想着不需要选什么额外的配置，主要还是第一台车，没必要花太多...不过标准版的确满足了我大部分的需求。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者最喜欢SU7的外观，但认为内饰整体略显普通，且选择的黑色内饰在实际使用中并没有想象中那么耐脏。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "对于这辆车来说，我最喜欢的就是外观了，而内饰整体来说略显普通，我选择的黑色的内饰，当初是想着黑色可能耐脏一点，但是实际开下来其实黑色也没有那么耐脏。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为SU7科技感十足，自动车灯、雨刮、车道偏离预警及自动泊车等功能对新手司机非常友好。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "整车不愧是由小米这种公司设计的，科技感十足，比如自动的车灯和雨刮控制系统、车辆驾驶时车道偏离预警还有自动泊车辅助驾驶等等，还有对于我这种开车新手来说十分友好。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者提到因下订较早，车辆赠送了高品质音响和冰箱，基本满足日常需求。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "并且由于下订较早，还赠送了高品质的音响和冰箱，日常的需求基本都满足。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为SU7动力强劲，经过适应后驾驶感觉非常灵活，油门响应跟脚，方向盘灵敏。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "SU7的动力非常强，刚开始开的时候还花了一些时间去适应，适应下来后真的觉得驾驶起来非常灵活，电门相当跟脚，方向盘也很灵敏"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者对SU7的电耗比较满意，在日常通勤且不开启激烈驾驶的情况下，即使常开空调电耗也不高，平均半个月充电一次。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "而它的电耗也是我比较满意的地方，一般日常通勤使用起来只要不是经常加速急刹，即使一直开着空调电耗也不高，对我来说平均半月一次充电。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "日常通勤，经常开启空调，非激烈驾驶模式。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "一般日常通勤使用起来只要不是经常加速急刹，即使一直开着空调电耗也不高"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者身高较高，认为SU7前排空间尚可，但后排空间不够宽敞，整体空间表现尚能接受。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "首当其冲的就是空间了，我的身高较高，整车的空间前排还好些，而后排确实并不是十分宽敞，通体来说尚能接受。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者指出SU7前挡风玻璃与引擎盖之间的凹槽容易积聚树枝树叶，清理困难，且杂物可能进入前备箱。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "其次是前挡风和引擎盖之间的凹槽处，尤其是秋天，一旦停在树下，经常导致凹槽处充满各种树枝树叶，清理起来较为困难，并且还会有一些钻进前备箱内。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "秋季停车在树下。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "尤其是秋天，一旦停在树下"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者总体对SU7感到满意，虽然存在一些不足，但认可小米造车的能力与潜力。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "总体来说，SU7是辆我很满意的车，的确有一些不足，但也确实让我看到小米造车的能力和潜力"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7发布会",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我了解到小米即将发售第一台车，发布会那天我就看了直播"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米举办第一场汽车发布会，作者观看了直播。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "我们就正式的开着SU7回家啦"
+      },
+      {
+        "block_id": "T3",
+        "source_type": "text",
+        "quote": "实际开下来其实黑色也没有那么耐脏"
+      }
+    ],
+    "confidence": 0.98
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好外观设计",
+      "注重性价比/实用主义"
+    ]
+  },
+  "post_summary": "作者记录了其大学毕业后购买的第一台车——小米SU7的全过程。文章详细描述了从最初考虑燃油车到被SU7外观吸引并最终下单的心路历程，分享了提车当天的愉快体验。在使用初期，作者对车辆的动力、操控、科技配置及能耗表示满意，但也指出了后排空间局促和前备箱易积落叶等不足之处。总体而言，作者对这辆新车持积极态度。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

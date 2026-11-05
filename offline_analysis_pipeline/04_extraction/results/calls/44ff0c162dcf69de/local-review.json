@@ -1,0 +1,262 @@
+{
+  "post_id": "44ff0c162dcf69de",
+  "state": "FAILED",
+  "cache_key": "bf592fb98277f2ea40e7f5d803c2883045190398e76f22b379a23d962b44508e",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "44ff0c162dcf69de",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "智己公司在今晚发布会上对小米 SU7 Max 关键参数进行错误标注"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "智己L6",
+        "entity_level": "具体配置",
+        "brand": "智己",
+        "series": "L6",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I3",
+            "source_type": "image_summary",
+            "quote": "智己 L6 超级智能轿车发布会"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "作者转述称，智己在发布会上将小米SU7的数据写错，随后小米发言人发文指责，智己CEO及官方先后道歉，但小米方面不接受并要求继续道歉。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "简单说就是智己把小米SU7数据写错了，还在发布会现场"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "然后小米怒了，小米发言人怒发wb一顿输出 然后智己CEO道歉，小米不认 智己汽车官方道歉"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "图片说明描述，小米公司发言人声明称智己在发布会上对小米SU7 Max关键参数进行错误标注，指责其专业能力缺失或有意造谣抹黑，并表示已取证准备法律维权，敦促智己公开澄清并道歉。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "文中指出：“智己公司在今晚发布会上对小米 SU7 Max 关键参数进行错误标注，造成极其严重的负面影响。”"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "图片说明描述，智己汽车发布致歉函，承认在智己L6发布会上对标小米SU7时，因团队内容审核疏漏造成关键参数错误标注，并澄清小米SU7 Max版前后电机均采用SIC碳化硅模块。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "I3",
+            "source_type": "image_summary",
+            "quote": "由于团队内容审核疏漏，造成一处关键参数的错误标注。澄清内容为：“小米 SU7 Max 版前后电机均采用 SIC 碳化硅模块"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米此次强硬回应是为了保护品牌，是一种与用户共情的态度，并比喻为父母保护孩子，认为智己是不巧撞上了枪口。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "小米的态度很明确，就是要保护自己的品牌，这也是与用户共情的方式，像极了父母保护孩子的样子"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者推测智己CEO之前的言论带有酸意，原因是智己L6上市前热度一般且销量不佳，面对小米的高流量感到着急。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "外人确实是可以品到一丝酸意；看到别人流量爆棚，智己L6上市之前热度耶一般，着急很正常，加上目前智己全系销量说好也不是那么优秀"
+          }
+        ],
+        "confidence": 0.8,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "智己发布会参数错误及小米维权事件",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": "2024-04-08",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2"
+        ],
+        "evidence": [
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "发布时间为24-4-8 23:24"
+          },
+          {
+            "block_id": "I3",
+            "source_type": "image_summary",
+            "quote": "日期标注为“2024年4月8日”"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "智己在L6发布会上错误标注小米SU7 Max参数，小米发言人发文指责并威胁法律维权，智己CEO及官方随后道歉，但小米要求进一步正式道歉。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子梳理了智己在发布会上错误标注小米SU7 Max参数引发的争议。作者描述了小米发言人强硬发声、智己CEO及官方道歉的过程，并对小米保护品牌的强硬态度表示认可，同时推测智己方因销量和热度压力而产生敌意。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "claims/C5/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C6/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11262,
+    "completion_tokens": 2291,
+    "total_tokens": 13553,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 10.273978900004295,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

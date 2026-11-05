@@ -1,0 +1,350 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0108e21b02773160",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7：产能爬出地狱，销量一飞冲天"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "长安启源Q05",
+      "entity_level": "具体配置",
+      "brand": "长安启源",
+      "series": "Q05",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "长安启源Q05这车，没那么多流量，但4月闷声卖了15814辆"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "深蓝S05",
+      "entity_level": "具体配置",
+      "brand": "深蓝",
+      "series": "S05",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "深蓝S05也卖了13722辆，排名升到第十二。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "零跑A10",
+      "entity_level": "具体配置",
+      "brand": "零跑",
+      "series": "A10",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "零跑A10绝对是黑马，4月14372辆，直接冲进总榜前十。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "名爵MG4",
+      "entity_level": "具体配置",
+      "brand": "名爵",
+      "series": "MG4",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "名爵MG4也爆了，卖了13189辆。"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者转述4月销量数据显示，小米SU7销量达到26826辆，排名全市场第二，相比3月的7882辆增长超过三倍。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月直接干到26826辆，排名全市场第二，比3月的7882辆暴涨了三倍多。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出小米SU7在3月新款上市时进行了三电、底盘和智驾系统的全面升级，且价格保持稳定。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3月新款上市，三电、底盘、智驾全升级，价格还稳如老狗"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米SU7销量的爆发是产能释放和产品迭代共同作用的结果，体现了“厚积薄发”的特点。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这种爆发，是典型的厚积薄发，憋着一股劲证明给你看，真的猛士，靠的是产品迭代和交付拉满。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为长安启源Q05凭借10万级混动、越级空间和配置以及约6.6万的终端入门价实现了高性价比定位；深蓝S05则通过后驱架构、良好操控和外观设计吸引年轻家庭用户。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "10万级SUV，给你混动，空间配置越级，终端优惠完入门才6.6万左右。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这车走的是差异化，后驱架构、操控好、长得帅，精准收割那些想有点驾驶乐趣又得顾家的年轻人。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出零跑A10和名爵MG4依靠极低的价格策略（分别为6万多和6.58万左右）获取市场份额，但这种模式利润极薄，存在不可持续的风险。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "6万多块钱给你智驾、大屏、大空间，这价格战打得，友商看了都想报警。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "这种逆袭最危险，因为利润薄得像纸，一旦成本压不住或者热度退了，很容易陷入卖一辆亏一辆的泥潭。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者总结认为，不同车型的销量增长背后逻辑不同：小米SU7靠实力和产品，启源和深蓝靠细分定位，零跑和名爵靠低价豪赌，并对依赖低价冲量的模式能否持续表示怀疑。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米SU7是靠实力破圈...启源和深蓝是靠精准刀法...而零跑和名爵，则是在用极限低价豪赌市场份额。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "那些靠割肉放血冲量的，能撑多久？"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "4月汽车销量榜单发布",
+      "event_type": "市场竞争与行业数据",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "刚出炉的4月销量榜"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "4月汽车销量榜单公布，多款新能源车型销量出现显著波动，其中小米SU7、长安启源Q05、深蓝S05、零跑A10和名爵MG4表现突出。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了4月汽车销量榜单的变化，重点讨论了小米SU7因产能释放和产品升级带来的销量激增，以及长安启源Q05、深蓝S05、零跑A10和名爵MG4等不同品牌车型通过性价比、差异化定位或低价策略取得的市场成绩，并对部分品牌依赖低价冲量的可持续性提出质疑。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "高"
+}

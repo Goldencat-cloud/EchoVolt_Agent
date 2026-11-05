@@ -1,0 +1,333 @@
+{
+  "schema_version": "2.3",
+  "post_id": "bc374b41318e400d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的价格"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "保时捷Taycan",
+      "entity_level": "车系",
+      "brand": "保时捷",
+      "series": "Taycan",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "下半部分展示了一辆浅蓝色的保时捷Taycan"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "全新极氪001"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "智界S7",
+      "entity_level": "车系",
+      "brand": "智界",
+      "series": "S7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "智界S7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "长安启源A07",
+      "entity_level": "车系",
+      "brand": "长安启源",
+      "series": "A07",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "长安启源A07"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "银河E8",
+      "entity_level": "车系",
+      "brand": "银河",
+      "series": "E8",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "银河E8"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者转述网友爆料称小米SU7有两款车型的新车购置价分别为26.14万元和36.14万元，并指出此前官方已辟谣各种定价猜测，因此推测此次爆料可能仅为网友猜测。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近日又有网友曝出小米SU7的新车购置价，其中一款定价为26.14万，另外一款为36.14万。估计这次也只是网友的猜测罢了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7拥有保时捷同款超跑造型，并通过图文对比展示两者在车头、车身线条及尾部设计上的相似之处。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7拥有保时捷同款超跑造型"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "直观地展示了小米SU7 Ultra与保时捷Taycan在车身线条、尾部造型及整体设计上的相似之处"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "小米SU7拥有保时捷同款超跑造型"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者介绍小米SU7内饰配备16.1英寸悬浮式中控屏、7.1英寸翻转式全液晶仪表、HUD抬头显示及磁吸扩展接口，并保留了空调、尾翼及悬架调节的实体拨杆，认为其科技感满满。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "配备16.1英寸悬浮式中控屏、7.1英寸翻转式全液晶仪表、三幅式多功能方向盘、电子怀挡以及HUD抬头显示，科技感满满。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者列出小米SU7的动力参数：单电机后驱版299马力、5.28秒破百、668km续航；双电机四驱版673马力、2.78秒破百、800km续航。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "单电机后驱版拥有299马力，百公里加速时间5.28秒...双电机四驱版拥有673马力，百公里加速时间2.78秒"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出极氪001新款降价且配置提升，以及智界S7、长安启源A07、银河E8等车型具备高性价比，认为这让小米SU7面临较大的竞争压力。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "这也让很多网友在线喊话雷军，雷总也是倍感压力。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7新车购置价曝光",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "传闻或未证实",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近日又有网友曝出小米SU7的新车购置价，其中一款定价为26.14万，另外一款为36.14万。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "有网友爆料小米SU7两款车型的新车购置价分别为26.14万元和36.14万元，作者认为这可能只是猜测。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子主要讨论小米SU7的外观设计与保时捷Taycan的相似度，列举了其内饰配置和动力参数。同时转述了关于小米SU7新车购置价的爆料，并分析了极氪001等竞品带来的市场竞争压力。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

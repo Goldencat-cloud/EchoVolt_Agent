@@ -1,0 +1,8 @@
+deepagents==0.7.32
+pandas>=2.2
+langchain-openai>=0.3
+openai>=1.0  # research/embeddings.py 直接使用（search_claims 可选语义相关度后端）
+ormsgpack==1.12.2  # 1.13+ 的原生 DLL 被 Windows 应用控制策略拦截（2026-10-28 实测），钉住可用版本
+mcp>=2.0,<3
+pyyaml>=6.0  # semantic/ 模型工件解析（YAML 声明式定义）
+

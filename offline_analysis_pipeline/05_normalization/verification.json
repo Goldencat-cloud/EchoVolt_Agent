@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "current_output": "delivery-r3",
+  "unit_test_command": "python -m unittest discover -s collaboration/result/auto018-product-entity-normalization/v2 -p test_taxonomy.py -v",
+  "unit_tests": {"run":21,"failures":0,"errors":0,"result":"OK"},
+  "browser_checks": {
+    "url":"http://127.0.0.1:8873/delivery-r3/review.html",
+    "real_alias_example":{"post_id":"959e32cee1da1534","name":"小米酥妻","path":["小米","SU7"]},
+    "brand_level_filter_for_series_example":0,
+    "series_level_filter_for_series_example":1,
+    "tesla_parent_filter_for_xiaomi_example":0,
+    "su7_parent_filter_for_xiaomi_example":1,
+    "review_note_survives_reload":true,
+    "annotation_download_observed":true,
+    "test_annotation_restored_to_unreviewed":true,
+    "screenshot":"review-preview.png"
+  },
+  "human_semantic_acceptance":"not_measured",
+  "new_model_calls":0,
+  "topic_clustering_executed":false
+}

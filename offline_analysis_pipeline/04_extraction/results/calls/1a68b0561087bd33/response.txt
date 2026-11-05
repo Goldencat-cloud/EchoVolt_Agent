@@ -1,0 +1,453 @@
+{
+  "schema_version": "2.3",
+  "post_id": "1a68b0561087bd33",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 700km 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "700km 后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 700km 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看过极氪001"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "智己S6",
+      "entity_level": "车系",
+      "brand": "智己",
+      "series": "S6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智己S6"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "享界S9",
+      "entity_level": "车系",
+      "brand": "享界",
+      "series": "S9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "享界S9"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "深蓝S07",
+      "entity_level": "车系",
+      "brand": "深蓝",
+      "series": "S07",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "深蓝S07"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者最初预算约15万元，因深圳油牌难摇转而关注增程和纯电车型。在对比极氪001、智己S6、享界S9、深蓝S07后，最终选择小米SU7。排除理由包括：担心极氪001背刺、不接受智己S6方向盘及外观、不想和同事开的深蓝S07同款；选择小米SU7是因为认为其安全系数高、外观吸引人。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一开始买车预算是15W左右的...转而看增程跟纯电，看过极氪001，智己S6，享界S9，深蓝S07啊这些，不过后边还是选的小米su7，极氪001背刺王，买了不放心：智己那个方向盘接受不了，外观也不是很对味。深蓝s07同事提了一辆，所以没考虑提一样的：最后选择了小米SU7，毕竟安全系数给的很足！外观也很得心意！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "品牌与口碑",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "极氪001背刺王，买了不放心"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "智己那个方向盘接受不了，外观也不是很对味"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P5",
+            "aspect": "其他",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "深蓝s07同事提了一辆，所以没考虑提一样的"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买的小米SU7标配版裸车官网标价21.59万元，选配20寸轮毂和25扬声器音响，加上6981元保险和1299元小米专属无忧包，落地总价为23.81万元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我选的小米SU7标配版，裸车官网标价是21.59W，选配了20寸轮毂+25的音响，保险一起是6981，还有1299的小米专属无忧包，一起落地是23.81W。"
+        }
+      ],
+      "confidence": 0.98
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为小米的提车流程顺畅高效，销售人员配合度高，全程有交付人员引导，从开始到完成提车（含保险办理）仅耗时约40分钟。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车流程小米这边没得说，销售人员嘎嘎给力...结果一套流程下来40分钟就搞定了，包括买保险及保险生效哦！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者在高速行驶中使用小米SU7的NOA模式，认为其变道稳定，能保持车道限速、维持前车距离、自动避让大车并自主变道，提升了驾驶便利性。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "高速度下变道也很稳...NOA模式下，它能保持车道限速行驶，自主保持与前车的距离，自动避让大车，打方向会自己判断是否有条件变道，并完成自主变道"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在高速公路驾驶，使用NOA智能驾驶模式。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在高速路上试过一次就爱上了。NOA模式下"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者非常欣赏小米SU7的外观设计，特别是流水型车身、矩阵大灯和橄榄绿车漆，认为其在路上吸睛且令人满足。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "流水型的车身，真的很帅啊...橄榄绿也跟其他车企不一样，更鲜艳，更帅。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者在没有家用充电桩的情况下，夜间外出充电从100km续航充至满电495km，花费约40元，认为若无家充会更省钱。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "像我没有家冲桩，晚上0点出去充电从100续航冲到满电495巡航，费用是40左右，如果有家冲就更省了。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者夜间（0点左右）在无家充条件下进行公共充电。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "晚上0点出去充电"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出车辆在地下车库受信号影响较大，导致哨兵模式无法开启。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在地下车库是真的挺受信号影响的，哨兵都开不了"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆在地下车库停放或使用。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在地下车库"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者希望小米SU7标配版能增加尾翼选配选项，表达了对该配置的强烈需求。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "能不能让标配也能选尾翼啊，真的很想要"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "现在也开了快2个月了"
+      },
+      {
+        "block_id": "I5",
+        "source_type": "image_summary",
+        "quote": "顶部标题显示“已提车”，下方标注提车时间为“2025-02-25”"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "15W左右",
+    "preferences": [
+      "重视安全性",
+      "喜欢运动/帅气外观",
+      "通勤及休闲出行需求"
+    ]
+  },
+  "post_summary": "车主分享小米SU7 2024款700km后驱长续航智驾版的购车心路历程、费用明细及提车体验。文章详细记录了从15万预算起步，对比多款竞品后因安全和外观选择小米的过程，以及高效的提车服务。用车两个月后，作者对智驾稳定性、外观设计给予高度评价，但也指出了地下车库信号影响哨兵模式的痛点，并表达了希望标配版增加尾翼选配的愿望。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

@@ -1,0 +1,490 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c2709974dd0e3560",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小鹏P7",
+      "entity_level": "车系",
+      "brand": "小鹏",
+      "series": "P7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "倒是关注过小鹏p7，还试驾过"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "帕萨特",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "帕萨特",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的帕萨特老伙计已经15岁了"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "不过相比yu7，我觉得还是su7好看"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者因小米SU7的颜值、稳定性、安静性及智能化表现，在试驾后坚定选择小米SU7，尽管此前关注并试驾过小鹏P7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "毫无疑问，小米su7这辆车，颜值即正义。在它发布的那一刻，就抓的我心里痒痒。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "它的稳定、安静、智能化，无一不让我这个只开过油车的老咕噜棒子眼前一亮。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果说买车之前有没有对比过，倒是关注过小鹏p7，还试驾过，不过最终还是坚定的选择了小米su7。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买小米SU7标准版，裸车价21.59万元，加配梅花轮毂和冰箱后到手价22.59万元，各项杂费合计总花费约24.37万元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我买的标准版，裸车价21.59万，我加配了梅花轮毂（8000元）和冰箱（2000元），到手22.59万。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "合计243738元。"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者批评小米南京交付中心的提车流程繁琐且规定僵化，包括提车等待期长达5个月、跨市提车不便、口头通知提车期限短于合同约定且拒绝灵活调整时间。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7排队的时间还是太长了，我从定车到提车足足等待了5个月的时间。而且在我的城市没有交付中心，坐高铁去南京提的车。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一是他们的交付人员给我打电话，说车到了，让我接到电话后3天内去提车，否则订单作废，但我翻看了合同，合同上明明写的是7天"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我想换到下午去，得到的答案又是无情的“不好意思不可以”……怪不得群里都在吐槽南京的交付中心"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者前往南京进行跨市提车。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在我的城市没有交付中心，坐高铁去南京提的车。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7车内非常安静，但减震效果一般，路感过于清晰。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车虽然是单层玻璃，但是，非常安静，好评！不过减震做的一般，高情商讲叫路感清晰，低情商讲……叫太清晰了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者高度评价小米SU7的智能化水平，特别是语音助手“小爱同学”的功能实用性、自动泊车功能以及后台播放B站视频的功能。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智能化给到顶级，小爱同学几乎能帮你解决一切操作，无聊还可以和小爱聊聊天。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "寻位泊车和自动泊车是非常实用的功能，让最消耗精力的停车变得丝滑无比。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最抓我的是后台播放B站的功能，好评中的好评，现在我开车都拿B站当广播听。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7座舱空间表现出色，地台不高，腿部空间舒展，后排空间达到B+级体验。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "座舱的空间必须预想的好很多，地台并不高，我178的身高可以将腿伸展开，后排的空间更是惊喜，完完全全是B+级的体验。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者身高178cm乘坐车辆。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我178的身高可以将腿伸展开"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者行驶6000多公里后，平均电耗约为14.5度/百公里，利用家充谷电（0.37元/度）计算，每公里电费约6-7分钱，远低于燃油车成本。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前我开了6000多公里，平均电耗在14.5度/百公里左右，我有家冲桩，冲谷电只有0.37元一度，目前平均每公里电耗6分-7分钱，比起油车是省太多了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者累计行驶6000多公里，使用家用充电桩在谷电时段充电。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "目前我开了6000多公里，平均电耗在14.5度/百公里左右，我有家冲桩，冲谷电只有0.37元一度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为相比小米YU7，小米SU7的外观更好看。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "不过相比yu7，我觉得还是su7好看。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "不过相比yu7，我觉得还是su7好看。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者建议潜在买家权衡等待SU7改款与享受2025年底购置税补贴政策的风险，指出2026年起电车需缴纳5%购置税，而小米承诺补贴2025年下单未交付车辆的购置税。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "目前据说su7的改款可能要在26年上线，我觉得想买su7的不妨等等看它会有哪些升级。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2026年是个特殊的年份，电车免购置税的时代过去了，从2026年开始电车将有5%的购置税（1万元左右），增加了不小的购车成本。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米官方说但凡在2025年下定且尚未交付的车，由小米来补贴购置税，2025年剩下一个月，从成本的角度，倒是可以选择现在订车。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "2026年新能源汽车购置税政策调整及小米补贴措施",
+      "event_type": "政策法规与行业标准",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从2026年开始电车将有5%的购置税（1万元左右），增加了不小的购车成本。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米官方说但凡在2025年下定且尚未交付的车，由小米来补贴购置税"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "2026年起电动汽车免征购置税政策结束，开始征收5%购置税；小米官方宣布对2025年下单且未交付的车辆进行购置税补贴。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米su7提车心得"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "目前我开了6000多公里"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车辆颜值",
+      "重视智能化体验",
+      "驾驶风格保守"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7的提车全过程及用车初体验。文章详细列出了购车费用明细，批评了南京交付中心僵化的提车流程，但高度赞扬了车辆的静谧性、智能化功能（如小爱同学、自动泊车）、空间表现及低能耗成本。最后，作者结合2026年购置税新政及可能的改款消息，给出了关于购车时机的建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

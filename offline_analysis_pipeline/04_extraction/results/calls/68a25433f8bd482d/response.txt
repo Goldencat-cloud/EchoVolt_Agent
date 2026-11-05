@@ -1,0 +1,508 @@
+{
+  "schema_version": "2.3",
+  "post_id": "68a25433f8bd482d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "大众宝来",
+      "entity_level": "具体配置",
+      "brand": "大众",
+      "series": "宝来",
+      "model_year": null,
+      "version": "1.6T自动挡",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "我揣着满心欢喜去提了人生第一辆车——大众宝来，1.6T自动挡。"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "奥迪A4",
+      "entity_level": "具体配置",
+      "brand": "奥迪",
+      "series": "A4",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "挑来选去，最后提了奥迪A4。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "岚图Free",
+      "entity_level": "具体配置",
+      "brand": "岚图",
+      "series": "Free",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "2023年12月，我终于把这辆黑色的岚图Free提回了家"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因个人积蓄有限且不想麻烦父母，在2011年于自我承受范围内选择了大众宝来作为人生第一辆车。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "因为当时个人积蓄有限，又不想麻烦父母，只能在自我承受范围内作选择。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者认为大众宝来皮实耐造，从未出现故障，即使在冬季冻雨结冰路面也能正常启动并平稳行驶。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "宝来皮实耐造，从没掉过链子。印象最深的是有一年冬天，下着冻雨，路面结了一层薄冰，我加班到深夜，车子却一点就着，稳稳当当地把我送回了家。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "冬季夜间，路面有冻雨和薄冰，作者加班后驾驶车辆回家。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "有一年冬天，下着冻雨，路面结了一层薄冰，我加班到深夜"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "随着家庭成员增加，作者认为大众宝来的空间变得局促，无法满足携带婴儿用品及乘坐安全座椅的需求，从而产生了更换空间更大、舒适性更好车辆的念头。",
+      "sentiment": "负面",
+      "journey_stage": "换车与复购",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "宝来的空间渐渐显得局促，每次带着女儿出门，婴儿车、奶粉、玩具塞满了后备箱，后排还要放安全座椅，一家人挤在车里，总觉得施展不开。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "一家三口出行，车内需放置婴儿车、奶粉、玩具及安全座椅。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "每次带着女儿出门，婴儿车、奶粉、玩具塞满了后备箱，后排还要放安全座椅"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为奥迪A4操控性好，动力充足，底盘稳定，适合家庭自驾游和高速行驶。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "奥迪A4的操控性没话说，动力足，底盘稳，带着一家人自驾游，跑高速特别省心。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "家庭自驾游，主要在高速公路行驶。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "带着一家人自驾游，跑高速特别省心"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "随着孩子长大及露营需求增加，作者认为奥迪A4作为轿车在通过性和装载能力上力不从心，因此萌生了更换SUV的想法。",
+      "sentiment": "负面",
+      "journey_stage": "换车与复购",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "随着女儿渐渐长大，对空间的需求又上了一个台阶，加上我越来越喜欢周末带着家人去郊外露营、自驾游，轿车的通过性和装载能力，渐渐有点力不从心。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "周末带家人去郊外露营和自驾游。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "我越来越喜欢周末带着家人去郊外露营、自驾游"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为岚图Free空间宽敞，后排可供儿童玩耍，后备箱能容纳露营装备和儿童自行车。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "第一次坐进岚图Free的驾驶舱，就被它的大空间惊艳到了。后排宽敞，女儿可以在里面玩耍，后备箱更是能轻松放下露营装备，甚至还有女儿的小自行车。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者试驾及后续使用中，车内有儿童，后备箱装载露营装备和自行车。",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "后排宽敞，女儿可以在里面玩耍，后备箱更是能轻松放下露营装备，甚至还有女儿的小自行车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为岚图Free加速平顺迅猛，噪音低，相比燃油车没有顿挫感，驾驶体验静谧顺滑。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "试驾的时候，踩下电门，那种平顺又迅猛的加速感，和燃油车的顿挫感完全不同，安静得只能听到风的声音。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者试驾过程中体验加速和噪音表现。",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "试驾的时候，踩下电门"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为岚图Free的增程式技术解决了纯电车的续航焦虑，同时具备电车的静谧和顺滑特性，适合喜欢自驾游的家庭。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "最让我心动的是它的增程式技术，既没有纯电车的续航焦虑，又能享受到电车的静谧和顺滑，简直是为我们这种喜欢自驾游的家庭量身定做的。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者基于喜欢自驾游的家庭用车需求进行评估。",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "为我们这种喜欢自驾游的家庭量身定做"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为岚图Free底盘调校到位，滤震效果好，在经过坑洼土路时车内颠簸感不明显。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "那一段路有不少坑洼的土路，岚图Free的底盘调校得很到位，滤震效果特别好，坐在车里几乎感觉不到颠簸。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "夏季带家人去楠溪江露营，经过坑洼土路。",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "去年夏天，带着家人去楠溪江露营。那一段路有不少坑洼的土路"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者利用岚图Free的对外放电功能在露营时煮火锅和泡咖啡，提升了露营便利性。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "到了露营地，打开对外放电功能，煮火锅、泡咖啡"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在楠溪江露营地使用车辆对外放电功能。",
+        "evidence": [
+          {
+            "block_id": "T10",
+            "source_type": "text",
+            "quote": "到了露营地，打开对外放电功能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者表示岚图Free在两年行驶43000公里的过程中表现稳定，在城市早晚高峰及长途旅行中均未出现问题。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "“黑武士”已经陪我走过了四万三千公里的路程。这两年里，它载着我们一家人去过温州的海边...也陪着我穿梭在城市的早高峰，稳稳当当，从不掉链子。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "两年内行驶43000公里，涵盖海边旅行、福建旅行及城市早晚高峰通勤。",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "“黑武士”已经陪我走过了四万三千公里的路程。这两年里，它载着我们一家人去过温州的海边...也陪着我穿梭在城市的早高峰"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T8",
+        "source_type": "text",
+        "quote": "2023年12月，我终于把这辆黑色的岚图Free提回了家"
+      },
+      {
+        "block_id": "T9",
+        "source_type": "text",
+        "quote": "“黑武士”已经陪我走过了四万三千公里的路程。"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车辆空间",
+      "重视舒适性",
+      "喜欢自驾游和露营",
+      "偏好SUV车型"
+    ]
+  },
+  "post_summary": "作者分享了从大众宝来到奥迪A4，再到岚图Free的三次购车经历。文章详细描述了每辆车在不同人生阶段（单身奋斗、组建家庭、二胎/露营需求）的作用与局限性，重点强调了岚图Free在空间、底盘滤震、增程技术及对外放电功能上满足其家庭自驾游和露营需求的体验。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

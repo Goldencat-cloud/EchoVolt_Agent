@@ -1,0 +1,266 @@
+{
+  "schema_version": "2.3",
+  "post_id": "1a163d8bf065dbbd",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1️?小米SU7：这个价位可以买到顶配Max版车型"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉Model Y",
+      "entity_level": "车系",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2️?特斯拉Model Y：销量王"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "MG Cyberster",
+      "entity_level": "车系",
+      "brand": "MG",
+      "series": "Cyberster",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3️?MG Cyberster：小众车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4️?极氪001：适合有娃的姐妹"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "蔚来ET5T",
+      "entity_level": "车系",
+      "brand": "蔚来",
+      "series": "ET5T",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "5️?蔚来ET5T：蔚来唯一适合女生开的就是ET5系列"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为在25-35万价位段，小米SU7可以买到顶配Max版，各项配置基本拉满，外观颜值在线，是个人最推荐的车型。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1️?小米SU7：这个价位可以买到顶配Max版车型，也是个人最推荐的，各项配置基本拉满，外观颜值依然在线"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者评价特斯拉Model Y虽然销量高，但配置相比国产竞品较低，乘坐舒适度不如竞品，不过整车驾驶质感和实用性依然在线。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2️?特斯拉Model Y：销量王，配置各方面和国产竞品比较确实低了，坐起来也没那么舒服，不过整车驾驶质感和实用性依然在线"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者指出MG Cyberster是小众车，因其软顶敞篷定位入选，开起来有跑车味道，在欧洲卖得不错，适合想体验跑车的人群。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3️?MG Cyberster：小众车，在这里出现单纯是因为，软顶敞篷的定位，而且开起来确实有点“跑”味，在欧洲卖的不错，想看跑车其实可以考虑"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为极氪001适合有孩子的家庭，舒适性好，空间实用性强，兼顾一定操控，不是纯舒适取向；并推测一年换三代后新款会更稳定，可以放心入手。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4️?极氪001：适合有娃的姐妹，舒适性不错，空间实用性也很棒，兼顾一定的操控，不是纯舒适取向的车。一年换了三代以后应该至少消停一年，可以放心入新款"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为蔚来ET5系列是唯一适合女生开的蔚来车型，ET5T优化了坐姿和空间，价格与ET5一致；如果不喜欢跨界休旅车造型，可以选择轿跑造型好看的ET5。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "5️?蔚来ET5T：蔚来唯一适合女生开的就是ET5系列，ET5T优化了坐姿和空间，价格保持一致，如果不喜欢跨界休旅车造型，也可以选ET5，轿跑造型很好看"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "适合女生买的电车｜25-35万级别"
+      }
+    ],
+    "confidence": 0.8
+  ,
+    "age": null,
+    "budget": "25-35万",
+    "preferences": [
+      "适合女生",
+      "新能源电车"
+    ]
+  },
+  "post_summary": "帖子推荐了25-35万价位段适合女生购买的5款新能源电车：小米SU7、特斯拉Model Y、MG Cyberster、极氪001和蔚来ET5T。作者对各车型进行了简要点评，指出小米SU7配置高且推荐，特斯拉Model Y配置略低但质感好，MG Cyberster具跑车特色，极氪001适合家庭且空间大，蔚来ET5T优化了坐姿和空间。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

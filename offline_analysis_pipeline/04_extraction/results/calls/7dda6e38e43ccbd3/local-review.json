@@ -1,0 +1,627 @@
+{
+  "post_id": "7dda6e38e43ccbd3",
+  "state": "CONTRACT_PASS",
+  "cache_key": "0c774385f80fd35deca0040aeace1880a2a8bf8553db02edb3a9da0180cffa18",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "7dda6e38e43ccbd3",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 2024款后驱长续航智驾版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "后驱长续航智驾版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米su7 2024款后驱长续航智驾版"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "比亚迪",
+        "entity_level": "品牌",
+        "brand": "比亚迪",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "相比比亚迪、特斯拉要少很多"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "特斯拉",
+        "entity_level": "品牌",
+        "brand": "特斯拉",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "相比比亚迪、特斯拉要少很多"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为该车性价比高，20多万的价格能买到纯电轿跑，满足其对颜值的追求。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "首先性价比是真的顶，20多万的价格，能买到纯电轿跑，外观直接拉满。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为该车外观设计出色，溜背造型和无框车门使其颜值不输高价豪车，在停车场回头率高。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "溜背造型、无框车门，开出去不管是上班代步还是周末约朋友，颜值完全不输四五十万的豪车...停在公司停车场，回头率直接拉满"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为该车智能化体验顺手，手机生态互联无缝，车机流畅，语音控制反应快，适合通勤。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "车机互联简直无缝衔接...车机系统流畅不卡顿，语音控制反应超快...对通勤族特别友好。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在日常通勤中使用手机APP远程控制车辆及车机交互。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "手机APP直接解锁、预热空调，下班提前远程开好空调"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为该车辅助驾驶功能实用，能在早晚高峰堵车跟车和高速巡航时缓解疲劳。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "辅助驾驶功能很实用，早晚高峰堵车跟车、高速巡航都能解放双脚，缓解上班一天的疲惫。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在早晚高峰堵车及高速巡航时使用辅助驾驶。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "早晚高峰堵车跟车、高速巡航"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者认为该车日常市区通勤续航够用，周末短途出游无需频繁充电。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "日常市区通勤，标准版续航完全够用，就算周末短途出游也不用频繁充电。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者进行日常市区通勤及周末短途出游。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "日常市区通勤...周末短途出游"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为该车底盘调校偏运动，行驶稳重，提速响应快，驾驶乐趣强于同价位家用车。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "底盘调校偏运动，开起来很稳，提速响应快，红绿灯起步超车轻轻松松，驾驶乐趣比同价位家用车强太多。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在城市道路（红绿灯路口）驾驶。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "红绿灯起步超车"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者认为该车充电速度快，快充半小时可补大半电量，缓解节假日高速出行的补能焦虑。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "充电速度也不错，快充半小时就能补大半电量，节假日跑高速也不会太焦虑"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者提及节假日跑高速的场景。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "节假日跑高速"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出该车后排空间较小，溜背设计导致头部空间受限，175cm以上人员乘坐易顶头，后备箱开口小不便放置大件物品。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "第一就是后排空间有点小...175cm以上的人坐后排会顶脑袋...后备箱开口偏小，大件物品不好放"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者提及偶尔带家人朋友及满载长途的场景。",
+          "evidence": [
+            {
+              "block_id": "T5",
+              "source_type": "text",
+              "quote": "偶尔带家人朋友还行，要是经常满载长途"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为该车内饰塑料感较强，高级感不如同价位合资车，且存在缝隙不均等做工瑕疵。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "内饰塑料感偏强，摸起来的高级感不如同价位合资车，细节做工偶尔有小瑕疵，比如缝隙不均"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为该车车内隔音表现中规中矩，高速行驶时胎噪和风噪明显，长时间驾驶较吵。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "车内隔音表现中规中矩，高速行驶时胎噪、风噪比较明显，长时间开高速会有点吵。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者进行长时间高速行驶。",
+          "evidence": [
+            {
+              "block_id": "T5",
+              "source_type": "text",
+              "quote": "高速行驶时...长时间开高速"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者指出该车冬季续航缩水明显，充电效率下降。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "纯电车冬天续航打折很明显，冬天通勤续航会缩水不少，充电效率也会下降。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在冬季进行通勤。",
+          "evidence": [
+            {
+              "block_id": "T6",
+              "source_type": "text",
+              "quote": "冬天通勤"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C12",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者认为该车线下门店和售后网点少于比亚迪和特斯拉，后期维修保养便利性较差，等待时间可能更长。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "小米线下门店和售后网点，相比比亚迪、特斯拉要少很多，后期保养维修便利性不如老牌车企，万一车子出点小问题，维修等待时间可能会更长。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "服务与交付",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T6",
+                  "source_type": "text",
+                  "quote": "相比比亚迪、特斯拉要少很多"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "服务与交付",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T6",
+                  "source_type": "text",
+                  "quote": "相比比亚迪、特斯拉要少很多"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C13",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者指出该车新车交付周期不稳定，热门配置需等待较久。",
+        "sentiment": "负面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "还有新车交付周期不稳定，热门配置需要等很久"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C14",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者总结认为，对于追求颜值、智能体验和性价比的年轻通勤族，该车是合适选择；但若常满载或看重内饰及售后，需谨慎考虑。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "对于25岁左右、追求颜值、智能体验、性价比，主要用于单人或双人通勤的上班族，它绝对是闭眼入的选择。但如果经常满载出行、看重内饰质感和长期售后稳定性，那就要慎重考虑。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为一名刚步入职场没多久的25岁上班族...我等我的酥7等了整整8个月啊，现在也来了这么久了，今天就用实际经验聊聊这车的优缺点"
+        }
+      ],
+      "confidence": 0.95,
+      "age": 25,
+      "budget": null,
+      "preferences": [
+        "追求颜值",
+        "重视智能体验",
+        "注重性价比"
+      ]
+    },
+    "post_summary": "一位25岁的上班族车主分享了小米SU7 2024款的实际用车体验。作者肯定了其在性价比、外观、智能化、续航及驾驶操控方面的优势，但也指出了后排空间局促、内饰质感一般、高速噪音较大、冬季续航缩水及售后网点较少等缺点。总体而言，作者认为该车适合追求个性与科技的年轻通勤族，但对空间和品质有高要求的用户需谨慎。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12541,
+    "completion_tokens": 5311,
+    "total_tokens": 17852,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 30.750448699996923,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

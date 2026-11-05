@@ -1,0 +1,192 @@
+{
+  "schema_version": "2.3",
+  "post_id": "cf3b1efb2e7482ee",
+  "products": [
+    {
+      "id": "P1",
+      "name": "比亚迪刀片电池",
+      "entity_level": "未明确",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "已提前满足高标电池技术（如比亚迪刀片电池、宁德时代麒麟电池）的车型"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "宁德时代麒麟电池",
+      "entity_level": "未明确",
+      "brand": "宁德时代",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "已提前满足高标电池技术（如比亚迪刀片电池、宁德时代麒麟电池）的车型"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "作者指出2025年底前购买新能源车可享受购置税全免，最高节省约3万元；而2026年起政策退坡改为减半征收，以30万元车辆为例，次年购车需多支出约1.5万元税款，因此晚一年买车成本可能明显上涨。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "2025年底前购车：购置税仍可全免！ - 目前购买新能源车，最高能省下约3万元... - 2026年起政策退坡：购置税减半征收。例如30万元的车，明年购车需多支出约1.5万元税款。👉 简单来说：晚一年买车，购车成本可能会明显上涨！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E2",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者称2026年7月起国家将强制实施更高标准的电池安全规范，这将导致车企制造成本预计上涨15%-20%，部分低价车型可能逐步退市，10万元以下市场或将面临洗牌，消费者在低价车上的选择可能减少。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "2026年7月起，国家将强制实施更高标准的电池安全规范... - 车企制造成本预计上涨15%-20%，部分低价车型可能逐步退市。 - 10万元以下市场或将面临洗牌，消费者在低价车上的选择可能减少。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者建议购车者在2025年重点关注已提前满足高标电池技术（如比亚迪刀片电池、宁德时代麒麟电池）的车型，认为这类车既能享受免税政策又能兼顾安全；同时建议留意“换电模式”车型，因其电池可单独计税，有机会进一步省钱。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "✅ 2025年可重点关注：已提前满足高标电池技术（如比亚迪刀片电池、宁德时代麒麟电池）的车型，既能享免税，又兼顾安全。 ✅ 可留意“换电模式”车型：电池可单独计税，有机会再省一笔。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者提醒购车时应主动询问电池安全检测报告，特别是“底部撞击测试”数据，以便做到心中有数。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "✅ 购车时主动询问电池安全检测报告，尤其是“底部撞击测试”数据，做到心中有数。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新能源汽车购置税政策调整",
+      "event_type": "政策法规与行业标准",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "2025年底前购车：购置税仍可全免！... 2026年起政策退坡：购置税减半征收。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "2025年底前购买新能源车可享购置税全免，2026年起政策退坡改为减半征收。"
+    },
+    {
+      "id": "E2",
+      "name": "电池安全新规实施",
+      "event_type": "政策法规与行业标准",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "2026年7月起，国家将强制实施更高标准的电池安全规范，要求通过多项严苛测试（如底部碰撞、高频快充后短路检验等）。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "国家计划于2026年7月强制实施更高标准的电池安全规范，要求通过底部碰撞、高频快充后短路检验等多项严苛测试。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "💡 买车决策窗口期已到，一起来看看政策与市场的双重变化！"
+      }
+    ],
+    "confidence": 0.6,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了2026年新能源车市的关键转折点，重点讨论了购置税政策退坡和电池安全新规实施带来的成本与安全影响。作者提供了针对“抄底旧款”与“等待新款”的决策建议，并列举了需谨慎选择的车型特征及2025年的购车策略。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

@@ -1,0 +1,376 @@
+{
+  "post_id": "0eec814218d4c5e1",
+  "state": "CONTRACT_PASS",
+  "cache_key": "d601a067744c3a600f48879a51f711c516fc6326e9dfcaee87cb89a4abc0b5f0",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "0eec814218d4c5e1",
+    "products": [
+      {
+        "id": "P1",
+        "name": "2024款小米SU7标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "2024款小米SU7标准版优缺点分享来啦"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车辆信息：2024款小米SU7标准版"
+          }
+        ],
+        "confidence": 0.99
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为该车外观颜值在线，轿跑低趴姿态、白色车漆及前脸设计辨识度高，在同价位电车中竞争力强。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "1. 外观颜值在线 轿跑低趴的车身姿态，白色原厂车漆干净利落，前脸封闭式设计简约有辨识度...对于看重外观的年轻用户来说，这个设计在同价位电车里很能打。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在日常通勤场景中观察到车辆外观。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "日常通勤停在学校车棚，回头率一直不错"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为车机生态联动便利，作为小米手机用户，澎湃OS实现了手机、手表与车机的无缝流转，导航同步方便，语音控制反应快，提升了驾驶安全性。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "2. 车机生态联动便利 本身就是小米手机用户，澎湃OS车机和手机、手表无缝流转，上班通勤导航直接从手机同步到车机，上车就能走，不用重新设置路线。语音控制反应快，开车时调空调、切歌动动嘴就行，提升了驾驶安全性。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在上班通勤过程中使用车机导航和语音控制。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "上班通勤导航直接从手机同步到车机"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者认为能耗表现实在，市区通勤综合电耗稳定在13-14kWh/100km，利用家充桩谷电充电成本低，每周充一次电即可满足日常需求，无续航焦虑。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "3. 能耗表现实在 市区通勤为主，综合电耗稳定在13-14kWh/100km，家里充电桩谷电充电，每公里成本不到一毛钱。日常通勤每天3"
+          },
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "公里左右，一周充一次电完全够用，没有续航焦虑，用车成本比之前的燃油车低很多。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者主要在市区进行日常通勤，每日行驶约3公里，使用家用充电桩谷电充电。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "市区通勤为主...家里充电桩谷电充电...日常通勤每天3"
+            },
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "公里左右，一周充一次电完全够用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为底盘质感越级，悬架调校扎实，滤震干脆，高速行驶车身稳，变道过弯侧倾控制好，驾驶有信心。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "4. 底盘质感越级 悬架调校偏扎实，过减速带、路面坑洼的时候滤震很干脆，没有多余的弹跳。高速行驶车身很稳，变道过弯侧倾控制得不错，开着很有信心。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在城市道路及高速公路驾驶，经过减速带和坑洼路面。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "过减速带、路面坑洼的时候...高速行驶车身很稳"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出溜背造型导致后排头部空间局促，身高180cm乘客乘坐会感到压抑，但因其日常多为单人或双人出行，影响不大；若常满载长途需慎重考虑。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "1. 后排头部空间局促 溜背造型牺牲了后排头部空间，身高180cm的乘客坐后排，头顶基本挨着车顶，长时间乘坐会压抑。不过我日常大多单人或双人出行，这个缺点影响不大；如果经常满载全家长途出行，需要慎重考虑。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者描述了身高180cm乘客在后排的体验，并对比了自己日常单人/双人出行的情况。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "身高180cm的乘客坐后排...我日常大多单人或双人出行"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为车内零碎储物空间偏少，门板和中控储物格尺寸小，不便存放水杯、钥匙等小物件，实用性打折。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "2. 车内零碎储物空间偏少 门板储物格尺寸不大，大容量水杯放不进去，中控区域的小储物格也不多，随身的钥匙、口罩、充电线这些小物件，收纳起来不太顺手，只能放在杯架里，实用性打了折扣。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为原厂座椅偏硬，连续高速驾驶2小时以上腰部支撑不足易腰酸，短途通勤无明显感觉，长途需加装腰靠。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "3. 原厂座椅偏硬 座椅填充物偏硬，连续开2小时以上的高速，腰部支撑不足，很容易腰酸。日常短程通勤感受不明显，跑长途的话，需要自己额外加装腰靠，提升乘坐舒适度。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者进行了连续2小时以上的高速驾驶，并与日常短程通勤进行对比。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "连续开2小时以上的高速...日常短程通勤感受不明显"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者总结该车缺点集中在空间和细节，对单人/双人代步用户影响有限，核心优点命中通勤需求，认为是同价位里有竞争力的选择。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "整体来看，这台车的缺点大多集中在空间和细节储物上，对于日常单人、双人代步的用户来说，影响非常有限；而外观、车机、能耗、底盘这些核心优点，刚好精准命中日常通勤的用车需求，是同价位里很有竞争力的选择。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "杭州富阳车主...2025年12月提车，2026年1月上牌。半年左右开下来"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "看重外观",
+        "重视车机生态联动",
+        "关注能耗成本",
+        "注重底盘质感"
+      ]
+    },
+    "post_summary": "一位杭州车主分享了2024款小米SU7标准版半年的用车体验。作者肯定了车辆的外观、车机互联、低能耗和底盘质感，但也指出了后排头部空间局促、储物空间少和座椅偏硬等缺点。总体而言，作者认为该车适合日常单人或双人通勤，在同价位中具有较强的竞争力。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C3/evidence/0:non_contiguous_quote",
+    "C3/usage_context/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10963,
+    "completion_tokens": 3562,
+    "total_tokens": 14525,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 15.542479800002184,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

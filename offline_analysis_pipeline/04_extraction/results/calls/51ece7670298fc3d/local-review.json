@@ -1,0 +1,174 @@
+{
+  "post_id": "51ece7670298fc3d",
+  "state": "FAILED",
+  "cache_key": "0561d50e0866f15da811d5d5b223ff3d1cba96d851ea67859cca5b924f7f2e74",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "51ece7670298fc3d",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7交付量闲谈！"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我觉得小米SU7的下个月的交付量应该在3000-5000辆左右。"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "I6",
+            "source_type": "image_summary",
+            "quote": "图片展示了一辆青绿色（类似海湾蓝/青色）的小米SU7 Max轿车正后方视角。"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "作者预测小米SU7下个月交付量在3000-5000辆左右，理由是首次造车、产量有限且需控制订单以避免顾客等待过久。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我觉得小米SU7的下个月的交付量应该在3000-5000辆左右。因为小米也是第1次造车...如果他们生产跟不上会出现让顾客等好长时间的情况，所以他们应该也会控制的。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7外观炫酷、功能实用且便宜，适合年轻人。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "用一辆这样的车子对于年轻人来说也是非常不错的外观炫酷，功能实用而且又听。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "作者认为小米SU7可能无法进入新能源车销量前三，原因是热度过去、同价位竞品多且许多年轻消费者仅是口头关注而未真正购买。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我觉得这款车可能到不了新能源车前三里面，因为好多人其实对这一款车子并不感兴趣...你让他真的去选择的话，他也不一定会选择这款车，因为同价位可选性太多了！"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者对小米SU7的市场表现进行闲聊式分析，预测其下月交付量为3000-5000辆，认为该车主要面向年轻群体，虽外观和功能有吸引力，但因竞争激烈的市场环境，可能难以跻身新能源车销量前三。",
+    "post_topic": "行业政策与市场",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11549,
+    "completion_tokens": 1380,
+    "total_tokens": 12929,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.520141699991655,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

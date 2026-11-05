@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.3",
+  "post_id": "01586615d6ccc683",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为当前的定价合理，并推测可能会重现十多年前排队抢车的情形。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "定价合理，恐怕会重演10多年前排队抢车的情形"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者认为某款车型的定价合理，并预测这种定价策略可能导致类似十年前排队抢购的现象。配图展示了疑似小米SU7的实车照片。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

@@ -1,0 +1,266 @@
+{
+ "question": "车主和潜在用户的负面关注点有什么差异？分别给1条有代表性的原话。",
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 60.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 63.1,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 96.3,
+   "status": "failed",
+   "phase": "失败"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"先用「用户所处阶段×议题」矩阵比较当前拥有（车主）与明确未拥有（潜在用户）的负面观点占比与条数，再看两组整体负面强度，最后对四个高相关议题做两组对照并各取一条带 claim_id 的代表性原话。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"按用户所处阶段×议题比较负面观点占比与观点条数，找出车主与潜在用户各自负面最集中的议题\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\",\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":40}},{\"id\":\"w2\",\"question\":\"车主与潜在用户两组整体负面观点占比与观点规模对比\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}},{\"id\":\"w3\",\"question\":\"价格与成本议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"价格与成本\"},\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}},{\"id\":\"w4\",\"question\":\"续航与能耗议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"续航与能耗\"},\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}},{\"id\":\"w5\",\"question\":\"服务与交付议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"服务与交付\"},\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}},{\"id\":\"w6\",\"question\":\"可靠性与故障议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"可靠性与故障\"},\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}}]}",
+    "plan": {
+     "coverage": "先用「用户所处阶段×议题」矩阵比较当前拥有（车主）与明确未拥有（潜在用户）的负面观点占比与条数，再看两组整体负面强度，最后对四个高相关议题做两组对照并各取一条带 claim_id 的代表性原话。",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "按用户所处阶段×议题比较负面观点占比与观点条数，找出车主与潜在用户各自负面最集中的议题",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "ownership",
+         "aspect"
+        ],
+        "order": [
+         {
+          "field": "negativeShare",
+          "dir": "desc"
+         }
+        ],
+        "limit": 40
+       }
+      },
+      {
+       "id": "w2",
+       "question": "车主与潜在用户两组整体负面观点占比与观点规模对比",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "ownership"
+        ],
+        "order": [
+         {
+          "field": "claims",
+          "dir": "desc"
+         }
+        ],
+        "limit": 10
+       }
+      },
+      {
+       "id": "w3",
+       "question": "价格与成本议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "ownership"
+        ],
+        "filters": {
+         "aspect": "价格与成本"
+        },
+        "order": [
+         {
+          "field": "claims",
+          "dir": "desc"
+         }
+        ],
+        "limit": 10
+       }
+      },
+      {
+       "id": "w4",
+       "question": "续航与能耗议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "ownership"
+        ],
+        "filters": {
+         "aspect": "续航与能耗"
+        },
+        "order": [
+         {
+          "field": "claims",
+          "dir": "desc"
+         }
+        ],
+        "limit": 10
+       }
+      },
+      {
+       "id": "w5",
+       "question": "服务与交付议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "ownership"
+        ],
+        "filters": {
+         "aspect": "服务与交付"
+        },
+        "order": [
+         {
+          "field": "claims",
+          "dir": "desc"
+         }
+        ],
+        "limit": 10
+       }
+      },
+      {
+       "id": "w6",
+       "question": "可靠性与故障议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "ownership"
+        ],
+        "filters": {
+         "aspect": "可靠性与故障"
+        },
+        "order": [
+         {
+          "field": "claims",
+          "dir": "desc"
+         }
+        ],
+        "limit": 10
+       }
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"先用「用户所处阶段×议题」矩阵比较当前拥有（车主）与明确未拥有（潜在用户）的负面观点占比与条数，再看两组整体负面强度，最后对四个高相关议题做两组对照并各取一条带 claim_id 的代表性原话。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"按用户所处阶段×议题比较负面观点占比与观点条数，找出车主与潜在用户各自负面最集中的议题\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\",\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":40}},{\"id\":\"w2\",\"question\":\"车主与潜在用户两组整体负面观点占比与观点规模对比\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}},{\"id\":\"w3\",\"question\":\"价格与成本议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"价格与成本\"},\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}},{\"id\":\"w4\",\"question\":\"续航与能耗议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"续航与能耗\"},\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}},{\"id\":\"w5\",\"question\":\"服务与交付议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"服务与交付\"},\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}},{\"id\":\"w6\",\"question\":\"可靠性与故障议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"可靠性与故障\"},\"order\":[{\"field\":\"claims\",\"dir\":\"desc\"}],\"limit\":10}}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "按用户所处阶段×议题比较负面观点占比与观点条数，找出车主与潜在用户各自负面最集中的议题",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "车主与潜在用户两组整体负面观点占比与观点规模对比",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "价格与成本议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 4,
+     "id": "w4",
+     "question": "续航与能耗议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 5,
+     "id": "w5",
+     "question": "服务与交付议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 6,
+     "id": "w6",
+     "question": "可靠性与故障议题的负面观点占比在车主与潜在用户间的差异，并取代表性原话",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    }
+   ]
+  },
+  "plan_json": null,
+  "history_len": 1
+ },
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "5493975ba9cc4683bea1a38db0bc6357",
+ "outlines": [
+  {
+   "t": 60.1,
+   "plan_json": null,
+   "history_len": 1
+  }
+ ],
+ "outline_http": 202,
+ "final_status": "failed",
+ "result": null,
+ "error": {
+  "error": "RuntimeError: Connection error.；最近工具调用：[]"
+ },
+ "wall_s": 96.3
+}

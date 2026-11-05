@@ -1,0 +1,398 @@
+{
+  "post_id": "5a61d4bb7465745a",
+  "state": "CONTRACT_PASS",
+  "cache_key": "109f2584dd9d277350ea59f5278eb4aa6007bf5bca6ffbff5a1a7100c1d60aa7",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "5a61d4bb7465745a",
+    "products": [
+      {
+        "id": "P1",
+        "name": "问界M9",
+        "entity_level": "具体配置",
+        "brand": "问界",
+        "series": "M9",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "我们体验的是旗舰车型问界M9"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "理想L6",
+        "entity_level": "具体配置",
+        "brand": "理想",
+        "series": "L6",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "理想L6表现的平平无奇的稳妥"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小米SU7",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "要给SU7上点强度"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "特斯拉Model 3",
+        "entity_level": "具体配置",
+        "brand": "特斯拉",
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I9",
+            "source_type": "image_summary",
+            "quote": "图片展示了一辆黑色的特斯拉轿车（Model 3）停在户外柏油路面上"
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "P5",
+        "name": "极氪007",
+        "entity_level": "具体配置",
+        "brand": "极氪",
+        "series": "007",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I10",
+            "source_type": "image_summary",
+            "quote": "图片展示了一辆黑色的极氪（ZEEKR）品牌轿车停在城市道路路口处"
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "id": "P6",
+        "name": "智己L6",
+        "entity_level": "具体配置",
+        "brand": "智己",
+        "series": "L6",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I29",
+            "source_type": "image_summary",
+            "quote": "右侧是一辆金色的智己 L6（车尾标识可见“L6”）"
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "P7",
+        "name": "蔚来ET5",
+        "entity_level": "具体配置",
+        "brand": "蔚来",
+        "series": "ET5",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I20",
+            "source_type": "image_summary",
+            "quote": "方向盘中央带有圆形Logo（疑似蔚来NIO标志）"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "id": "P8",
+        "name": "小鹏P7i",
+        "entity_level": "具体配置",
+        "brand": "小鹏",
+        "series": "P7i",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I12",
+            "source_type": "image_summary",
+            "quote": "图片展示了一辆银灰色的轿车停在户外柏油路面上"
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "id": "P9",
+        "name": "腾势N7",
+        "entity_level": "具体配置",
+        "brand": "腾势",
+        "series": "N7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I11",
+            "source_type": "image_summary",
+            "quote": "图片展示了一辆浅蓝色（类似淡青色）的新能源轿跑SUV停在户外柏油路面上"
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "id": "P10",
+        "name": "理想MEGA",
+        "entity_level": "具体配置",
+        "brand": "理想",
+        "series": "MEGA",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I17",
+            "source_type": "image_summary",
+            "quote": "画面中心是一辆正在前方行驶的银灰色MPV（多用途汽车）"
+          }
+        ],
+        "confidence": 0.6
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为问界M9的ACC自适应巡航功能非常好用，能在白天和隧道环境下保持车道居中和车距，加减速不突兀。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "ACC自适应巡航功能其实老曼我觉得还是非常好用的...我们体验的是旗舰车型问界M9，无论是正常白天还是隧道环境下，都能保持车道居中，并且前后车距控制的非常妥当，提速和减速也没有特别的突兀。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "在白天和隧道环境下体验ACC自适应巡航。",
+          "evidence": [
+            {
+              "block_id": "T5",
+              "source_type": "text",
+              "quote": "无论是正常白天还是隧道环境下"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为理想L6的自动泊车表现平稳稳妥，没有意外发生，但也因此显得缺乏乐趣。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "理想L6表现的平平无奇的稳妥，毫无意外发生...毫无乐趣，因为太好开了。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者指出在雨天动态AEB测试中，大多数车辆成功刹停，但少部分车辆未能成功，提醒用户智驾仍是辅助功能，需人工把控安全。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "面对雨天的动态AEB，难度比较大，有的车成功了，有的车失败了。绝大多数成功了，少部分没成功。 所以告诉大家的是，各种智驾辅助，目前为止，给到大家的还是辅助功能，开车一定要提高警惕把安全行驶，掌握在自己手里。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "雨天动态AEB测试环境。",
+          "evidence": [
+            {
+              "block_id": "T7",
+              "source_type": "text",
+              "quote": "面对雨天的动态AEB"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为小米SU7的连续语音对话功能好用，能顺畅执行开窗、调温、导航等多项指令，体现了国产品牌在智能座舱方面的优势。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "智能座舱这玩意我觉得还是国产品牌比较卷...作为资深米粉我还是觉得要给SU7上点强度...是不是都挺顺利的。以前我们说实体按键安全，现在，这个语音控制功能也还挺好用的。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "行业与政策观点",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为近两年智驾发展速度快，国产品牌在自适应巡航、智能座舱、自动泊车和AEB等环节表现良好，科技发展给驾驶带来了便利。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "其实这两年智驾的发展的速度还是非常快的，包括今天现场也有很多车型是我们国产品牌的车型，在整个环节中体验下来，都非常好...我们可以看到科技的发展给大家驾驶带来的便利。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "汽车之家超级体验智能实测季活动",
+        "event_type": "展会与行业活动",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5",
+          "P6",
+          "P7",
+          "P8",
+          "P9",
+          "P10"
+        ],
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "这里是汽车之家超级体验实测智能季的活动现场 今天我们是在苏州的阳澄半岛智能网联测试基地。来这参加一场不用手开的试驾活动。"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "作者在苏州阳澄半岛智能网联测试基地参加了汽车之家举办的“超级体验智能实测季”活动，体验了多款新能源车型的智驾功能。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者记录了参加汽车之家在苏州举办的“超级体验智能实测季”活动的经历。文中详细描述了体验问界M9的ACC、理想L6的自动泊车、多款车的雨天AEB以及小米SU7的智能座舱语音交互的过程，并对各车型的表现进行了点评，最后总结了国产品牌在智驾领域的进步。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "C1/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 15476,
+    "completion_tokens": 3378,
+    "total_tokens": 18854,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 13248
+    }
+  },
+  "elapsed_s": 15.002015000005485,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

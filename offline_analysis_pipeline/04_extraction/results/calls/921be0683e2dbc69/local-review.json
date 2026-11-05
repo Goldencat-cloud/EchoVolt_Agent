@@ -1,0 +1,219 @@
+{
+  "post_id": "921be0683e2dbc69",
+  "state": "FAILED",
+  "cache_key": "e22b52c6e7d153a9f78c5854cc4058430db9686aed532d5b2a9b8226bbadfad4",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "921be0683e2dbc69",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "I1",
+            "source_type": "image_summary",
+            "quote": "一辆名为“路怒的小龘米”的车辆"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者认为小区慢充桩不方便，因为基本上一晚上充不满，因此选择在晚上谷电时段寻找快充桩充电。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "在我们小区里边有慢充的充电桩，但是不太方便，因为基本上一晚上充不满，所以我还是在晚上谷电的时候去寻找快充充电桩"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者在小区使用慢充桩，并在晚上谷电时段寻找快充桩。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "在我们小区里边有慢充的充电桩...所以我还是在晚上谷电的时候去寻找快充充电桩"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者表示使用快充充满526公里续航仅需50分钟，且利用优惠券可省钱，认为非常方便。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "充满526公里，用快充的情况下仅需要50分钟，而且还有很多优惠券，也可以省很多钱而且充满一次电，续航基本稳定在500公里左右，非常的方便"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者使用快充桩进行充电。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "用快充的情况下仅需要50分钟"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者表示车辆电耗维持在14kWh/100km左右，一次满电可维持七天左右，总体非常省电。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "电耗大约就维持在14kwh/100km 总体来说非常的省，一次满电真的可以维持七天左右"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者日常使用车辆，关注电耗和续航维持天数。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "电耗大约就维持在14kwh/100km 总体来说非常的省，一次满电真的可以维持七天左右"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "事实与信息传播",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者转述官方人员的说法，称一个月内最少要用满电一次以校准电池。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "听官方人员说，一个月内最少要用满电，充满一次可以校准电池。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在我小区里边有慢充的充电桩...我现在还剩下300多公里"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "已陪伴49天，总里程3047公里"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "车主分享日常充电与用车体验，指出小区慢充不便故常使用夜间谷电快充，称赞快充速度快、有优惠且续航稳定在500公里左右，电耗约14kWh/100km，认为非常经济实用。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10486,
+    "completion_tokens": 1778,
+    "total_tokens": 12264,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 7.8019076000055065,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

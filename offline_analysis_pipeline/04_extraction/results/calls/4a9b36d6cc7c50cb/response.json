@@ -1,0 +1,319 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4a9b36d6cc7c50cb",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这台小米SU7 Pro（官方CLTC续航902公里）"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "岚图",
+      "entity_level": "品牌",
+      "brand": "岚图",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一是岚图汽车正式登陆港股"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "英伟达联手比亚迪、吉利等头部车企"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "吉利",
+      "entity_level": "品牌",
+      "brand": "吉利",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "英伟达联手比亚迪、吉利等头部车企"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "上汽大众ID.ERA9X",
+      "entity_level": "具体配置",
+      "brand": "上汽大众",
+      "series": "ID.",
+      "model_year": null,
+      "version": "ERA9X",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上汽大众ID.ERA9X全球首发"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "大众与小鹏联合开发车型",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "大众与小鹏联合开发的车型正式量产"
+        }
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者转述称，小米SU7 Pro在北京至上海约1173公里的高速实测中，全程仅充电1次，实际续航表现接近官方CLTC标定的902公里，且在高速工况下表现超出预期。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这台小米SU7 Pro（官方CLTC续航902公里），全程仅充电1次...实际续航表现几乎逼近官方标定，甚至在高速工况下实现了“超预期发挥”"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "北京至上海全程约1173公里，全程高速行驶，车速稳定在110-120km/h。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "测试路线全程约1173公里，全程高速行驶，车速稳定在110-120km/h"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者指出雷军在小米SU7长途实测后连续转发相关消息并表示认可，认为此举打破了此前关于小米车型续航的争议，给关注者吃了定心丸。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当晚，雷军就连续转发相关消息，直言“确实达成了，辛苦测试工程师”，直接为这次实测站台...此次实测也算彻底打破质疑，给关注这款车的车友们吃了一颗定心丸"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E2",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为六部门联合开展汽车行业网络乱象专项整治行动有助于减少虚假测评和误导性信息，让消费者能更精准地获取真实车型信息。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这对咱们车友来说绝对是好事，以后看测评、看资讯，能少踩很多坑，也能更精准地获取真实的车型信息，不用再被虚假内容误导"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E3",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为岚图上市、英伟达与车企合作研发L4自动驾驶、上汽大众新车首发及大众小鹏车型量产等动作，体现了新能源汽车技术迭代加快和市场竞争力增强，有利于消费者获得更优质、高性价比的车型。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这些动作都在告诉我们：新能源汽车的技术迭代越来越快，市场竞争也越来越卷，对咱们消费者来说，无疑是能买到更优质、更具性价比的车型"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7北京至上海长途续航实测",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "就在几天前，一场北京到上海的实测刷屏全网，测试路线全程约1173公里"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米SU7 Pro进行了一场北京至上海约1173公里的长途高速续航实测，结果显示其续航表现接近官方标定，雷军对此进行了公开回应。"
+    },
+    {
+      "id": "E2",
+      "name": "六部门联合开展汽车行业网络乱象专项整治",
+      "event_type": "政策法规与行业标准",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "六部门联合开展汽车行业网络乱象专项整治行动"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "六个部门联合发起针对汽车行业网络乱象的专项整治行动，重点打击非法牟利、虚假宣传和恶意诋毁等行为，并已曝光一批违规账号。"
+    },
+    {
+      "id": "E3",
+      "name": "多家车企近期重大动态汇总",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一是岚图汽车正式登陆港股...二是英伟达联手比亚迪、吉利等头部车企...上汽大众ID.ERA9X全球首发、大众与小鹏联合开发的车型正式量产"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "近期多家车企发生重大动态，包括岚图汽车登陆港股、英伟达与比亚迪吉利等合作研发L4自动驾驶、上汽大众ID.ERA9X全球首发以及大众与小鹏联合开发车型量产。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子解读了近期汽车圈的三大热点：小米SU7 Pro的长途续航实测及其引发的舆论反响、六部门联合整治汽车行业网络乱象的政策动向，以及岚图上市、英伟达与车企合作等多重重磅企业动态。作者对这些事件持积极态度，认为它们反映了技术进步和行业规范化进程。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

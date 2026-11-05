@@ -1,0 +1,263 @@
+{
+  "post_id": "03d2a59efe8d9456",
+  "state": "CONTRACT_PASS",
+  "cache_key": "c4575513457b2874b2e3e641a256e317352ffbc52730572ff602ab7e2ae6d050",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "03d2a59efe8d9456",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "我的小米su7电耗领先了江西99%的人"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我认为小米苏七有一个非常大的优点"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者认为小米SU7在特定驾驶条件下（开窗、不开空调、温和驾驶）的实际电耗低于官方宣传的综合电耗，并将其视为该车的显著优点。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我认为小米苏七有一个非常大的优点，就是他宣传的综合店号是满载和加空调的情况下使用的，而我平时开车习惯开着窗户或者不是特别热的情况下开车这样子加上我不太喜欢猛踩油门刹车，这样子我的电耗就会远低于小米官方的电耗"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者平时开车习惯开窗或在不太热时开车，且不喜欢猛踩油门刹车。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "我平时开车习惯开着窗户或者不是特别热的情况下开车这样子加上我不太喜欢猛踩油门刹车"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者在一次往返单位的行程中，实际行驶93公里，消耗续航约70公里，平均电耗为9.5kWh/100km，当时开启了26度空调。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "我开了93公里实际的消耗续航都没有超过70公里平均电耗在9.5这还是我开了26度空调的情况下"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "作者往返单位途中，行驶93公里，开启26度空调。",
+          "evidence": [
+            {
+              "block_id": "T2",
+              "source_type": "text",
+              "quote": "我的单位在离我家100公里以外的地方...我开了93公里...这还是我开了26度空调的情况下"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者最近30天的平均电耗约为10kWh/100km，由于高频通勤（每周约500公里），提车不久即突破4000公里，并在能耗排名上超越99%的江西车主。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "这是我最近30天使用的电耗水平达到了10个店附近...所以我刚提车不久就已经很轻松的突破了4000公里超越了99%的江西车主"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者每周往返单位两次左右，周行驶里程接近500公里。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "因为一周往返单位两次左右，这样子就使得我每周的行驶里程达到接近500公里"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出小米SU7的全景天幕在夏天会导致车内过热，气温可达47度左右，且遮阳帘缓解效果有限，因此建议寻找地库停车。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "我认为夏天这个全景天幕还是有一点点热的，车内气温可以达到47度左右。而且我感觉这个东西上的遮阳帘也不会有太多的缓解，只能找地库停车。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "夏季露天停放或使用期间。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "我认为夏天这个全景天幕还是有一点点热的"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米SU7适合非常看重颜值、家庭经济条件较好的人群购买，并建议在用车过程中尽量让车停在阴凉处。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "所以我认为小米su7适合那种非常看重颜值，家里又有一定的底蕴，自身有一定的经济条件的人购买，并且最好在使用车的途中，尽量让车在阴凉地方停车"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "我刚提车不久就已经很轻松的突破了4000公里"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "我都会驻足欣赏我的小蓝"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "看重颜值",
+        "温和驾驶习惯（不喜欢猛踩油门刹车）"
+      ]
+    },
+    "post_summary": "车主分享小米SU7的低电耗体验，指出在温和驾驶和非满载空调条件下，实际电耗低于官方数据，近期30天平均电耗约10kWh/100km，超越99%江西车主。同时指出了夏季全景天幕导致车内高温的缺点，并给出了针对注重颜值和经济条件较好人群的购买建议。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "C3/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10911,
+    "completion_tokens": 2328,
+    "total_tokens": 13239,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 10.213604900010978,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

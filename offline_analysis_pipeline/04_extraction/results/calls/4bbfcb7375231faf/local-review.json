@@ -1,0 +1,127 @@
+{
+  "post_id": "4bbfcb7375231faf",
+  "state": "CONTRACT_PASS",
+  "cache_key": "6bed895ab940acbe810a2693de644f81eb072c853d3bca312623fc1fe612453c",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "4bbfcb7375231faf",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我的车是2026.4.18在烟台莱山车展定的小米su7标准版"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者在烟台莱山车展订购小米SU7标准版，裸车价23.95万元，选配靛石绿车漆7000元、20英寸轮毂6000元及科技包，保险约6600元，购置税1万多。作者利用1.5万元置换补贴抵扣了部分购置税和保险费用，并凭借上市公司员工身份获得一年无忧包和价值3799元的车衣权益。此外，作者自费加装了5000元的保镖爱国者车衣和15800元的龙膜畅悦主副驾窗膜。最终落地总价约为27万多元，作者认为整体价格非常划算。",
+        "sentiment": "正面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "裸车是23.95w保险6600左右选配了一个靛石绿颜色7000还加了20英寸轮毂6000选了科技包购置税1w多但是我有置换补贴1.5w相当于把购置税和保险相抵扣了吧，小米汽车没法砍价，但是我是上市公司，所以我领取了一年无忧包和价值3799的车衣，总体来说还是很划算的，但是我还是自己贴了车衣，贴的保镖爱国者5000加主副驾窗膜龙膜畅悦15 800块钱，所以总车下来270000多点吧。简直是非常划算"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者将购车贷款资金放入基金进行投资，认为这种方式使得购车利息成本极低甚至无需支付利息，是一种合适的理财方式。",
+        "sentiment": "正面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "而且我贷款放在基金里面，相当于服装也不赔非常合适。"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的车是2026.4.18在烟台莱山车展定的小米su7标准版，提车是在烟台机场路交付中心提的"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "车主分享其在烟台购买小米SU7标准版的详细购车账单，包括裸车价、选配费用、保险、购置税及置换补贴抵扣情况，并介绍了自费加装车衣和窗膜的支出。作者认为利用置换补贴和特定身份权益使落地价非常划算，并将贷款资金投入基金以实现低成本融资。",
+    "post_topic": "价格成本与交易",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C5/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10642,
+    "completion_tokens": 1200,
+    "total_tokens": 11842,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 5.981991699998616,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

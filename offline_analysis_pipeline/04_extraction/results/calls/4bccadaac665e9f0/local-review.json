@@ -1,0 +1,548 @@
+{
+  "post_id": "4bccadaac665e9f0",
+  "state": "CONTRACT_PASS",
+  "cache_key": "800be922a0739ca3b209f7ed2e915666603045248e56fef20562e3966d7194a2",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "4bccadaac665e9f0",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "售21.59-29.99万元 小米SU7正式上市"
+          }
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "P2",
+        "name": "特斯拉Model 3",
+        "entity_level": "具体配置",
+        "brand": "特斯拉",
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "『特斯拉Model 3；极氪001；极氪007；智界S7』"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "极氪001",
+        "entity_level": "具体配置",
+        "brand": "极氪",
+        "series": "001",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "『特斯拉Model 3；极氪001；极氪007；智界S7』"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P4",
+        "name": "极氪007",
+        "entity_level": "具体配置",
+        "brand": "极氪",
+        "series": "007",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "『特斯拉Model 3；极氪001；极氪007；智界S7』"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "智界S7",
+        "entity_level": "具体配置",
+        "brand": "智界",
+        "series": "S7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "『特斯拉Model 3；极氪001；极氪007；智界S7』"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "价格与成本",
+        "content": "小米SU7于3月28日正式上市，推出3款车型，售价区间为21.59-29.99万元。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "3月28日，小米汽车旗下中大型车——小米SU7正式上市，新车共计推出3款车型，售价21.59-29.99万元。"
+          }
+        ],
+        "confidence": 0.98,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "文章评价小米SU7外观设计运动化，前脸采用圆角多边形大灯和米字型灯腔，侧面线条流畅似轿跑，尾部采用贯穿式尾灯和电动扰流板，提供9种颜色选择。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "外观设计一定要让人能够印象深刻，我们可以看到小米SU7前脸采用了十分运动化的设计，大灯采用圆角多边形造型，内部采用类似米字型的灯腔结构，提升辨识度。"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "来到车身侧面，小米SU7拥有非常流畅的车身线条，呈现出类似轿跑车的感觉，溜背式尾部设计以及外扩的轮眉设计很容易让人想到某德系跑车品牌的元素。"
+          },
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "车辆尾部方面，新车采用了当下流行的贯穿式尾灯设计，上方是xiaomi标识提升辨识度。上翘的小鸭尾设计十分优美，另外它还会配备电动扰流板功能。新车将会拥有9款颜色，色彩丰富"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "文章介绍小米SU7内饰配备三幅方向盘、7.1英寸翻转式仪表屏、16.1英寸3K中控屏及56英寸HUD，保留物理按键，并提供多种内饰配色、氛围灯、Nappa真皮座椅及5.35平方米玻璃车顶。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "来看新车的内饰，其配备三幅方向盘，驾驶模式切换按钮周围有红色装饰，凸显运动感。屏幕方面，新车采用7.1英寸翻转式仪表屏和16.1英寸中控屏，分辨率为3K，并搭载56英寸HUD，最高亮度13000nit。此外，SU7也保留了大部分物理按键，常用功能操作更方便。"
+          },
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "小米SU7的内饰将有银河灰、曜石黑、迷雾紫和暮光红4种配色可选。此外还将配备氛围灯、运动风格Nappa真皮座椅、5.35平方米玻璃车顶、15扬声器音响系统等。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "文章指出小米SU7搭载骁龙8295芯片和小米澎湃OS，支持五屏联动、手机车机无感连接、应用镜像及车家互联功能，如远程控家和地理围栏自动化。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "在车内智能化方面，小米SU7搭载骁龙8295芯片，小米澎湃OS底层支持，桌面应用卡片布局，窗口大小自由可调。小爱同学，语音深度控车，模糊指令也能识别，五音区语音交互，能控的不只是车，还有你的小米手机，更有AI大模型赋能。上车后手机、车机无感自动连接，手机应用一键镜像车机显示。车家互联，在家备车：一句话打开车内空调、座椅加热；车内控家：随时调用家中摄像头，一键门铃对讲；全自动化：设置地理围栏，进小区自动激活回家模式。"
+          },
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "小米SU7支持五屏联动，应用生态涵盖主流车载应用、平板应用和手机应用，支持CarPlay和airplay，并且支持苹果iPad上车。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "动力与性能",
+        "content": "文章列出小米SU7动力参数：双电机版最大功率673马力，峰值扭矩838牛·米，0-100km/h加速2.78秒，CLTC续航810km；单电机版最大功率299马力，0-100km/h加速5.28秒，CLTC续航700km。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T11",
+            "source_type": "text",
+            "quote": "动力部分，小米SU7双电机版车型最大功率为673马力，峰值扭矩838牛·米，0-100km/h加速时间2.78秒，配备容量为101kWh的宁德时代三元锂电池，CLTC续航里程为810km。...单电机版车型最大功率299马力，0-100km/h加速时间5.28秒，配备容量为73.6kWh的弗迪磷酸铁锂电池，CLTC续航里程为700km。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "文章介绍小米SU7底盘采用前双叉臂后五连杆独立悬架，配备CDC减振器和空气弹簧，采用全栈自研底盘控制算法，支持自定义驾驶模式和漂移，制动系统提供布雷博四活塞卡钳，100-0km/h刹车距离最小33.3米。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T12",
+            "source_type": "text",
+            "quote": "底盘部分，该车采用前双叉臂后五连杆独立悬架，CDC减振器+空气弹簧。新车采用全栈自研底盘控制算法，并可以自定义驾驶模式，可以实现漂移。制动系统部分，这款车提供布雷博四活塞卡钳，匹配博世DPB+博世ESP 10.0，其100-0km/h刹车距离最小为33.3米。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "文章说明小米SU7采用800V高压平台（871V），Max版15分钟补能510km，标准版15分钟补能350km。提供7kW和11kW家用充电桩，以及600kW液冷超充方案，宣称兼容99%以上第三方充电桩。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T13",
+            "source_type": "text",
+            "quote": "充电方面，小米SU7采用800V高压平台（871V），小米家用220V充电桩7千瓦售价3999元，380V充电桩11千瓦售价5999元。...对于第三方充电桩，小米可以兼容99%以上的充电桩，累计测试超2000款不同型号的充电桩，测试了148家充电品牌。小米超级充电站采用600千瓦液冷超充方案，首批规划城市包括北京、上海、杭州等。Max版871V高压平台，15分钟补能510km；标准版486V高压平台，15分钟补能350km。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "文章指出小米SU7采用全栈自研智能驾驶技术，提供纯视觉和激光雷达两种方案，Max版配备激光雷达和2个Orin芯片（508TOPS算力）。全系支持高速NOA，城市NOA计划5月开通10城，8月全国开通。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T14",
+            "source_type": "text",
+            "quote": "小米采用全栈自研智能驾驶技术，新车拥有纯视觉方案和激光雷达两种方案。MAX版本配备1颗激光雷达，2个英伟达DRIVE Orin芯片，算力508TOPS。小米智能驾驶技术测试实车路测1000万公里，全系支持高速NOA，全国都能用。城市NOA将在5月开通10城，8月全国开通。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E2",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "文章报道3月19日小米汽车工厂揭幕，雷军宣布董事会首次在工厂召开，同日公布小米2023年财报，总收入2710亿元，经调整净利润193亿元，同比增长126.3%。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T16",
+            "source_type": "text",
+            "quote": "3月19日，小米汽车工厂正式揭幕，雷军宣布小米集团董事会第一次在汽车工厂召开，董事们参观了工厂，并试驾了小米SU7。当天小米集团的2023财报也正式公布，小米集团2023年总收入2710亿元，经调整净利润193亿元，同比增长126.3%。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "文章认为在20-30万纯电轿车市场，特斯拉Model 3综合实力全面且销量好，极氪001/007性价比高，智界S7有鸿蒙系统加持。小米SU7作为首款产品汇集了最新技术，但面临强劲竞争对手的挑战。",
+        "sentiment": "正负混合",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "在20-30万左右的纯电轿车市场，目前最能打的就是特斯拉Model 3，销量表现让对手们相当眼红，但它的综合实力确实足够全面...还有价格喜人的极氪001以及极氪007，凭借超高性价比...当然，还有鸿蒙HarmonyOS系统加持的智界S7等车型。...当然，由于竞品这几款车型实力都不可小觑，所以摆在小米SU7面前的挑战并不轻。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "品牌与口碑",
+              "relation": "存在差异但方向不明",
+              "evidence": [
+                {
+                  "block_id": "T18",
+                  "source_type": "text",
+                  "quote": "目前最能打的就是特斯拉Model 3，销量表现让对手们相当眼红，但它的综合实力确实足够全面"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C11",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "政策与市场",
+        "content": "文章观点认为中大型轿车市场升温，小米SU7提供了更前卫、实惠且智能的选择，有望收获用户青睐，但也面临来自极氪、智界等品牌的竞争压力，总体评价其为综合表现优秀的车型。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T19",
+            "source_type": "text",
+            "quote": "最近两年，中大型轿车市场似乎在逐渐升温...随着小米SU7的上市，其将为用户们提供了一款更前卫、更实惠的选择...所以说小米SU7需要面对的一股不小的竞争压力。总的来说，这款车是一台综合表现优秀的车型，我们有理由期待新车取得更好的成绩。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7正式上市",
+        "event_type": "产品发布与上市",
+        "event_time": "2024-03-28",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "3月28日，小米汽车旗下中大型车——小米SU7正式上市"
+          }
+        ],
+        "confidence": 0.98,
+        "summary": "小米汽车旗下中大型车小米SU7于3月28日正式上市，推出3款车型，售价21.59-29.99万元。"
+      },
+      {
+        "id": "E2",
+        "name": "小米汽车工厂揭幕及2023财报发布",
+        "event_type": "企业与品牌动态",
+        "event_time": "2024-03-19",
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T16",
+            "source_type": "text",
+            "quote": "3月19日，小米汽车工厂正式揭幕...当天小米集团的2023财报也正式公布"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "3月19日小米汽车工厂揭幕，雷军宣布董事会首次在该厂召开，同日公布小米集团2023年财报，总收入2710亿元。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "本文详细介绍了小米SU7的正式上市信息，包括售价、外观内饰设计、智能座舱、动力底盘、充电技术及智能驾驶配置。文章同时回顾了小米汽车工厂揭幕及2023年财报情况，并将小米SU7与特斯拉Model 3、极氪001/007、智界S7等竞品进行了市场定位和竞争力分析，认为其是一款综合表现优秀但面临激烈竞争的车型。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C4/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 23206,
+    "completion_tokens": 5998,
+    "total_tokens": 29204,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 20608
+    }
+  },
+  "elapsed_s": 25.508697299999767,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

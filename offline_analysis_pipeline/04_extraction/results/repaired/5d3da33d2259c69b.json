@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5d3da33d2259c69b",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有关小米SU7的各种话题接连不断"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "帖子发起了一项名为“#雷总我还有话说！”的有奖征集活动，邀请用户针对小米SU7上市前后的定价、销量等话题发表观点，前80位符合条件的参与者有机会获得20元现金红包。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "对于上市前的定价，以及上市后的销量等等，你还有哪些建议想对雷总说？参与本次话题，即有机会赢得现金红包哦！"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "前80位参与活动者，将有机会获得20元现金红包（到手）"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "汽车之家小米SU7论坛“#雷总我还有话说！”有奖征集活动",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2024-03-23",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "活动时间 ： 3月23日-4月14日"
+        },
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "#雷总我还有话说！#有奖征集活动"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "汽车之家在小米SU7论坛发起为期约三周的有奖征集活动，鼓励用户讨论小米SU7的定价与销量等话题，前80名合规参与者可获得20元红包。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "这是一篇关于汽车之家小米SU7论坛“#雷总我还有话说！”有奖征集活动的获奖公示帖。帖子介绍了活动旨在收集用户对小米SU7定价及销量的看法，详细说明了参与规则、奖励机制（前80名获20元红包）及评选标准，并附上了获奖名单截图和操作指南。",
+  "post_topic": "社群互动与生活分享",
+  "analysis_value": "低"
+}

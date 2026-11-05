@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.3",
+  "post_id": "05405060ecea1d7c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米YU7-新车提车验车攻略"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今日主角： 小米YU7"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者（自称张师傅）对该小米YU7进行了检测，结论是全车原版原漆，仅局部有轻微划痕，排除了展车、库存车、运损车嫌疑，认为是一台可以购买的精品好车。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "【张师傅结论】 经过近1小时的“显微镜”式检测，全车原版原漆，仅局部微瑕（轻微划痕），排除展车、库存车、运损车嫌疑！ 这是一台可以闭眼入的精品好车！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者检测发现该车电器功能正常，包括空调、雨刮、360环视、座椅调节、后视镜、多媒体、灯光等，形容为“全车功能满血”。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4️⃣ 电器功能： 空调、雨刮、360环视、座椅调节、后视镜，多媒体，灯光，影响 —— 全车功能满血！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者检测发现该车底盘核心部件（悬架、动力电池包）无刮蹭、无托底、无拆卸痕迹，状态良好。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "5️⃣ 底盘核心： 悬架、动力电池包 —— 无刮蹭，无托底，无拆卸状态巅峰！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者检测发现该车外观漆面、玻璃、轮毂、车灯完好，内饰（车门、座椅、仪表、顶棚、地毯、后备箱）零磨损，确认为新车状态。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2️⃣ 外观细节： 漆面、玻璃、轮毂、车灯 —— 全车原漆，数值完美！\n3️⃣ 内饰：车门内饰板、 座椅、仪表、顶棚、地毯 ——后备箱、 零磨损，妥妥的新车！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分享了针对小米YU7的新车提车验车攻略。作者（自称张师傅）展示了对一辆绿色小米YU7进行的详细检测过程，包括身份核对、外观内饰检查、电器功能测试及底盘检查。检测结论认为该车车况极佳，排除展车、库存车等嫌疑，适合购买。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

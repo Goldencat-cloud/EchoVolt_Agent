@@ -1,0 +1,374 @@
+{
+  "schema_version": "2.3",
+  "post_id": "82d60e9c2818be50",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "我的流金粉SU7 Max"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "银色车",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "我以前开银色车"
+        }
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为流金粉车漆在黄昏和灯光下质感极佳，粉色泛金闪显得高级，但缺点是脏了非常显眼，三天不洗就会失去光泽。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "流金粉在黄昏和灯光下，质感无敌。 虽然脏了显眼，但只要洗干净，尤其在日落前后或者地下车库的灯光下，那个粉色泛着金闪，特别高级。"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "流金粉车漆，一脏就特别明显。...这车三天不洗就灰扑扑的，失去那种光泽感。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在黄昏、灯光下及雨天使用后观察到车漆表现。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "流金粉在黄昏和灯光下，质感无敌。"
+          },
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "提车第二天下了场小雨"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为该车后备箱开口大，无需弯腰即可放入长球包，且后备箱照明灯位置合理，夜间取物方便。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "后备箱开口大，放东西不用弯腰。这车是溜背造型，但后备箱的开口高度比我预想的大。...而且后备箱照明灯位置合理，晚上拿东西不会被自己的影子挡住。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者平时喜欢打球，需携带长球包，并在夜间使用后备箱。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "我平时喜欢打球，球包很长"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "晚上拿东西不会被自己的影子挡住"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者指出21寸轮毂在靠边停车时容易蹭到路沿石，提车第三天即发生右前轮毂刮擦，导致停车时需格外小心且耗时增加。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "21寸轮毂，靠边停车提心吊胆。...提车第三天在路边侧方停车，稍微多打了半把方向，右前轮毂就蹭到了路沿石，刮出了一道两厘米长的白印子。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在路边进行侧方停车操作。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "提车第三天在路边侧方停车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者对比之前使用的车辆，认为该车21寸运动胎在高速行驶时胎噪较大，低频嗡嗡声明显，甚至引起头晕，不如之前车辆的静音胎舒适。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "21寸轮胎的胎噪，高速上比较吵。我之前的车用的是普通静音胎，上高速一百二车里正常说话没问题。这车配的21寸运动胎...跑高速的时候从底盘传来持续的“嗡嗡”声...那个低频噪音听久了有点头晕。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "空间与舒适性",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "我之前的车用的是普通静音胎，上高速一百二车里正常说话没问题。这车配的21寸运动胎...跑高速的时候从底盘传来持续的“嗡嗡”声"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在高速公路上以120km/h左右的速度行驶。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "上高速一百二"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为HUD抬头显示信息清晰、亮度自适应且内容克制，提高了驾驶安全性，使其基本不再查看仪表盘。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "HUD抬头显示，信息清晰不挡眼。这车的HUD亮度自动调节...显示的信息很克制...我基本不看仪表盘了，眼睛一直看着路，安全性提高不少。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在白天和夜间驾驶时使用HUD。",
+        "evidence": [
+          {
+            "block_id": "T7",
+            "source_type": "text",
+            "quote": "白天也能看清，晚上不刺眼"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者反馈手机蓝牙钥匙偶发失灵，出现过连接成功但无法解锁、以及离开后重新靠近时识别延迟的问题，造成尴尬。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "手机蓝牙钥匙，偶尔犯傻。...一次是我走到车边，车灯亮了，但门拉不开...还有一次是我下车去买水...站车边等了好几秒才连上。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在不携带实体钥匙的情况下，于车边尝试解锁及离车后返回。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "我平时不带实体钥匙，只用手机蓝牙连接。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者分享了单人提车的经验，建议提前预约验车、咨询流程并准备物品，认为虽然过程繁琐但值得。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一个人提车，建议提前找好代办或者约个朋友。 提车那天让销售帮你约一个验车时间，把所有流程问清楚..."
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者独自前往门店办理提车手续。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一个人提车"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "我的流金粉SU7 Max，一个人提车的一周真实感受"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "开了一周，跑了六百多公里"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好运动风格外观",
+      "重视车漆视觉效果"
+    ]
+  },
+  "post_summary": "车主分享小米SU7 Max流金粉版提车一周的真实体验。肯定了车漆颜值、后备箱空间和HUD实用性，但也指出了21寸轮毂易剐蹭、高速胎噪大、浅色车漆不耐脏以及手机蓝牙钥匙偶发失灵等问题。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

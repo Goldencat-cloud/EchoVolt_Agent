@@ -1,0 +1,196 @@
+{
+  "schema_version": "2.3",
+  "post_id": "2642c597ebf09026",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米车险",
+      "entity_level": "未明确",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "专属的小米车险已上线"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "给爱车续保时，居然能选官方自家的“小米车险”了"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "法巴天星保险",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "它官方证件照上的名字叫**“法巴天星保险”**"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "服务与交付",
+      "content": "作者指出北京地区的小米车主在续保时可以选择名为“小米车险”的保险产品，其官方名称为“法巴天星保险”，目前处于小范围试运行阶段，仅限北京地区办理。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近北京的小米车主们发现了一件新鲜事：给爱车续保时，居然能选官方自家的“小米车险”了。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "虽然大家习惯叫它“小米车险”，但它官方证件照上的名字叫**“法巴天星保险”**。现在还处于小范围试运行阶段， 目前只有北京地区的小米车主能办续保"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者介绍“法巴天星保险”成立于去年底，注册资金10亿元，股东包括法国巴黎保险集团、大众汽车金融以及持股33%的四川银米科技（小米全资控股）。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这家保险公司去年底刚成立，注册资金足足 10个亿 ，股东阵容那是相当硬核：不仅有大名鼎鼎的 法国巴黎保险集团 ，还有 大众汽车金融 。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "核心股东里有一家叫“四川银米科技”的，占了**33%**的股份。这家公司往上查几层，其实就是小米全资控股的"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者认为北京车主晒出的“小米车险”报价单价格比不少老牌险企便宜，且赠送的道路救援、车辆检测等权益较厚道，有助于降低车主保费压力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在北京车主晒出的报价单确实挺香，不仅价格比不少老牌险企便宜，送的权益像道路救援、车辆检测也挺厚道。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看来小米不光是想把车造好，连咱们车主的“保费压力”也想一并给打下来。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米旗下“法巴天星保险”在北京上线试运行",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近北京的小米车主们发现了一件新鲜事：给爱车续保时，居然能选官方自家的“小米车险”了。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在还处于小范围试运行阶段， 目前只有北京地区的小米车主能办续保"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米关联的“法巴天星保险”在北京地区开始小范围试运行，面向小米车主提供车险续保服务。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子介绍了小米旗下“法巴天星保险”在北京地区上线试运行的消息，分析了其股东背景（含小米全资控股公司），并评价其报价相比传统险企更具性价比，权益丰富。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

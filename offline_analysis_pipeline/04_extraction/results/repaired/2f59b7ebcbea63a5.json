@@ -1,0 +1,301 @@
+{
+  "schema_version": "2.3",
+  "post_id": "2f59b7ebcbea63a5",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米YU7 GT",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": "GT",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张关于小米YU7 GT车型的宣传海报。"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "左侧黑色区域展示了巨大的白色数字“10:29.483”，上方标注车型“XIAOMI YU7 GT”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "华为",
+      "entity_level": "品牌",
+      "brand": "华为",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "目前，智驾的玩家，主要集中在中国华为、小鹏、比亚迪以及美国的特斯拉。"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "小鹏",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "目前，智驾的玩家，主要集中在中国华为、小鹏、比亚迪以及美国的特斯拉。"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "目前，智驾的玩家，主要集中在中国华为、小鹏、比亚迪以及美国的特斯拉。"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "目前，智驾的玩家，主要集中在中国华为、小鹏、比亚迪以及美国的特斯拉。"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "智能驾驶",
+      "content": "作者指出小米通过自动驾驶在纽博格林北环赛道创下了全球首创纪录，并认为这是一种营销策略。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军的小米在纽北又完成了一个全球首创：自动驾驶刷圈纽北。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "营销角度，这绝对是一个不错的噱头。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为纽博格林北环赛道并非为智能驾驶设计，因此无法为智能驾驶的安全性或能力提供有效背书。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但纽北无法为智驾背书。因为纽北从诞生那一刻起，就不是为智驾而生的，彼时，智驾的概念都还没形成。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者主张智能驾驶的安全评估应关注下限（底线）而非上限，批评小米此次宣传仅展示了上限而未披露下限细节。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "对于智驾而言，安全更多的是看中下限，而不是上限。下限即底线。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米此次宣传，是将其最好的一面展现给公众了，也就是展现了上限。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者批评车企利用纽博格林北环赛道的营销效应，通过特调车刷圈并隐瞒信息来误导消费者，认为这种做法利用了消费者的信息不对称和崇洋心理。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "很多车企是通过特调车刷圈纽北，但在营销中却忽略特调车的信息，让受众以为量产车也能有如此出色的性能表现。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "一些擅长营销的车企往往抓住中国消费者信息不对称以及崇洋媚外的 心里 ，将纽北无限拔高"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米通过纽北智驾刷圈的方式是一种新颖且高调的营销创新，旨在间接宣扬其智驾水平。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米没有直接说自家智驾有多牛，而是通过纽北智驾刷圈，去大肆宣扬自家的智驾水平。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "如今，小米通过此种方式高调宣扬自身智驾优势，无疑，又是对智驾营销的一次巨大创新。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米YU7 GT在纽博格林北环创下全球首个自动驾驶圈速纪录",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军的小米在纽北又完成了一个全球首创：自动驾驶刷圈纽北。"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "下方有两行中文说明：“全球首个纽北自动驾驶圈速纪录”"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米宣称其YU7 GT车型在纽博格林北环赛道创造了全球首个自动驾驶圈速纪录，并以此进行宣传。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "文章评论了小米YU7 GT在纽博格林北环创下全球首个自动驾驶圈速纪录的事件。作者认为纽北并非为智驾设计，无法为智驾安全性背书，并批评小米只展示智驾上限而忽视下限（安全底线）的做法，指出这是一种利用信息不对称的高调营销手段。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

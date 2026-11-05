@@ -1,0 +1,60 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4042cd8a230e6ec7",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为在高速行驶时开启辅助驾驶（特别是带有车道保持功能）感觉很舒服，相比以前只有定速巡航或ACC的车，现在跑高速更轻松。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "高速的时候开启辅助驾驶还是很舒服的...现在有车道保持的加持，跑高速轻松多了"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在高速公路行驶，开启了辅助驾驶功能。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "高速的时候开启辅助驾驶还是很舒服的"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "高速的时候开启辅助驾驶还是很舒服的"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了在高速公路上使用辅助驾驶功能的体验，认为带有车道保持功能的辅助驾驶让长途驾驶更加轻松舒适，优于以往仅具备定速巡航或ACC的体验。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

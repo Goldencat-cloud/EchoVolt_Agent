@@ -1,0 +1,212 @@
+{
+  "schema_version": "2.3",
+  "post_id": "06a853c273e12be6",
+  "products": [
+    {
+      "id": "P1",
+      "name": "SU7",
+      "entity_level": "车系",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开SU7下地库"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "坛友的pro和max也这样吗"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "P3",
+      "name": "SU7 Max",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "坛友的pro和max也这样吗"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为标准后驱版SU7在下地库时车速不好控制：动能回收调至1时不带油门车不愿动，带油门车速难控；关闭动能回收则呈自由下滑状，有失控感。作者推测这可能是自己习惯燃油车逻辑所致。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "标准后驱版，下地库车速不太好控制，是我习惯了油车的逻辑吗？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开SU7下地库，即便把动能回收调到1，下地库不带油门车不太愿意动，带点儿油门车速又不太好控制。动能回收全关就完全是自由下滑，有种失控感。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者驾驶标准后驱版SU7下地库，尝试了不同动能回收设置。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "标准后驱版，下地库车速不太好控制"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "开SU7下地库，即便把动能回收调到1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者对比了燃油车与SU7在下地库时的操作逻辑：燃油车可通过发动机牵制力和刹车配合控制下坡速度，而SU7在动能回收调节下仍存在车速控制困难的问题。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "油车下地库的逻辑是起杆之后轻点油，进入下坡之后收油备刹车，车子会在1、2档带着发动机制动力下坡，2档可能要稍带点儿刹车控制速度。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开SU7下地库，即便把动能回收调到1，下地库不带油门车不太愿意动，带点儿油门车速又不太好控制。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在下地库场景中对比燃油车与SU7的操作感受。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "油车下地库的逻辑是..."
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "开SU7下地库..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者询问其他车主（Pro和Max版本）是否也有同样的下地库车速控制不佳的体验，或者是否是所有电动车的通病。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "坛友的pro和max也这样吗？或者是电车都这样？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "标准后驱版，下地库车速不太好控制"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "开SU7下地库"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了驾驶标准后驱版SU7下地库时遇到的车速控制难题，描述了不同动能回收设置下的驾驶感受，并与燃油车操作逻辑进行对比，最后询问其他版本车主是否有类似体验。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

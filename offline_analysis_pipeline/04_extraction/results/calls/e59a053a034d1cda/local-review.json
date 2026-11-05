@@ -1,0 +1,28 @@
+{
+  "post_id": "e59a053a034d1cda",
+  "state": "FAILED",
+  "cache_key": "097cff911bff8594f13aa0c11858425f0f4914d8bf2c89329d5b5ec9f6f1e376",
+  "schema_parsed": false,
+  "payload": null,
+  "errors": [
+    "incomplete_response"
+  ],
+  "original_errors": [
+    "incomplete_response"
+  ],
+  "usage": {
+    "prompt_tokens": 11159,
+    "completion_tokens": 8192,
+    "total_tokens": 19351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 33.71007780000218,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

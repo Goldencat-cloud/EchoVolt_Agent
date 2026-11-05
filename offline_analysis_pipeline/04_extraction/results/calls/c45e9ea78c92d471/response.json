@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c45e9ea78c92d471",
+  "products": [
+    {
+      "id": "P1",
+      "name": "22款耀享",
+      "entity_level": "具体配置",
+      "brand": null,
+      "series": null,
+      "model_year": "2022",
+      "version": "耀享",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这个价钱大概5wkm的22款可以收到耀享"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "P2",
+      "name": "传祺E8",
+      "entity_level": "具体配置",
+      "brand": "传祺",
+      "series": "E8",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近之家一直给我推广过是传祺那个E8的混动"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者计划在暑假购车，预算为20万（除非股市暴涨一个月），认为该预算下大约5万公里左右的2022款耀享车型可以考虑入手。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "手里预算预算20，除非股市暴涨一个月。 这个价钱大概5wkm的22款可以收到耀享"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在考虑购买二手车时，纠结于是否浪费国家补贴（国补）优惠，认为虽然新车更让人放心，但同等预算下二手车的配置可能会降低较多。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是纠结浪费了国补的羊毛，毕竟新车踏实感觉，但是配置可能得降不少吧"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为相比4S店，二手车贩子的报价方式更简单直接，没有那么多复杂的套路。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "还有就是我感觉二手贩子和4S比起来价格更简单一点，没那么多弯弯绕"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者提到近期在汽车之家的推荐中看到传祺E8混动版，认为其配置非常高。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "另外，就是最近之家一直给我推广过是传祺那个E8的混动，配置是真高"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "准备暑假出手了"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "手里预算预算20"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": "20",
+    "preferences": [
+      "偏好二手车贩子简单的交易模式",
+      "关注车辆配置高低"
+    ]
+  },
+  "post_summary": "作者计划暑假购车，预算约20万元，正在对比2022款二手“耀享”车型与新车之间的性价比及配置差异，同时对传祺E8的高配置表示兴趣，并向网友寻求购车建议。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

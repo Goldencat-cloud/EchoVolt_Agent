@@ -1,0 +1,89 @@
+{
+  "schema_version": "agent-kb-1",
+  "generated_at": "2026-10-22T08:06:29+00:00",
+  "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+  "role": "structure-validation knowledge base; numbers are placeholder, MUST NOT be hardcoded into agent code",
+  "figures": [
+    "fig1-cohort-funnel.svg",
+    "fig2-aspect-heat.svg",
+    "fig2b-aspect-negative.svg",
+    "fig3-journey-shift.svg"
+  ],
+  "sources": [
+    {
+      "file": "analysis/aspect-sentiment.csv",
+      "sha256": "d4e2db34c3d704c674312642d8030f6715a54742b97ad9044f5bc9637a94f78f",
+      "bytes": 993
+    },
+    {
+      "file": "analysis/browser-checks.json",
+      "sha256": "0bbc2a43f5c93a7d061c789c535013dc6378155f49907d090d3cab242d7854c3",
+      "bytes": 1124
+    },
+    {
+      "file": "analysis/checks.json",
+      "sha256": "717c1b27c5fe68e02a70090994f7a48e1deba3cf2a5bf49edbfde78493eeca17",
+      "bytes": 215
+    },
+    {
+      "file": "analysis/comparison-claims.json.gz",
+      "sha256": "5a968257d8fd6edfdd7e8475aed4debe46cc9d1a9a6c7bc51df870f2d6cc8713",
+      "bytes": 354727
+    },
+    {
+      "file": "analysis/core-claims.json",
+      "sha256": "1c497950b4eb3c0d160fc629087936a821dc092f99ca63945428f4fda32f60bb",
+      "bytes": 399086
+    },
+    {
+      "file": "analysis/evidence-pack.json",
+      "sha256": "7db1928dc822c62d6ea3861570948679bfcfac7fb8a183388980625dd086ee75",
+      "bytes": 152218
+    },
+    {
+      "file": "analysis/evidence-reading.txt",
+      "sha256": "0e011013191bc7d90782e5fefa0de544e306e6ec4d3ae0750b3235a475f42379",
+      "bytes": 59650
+    },
+    {
+      "file": "analysis/input-manifest.json",
+      "sha256": "59daafcdb6ffe0b982cd59146dc6187ae6c7fa83993761201a5a5c405d2310c9",
+      "bytes": 886896
+    },
+    {
+      "file": "analysis/potential-claims.json",
+      "sha256": "17838187d101ae401092f3f6a8ac5c72e7f902d3a90b87412317d1f3c018d180",
+      "bytes": 687571
+    },
+    {
+      "file": "analysis/profiles.json",
+      "sha256": "5d71775206ee9cfbe620e38f37f0d0a0c707889c47880a4aeccc4ed2f1e45388",
+      "bytes": 28520
+    },
+    {
+      "file": "analysis/reviewed-cases.json",
+      "sha256": "5424c8f91c66bfd539f44477dac64d4e91b543112ca770d98155767bd64c807d",
+      "bytes": 11234
+    },
+    {
+      "file": "analysis/scope.json",
+      "sha256": "be1226484f1553e85d24f52ff88a17ee7f17aae0aff7f33aaae52ea2c37d51c7",
+      "bytes": 17121
+    },
+    {
+      "file": "analysis/scoped-mentions.jsonl.gz",
+      "sha256": "414385e20af8c8a3e6cbf4e2be59d28da23ef10262eff5bebc0e0824bffe475d",
+      "bytes": 238981
+    },
+    {
+      "file": "analysis/summary.json",
+      "sha256": "613489fddd3d59f7b24d48984f6af3ce5d52ce9b93221998bba867b4a8011e16",
+      "bytes": 2279
+    },
+    {
+      "file": "analysis/verification.json",
+      "sha256": "13c2807851a8689f75c448131479257fd0ff80e297bac8cb21afae84983132bb",
+      "bytes": 529
+    }
+  ]
+}

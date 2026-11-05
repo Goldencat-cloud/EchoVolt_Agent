@@ -1,0 +1,457 @@
+{
+  "schema_version": "2.3",
+  "post_id": "59b2847ec57440c2",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 700km 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "700km 后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 700km 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "蔚来ET5T",
+      "entity_level": "具体配置",
+      "brand": "蔚来",
+      "series": "ET5T",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "看过蔚来et5t"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者因已有燃油车，为满足日常通勤和市内出行需求，在看过蔚来ET5T后最终选择小米SU7，主要原因是其外形帅气、设计简洁有科技感且回头率高。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "家里有油车了，所以考虑买台电车日常通勤和市内出行，看过蔚来et5t，最后选择小米su7不说别的外形真的很帅，无边框车门！线条干净利落，没有太多花里胡哨的东西，又很有设计感科技感，开出去回头率很高！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在选配时选择了雅灰车身和银河灰内饰，但未选装轮毂，原因是考虑到后期维护费用较高以及可能导致的续航缩短问题。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "选的是车身雅灰，超级耐看高级，内饰选的是银河灰很有质感，轮毂没有选装考虑到后期维护费用比较高，还有续航缩短问题，19寸也很好看啦。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者试驾小米SU7标准版后认为其动力虽不算特别猛，但红绿灯起步响应迅速，轻轻一踩电门车子就会窜出去。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7标准版虽然不算特别猛，但红绿灯起步绝对可以，轻轻一踩电门，车子就窜出去了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者进行试驾体验。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特地开过来我家附近给我试驾"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者列出小米SU7标准版的价格明细，裸车价为215900元，加上交强险、商业险及上牌代办费等，最终落地价为226079元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "标准版价格是215900，没有选装其他东西...落地价组成：215900元+交强险950元＋商业险5231元＋上牌代办398元（含上牌130元）=最后落地价226079元"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者描述了从订车到提车历时约四个月，在广州黄埔科学城店完成提车，流程包括交付通知、验车、付尾款、办保险、打临牌及后续上牌。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从订车到提车大概用了四个月左右，广州黄埔科学城店提车的，流程也不复杂，交付通知-验车-付尾款-办保险-先打了临时车牌-过了几天4s提交好资料再上牌的（代办398）"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7的车机系统顺手，特别是作为小米手机用户，登录后手机与车机能无缝连接，实现导航、音乐、电话同步，非常方便。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米的车机系统用起来很顺手，如果你已经是小米手机用户，登录账号后，手机和车机的无缝连接真的很方便。导航、音乐、电话都能直接同步，省去了很多麻烦。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者评价车内语音助手“小爱同学”好用，能通过语音快速控制空调、温度和导航，反应速度快。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小爱同学在车里也很好用，开关空调、调温度、找导航地点，动动嘴就能搞定，反应速度挺快的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为标准版动力在城市中轻快够用，红绿灯起步不肉，但高速超车需深踩电门，整体表现不错。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "标准版的动力不算特别猛，但完全够用。城市里开起来很轻快，红绿灯起步也不会觉得肉。高速上超车稍微需要深踩一点电门，但整体表现还是不错的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在城市道路及高速公路驾驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "城市里开起来很轻快...高速上超车稍微需要深踩一点电门"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者评价车辆悬挂调校偏舒适，过减速带或坑洼路面时震动过滤较好，不颠簸。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "悬挂调得偏舒适，过减速带或者坑洼路面时，震动过滤得比较好，不会觉得很颠。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者经过减速带或坑洼路面。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "过减速带或者坑洼路面时"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为前排空间宽敞，座椅包裹性好，长途驾驶不累；后排坐两人舒服，三人稍显拥挤；前后储物空间较大。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "前排空间很宽敞，座椅包裹性也不错，长时间开车不会觉得累。后排坐两个人很舒服，三个人稍微有点挤。前备箱加后备箱储物空间很大。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者评价内饰设计简洁，做工扎实，中控布局清晰，功能多集成在屏幕上，但用料不算特别高级。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "整体设计很简洁，用料不算特别高级，但做工还算扎实。中控台的布局很清晰，按键不多，大部分功能都集成在了屏幕上。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者实测城市续航约为500公里，冬天开暖风会更少；在广东地区冬天不开空调的情况下，仅用于上下班通勤，一周充一次电基本够用。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "实际开下来，城市里大概能跑到500公里左右，冬天开暖风的话会再少一些。广东地区冬天不用开空调，如果只是上下班通勤，一周充一次电基本够用。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在城市通勤，位于广东地区，涉及冬季不开空调的场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "城市里大概能跑到500公里左右...广东地区冬天不用开空调，如果只是上下班通勤"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "su7提车分享日记"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "实际开下来，城市里大概能跑到500公里左右"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好外观设计简洁有科技感",
+      "重视日常通勤便利性"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7的提车日记，详细记录了选车理由（对比蔚来ET5T后因其外观和设计选择SU7）、费用清单（落地价22.6万）、提车过程及用车初体验。作者对车机互联、语音助手、动力响应、悬挂舒适性及空间表现给予正面评价，并提供了城市续航约500公里的实测数据。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

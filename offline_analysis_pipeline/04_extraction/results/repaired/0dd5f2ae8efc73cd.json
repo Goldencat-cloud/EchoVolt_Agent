@@ -1,0 +1,174 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0dd5f2ae8efc73cd",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我的车是小米su7标准版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者报告其小米SU7标准版在半年行驶11500多公里后的平均电耗为138Wh/km（即13.8kWh/100km），并指出非驾驶耗电（如哨兵模式、驻车空调）约为总耗电的6%。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我目前的电耗是138wh/km...非驾驶耗电（哨兵模式、驻车用空调等）为101度，是驾驶消耗度数的6%"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "生涯总计，累计行驶11,549km，总耗电量1,692kWh，急速耗电101kWh，平均百公里电耗13.7 kWh/100km"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者总结了小米SU7标准版半年的用车总成本为9451.81元，其中包括充电费1184.6元、首年保险7336.21元以及停车、洗车和补胎费用931元。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "所以用车半年的成本就是电费1184.6元＋保险7336.21元＋停车洗车换轮胎931元＝9451.81元"
+        }
+      ],
+      "confidence": 0.98,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者对比认为，同等价位（约23万元）的燃油车在11500公里的行驶里程下，仅加油费用就可能超过1万元，因此得出结论：电动汽车需要通过增加行驶里程来体现节省成本的优势。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "按照二十三万价位的燃油车，光加油这一项就至少1万多，所以电车就得多跑才能省钱"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者在国庆假期外出游玩时损坏了一个轮胎，随后支付了600元进行修补，但因夜间上门补胎质量不佳，不得不重新修补了一次。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "国庆出去玩弄坏了一个胎，跟车友收一个600，之所以这么贵是半夜叫了上门补胎，结果补得太次又重新补了一次"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "国庆假期外出游玩期间，夜间发生轮胎损坏并寻求上门补胎服务。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "国庆出去玩弄坏了一个胎...半夜叫了上门补胎"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我的车是小米su7标准版...提车到现在已经过去半年了"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了其小米SU7标准版提车半年后的用车成本盘点，涵盖充电、保险及维保费用，并对比燃油车得出电车需多跑才能省钱的结论。文中还记录了国庆期间轮胎受损及补胎的经历。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "高"
+}

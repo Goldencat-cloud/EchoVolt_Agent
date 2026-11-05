@@ -1,0 +1,306 @@
+{
+  "from": "full-v2.2.md",
+  "from_sha256": "5c71f1d2345f4fd2b2c55b3760ae0f9b8b443f80d3d70dbb1825fc48e3c0479b",
+  "prompt_version": "2.3",
+  "output_schema_version": "2.3",
+  "coverage": [
+    {
+      "section": "1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "b51bc741a1ec75e5dc3e429ad1fa6ae17f52f154ddad493e4c671cb080fa6c7a"
+    },
+    {
+      "section": "2",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "bd73243d3e8d037c74a2c0531fbe16e0e38ae430d4849543883119583c5a70f9"
+    },
+    {
+      "section": "3",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "394ebb448fe95e7706fb091d93c2831d0971750c6c3848320981c0b2d146f758"
+    },
+    {
+      "section": "4",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "7da77216020c6cacbf49b03d13adb26c1ff3e06bffd897f1ebae7a367b3f1f00"
+    },
+    {
+      "section": "5",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "a26fa3905f90164a53e5deaa20a8473445ed6bfd03fd0170e045cc6fda6941f0"
+    },
+    {
+      "section": "5.1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "aeccc0fac8361b737e489c859e0dc659b775be0e0f3e562cc06e74d5669051da"
+    },
+    {
+      "section": "5.2",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "975a1f6c901898638b85103df8c346d064d8555250909b151fd4b6733f8a411d"
+    },
+    {
+      "section": "5.3",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "fad4df2974d0da051d1f96e8f73516b7f173b4db9c76580aea585873c66af434"
+    },
+    {
+      "section": "6",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "e40ef6a59ce7815ef5ef771baadf00ee441410fa7ea4c315fbc1514c50626979"
+    },
+    {
+      "section": "6.1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "244c0c71fd42b1b4210bf7c4e97a7db01ec409ddea646d6e97788cac43df2e9b"
+    },
+    {
+      "section": "6.2",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "52f511bd7e20cbe55c37c7826ed681b72fb7bb2f5a3676148236ca6a5f81f83a"
+    },
+    {
+      "section": "6.3",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "d03bb73bec873a37c89a565a243f5bb113050379ec62563e8a412716b4ab9935"
+    },
+    {
+      "section": "6.4",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "c619daad49d5f05ee26b8115508bb0a5c4e32f829d688811f924a40cd18f2956"
+    },
+    {
+      "section": "6.5",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "d81727a8457885e2fad8dd1936007f31ec454e0e7bc33643317bef9f47c687a2"
+    },
+    {
+      "section": "6.6",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "3dad0256d108174f3b47e09070368b0e012ab3c859d931b1444f52003d4dbd99"
+    },
+    {
+      "section": "6.7",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "acbba36c5a7a4754683d9c3a36e41f997346e38d9f3f99ba017dc67ab3fb7d39"
+    },
+    {
+      "section": "6.8",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "12df26e0ad2a361d0767f10a80baca91d28d640867cdeec1e9dae722b0a3c6fb"
+    },
+    {
+      "section": "6.9",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "c644329bb767451139d6fd91466c5246d054dc52ac58c1302c128ffdcb35d4ee"
+    },
+    {
+      "section": "6.10",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "8a6a505fc9aa84df520765fc5c7768db76a373dae18d267ae82b8f9428747128"
+    },
+    {
+      "section": "6.11",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "9c90d18ad7695737dcd37305e297e2a58189543103a0345d624d66d02abf6f0f"
+    },
+    {
+      "section": "6.12",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "1d8595f771c42ecf6d6e5a9cc3c7d0c203cd7c6d2f17725f7d8fa70b9d014469"
+    },
+    {
+      "section": "6.13",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "0f9a9add654a135f6f3755ba8e889f21eddaedfec5c75bbda23f7725a0691540"
+    },
+    {
+      "section": "6.14",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "69b2ad3a3acf3251a7f0e4dcd96453517032e48d2f7e8850b364d1f874f67596"
+    },
+    {
+      "section": "6.15",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "af984c6691add0f3c958347c46e3c96fb9d43eec0e8784b970ba0f12ad4b76e2"
+    },
+    {
+      "section": "7",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "8578b5a5cf074f23367c8fd153a89a54a837d003d49e83d33c60a17646111229"
+    },
+    {
+      "section": "7.1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "a959869ad6278ac2b9dcd86e95a9c674a2351c58aa61bc4791125b9c0346344b"
+    },
+    {
+      "section": "7.2",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "ecd276234dc28b9ccc8095ecf01ba20d14df6b2c0bdb0eb3cda21696d3e98b4b"
+    },
+    {
+      "section": "7.3",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "f038aa5065040e7d605999aa63f251f998cbfb836cd0b04e3c0c9c63080164e5"
+    },
+    {
+      "section": "7.4",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "127bdee62aa1814f5eef2eefa732cc2943c1b44848a93227cf4b2539e2dd88bd"
+    },
+    {
+      "section": "7.5",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "d1aaa036b82508da25fc4c29337eb6833c5f984accaeb7baa936925e1fa73852"
+    },
+    {
+      "section": "8",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "d3385bd7695748d10128f8992fe20d415b10828aeaef4252164e31596ae1d1ee"
+    },
+    {
+      "section": "8.1",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "5463a023c2eabf20a633664fb22a97896136e001aeeb447b71a264f785b72b29"
+    },
+    {
+      "section": "8.2",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "5c3ffb7bf451ac9b6e4f453f7040a53f428178752c614188de2f76b9159d80d3"
+    },
+    {
+      "section": "8.3",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "73ed93609cd7e213f9e7c5cc24e440c9d93e747cbdedd422a5fc73bae40e4c62"
+    },
+    {
+      "section": "8.4",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "b1a222719ea99da367b4ca0cbcbd69bf08df5df5ad7a9d602e2135b169e8719d"
+    },
+    {
+      "section": "9",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "4e2fd9ab67a2195a5a84934af18b1e5f1c6f10130e720935fe1f3618a842d57b"
+    },
+    {
+      "section": "10",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "5435ed2d591e9021a066025f8870c3d78d21175f431831ed03f063d8cf65d66b"
+    },
+    {
+      "section": "11",
+      "stages": [
+        "post_pack"
+      ],
+      "sha256": "65abd4438e3b05b25ee29ed4a03cb409e5fc6b7505a99faacc189e47faaf904c"
+    },
+    {
+      "section": "12",
+      "stages": [
+        "candidate",
+        "post_pack"
+      ],
+      "sha256": "daea889dc2e7a3fc86bc1d641c487ec16153d74fe3f70dce1acc80f8b3b29bff"
+    }
+  ],
+  "approved_changes": [
+    "experience_type改为experience_basis",
+    "claim内多产品比较",
+    "sentiment_score改为sentiment_intensity",
+    "claim.usage_context"
+  ],
+  "compatibility": "不静默写回2.1；不将旧情感小数机械映射为强度，不猜旧记录使用情境",
+  "api_calls": 0
+}

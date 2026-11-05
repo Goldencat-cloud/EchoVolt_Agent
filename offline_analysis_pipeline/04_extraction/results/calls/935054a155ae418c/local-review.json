@@ -1,0 +1,99 @@
+{
+  "post_id": "935054a155ae418c",
+  "state": "FAILED",
+  "cache_key": "3f2428ba639adbfe06a04c0c0ddcf818adb0982a0cde1706dc2187f8b6b810a2",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "935054a155ae418c",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米汽车",
+        "entity_level": "品牌",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "黑小米汽车"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "社交表达与无实质主张",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者自述因小米汽车热度高而进行标题党式表达，暗示将从粉丝转为批评者，但未提供具体理由或事实依据。",
+        "sentiment": "不明确",
+        "journey_stage": "无法判断",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "论：讲一讲我不得不由粉向开始黑小米汽车的理由……"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "鉴于目前小米汽车热度空前绝后，我也不不得不做标题党一把，"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "其他",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "无法判断",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者自称因小米汽车热度高而采用标题党方式，表示将从粉丝转变为批评者，但正文未提供具体理由或实质内容。",
+    "post_topic": "社群互动与生活分享",
+    "analysis_value": "低"
+  },
+  "errors": [
+    "claims/C1/evidence/1:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10002,
+    "completion_tokens": 617,
+    "total_tokens": 10619,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 4.440948499992373,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

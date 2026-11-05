@@ -1,0 +1,532 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ddcdb82fd7b105ad",
+  "products": [
+    {
+      "id": "P1",
+      "name": "启境GT7",
+      "entity_level": "具体配置",
+      "brand": "启境",
+      "series": "GT7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "启境GT7实车感受分享"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "对标小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "尚界Z7T",
+      "entity_level": "具体配置",
+      "brand": "尚界",
+      "series": "Z7T",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "尚界Z7T"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为启境GT7的旅行车颜值在线，吸引年轻人，但若追求大空间则不适合。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "旅行车颜值确实在线，年轻点的看到实车都会有想法，要是又想要颜值和大空间，那这款车可以Pass，不适合考虑了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为启境GT7车内质感普通，中控和门板设计缺乏亮点，且与竞品中控布局雷同，存在模仿嫌疑。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车内感受比较普通，没有让我眼前一亮的点。中控和门板上谈不上很有质感...仿佛都是一家代工厂生产出来的，主打一个模仿、套娃"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为启境GT7、小米SU7和尚界Z7T的车身尺寸和车内空间感官上没有明显大小之分。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车内乘坐空间，跟我之前体验过的尚界Z7T和小米SU7没啥区别，车长5米前后，轴距都是3米，感官来看没有大小之分"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "空间与舒适性",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "车内乘坐空间，跟我之前体验过的尚界Z7T和小米SU7没啥区别"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "空间与舒适性",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "车内乘坐空间，跟我之前体验过的尚界Z7T和小米SU7没啥区别"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出启境GT7的前备箱不支持电动开启，相比小米SU7和尚界Z7T显得落后，可能是为了节省成本。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "可以语音弹开，不能电动开启，跟小米和尚界比，明显落后...没有电动开启多数是节省成本"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "配置与功能",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "不能电动开启，跟小米和尚界比，明显落后"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "配置与功能",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "不能电动开启，跟小米和尚界比，明显落后"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者称赞启境GT7前排零重力座椅带腿托，且副驾驶手套箱纵深极大，设计独特。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "前排是有两个零重力座椅的，还带腿托，感受不错...副驾驶手套箱...里面纵深真是惊呆我了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为启境GT7后排靠背放倒后倾斜，不适合露营，且车上没有220V电源接口。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "后排靠背放倒是有倾斜的...这要在车上露营属实憋屈、难受...车上没有220V电源接口"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为启境GT7的外观配色选择较多，但部分颜色需加价，且全系标配19英寸轮胎，选装20英寸需加钱，目前预定免费。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "外观有7个配色和3款内饰选择...并且还要加钱收费"
+        },
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "都得加钱选装...最不行加4千选个20英寸轮胎效果也会不一样，现在预定是免费的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为启境GT7的HUD集成器较小，使中控台显得不臃肿，销售演示显示腿部空间尚可。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "这车的HUD抬头显示集成器是要小于市面其它车辆的，好处就是中控台纵向没有那么宽...腿部空间不会难受和憋屈"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者质疑启境GT7的调光天幕实用性，认为没有遮阳帘的调光天幕可能是智商税，担心夏天隔热效果不佳。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T14",
+          "source_type": "text",
+          "quote": "总感觉没有遮阳帘的调光天幕都是智商税，即便宣传说是99%的隔热率，现在大热天的能不热？"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者实测启境GT7后排空间，身高170cm时腿部空间够用，但身高超过180cm可能会顶头。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T18",
+          "source_type": "text",
+          "quote": "身高170cm工具人，腿部空间完全够用，要是身高超过180cm坐在后排，感觉会顶头"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者以身高170cm的标准体验后排空间。",
+        "evidence": [
+          {
+            "block_id": "T18",
+            "source_type": "text",
+            "quote": "身高170cm工具人"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者介绍启境GT7的技术配置，包括全系双腔空悬、无后轮转向、顶配三电机四驱、800V快充、6C超充、896线激光雷达及华为智驾座舱。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T20",
+          "source_type": "text",
+          "quote": "全系双腔空悬，没有后轮转向...只有顶配是三电机四驱，还有标配800V快充平台，6C超充技术，896线激光雷达，辅助驾驶和车机座舱跟华为看齐"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者推测启境GT7上市时价格可能会下探1-2万，以体现诚意并应对竞争。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T20",
+          "source_type": "text",
+          "quote": "目前预售价是21.99万-30.99万，盲猜上市肯定会下探1-2万的，不然也没意思"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "最近想增购/换购旅行车的车友，可以了解下启境GT7"
+      },
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "今早我去看了实车，现在展车阶段"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好黑色外观和红色内饰",
+      "关注旅行车颜值"
+    ]
+  },
+  "post_summary": "作者分享了启境GT7的实车静态体验，将其与小米SU7和尚界Z7T进行对比。作者肯定了其颜值和部分空间设计，但批评了内饰质感普通、前备箱功能落后及调光天幕实用性存疑等问题，并推测其上市价格可能下调。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

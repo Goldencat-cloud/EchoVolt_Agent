@@ -1,0 +1,249 @@
+{
+  "schema_version": "2.3",
+  "post_id": "867fdc25f81307c5",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新一代小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "新一代小米SU7本月重磅发布"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "新一代小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "Pro版更是达到902km的超长续航"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "新一代小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "Max版更是提升至897V"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "文章称2026年3月19日小米将举办春季新品发布会，新一代小米SU7将正式发布，且此前已开启小订，预售价格区间为22.99万-30.99万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2026年3月19日，小米将以“人车家全生态全面落地”为主题举办春季新品发布会，新一代小米SU7将作为绝对主角正式亮相，新车已于此前开启小订，预售价格区间为22.99万-30.99万元"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "文章指出新一代小米SU7全系标配800V碳化硅高压平台与激光雷达，打破了高配专属的配置潜规则，实现了“入门即满配”。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最受市场关注的是其实现了全系标配800V碳化硅高压平台与激光雷达，彻底打破新能源汽车行业高配专属的配置潜规则，以“入门即满配”的姿态重新定义20-30万级纯电轿车的产品标准"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "文章介绍新一代小米SU7各版本的续航与充电参数：标准版CLTC续航720km，Pro版902km，Max版835km；Max版支持5.2C快充，官方实测15分钟补能最高可达670km。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "续航表现也同步升级，标准版CLTC续航720km，Pro版更是达到902km的超长续航，Max版为835km...Max版支持5.2C快充，官方实测15分钟补能最高可达670km"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "文章称新一代小米SU7全系搭载1颗禾赛128线AT128激光雷达及700TOPS算力芯片，配合Xiaomi HAD端到端辅助驾驶系统，官方承诺智驾基础功能终身免费。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "新车全系搭载1颗禾赛128线AT128激光雷达...同时，新车搭载700TOPS算力的硬件芯片与Xiaomi HAD端到端辅助驾驶系统...且官方承诺智驾基础功能终身免费"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章指出尽管新车预售价较老款上涨1-1.4万元，但开启小订后全国订单迅速突破15万台，其中Pro版因902km超长续航与满配智驾成为最热门选择。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "尽管新车预售价较老款上涨1-1.4万元，但其全系高配的策略依然收获了市场的高度认可，开启小订后全国订单迅速突破15万台，Pro版因902km超长续航与满配智驾成为最热门选择"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新一代小米SU7春季新品发布会",
+      "event_type": "产品发布与上市",
+      "event_time": "2026-03-19",
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2026年3月19日，小米将以“人车家全生态全面落地”为主题举办春季新品发布会，新一代小米SU7将作为绝对主角正式亮相"
+        }
+      ],
+      "confidence": 0.98,
+      "summary": "小米计划于2026年3月19日举办春季新品发布会，新一代小米SU7将作为主角正式亮相。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "本文介绍了新一代小米SU7将于2026年3月19日发布，全系标配800V高压平台和激光雷达，预售价格22.99万-30.99万元。文章详细列举了其在三电、智驾、安全等方面的升级参数，并指出其订单量迅速突破15万台，市场反响热烈。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

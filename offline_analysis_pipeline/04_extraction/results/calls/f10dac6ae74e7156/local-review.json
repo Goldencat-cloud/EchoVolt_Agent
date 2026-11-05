@@ -1,0 +1,198 @@
+{
+  "post_id": "f10dac6ae74e7156",
+  "state": "FAILED",
+  "cache_key": "4f5b39a00a5e972016f910103e0b70c6142ed382ddbe590bdd81940ca5d337c2",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "f10dac6ae74e7156",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米",
+        "entity_level": "品牌",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米是一辆很有实力的车"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "小米第二款车",
+        "entity_level": "未明确",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米第二款车"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "背景提及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "明确影响判断",
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米的泊车故障会影响其第二款车型的销量，但预计影响不会太大。",
+        "sentiment": "正负混合",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我觉得泊车故障会影响小米的第二款车的销量，但不会有太大影响"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "态度反应",
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米在泊车故障事件中主动承担责任，展现了责任感，这种态度让消费者对其观感更好，甚至吸引了原本不关注小米的人群。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米主动承担了所有的泊车故障责任，这让消费者看到了小米车企的责任感"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "它对问题的态度...大家对小米的感官会更好"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "明确影响判断",
+        "aspect": "安全与质量",
+        "content": "作者指出泊车故障对看重安全性的用户有负面影响，可能导致这部分用户对小米在其他方面的实力产生怀疑从而被劝退。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "对于一些看重安全性的用户来说，可能会顺带怀疑他在其他方面的实力，这方面肯定会劝退一些人的"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米泊车故障及官方回应",
+        "event_type": "质量与召回",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米在泊车事故这件事情中，反应也是非常让人满意，小米主动承担了所有的泊车故障责任"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米发生了泊车故障/事故，随后官方主动承担了全部责任。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者分析了小米泊车故障对其第二款车型销量的潜在影响。虽然故障对注重安全的用户有负面劝退作用，但作者认为由于小米品牌粘度高且此次危机公关处理得当（主动担责），整体销量影响有限。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "claims/C2/evidence/1:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C2/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10304,
+    "completion_tokens": 1484,
+    "total_tokens": 11788,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.775140199999441,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

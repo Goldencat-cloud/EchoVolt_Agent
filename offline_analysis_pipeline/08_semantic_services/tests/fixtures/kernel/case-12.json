@@ -1,0 +1,106 @@
+{
+  "id": "case-12",
+  "source": "synthetic",
+  "note": "证据重复去重",
+  "input": {
+    "question": "重复证据要去重吗？",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "evidence",
+      "aspect": "空间与舒适性",
+      "result": {
+        "data": [
+          {
+            "claim_id": "c-4001",
+            "aspect": "空间与舒适性",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-4001",
+            "date": "2026-08-01",
+            "title": "观点 c-4001"
+          },
+          {
+            "claim_id": "c-4002",
+            "aspect": "空间与舒适性",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-4002",
+            "date": "2026-08-01",
+            "title": "观点 c-4002"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "evidence",
+      "aspect": "空间与舒适性",
+      "result": {
+        "data": [
+          {
+            "claim_id": "c-4002",
+            "aspect": "空间与舒适性",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-4002",
+            "date": "2026-08-01",
+            "title": "观点 c-4002"
+          },
+          {
+            "claim_id": "c-4003",
+            "aspect": "空间与舒适性",
+            "sentiment": "negative",
+            "url": "https://example.invalid/c-4003",
+            "date": "2026-08-01",
+            "title": "观点 c-4003"
+          }
+        ]
+      }
+    }
+  ],
+  "final_text": "证据按 claim_id 去重后共 3 条。",
+  "expected": {
+    "answer": "证据按 claim_id 去重后共 3 条。",
+    "stats": [],
+    "evidence": [
+      {
+        "claim_id": "c-4001",
+        "aspect": "空间与舒适性",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-4001",
+        "date": "2026-08-01",
+        "title": "观点 c-4001"
+      },
+      {
+        "claim_id": "c-4002",
+        "aspect": "空间与舒适性",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-4002",
+        "date": "2026-08-01",
+        "title": "观点 c-4002"
+      },
+      {
+        "claim_id": "c-4003",
+        "aspect": "空间与舒适性",
+        "sentiment": "negative",
+        "url": "https://example.invalid/c-4003",
+        "date": "2026-08-01",
+        "title": "观点 c-4003"
+      }
+    ],
+    "applied_filters": {
+      "aspects": []
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 2
+  }
+}

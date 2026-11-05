@@ -1,0 +1,116 @@
+{
+  "post_id": "015822682281947a",
+  "state": "CONTRACT_PASS",
+  "cache_key": "202ca09f3ce7b7e6594f7f6889fd1497c1d40738ce2a586ae59f0fc43a958c82",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "015822682281947a",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米",
+        "entity_level": "品牌",
+        "brand": "小米",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "以后不嘲笑小米支架了，脸被打肿了"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者表示以前嘲笑小米支架，现在承认自己错了（“脸被打肿了”），隐含对小米支架表现的认可或态度转变。",
+        "sentiment": "正面",
+        "journey_stage": "无法判断",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "以后不嘲笑小米支架了，脸被打肿了"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "无法判断",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "技术与产品机制",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者提问：刹车是否会导致辅助驾驶功能推迟？",
+        "sentiment": "中性",
+        "journey_stage": "无法判断",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "刹车是不是就推迟辅助驾驶了？"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "提问",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者表达了对小米支架态度的转变，并询问刹车操作是否会推迟辅助驾驶功能的响应。",
+    "post_topic": "产品功能与技术",
+    "analysis_value": "低"
+  },
+  "errors": [],
+  "original_errors": [
+    "api_transport_or_json_error"
+  ],
+  "usage": {
+    "prompt_tokens": 9985,
+    "completion_tokens": 758,
+    "total_tokens": 10743,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 3.428495300002396,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

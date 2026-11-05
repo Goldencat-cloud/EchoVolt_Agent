@@ -1,0 +1,79 @@
+{
+  "previous_entity_count": 966,
+  "taxonomy_nodes_excluding_root": 673,
+  "important": "V1实体组合数与V2层级节点数不是同一个统计量；核心是取消空值组合实体。",
+  "transitions": [
+    {
+      "v1_status": "unresolved",
+      "v2_status": "mapped",
+      "level": "series",
+      "mentions": 2660
+    },
+    {
+      "v1_status": "resolved",
+      "v2_status": "mapped",
+      "level": "series",
+      "mentions": 8080
+    },
+    {
+      "v1_status": "unresolved",
+      "v2_status": "unresolved",
+      "level": "unresolved",
+      "mentions": 669
+    },
+    {
+      "v1_status": "resolved",
+      "v2_status": "mapped",
+      "level": "brand",
+      "mentions": 2628
+    },
+    {
+      "v1_status": "resolved",
+      "v2_status": "mapped",
+      "level": "configuration",
+      "mentions": 201
+    },
+    {
+      "v1_status": "unresolved",
+      "v2_status": "mapped",
+      "level": "configuration",
+      "mentions": 19
+    },
+    {
+      "v1_status": "unresolved",
+      "v2_status": "mapped",
+      "level": "brand",
+      "mentions": 490
+    },
+    {
+      "v1_status": "excluded",
+      "v2_status": "excluded",
+      "level": "unresolved",
+      "mentions": 172
+    },
+    {
+      "v1_status": "ambiguous",
+      "v2_status": "unresolved",
+      "level": "unresolved",
+      "mentions": 2
+    },
+    {
+      "v1_status": "resolved",
+      "v2_status": "unresolved",
+      "level": "unresolved",
+      "mentions": 63
+    },
+    {
+      "v1_status": "resolved",
+      "v2_status": "excluded",
+      "level": "unresolved",
+      "mentions": 12
+    },
+    {
+      "v1_status": "unresolved",
+      "v2_status": "excluded",
+      "level": "unresolved",
+      "mentions": 6
+    }
+  ]
+}

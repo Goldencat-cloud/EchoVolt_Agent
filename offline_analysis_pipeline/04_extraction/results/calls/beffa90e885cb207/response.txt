@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.3",
+  "post_id": "beffa90e885cb207",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "屏幕上展示了小米SU7系列三个不同版本的详细配置对比表"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "图片说明描述了发布会现场展示的小米SU7系列三个版本（标准版、Pro版、Max版）的价格及主要配置对比信息。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "屏幕上展示了小米SU7系列三个不同版本的详细配置对比表... 1. Xiaomi SU7（标准版）：售价21.59万元... 2. Xiaomi SU7 Pro（长续航版）：售价24.59万元... 3. Xiaomi SU7 Max（高性能全满配版）：售价29.99万元..."
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7系列发布会配置价格展示",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张发布会现场的大屏幕照片，屏幕上展示了小米SU7系列三个不同版本的详细配置对比表"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "图片说明显示发布会现场大屏幕展示了小米SU7系列三个版本的价格与配置对比。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子包含一张发布会现场图片，图片说明描述了小米SU7系列三个版本的价格与配置对比表。正文仅有一句话“小编慢了”，无其他实质内容。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "低"
+}

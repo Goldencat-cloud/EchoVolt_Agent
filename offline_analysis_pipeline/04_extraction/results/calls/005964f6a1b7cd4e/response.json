@@ -1,0 +1,242 @@
+{
+  "schema_version": "2.3",
+  "post_id": "005964f6a1b7cd4e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新款小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新款小米SU7终于正式首发亮相了"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "Pro版902km续航"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "Max版更配备了红色Brembo卡钳"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "新款小米SU7开启预售，预售价为22.99万元起，预计2026年4月正式上市。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "22.99万起的预售价...预计4月份就能正式上市提车"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "文章指出新款SU7在安全层面进行了大幅迭代，包括新增门锁专用后备电源、2200MPa超强钢防滚架、9个安全气囊（新增2个后排侧气囊）以及电池底部防护升级。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "这次新款小米SU7的升级核心，无疑是安全层面的大幅迭代"
+        },
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "新款SU7的门锁专用后备电源...大幅提升了紧急情况下的逃生便利性"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "新款SU7全系标配激光雷达、4D毫米波雷达及700TOPS算力芯片，并搭载Xiaomi HAD全场景端到端辅助驾驶系统，支持高阶城市NOA。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "全系标配激光雷达和4D毫米波雷达...全系搭载Xiaomi HAD全场景端到端辅助驾驶系统"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "新款SU7 CLTC续航里程有所提升，其中Pro版达到902km，Max版在常温下使用自营充电桩15分钟可补能最高670公里。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "Pro版的902km续航直接突破了900公里大关...Max车型在常温环境下使用自营充电桩，仅需15分钟即可补能最高670公里"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章认为尽管新款SU7预售价相比老款有所上涨（标准版涨1.4万，Max版涨3万），但新增配置价值超过5万元，综合产品力提升使得等待4月上市是值得的。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "相比老款标准版上涨1.4万元，但新增的配置价值远超涨幅...等待还是值得的"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新款小米SU7开启预售",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新款小米SU7终于正式首发亮相了...1月7号10点就开启小订"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "新款小米SU7正式发布并开启预售，预售价22.99万元起，预计2026年4月上市。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "本文详细解读了新款小米SU7的首发亮相及预售信息。文章重点分析了其在安全配置（如门锁后备电源、超强钢车身）、智能驾驶（全系标配激光雷达及高阶NOA）、续航补能及舒适性方面的全面升级，并评估了其22.99万元起的预售价性价比，认为此次改款针对性强，值得消费者期待。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-10T08:45:26.349737+00:00",
+  "baseline_irrelevant_success": 798,
+  "joined_index_size": 798,
+  "distinct_posts": 379,
+  "per_image_body_median_chars": 547,
+  "images_in_posts_ge_1500_chars": 68,
+  "images_in_posts_ge_3000_chars": 19,
+  "csv003_rows": 22116,
+  "posts_loaded": 9970,
+  "model": "qwen3.8-27b",
+  "endpoint_host": "100.116.235.125:4000"
+}

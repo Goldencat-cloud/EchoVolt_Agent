@@ -1,0 +1,68 @@
+{
+ "scenario": "vague",
+ "question": "分析一下 SU7 怎么样",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "f532a85e7fc048e7a7e7e1cf013acba1",
+  "status": "running",
+  "status_url": "/api/agent/report/f532a85e7fc048e7a7e7e1cf013acba1",
+  "request_id": "300ef6f4f2ec"
+ },
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 9.0,
+   "status": "clarifying",
+   "phase": "澄清中"
+  }
+ ],
+ "clarify_count": 3,
+ "outline": null,
+ "regenerate_used": 0,
+ "job_id": "f532a85e7fc048e7a7e7e1cf013acba1",
+ "clarify_questions": [
+  {
+   "field": "topic",
+   "question": "请确认“SU7”是否指小米 SU7 汽车，并明确分析对象的具体范围：仅某一版本/年款（如标准版、Pro、Max、Ultra）还是全系？"
+  },
+  {
+   "field": "topic",
+   "question": "希望围绕哪些维度判断“怎么样”（如销量、价格、配置、性能、续航、智能化、安全性、用户口碑、质量投诉、保值率等）？时间范围和地域范围是什么？"
+  },
+  {
+   "field": "compare",
+   "question": "是否需要竞品对比？若是，请指定对比车型/品牌（如 Tesla Model 3、极氪 007、比亚迪汉等）及对比维度；若否，请明确只做单车型分析。"
+  },
+  {
+   "field": "brand",
+   "question": "品牌口径是仅小米 SU7 单一车型，还是小米汽车/小米品牌整体？是否需要区分 SU7 与 SU7 Ultra 等子车型？"
+  },
+  {
+   "field": "other",
+   "question": "分析结果的使用场景和目标受众是什么（购车决策、投资研究、市场策略、产品改进等）？对数据来源、输出形式或指标口径有无限制？"
+  }
+ ],
+ "clarify_responses": [
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "other"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "other"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "other"
+  }
+ ],
+ "fatal": "clarify_loop_no_cap",
+ "wall_s": 18.0
+}

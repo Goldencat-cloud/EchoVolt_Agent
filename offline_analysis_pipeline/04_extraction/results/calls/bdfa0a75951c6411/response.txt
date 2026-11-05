@@ -1,0 +1,428 @@
+{
+  "schema_version": "2.3",
+  "post_id": "bdfa0a75951c6411",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 四驱超长续航高阶智驾Max版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购车预算约为30万元，硬性要求是顶级智驾和强劲动力，因此排除了没有完整智能体系的新能源车以及智能化落后的合资车。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算卡在30万左右，硬性要求就是顶级智驾和强劲动力，没有完整智能体系的电车直接不考虑。合资车智能化落后，完全不在我的选择里。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者在SUV和轿跑之间进行选择，认为SUV虽然空间大但车身笨重、操控感差，而小米SU7 Max低趴轿跑造型底盘扎实、风阻更低，适合长途代步和周末出游，最终选择了轿车。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我一开始在SUV和轿跑之间纠结，SUV空间大但车身笨重，操控感差；24款小米SU7 Max低趴轿跑造型，底盘扎实、风阻更低，长途代步、周末出游都合适，最终敲定轿车。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者在线下门店试驾了两次小米SU7 Max，认为其底盘调校比作者自己开了多年的燃油车要稳得多，因此在试驾后当场决定下单。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "线下门店前后试驾两次，底盘调校比我开多年的燃油车稳太多，当场直接下定。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买了24款小米SU7 Max，裸车价格为295900元，旧车报废补贴抵扣1000元，保险9800元，免交购置税，上牌费120元，加上选装的轮毂和内饰套件，落地总价约310000元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我入手SU7 Max裸车295900元，旧车报废补贴抵扣1000元，保险9800元，电车免征购置税，上牌费120元，额外选装了运动轮毂与内饰套件，全部落地合计310000元左右"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者在使用小米SU7 Max进行高速通勤时，认为其高阶智驾系统的跟车和变道超车逻辑比自己开车更稳妥，减少了频繁操作，让长途驾驶更加轻松。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最惊喜的就是小米高阶智驾，高速通勤基本不用频繁操作，跟车、变道超车逻辑比我开车更稳妥，我只需要留意路况，长途开车手脚彻底放松。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在进行高速通勤和长途驾驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "高速通勤基本不用频繁操作...长途开车手脚彻底放松"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为小米SU7 Max的动力储备充足，加速迅猛，且刹车线性不突兀。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Max版本动力储备充足，电门一踩提速迅猛，刹车线性不突兀。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者反馈家人乘坐小米SU7 Max后排时，感觉空间宽敞，座椅包裹性好，长时间乘坐不会感到晕车。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "家人坐后排都说空间宽敞，座椅包裹性好，久坐不晕车。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7 Max的电费成本极低，每公里只需几分钱，相比燃油车大大节省了日常通勤开销。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "电费成本极低，一公里才几分钱，再也不用心疼油费。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者评价小米SU7 Max的车机系统流畅丝滑，手机与车机互联无缝，语音控制响应迅速，且运动座椅支撑到位，有助于缓解长途驾驶的疲劳。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米车机流畅丝滑，手机车机无缝互联，语音控制随叫随到，运动座椅支撑到位，跑长途不容易疲惫。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者指出小米SU7 Max的全景天幕在夏季露天停放时会导致车内升温较快，即使配备遮阳帘也无法完全避免，建议停车时尽量选择阴凉处。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "唯一小遗憾是全景天幕，夏天露天停放车内升温快，就算配有遮阳帘，还是建议大家尽量停阴凉车位。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "夏季露天停放。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "夏天露天停放车内升温快"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者提醒准备购车的人需要提前了解置换补贴的手续，因为作者曾因材料不全险些耽误了补贴的申领。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "给准备购车的朋友提个醒：置换补贴手续一定要提前问清楚，我当初差点材料不全耽误申领。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者提到小米SU7 Max的部分泊车功能仍在通过OTA持续更新中，希望厂家能尽快完善全场景自动泊车功能。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "另外部分泊车功能还在持续OTA更新，盼着厂家尽快完善全场景自动泊车。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "如今开了一万多公里，越发觉得选对了车。"
+      }
+    ],
+    "confidence": 0.95
+  ,
+    "age": null,
+    "budget": "30万左右",
+    "preferences": [
+      "偏好高颜值",
+      "注重性能",
+      "注重智能驾驶",
+      "偏好纯电轿车"
+    ]
+  },
+  "post_summary": "作者分享了购买24款小米SU7 Max的喜悦心情及详细提车经历。文章记录了从选车、试驾到落地的全过程，列举了各项费用明细。在用车一万多公里后，作者对车辆的智驾、动力、空间和车机给予了高度评价，但也指出了全景天幕夏季升温快的缺点，并分享了关于置换补贴和泊车功能的避坑经验。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

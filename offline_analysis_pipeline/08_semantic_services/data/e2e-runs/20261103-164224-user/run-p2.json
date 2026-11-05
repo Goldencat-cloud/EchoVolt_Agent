@@ -1,0 +1,422 @@
+{
+ "question": "看看SU7车机和智驾的用户反馈，要具体例子",
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 15.1,
+   "status": "clarifying",
+   "phase": "澄清中"
+  },
+  {
+   "t": 24.1,
+   "status": "running",
+   "phase": "数据探索中"
+  },
+  {
+   "t": 33.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 36.1,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 69.2,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 114.3,
+   "status": "done",
+   "phase": "已完成"
+  }
+ ],
+ "clarify_count": 1,
+ "outline": [
+  {
+   "order": 1,
+   "id": "w1",
+   "question": "小米/SU7 各议题负向观点占比如何排序，问题集中在哪些议题？",
+   "aspect": null,
+   "method": "negative_share_by_aspect",
+   "requires_evidence": null,
+   "visualization": {
+    "type": "bar",
+    "title": "小米/SU7 各议题负向观点占比排序（全量声明口径）"
+   }
+  },
+  {
+   "order": 2,
+   "id": "w2",
+   "question": "负向占比最高的议题（可靠性与故障）用户具体在抱怨什么？",
+   "aspect": "可靠性与故障",
+   "method": "top_negative_claims",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 3,
+   "id": "w3",
+   "question": "负向绝对量最大的议题之一（服务与交付）用户具体在抱怨什么？",
+   "aspect": "服务与交付",
+   "method": "top_negative_claims",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 4,
+   "id": "w4",
+   "question": "可靠性与故障议题的负向说法随时间如何变化？",
+   "aspect": "可靠性与故障",
+   "method": "negative_claims_by_month",
+   "requires_evidence": null,
+   "visualization": {
+    "type": "line",
+    "title": "可靠性与故障负向说法月度走势"
+   }
+  },
+  {
+   "order": 5,
+   "id": "w5",
+   "question": "精选子集的整体情感结构如何（正面/负面/中性/正负混合的条数与占比）？",
+   "aspect": null,
+   "method": "run_aggregate",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 6,
+   "id": "w6",
+   "question": "不同用户所处阶段的负向观点占比是否有明显差异？",
+   "aspect": null,
+   "method": "run_aggregate",
+   "requires_evidence": null,
+   "visualization": null
+  }
+ ],
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "3880d552e29240efa660dfa4142b7062",
+ "final_status": "done",
+ "result": {
+  "ok": true,
+  "report_id": "94a525afba1d",
+  "title": "小米 SU7 口碑结构分析：负面集中议题、具体抱怨与阶段差异（V2.3 抽取 占位数据）",
+  "report_md": "# 小米 SU7 口碑结构分析：负面集中议题、具体抱怨与阶段差异\n\n**分析主体与品牌范围**：本次分析主体为小米（车型 SU7）。数据集中其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）仅作为帖子共现的对比信息存在，不构成分析对象，本报告不对其作任何评价。\n\n**两套口径不可混用**：①全量声明级——负面观点占比 = 负面观点条数 ÷ 该议题全部观点条数；②精选观点样本（核心与潜力精选子集）——仅含通过引文回挂校验的观点，不代表全部用户声音，其中的用户所处阶段、车主/关注者字段仅描述观点属性，不等于用户结构。\n\n## 结论摘要\n\n- **问题最集中的是低频但高负向的\"硬质量\"议题**：全量声明口径下，可靠性与故障负面观点占比 55.1%（54/98 条观点），服务与交付 47.0%（62/132），空间与舒适性 43.4%（131/302），安全与质量 35.1%（66/188），四项构成负面占比第一梯队。\n- **声量与负向呈反向**：外观与内饰观点条数最多（717 条）但负面占比仅 8.8%（63/717）；动力与性能负面占比最低 2.9%（4/137）；智能座舱与车机 7.6%（23/301）、续航与能耗 11.6%（31/268）同样处低位。\n- **可靠性与故障的抱怨指向看得见的结构件与交付初期失效**，而非抽象评价：本次取得的 8 条精选负面观点中，装配件或易损件失效相关 3 条，交付初期抛锚 1 条（归组方式：内容归纳，作者判断，非统计结果）。\n- **服务与交付的痛点分三条线**：交付等待周期、售后维修责任与费用、服务条款（包修里程、车机流量免费期）。本次取得的 8 条中，交付等待相关 3 条、维修责任或费用相关 3 条、服务条款相关 2 条（同上，仅对本次 8 条成立，不外推）。\n- **整体情感以正面为主，购前人群负面占比更高**：精选观点样本中正面观点 476 条、负面 193 条、中性 109 条、正负混合 41 条；按用户所处阶段，购车前负面占比 24.3%（127/522 条观点）高于拥有与日常使用 21.9%（59/269）与交付与上手 16.7%（4/24）。\n\n## 分项事实\n\n### 各议题负面观点占比排序（全量声明口径）\n\n口径：全量声明级，负面观点占比 = 负面观点条数 ÷ 该议题全部观点条数。\n\n**表：小米/SU7 各议题负向观点占比排序（全量声明口径）**\n\n| 议题 | 观点条数 | 负面观点条数 | 负面观点占比 |\n|---|---|---|---|\n| 可靠性与故障 | 98 | 54 | 55.1% |\n| 服务与交付 | 132 | 62 | 47.0% |\n| 空间与舒适性 | 302 | 131 | 43.4% |\n| 安全与质量 | 188 | 66 | 35.1% |\n| 价格与成本 | 144 | 42 | 29.2% |\n| 智能驾驶 | 152 | 42 | 27.6% |\n| 其他 | 54 | 13 | 24.1% |\n| 配置与功能 | 284 | 59 | 20.8% |\n| 充电与补能 | 64 | 13 | 20.3% |\n| 驾驶与操控 | 223 | 37 | 16.6% |\n| 品牌与口碑 | 291 | 45 | 15.5% |\n| 续航与能耗 | 268 | 31 | 11.6% |\n| 外观与内饰 | 717 | 63 | 8.8% |\n| 智能座舱与车机 | 301 | 23 | 7.6% |\n| 动力与性能 | 137 | 4 | 2.9% |\n| 技术原理 | 1 | 0 | 0.0%（仅 1 条观点，支撑不足，不作解读） |\n\n帖子级另作参照（口径不同，不可与上表互换、不可互相推导）：可靠性与故障相关帖子 90 帖中 52 帖含负面反馈；服务与交付 122 帖中 55 帖。\n\n### 可靠性与故障：用户具体在抱怨什么（精选观点样本）\n\n口径：精选观点样本，本次取得该议题负面观点中按日期最近的 8 条（归组方式：内容归纳，作者判断，非统计结果）。\n\n- **装配件与易损件失效（8 条中 3 条）**：高位刹车灯脱落、刹车盘生锈、轮胎爆胎，均为车主亲历描述，指向整车装配与零部件耐久。\n- **交付初期失效（1 条）**：提车极短里程即在高速抛锚，是负面强度最高的一类表述。\n- **电池方案稳定性担忧（1 条）**：对混装电池的顾虑，来自未拥有者。\n- **早期批次质量是否已解决（1 条）**：购前用户对初代装配工艺与车机软件问题的持续追问。\n- **维修成本（1 条）**：大灯总成更换费用被明确量化。\n- **使用类故障（1 条）**：锁车音效自定义因音频编码或体积导致上传失败，属功能使用障碍。\n\n### 服务与交付：用户具体在抱怨什么（精选观点样本）\n\n口径：精选观点样本，本次取得该议题负面观点中按日期最近的 8 条（归组方式：内容归纳，作者判断，非统计结果）。\n\n- **交付等待周期长（8 条中 3 条）**：涉及产能爬坡期等待、等车三个月、大订单量下的交付稳定性担忧；其中 2 条来自未拥有者，属购前决策层面的顾虑。\n- **售后维修责任与费用（3 条）**：自动泊车撞损后的责任认定争议、直营与加盟店费用差异及可维修门店偏少、新品牌覆盖件维修周期与费用不确定。\n- **服务条款（2 条）**：整车包修里程政策、车机流量免费期到期后的费用，属政策信任层面的质疑。\n\n### 可靠性与故障负面说法的月度分布（精选观点样本）\n\n口径：精选观点样本，按观点日期月份聚合，非发帖热度；仅在部分月份有记录，未出现的月份无收录。\n\n**表：可靠性与故障负向说法月度走势（精选观点样本）**\n\n| 月份 | 负面观点条数 |\n|---|---|\n| 2024-03 | 1 |\n| 2024-04 | 3 |\n| 2024-05 | 1 |\n| 2025-02 | 1 |\n| 2025-04 | 1 |\n| 2025-06 | 1 |\n| 2025-08 | 1 |\n| 2025-12 | 1 |\n| 2026-02 | 1 |\n| 2026-07 | 1 |\n\n该分布仅 2024-04 出现 3 条的小高峰，其余月份各 1 条，月度条数不足以支撑上升或下降的趋势判断（置信度：低，各月 1~3 条）。\n\n### 精选观点样本的情感结构\n\n口径：精选观点样本，按情感倾向统计观点条数。\n\n| 情感倾向 | 观点条数 |\n|---|---|\n| 正面 | 476 |\n| 负面 | 193 |\n| 中性 | 109 |\n| 正负混合 | 41 |\n\n结构上以正面观点为主，负面观点为第二大类；该分布描述的是精选观点样本，不代表全部用户声音。\n\n### 不同用户所处阶段的负面观点占比（精选观点样本）\n\n口径：精选观点样本，负面观点占比 = 负面观点条数 ÷ 该阶段观点条数；用户所处阶段是观点属性，不代表用户结构。\n\n| 用户所处阶段 | 观点条数 | 负面观点条数 | 负面观点占比 |\n|---|---|---|---|\n| 购车前 | 522 | 127 | 24.3% |\n| 拥有与日常使用 | 269 | 59 | 21.9% |\n| 交付与上手 | 24 | 4 | 16.7% |\n| 维修与售后 | 4 | 3 | 75.0%（仅 4 条观点，支撑不足，不作解读） |\n\n购车前与拥有/日常使用的负面占比差距有限，不能据此认定购前人群整体更负面；维修与售后组虽占比最高但仅 4 条观点，不得作为结论引用。\n\n## 证据与归组\n\n以下引文逐字摘自证据记录，均来自精选观点样本，不代表全部用户声音。\n\n**可靠性与故障（归组方式：内容归纳，作者判断，非统计结果；该组本次共 8 条）**\n\n- 装配件失效：「小米su7高位刹车灯掉了」（claim_id: 10a14221f9521f2043a1，车主亲历）\n- 零部件状态抱怨：「刹车盘生锈成这样，什么质量，吓人吓人」（claim_id: bf24a63528a6705c6d13，车主亲历）\n- 交付初期抛锚：「刚提的小米SU7 开出交付中心39公里 就在高速上抛锚」（claim_id: 9fcdd622b3b3bfc7a5e6，车主亲历）\n- 轮胎耐久质疑：「苏7的轮胎有这么脆弱吗，这条路肯定开不快，道路条件也不错，具体原因不知道了」（claim_id: baac5bfb490a7cb5f233，车主亲历）\n- 电池方案担忧：「混装电池这个事我还是蛮介意的」（claim_id: 07273c52246d0497a64c，未拥有者）\n- 早期批次疑问：「第一代车型在交付初期暴露的一些装配工艺细节问题、车机软件的小BUG，在这一代上是否得到了彻底解决？这是光看展厅新车无法获知的。」（claim_id: 35e315ec114490de87af，购前人群）\n- 维修成本：「一套大灯总成5500-6500。」（claim_id: b14053f17165c546f3a5，车主亲历）\n- 功能使用障碍：「但这里有个坑——很多手机导出的音频看着是MP3，实际编码可能不兼容，或者文件体积太大导致上传失败。」（claim_id: 7566fe1cedb66323c47c，车主亲历）\n\n**服务与交付（归组方式：内容归纳，作者判断，非统计结果；该组本次共 8 条）**\n\n- 维修责任争议：「居然以雷达位置低，后面有空调挂机而拒绝承担维修责任」（claim_id: 08953169fc065865308c，车主亲历）\n- 售后网络与费用：「至于售后这块，直营店和加盟店的维修费用有差异，费用都相对偏高，且能做维修的门店上海目前就两家，松江九干交付中心直营门店，宝山长江西路永达集团加盟店，浦东加盟店已关门停业」（claim_id: 9f5b566701acb23f1d26，车主亲历）\n- 新品牌维修便利性：「新品牌的维修便利性。车身线条复杂，一旦发生刮蹭，覆盖件的维修周期和费用可能高于成熟品牌。」（claim_id: e8b24e62d2a691638270，购前人群）\n- 交付等待：「发布后火爆的订单量远超预期，使得交付等待时间漫长。能否稳定、高质量地完成大规模交付，是对小米供应链管理和生产能力的严峻考验」（claim_id: 230d1d0df680c38f5d99，车主亲历）\n- 等待周期：「SU7颜值确实能打，但等车三个月谁受得了？」（claim_id: a4b4d6470ae196854b6c，购前人群）\n- 产能爬坡期下单顾虑：「现在下单可能意味着漫长的等待，而且在等待期间遇到小米的竞品车型打折促销你看了看银行卡里已经付出的5000定金，心里一定会十分纠结」（claim_id: a4f6110bda7a150b8c89，购前人群）\n- 车机流量费用：「为啥车机流量免费用一年，那一年之后呢」（claim_id: 5227b83b547cf9605f2a，购前人群）\n- 包修政策质疑：「最恼火的是5年10万公里的整车包修，那是对自己产品的多不自行」（claim_id: c50405613ed35f768fd7，购前人群）\n\n## 限制与不确定性\n\n1. **数据状态**：本次使用上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质，覆盖 2023-12-24 ~ 2026-09-29 全区间。结论仅用于方向性判断，不能作为正式研究结论对外发布。\n2. **口径边界**：议题占比排序与帖子级参照为全量声明口径；引文、情感结构、用户所处阶段、车主/关注者描述均来自精选观点样本，不代表全部用户声音，也不代表用户结构。\n3. **样本量不足项**：技术原理议题仅 1 条观点（负面 0 条）；维修与售后阶段仅 4 条观点（负面 3 条）；可靠性与故障月度分布中各月仅 1~3 条。以上均已在正文标注支撑不足，不构成结论。\n4. **时间维度限制**：月度分布仅统计精选观点样本中负面观点的月份归属，不含无收录月份，不代表帖子热度或全量声量走势。\n5. **未覆盖维度**：本次未做品牌横向对比（其他品牌仅作为帖子共现信息存在，未纳入分析）；未覆盖版本/电池方案等配置维度的差异分析；未做共现产品关联分析。\n6. **归组限制**：证据章节的归组为内容归纳（作者判断），组内条数只对本次取得的 8 条成立，不外推到议题全量。\n\n## 待验证问题\n\n1. 可靠性与故障的负面是否随批次/年份收敛：需在全量数据上按年份与具体零部件类别（灯组、制动、轮胎、电池）拆分，当前精选样本月度条数不足以回答。\n2. 售后维修网络与费用问题的实际影响面：可维修门店数量、直营与加盟费用差异是否构成购前阻碍，需要更大样本与地域维度交叉。\n3. 交付等待抱怨是否已随产能释放缓解：需以全量声量的时间序列而非精选观点样本判断。\n4. 混装电池等电池方案担忧的后续演化，以及它与安全与质量议题（负面占比 35.1%）之间是否存在叠加。\n5. 与同价位竞品（数据集内含极氪 001/007、特斯拉 Model 3 等共现信息）在空间与舒适性（负面占比 43.4%）上的相对位置，需要共现对比分析才能回答。\n\n---\n\n数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质。",
+  "key_findings": [
+   "全量声明口径下，可靠性与故障负面观点占比最高（55.1%，54/98 条观点），服务与交付（47.0%，62/132）与空间与舒适性（43.4%，131/302）次之",
+   "外观与内饰是声量最大且负面最少的议题（717 条观点，负面占比 8.8%），动力与性能负面占比最低（2.9%，4/137）",
+   "可靠性与故障的抱怨以装配件失效与交付初期抛锚为主（高位刹车灯脱落、刹车盘生锈、提车 39 公里抛锚），另含混装电池稳定性担忧",
+   "服务与交付的抱怨集中在交付等待周期、售后维修责任与费用、以及包修与车机流量等服务条款",
+   "精选观点样本中负面观点 193 条、正面 476 条；按用户所处阶段看购车前负面占比 24.3%（127/522）高于拥有与日常使用 21.9%（59/269）"
+  ],
+  "publication_status": "pending_review",
+  "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+  "charts": [
+   {
+    "title": "小米/SU7 各议题负向观点占比排序（全量声明口径）",
+    "anchor": "小米/SU7 各议题负向观点占比排序（全量声明口径）",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"670\" height=\"492\" viewBox=\"0 0 670 492\" role=\"img\" aria-label=\"小米/SU7 各议题负向观点占比排序（全量声明口径）\"><text x=\"0\" y=\"16\" font-size=\"13\" fill=\"#12233d\">小米/SU7 各议题负向观点占比排序（全量声明口径）</text><text x=\"0\" y=\"43\" font-size=\"12\" fill=\"#12233d\">可靠性与故障</text><rect x=\"200\" y=\"30\" width=\"400\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"606\" y=\"43\" font-size=\"11\" fill=\"#12233d\">55.1%</text><text x=\"0\" y=\"71\" font-size=\"12\" fill=\"#12233d\">服务与交付</text><rect x=\"200\" y=\"58\" width=\"340\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"546\" y=\"71\" font-size=\"11\" fill=\"#12233d\">47.0%</text><text x=\"0\" y=\"99\" font-size=\"12\" fill=\"#12233d\">空间与舒适性</text><rect x=\"200\" y=\"86\" width=\"314\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"520\" y=\"99\" font-size=\"11\" fill=\"#12233d\">43.4%</text><text x=\"0\" y=\"127\" font-size=\"12\" fill=\"#12233d\">安全与质量</text><rect x=\"200\" y=\"114\" width=\"254\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"460\" y=\"127\" font-size=\"11\" fill=\"#12233d\">35.1%</text><text x=\"0\" y=\"155\" font-size=\"12\" fill=\"#12233d\">价格与成本</text><rect x=\"200\" y=\"142\" width=\"211\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"417\" y=\"155\" font-size=\"11\" fill=\"#12233d\">29.2%</text><text x=\"0\" y=\"183\" font-size=\"12\" fill=\"#12233d\">智能驾驶</text><rect x=\"200\" y=\"170\" width=\"200\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"406\" y=\"183\" font-size=\"11\" fill=\"#12233d\">27.6%</text><text x=\"0\" y=\"211\" font-size=\"12\" fill=\"#12233d\">其他</text><rect x=\"200\" y=\"198\" width=\"174\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"380\" y=\"211\" font-size=\"11\" fill=\"#12233d\">24.1%</text><text x=\"0\" y=\"239\" font-size=\"12\" fill=\"#12233d\">配置与功能</text><rect x=\"200\" y=\"226\" width=\"150\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"356\" y=\"239\" font-size=\"11\" fill=\"#12233d\">20.8%</text><text x=\"0\" y=\"267\" font-size=\"12\" fill=\"#12233d\">充电与补能</text><rect x=\"200\" y=\"254\" width=\"147\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"353\" y=\"267\" font-size=\"11\" fill=\"#12233d\">20.3%</text><text x=\"0\" y=\"295\" font-size=\"12\" fill=\"#12233d\">驾驶与操控</text><rect x=\"200\" y=\"282\" width=\"120\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"326\" y=\"295\" font-size=\"11\" fill=\"#12233d\">16.6%</text><text x=\"0\" y=\"323\" font-size=\"12\" fill=\"#12233d\">品牌与口碑</text><rect x=\"200\" y=\"310\" width=\"112\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"318\" y=\"323\" font-size=\"11\" fill=\"#12233d\">15.5%</text><text x=\"0\" y=\"351\" font-size=\"12\" fill=\"#12233d\">续航与能耗</text><rect x=\"200\" y=\"338\" width=\"83\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"289\" y=\"351\" font-size=\"11\" fill=\"#12233d\">11.6%</text><text x=\"0\" y=\"379\" font-size=\"12\" fill=\"#12233d\">外观与内饰</text><rect x=\"200\" y=\"366\" width=\"63\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"269\" y=\"379\" font-size=\"11\" fill=\"#12233d\">8.8%</text><text x=\"0\" y=\"407\" font-size=\"12\" fill=\"#12233d\">智能座舱与车机</text><rect x=\"200\" y=\"394\" width=\"55\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"261\" y=\"407\" font-size=\"11\" fill=\"#12233d\">7.6%</text><text x=\"0\" y=\"435\" font-size=\"12\" fill=\"#12233d\">动力与性能</text><rect x=\"200\" y=\"422\" width=\"21\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"227\" y=\"435\" font-size=\"11\" fill=\"#12233d\">2.9%</text><text x=\"0\" y=\"463\" font-size=\"12\" fill=\"#12233d\">技术原理</text><rect x=\"200\" y=\"450\" width=\"2\" height=\"18\" fill=\"#2f6fb3\"></rect><text x=\"208\" y=\"463\" font-size=\"11\" fill=\"#12233d\">0.0%</text></svg>"
+   },
+   {
+    "title": "可靠性与故障负向说法月度走势",
+    "anchor": "可靠性与故障负向说法月度走势",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"680\" height=\"246\" viewBox=\"0 0 680 246\" role=\"img\" aria-label=\"可靠性与故障负向说法月度走势\"><text x=\"0\" y=\"16\" font-size=\"13\" fill=\"#12233d\">可靠性与故障负向说法月度走势</text><polyline fill=\"none\" stroke=\"#2f6fb3\" stroke-width=\"2\" points=\"46.0,136.7 111.3,30.0 176.7,136.7 242.0,136.7 307.3,136.7 372.7,136.7 438.0,136.7 503.3,136.7 568.7,136.7 634.0,136.7\"/><circle cx=\"46.0\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"46.0\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2024-03</text><circle cx=\"111.3\" cy=\"30.0\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"111.3\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2024-04</text><circle cx=\"176.7\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"176.7\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2024-05</text><circle cx=\"242.0\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"242.0\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2025-02</text><circle cx=\"307.3\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"307.3\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2025-04</text><circle cx=\"372.7\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"372.7\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2025-06</text><circle cx=\"438.0\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"438.0\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2025-08</text><circle cx=\"503.3\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"503.3\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2025-12</text><circle cx=\"568.7\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"568.7\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2026-02</text><circle cx=\"634.0\" cy=\"136.7\" r=\"3\" fill=\"#2f6fb3\"></circle><text x=\"634.0\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" fill=\"#12233d\">2026-07</text><text x=\"634\" y=\"22\" font-size=\"10\" text-anchor=\"end\" fill=\"#12233d\">3.0</text></svg>"
+   }
+  ],
+  "evidence_index": [
+   {
+    "claim_id": "07273c52246d0497a64c",
+    "url": "https://club.autohome.com.cn/bbs/thread/46c1ac516f16f35c/113771740-1.html",
+    "date": "2025-12-07 18:10:38",
+    "title": "二选一，你选谁",
+    "aspect": "可靠性与故障",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "08953169fc065865308c",
+    "url": "https://club.autohome.com.cn/bbs/thread/9f09473f23bafc55/115561944-1.html",
+    "date": "2026-07-07 17:44:35",
+    "title": "这是小米su7自动泊车出现的尾部撞损。居然以雷达位置低，后面",
+    "aspect": "服务与交付",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "10a14221f9521f2043a1",
+    "url": "https://club.autohome.com.cn/bbs/thread/c9676870eaa8c483/112502072-1.html",
+    "date": "2025-08-07 17:52:48",
+    "title": "小米su7高位刹车灯掉了",
+    "aspect": "可靠性与故障",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "230d1d0df680c38f5d99",
+    "url": "https://club.autohome.com.cn/bbs/thread/983c16064c1f5b09/112917872-1.html",
+    "date": "2025-09-17 14:12:58",
+    "title": "使用小米SU73个月后的优缺点分析",
+    "aspect": "服务与交付",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "35e315ec114490de87af",
+    "url": "https://club.autohome.com.cn/bbs/thread/aea7709d63d7dda3/114375618-1.html",
+    "date": "2026-02-13 20:07:04",
+    "title": "三年过去，展厅里的新小米SU7还能让你心动吗？",
+    "aspect": "可靠性与故障",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "无法判断"
+   },
+   {
+    "claim_id": "5227b83b547cf9605f2a",
+    "url": "https://club.autohome.com.cn/bbs/thread/8f7d6324346b9a3b/107923580-1.html",
+    "date": "2024-04-01 21:57:39",
+    "title": "为什么不推荐购买小米汽车？小米su7的这些缺点你知道吗？",
+    "aspect": "服务与交付",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   },
+   {
+    "claim_id": "7566fe1cedb66323c47c",
+    "url": "https://club.autohome.com.cn/bbs/thread/6d78e7b270ae826f/115619917-1.html",
+    "date": "2026-07-15 23:17:31",
+    "title": "小米SU7隐藏玩法！锁车音效还能这么玩，手把手教你设置",
+    "aspect": "可靠性与故障",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "9f5b566701acb23f1d26",
+    "url": "https://club.autohome.com.cn/bbs/thread/3ebd953cacf9b9a2/110660810-1.html",
+    "date": "2025-02-12 18:14:00",
+    "title": "小米Su7驾驭心得",
+    "aspect": "服务与交付",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "9fcdd622b3b3bfc7a5e6",
+    "url": "https://club.autohome.com.cn/bbs/thread/35a3503035fa3465/108185709-1.html",
+    "date": "2024-05-08 13:57:58",
+    "title": "su7又趴窝了",
+    "aspect": "可靠性与故障",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "a4b4d6470ae196854b6c",
+    "url": "https://club.autohome.com.cn/bbs/thread/9cf9a8ffad3bbed1/112628117-1.html",
+    "date": "2025-08-20 20:52:46",
+    "title": "极氪7X杀到，SU7的“真·对手”终于上线！",
+    "aspect": "服务与交付",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "无法判断"
+   },
+   {
+    "claim_id": "a4f6110bda7a150b8c89",
+    "url": "https://club.autohome.com.cn/bbs/thread/1a22f94c8692051f/107930840-1.html",
+    "date": "2024-04-02 20:24:49",
+    "title": "小米汽车很酷，但先别急着买",
+    "aspect": "服务与交付",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "不适用"
+   },
+   {
+    "claim_id": "b14053f17165c546f3a5",
+    "url": "https://club.autohome.com.cn/bbs/thread/3ebd953cacf9b9a2/110660810-1.html",
+    "date": "2025-02-12 18:14:00",
+    "title": "小米Su7驾驭心得",
+    "aspect": "可靠性与故障",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "baac5bfb490a7cb5f233",
+    "url": "https://club.autohome.com.cn/bbs/thread/f0c540ddca6d0f9e/111426046-1.html",
+    "date": "2025-04-19 18:47:44",
+    "title": "路遇苏七关键位置爆胎",
+    "aspect": "可靠性与故障",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "bf24a63528a6705c6d13",
+    "url": "https://club.autohome.com.cn/bbs/thread/6fff4f4f1b95bab5/112070727-1.html",
+    "date": "2025-06-21 07:50:53",
+    "title": "刹车盘生锈成这样，什么质量，吓人吓人",
+    "aspect": "可靠性与故障",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "c50405613ed35f768fd7",
+    "url": "https://club.autohome.com.cn/bbs/thread/067f51bce7eb0d24/107915319-1.html",
+    "date": "2024-03-31 19:58:58",
+    "title": "小米su7，雷氏营销的典型 反正我是不会买的。小米做为互联网",
+    "aspect": "服务与交付",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "不适用"
+   },
+   {
+    "claim_id": "e8b24e62d2a691638270",
+    "url": "https://club.autohome.com.cn/bbs/thread/3d12863fec638acb/114597340-1.html",
+    "date": "2026-03-16 22:59:58",
+    "title": "18万买二手SU7 Max是抄底年轻人的第一台电车还是接盘？",
+    "aspect": "服务与交付",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "明确非亲历"
+   }
+  ],
+  "final_message": "报告已提交（报告编号 94a525afba1d），进入复核发布队列。\n\n按全量声明口径，负面观点占比最高的是可靠性与故障（55.1%，54/98）、服务与交付（47.0%，62/132）、空间与舒适性（43.4%，131/302），而声量最大的外观与内饰负面仅 8.8%；引文证据显示抱怨集中在装配件失效、交付初期抛锚、交付等待与售后维修责任费用四条线上。需注意本数据为占位性质（V2.3 抽取），精选观点样本 819 条之外的占比与月度趋势均不具统计支撑，结论仅作方向性参考。",
+  "tool_log": [
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-39 of 39 @@\n---\nname: plan-drafting\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——方法语义与字段契约在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\n---\n\n# 起草分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 0（计划）的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过 `submit_analysis_plan` 确定性校验的完整草案——字段齐全、aspect 与简报枚举逐字一致、覆盖用户问题的全部子问题与比较意图。\n\n## 起草流程（按序执行，完成一步再进入下一步）\n\n1. **读任务简报**：研究请求、数据覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，NEVER 凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`，NEVER 用代码探索（代码分析只属于执行阶段）。\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `semantic_ov"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"以小米/SU7 为主体产出整体口碑画像：先用全量口径对全部议题的负向占比排序定位问题集中区，再对负向占比最高与负向绝对量最大的两个议题取负向说法原文与月度走势，并用聚合原语补充精选子集的情感结构与不同用户所处阶段的负向差异。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"小米/SU7 各议题负向观点占比如何排序，问题集中在哪些议题？\",\"aspect\":null,\"method\":\"negative_share_by_aspect\",\"visualization\":{\"type\":\"bar\",\"x\":\"aspect\",\"y\":\"negative_share\",\"title\":\"小米/SU7 各议题负向观点占比排序（全量声明口径）\"}},{\"id\":\"w2\",\"question\":\"负向占比最高的议题（可靠性与故障）用户具体在抱怨什么？\",\"aspect\":\"可靠性与故障\",\"method\":\"top_negative_claims\"},{\"id\":\"w3\",\"question\":\"负向绝对量最大的议题之一（服务与交付）用户具体在抱怨什么？\",\"aspect\":\"服务与交付\",\"method\":\"top_negative_claims\"},{\"id\":\"w4\""
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "{\"accepted\": true, \"plan\": {\"coverage\": \"以小米/SU7 为主体产出整体口碑画像：先用全量口径对全部议题的负向占比排序定位问题集中区，再对负向占比最高与负向绝对量最大的两个议题取负向说法原文与月度走势，并用聚合原语补充精选子集的情感结构与不同用户所处阶段的负向差异。\", \"workstreams\": [{\"id\": \"w1\", \"question\": \"小米/SU7 各议题负向观点占比如何排序，问题集中在哪些议题？\", \"dimension\": \"other\", \"aspect\": null, \"method\": \"negative_share_by_aspect\", \"requires_evidence\": false, \"visualization\": {\"type\": \"bar\", \"x\": \"aspect\", \"y\": \"negative_share\", \"title\": \"小米/SU7 各议题负向观点占比排序（全量声明口径）\"}}, {\"id\": \"w2\", \"question\": \"负向占比最高的议题（可靠性与故障）用户具体在抱怨什么？\", \"dimension\": \"other\", \"aspect\": \"可靠性与故障\", \"method\": \"top_negative_claims\", \"requires_evidence\": "
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/analysis-methods/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-35 of 35 @@\n---\nname: analysis-methods\ndescription: 执行分析计划（执行阶段必读）。何时读：拿到已获批计划、开始逐项执行时——执行循环、取证规则、失败与空结果处置、结果解读检查都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——方法契约在 run_analysis_method / run_aggregate 工具说明，且方法在计划里已经选定。\n---\n\n# 执行分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 1-2（执行）的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\n\n## 执行循环（对每项 workstream 依次执行，完成一项再取下一项）\n\n1. **取项执行**：普通方法调 `run_analysis_method`，聚合原语工作项调 `run_aggregate`——method/参数从计划原样抄写（原语参数与计划 params 逐字一致）。计划边界与工具边界由工具强制；这里提醒：NEVER 绕开声明方法（use_python=true 时 python_analy"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'negative_share_by_aspect'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"negative_share_by_aspect\", \"params\": {\"limit\": 16}, \"sql\": \"SELECT aspect, claims, negative, posts, negative_posts, negative_share FROM semantic_aspect_metric ORDER BY negative_share DESC LIMIT :limit\", \"columns\": [\"aspect\", \"claims\", \"negative\", \"posts\", \"negative_posts\", \"negative_share\"], \"rows\": [{\"aspect\": \"可靠性与故障\", \"claims\": 98, \"negative\": 54, \"posts\": 90, \"negative_posts\": 52, \"negative_share\": 0.5510204081632653}, {\"aspect\": \"服务与交付\", \"claims\": 132, \"negative\": 62, \"posts\": 122, \"negative_posts\": 55, \"negative_share\": 0.4696969696969697}, {\"aspect\": \"空间与舒适性\", \"claims\": 302,"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'top_negative_claims', 'aspect': '可靠性与故障', 'limit': 8}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'top_negative_claims', 'aspect': '服务与交付', 'limit': 8}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"top_negative_claims\", \"params\": {\"aspect\": \"可靠性与故障\", \"limit\": 8}, \"sql\": \"SELECT claim_id, date, journey, ownership, experience, title, url, substr(content, 1, 240) AS excerpt, quote FROM semantic_claim_evidence WHERE aspect = :aspect AND sentiment = '负面' ORDER BY date DESC LIMIT :limit\", \"columns\": [\"claim_id\", \"date\", \"journey\", \"ownership\", \"experience\", \"title\", \"url\", \"excerpt\", \"quote\"], \"rows\": [{\"claim_id\": \"7566fe1cedb66323c47c\", \"date\": \"2026-07-15 23:17:31\", \"journey\": \"拥有与日常使用\", \"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"title\": \"小米SU7隐藏玩法！锁车音效还能这么玩，手把手教你设置\", \"url\": \"h"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"top_negative_claims\", \"params\": {\"aspect\": \"服务与交付\", \"limit\": 8}, \"sql\": \"SELECT claim_id, date, journey, ownership, experience, title, url, substr(content, 1, 240) AS excerpt, quote FROM semantic_claim_evidence WHERE aspect = :aspect AND sentiment = '负面' ORDER BY date DESC LIMIT :limit\", \"columns\": [\"claim_id\", \"date\", \"journey\", \"ownership\", \"experience\", \"title\", \"url\", \"excerpt\", \"quote\"], \"rows\": [{\"claim_id\": \"08953169fc065865308c\", \"date\": \"2026-07-07 17:44:35\", \"journey\": \"维修与售后\", \"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"title\": \"这是小米su7自动泊车出现的尾部撞损。居然以雷达位置低，后面\", \"url\": \"h"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '可靠性与故障', 'method': 'negative_claims_by_month'}"
+   },
+   {
+    "tool": "run_aggregate",
+    "args": "{'group_by': '[\"sentiment\"]', 'metric': 'claims'}"
+   },
+   {
+    "tool": "run_aggregate",
+    "args": "{'group_by': '[\"journey\"]', 'metric': 'negative_share'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"negative_claims_by_month\", \"params\": {\"aspect\": \"可靠性与故障\"}, \"sql\": \"SELECT substr(date, 1, 7) AS month, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect AND sentiment = '负面' GROUP BY month ORDER BY month\", \"columns\": [\"month\", \"n\"], \"rows\": [{\"month\": \"2024-03\", \"n\": 1}, {\"month\": \"2024-04\", \"n\": 3}, {\"month\": \"2024-05\", \"n\": 1}, {\"month\": \"2025-02\", \"n\": 1}, {\"month\": \"2025-04\", \"n\": 1}, {\"month\": \"2025-06\", \"n\": 1}, {\"month\": \"2025-08\", \"n\": 1}, {\"month\": \"2025-12\", \"n\": 1}, {\"month\": \"2026-02\", \"n\": 1}, {\"month\": \"2026-07\", \"n\": 1}], \"row_count\": 10, \"caliber\": \"精选子集"
+   },
+   {
+    "tool": "run_aggregate",
+    "output": "{\"method\": \"run_aggregate\", \"params\": {\"metric\": \"claims\", \"group_by\": [\"sentiment\"]}, \"sql\": \"SELECT c.sentiment AS sentiment, COUNT(*) AS claims FROM semantic_claim_fact c GROUP BY sentiment ORDER BY sentiment\", \"columns\": [\"sentiment\", \"claims\"], \"rows\": [{\"sentiment\": \"中性\", \"claims\": 109}, {\"sentiment\": \"正负混合\", \"claims\": 41}, {\"sentiment\": \"正面\", \"claims\": 476}, {\"sentiment\": \"负面\", \"claims\": 193}], \"row_count\": 4, \"caliber\": \"精选子集口径：仅统计 core/potential 精选观点及其引文证据，不代表全部用户声音；聚合原语（观点声明数，按sentiment分组）\", \"elapsed_ms\": 0, \"verification\": {\"ok\": true, \"errors\": [], \"warnings\": [], \"checks\": [\"calib"
+   },
+   {
+    "tool": "run_aggregate",
+    "output": "{\"method\": \"run_aggregate\", \"params\": {\"metric\": \"negative_share\", \"group_by\": [\"journey\"]}, \"sql\": \"SELECT COALESCE(c.journey, '未标注') AS journey, COUNT(*) AS claims, SUM(CASE WHEN c.sentiment = '负面' THEN 1 ELSE 0 END) AS negative, CAST(SUM(CASE WHEN c.sentiment = '负面' THEN 1 ELSE 0 END) AS REAL) / NULLIF(COUNT(*), 0) AS negative_share FROM semantic_claim_fact c GROUP BY journey ORDER BY journey\", \"columns\": [\"journey\", \"claims\", \"negative\", \"negative_share\"], \"rows\": [{\"journey\": \"交付与上手\", \"claims\": 24, \"negative\": 4, \"negative_share\": 0.16666666666666666}, {\"journey\": \"拥有与日常使用\", \"claims\": 269"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-86 of 86 @@\n---\nname: report-authoring\ndescription: 报告撰写与提交（报告阶段必读）。何时读：提交 submit_report 前——报告结构、证据引用与归组、口径表述红线、术语转换、提交流程都在这里。何时不读：选择与执行分析方法（用 analysis-methods）；起草计划（用 plan-drafting）。误用反例：把本文件当证据获取说明——怎么取证见 analysis-methods 的\"取证规则\"。\n---\n\n# 报告撰写与提交\n\n## 角色与读者\n\n服务对象：准备提交报告的 Agent（阶段 3）。输出标准：通过 report_gate 的五段结构中文报告，每个数字可核验、每条引用可回溯、面向用户说业务语言。报告面向业务负责人和研究人员：先结论后依据，数字可核验，限制如实。正文中文 Markdown；长度上限以服务端发布门禁为准（超限时 submit_report 会返回具体数值与修订要求）。\n\n## 报告结构（五段，顺序固定）\n\n1. **结论摘要**：先回答用户的问题，分点列出 3–5 条（可与 key_findings 同源），每条一句结论 + 核心数字（带口径）；只写有证据支撑的结论。小样本结论（观点条数 n < 30 的分布或走势）句尾标注置信度——「（置信度：低，n=12）」；高置信结"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'title': '小米 SU7 口碑结构分析：负面集中议题、具体抱怨与阶段差异（V2.3 临时样本）', 'key_findings': '[\"全量声明口径下，可靠性与故障负面观点占比最高（55.1%，54/98 条观点），服务与交付（47.0%，62/132）与空间与舒适性（43.4%，131/302）次之\",\"外观与内饰是声量最大且负面最少的议题（717 条观点，负面占比 8.8%），动力与性能负面占比最低（2.9%，4/137）\",\"可靠性与故障的抱怨以装配件失效与早期抛锚为主（高位刹车灯脱落、刹车盘生锈、提车 39 公里抛锚），另含混装电池稳定性担忧\",\"服务与交付的抱怨集中在交付等待周期长、售后维修责任与费用、以及包修与车机流量等服务条款\",\"精选观点样本中负面占 23.6%（193/819 条），按用户所处阶段看购车前负面占比 24.3%（127/522）高于拥有与日常使用 21.9%（59/269）\"]', 'markdown': '# 小米 SU7 口碑结构分析：负面集中议题、具体抱怨与阶段差异\\n\\n> **分析主体与品牌范围**：本次分析主体为小米（车型 SU7）。数据集中其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）仅作为帖子共现的对比信息存在，不构成分析对象，本报告不对其作任何评价。\\n>\\n> **数据状态**：基于 V2.3（临时样本）数据集"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"缺少章节：结论摘要\", \"缺少章节：证据与归组\", \"缺少章节：限制与不确定性\", \"正文必须明确写出当前数据版本（上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质），如在页脚写「数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质」\", \"报告包含未在分析工具结果中找到的数字：819, 58.1%, 23.6%, 13.3%, 11, 28, 819, 58.1%, 23.6%, 13.3%, 2.4, 819, 23.6%, 819。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [\"建议补充章节：归因分析（按计划类型提示，不阻断提交）\"], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_find"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"全量声明口径下，可靠性与故障负面观点占比最高（55.1%，54/98 条观点），服务与交付（47.0%，62/132）与空间与舒适性（43.4%，131/302）次之\",\"外观与内饰是声量最大且负面最少的议题（717 条观点，负面占比 8.8%），动力与性能负面占比最低（2.9%，4/137）\",\"可靠性与故障的抱怨以装配件失效与交付初期抛锚为主（高位刹车灯脱落、刹车盘生锈、提车 39 公里抛锚），另含混装电池稳定性担忧\",\"服务与交付的抱怨集中在交付等待周期、售后维修责任与费用、以及包修与车机流量等服务条款\",\"精选观点样本中负面观点 193 条、正面 476 条；按用户所处阶段看购车前负面占比 24.3%（127/522）高于拥有与日常使用 21.9%（59/269）\"]', 'markdown': '# 小米 SU7 口碑结构分析：负面集中议题、具体抱怨与阶段差异\\n\\n**分析主体与品牌范围**：本次分析主体为小米（车型 SU7）。数据集中其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）仅作为帖子共现的对比信息存在，不构成分析对象，本报告不对其作任何评价。\\n\\n**两套口径不可混用**：①全量声明级——负面观点占比 = 负面观点条数 ÷ 该议题全部观点条数；②精选观点样本（核心与潜力精选子集）——仅含通过引文回挂校验的观点，不"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"报告包含未在分析工具结果中找到的数字：11。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [\"建议补充章节：归因分析（按计划类型提示，不阻断提交）\"], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_provenance\"]}, \"attempt\": 2, \"attempts_left\": 2}"
+   },
+   {
+    "tool": "edit_file",
+    "args": "{'file_path': '/tmp/placeholder.md', 'old_string': 'x', 'new_string': 'y'}"
+   },
+   {
+    "tool": "edit_file",
+    "output": "Error: File '/tmp/placeholder.md' not found"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"全量声明口径下，可靠性与故障负面观点占比最高（55.1%，54/98 条观点），服务与交付（47.0%，62/132）与空间与舒适性（43.4%，131/302）次之\",\"外观与内饰是声量最大且负面最少的议题（717 条观点，负面占比 8.8%），动力与性能负面占比最低（2.9%，4/137）\",\"可靠性与故障的抱怨以装配件失效与交付初期抛锚为主（高位刹车灯脱落、刹车盘生锈、提车 39 公里抛锚），另含混装电池稳定性担忧\",\"服务与交付的抱怨集中在交付等待周期、售后维修责任与费用、以及包修与车机流量等服务条款\",\"精选观点样本中负面观点 193 条、正面 476 条；按用户所处阶段看购车前负面占比 24.3%（127/522）高于拥有与日常使用 21.9%（59/269）\"]', 'markdown': '# 小米 SU7 口碑结构分析：负面集中议题、具体抱怨与阶段差异\\n\\n**分析主体与品牌范围**：本次分析主体为小米（车型 SU7）。数据集中其他品牌（特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界）仅作为帖子共现的对比信息存在，不构成分析对象，本报告不对其作任何评价。\\n\\n**两套口径不可混用**：①全量声明级——负面观点占比 = 负面观点条数 ÷ 该议题全部观点条数；②精选观点样本（核心与潜力精选子集）——仅含通过引文回挂校验的观点，不"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"report_id\": \"94a525afba1d\", \"status\": \"pending_review\", \"saved\": \"D:\\\\Desktop\\\\Competitions\\\\new_energy_data_analysis_agent\\\\offline_analysis_pipeline\\\\08_semantic_services\\\\reports\\\\agent\\\\94a525afba1d\", \"next_step\": \"由非作者队友复核并通过 report_publisher.py 发布。\"}"
+   }
+  ],
+  "tool_errors": 0,
+  "metrics": {
+   "successful_tool_calls": 10,
+   "tool_errors": 0,
+   "code_failures": 0,
+   "submit_attempts": 3,
+   "gate_rejections": 2
+  },
+  "elapsed_ms": 89603
+ },
+ "error": null,
+ "wall_s": 114.3
+}

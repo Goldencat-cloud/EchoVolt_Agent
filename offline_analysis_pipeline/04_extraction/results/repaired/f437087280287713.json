@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f437087280287713",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "下方标注车型名称为“Xiaomi SU7”"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "基础车型为“SU7”"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者认为小米汽车的定金/订金流程繁琐（需填写个人信息、同意协议、支付密码及手动锁单），因此断定所谓的“误触”实则是部分网友故意捣乱或“装逼”所致。",
+      "sentiment": "负面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "个人亲测小米汽车定金或者订金都是那些网友绝对装逼导致的，因为要输入各种个人信息点击同意一个协议，就算你支付了定订金手只要不溅，点提前锁单，就算你点击锁单人家还是有提示。那你还是要点击锁单，既然你不买车为什么要手贱填写那么多步骤呢，还说什么误碰，就算你误碰，你能误碰到你填写姓名身份证然后还要输入密码，还要在7天冷静期点击锁单，所以说有些人就是特么来捣乱的！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "个人亲测小米汽车定金或者订金..."
+      },
+      {
+        "block_id": "I0",
+        "source_type": "image_summary",
+        "quote": "这是一张手机APP上的“待支付定金”订单详情截图。"
+      }
+    ],
+    "confidence": 0.85,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者自称亲测小米SU7的订车流程，指出由于流程中包含填写实名信息、支付密码及主动点击锁单等多个环节，因此认为网友所称的“误触下错单”多为故意捣乱或炫耀，而非真正的操作失误。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

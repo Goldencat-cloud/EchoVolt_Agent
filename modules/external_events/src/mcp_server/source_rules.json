@@ -1,0 +1,29 @@
+{
+  "tld_t1_domains": ["gov.cn", "gov"],
+  "t2_domains": [
+    "xinhuanet.com", "news.cn", "people.com.cn", "cctv.com", "caixin.com",
+    "21jingji.com", "jiemian.com", "stcn.com", "jfdaily.com", "cls.cn",
+    "yicai.com", "ifeng.com", "autohome.com.cn", "gasgoo.com", "eeo.com.cn",
+    "sina.com.cn", "sina.cn", "zaobao.com.sg", "cnstock.com", "nbd.com.cn",
+    "qq.com", "163.com", "sohu.com", "thepaper.cn", "ce.cn"
+  ],
+  "blacklist_domains": ["ofweek.com", "che888.com"],
+  "ugc_domains": [
+    "chejiahao.autohome.com.cn", "chejiahao.m.autohome.com.cn",
+    "baijiahao.baidu.com", "newrank.cn", "mp.weixin.qq.com"
+  ],
+  "confidence": {
+    "tier_base": {"T1": 90, "T2": 70, "T3": 40},
+    "ugc_penalty": 40,
+    "official_bonus": 10,
+    "has_date_bonus": 10,
+    "min_event_authority": 50
+  },
+  "cluster": {"cos_threshold": 0.55, "date_window_days": 3},
+  "subtype_hints": [
+    ["召回", "recall"], ["降价", "price"], ["涨价", "price"], ["价格", "price"],
+    ["售价", "price"], ["更新", "update"], ["升级", "update"], ["OTA", "update"],
+    ["发布", "launch"], ["上市", "launch"], ["事故", "incident"], ["投诉", "complaint"],
+    ["销量", "sales"], ["对比", "comparison"], ["政策", "policy"], ["监管", "policy"]
+  ]
+}

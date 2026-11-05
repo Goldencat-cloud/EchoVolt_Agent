@@ -1,0 +1,202 @@
+{
+  "schema_version": "2.3",
+  "post_id": "62e53557c291e409",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7通勤能耗"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车 55 天，刚好跑了 1142 公里"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者提车55天行驶1142公里，近一个月平均能耗稳定在14.3kWh/100km，最佳能耗为9.6kWh/100km。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车 55 天，刚好跑了 1142 公里... 近一个月能耗稳定 14.3，最佳能跑到 9.6"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "“PorsMi 已陪伴您 55天 1142公里”... “平均能耗 14.3 kWh/100km”和“最佳能耗 9.6 kWh/100km”"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "市区代步，夏季，开启空调、停车自动降温及哨兵模式，频繁启停。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "基本天天市区代步... 市区频繁启停、夏天空调一直开，加上停车自动降温和哨兵模式"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者选择了20寸梅花轮毂，认为其颜值很高，但也指出这会带来滚动阻力大和风阻大的影响。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "选了 20 寸梅花轮毂，颜值没得说，但滚阻、风阻摆在这"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者在市区通勤场景下，利用谷电每周充电一次花费约30元，认为代步成本可以接受。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "平时谷电一周充一次 30 块，代步成本倒是能接受。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "市区通勤代步，使用谷电充电。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "平时谷电一周充一次 30 块，代步成本倒是能接受。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者累计使用辅助驾驶300公里，目的是解锁HAD功能，而在平时堵车和通勤场景中主要依靠手动驾驶。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "辅助驾驶三百公里纯是为了解锁HAD，平时堵车、通勤全靠自己踩。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "339 km（绿色条）对应“辅助驾驶 30%”"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "市区通勤及堵车场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "平时堵车、通勤全靠自己踩。"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车 55 天，刚好跑了 1142 公里"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享小米SU7提车55天的市区通勤能耗与使用体验。作者记录了平均14.3kWh/100km的能耗数据，分析了20寸轮毂对能耗的影响，并认为利用谷电充电使得日常代步成本可以接受。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

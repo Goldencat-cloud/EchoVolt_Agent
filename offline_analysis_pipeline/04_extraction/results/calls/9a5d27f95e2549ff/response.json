@@ -1,0 +1,254 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9a5d27f95e2549ff",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "官方宣传小米su7 ultra是三电机的版本"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "布加迪Tourbillon",
+      "entity_level": "具体配置",
+      "brand": "布加迪",
+      "series": "Tourbillon",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "布加迪Tourbillon新龙王有1800匹马力"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7 Ultra以81.49万元的起售价提供了接近2798万元布加迪Tourbillon的性能体验，性价比高，“体验过就是赚到了”。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "就这81.49万可以体验2798万的快感就已经值了！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "就这81.49万可以体验2798万的快感就已经值了！"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者评价小米SU7 Ultra的外观具有显著的运动化特征，包括夸张的包围、碳纤维空气动力学套件、风刀、巨大尾翼和主动式后扰流板，认为其外形漂亮且具吸引力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "巨大也夸张的包围，众多的碳纤维空气动力学套件，有着各种各样的风刀来破开空气，增加下压力，或者降低风阻，来增加车子的性能！"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "从侧面看最大的不同就是巨大的尾翼...从后边看不仅仅是有一个巨大的尾翼，还有车底下的主动式的后扰流板...就这漂亮的外形，谁能不心动呢？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出小米SU7 Ultra内饰采用Alcantara与真皮结合的座椅以降低重量并增加摩擦力和包裹性，车内大量使用碳纤维部件以减重。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "座椅用Alcantara与真皮来降低车内的重量，这样即可以减轻重量，又可以增加座椅摩擦力...座椅两侧尺寸更大，应该也是为了增加座椅包裹性...各种各样的碳纤维，也是为了车子减重做出了巨大贡献。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者列举小米SU7 Ultra配备Akebono卡钳、ENDLESS刹车片、AP Racing碳陶刹车盘（直径430mm），宣称其具备100km/h至0制动距离30多米、180km/h连续10次制动无衰减的能力，达到千万级超跑标准。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "所以就配备了Akebono刹车卡钳，刹车片用的是ENDLESS的，碳陶刹车盘用的是AP Racing的，直径达到了430㎜。这才有了一百公里到0公里，仅需要30米多一点的成绩，更是做到了180公里急刹车到0公里，连续10次没有衰减！这完全就是千万级超级跑车的标准了。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7 Ultra加速过快（1.98秒）对大多数驾驶员构成安全隐患，指出加速快是不安全因素，易导致驾驶员失控或发生事故，特别是对于技术不佳、性情暴躁或喜欢飙车的用户。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "车子加速的快慢与安全问题不能完全划等号！！！只能说车子加速快是一个不安全的因素...如果开上加速两秒小米su7 ultra那直接就是马路杀手，随时随地都有可能出现事故！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者建议小米SU7 Ultra应借鉴性能车做法，设置动力限制模式，平时限制动力以提升安全性和延长车辆寿命，仅在赛道或封闭场地解锁全部性能。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "我建议小米su7 ultra跟那些性能车或者超级跑车学习一下，设置几个性能设计，不要一上来就开放全部性能，限制动力的同时，即可以让你有一个平时能驾驭的动力，来提升安全！又可以增加车子的寿命"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子详细评测了小米SU7 Ultra的外观、内饰、制动系统及性能参数，将其与布加迪Tourbillon进行性价比对比，认为其价格极具吸引力。同时，作者重点讨论了该车极致加速带来的安全隐患，批评部分车主滥用性能，并建议厂家增加动力限制模式以提升日常行驶安全性。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

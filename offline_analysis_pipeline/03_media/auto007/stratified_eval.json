@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-10T10:08:21.792997+00:00",
+  "labels_used": "offline stratification only; NOT sent to model",
+  "label_source": "G:\\AutoInsight-wt-collaboration\\collaboration\\qc\\reviews\\human-irrelevant-removal-review-20261010-n100-s20261010.json",
+  "labeled_subset_size": 100,
+  "label_counts": {
+    "removable": 81,
+    "retain": 11,
+    "doubtful": 8
+  },
+  "groups": {
+    "removable": {
+      "n": 81,
+      "success": 81,
+      "failed": 0,
+      "image_type_changed_pct": 100.0,
+      "mentions_post_text_pct": 93.83,
+      "identification_changed_pct": 2.47,
+      "expansion_applied_pct": 0.0,
+      "context_relevance_counts": {
+        "无关": 16,
+        "有关": 64,
+        "证据不足": 1
+      },
+      "note": "triage heuristics, not accuracy; change != improvement"
+    },
+    "retain": {
+      "n": 11,
+      "success": 11,
+      "failed": 0,
+      "image_type_changed_pct": 100.0,
+      "mentions_post_text_pct": 100.0,
+      "identification_changed_pct": 63.64,
+      "expansion_applied_pct": 0.0,
+      "context_relevance_counts": {
+        "有关": 11
+      },
+      "note": "triage heuristics, not accuracy; change != improvement"
+    },
+    "doubtful": {
+      "n": 8,
+      "success": 8,
+      "failed": 0,
+      "image_type_changed_pct": 100.0,
+      "mentions_post_text_pct": 87.5,
+      "identification_changed_pct": 25.0,
+      "expansion_applied_pct": 0.0,
+      "context_relevance_counts": {
+        "有关": 7,
+        "无关": 1
+      },
+      "note": "triage heuristics, not accuracy; change != improvement"
+    }
+  },
+  "verifiable_cases_note": "A case is 'verifiable' when the human label and the after judgment address the same question (e.g. removable label vs context_relevance=无关)."
+}

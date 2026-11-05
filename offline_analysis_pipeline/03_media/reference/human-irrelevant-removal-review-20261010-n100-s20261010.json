@@ -1,0 +1,625 @@
+﻿{
+  "meta": {
+    "n": 100,
+    "seed": 20261010,
+    "store": "irrelevant-removal-review-20261010-n100-s20261010",
+    "input": "G:\\AutoInsight-local-qc\\irrelevant-review\\irrelevant-input.jsonl",
+    "generatedAt": "2026-10-10T03:06:31.289Z",
+    "missingImages": 0,
+    "mode": "single",
+    "alloc": {
+      "irrelevant": 100
+    },
+    "review_purpose": "Human judgment: pass=eligible for removal, doubt=needs context, fail=retain",
+    "population_n": 798
+  },
+  "marks": {
+    "img_a12d301a0b434f2b_004": {
+      "v": "pass",
+      "image_id": "img_a12d301a0b434f2b_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:25:30.795Z"
+    },
+    "img_91c7ce8e3c15bd62_002": {
+      "v": "fail",
+      "image_id": "img_91c7ce8e3c15bd62_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:26:21.303Z"
+    },
+    "img_aea4cd8247eb7da0_001": {
+      "v": "pass",
+      "image_id": "img_aea4cd8247eb7da0_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:26:24.709Z"
+    },
+    "img_80d06bd7a75878ba_006": {
+      "v": "pass",
+      "image_id": "img_80d06bd7a75878ba_006",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:26:28.271Z"
+    },
+    "img_c8eee0b1facd46a6_002": {
+      "v": "pass",
+      "image_id": "img_c8eee0b1facd46a6_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:26:39.464Z"
+    },
+    "img_e0d7b4bf3421713a_002": {
+      "v": "fail",
+      "image_id": "img_e0d7b4bf3421713a_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:26:51.905Z"
+    },
+    "img_b862983b8d6b270b_003": {
+      "v": "pass",
+      "image_id": "img_b862983b8d6b270b_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:26:55.068Z"
+    },
+    "img_836c4f001809c228_008": {
+      "v": "pass",
+      "image_id": "img_836c4f001809c228_008",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:26:57.169Z"
+    },
+    "img_ceefd9444f9f861c_004": {
+      "v": "pass",
+      "image_id": "img_ceefd9444f9f861c_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:02.409Z"
+    },
+    "img_ceefd9444f9f861c_012": {
+      "v": "pass",
+      "image_id": "img_ceefd9444f9f861c_012",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:07.212Z"
+    },
+    "img_b94b4d2b626ee369_002": {
+      "v": "pass",
+      "image_id": "img_b94b4d2b626ee369_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:09.484Z"
+    },
+    "img_35bf068ffb68bb3b_001": {
+      "v": "pass",
+      "image_id": "img_35bf068ffb68bb3b_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:12.382Z"
+    },
+    "img_cc99351499abacee_005": {
+      "v": "pass",
+      "image_id": "img_cc99351499abacee_005",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:14.285Z"
+    },
+    "img_a3cdfb7e2391d7e6_003": {
+      "v": "pass",
+      "image_id": "img_a3cdfb7e2391d7e6_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:19.975Z"
+    },
+    "img_772655f8b2881e55_004": {
+      "v": "pass",
+      "image_id": "img_772655f8b2881e55_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:26.187Z"
+    },
+    "img_ba9e5caae07f7430_010": {
+      "v": "pass",
+      "image_id": "img_ba9e5caae07f7430_010",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:30.086Z"
+    },
+    "img_8ff64a24b90b74a7_010": {
+      "v": "pass",
+      "image_id": "img_8ff64a24b90b74a7_010",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:27:32.428Z"
+    },
+    "img_36f501c2d4581aa1_003": {
+      "v": "fail",
+      "image_id": "img_36f501c2d4581aa1_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:28:10.334Z",
+      "note": "是否是强调小米生态的优势？可能成为购买小米汽车的因素之一"
+    },
+    "img_e5687f6a44a8f85f_001": {
+      "v": "pass",
+      "image_id": "img_e5687f6a44a8f85f_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:28:13.882Z"
+    },
+    "img_03c0ee8f61053055_001": {
+      "v": "pass",
+      "image_id": "img_03c0ee8f61053055_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:28:15.840Z"
+    },
+    "img_c34a9ed5100de6e2_007": {
+      "v": "pass",
+      "image_id": "img_c34a9ed5100de6e2_007",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:28:17.635Z"
+    },
+    "img_de31bef07f7fae2a_003": {
+      "v": "pass",
+      "image_id": "img_de31bef07f7fae2a_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:28:19.656Z"
+    },
+    "img_61816e6f4c04ce88_010": {
+      "v": "pass",
+      "image_id": "img_61816e6f4c04ce88_010",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:28:26.161Z"
+    },
+    "img_7da33e43393d0f6f_004": {
+      "v": "fail",
+      "image_id": "img_7da33e43393d0f6f_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:29:12.970Z",
+      "note": "参考小米股票体现市场对其的预期"
+    },
+    "img_aa3e80c61f327df1_001": {
+      "v": "pass",
+      "image_id": "img_aa3e80c61f327df1_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:29:18.018Z"
+    },
+    "img_ba9e5caae07f7430_015": {
+      "v": "pass",
+      "image_id": "img_ba9e5caae07f7430_015",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:29:20.299Z"
+    },
+    "img_bd832075c64f905b_006": {
+      "v": "pass",
+      "image_id": "img_bd832075c64f905b_006",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:29:22.851Z"
+    },
+    "img_dba9e986c80ca2d4_020": {
+      "v": "doubt",
+      "image_id": "img_dba9e986c80ca2d4_020",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:29:55.090Z",
+      "note": "应该结合上下文判定，我怀疑是车载香氛系统"
+    },
+    "img_4cbc7631a5d59889_002": {
+      "v": "pass",
+      "image_id": "img_4cbc7631a5d59889_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:29:58.931Z"
+    },
+    "img_3efbe40ec3eb6a07_002": {
+      "v": "pass",
+      "image_id": "img_3efbe40ec3eb6a07_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:30:01.101Z"
+    },
+    "img_6a2f6229538eb095_003": {
+      "v": "pass",
+      "image_id": "img_6a2f6229538eb095_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:30:02.938Z"
+    },
+    "img_8f7857f0daa4f5ba_002": {
+      "v": "pass",
+      "image_id": "img_8f7857f0daa4f5ba_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:30:04.737Z"
+    },
+    "img_7c9267e99b3c7c94_001": {
+      "v": "doubt",
+      "image_id": "img_7c9267e99b3c7c94_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:30:12.597Z"
+    },
+    "img_30f93baeec1ce169_001": {
+      "v": "pass",
+      "image_id": "img_30f93baeec1ce169_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:30:22.101Z"
+    },
+    "img_8afed1bb760c636c_003": {
+      "v": "doubt",
+      "image_id": "img_8afed1bb760c636c_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:31:16.122Z",
+      "note": "不确定是否与汽车车祸做关联"
+    },
+    "img_f757b82f99632ff7_001": {
+      "v": "doubt",
+      "image_id": "img_f757b82f99632ff7_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:31:23.603Z"
+    },
+    "img_2dfcc395ea519c24_004": {
+      "v": "pass",
+      "image_id": "img_2dfcc395ea519c24_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:31:26.607Z"
+    },
+    "img_205816096b60931d_011": {
+      "v": "pass",
+      "image_id": "img_205816096b60931d_011",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:31:29.303Z"
+    },
+    "img_e184c0e09d30db80_005": {
+      "v": "fail",
+      "image_id": "img_e184c0e09d30db80_005",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:31:32.177Z"
+    },
+    "img_aba54596ae754106_001": {
+      "v": "fail",
+      "image_id": "img_aba54596ae754106_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:31:37.670Z"
+    },
+    "img_0e111a33bd42f567_001": {
+      "v": "pass",
+      "image_id": "img_0e111a33bd42f567_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:31:40.170Z"
+    },
+    "img_5f1841ecb676f8d6_006": {
+      "v": "fail",
+      "image_id": "img_5f1841ecb676f8d6_006",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:32:28.854Z",
+      "note": "这不是室内平面布局设计示意图，这是小米澎程系列的宣传图，图中展示汽车场景多样性"
+    },
+    "img_ceefd9444f9f861c_018": {
+      "v": "pass",
+      "image_id": "img_ceefd9444f9f861c_018",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:33:11.725Z"
+    },
+    "img_404b7903928e846a_001": {
+      "v": "pass",
+      "image_id": "img_404b7903928e846a_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:33:42.699Z"
+    },
+    "img_743f6f7586b8b01a_005": {
+      "v": "pass",
+      "image_id": "img_743f6f7586b8b01a_005",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:33:44.865Z"
+    },
+    "img_61816e6f4c04ce88_012": {
+      "v": "doubt",
+      "image_id": "img_61816e6f4c04ce88_012",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:33:49.835Z"
+    },
+    "img_ba9e5caae07f7430_009": {
+      "v": "pass",
+      "image_id": "img_ba9e5caae07f7430_009",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:33:59.182Z"
+    },
+    "img_40a583fc07a40da8_001": {
+      "v": "pass",
+      "image_id": "img_40a583fc07a40da8_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:01.060Z"
+    },
+    "img_205816096b60931d_017": {
+      "v": "doubt",
+      "image_id": "img_205816096b60931d_017",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:05.614Z"
+    },
+    "img_0bde1599d261c1bf_001": {
+      "v": "pass",
+      "image_id": "img_0bde1599d261c1bf_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:08.365Z"
+    },
+    "img_4a724cefb31a401f_003": {
+      "v": "pass",
+      "image_id": "img_4a724cefb31a401f_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:10.446Z"
+    },
+    "img_993180e60d429635_014": {
+      "v": "pass",
+      "image_id": "img_993180e60d429635_014",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:11.974Z"
+    },
+    "img_5b1cec6bd1a1c0a8_001": {
+      "v": "doubt",
+      "image_id": "img_5b1cec6bd1a1c0a8_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:36.681Z",
+      "note": "结合上下文再判断"
+    },
+    "img_2ad38b427c6931fd_002": {
+      "v": "pass",
+      "image_id": "img_2ad38b427c6931fd_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:40.375Z"
+    },
+    "img_fc0c48b59c66c6df_018": {
+      "v": "pass",
+      "image_id": "img_fc0c48b59c66c6df_018",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:42.433Z"
+    },
+    "img_fa6c382f9fa8d205_001": {
+      "v": "pass",
+      "image_id": "img_fa6c382f9fa8d205_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:44.266Z"
+    },
+    "img_404b7903928e846a_004": {
+      "v": "pass",
+      "image_id": "img_404b7903928e846a_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:45.908Z"
+    },
+    "img_7287741ab84fcdf6_001": {
+      "v": "fail",
+      "image_id": "img_7287741ab84fcdf6_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:50.043Z"
+    },
+    "img_2af607ef40f0de0f_003": {
+      "v": "pass",
+      "image_id": "img_2af607ef40f0de0f_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:52.149Z"
+    },
+    "img_878cb319def44f87_001": {
+      "v": "pass",
+      "image_id": "img_878cb319def44f87_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:53.802Z"
+    },
+    "img_1362522115df21e2_016": {
+      "v": "fail",
+      "image_id": "img_1362522115df21e2_016",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:34:57.374Z"
+    },
+    "img_5a42dbfa1c9c5f2c_001": {
+      "v": "pass",
+      "image_id": "img_5a42dbfa1c9c5f2c_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:04.542Z"
+    },
+    "img_b121904b73059858_007": {
+      "v": "pass",
+      "image_id": "img_b121904b73059858_007",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:06.563Z"
+    },
+    "img_d1b4a3e1c349ad19_004": {
+      "v": "pass",
+      "image_id": "img_d1b4a3e1c349ad19_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:10.627Z"
+    },
+    "img_3d2f727ec9fae2b1_003": {
+      "v": "pass",
+      "image_id": "img_3d2f727ec9fae2b1_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:13.226Z"
+    },
+    "img_3ac09fbec53b416c_005": {
+      "v": "pass",
+      "image_id": "img_3ac09fbec53b416c_005",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:15.166Z"
+    },
+    "img_7c95e687e2322612_001": {
+      "v": "pass",
+      "image_id": "img_7c95e687e2322612_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:16.727Z"
+    },
+    "img_2dfcc395ea519c24_001": {
+      "v": "pass",
+      "image_id": "img_2dfcc395ea519c24_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:19.355Z"
+    },
+    "img_23ddb48c548eddeb_005": {
+      "v": "pass",
+      "image_id": "img_23ddb48c548eddeb_005",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:21.046Z"
+    },
+    "img_bcdfcb418f7364e1_002": {
+      "v": "pass",
+      "image_id": "img_bcdfcb418f7364e1_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:22.799Z"
+    },
+    "img_fc0c48b59c66c6df_022": {
+      "v": "pass",
+      "image_id": "img_fc0c48b59c66c6df_022",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:24.267Z"
+    },
+    "img_e025c3a4e459d18f_008": {
+      "v": "pass",
+      "image_id": "img_e025c3a4e459d18f_008",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:35:25.667Z"
+    },
+    "img_d9ecf4f08079b8b7_001": {
+      "v": "pass",
+      "image_id": "img_d9ecf4f08079b8b7_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:36:46.922Z"
+    },
+    "img_35dac801eb798239_004": {
+      "v": "pass",
+      "image_id": "img_35dac801eb798239_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:36:49.261Z"
+    },
+    "img_6eabe82086e4b2d6_020": {
+      "v": "pass",
+      "image_id": "img_6eabe82086e4b2d6_020",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:36:51.437Z"
+    },
+    "img_64705a14922e5580_004": {
+      "v": "fail",
+      "image_id": "img_64705a14922e5580_004",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:24.947Z",
+      "note": "这是展示双层夹胶玻璃，可能在表示该车型隔音条件好"
+    },
+    "img_c203ee67016ef669_002": {
+      "v": "pass",
+      "image_id": "img_c203ee67016ef669_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:27.853Z"
+    },
+    "img_af0096214f23421d_002": {
+      "v": "fail",
+      "image_id": "img_af0096214f23421d_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:35.115Z"
+    },
+    "img_ed0da954ae59c278_005": {
+      "v": "pass",
+      "image_id": "img_ed0da954ae59c278_005",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:42.611Z"
+    },
+    "img_2904e804fd51f92e_006": {
+      "v": "pass",
+      "image_id": "img_2904e804fd51f92e_006",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:44.349Z"
+    },
+    "img_a7c928f3be83a790_009": {
+      "v": "pass",
+      "image_id": "img_a7c928f3be83a790_009",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:45.894Z"
+    },
+    "img_68a25433f8bd482d_021": {
+      "v": "pass",
+      "image_id": "img_68a25433f8bd482d_021",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:47.572Z"
+    },
+    "img_ba9e5caae07f7430_008": {
+      "v": "pass",
+      "image_id": "img_ba9e5caae07f7430_008",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:49.137Z"
+    },
+    "img_932efba4a97f1736_003": {
+      "v": "pass",
+      "image_id": "img_932efba4a97f1736_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:50.487Z"
+    },
+    "img_c10316b69bfff2c5_005": {
+      "v": "pass",
+      "image_id": "img_c10316b69bfff2c5_005",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:52.765Z"
+    },
+    "img_6d6bf7d7cfdab80a_001": {
+      "v": "doubt",
+      "image_id": "img_6d6bf7d7cfdab80a_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:37:58.742Z"
+    },
+    "img_41df1c827c78a67d_022": {
+      "v": "pass",
+      "image_id": "img_41df1c827c78a67d_022",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:00.369Z"
+    },
+    "img_836c4f001809c228_010": {
+      "v": "pass",
+      "image_id": "img_836c4f001809c228_010",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:02.353Z"
+    },
+    "img_fe8e226067fb16a4_002": {
+      "v": "pass",
+      "image_id": "img_fe8e226067fb16a4_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:04.229Z"
+    },
+    "img_6eabe82086e4b2d6_002": {
+      "v": "pass",
+      "image_id": "img_6eabe82086e4b2d6_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:05.892Z"
+    },
+    "img_9d99536f7cf3917a_003": {
+      "v": "pass",
+      "image_id": "img_9d99536f7cf3917a_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:07.933Z"
+    },
+    "img_58eff7f150869ef4_001": {
+      "v": "pass",
+      "image_id": "img_58eff7f150869ef4_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:09.625Z"
+    },
+    "img_3449b22d0b9d9731_002": {
+      "v": "pass",
+      "image_id": "img_3449b22d0b9d9731_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:12.284Z"
+    },
+    "img_55b953c6a889451e_001": {
+      "v": "pass",
+      "image_id": "img_55b953c6a889451e_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:13.839Z"
+    },
+    "img_89a22410a7f3b6cf_003": {
+      "v": "pass",
+      "image_id": "img_89a22410a7f3b6cf_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:15.630Z"
+    },
+    "img_b0b0d595f11ee648_001": {
+      "v": "pass",
+      "image_id": "img_b0b0d595f11ee648_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:17.408Z"
+    },
+    "img_85a2322755cd323f_001": {
+      "v": "pass",
+      "image_id": "img_85a2322755cd323f_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:19.033Z"
+    },
+    "img_99d23932f00aede7_003": {
+      "v": "pass",
+      "image_id": "img_99d23932f00aede7_003",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:21.614Z"
+    },
+    "img_2c68a20e1a7f2518_001": {
+      "v": "pass",
+      "image_id": "img_2c68a20e1a7f2518_001",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:23.326Z"
+    },
+    "img_3ad019bc55978dd7_002": {
+      "v": "pass",
+      "image_id": "img_3ad019bc55978dd7_002",
+      "type": "irrelevant",
+      "ts": "2026-10-10T03:38:25.549Z"
+    }
+  }
+}

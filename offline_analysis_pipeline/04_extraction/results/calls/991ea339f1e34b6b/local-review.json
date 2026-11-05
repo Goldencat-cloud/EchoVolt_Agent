@@ -1,0 +1,582 @@
+{
+  "post_id": "991ea339f1e34b6b",
+  "state": "FAILED",
+  "cache_key": "d32cb1336fa5ae766d67671b3345778a2751fca979d32336932c36fda983d210",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "991ea339f1e34b6b",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Pro",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "Pro",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第一代SU7 PRO 版本的老车主"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "雷克萨斯ES 300h",
+        "entity_level": "具体配置",
+        "brand": "雷克萨斯",
+        "series": "ES",
+        "model_year": null,
+        "version": "300h",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "我自己的雷克萨斯es 300h"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "新一代SU7 标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "新一代SU7 标准版"
+          },
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "订了一部 新SU7 标准版准现车"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P4",
+        "name": "雷克萨斯ES",
+        "entity_level": "车系",
+        "brand": "雷克萨斯",
+        "series": "ES",
+        "model_year": "2018",
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "对比 18款的 雷克萨斯es"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者表示其第一代SU7 Pro在两年时间内没有任何故障和异响，这超出了他的预期。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "两年时间车子没有任何故障，同时也没有任何异响（这个是出乎我的意料的"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者指出自己的雷克萨斯ES 300h在颠簸路段会出现方向盘、天窗等各种异响。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "我自己的雷克萨斯es 300h，方向盘、天窗颠簸路段各种异响"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "在颠簸路段驾驶。",
+          "evidence": [
+            {
+              "block_id": "T3",
+              "source_type": "text",
+              "quote": "颠簸路段各种异响"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为第一代SU7的智能车机非常好用，甚至让家人拒绝开作者的其他车辆。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "智能车机部分也是非常好用，以至于我老婆已经拒绝开我的车了"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者因家中有充电桩、认为400-500公里续航足够、标准版车轻加速快且比大电池版本便宜几万块，决定购买新一代SU7标准版。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "因为我感觉实际使用有 400 500 的续航是足够了...而且 标准版车轻了100多公斤，加速也快了...还能便宜个几万块，所以买了标准版"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为新一代SU7标准版的悬挂和座椅相比老版明显变软，增加了韧性，包裹性增强，乘坐感更舒服，长途疲劳感下降。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "新版的悬挂 明显加了韧性...再加上座椅是明显的变软了，包裹性也变强了...乘坐感舒服了很多，特别是跑长途的疲劳感要下降很多"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P3",
+            "P1"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P3",
+              "object_product_id": "P1",
+              "aspect": "空间与舒适性",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "新版的悬挂 明显加了韧性...乘坐感舒服了很多"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "在不平整路面及长途驾驶中。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "过 不平整的路不是硬碰硬的感觉...特别是跑长途的疲劳感要下降很多"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为新一代SU7标准版的隔音有明显提升，静谧感加强，更有高级感。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "新版在隔音上也是有明显感知的提升，静谧感加强了，有种高级车的感觉"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P3",
+            "P1"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P3",
+              "object_product_id": "P1",
+              "aspect": "空间与舒适性",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "新版在隔音上也是有明显感知的提升"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P1",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者认为经过OTA升级后，新一代SU7的高速辅助驾驶非常好用，加减速平顺；城区辅助驾驶目前相当于新手司机水平，可用但效率较低，以安全为先。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "首先高速辅助驾驶已经非常好用了...城区辅助驾驶，目前我认为是 是一个刚学会开车三个月的新手司机水平，属于可用，但是会非常非常小心"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P3",
+            "P1"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P3",
+              "object_product_id": "P1",
+              "aspect": "智能驾驶",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T5",
+                  "source_type": "text",
+                  "quote": "这两年的辅助驾驶能力是天翻地覆的提升了"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "春假期间带孩子出行，包含高速和城区路况。",
+          "evidence": [
+            {
+              "block_id": "T5",
+              "source_type": "text",
+              "quote": "这次春假出去玩，小孩的评价是 辅助驾驶的加减速已经比她妈妈开的好了"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为新一代SU7的音响虽然硬件规格高（25音箱），但实际听感不如雷克萨斯ES的6喇叭版本，缺乏感染力，希望厂家优化调教。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "实际听感 是不如 雷克萨斯 es 6 喇叭版本的...小米的这套音响 属于那种可听，但是不能感动人的感觉"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P3",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P3",
+              "object_product_id": "P2",
+              "aspect": "外观与内饰",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T5",
+                  "source_type": "text",
+                  "quote": "实际听感 是不如 雷克萨斯 es 6 喇叭版本的"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者实测新一代SU7标准版（20寸轮毂）在1400多公里行程（含1000公里高速）中平均能耗为14.9 kWh/100km，高速约15-16，城区约11-12，预计高速续航可达450公里以上。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "实际 看跑的1400多公里（其中1000公里是高速），平均能耗是 14.9...高速大概 15-16的能耗，城区只有11-12的能耗...高速标准版，20寸轮毂版本，实际可以跑到我估计有 450公里以上续航"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "更换20寸轮毂，行驶1400多公里，其中1000公里为高速。",
+          "evidence": [
+            {
+              "block_id": "T4",
+              "source_type": "text",
+              "quote": "这次换了20寸的大轮毂...实际 看跑的1400多公里（其中1000公里是高速）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者将新一代SU7与18款雷克萨斯ES进行整体对比，认为两者属于不同时代的产物，差距如同诺基亚与iPhone。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "对比 18款的 雷克萨斯es ， 那真不是一个时代的车，属于 诺基亚 和 iphone 的区别"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P3",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P3",
+              "object_product_id": "P4",
+              "aspect": "其他",
+              "relation": "优于",
+              "evidence": [
+                {
+                  "block_id": "T4",
+                  "source_type": "text",
+                  "quote": "那真不是一个时代的车，属于 诺基亚 和 iphone 的区别"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "作为第一代SU7 PRO 版本的老车主"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "订了一部 新SU7 标准版准现车，28号提的车"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "重视续航实用性而非最大电池容量",
+        "偏好城市辅助驾驶功能",
+        "注重车辆静音与舒适性"
+      ]
+    },
+    "post_summary": "一位第一代SU7 Pro车主兼雷克萨斯ES车主，分享了购买并使用新一代SU7标准版的体验。他对比了两代SU7及雷克萨斯ES，肯定了新车在舒适性、隔音、辅助驾驶方面的显著提升，但也指出了音响效果不及预期的短板，并对新车的能耗表现表示满意。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "claims/C4/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "C8/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12078,
+    "completion_tokens": 4843,
+    "total_tokens": 16921,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 20.433891100008623,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

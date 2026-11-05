@@ -1,0 +1,496 @@
+{
+ "question": "SU7的座椅舒适度怎么样，有没有车主反馈？",
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 27.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 30.1,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 66.2,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 111.3,
+   "status": "done",
+   "phase": "已完成"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": [
+  {
+   "order": 1,
+   "id": "w1",
+   "question": "空间与舒适性议题的负向占比在全部议题中处于什么位置（全量声明级对照）",
+   "aspect": null,
+   "method": "negative_share_by_aspect",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 2,
+   "id": "w2",
+   "question": "空间与舒适性议题内部的情感结构（正面/负面/中性/正负混合）如何",
+   "aspect": "空间与舒适性",
+   "method": "curated_sentiment_mix",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 3,
+   "id": "w3",
+   "question": "空间与舒适性议题的主要负向说法有哪些（带claim_id的用户原话）",
+   "aspect": "空间与舒适性",
+   "method": "top_negative_claims",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 4,
+   "id": "w4",
+   "question": "空间与舒适性议题的观点分别来自当前车主还是未拥有者（体验结构）",
+   "aspect": "空间与舒适性",
+   "method": "ownership_experience_mix",
+   "requires_evidence": null,
+   "visualization": null
+  },
+  {
+   "order": 5,
+   "id": "w5",
+   "question": "空间与舒适性议题负向说法的月度走势",
+   "aspect": "空间与舒适性",
+   "method": "negative_claims_by_month",
+   "requires_evidence": null,
+   "visualization": null
+  }
+ ],
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "4f8e180afb49489f82b286a336209bb6",
+ "final_status": "done",
+ "result": {
+  "ok": true,
+  "report_id": "76ec825cc27d",
+  "title": "小米 SU7 座椅与乘坐舒适度反馈分析（快照 V2.3 临时样本）",
+  "report_md": "## 结论摘要\n\n- **座椅舒适度确有车主反馈，且是该车被讨论最多的软肋方向之一。** 座椅与乘坐舒适度归属「空间与舒适性」议题，该议题负面观点占比 **43.4%（131/302 条观点）**，在 16 个议题中排第 3，仅低于可靠性与故障（55.1%，54/98）与服务与交付（47.0%，62/132）（全量声明级口径：负面观点条数 ÷ 观点条数）。\n- **反馈不是一边倒。** 该议题精选观点样本中负面 40 条、正面 28 条、正负混合 11 条、中性 3 条，正面与混合合计并不低于负面——\"偏硬但支撑好\"\"整体可以但细节不足\"型的混合表述占了相当比例（精选观点样本口径）。\n- **负面集中在\"偏硬 + 坐垫短/平 + 靠背直且不可调\"的支撑性体验，而非塌陷或异响类质量问题。** 按\"座椅/坐垫/靠背/支撑/包裹性\"关键词召回，精选观点样本中有 35 条命中，车主原话同时出现\"座椅宽大厚实\"\"包裹感不错\"与\"座椅有点偏硬\"\"坐垫有些短，腿部支撑不太好\"\"靠背角度不可调\"两类评价。\n- **议题观点以车主亲历为主：44 条来自当前车主且全部自述亲历**；其余来自明确未拥有者，分别为 23 条自述亲历（试驾/乘坐）、9 条明确非亲历、4 条无法判断、2 条不适用（精选观点样本口径）。\n- **负面说法没有单一爆发月：** 2024-03（8 条）与 2024-04（6 条）为峰值，2026-08 回升至 4 条；各月条数均不超过 8 条（置信度：低，单月最大 8 条），只能视为零散持续反馈，不能当作趋势拐点。\n\n**品牌范围声明：** 当前分析主体为**小米/SU7**。快照中特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界等品牌仅作为帖子共现对比信息，不是本次分析对象，本报告不对其作任何评价。\n\n## 分项事实\n\n### 空间与舒适性在全部议题中的负向位置（全量声明级）\n\n| 议题 | 观点条数 | 负面观点条数 | 负面观点占比 |\n|---|---|---|---|\n| 可靠性与故障 | 98 | 54 | 55.1% |\n| 服务与交付 | 132 | 62 | 47.0% |\n| **空间与舒适性** | **302** | **131** | **43.4%** |\n| 安全与质量 | 188 | 66 | 35.1% |\n| 价格与成本 | 144 | 42 | 29.2% |\n| 智能驾驶 | 152 | 42 | 27.6% |\n| 配置与功能 | 284 | 59 | 20.8% |\n| 充电与补能 | 64 | 13 | 20.3% |\n| 驾驶与操控 | 223 | 37 | 16.6% |\n| 品牌与口碑 | 291 | 45 | 15.5% |\n| 续航与能耗 | 268 | 31 | 11.6% |\n| 外观与内饰 | 717 | 63 | 8.8% |\n| 智能座舱与车机 | 301 | 23 | 7.6% |\n| 动力与性能 | 137 | 4 | 2.9% |\n| 技术原理 | 1 | 0 | 0.0% |\n\n（另「其他」议题 54 条观点、13 条负面、占比 24.1%，未列入上述排序解读。）\n\n口径说明：负面观点占比 = 该议题负面观点条数 ÷ 该议题观点条数，分母为当前数据快照内该议题的全部观点声明，不是帖子数。同议题的帖子级观察：相关帖子 239 帖中 113 帖含负面反馈（帖子级口径，与该占比不同源，不可互换）。\n\n要点：舒适性与\"故障/交付\"不同——它同时具备**高讨论量（302 条观点）与高负面比例**。讨论量高说明这是看车与用车决策的重点关注项，负面比例高说明满意度存在缺口。\n\n### 议题内部的情感结构（精选观点样本）\n\n- 负面 40 条\n- 正面 28 条\n- 正负混合 11 条\n- 中性 3 条\n\n口径说明：仅统计附有可回溯原话的精选观点，**不代表全部用户声音**；同议题全量口径负面观点占比为 43.4%（131/302），两者分母不同，不可互相推导。\n\n解读：正面 28 条与混合 11 条合计 39 条，与负面 40 条几乎相当，说明仍有大量用户认可座椅与乘坐体验，或给出有条件的好评（\"偏硬但支撑好\"\"面料填充变软但老问题仍在\"）。因此对外表述应为\"重视但存在集中抱怨点\"，而不是\"座椅舒适度差\"。\n\n### 主要负向说法（精选观点样本，按时间倒序取最近 12 条负面）\n\n口径说明：该议题精选观点样本中负面观点共 40 条，此处列出最近 12 条（按观点日期倒序），以下归组只对这 12 条成立。\n\n**归组方式：内容归纳（作者判断，非统计结果）；组内计数允许重叠。**\n\n- **隔音与风噪/路噪（6/12 条）**：多位车主把\"隔音一般\"直接与舒适性挂钩。例如\"高速行驶时风噪比较明显，隔音表现一般\"（claim_id: 8635fc69f5e295af5517）、\"美中不足的是原车在隔音方面的表现稍差，从而影响到了驾乘舒适性\"（claim_id: a68fee93149d63470acd）、\"原车的噪声主要为路噪和胎噪，这种类型的噪声在高速行驶时尤为明显\"（claim_id: ca1983a089dcd2f18070）。\n- **空间局促与后排头部受限（4/12 条）**：如\"但是唯一遗憾的是空间有点局促 稍微挺直腰杆就会碰到车顶\"（claim_id: 7b22363fd6b6449249e9）、\"高速隔音表现一般。后排溜背导致头部空间一般。\"（claim_id: 65c292e5e6f1f883da09）、\"溜背造型好看是真好看但后排头部空间被压缩，身高超过1米8的坐后面顶头长途腿撑不足\"（claim_id: 59b29115869b0d36f921）。\n- **座椅本体与坐姿（2/12 条）**：如\"标准版悬架偏运动过烂路后排颠簸感明显，高速a柱风噪略大静谧性还有提升空间。全景天幕原厂隔热偏弱夏天车内升温快得像烤箱。入门版后排没通风夏季闷热感明显\"（claim_id: 2a703c5632f64ed0188b）、\"副驾的坐姿有点遗憾，感觉防火墙更靠后，腿有点蜷缩，好在现在零重力座椅也是送的，能缓解不少。\"（claim_id: d33d06a55b55b7b010e44）。\n- **储物与车身尺寸（3/12 条）**：如\"缺点就是要占一个杯托的空间，如果车上经常放饮料或者奶茶，可能就没有那么合适了\"（claim_id: 729c1a2611342513f4e3）、\"点就是太大了。c级车真的非常大。开起来有时候路堵的时候非常痛苦，还要想想过不过的去。倒车也不方便。所以技术差的要先想想c级车能不能开起来。\"（claim_id: d62735b70b0cea3c36ec）。\n\n**座椅专项关键词召回（该议题精选观点样本内命中 35 条；仅列示例，未做情感比例统计）**——这是\"座椅舒适度\"最直接的证据面：\n\n- 偏负面、指向支撑性：\"但是座椅的舒适度太差了\"（claim_id: ac349ab5fe6d75bcbd40）、\"后排座椅对大腿的支撑性不佳，而且座椅有点偏硬，长期乘坐可能不舒适\"（claim_id: 2a0fc7f3050e907fe5be）、\"小米SU7后排的座椅比较平，像小板凳一样坐在上面，坐时间长了会很累根本撑不住大腿。\"（claim_id: 6d526c7c3d4014bf4c58）、\"第二排空间一般，不像接近5米的车，且座椅靠背角度不可调，舒适性差评！\"（claim_id: b8fa8e79c361d0560ae3）、\"su7这个座椅不知道说啥好，有点过度设计了\"（claim_id: cb5ce942f0948e82de52）。\n- 有条件正面（偏硬但支撑/包裹好）：\"座椅符合人体工程学，包裹性强，虽然有点偏硬，但坐着还算舒服\"（claim_id: e4df08802b491bbbbccf）、\"乘坐空间上乘，运动座椅比较硬，但支撑还是很好的…但是我自己坐在小米SU7 Ultra驾驶位的时候确实感觉坐垫有些短，腿部支撑不太好，开的时间长肯定会更累一些\"（claim_id: 4b9b866c00d6030eb7f7）。\n- 正面：\"座椅舒适度在运动轿车里算好的吧。\"（claim_id: 1632ed8faf750222242b）、\"座椅宽大厚实，感觉挺舒服的，后排空间其实也够用。\"（claim_id: 13c79159a1eae9c14d28）、\"内饰简约，座椅包裹感不错，储物设计比较人性化\"（claim_id: fab0d8638b18b809515f）、\"车内空间宽敞，座椅舒适性不错\"（claim_id: 523373a157ab62ebda64）。\n- 版本差异线索：新款车型的改善被明确提及——\"后排的改善主要在面料和填充物上，柔软了很多，但头部空间偏小、靠背偏直、坐垫偏平这三个老问题，受限于轿跑造型，依然存在。不过后排新增了可拆卸的屏幕和压缩机冰箱，算是对舒适性的另一种补偿。\"（claim_id: 20504dc70127b423415d）；另有\"其实在换了座椅之后，我觉得无论是前排还是后排，整个座椅的舒适度有了非常大的提高\"（claim_id: 90ba8931068ead41a507）。\n\n### 观点来源结构：车主还是关注者（精选观点样本）\n\n| 拥有状态 | 自述亲历情况 | 观点条数 |\n|---|---|---|\n| 当前拥有 | 明确亲历 | 44 |\n| 明确未拥有 | 明确亲历（试驾/乘坐） | 23 |\n| 明确未拥有 | 明确非亲历 | 9 |\n| 明确未拥有 | 无法判断 | 4 |\n| 明确未拥有 | 不适用 | 2 |\n\n口径说明：拥有状态与亲历标记是**观点本身的属性**，只说明\"这些观点来自谁\"，不代表用户整体结构。\n\n要点：当前车主贡献 44 条且全部自述亲历——座椅这类体感问题确有车主一手反馈，而非仅停留在看车阶段的猜测；未拥有者中也有 23 条自述在试驾/乘坐后作出评价，说明静态体验已足以形成明确判断。\n\n### 负面说法的月度分布（精选观点样本）\n\n| 月份 | 负面观点条数 |\n|---|---|\n| 2024-03 | 8 |\n| 2024-04 | 6 |\n| 2024-05 | 3 |\n| 2024-07 | 1 |\n| 2024-09 | 1 |\n| 2024-10 | 2 |\n| 2024-11 | 4 |\n| 2025-01 | 1 |\n| 2025-07 | 1 |\n| 2026-03 | 2 |\n| 2026-06 | 3 |\n| 2026-07 | 2 |\n| 2026-08 | 4 |\n| 2026-09 | 2 |\n\n口径说明：按观点日期的月份聚合，非发帖热度，也未按当月观点总量标准化；合计 40 条，与情感结构中的负面 40 条一致。置信度：低（单月最大 8 条，其余月份多为 1–4 条）。\n\n要点：负面反馈从上市初期（2024-03/04）到最近月份（2026-08/09）都有出现，2026-08 的 4 条说明该问题在改款后仍未消失；但月度条数过小，不足以判断恶化或改善方向。\n\n## 归因分析\n\n- **机制**：座椅抱怨集中在\"偏硬、坐垫偏短/偏平、靠背偏直且不可调\"，属于轿跑取向的座椅设定与后排长途乘坐舒适诉求之间的取向冲突——运动化支撑性与柔软、可调的乘坐需求难以同时满足。\n- **支持证据**：全量声明级该议题负面观点占比 43.4%（131/302 条观点），在 16 个议题中排第 3；精选观点中同时出现\"运动座椅比较硬，但支撑还是很好的…坐垫有些短，腿部支撑不太好\"（claim_id: 4b9b866c00d6030eb7f7）与\"靠背角度不可调，舒适性差评\"（claim_id: b8fa8e79c361d0560ae3）两类互补表述。\n- **替代解释检查**：①\"改款后面料与填充物变软已解决问题\"是较弱解释——同一条观点明确指出\"头部空间偏小、靠背偏直、坐垫偏平这三个老问题…依然存在\"（claim_id: 20504dc70127b423415d），且 2026-08 仍有 4 条负面；②\"抱怨实际来自整车隔音而非座椅\"难以完全排除——最近 12 条负面中 6 条涉及隔音/风噪/路噪，存在概念混淆。\n- **置信度**：中。依据是议题级全量计数（302 条观点）与多条车主亲历原话；但座椅专项证据仅在精选观点样本内，未做版本分层量化。\n\n## 证据与归组\n\n- **归组方式：统计计数**——议题排序与情感结构两组数字（43.4%、131/302；负面 40 条、正面 28 条、混合 11 条、中性 3 条）来自全量声明级与精选观点样本的计数结果。\n- **归组方式：统计计数**——来源结构（当前拥有且亲历 44 条；未拥有者 23/9/4/2 条）与月度分布（14 个月、合计 40 条）为计数结果。\n- **归组方式：内容归纳（作者判断，非统计结果）**——\"隔音+风噪/路噪\"\"空间与头部\"\"座椅与坐姿\"\"储物与尺寸\"四组，是对最近 12 条负面观点的内容归类，组内计数（如 6/12 条）只对该组成立，不外推为议题比例或用户比例。\n- **引文来源与数量**：全部引文来自附有可回溯原话的精选观点样本，逐条附 claim_id；最近负面组 12 条 + 座椅关键词示例 12 条，共 24 条引用，均可在证据索引中回溯原帖与日期。\n- 关键词召回的 35 条命中只说明座椅话题在精选观点样本中的存在量，**不构成正负面比例结论**。\n\n## 限制与不确定性\n\n1. **数据状态**：快照 V2.3 为临时（占位性质）样本，构建于 2026-10-25，本报告结论仅在这一冻结快照内成立，不作正式研究结论。\n2. **\"座椅\"不是独立议题**：数据中没有单独的座椅议题，本报告以「空间与舒适性」作为座椅与乘坐舒适度的主要归属。座椅通风/加热/按摩等配置类反馈可能落在「配置与功能」议题（本次未纳入），因此可能低估或错分部分座椅相关声音。\n3. **集合边界**：情感结构、来源结构、月度走势与全部引文均基于精选观点子集（仅为该议题全量 302 条观点中的经引文校验部分），不代表全部用户声音；全量口径仅用于议题排序那一节。\n4. **分母不可混用**：43.4% 为观点条数口径，\"239 帖中 113 帖\"为帖子口径，两者不得互相推导或替换表述。\n5. **关键词召回的性质**：35 条命中为按相关度排序的召回结果，未计算正负面比例，不能据此说\"多数人认为……\"。\n6. **时间与主体**：时间窗口为全区间 2023-12-24 至 2026-09-29，未按车型年款/配置版本分层；不同版本（标准版、Ultra、新款）座椅硬件存在差异，本报告只呈现线索，未做版本间量化对比。\n7. **共现品牌**：特斯拉、极氪、保时捷、比亚迪、阿维塔、尚界仅为帖子共现信息，未做任何对比结论。\n\n## 待验证问题\n\n1. 座椅舒适度抱怨在标准版 / Ultra / 新款之间的量级差异有多大（需要按产品/车系维度分层统计）？\n2. \"坐垫偏短、靠背偏直、靠背角度不可调\"是否是后排舒适性的主导因素，占多少条（需在更大样本上做主题标注计数）？\n3. 座椅通风/加热缺失、夏季闷热等配置类反馈在「配置与功能」议题中的占比如何？\n4. 隔音（风噪、路噪、胎噪）与座椅体感在用户表述中的关联有多强——舒适性差评究竟来自座椅本身还是整车静音水平？\n5. 改款后\"面料与填充物变软\"的正向反馈能否在后续月份的新增观点中持续体现（需要更长、非占位性质的快照）？\n\n数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质\n",
+  "key_findings": [
+   "座椅与乘坐舒适度归属的「空间与舒适性」议题负面观点占比 43.4%（131/302 条观点），在 16 个议题中排第 3，仅低于可靠性与故障（55.1%，54/98）与服务与交付（47.0%，62/132）（全量声明级口径）",
+   "该议题精选观点样本中负面 40 条、正面 28 条、正负混合 11 条、中性 3 条，舒适性并非一边倒差评（精选观点样本口径）",
+   "按座椅相关关键词召回，精选观点样本中有 35 条命中；车主原话双向并存，既有“座椅宽大厚实”“包裹感不错”，也有“座椅有点偏硬”“坐垫有些短，腿部支撑不太好”“靠背角度不可调”",
+   "该议题中 44 条观点来自当前车主且全部自述亲历，另有 23 条来自未拥有者但自述试驾/乘坐亲历，座椅问题有真实车主一手反馈",
+   "负面说法月度分布分散，2024-03（8 条）与 2024-04（6 条）为峰值，2026-08 回升至 4 条，各月条数均不超过 8 条，只能视为零散持续反馈（置信度：低）"
+  ],
+  "publication_status": "pending_review",
+  "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+  "charts": [],
+  "evidence_index": [
+   {
+    "claim_id": "13c79159a1eae9c14d28",
+    "url": "https://club.autohome.com.cn/bbs/thread/e296c9070ada427b/108499807-1.html",
+    "date": "2024-06-19 21:58:41",
+    "title": "开朋友的SU7过瘾，实名羡慕！",
+    "aspect": "空间与舒适性",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "1632ed8faf750222242b",
+    "url": "https://club.autohome.com.cn/bbs/thread/19535ba58b58c8ca/108292506-1.html",
+    "date": "2024-05-23 08:59:06",
+    "title": "替领导提Su7的潦草作业一篇",
+    "aspect": "空间与舒适性",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "20504dc70127b423415d",
+    "url": "https://club.autohome.com.cn/bbs/thread/d1aa098a504906ee/115391051-1.html",
+    "date": "2026-06-16 18:55:34",
+    "title": "新SU7不运动了？但它更接近完美了",
+    "aspect": "空间与舒适性",
+    "sentiment": "正负混合",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "23b93ec1a372a4ef019c",
+    "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html",
+    "date": "2026-03-17 17:03:50",
+    "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "2a0fc7f3050e907fe5be",
+    "url": "https://club.autohome.com.cn/bbs/thread/0e9d99b0abd6f19a/109466958-1.html",
+    "date": "2024-10-16 00:10:11",
+    "title": "年轻人的第一台小米SU7",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "2a703c5632f64ed0188b",
+    "url": "https://club.autohome.com.cn/bbs/thread/cf23c37260d957a3/115433416-1.html",
+    "date": "2026-06-22 17:27:37",
+    "title": "21万买轿跑，小米这波把Model 3逼到墙角了",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "345aa7052b3c36c20b39",
+    "url": "https://club.autohome.com.cn/bbs/thread/59154aae1631a44b/108809782-1.html",
+    "date": "2024-07-28 15:40:53",
+    "title": "雷总，对不住了",
+    "aspect": "空间与舒适性",
+    "sentiment": "正负混合",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "4b9b866c00d6030eb7f7",
+    "url": "https://club.autohome.com.cn/bbs/thread/01dc6c154a66fbbe/111126366-1.html",
+    "date": "2025-03-25 11:44:51",
+    "title": "体验小米SU7 Ultra极速推背",
+    "aspect": "空间与舒适性",
+    "sentiment": "正负混合",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "523373a157ab62ebda64",
+    "url": "https://club.autohome.com.cn/bbs/thread/39305922c159651b/111804293-1.html",
+    "date": "2025-05-24 23:07:20",
+    "title": "我选小米su7，这车外观十分漂亮，有保时捷的影子，车内空间宽",
+    "aspect": "空间与舒适性",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "59b29115869b0d36f921",
+    "url": "https://club.autohome.com.cn/bbs/thread/cf23c37260d957a3/115433416-1.html",
+    "date": "2026-06-22 17:27:37",
+    "title": "21万买轿跑，小米这波把Model 3逼到墙角了",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "65c292e5e6f1f883da09",
+    "url": "https://club.autohome.com.cn/bbs/thread/d0a15a987d349ae8/115878046-1.html",
+    "date": "2026-08-17 23:07:24",
+    "title": "su7",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "6d526c7c3d4014bf4c58",
+    "url": "https://club.autohome.com.cn/bbs/thread/6ee894965e1c4c47/107935014-1.html",
+    "date": "2024-04-03 14:05:50",
+    "title": "小米SU7是不是典型的中看不中用呢！",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "729c1a2611342513f4e3",
+    "url": "https://club.autohome.com.cn/bbs/thread/6e24d01513af8f43/116193513-1.html",
+    "date": "2026-09-20 09:26:40",
+    "title": "su7车载好物",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "7b22363fd6b6449249e9",
+    "url": "https://club.autohome.com.cn/bbs/thread/906335b4087a6ff5/116193929-1.html",
+    "date": "2026-09-20 09:59:21",
+    "title": "试驾体验感受",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "8635fc69f5e295af5517",
+    "url": "https://club.autohome.com.cn/bbs/thread/923612ad0444a2e8/115906051-1.html",
+    "date": "2026-08-21 10:42:51",
+    "title": "试驾看车实录｜小米SU7 2025款后驱标准版",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "87dca2c02cdc37790ac2",
+    "url": "https://club.autohome.com.cn/bbs/thread/ee731c44c2671c69/114649568-1.html",
+    "date": "2026-03-22 14:17:55",
+    "title": "试驾新一代小米SU7，Ultra的青春版？",
+    "aspect": "空间与舒适性",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "90ba8931068ead41a507",
+    "url": "https://club.autohome.com.cn/bbs/thread/ee731c44c2671c69/114649568-1.html",
+    "date": "2026-03-22 14:17:55",
+    "title": "试驾新一代小米SU7，Ultra的青春版？",
+    "aspect": "空间与舒适性",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "a68fee93149d63470acd",
+    "url": "https://club.autohome.com.cn/bbs/thread/a742b1b92a333d21/115518026-1.html",
+    "date": "2026-07-02 09:19:53",
+    "title": "让噪声住嘴 小米su7&路噪、胎噪解决方案",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "ac349ab5fe6d75bcbd40",
+    "url": "https://club.autohome.com.cn/bbs/thread/c85817845385c860/109757074-1.html",
+    "date": "2024-11-14 11:06:44",
+    "title": "小米SU7实拍",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "b8fa8e79c361d0560ae3",
+    "url": "https://club.autohome.com.cn/bbs/thread/59154aae1631a44b/108809782-1.html",
+    "date": "2024-07-28 15:40:53",
+    "title": "雷总，对不住了",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "ca1983a089dcd2f18070",
+    "url": "https://club.autohome.com.cn/bbs/thread/a742b1b92a333d21/115518026-1.html",
+    "date": "2026-07-02 09:19:53",
+    "title": "让噪声住嘴 小米su7&路噪、胎噪解决方案",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "caf0bd9e93fc997c6fc5",
+    "url": "https://club.autohome.com.cn/bbs/thread/786eae4a44879485/115803908-1.html",
+    "date": "2026-08-07 21:15:00",
+    "title": "为什么选择小米su7，如此让我心动",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "cb5ce942f0948e82de52",
+    "url": "https://club.autohome.com.cn/bbs/thread/b1fd2f8613337943/107910318-1.html",
+    "date": "2024-03-31 00:35:17",
+    "title": "雷总，为啥前排靠背后面没有储物袋？",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "d33d06a5b55b7b010e44",
+    "url": "https://club.autohome.com.cn/bbs/thread/d1aa098a504906ee/115391051-1.html",
+    "date": "2026-06-16 18:55:34",
+    "title": "新SU7不运动了？但它更接近完美了",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "d62735b70b0cea3c36ec",
+    "url": "https://club.autohome.com.cn/bbs/thread/769f093706c571b6/115798798-1.html",
+    "date": "2026-08-07 12:39:25",
+    "title": "su7优缺点。",
+    "aspect": "空间与舒适性",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "e4df08802b491bbbbccf",
+    "url": "https://club.autohome.com.cn/bbs/thread/0e9d99b0abd6f19a/109466958-1.html",
+    "date": "2024-10-16 00:10:11",
+    "title": "年轻人的第一台小米SU7",
+    "aspect": "空间与舒适性",
+    "sentiment": "正负混合",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "fab0d8638b18b809515f",
+    "url": "https://club.autohome.com.cn/bbs/thread/18805972051aa56f/115866504-1.html",
+    "date": "2026-08-16 12:59:33",
+    "title": "su7优缺点",
+    "aspect": "空间与舒适性",
+    "sentiment": "正面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   }
+  ],
+  "final_message": "报告已提交（report_id: 76ec825cc27d，待复核发布）。\n\n结论：座椅与乘坐舒适度归属的「空间与舒适性」议题负面观点占比 43.4%（131/302 条观点），在 16 个议题中排第 3；但精选观点样本中负面 40 条、正面 28 条、混合 11 条，属于\"重视且存在集中抱怨点\"而非一边倒差评。抱怨集中在偏硬、坐垫偏短/偏平、靠背偏直不可调与隔音，座椅相关关键词召回 35 条命中，含 44 条当前车主亲历原话作为一手反馈。\n\n注：快照 V2.3 为临时占位样本，座椅未单列为独立议题（以「空间与舒适性」为主要归属，座椅通风/加热等配置类反馈可能落在未纳入的「配置与功能」议题），结论仅在该样本内成立。",
+  "tool_log": [
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/analysis-methods/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-39 of 39 @@\n---\nname: plan-drafting\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——方法语义与字段契约在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\n---\n\n# 起草分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 0（计划）的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过 `submit_analysis_plan` 确定性校验的完整草案——字段齐全、aspect 与简报枚举逐字一致、覆盖用户问题的全部子问题与比较意图。\n\n## 起草流程（按序执行，完成一步再进入下一步）\n\n1. **读任务简报**：研究请求、数据覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，NEVER 凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`，NEVER 用代码探索（代码分析只属于执行阶段）。\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `semantic_ov"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-35 of 35 @@\n---\nname: analysis-methods\ndescription: 执行分析计划（执行阶段必读）。何时读：拿到已获批计划、开始逐项执行时——执行循环、取证规则、失败与空结果处置、结果解读检查都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——方法契约在 run_analysis_method / run_aggregate 工具说明，且方法在计划里已经选定。\n---\n\n# 执行分析计划\n\n## 角色与读者\n\n服务对象：处于阶段 1-2（执行）的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\n\n## 执行循环（对每项 workstream 依次执行，完成一项再取下一项）\n\n1. **取项执行**：普通方法调 `run_analysis_method`，聚合原语工作项调 `run_aggregate`——method/参数从计划原样抄写（原语参数与计划 params 逐字一致）。计划边界与工具边界由工具强制；这里提醒：NEVER 绕开声明方法（use_python=true 时 python_analy"
+   },
+   {
+    "tool": "semantic_overview",
+    "args": "{'aspects': '[\"空间与舒适性\",\"外观与内饰\"]'}"
+   },
+   {
+    "tool": "semantic_overview",
+    "output": "{\"aspects\": [{\"aspect\": \"空间与舒适性\", \"sample_size\": 82, \"support_insufficient\": false, \"monthly_counts\": [{\"month\": \"2024-03\", \"n\": 12}, {\"month\": \"2024-04\", \"n\": 9}, {\"month\": \"2024-05\", \"n\": 6}, {\"month\": \"2024-06\", \"n\": 1}, {\"month\": \"2024-07\", \"n\": 4}, {\"month\": \"2024-09\", \"n\": 1}, {\"month\": \"2024-10\", \"n\": 3}, {\"month\": \"2024-11\", \"n\": 5}, {\"month\": \"2024-12\", \"n\": 2}, {\"month\": \"2025-01\", \"n\": 3}, {\"month\": \"2025-02\", \"n\": 1}, {\"month\": \"2025-03\", \"n\": 2}, {\"month\": \"2025-04\", \"n\": 2}, {\"month\": \"2025-05\", \"n\": 1}, {\"month\": \"2025-07\", \"n\": 2}, {\"month\": \"2025-12\", \"n\": 1}, {\"month\": \"2026-"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"以「空间与舒适性」议题（座椅与乘坐舒适度在语义层的主要归属）为主线：先在全议题负向占比中定位其相对位置，再取该议题情感结构、负向说法原文（带claim_id）、车主与未拥有者观点结构、负向说法月度走势，回答「SU7座椅舒适度如何、有无车主反馈」；并在报告中说明座椅未被单列为独立议题、以及精选子集口径限制。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"空间与舒适性议题的负向占比在全部议题中处于什么位置（全量声明级对照）\",\"aspect\":null,\"method\":\"negative_share_by_aspect\"},{\"id\":\"w2\",\"question\":\"空间与舒适性议题内部的情感结构（正面/负面/中性/正负混合）如何\",\"aspect\":\"空间与舒适性\",\"method\":\"curated_sentiment_mix\"},{\"id\":\"w3\",\"question\":\"空间与舒适性议题的主要负向说法有哪些（带claim_id的用户原话）\",\"aspect\":\"空间与舒适性\",\"method\":\"top_negative_claims\",\"limit\":12},{\"id\":\"w4\",\"question\":\"空间与舒适性议题的观点分别来自当前车主还是"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "{\"accepted\": true, \"plan\": {\"coverage\": \"以「空间与舒适性」议题（座椅与乘坐舒适度在语义层的主要归属）为主线：先在全议题负向占比中定位其相对位置，再取该议题情感结构、负向说法原文（带claim_id）、车主与未拥有者观点结构、负向说法月度走势，回答「SU7座椅舒适度如何、有无车主反馈」；并在报告中说明座椅未被单列为独立议题、以及精选子集口径限制。\", \"workstreams\": [{\"id\": \"w1\", \"question\": \"空间与舒适性议题的负向占比在全部议题中处于什么位置（全量声明级对照）\", \"dimension\": \"other\", \"aspect\": null, \"method\": \"negative_share_by_aspect\", \"requires_evidence\": false}, {\"id\": \"w2\", \"question\": \"空间与舒适性议题内部的情感结构（正面/负面/中性/正负混合）如何\", \"dimension\": \"other\", \"aspect\": \"空间与舒适性\", \"method\": \"curated_sentiment_mix\", \"requires_evidence\": false}, {\"id\": \"w3\", \"question\": \"空间与舒适性议题的主要负向说法有哪些（带claim_"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'negative_share_by_aspect'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'method': 'curated_sentiment_mix', 'aspect': '空间与舒适性'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"negative_share_by_aspect\", \"params\": {\"limit\": 16}, \"sql\": \"SELECT aspect, claims, negative, posts, negative_posts, negative_share FROM semantic_aspect_metric ORDER BY negative_share DESC LIMIT :limit\", \"columns\": [\"aspect\", \"claims\", \"negative\", \"posts\", \"negative_posts\", \"negative_share\"], \"rows\": [{\"aspect\": \"可靠性与故障\", \"claims\": 98, \"negative\": 54, \"posts\": 90, \"negative_posts\": 52, \"negative_share\": 0.5510204081632653}, {\"aspect\": \"服务与交付\", \"claims\": 132, \"negative\": 62, \"posts\": 122, \"negative_posts\": 55, \"negative_share\": 0.4696969696969697}, {\"aspect\": \"空间与舒适性\", \"claims\": 302,"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"curated_sentiment_mix\", \"params\": {\"aspect\": \"空间与舒适性\"}, \"sql\": \"SELECT sentiment, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY sentiment ORDER BY n DESC\", \"columns\": [\"sentiment\", \"n\"], \"rows\": [{\"sentiment\": \"负面\", \"n\": 40}, {\"sentiment\": \"正面\", \"n\": 28}, {\"sentiment\": \"正负混合\", \"n\": 11}, {\"sentiment\": \"中性\", \"n\": 3}], \"row_count\": 4, \"caliber\": \"精选子集口径：仅统计 core/potential 精选观点及其引文证据，不代表全部用户声音\", \"elapsed_ms\": 1, \"verification\": {\"ok\": true, \"errors\": [], \"warnings\": [], \"checks\": [\"caliber_declared\", \"rows_present\", \"negative_share_recomputed\", \"curated_counts_"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '空间与舒适性', 'method': 'top_negative_claims', 'limit': 12}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '空间与舒适性', 'method': 'ownership_experience_mix'}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"top_negative_claims\", \"params\": {\"aspect\": \"空间与舒适性\", \"limit\": 12}, \"sql\": \"SELECT claim_id, date, journey, ownership, experience, title, url, substr(content, 1, 240) AS excerpt, quote FROM semantic_claim_evidence WHERE aspect = :aspect AND sentiment = '负面' ORDER BY date DESC LIMIT :limit\", \"columns\": [\"claim_id\", \"date\", \"journey\", \"ownership\", \"experience\", \"title\", \"url\", \"excerpt\", \"quote\"], \"rows\": [{\"claim_id\": \"7b22363fd6b6449249e9\", \"date\": \"2026-09-20 09:59:21\", \"journey\": \"拥有与日常使用\", \"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"title\": \"试驾体验感受\", \"url\": \"https://club.autohome"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"ownership_experience_mix\", \"params\": {\"aspect\": \"空间与舒适性\"}, \"sql\": \"SELECT COALESCE(ownership, '未标注') AS ownership, COALESCE(experience, '未标注') AS experience, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect GROUP BY ownership, experience ORDER BY n DESC\", \"columns\": [\"ownership\", \"experience\", \"n\"], \"rows\": [{\"ownership\": \"当前拥有\", \"experience\": \"明确亲历\", \"n\": 44}, {\"ownership\": \"明确未拥有\", \"experience\": \"明确亲历\", \"n\": 23}, {\"ownership\": \"明确未拥有\", \"experience\": \"明确非亲历\", \"n\": 9}, {\"ownership\": \"明确未拥有\", \"experience\": \"无法判断\", \"n\": 4}, {\"ownership\": \"明确未拥有\", \"experience\": \"不适用\", \"n\""
+   },
+   {
+    "tool": "run_analysis_method",
+    "args": "{'aspect': '空间与舒适性', 'method': 'negative_claims_by_month'}"
+   },
+   {
+    "tool": "search_claims",
+    "args": "{'query': '座椅舒适度 坐垫 靠背 支撑 包裹性', 'aspect': '空间与舒适性', 'limit': 15}"
+   },
+   {
+    "tool": "run_analysis_method",
+    "output": "{\"method\": \"negative_claims_by_month\", \"params\": {\"aspect\": \"空间与舒适性\"}, \"sql\": \"SELECT substr(date, 1, 7) AS month, COUNT(*) AS n FROM semantic_claim_fact WHERE aspect = :aspect AND sentiment = '负面' GROUP BY month ORDER BY month\", \"columns\": [\"month\", \"n\"], \"rows\": [{\"month\": \"2024-03\", \"n\": 8}, {\"month\": \"2024-04\", \"n\": 6}, {\"month\": \"2024-05\", \"n\": 3}, {\"month\": \"2024-07\", \"n\": 1}, {\"month\": \"2024-09\", \"n\": 1}, {\"month\": \"2024-10\", \"n\": 2}, {\"month\": \"2024-11\", \"n\": 4}, {\"month\": \"2025-01\", \"n\": 1}, {\"month\": \"2025-07\", \"n\": 1}, {\"month\": \"2026-03\", \"n\": 2}, {\"month\": \"2026-06\", \"n\": 3}, {\"mo"
+   },
+   {
+    "tool": "search_claims",
+    "output": "{\"query\": \"座椅舒适度 坐垫 靠背 支撑 包裹性\", \"n_candidates\": 82, \"n_matches\": 35, \"claims\": [{\"claim_id\": \"ac349ab5fe6d75bcbd40\", \"aspect\": \"空间与舒适性\", \"sentiment\": \"负面\", \"tier\": \"core\", \"experience\": \"明确亲历\", \"date\": \"2024-11-14 11:06:44\", \"title\": \"小米SU7实拍\", \"url\": \"https://club.autohome.com.cn/bbs/thread/c85817845385c860/109757074-1.html\", \"content\": \"作者认为小米SU7的座椅舒适度很差。\", \"quote\": \"但是座椅的舒适度太差了\", \"score\": 2.1493}, {\"claim_id\": \"e4df08802b491bbbbccf\", \"aspect\": \"空间与舒适性\", \"sentiment\": \"正负混合\", \"tier\": \"core\", \"experience\": \"明确亲历\", \"date\": \"2024-10-16 00:10:11\", \"title\": \"年轻人的第一台小米SU7\", \"url\": \"https://club.aut"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-86 of 86 @@\n---\nname: report-authoring\ndescription: 报告撰写与提交（报告阶段必读）。何时读：提交 submit_report 前——报告结构、证据引用与归组、口径表述红线、术语转换、提交流程都在这里。何时不读：选择与执行分析方法（用 analysis-methods）；起草计划（用 plan-drafting）。误用反例：把本文件当证据获取说明——怎么取证见 analysis-methods 的\"取证规则\"。\n---\n\n# 报告撰写与提交\n\n## 角色与读者\n\n服务对象：准备提交报告的 Agent（阶段 3）。输出标准：通过 report_gate 的五段结构中文报告，每个数字可核验、每条引用可回溯、面向用户说业务语言。报告面向业务负责人和研究人员：先结论后依据，数字可核验，限制如实。正文中文 Markdown；长度上限以服务端发布门禁为准（超限时 submit_report 会返回具体数值与修订要求）。\n\n## 报告结构（五段，顺序固定）\n\n1. **结论摘要**：先回答用户的问题，分点列出 3–5 条（可与 key_findings 同源），每条一句结论 + 核心数字（带口径）；只写有证据支撑的结论。小样本结论（观点条数 n < 30 的分布或走势）句尾标注置信度——「（置信度：低，n=12）」；高置信结"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'title': '小米 SU7 座椅与乘坐舒适度反馈分析（快照 V2.3 临时样本）', 'markdown': '## 一、结论摘要\\n\\n- **座椅舒适度确有车主反馈，且是该车被讨论最多的软肋方向之一。** 座椅与乘坐舒适度在语义层归属「空间与舒适性」议题，该议题负面观点占比 **43.4%（131/302 条观点）**，在 16 个议题中排第 3，仅低于可靠性与故障（55.1%，54/98）与服务与交付（47.0%，62/132）（全量声明级口径：负面观点条数 ÷ 观点条数）。\\n- **反馈不是一边倒。** 该议题精选观点样本 82 条中，负面 40 条（48.8%）、正面 28 条（34.1%）、正负混合 11 条（13.4%）、中性 3 条（3.7%）（精选观点样本口径；置信度：中，n=82）。\\n- **负面集中在\"偏硬 + 坐垫短/平 + 靠背直且不可调\"的支撑性体验，而非塌陷或异响类质量问题。** 按关键词召回，82 条精选观点中有 35 条与座椅/坐垫/靠背/支撑/包裹性相关，车主原话同时出现\"座椅宽大厚实\"\"包裹感不错\"与\"座椅有点偏硬\"\"坐垫有些短，腿部支撑不太好\"\"靠背角度不可调\"两类评价。\\n- **议题观点以车主亲历为主：53.7%（44/82）来自当前车主且全部为明确亲历**；其余 38 条来自明确未拥有者，其中 23 条自述为亲历（试驾/乘坐"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"缺少章节：结论摘要\", \"缺少章节：证据与归组\", \"缺少章节：限制与不确定性\", \"正文必须明确写出当前数据版本（上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质），如在页脚写「数据版本：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质」\", \"报告包含内部实现词（不得出现在用户可见文本）：语义层\", \"报告包含未在分析工具结果中找到的数字：82, 48.8%, 34.1%, 13.4%, 3.7%, 82, 82, 53.7%, 82, 38, 47.3%, 48.8%, 34.1%, 13.4%, 3.7%, 82, 47.6%, 82, 82, 53.7%。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [\"建议补充章节：归因分析（按计划类型提示，不阻断提交）\"], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"座椅与乘坐舒适度归属的「空间与舒适性」议题负面观点占比 43.4%（131/302 条观点），在 16 个议题中排第 3，仅低于可靠性与故障（55.1%，54/98）与服务与交付（47.0%，62/132）（全量声明级口径）\",\"该议题精选观点样本中负面 40 条、正面 28 条、正负混合 11 条、中性 3 条，舒适性并非一边倒差评（精选观点样本口径）\",\"按座椅相关关键词召回，精选观点样本中有 35 条命中；车主原话双向并存，既有“座椅宽大厚实”“包裹感不错”，也有“座椅有点偏硬”“坐垫有些短，腿部支撑不太好”“靠背角度不可调”\",\"该议题中 44 条观点来自当前车主且全部自述亲历，另有 23 条来自未拥有者但自述试驾/乘坐亲历，座椅问题有真实车主一手反馈\",\"负面说法月度分布分散，2024-03（8 条）与 2024-04（6 条）为峰值，2026-08 回升至 4 条，各月条数均不超过 8 条，只能视为零散持续反馈（置信度：低）\"]', 'markdown': '## 结论摘要\\n\\n- **座椅舒适度确有车主反馈，且是该车被讨论最多的软肋方向之一。** 座椅与乘坐舒适度归属「空间与舒适性」议题，该议题负面观点占比 **43.4%（131/302 条观点）**，在 16 个议题中排第 3，仅低于可靠性与故障（55.1%，54/98）与"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"报告包含未在分析工具结果中找到的数字：82。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_provenance\"]}, \"attempt\": 2, \"attempts_left\": 2}"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"座椅与乘坐舒适度归属的「空间与舒适性」议题负面观点占比 43.4%（131/302 条观点），在 16 个议题中排第 3，仅低于可靠性与故障（55.1%，54/98）与服务与交付（47.0%，62/132）（全量声明级口径）\",\"该议题精选观点样本中负面 40 条、正面 28 条、正负混合 11 条、中性 3 条，舒适性并非一边倒差评（精选观点样本口径）\",\"按座椅相关关键词召回，精选观点样本中有 35 条命中；车主原话双向并存，既有“座椅宽大厚实”“包裹感不错”，也有“座椅有点偏硬”“坐垫有些短，腿部支撑不太好”“靠背角度不可调”\",\"该议题中 44 条观点来自当前车主且全部自述亲历，另有 23 条来自未拥有者但自述试驾/乘坐亲历，座椅问题有真实车主一手反馈\",\"负面说法月度分布分散，2024-03（8 条）与 2024-04（6 条）为峰值，2026-08 回升至 4 条，各月条数均不超过 8 条，只能视为零散持续反馈（置信度：低）\"]', 'markdown': '## 结论摘要\\n\\n- **座椅舒适度确有车主反馈，且是该车被讨论最多的软肋方向之一。** 座椅与乘坐舒适度归属「空间与舒适性」议题，该议题负面观点占比 **43.4%（131/302 条观点）**，在 16 个议题中排第 3，仅低于可靠性与故障（55.1%，54/98）与"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"report_id\": \"76ec825cc27d\", \"status\": \"pending_review\", \"saved\": \"D:\\\\Desktop\\\\Competitions\\\\new_energy_data_analysis_agent\\\\offline_analysis_pipeline\\\\08_semantic_services\\\\reports\\\\agent\\\\76ec825cc27d\", \"next_step\": \"由非作者队友复核并通过 report_publisher.py 发布。\"}"
+   }
+  ],
+  "tool_errors": 0,
+  "metrics": {
+   "successful_tool_calls": 11,
+   "tool_errors": 0,
+   "code_failures": 0,
+   "submit_attempts": 3,
+   "gate_rejections": 2
+  },
+  "elapsed_ms": 96510
+ },
+ "error": null,
+ "wall_s": 111.3
+}

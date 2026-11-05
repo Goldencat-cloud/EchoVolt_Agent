@@ -1,0 +1,266 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9c321b23cdb025ad",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉新款Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": "新款",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特斯拉新款Model 3"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉新款Model Y",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "model_year": null,
+      "version": "新款",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特斯拉新款Model Y"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "文章指出小米SU7 Pro版CLTC续航830km，高速实测495km，高于特斯拉新款Model 3的340km实绩；但小米SU7在北方冬季续航折扣可达40%，且三四线城市超充桩少，而特斯拉Model Y长续航版CLTC 821km，低温掉电较克制，超充网络覆盖广。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 Pro版喊出830km CLTC续航...高速实测中曾以495km实际续航碾压特斯拉新款Model 3的340km实绩。但光鲜数据背后，是北方用户吐槽的“冬季续航折扣高达40%”...特斯拉新款Model Y长续航版CLTC续航821km虽略逊一筹，却凭着成熟的热管理系统，在低温环境下掉电更克制...国内超2500站的超充网络覆盖"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "高速实测中曾以495km实际续航碾压特斯拉新款Model 3的340km实绩"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "文章提及2025年一起高速事故中，开启NOA的小米SU7未能识别施工路段障碍物，且AEB系统仅能应对80km/h以下场景；此外，C-NCAP侧面碰撞测试中出现B柱形变超标问题。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025年的一起高速事故暴露了短板：开启NOA的SU7未能识别施工路段障碍物，其AEB系统仅能应对80km/h以下场景...更在C-NCAP侧面碰撞测试中出现B柱形变超标问题"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "文章对比了两车舒适性：小米SU7轴距长、配置高（通风加热、Nappa真皮），但坐垫硬、底盘颠簸、有异响投诉；特斯拉新款取消前排通风标配、后排空间局促、内饰极简，但坐垫结构和CDC减振器优化使长途舒适性更好。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7用3000mm轴距撑起宽敞后排...但硬伤同样明显：硬质发泡棉坐垫让长途驾驶的车主倍感酸痛...特斯拉新款则反其道而行之：取消前排通风标配...可它凭借多层复合结构坐垫和优化后的CDC减振器...长途驾驶的舒适性反而更胜一筹"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "长途驾驶的舒适性反而更胜一筹"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章总结两者定位差异：小米SU7起售价21.59万，主打高性价比和科技配置，但存在品控和三电质保风险；特斯拉新款主打稳定、保值率高（70%三年保值率）和超充便利，但存在减配和本土化不足的问题。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7像野心勃勃的“潜力股”，用21.59万起的亲民价格...特斯拉新款则是沉稳的“稳重型”...70%的三年保值率...可它的“精简减配”策略..."
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7高速事故及C-NCAP测试问题",
+      "event_type": "质量与召回",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025年的一起高速事故暴露了短板：开启NOA的SU7未能识别施工路段障碍物...更在C-NCAP侧面碰撞测试中出现B柱形变超标问题"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "2025年发生一起小米SU7高速事故，车辆在开启NOA时未识别施工障碍；同时C-NCAP侧面碰撞测试显示其B柱形变超标。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "这是一篇关于小米SU7与新款特斯拉（Model 3/Y）的深度对比评测文章。文章从续航补能、安全性、舒适性及使用场景四个维度分析了两者的优劣势，指出小米SU7在参数和配置上占优但存在冬季续航打折和安全隐患，特斯拉则在补能网络和长期稳定性上更具优势。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

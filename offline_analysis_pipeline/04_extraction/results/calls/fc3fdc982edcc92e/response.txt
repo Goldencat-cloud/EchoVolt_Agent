@@ -1,0 +1,451 @@
+{
+  "schema_version": "2.3",
+  "post_id": "fc3fdc982edcc92e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 MAX",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "MAX",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "试驾车型为MAX版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "最终定下了Pro版"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因有换车需求且担心等待周期过长，决定预约试驾小米SU7。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "毕竟自己本身就有换车需求...就干脆点，直接约试驾。"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "statement_type": "意向决策",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+  },
+  {
+    "id": "C2",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "主要讨论对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "外观与内饰",
+    "content": "作者在店内观察到蓝色车漆非常亮眼，但认为旁边的雅灰色看起来更高级。",
+    "sentiment": "正面",
+    "journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "蓝色是真的亮，不过隔壁雅灰看起来更高级。"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "弱",
+    "usage_context": null
+  },
+  {
+    "id": "C3",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "主要讨论对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "外观与内饰",
+    "content": "作者认为小米SU7内饰细节丰富，设计用心，具有高级体验感。",
+    "sentiment": "正面",
+    "journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T3",
+        "source_type": "text",
+        "quote": "小米SU7的内饰主打就是一个细节+高级体验感...简单将就是设计很细致用心。"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+  },
+  {
+    "id": "C4",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P2",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "动力与性能",
+    "content": "作者试驾MAX版后认为其加速能力强，但对于不追求极致性能的普通车主来说，单电机版动力已足够，无需盲目选择MAX版。",
+    "sentiment": "中性",
+    "journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "加速能力很强，但我觉如果不常暴力驾驶或者对性能追求很高的，其实不需要冲MAX版。"
+      }
+    ],
+    "confidence": 0.9,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": null,
+    "usage_context": {
+      "summary": "作者进行短途试驾体验。",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾10分钟。就是简单体验一下动力、操控、底盘之类的。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C5",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P2",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "驾驶与操控",
+    "content": "作者评价车辆底盘调校整体感强，兼顾舒适性与韧性，对细小震动和大坑洼的过滤效果良好，体感高级。",
+    "sentiment": "正面",
+    "journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "路感清晰克制，车身整体感很强...体感更高级。"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "作者进行短途试驾体验。",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾10分钟。就是简单体验一下动力、操控、底盘之类的。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C6",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P2",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "驾驶与操控",
+    "content": "作者认为方向盘指向精准、几乎无虚位，转向灵敏轻巧，女性驾驶也不费力。",
+    "sentiment": "正面",
+    "journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "方向盘指向很准，几乎没有虚位。转向灵敏、轻巧，女司机驾驶也不费力。"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "中",
+    "usage_context": {
+      "summary": "作者进行短途试驾体验。",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾10分钟。就是简单体验一下动力、操控、底盘之类的。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C7",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P2",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "智能座舱与车机",
+    "content": "作者认为多功能按钮操作方便、逻辑清晰，虽然设计类似超跑但使用顺手。",
+    "sentiment": "正面",
+    "journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "多功能按钮操作方便，逻辑清晰易用。确实下方两个按钮类似超跑方向盘设计，但用着顺手。"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "弱",
+    "usage_context": {
+      "summary": "作者进行短途试驾体验。",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾10分钟。就是简单体验一下动力、操控、底盘之类的。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C8",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P2",
+        "role": "作者当前使用对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "续航与能耗",
+    "content": "作者指出动能回收可完全关闭以实现0功率滑行，并结合懂车帝实测排名第三的续航成绩，认为该车在能耗管理上有亮点。",
+    "sentiment": "正面",
+    "journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T6",
+        "source_type": "text",
+        "quote": "动能回收是可以全部关闭，实现真正的0功率滑行...确实有点东西哈。"
+      }
+    ],
+    "confidence": 0.9,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "弱",
+    "usage_context": {
+      "summary": "作者进行短途试驾体验。",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "试驾10分钟。就是简单体验一下动力、操控、底盘之类的。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C9",
+    "claim_type": "购车与交易决策",
+    "target_products": [
+      {
+        "product_id": "P3",
+        "role": "作者意向购入对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "空间与舒适性",
+    "content": "作者认为后排空间对身高1米8以上的人不够友好，但满足家用需求。",
+    "sentiment": "中性",
+    "journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T7",
+        "source_type": "text",
+        "quote": "至于后排空间，确实对一米八以上的车友不友好，但家用是完全没问题的。"
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+  },
+  {
+    "id": "C10",
+    "claim_type": "购车与交易决策",
+    "target_products": [
+      {
+        "product_id": "P3",
+        "role": "作者意向购入对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "外观与内饰",
+    "content": "作者最终决定购买Pro版并选择雅灰色，理由是30岁需要成熟稳重，认为橙色、蓝色等颜色过于张扬。",
+    "sentiment": "中性",
+    "journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T7",
+        "source_type": "text",
+        "quote": "最终定下了Pro版，拿的雅灰。其他颜色感觉太靓了，30岁的人了，就该成熟稳重点。"
+      }
+    ],
+    "confidence": 0.98,
+    "statement_type": "意向决策",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+  },
+  {
+    "id": "C11",
+    "claim_type": "购车与交易决策",
+    "target_products": [
+      {
+        "product_id": "P3",
+        "role": "作者意向购入对象"
+      }
+    ],
+    "related_event_id": null,
+    "event_relation": null,
+    "aspect": "服务与交付",
+    "content": "作者提到小米提供了修改配置的机会，但提醒用户修改订单需重新排产，建议想改配的用户尽快操作。",
+    "sentiment": "正面",
+    "journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T7",
+        "source_type": "text",
+        "quote": "PS：小米是真的听劝，给了改配置机会。不过修改订单要重新排生产日期..."
+      }
+    ],
+    "confidence": 0.95,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确亲历",
+    "sentiment_intensity": "弱",
+    "usage_context": null
+  }
+],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T7",
+        "source_type": "text",
+        "quote": "最终定下了Pro版"
+      },
+      {
+        "block_id": "I12",
+        "source_type": "image_summary",
+        "quote": "当前状态为“车辆待生产”"
+      }
+    ],
+    "confidence": 0.95,
+    "age": 30,
+    "budget": null,
+    "preferences": [
+      "偏好成熟稳重的颜色（如灰色、紫色、橄榄绿）",
+      "重视家用实用性"
+    ]
+  },
+  "post_summary": "作者因换车需求预约试驾小米SU7，虽排队时间长但体验了MAX版的动力、操控和底盘，对其细节设计和能耗管理给予好评。尽管认为后排空间对高个子不太友好，但最终因追求成熟稳重的外观风格，下单购买了雅灰色Pro版，并分享了关于修改配置的注意事项。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

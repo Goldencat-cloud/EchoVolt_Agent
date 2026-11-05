@@ -1,0 +1,420 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9dc672b8073c8b49",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 后驱长续航智驾版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "后驱长续航智驾版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2024款 后驱长续航智驾版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "本田雅阁",
+      "entity_level": "车系",
+      "brand": "本田",
+      "series": "雅阁",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当初最想买的是雅阁英诗派"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "本田英诗派",
+      "entity_level": "车系",
+      "brand": "本田",
+      "series": "英诗派",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "当初最想买的是雅阁英诗派"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "奥迪A4",
+      "entity_level": "车系",
+      "brand": "奥迪",
+      "series": "A4",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "至于同价位的奥迪A4,该改款了就没考虑"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "宝马3系",
+      "entity_level": "车系",
+      "brand": "宝马",
+      "series": "3系",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其他3系和C超预算了"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "奔驰C级",
+      "entity_level": "车系",
+      "brand": "奔驰",
+      "series": "C级",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其他3系和C超预算了"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者设定购车预算在25万元以内，因此选择了标准版配置而非更高配置的车型。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "因为知道电车寿命可能没油车长,所以当时没想花太多钱,就25w以内吧...当时最主要的问题还是预算就是25以内哈哈."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为奥迪A4面临改款故未考虑，宝马3系和奔驰C级超出预算且贷款流程繁琐，而小米SU7价格透明、全款方便，因此果断下单。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "至于同价位的奥迪A4,该改款了就没考虑,其他3系和C超预算了,而且那个贷款返点更便宜啥的感觉谈起来很麻烦,su7直接透明价全款又方便,就果断下定了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P4",
+          "P5",
+          "P6"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "至于同价位的奥迪A4,该改款了就没考虑"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P5",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "其他3系和C超预算了,而且那个贷款返点更便宜啥的感觉谈起来很麻烦,su7直接透明价全款又方便"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P6",
+            "aspect": "价格与成本",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "其他3系和C超预算了,而且那个贷款返点更便宜啥的感觉谈起来很麻烦,su7直接透明价全款又方便"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米SU7标准版后排空间较长但较低，高个子容易顶头，但作者只在乎驾驶位宽敞。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车长时长的,后排空间虽长但低,高个顶头毋庸置疑,但是我只在乎驾驶位,驾驶位宽敞就行哈哈"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者实测小米SU7标准版实际续航约为480-490km，自述驾驶风格温和，未开启动能回收，对续航未过度焦虑。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "标准版实际续航也有490-480km,我自己开的话,喜欢暴力驾驶的朋友就另说了,我喜欢温柔一点踩...反正没电就冲,也没过度在乎过续航."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者日常驾驶，喜欢温柔踩油门，未开启动能回收。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我喜欢温柔一点踩...但是我怕我改开油车了不习惯,所以没开动能回收"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为小米SU7底盘较硬，路面感强，路况差时胎噪较大，但经过一段时间磨合后可以接受。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "猛一开感觉底盘很硬,路面感十足,但是能接受,路况差一点的告诉胎噪也是大的,后来感觉慢慢变小了,可能是现在习惯了哈哈"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在路况较差的道路上行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "路况差一点的告诉胎噪也是大的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为霞光紫车漆耐脏且小剐蹭不易察觉，车内配置相比之前的燃油车有明显提升。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "紫色也挺不错,耐脏而且小的剐蹭不容易看出来...其次车内配置比起我之前开的油车肯定高很多"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者因等待周期过长（原定26周，实际110天）而在过完年后刚回深圳时直接盲订，未进行试驾即下单。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "考虑了两天,过完年刚到深圳,直接盲订了,都没试驾,相信它...当时要等26周,其实最后等了110天提车的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车作业来啦"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "现在也磨合了一段时间了,也是慢慢熟悉了."
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "25w以内",
+    "preferences": [
+      "偏好透明价格",
+      "偏好全款购车",
+      "注重驾驶位空间",
+      "偏好温和驾驶风格"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 2024款后驱长续航智驾版的提车全过程，包括因预算限制选择标准版、对比竞品后的决策过程、详细的费用清单以及提车后的初期用车体验。作者对车辆的空间、续航、外观及性价比表示满意，但也指出了底盘偏硬和胎噪较大的问题。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

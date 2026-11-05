@@ -1,0 +1,22 @@
+{
+ "langsmith_project": "deep-agents-action",
+ "tracing": true,
+ "runs": [
+  {
+   "scenario": "detail",
+   "status": "failed",
+   "wall_s": 3.1,
+   "clarify": 0,
+   "outline_steps": 0,
+   "regenerates": null,
+   "tool_calls": null,
+   "tool_errors": null,
+   "code_failures": null,
+   "gate_rejections": null,
+   "elapsed_ms": null,
+   "error": {
+    "error": "RuntimeError: No module named 'langchain_openai'；最近工具调用：[]"
+   }
+  }
+ ]
+}

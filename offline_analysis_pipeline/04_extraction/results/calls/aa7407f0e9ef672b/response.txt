@@ -1,0 +1,308 @@
+{
+  "schema_version": "2.3",
+  "post_id": "aa7407f0e9ef672b",
+  "products": [
+    {
+      "id": "P1",
+      "name": "2026款小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新一代小米SU7 完整优缺点总结 一、2 0 2 6 款新 s u 7 雅灰色 核心优点"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为2026款小米SU7动力与底盘同级顶尖，驾控优秀，加速线性，悬架调校良好，过弯侧倾小且滤震细腻。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1. 动力与底盘同级顶尖，驾控优秀 ? 动力梯度清晰：后驱标准版零百5.28s，Max双电机零百2.78s，加速线性无顿挫。 ? 前双叉臂+后五连杆悬架，保时捷工程调校；Pro/Max标配双腔空气悬架+CDC可变阻尼，可软硬/高低调节，过弯侧倾小、滤震细腻。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为2026款小米SU7续航扎实，各版本CLTC续航分别为720km、902km、835km，城市通勤续航达成率高，高速表现优于多数同级纯电轿车。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2. 续航扎实，版本选择丰富 ? 标准版CLTC 720km、Pro超长续航902km、Max 835km；城市通勤续航达成率高，高速表现优于多数同级纯电轿车。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为2026款小米SU7的智能座舱和人车家生态是差异化优势，屏幕素质高，车机流畅，语音控制能力强，且与小米手机、平板、智能家居互联体验领先同级。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3. 智能座舱+人车家生态是差异化王牌 ? 16.1英寸3K 120Hz OLED大屏，HyperOS澎湃车机，流畅度高；超级小爱支持连续多指令语音控制。 ? 小米手机、平板、智能家居无缝互联：导航流转、远程控车、全屋设备联动，小米用户体验断层领先同级。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为2026款小米SU7配置大幅下放，性价比突出，补齐了老款低配的短板，如全系标配前排通风/加热/按摩、9气囊等，且储物空间不错。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4. 2026款配置大幅下放，性价比突出 ? 全系前排通风/加热/按摩、全车双层夹胶玻璃、9气囊、电动前备箱、14扬声器音响，老款低配短板全部补齐。 ? 轴距2990mm，前排空间宽敞，纯平地台；前备箱105L+后备箱517L，储物装载能力不错。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出2026款小米SU7因溜背造型导致空间妥协，是家用最大短板，表现为后排头部压抑、坐垫偏短、后挡风玻璃视野差、底盘离地间隙低导致通过性差。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "1. 溜背造型带来空间妥协（家用最大短板） ? 后排头部压抑：身高180cm以上乘客容易顶头；后排坐垫偏短，大腿支撑不足，长途久坐容易累。 ? 后挡风玻璃窄、视野差，车内后视镜可视范围极小，倒车高度依赖360影像；车身宽度大，老旧小区窄路停车、会车不便。 ? 底盘离地间隙仅124mm，通过性差，陡坡、坑洼路段容易托底，不适合经常走乡村烂路。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者列举了2026款小米SU7在舒适性和细节做工方面的短板，包括全景天幕暴晒发烫、部分车主反馈刹车异响和内饰异响、无线充电发热慢、安全带不可调节及座椅偏硬等问题。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2. 舒适性、细节做工存在短板 ? 全景天幕夏季暴晒发烫，原厂无物理遮阳，需自行加装遮阳帘；标准版无空气悬架，烂路颠簸明显。 ? 部分车主反馈冷车刹车异响、颠簸路段内饰轻微异响；无线充电区域发热严重、充电速度慢。 ? 安全带高度不可调节，高个子容易勒脖子；座椅整体偏硬，长时间乘坐疲劳感明显。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为2026款小米SU7的智驾和车机仍有优化空间，城市NOA在复杂路口表现不够成熟，自动泊车适应性有限，车机多任务偶发卡顿，语音识别有误触，CarPlay偶发断连。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3. 智驾、车机仍有优化空间 ? 城市NOA复杂路口偶有激进变道、急刹，算法成熟度不及特斯拉；自动泊车仅适配标准车位，窄车位、划线模糊车位识别差。 ? 车机多任务同时运行偶发卡顿、短暂加载延迟；嘈杂环境下语音识别误触率偏高；iPhone CarPlay存在偶发断连问题。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者指出2026款小米SU7在售后和用车成本方面存在短板，线下服务网点少导致三四线城市维保不便，且部分选装件维修成本高，电吸门存在夹手风险。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4. 售后、用车成本短板 ? 小米汽车线下服务网点数量偏少，三四线城市维保不便，保养、维修排队周期长。 ? 激光雷达、电吸门等选装件维修成本高；选装电吸门存在夹手风险，上下车需留意手指位置。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者总结了2026款小米SU7的适合购买人群（如小米生态用户、追求轿跑颜值、跨城长途、预算22-30万）和慎选人群（如常满载高个子、走乡村土路、三四线城市无售后、对后排舒适静音要求极高）。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "三、适合/慎选人群 ✅ 适合买 1. 小米手机/全屋IoT用户，看重人车家智能联动； 2. 个人、小两口代步，追求轿跑颜值、驾驶乐趣； 3. 经常跨城长途，需要长续航+高压快充； 4. 预算22-30万，想要空悬、激光雷达、座椅按摩等高配置。 ❌ 慎选 1. 经常满载出行、车内常年坐180cm以上高个子； 2. 长期走乡村土路、陡坡多，看重底盘通过性； 3. 居住三四线城市、周边无小米售后中心； 4. 对后排长途舒适性、车内静音有极高要求。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子详细总结了2026款小米SU7的优缺点，涵盖动力底盘、续航、智能座舱、配置性价比等核心优点，以及空间妥协、舒适性细节、智驾优化空间、售后服务等明显缺点，并给出了针对特定人群的购买建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

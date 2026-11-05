@@ -1,0 +1,221 @@
+{
+  "schema_version": "2.3",
+  "post_id": "796c6a2ee806b85c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Su7 Max溶岩橙+21寸轮毂"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张展示小米SU7 Max车型的配置与价格详情卡片。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "因特殊原因特斯拉不能购买"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "华为鸿蒙智行",
+      "entity_level": "品牌",
+      "brand": "华为",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "华为鸿蒙智驾的几款（界系列，阿维塔等）"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "P4",
+      "name": "阿维塔",
+      "entity_level": "品牌",
+      "brand": "阿维塔",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "华为鸿蒙智驾的几款（界系列，阿维塔等）"
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "P5",
+      "name": "蔚来",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一众的纯电品牌蔚来、小鹏、等等都看了也试驾了"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "小鹏",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一众的纯电品牌蔚来、小鹏、等等都看了也试驾了"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者的父母在对比多款新能源车型后，最终因觉得小米SU7好看而倾向于购买，且选择了较为显眼的Max版熔岩橙配色和21寸轮毂。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最终是觉得小米好看。 我本人倒没有什么，开就完了，就是会考虑到他们的选择（Su7 Max溶岩橙+21寸轮毂）"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者担心60多岁的父母选择颜色鲜艳、配置显眼的SU7 Max会成为“显眼包”，认为这种选择在现实中可能会给老年人带来一定的心理压力。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "就是会考虑到他们的选择（Su7 Max溶岩橙+21寸轮毂），有点过于显眼包了，这么大岁数是不是有点不太搭... 太显眼肯定会带来一定的压力？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者询问论坛中是否有类似年龄段（60+或40+/50+）购买SU7的用户，并希望了解他们的购车心得和日常感受。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "想问问坛子里有没有类似，60+ （或40+ 50+）的中、老年朋友购买Su7的，以及自己的购车心得以及日常感受。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "60岁父母有意向购买"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "楼主咨询关于60多岁父母有意购买小米SU7 Max（熔岩橙+21寸轮毂）的看法。楼主认为该配置对于老年人来说过于显眼，担心会带来心理压力，因此向论坛寻求类似年龄段车主的经验和建议。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

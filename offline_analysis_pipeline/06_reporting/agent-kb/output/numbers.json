@@ -1,0 +1,840 @@
+{
+ "meta": {
+  "posts_total": "9,529",
+  "claims_total": "26,936",
+  "mentions_total": "15,002",
+  "date_min": "2022-10-28",
+  "date_max": "2026-10-03",
+  "ev_pass": "22,971",
+  "ev_review": "3,965",
+  "ev_rate": "85.3%",
+  "checks_total": 12,
+  "generated_at": "2026-10-22T08:06:29+00:00",
+  "data_note": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质"
+ },
+ "funnel": [
+  {
+   "name": "全部关联SU7",
+   "posts": 6058,
+   "claims": 18087,
+   "retain": null,
+   "posts_s": "6,058",
+   "claims_s": "18,087"
+  },
+  {
+   "name": "SU7主对象且引文通过（无比较）",
+   "posts": 3377,
+   "claims": 7024,
+   "retain": "55.7%",
+   "posts_s": "3,377",
+   "claims_s": "7,024"
+  },
+  {
+   "name": "产品体验或风险",
+   "posts": 1810,
+   "claims": 3356,
+   "retain": "53.6%",
+   "posts_s": "1,810",
+   "claims_s": "3,356"
+  },
+  {
+   "name": "明确亲历体验或风险",
+   "posts": 465,
+   "claims": 942,
+   "retain": "25.7%",
+   "posts_s": "465",
+   "claims_s": "942"
+  },
+  {
+   "name": "当前拥有且亲历使用",
+   "posts": 148,
+   "claims": 297,
+   "retain": "31.8%",
+   "posts_s": "148",
+   "claims_s": "297"
+  },
+  {
+   "name": "明确未拥有的购车前表达",
+   "posts": 255,
+   "claims": 522,
+   "retain": "172.3%",
+   "posts_s": "255",
+   "claims_s": "522"
+  },
+  {
+   "name": "已订未提表达",
+   "posts": 76,
+   "claims": 140,
+   "retain": "29.8%",
+   "posts_s": "76",
+   "claims_s": "140"
+  }
+ ],
+ "funnel_final_posts": "76",
+ "funnel_final_name": "已订未提表达",
+ "side_pre_posts": "255",
+ "side_pre_claims": "522",
+ "side_ordered_posts": "76",
+ "side_ordered_claims": "140",
+ "ownership": [
+  {
+   "ownership": "仅试驾或借用",
+   "posts": 26
+  },
+  {
+   "ownership": "已订未提",
+   "posts": 408
+  },
+  {
+   "ownership": "当前拥有",
+   "posts": 1514
+  },
+  {
+   "ownership": "无法判断",
+   "posts": 6877
+  },
+  {
+   "ownership": "明确未拥有",
+   "posts": 680
+  },
+  {
+   "ownership": "曾拥有但已出售或退订",
+   "posts": 24
+  }
+ ],
+ "sentiments": {
+  "正面": 190,
+  "正负混合": 19,
+  "中性": 22,
+  "负面": 66
+ },
+ "aspects": [
+  {
+   "aspect": "外观与内饰",
+   "claims": "717",
+   "posts": "635",
+   "positive": "575",
+   "negative": "63",
+   "neutral": "49",
+   "other": "30",
+   "negative_posts": "62",
+   "negativeShare": "0.08786610878661087",
+   "share_s": "8.8%",
+   "claims_i": 717
+  },
+  {
+   "aspect": "空间与舒适性",
+   "claims": "302",
+   "posts": "239",
+   "positive": "118",
+   "negative": "131",
+   "neutral": "18",
+   "other": "35",
+   "negative_posts": "113",
+   "negativeShare": "0.4337748344370861",
+   "share_s": "43.4%",
+   "claims_i": 302
+  },
+  {
+   "aspect": "智能座舱与车机",
+   "claims": "301",
+   "posts": "278",
+   "positive": "236",
+   "negative": "23",
+   "neutral": "31",
+   "other": "11",
+   "negative_posts": "22",
+   "negativeShare": "0.07641196013289037",
+   "share_s": "7.6%",
+   "claims_i": 301
+  },
+  {
+   "aspect": "品牌与口碑",
+   "claims": "291",
+   "posts": "282",
+   "positive": "217",
+   "negative": "45",
+   "neutral": "11",
+   "other": "18",
+   "negative_posts": "45",
+   "negativeShare": "0.15463917525773196",
+   "share_s": "15.5%",
+   "claims_i": 291
+  },
+  {
+   "aspect": "配置与功能",
+   "claims": "284",
+   "posts": "258",
+   "positive": "157",
+   "negative": "59",
+   "neutral": "64",
+   "other": "4",
+   "negative_posts": "52",
+   "negativeShare": "0.20774647887323944",
+   "share_s": "20.8%",
+   "claims_i": 284
+  },
+  {
+   "aspect": "续航与能耗",
+   "claims": "268",
+   "posts": "238",
+   "positive": "174",
+   "negative": "31",
+   "neutral": "53",
+   "other": "10",
+   "negative_posts": "31",
+   "negativeShare": "0.11567164179104478",
+   "share_s": "11.6%",
+   "claims_i": 268
+  },
+  {
+   "aspect": "驾驶与操控",
+   "claims": "223",
+   "posts": "205",
+   "positive": "154",
+   "negative": "37",
+   "neutral": "25",
+   "other": "7",
+   "negative_posts": "34",
+   "negativeShare": "0.16591928251121077",
+   "share_s": "16.6%",
+   "claims_i": 223
+  },
+  {
+   "aspect": "安全与质量",
+   "claims": "188",
+   "posts": "168",
+   "positive": "97",
+   "negative": "66",
+   "neutral": "22",
+   "other": "3",
+   "negative_posts": "59",
+   "negativeShare": "0.35106382978723405",
+   "share_s": "35.1%",
+   "claims_i": 188
+  },
+  {
+   "aspect": "智能驾驶",
+   "claims": "152",
+   "posts": "143",
+   "positive": "88",
+   "negative": "42",
+   "neutral": "13",
+   "other": "9",
+   "negative_posts": "40",
+   "negativeShare": "0.27631578947368424",
+   "share_s": "27.6%",
+   "claims_i": 152
+  },
+  {
+   "aspect": "价格与成本",
+   "claims": "144",
+   "posts": "134",
+   "positive": "91",
+   "negative": "42",
+   "neutral": "5",
+   "other": "6",
+   "negative_posts": "40",
+   "negativeShare": "0.2916666666666667",
+   "share_s": "29.2%",
+   "claims_i": 144
+  },
+  {
+   "aspect": "动力与性能",
+   "claims": "137",
+   "posts": "137",
+   "positive": "123",
+   "negative": "4",
+   "neutral": "8",
+   "other": "2",
+   "negative_posts": "4",
+   "negativeShare": "0.029197080291970802",
+   "share_s": "2.9%",
+   "claims_i": 137
+  },
+  {
+   "aspect": "服务与交付",
+   "claims": "132",
+   "posts": "122",
+   "positive": "46",
+   "negative": "62",
+   "neutral": "22",
+   "other": "2",
+   "negative_posts": "55",
+   "negativeShare": "0.4696969696969697",
+   "share_s": "47.0%",
+   "claims_i": 132
+  },
+  {
+   "aspect": "可靠性与故障",
+   "claims": "98",
+   "posts": "90",
+   "positive": "12",
+   "negative": "54",
+   "neutral": "26",
+   "other": "6",
+   "negative_posts": "52",
+   "negativeShare": "0.5510204081632653",
+   "share_s": "55.1%",
+   "claims_i": 98
+  },
+  {
+   "aspect": "充电与补能",
+   "claims": "64",
+   "posts": "61",
+   "positive": "38",
+   "negative": "13",
+   "neutral": "13",
+   "other": "0",
+   "negative_posts": "13",
+   "negativeShare": "0.203125",
+   "share_s": "20.3%",
+   "claims_i": 64
+  },
+  {
+   "aspect": "其他",
+   "claims": "54",
+   "posts": "53",
+   "positive": "24",
+   "negative": "13",
+   "neutral": "15",
+   "other": "2",
+   "negative_posts": "13",
+   "negativeShare": "0.24074074074074073",
+   "share_s": "24.1%",
+   "claims_i": 54
+  },
+  {
+   "aspect": "技术原理",
+   "claims": "1",
+   "posts": "1",
+   "positive": "1",
+   "negative": "0",
+   "neutral": "0",
+   "other": "0",
+   "negative_posts": "0",
+   "negativeShare": "0.0",
+   "share_s": "0.0%",
+   "claims_i": 1
+  }
+ ],
+ "heat_top": "外观与内饰",
+ "heat_claims": "717",
+ "heat_posts": "635",
+ "heat_neg_share": "8.8%",
+ "comfort_neg": "131",
+ "comfort_claims": "302",
+ "comfort_share": "43.4%",
+ "comfort_neg_posts": "113",
+ "reli_claims": "98",
+ "reli_neg": "54",
+ "reli_share": "55.1%",
+ "serv_claims": "132",
+ "serv_neg": "62",
+ "serv_share": "47.0%",
+ "power_neg": "4",
+ "power_share": "2.9%",
+ "neg_top": "可靠性与故障",
+ "neg_top_share": "55.1%",
+ "journey": {
+  "pre_ext": {
+   "aspect": "外观与内饰",
+   "claims": 117,
+   "posts": 100,
+   "positive": 98,
+   "negative": 9,
+   "neutral": 5,
+   "other": 5,
+   "negative_posts": 9,
+   "negativeShare": 0.07692307692307693,
+   "share_s": "7.7%"
+  },
+  "pre_price": {
+   "aspect": "价格与成本",
+   "claims": 92,
+   "posts": 77,
+   "positive": 30,
+   "negative": 32,
+   "neutral": 29,
+   "other": 1,
+   "negative_posts": 28,
+   "negativeShare": 0.34782608695652173,
+   "share_s": "34.8%"
+  },
+  "pre_comfort": {
+   "aspect": "空间与舒适性",
+   "claims": 38,
+   "posts": 35,
+   "positive": 12,
+   "negative": 19,
+   "neutral": 2,
+   "other": 5,
+   "negative_posts": 16,
+   "negativeShare": 0.5,
+   "share_s": "50.0%"
+  },
+  "pre_svc": {
+   "aspect": "服务与交付",
+   "claims": 19,
+   "posts": 19,
+   "positive": 4,
+   "negative": 10,
+   "neutral": 5,
+   "other": 0,
+   "negative_posts": 10,
+   "negativeShare": 0.5263157894736842,
+   "share_s": "52.6%"
+  },
+  "pre_range": {
+   "aspect": "续航与能耗",
+   "claims": 28,
+   "posts": 28,
+   "positive": 15,
+   "negative": 4,
+   "neutral": 5,
+   "other": 4,
+   "negative_posts": 4,
+   "negativeShare": 0.14285714285714285,
+   "share_s": "14.3%"
+  },
+  "pre_cockpit": {
+   "aspect": "智能座舱与车机",
+   "claims": 41,
+   "posts": 38,
+   "positive": 32,
+   "negative": 3,
+   "neutral": 4,
+   "other": 2,
+   "negative_posts": 3,
+   "negativeShare": 0.07317073170731707,
+   "share_s": "7.3%"
+  },
+  "pre_power": {
+   "aspect": "动力与性能",
+   "claims": 19,
+   "posts": 19,
+   "positive": 16,
+   "negative": 1,
+   "neutral": 1,
+   "other": 1,
+   "negative_posts": 1,
+   "negativeShare": 0.05263157894736842,
+   "share_s": "5.3%"
+  },
+  "pre_drive": {
+   "aspect": "驾驶与操控",
+   "claims": 25,
+   "posts": 24,
+   "positive": 14,
+   "negative": 5,
+   "neutral": 6,
+   "other": 0,
+   "negative_posts": 5,
+   "negativeShare": 0.2,
+   "share_s": "20.0%"
+  },
+  "own_ext": {
+   "aspect": "外观与内饰",
+   "claims": 68,
+   "posts": 60,
+   "positive": 55,
+   "negative": 6,
+   "neutral": 2,
+   "other": 5,
+   "negative_posts": 5,
+   "negativeShare": 0.08823529411764706,
+   "share_s": "8.8%"
+  },
+  "own_price": {
+   "aspect": "价格与成本",
+   "claims": 6,
+   "posts": 6,
+   "positive": 4,
+   "negative": 2,
+   "neutral": 0,
+   "other": 0,
+   "negative_posts": 2,
+   "negativeShare": 0.3333333333333333,
+   "share_s": "33.3%"
+  },
+  "own_comfort": {
+   "aspect": "空间与舒适性",
+   "claims": 44,
+   "posts": 33,
+   "positive": 16,
+   "negative": 21,
+   "neutral": 1,
+   "other": 6,
+   "negative_posts": 18,
+   "negativeShare": 0.4772727272727273,
+   "share_s": "47.7%"
+  },
+  "own_svc": {
+   "aspect": "服务与交付",
+   "claims": 9,
+   "posts": 9,
+   "positive": 5,
+   "negative": 3,
+   "neutral": 1,
+   "other": 0,
+   "negative_posts": 3,
+   "negativeShare": 0.3333333333333333,
+   "share_s": "33.3%"
+  },
+  "own_power": {
+   "aspect": "动力与性能",
+   "claims": 6,
+   "posts": 6,
+   "positive": 6,
+   "negative": 0,
+   "neutral": 0,
+   "other": 0,
+   "negative_posts": 0,
+   "negativeShare": 0.0,
+   "share_s": "0.0%"
+  },
+  "own_drive": {
+   "aspect": "驾驶与操控",
+   "claims": 29,
+   "posts": 26,
+   "positive": 24,
+   "negative": 3,
+   "neutral": 2,
+   "other": 0,
+   "negative_posts": 3,
+   "negativeShare": 0.10344827586206896,
+   "share_s": "10.3%"
+  },
+  "own_range": {
+   "aspect": "续航与能耗",
+   "claims": 18,
+   "posts": 17,
+   "positive": 13,
+   "negative": 2,
+   "neutral": 2,
+   "other": 1,
+   "negative_posts": 2,
+   "negativeShare": 0.1111111111111111,
+   "share_s": "11.1%"
+  },
+  "own_cockpit": {
+   "aspect": "智能座舱与车机",
+   "claims": 37,
+   "posts": 32,
+   "positive": 27,
+   "negative": 5,
+   "neutral": 2,
+   "other": 3,
+   "negative_posts": 5,
+   "negativeShare": 0.13513513513513514,
+   "share_s": "13.5%"
+  },
+  "ordered_svc": {
+   "aspect": "服务与交付",
+   "claims": 18,
+   "posts": 13,
+   "positive": 4,
+   "negative": 11,
+   "neutral": 3,
+   "other": 0,
+   "negative_posts": 7,
+   "negativeShare": 0.6111111111111112,
+   "share_s": "61.1%"
+  }
+ },
+ "price_pre_claims": "92",
+ "price_pre_posts": "77",
+ "price_pre_share": "34.8%",
+ "price_own_claims": "6",
+ "ext_pre_claims": "117",
+ "ext_pre_share": "7.7%",
+ "ext_own_claims": "68",
+ "comfort_pre_share": "50.0%",
+ "comfort_own_share": "47.7%",
+ "comfort_own_neg": 21,
+ "svc_pre_share": "52.6%",
+ "svc_own_share": "33.3%",
+ "svc_ordered_share": "61.1%",
+ "svc_ordered_neg": 11,
+ "svc_ordered_claims": 18,
+ "power_own_pos": 6,
+ "power_own_claims": "6",
+ "drive_own_pos": 24,
+ "drive_own_claims": "29",
+ "cockpit_own_pos": 27,
+ "cockpit_own_claims": "37",
+ "scope": {
+  "rule": "SU7 + top 8 explicitly compared non-Xiaomi series by unique posts, minimum 10 posts; brands only as ancestors or genuinely brand-only mentions",
+  "counts": {
+   "in_scope": 10392,
+   "out_of_scope": 3686,
+   "unresolved": 734,
+   "excluded": 190
+  },
+  "top": [
+   {
+    "brand": "特斯拉",
+    "series": "Model 3",
+    "posts": 201
+   },
+   {
+    "brand": "极氪",
+    "series": "001",
+    "posts": 73
+   },
+   {
+    "brand": "极氪",
+    "series": "007",
+    "posts": 63
+   },
+   {
+    "brand": "比亚迪",
+    "series": "汉",
+    "posts": 38
+   },
+   {
+    "brand": "保时捷",
+    "series": "Taycan",
+    "posts": 31
+   },
+   {
+    "brand": "尚界",
+    "series": "Z7",
+    "posts": 29
+   },
+   {
+    "brand": "特斯拉",
+    "series": "Model S",
+    "posts": 28
+   },
+   {
+    "brand": "阿维塔",
+    "series": "12",
+    "posts": 27
+   }
+  ],
+  "whitelist": [
+   [
+    "小米",
+    "SU7"
+   ],
+   [
+    "特斯拉",
+    "Model 3"
+   ],
+   [
+    "极氪",
+    "001"
+   ],
+   [
+    "极氪",
+    "007"
+   ],
+   [
+    "比亚迪",
+    "汉"
+   ],
+   [
+    "保时捷",
+    "Taycan"
+   ],
+   [
+    "尚界",
+    "Z7"
+   ],
+   [
+    "特斯拉",
+    "Model S"
+   ],
+   [
+    "阿维塔",
+    "12"
+   ]
+  ]
+ },
+ "scope_in": "10,392",
+ "scope_out": "3,686",
+ "scope_unresolved": "734",
+ "scope_excluded": "190",
+ "cases": [
+  {
+   "case": "后排支撑与长途舒适",
+   "key": "0e9d99b0abd6f19a:C5",
+   "aspect": "空间与舒适性",
+   "date": "2024-10-16 00:10:11",
+   "title": "年轻人的第一台小米SU7",
+   "url": "https://club.autohome.com.cn/bbs/thread/0e9d99b0abd6f19a/109466958-1.html",
+   "quote": "后排座椅对大腿的支撑性不佳，而且座椅有点偏硬，长期乘坐可能不舒适",
+   "blocks": "T1",
+   "sentiment": "负面",
+   "source_status": "试驾体验，不是SU7持有证明",
+   "observation": "作者明确提到开自己的A3并简单试驾SU7；保留后排支撑的试驾观察，不计作长期车主反馈。",
+   "need": "让不同身高的后排乘客在长时间乘坐中获得足够腿部支撑。",
+   "boundary": "分析推导；长途后果在这条原文中是预期，不是已发生的长期体验。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "后排身高适配",
+   "key": "4d2d1ce29103cdc6:C4",
+   "aspect": "空间与舒适性",
+   "date": "2026-03-17 17:03:50",
+   "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+   "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html",
+   "quote": "后排空间对1米8以上的朋友不算宽裕",
+   "blocks": "T1",
+   "sentiment": "负面",
+   "source_status": "自述主力用车；叙事真实性未核验",
+   "observation": "表达了高个乘客的后排空间约束；全文同时有车评式宣传表达，不据此认证真实车主。",
+   "need": "看车与试驾环节提供可感知的身高—坐姿适配信息。",
+   "boundary": "分析推导；不能由单帖推成所有高个乘客结论。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "HUD可读性与信息提前量",
+   "key": "79aba2b132c3f554:C1",
+   "aspect": "智能座舱与车机",
+   "date": "2024-05-06 22:02:51",
+   "title": "SU7 MAX 的 HUD 是一个很大的槽点。",
+   "url": "https://club.autohome.com.cn/bbs/thread/79aba2b132c3f554/108175112-1.html",
+   "quote": "SU7 MAX 的 HUD 是一个很大的槽点。\n\n第一感受就是不太清晰，有点模糊。或者说分辨率很低。\n\n导致显示效果低，有些让人晕。虽然不至于挡车与人的视线，但如果前面路况不好，会影响看路上的一些情况，比如坑洼之类的，这个 HUD 基本可以完美挡住。",
+   "blocks": "T0, T1, T1",
+   "sentiment": "负面",
+   "source_status": "主观体验；持有状态不单独确证",
+   "observation": "原文同时提到模糊、视觉负担、路面观察及连续路口提示不足；并肯定空悬与座椅。",
+   "need": "让驾驶员在复杂道路和连续分叉路口看得清、看得早，减少遮挡感。",
+   "boundary": "分析推导；分辨率低是作者解释，不是测量结论。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "导航中语音响应",
+   "key": "4d2d1ce29103cdc6:C5",
+   "aspect": "智能座舱与车机",
+   "date": "2026-03-17 17:03:50",
+   "title": "从质疑到“真香”，我与SU7的这一年，以及为何我仍在期待",
+   "url": "https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html",
+   "quote": "澎湃OS偶尔会有点“小脾气”，导航时语音唤醒会慢半拍",
+   "blocks": "T1",
+   "sentiment": "负面",
+   "source_status": "自述使用体验",
+   "observation": "导航时语音唤醒“慢半拍”是具体任务障碍；同帖也肯定语音控空调和播放音乐。",
+   "need": "保留自然语音交互优势，同时提高导航任务下响应的一致性。",
+   "boundary": "分析推导；未测量延迟，也未确认软件版本。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "遥控泊车中断",
+   "key": "e024a801eee64c1f:C2",
+   "aspect": "智能驾驶",
+   "date": "2025-09-15 01:16:28",
+   "title": "SU7控车值多少，一起聊聊",
+   "url": "https://club.autohome.com.cn/bbs/thread/e024a801eee64c1f/112892669-1.html",
+   "quote": "我试过一次，中途蓝牙突然断了，结果车子直接停在半道不动了，吓得我赶紧走过去看。所以提醒大家，用这功能一定要等车完全停稳、停好之后再离开，不然真有风险。",
+   "blocks": "T2",
+   "sentiment": "负面",
+   "source_status": "自述一次尝试",
+   "observation": "作者称蓝牙中断后车辆停在半道；这是异常中止及恢复体验，不证明车辆失控。",
+   "need": "连接中断时清楚说明车辆状态、停止原因及下一步恢复方式。",
+   "boundary": "分析推导；风险判断来自作者，不认定技术缺陷或事故原因。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "自动泊车与售后责任",
+   "key": "9f09473f23bafc55:C1",
+   "aspect": "智能驾驶",
+   "date": "2026-07-07 17:44:35",
+   "title": "这是小米su7自动泊车出现的尾部撞损。居然以雷达位置低，后面",
+   "url": "https://club.autohome.com.cn/bbs/thread/9f09473f23bafc55/115561944-1.html",
+   "quote": "这是小米su7自动泊车出现的尾部撞损",
+   "blocks": "T1",
+   "sentiment": "负面",
+   "source_status": "单方事故归因陈述",
+   "observation": "同帖称自动泊车后尾部撞损并被拒绝维修责任；图片说明却描述疑似前部局部，需单列图文不一致。",
+   "need": "为泊车争议提供可回查的过程记录、功能边界和清晰责任处理流程。",
+   "boundary": "分析推导；碰撞过程、责任、图中位置均未核验。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "充电功率信息解释",
+   "key": "a3f7ae73d505588a:C1",
+   "aspect": "充电与补能",
+   "date": "2026-01-16 21:50:28",
+   "title": "为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充",
+   "url": "https://club.autohome.com.cn/bbs/thread/a3f7ae73d505588a/114155185-1.html",
+   "quote": "为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充了14.1度电，结果到了车上就只有峰值6.7kw，平均6.6kw，我那400w去哪了？\n\n从小米自己自己的充电时间看，确实没有7kw",
+   "blocks": "T1, T1",
+   "sentiment": "负面",
+   "source_status": "带数值的用户疑问",
+   "observation": "作者比较桩侧7kW与车端6.6–6.7kW显示，询问差异；不把疑问直接认作少充电或质量故障。",
+   "need": "在桩端、车辆端及计费数据间提供清晰的口径与损耗解释。",
+   "boundary": "分析推导；没有测量或账单验证。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "冬季租车的补能预期",
+   "key": "e3322fb90b3349d5:C7",
+   "aspect": "续航与能耗",
+   "date": "2026-01-08 22:14:32",
+   "title": "在北京租一天SU7去慕田峪长城真实感受！",
+   "url": "https://club.autohome.com.cn/bbs/thread/e3322fb90b3349d5/114085737-1.html",
+   "quote": "因为今天北京早上最低温度零下9度，下午最热温度6度，所以取暖的情况下，百公里大约电耗19度电。\n\n一天下来大约跑了165公里，充电花费89元。每公里也要5毛2的电费。\n\n但是今天每公里花费5毛2电费，着实不省钱。",
+   "blocks": "T6, T6, T8",
+   "sentiment": "负面",
+   "source_status": "明确租车一天，不是长期持有",
+   "observation": "北京冬季租车、暖风、165公里和公充费用构成具体场景；费用由作者自述，不能从一次经历外推车型电耗。",
+   "need": "按温度、暖风、路线和补能方式展示可理解的用车成本预期。",
+   "boundary": "分析推导；公充账单不等于同一行程的真实耗电。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "交付承诺一致性",
+   "key": "de660a335338f489:C4",
+   "aspect": "品牌与口碑",
+   "date": "2025-12-15 14:14:08",
+   "title": "一次心酸的小米SU7提车记：被区别对待的“后妈生的”客户 今",
+   "url": "https://club.autohome.com.cn/bbs/thread/de660a335338f489/113849811-1.html",
+   "quote": "这早已不是几件礼品的小事，而是一种被轻视、被区别对待的感受。\n\n我希望小米汽车能对此给出一个真正合理、诚恳的解释和补救措施。",
+   "blocks": "T1, T1",
+   "sentiment": "负面",
+   "source_status": "自述提车争议",
+   "observation": "作者将礼包承诺未兑现解释为被区别对待，并明确要求解释和补救；这是服务公平感，不只是赠品价值。",
+   "need": "把销售承诺、提前提车条件与交付清单提前说清，并保持执行一致。",
+   "boundary": "作者明确要求解释与补救；具体流程方案为分析推导。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "售后可达性影响购车顾虑",
+   "key": "013c71a6c3d9fc56:C2",
+   "aspect": "服务与交付",
+   "date": "2024-03-29 10:14:01",
+   "title": "关于小米SU7你怎么看",
+   "url": "https://club.autohome.com.cn/bbs/thread/013c71a6c3d9fc56/107897049-1.html",
+   "quote": "离我最近的小米提车交付店在北京1000多公里买台车只能用板车拉回来，在自己的城市开有点什么小毛病都没售后处理的地方，还有就是维修时效，眼下小米售后这一块就还没落实",
+   "blocks": "T1",
+   "sentiment": "负面",
+   "source_status": "未购者的历史顾虑",
+   "observation": "作者称最近交付店相距一千多公里，担心当地维修时效；这是帖时点的感知，不是当前网点事实。",
+   "need": "在购车前明确当地服务覆盖、故障送修路径及预计处理时效。",
+   "boundary": "分析推导；须按用户城市和当下服务覆盖再验证。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  },
+  {
+   "case": "权益形式与实用价值",
+   "key": "170a414efc11ae8f:C1",
+   "aspect": "价格与成本",
+   "date": "2024-03-29 09:18:02",
+   "title": "我说点你们没注意的~~~",
+   "url": "https://club.autohome.com.cn/bbs/thread/170a414efc11ae8f/107896577-1.html",
+   "quote": "1.冰箱2000元，你花个2-300在TB上面买个冰箱不好么？带滚轮和拉杆箱的，可以在下车后去公园，去其他地方携带方便，容量也大啊，建议给个折现吧。",
+   "blocks": "T1",
+   "sentiment": "负面",
+   "source_status": "未购者的权益偏好",
+   "observation": "作者明确建议把冰箱权益折现，认为便携式产品对自己的场景更实用。",
+   "need": "提供与个人使用场景匹配、可理解的权益选择。",
+   "boundary": "作者明确提出折现；不是所有用户都偏好现金优惠。",
+   "review": "Codex定向原文复核；不是人类语义验收"
+  }
+ ],
+ "cases_count": 11,
+ "full_price_claims": "3,544",
+ "full_price_neutral": "2,199"
+}

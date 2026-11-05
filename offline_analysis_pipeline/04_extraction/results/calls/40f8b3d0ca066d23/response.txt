@@ -1,0 +1,194 @@
+{
+  "schema_version": "2.3",
+  "post_id": "40f8b3d0ca066d23",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7侧翻起火事件引发的驾车自救思考"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "其中小米SU7整车发生侧翻，并伴有明火"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "作者转述称近日吉林辽源市发生一起严重车辆相撞事故，其中一辆小米SU7发生侧翻并伴有明火，十余位路人合力抬车救出被困人员。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近日吉林辽源市发生了一起严重的车辆相撞事故，其中小米SU7整车发生侧翻，并伴有明火，情况十分危急。幸运的是，十余位热心路人迅速行动，合力抬起侧翻车辆，成功救出了被困人员。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者提出车辆侧翻时的通用自救建议：瞬间抓紧方向盘和固定物、背靠座椅、脚钩踏板以保持身体固定；若起火应尝试开门窗或用安全锤破窗逃生，并注意保护头面。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在车辆侧翻的瞬间，应迅速抓紧方向盘和车内的固定物，如座椅、扶手等，以稳定身体，避免在车内滚动而受伤。同时，背部要紧靠座椅靠背，双脚钩住踏板，尽量保持身体的固定。 如果车辆侧翻后起火，应立即尝试打开车门或车窗逃生。如果车门因变形无法打开，应利用车内的安全锤、破窗器等工具打破车窗玻璃，迅速逃离车辆。在逃离过程中，要注意保护头部和面部，避免被玻璃碎片划伤。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者建议若无法立即逃离，应尽快使用车内灭火器扑救初起火势，利用通讯设备报警，并保持呼吸畅通以避免吸入有毒烟雾。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "如果无法立即逃离车辆，应尽快找到车内的灭火器，对初起火势进行扑救。同时，利用车内的通讯设备拨打报警电话，寻求救援。在等待救援的过程中，要尽量保持呼吸畅通，避免因吸入有毒烟雾而窒息。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者认为应养成系好安全带、遵守交通规则、保持安全车速等良好安全习惯，并从源头预防交通事故，以确保生命安全。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "驾车时还应养成良好的安全习惯，如系好安全带、遵守交通规则、保持安全车速等。这些看似简单的措施，在关键时刻往往能救命。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者对事件中伸出援路的热心路人表示敬意，认为他们树立了榜样，体现了社会的温暖和希望。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "最后向那些在这次事故中伸出援手的热心路人致以最崇高的敬意。他们的勇敢和无私，为我们树立了榜样，也让我们看到了社会的温暖和希望。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "吉林辽源小米SU7侧翻起火事故",
+      "event_type": "交通事故与公共安全",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "近日吉林辽源市发生了一起严重的车辆相撞事故，其中小米SU7整车发生侧翻，并伴有明火，情况十分危急。幸运的是，十余位热心路人迅速行动，合力抬起侧翻车辆，成功救出了被困人员。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "作者转述称近日吉林辽源市发生一起严重车辆相撞事故，一辆小米SU7侧翻并伴有明火，十余位路人合力抬车救出被困人员。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子围绕一起被转述的小米SU7侧翻起火事故，引申出车辆侧翻及起火时的通用自救方法与安全驾驶习惯建议，并对施救路人表达敬意。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

@@ -1,0 +1,267 @@
+{
+  "schema_version": "2.3",
+  "post_id": "99d23932f00aede7",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7火了"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "凯迪拉克",
+      "entity_level": "品牌",
+      "brand": "凯迪拉克",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "凯迪拉克被骂了"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "凯迪拉克傲歌",
+      "entity_level": "具体配置",
+      "brand": "凯迪拉克",
+      "series": "傲歌",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "凯迪拉克（Cadillac）即将发布的纯电SUV“傲歌”"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米蹭保时捷的外观设计"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "哪吒汽车",
+      "entity_level": "品牌",
+      "brand": "哪吒",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "哪吒汽车因为不会做营销被周鸿祎直播怼"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者指出凯迪拉克在3月30日发布了一系列模仿“对不起体”的海报，海报内容涉及与小米SU7的对比及新车傲歌的宣传，引发了大量负面舆论。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "凯迪拉克在 3月30日一口气连发8张海报，海报标题：对不起，搞了120年营销忽然给我整不会了"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "这是一张关于凯迪拉克（Cadillac）即将发布的纯电SUV“傲歌”的宣传恶搞海报"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者转述了部分网友对凯迪拉克营销事件的批评观点，认为其营销方式“碰瓷”小米、显得Low，且不符合豪华品牌定位，甚至可能导致品牌衰落。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "网友认为，凯迪拉克好歹也是有着百年历史的豪华汽车品牌...反倒是搁这打嘴炮、搞碰瓷，一点都彰显不出品牌的格局。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "总结下来，其实网友的“炮火”主要集中在几点： 1、凯迪拉克碰瓷小米；2、凯迪拉克营销做得烂；3、豪华车下场做营销，low。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "品牌与口碑",
+      "content": "作者从营销专业角度分析认为，尽管舆论负面，但凯迪拉克此次营销在文案、设计和时机上是成功的，因为它利用了“对不起体”的高效传播特性，强化了品牌记忆点并实现了差异化竞争。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "但是 站在营销的角度，这次营销事件无论是从文案、设计、营销时机点，还是从话题传播热度上，都是一次值得学习的案例。"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "品牌最害怕的从来不是“诋毁”，而是被遗忘。"
+        },
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "这种从内到外的“冲突感”，一方面能够带来新的品牌记忆点，另一方面承担着品牌触点的角色"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者指出豪华品牌在进行年轻化营销时面临两难困境：既需要通过“蹭热点”获取关注，又容易因过度娱乐化而损害原有的高端品牌形象，导致“极端年轻化的反噬”。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "对于豪华品牌而已，一方面为了应对品牌年轻化，想要“讨好”消费者，另一方面，却又容易受到极端年轻化的反噬。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "凯迪拉克发布“对不起体”营销海报",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2024-03-30",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2",
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "凯迪拉克在 3月30日一口气连发8张海报"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "凯迪拉克于3月30日发布系列海报，采用“对不起体”文案宣传新车傲歌，并与小米SU7形成对比，引发广泛关注和争议。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子分析了凯迪拉克针对小米SU7热度发布的“对不起体”营销海报事件。作者指出虽然该营销引发大量“碰瓷”和“Low”的负面舆论，但从营销角度看，其通过反差感和高效传播成功提升了品牌关注度，同时也探讨了豪华品牌在年轻化营销中面临的形象平衡难题。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

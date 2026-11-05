@@ -1,0 +1,311 @@
+{
+  "schema_version": "2.3",
+  "post_id": "8bc4ec633e8c7efa",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米新su7提车一周驾驶分享"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "右下角标有“SU7”型号名称"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米的新手保护期设置（动力限制至140km/h，需行驶300km解锁）对新手比较到位，有助于保护新手。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米对新手的保护也是很到位，刚提车是有新手保护期的，有动力限制，只能跑140，其他模式也不能用，需要开够300km才可以解锁。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者提车初期，处于新手保护期内。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "刚提车是有新手保护期的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为车机的智能化功能（如超速提醒、障碍检测、倒车后视镜降低、防开门杀提醒、超级任务DIY）非常贴心，能帮助新手省心和提升安全性。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "好在小米还是挺智能化，能帮我省点心...很多贴心设计都在车机系统里...比如开车门时，后方来车可以声音提醒加延迟开门，有效避免开门杀，还有超级任务可以diy。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在日常驾驶中使用车机各项辅助功能。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我设置了超速声音提醒，比较敏感的车身附近障碍检测，还有倒车后视镜自动降低一点"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者称赞自动泊车功能非常好用，解决了其停车技术为零的问题，认为自动泊入和转向泊出成功率高。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最好用的就是自动泊车了！本人停车技术为零...小米的自动泊入和转向泊出真的太好使了，参团率百分百！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "作者在停车场景中使用自动泊车功能。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "最好用的就是自动泊车了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为高速和高架上的长途智驾比较省心，但在车流大的高架上，智驾策略过于保守，遇到旁边车辆加速时会大幅减速，且在堵车时不敢变道，可能导致错过下高架时机，让作者感到费心。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智驾只在高速和高架体验了，长途智驾确实挺省心，但这个省心有时候也没那么省心，特别是在车流大的高架上，旁边的车加速驶过，智驾就会自己减速...保守到堵车时候不敢变道，直接错过下高架的时机。。。这就有点让我费心了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在高速和高架道路上使用智能驾驶功能，特别是车流较大的路段。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "智驾只在高速和高架体验了...特别是在车流大的高架上"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为运动模式下驾驶感受爽快，车身变轻盈，电门、刹车和方向盘反馈轻盈，给人“人车合一”的感觉，增强了新手的驾驶自信。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "运动模式的驾驶感受是比较爽的...主要爽点是整体车身都变轻盈了，电门刹车和方向盘都变得很轻盈，有种人车合一的感觉，给了新手的我很大的驾驶自信。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者切换至运动模式进行驾驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "运动模式的驾驶感受是比较爽的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者指出存在功能互斥的限制：雨天打开湿滑模式后不能使用智驾和自动泊车；开启通透模式后不能使用小爱同学。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有个不得劲的点，雨天打开湿滑模式后不能用智驾，也不能用自动泊车，开始通透模式后不能用小爱。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者在雨天尝试使用湿滑模式，以及在车内尝试使用通透模式和小爱同学。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "雨天打开湿滑模式后不能用智驾...开始通透模式后不能用小爱"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7外观帅气，是年轻人的首选。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最后，小米帅是真的帅，年轻人的首选。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "交付与上手",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "小米新su7提车一周驾驶分享"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "虽然拿驾照六年了，但开车次数屈指可数。面对一辆性能轿跑，为了不刚提车就冲进绿化带..."
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了提车一周的小米SU7驾驶体验。作为新手司机，作者肯定了车辆的新手保护、车机智能化辅助及自动泊车功能，认为其提升了安全性和便利性。同时，作者指出了高速智驾策略过于保守、特定模式下功能互斥等不足之处，并对运动模式的操控感和车辆外观给予了高度评价。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

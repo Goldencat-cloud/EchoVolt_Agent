@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9300403372a6b4eb",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "因为我没有直接让小米官方给我贴上他们的官方车衣"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "车头引擎盖中央有明显的白色“mi”标志，表明品牌为小米"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者提车后未选择小米官方车衣，而是决定寻找线下贴膜公司进行施工。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "因为我没有直接让小米官方给我贴上他们的官方车衣，所以我决定去线下找一家贴膜公司帮我贴"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者为避免新车在运输过程中受到石子撞击或磕碰，选择使用拖车而非自驾前往贴膜店。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是我怕再去的过程中开车碰到小石子，所以我决定还是叫了拖车去，这样不用开车到达目的地就不用担心会有磕碰了"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "交付与上手",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "其实我买完车第一件事是找的拖车公司给我拖回去"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者分享了首次购买新车后的交付经历，描述了因担心新车受损而使用拖车运送至线下门店贴车衣的过程。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

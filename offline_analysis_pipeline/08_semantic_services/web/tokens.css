@@ -1,0 +1,80 @@
+:root {
+  color-scheme: light;
+
+  /* ===== 配色策略：暖中性底 × 蓝宝石强调（冷色只出现在 10% 的交互元素上） =====
+     暖灰底色让大面积阅读更柔和，蓝色因此显得克制而高级；铜金只用于“占位/待审核”。 */
+  --brand-900: #12233d;
+  --brand-800: #1a3357;
+  --brand-700: #234b7d;
+  --brand-600: #2c5f9e;
+  --accent-500: #3c7bc4;
+  --accent-300: #b7cde8;
+  --accent-100: #eef4fb;
+  --gold: #96611b;
+
+  /* ===== 中性色：暖灰（色相 ~40°，饱和度 <3%），与冷蓝形成柔和对比 ===== */
+  --canvas: #f9f9f7;
+  --surface: #ffffff;
+  --ink: #17191c;
+  --soft: #4a4f55;
+  --muted: #5f646a;
+  --line: #e6e6e2;
+  --paper: #ffffff;
+  --paper-deep: #f4f4f1;
+  --user-bubble: #eef4fb;
+  --focus-ring: rgba(44, 95, 158, .16);
+  --focus-outline: rgba(44, 95, 158, .40);
+  --surface-glass: rgba(255, 255, 255, .78);
+  --surface-soft: #fbfbf9;
+  --surface-faint: #f5f5f2;
+  --surface-hover: #f2f2ee;
+  --on-brand-soft: #dbe5f2;
+  --gold-soft: #f4e6d2;
+  --warn-line: #eadfcb;
+  --sh-input: 0 1px 2px rgba(23, 25, 28, .05);
+  --action-gradient: linear-gradient(180deg, #326ba9, #234b7d);
+  --glow: 0 0 0 1px rgba(60, 123, 196, .10);
+
+  /* ===== 语义色：暖底上的低饱和版本 ===== */
+  --warn: #8a5a12;
+  --warn-bg: #fbf5e9;
+  --risk: #a93a2e;
+  --risk-bg: #fbeeeb;
+  --ok: #1d6b45;
+  --ok-bg: #ecf5f0;
+
+  --font-ui: "Inter", "Aptos", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Consolas, "Liberation Mono", monospace;
+  --font-doc: var(--font-ui);
+
+  --fs-1: 12px;
+  --fs-2: 14px;
+  --fs-3: 16px;
+  --fs-4: 20px;
+  --lh-tight: 1.35;
+  --lh-body: 1.7;
+
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 40px;
+  --sp-7: 56px;
+
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-pill: 999px;
+
+  --sh-1: 0 1px 2px rgba(23, 25, 28, .04), 0 4px 14px rgba(23, 25, 28, .04);
+  --sh-2: 0 8px 24px rgba(23, 25, 28, .08);
+
+  --dur: 150ms;
+  --ease: cubic-bezier(.2, .65, .3, 1);
+
+  --chrome-h: 64px;
+  --sidebar-w: 248px;
+  --result-w: 46%;
+  --col-w: 820px;
+}

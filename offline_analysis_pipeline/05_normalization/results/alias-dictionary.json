@@ -1,0 +1,100 @@
+{
+  "version": "su7-forum-aliases-2.0",
+  "forum_context": {
+    "platform": "汽车之家",
+    "brand": "小米",
+    "series": "SU7",
+    "basis": "用户确认本语料爬自SU7论坛；用于默认消歧，不替代明确竞品名称"
+  },
+  "series_aliases": [
+    {
+      "brand": "小米",
+      "series": "SU7",
+      "aliases": [
+        "SU7",
+        "酥妻",
+        "酥七",
+        "苏七",
+        "苏7",
+        "酥7",
+        "速七",
+        "速7"
+      ],
+      "requires_forum_for_bare": true
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "aliases": [
+        "Model 3",
+        "Model3",
+        "毛豆3",
+        "毛豆三"
+      ],
+      "requires_forum_for_bare": false
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Model Y",
+      "aliases": [
+        "Model Y",
+        "ModelY",
+        "毛豆Y"
+      ],
+      "requires_forum_for_bare": false
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Model X",
+      "aliases": [
+        "Model X",
+        "ModelX",
+        "毛豆X"
+      ],
+      "requires_forum_for_bare": false
+    },
+    {
+      "brand": "特斯拉",
+      "series": "Model S",
+      "aliases": [
+        "Model S",
+        "ModelS",
+        "毛豆S"
+      ],
+      "requires_forum_for_bare": false
+    }
+  ],
+  "brand_aliases": [
+    {
+      "brand": "特斯拉",
+      "aliases": [
+        "毛豆"
+      ]
+    }
+  ],
+  "implicit_target_forms": [
+    "这车",
+    "这辆车",
+    "我的车",
+    "本车",
+    "标准版",
+    "MAX",
+    "PRO",
+    "Ultra",
+    "创始版"
+  ],
+  "priority": [
+    "own_explicit_brand_and_series",
+    "own_colloquial_alias_without_conflict",
+    "title_or_post_context",
+    "su7_forum_default"
+  ],
+  "counterexamples": [
+    "金彭SU7 不覆盖为小米",
+    "尚界酥妻只确认尚界品牌并复核车系",
+    "小米汽车只到品牌",
+    "小米SUV不默认SU7",
+    "特斯拉Model Y优先于SU7论坛语境"
+  ],
+  "not_model_confidence": true
+}

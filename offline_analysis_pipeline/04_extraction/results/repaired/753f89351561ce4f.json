@@ -1,0 +1,496 @@
+{
+  "schema_version": "2.3",
+  "post_id": "753f89351561ce4f",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米电视",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "北京不少小米电视用户突然收到全屏弹出的地震预警"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米手机",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "6月29日四川宜宾5.5级地震，小米手机提前50秒预警了"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "华为",
+      "entity_level": "品牌",
+      "brand": "华为",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "相比之下，华为怎么做的？人家直接接入中国地震局数据"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "OPPO",
+      "entity_level": "品牌",
+      "brand": "OPPO",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "华为、OPPO都跟进"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "理想",
+      "entity_level": "品牌",
+      "brand": "理想",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "给理想、小鹏、蔚来、比亚迪挨个送定制T恤"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "小鹏",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "给理想、小鹏、蔚来、比亚迪挨个送定制T恤"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "蔚来",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "给理想、小鹏、蔚来、比亚迪挨个送定制T恤"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P8",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "给理想、小鹏、蔚来、比亚迪挨个送定制T恤"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者指出6月23日晚北京小米电视用户收到虚假地震预警，北京地震局辟谣后小米当晚10点才道歉。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "6月23日晚上8点15分，北京不少小米电视用户突然收到全屏弹出的地震预警...北京地震局亲自出来辟谣：没地震。 随后，小米电视晚上10点才发道歉声明。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者批评小米地震预警功能不可靠，类比“达文西的手电筒”，认为其在严肃的安全问题上表现出薛定谔式的不确定性。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米这地震预警功能，差不多就这意思：没地震的时候会响，真地震的时候也有可能会响。 对于地震这档子严肃的事情，公众无法接受薛定谔的不确定性。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "作者提及6月29日四川宜宾5.5级地震时，小米手机成功提前50秒发出预警。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "6月29日四川宜宾5.5级地震，小米手机提前50秒预警了！"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "态度反应",
+      "aspect": "可靠性与故障",
+      "content": "作者认为地震预警容错率为零，即使偶尔成功预警，若存在漏报风险（如用户在大半夜未收到提醒），后果严重，不能视为合格。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预警这玩意儿，容错率是零。你误报一百次，用户顶多骂你一百次；你该响的时候没响一次，可能就是一条命。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有小米用户在网上质问：“之前一直有提醒，怎么今天大半夜还不给我提醒？”"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "安全与质量",
+      "content": "作者指出小米电视地震预警功能在2026年3月才通过技术评估，误报发生时刚获“准生证”，暗示其测试数据直接推向正式环境反映了流程管理缺失或不重视。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "电视端的地震预警，2026年3月才通过中国地震台网中心的技术评估。也就是说，误报事件发生的时候，这个功能刚拿到“准生证”没多久。一个刚通过评估的系统，测试数据就能直接推到线上正式环境——要么是流程管理形同虚设，要么是根本没把这事儿当回事。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者对比华为与小米在地震预警上的做法，认为华为接入国家地震局数据实现系统级实时推送，而小米自行测试且数据出错，两者存在显著差距。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "相比之下，华为怎么做的？人家直接接入中国地震局数据，实时联通全国1.5万个专业地震观测站点。不需要用户手动开启，系统级弹窗第一时间推送。一个是跟国家级专业机构深度绑定，一个是自己关起门来搞测试还能把数据推错—差距摆在这儿，承认很难吗？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P1",
+            "aspect": "智能座舱与车机",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "一个是跟国家级专业机构深度绑定，一个是自己关起门来搞测试还能把数据推错—差距摆在这儿，承认很难吗？"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P8",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E3",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者描述雷军在北京车展上向理想、小鹏、蔚来、比亚迪赠送定制T恤，并引用营销负责人观点称此举带来的话题量远超常规发布会预算效果。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "北京车展上，雷军化身“社交达人”，给理想、小鹏、蔚来、比亚迪挨个送定制T恤。有品牌营销负责人感慨：“我们发布会预算花了大几百万，雷军提了袋T恤，话题量是我们的几十倍。”"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "政策与市场",
+      "content": "作者认为小米地震预警不仅技术失误，还违反法律规定（企业无权生成和推送预警，只能转发），构成民事侵权，并质疑公司将精力投入营销而非核心安全系统的管理。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "地震预警信息发布有严格法律规定，只有地震工作主管部门有权发布。企业只能转发，不能自己生成和推送。小米这次不光是技术失误，是直接踩了法律红线。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "当一家公司的灵魂人物把所有精力都花在送T恤、搞直播、经营人设上的时候，谁来盯着那个可能救命的地震预警系统？"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米电视北京地震预警误报事件",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2026-06-23",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "6月23日晚上8点15分，北京不少小米电视用户突然收到全屏弹出的地震预警，显示“海淀区5.0级地震”。结果是小米闹出的一个大乌龙。北京地震局亲自出来辟谣：没地震。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "2026年6月23日晚，北京小米电视用户收到虚假的海淀区5.0级地震预警，后被北京地震局辟谣，小米随后发布道歉声明。"
+    },
+    {
+      "id": "E2",
+      "name": "四川宜宾5.5级地震及小米手机预警",
+      "event_type": "其他",
+      "event_time": "2026-06-29",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "6月29日四川宜宾5.5级地震，小米手机提前50秒预警了！"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "2026年6月29日四川宜宾发生5.5级地震，文中提及小米手机在该事件中提前50秒发出了预警。"
+    },
+    {
+      "id": "E3",
+      "name": "雷军北京车展赠送定制T恤",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "北京车展上，雷军化身“社交达人”，给理想、小鹏、蔚来、比亚迪挨个送定制T恤。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "雷军在北京车展期间向理想、小鹏、蔚来、比亚迪的品牌方赠送定制T恤，引发关于营销效果和话题度的讨论。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子批评小米电视地震预警功能的误报事件，将其比作不可靠的“达文西手电筒”，并指出该功能刚通过评估即上线暴露了管理漏洞。作者对比了华为接入官方数据的严谨做法，批评小米重营销轻技术，并指出其违规发布预警的法律风险及对生命安全的潜在威胁。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

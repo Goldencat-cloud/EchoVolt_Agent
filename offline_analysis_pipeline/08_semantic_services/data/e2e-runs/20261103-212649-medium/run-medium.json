@@ -1,0 +1,379 @@
+{
+ "question": "SU7在充电补能上的负面反馈占比是多少？主要集中什么问题？给2条车主原话。",
+ "timeline": [
+  {
+   "t": 3.1,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 42.1,
+   "status": "awaiting_review",
+   "phase": "待大纲审查"
+  },
+  {
+   "t": 45.2,
+   "status": "running",
+   "phase": "编写分析代码中"
+  },
+  {
+   "t": 84.5,
+   "status": "running",
+   "phase": "撰写报告中"
+  },
+  {
+   "t": 141.6,
+   "status": "done",
+   "phase": "已完成"
+  }
+ ],
+ "clarify_count": 0,
+ "outline": {
+  "outline": {
+   "plan": {
+    "plan_json": "{\"coverage\":\"先取充电与补能议题的负面观点占比（模型口径），再用16个议题的负面占比排序给出相对位置，然后看该议题负面说法的月度分布与按用户拥有状态的分布，最后取带 claim_id 的负面原话回答\\\"主要集中什么问题\\\"并给出2条车主原话；全区间 2023-12-24~2026-09-29，主体为小米/SU7。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"充电与补能议题的负面观点占比是多少（负面观点条数/观点条数）\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"充电与补能\"},\"limit\":5}},{\"id\":\"w2\",\"question\":\"16个议题的负面观点占比排序，用于定位充电与补能议题的相对高低与参照基准\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":16}},{\"id\":\"w3\",\"question\":\"充电与补能议题的负面与全部观点条数按月的分布，看负面反馈集中在哪些时间段\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"time_month\"],\"filters\":{\"aspect\":\"充电与补能\"},\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60}},{\"id\":\"w4\",\"question\":\"充电与补能的负面观点按用户拥有状态（当前拥有/明确未拥有）的分布，并取带 claim_id 的负面原话，归纳负面反馈集中在哪些具体问题、给出2条车主原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"充电与补能\"},\"limit\":5},\"requires_evidence\":true}]}",
+    "plan": {
+     "coverage": "先取充电与补能议题的负面观点占比（模型口径），再用16个议题的负面占比排序给出相对位置，然后看该议题负面说法的月度分布与按用户拥有状态的分布，最后取带 claim_id 的负面原话回答\"主要集中什么问题\"并给出2条车主原话；全区间 2023-12-24~2026-09-29，主体为小米/SU7。",
+     "use_python": false,
+     "workstreams": [
+      {
+       "id": "w1",
+       "question": "充电与补能议题的负面观点占比是多少（负面观点条数/观点条数）",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "negative",
+         "claims"
+        ],
+        "dimensions": [
+         "aspect"
+        ],
+        "filters": {
+         "aspect": "充电与补能"
+        },
+        "limit": 5
+       }
+      },
+      {
+       "id": "w2",
+       "question": "16个议题的负面观点占比排序，用于定位充电与补能议题的相对高低与参照基准",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "claims",
+         "negative"
+        ],
+        "dimensions": [
+         "aspect"
+        ],
+        "order": [
+         {
+          "field": "negativeShare",
+          "dir": "desc"
+         }
+        ],
+        "limit": 16
+       }
+      },
+      {
+       "id": "w3",
+       "question": "充电与补能议题的负面与全部观点条数按月的分布，看负面反馈集中在哪些时间段",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "negative",
+         "claims"
+        ],
+        "dimensions": [
+         "time_month"
+        ],
+        "filters": {
+         "aspect": "充电与补能"
+        },
+        "order": [
+         {
+          "field": "time_month",
+          "dir": "asc"
+         }
+        ],
+        "limit": 60
+       }
+      },
+      {
+       "id": "w4",
+       "question": "充电与补能的负面观点按用户拥有状态（当前拥有/明确未拥有）的分布，并取带 claim_id 的负面原话，归纳负面反馈集中在哪些具体问题、给出2条车主原话",
+       "aspect": null,
+       "method": "semantic_aggregate",
+       "params": {
+        "metrics": [
+         "negativeShare",
+         "negative",
+         "claims"
+        ],
+        "dimensions": [
+         "ownership"
+        ],
+        "filters": {
+         "aspect": "充电与补能"
+        },
+        "limit": 5
+       },
+       "requires_evidence": true
+      }
+     ]
+    }
+   },
+   "plan_json": "{\"coverage\":\"先取充电与补能议题的负面观点占比（模型口径），再用16个议题的负面占比排序给出相对位置，然后看该议题负面说法的月度分布与按用户拥有状态的分布，最后取带 claim_id 的负面原话回答\\\"主要集中什么问题\\\"并给出2条车主原话；全区间 2023-12-24~2026-09-29，主体为小米/SU7。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"充电与补能议题的负面观点占比是多少（负面观点条数/观点条数）\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"充电与补能\"},\"limit\":5}},{\"id\":\"w2\",\"question\":\"16个议题的负面观点占比排序，用于定位充电与补能议题的相对高低与参照基准\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":16}},{\"id\":\"w3\",\"question\":\"充电与补能议题的负面与全部观点条数按月的分布，看负面反馈集中在哪些时间段\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"time_month\"],\"filters\":{\"aspect\":\"充电与补能\"},\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60}},{\"id\":\"w4\",\"question\":\"充电与补能的负面观点按用户拥有状态（当前拥有/明确未拥有）的分布，并取带 claim_id 的负面原话，归纳负面反馈集中在哪些具体问题、给出2条车主原话\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"充电与补能\"},\"limit\":5},\"requires_evidence\":true}]}",
+   "outline": [
+    {
+     "order": 1,
+     "id": "w1",
+     "question": "充电与补能议题的负面观点占比是多少（负面观点条数/观点条数）",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 2,
+     "id": "w2",
+     "question": "16个议题的负面观点占比排序，用于定位充电与补能议题的相对高低与参照基准",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 3,
+     "id": "w3",
+     "question": "充电与补能议题的负面与全部观点条数按月的分布，看负面反馈集中在哪些时间段",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": null,
+     "visualization": null
+    },
+    {
+     "order": 4,
+     "id": "w4",
+     "question": "充电与补能的负面观点按用户拥有状态（当前拥有/明确未拥有）的分布，并取带 claim_id 的负面原话，归纳负面反馈集中在哪些具体问题、给出2条车主原话",
+     "aspect": null,
+     "method": "semantic_aggregate",
+     "requires_evidence": true,
+     "visualization": null
+    }
+   ]
+  },
+  "plan_json": null,
+  "history_len": 1
+ },
+ "fatal": null,
+ "start_http": 202,
+ "job_id": "6dfcfaf1def24c2981324f799bb022b7",
+ "outlines": [
+  {
+   "t": 42.1,
+   "plan_json": null,
+   "history_len": 1
+  }
+ ],
+ "outline_http": 202,
+ "final_status": "done",
+ "result": {
+  "ok": true,
+  "report_id": "9b1c89f6bb69",
+  "title": "小米 SU7 充电与补能议题负面反馈分析（2023-12-24 至 2026-09-29 全区间）",
+  "report_md": "## 一、结论摘要\n\n**分析主体与品牌范围**：本次分析主体为小米 SU7（快照中出现的其他品牌仅为帖子共现的对比信息，不作为分析对象）；时间范围为全区间 2023-12-24 至 2026-09-29。\n\n1. **充电与补能的负面反馈约两成**：该议题共 64 条观点，其中 13 条为负面，负面观点占比 **20.3%**（13÷64，模型口径，观点级；全量声明级指标给出同一数值）。帖子级看，61 个相关帖子中 13 个含负面反馈（帖子级与观点级分母不同，不可互换）。\n2. **在全部议题中处中下水平**：按负面观点占比降序，充电与补能列第 9 位（20.3%），低于可靠性与故障（55.1%，54/98）、服务与交付（47.0%，62/132）、空间与舒适性（43.4%，131/302）、安全与质量（35.1%，66/188）、价格与成本（29.2%，42/144）、智能驾驶（27.6%，42/152）、\"其他\"（24.1%，13/54）与配置与功能（20.8%，59/284），高于驾驶与操控（16.6%，37/223）。\n3. **负面反馈集中在两类具体问题**（归组方式：内容归纳，作者判断，非统计结果；依据为 4 条带 claim_id 的负面原文，样本不足，仅作线索）：① 补能便利性——充电桩少、为找桩绕路、到桩后等待时间长、电量告急时的里程焦虑；② 充电速度与功率兑现——部分车主认为 SU7 充电速度\"一般\"（用 4C 充电桩从 75% 充至 95% 用时超过半小时），以及桩端显示 7kW 而车端峰值 6.6kW 的功率差疑问。另有一条购车前阶段的提示性说法，提醒普通版为 400V 平台、仅高配为 800V。\n4. **时间上无集中爆发**：负面观点分散在多个月份，单月最多 3 条（2024-04，3/5 条观点），其余有负面的月份各 1~2 条；各月观点条数都很少，不解读趋势。\n\n## 二、分项事实\n\n### 充电与补能议题的负面观点占比\n\n| 议题 | 观点条数 | 负面观点条数 | 负面观点占比（按观点条数） |\n|---|---|---|---|\n| 充电与补能 | 64 | 13 | 20.3% |\n\n口径：模型口径下的观点级比率（负面观点条数 ÷ 观点条数）；全量声明级指标表给出同一数值（64 条观点、13 条负面）。同一议题的帖子级计数为 posts=61、negative_posts=13。\n\n### 与其他议题的相对位置（参照基准）\n\n负面观点占比降序（模型口径，观点级）：\n\n| 议题 | 观点条数 | 负面条数 | 负面观点占比 |\n|---|---|---|---|\n| 可靠性与故障 | 98 | 54 | 55.1% |\n| 服务与交付 | 132 | 62 | 47.0% |\n| 空间与舒适性 | 302 | 131 | 43.4% |\n| 安全与质量 | 188 | 66 | 35.1% |\n| 价格与成本 | 144 | 42 | 29.2% |\n| 智能驾驶 | 152 | 42 | 27.6% |\n| 其他 | 54 | 13 | 24.1% |\n| 配置与功能 | 284 | 59 | 20.8% |\n| **充电与补能** | **64** | **13** | **20.3%** |\n| 驾驶与操控 | 223 | 37 | 16.6% |\n| 品牌与口碑 | 291 | 45 | 15.5% |\n| 续航与能耗 | 268 | 31 | 11.6% |\n| 外观与内饰 | 717 | 63 | 8.8% |\n| 智能座舱与车机 | 301 | 23 | 7.6% |\n| 动力与性能 | 137 | 4 | 2.9%（置信度：低，n=4） |\n| 技术原理 | 1 | 0 | 0.0%（样本仅 1 条，不作解读） |\n\n说明：充电与补能议题的观点体量在全部议题中偏小（64 条），占比的波动区间随之变宽，只宜作相对位置参考。\n\n### 负面说法的月度分布\n\n覆盖 2023-12 至 2026-10，含负面观点的月份如下：\n\n| 月份 | 观点条数 | 负面条数 | 负面观点占比 |\n|---|---|---|---|\n| 2023-12 | 1 | 1 | 100.0%（n=1） |\n| 2024-01 | 3 | 1 | 33.3%（n=3） |\n| 2024-03 | 4 | 1 | 25.0%（n=4） |\n| 2024-04 | 5 | 3 | 60.0%（n=5） |\n| 2025-01 | 3 | 1 | 33.3%（n=3） |\n| 2025-04 | 2 | 1 | 50.0%（n=2） |\n| 2025-07 | 5 | 1 | 20.0%（n=5） |\n| 2026-01 | 2 | 2 | 100.0%（n=2） |\n| 2026-09 | 2 | 1 | 50.0%（n=2） |\n| 2026-10 | 2 | 1 | 50.0%（n=2） |\n\n其余月份负面条数为 0，其中 2024-12 有 6 条观点、2026-06 有 5 条观点，均无负面。所有月度切片的观点条数都很少，单月占比不具统计意义，仅用于确认\"负面未在某月集中出现\"。\n\n### 负面观点的车主状态分布（模型口径）\n\n| 车主状态（模型口径） | 观点条数 | 负面条数 | 负面观点占比 |\n|---|---|---|---|\n| 已订未提 | 2 | 0 | 0.0%（n=2） |\n| 当前拥有 | 10 | 3 | 30.0%（n=10） |\n| 无法判断 | 47 | 9 | 19.1% |\n| 明确未拥有 | 5 | 1 | 20.0%（n=5） |\n\n说明：该切分中\"无法判断\"占 47 条，说明多数观点无法判定作者是否拥有车辆；各子组样本都很薄（当前拥有组仅 10 条观点），\"车主比非车主更负面\"这类结论不成立，也不能据此推断用户结构。\n\n## 三、证据与归组\n\n**归组方式：内容归纳（作者判断，非统计结果）**。以下 4 条为充电与补能议题下带 claim_id 的负面原文，来自 4 个不同帖子，覆盖 3 类说法；证据仅覆盖精选观点样本，不代表全部用户声音。\n\n- **说法一：补能便利性（找桩难、等待久、里程焦虑）**\n  「电车呢，充电桩少得可怜，有时候为了找个充电桩，得绕老半天路，找到了还得等好久才能充好电，要是在路上电量告急，那真能急出一身汗来。」（claim_id: 248a31a82f77ddad8a70，当前拥有、明确亲历，2025-01-22）\n- **说法二：充电速度与功率兑现**\n  「4、充电速度好像比较一般，用理想4C充电桩，从75%到95%的电充了30多分钟。我不经常开电车，不知道这速度算不算慢。」（claim_id: 87e84e35bd54969cfd18，当前拥有、明确亲历，2026-01-08）\n  「为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充了14.1度电，结果到了车上就只有峰值6.7kw，平均6.6kw，我那400w去哪了？\\n从小米自己自己的充电时间看，确实没有7kw」（claim_id: b104b90df98b0e4121a9，当前拥有、明确亲历，2026-01-16）\n- **说法三：购车前的平台配置提示（非拥有者视角）**\n  「普通版400v平台高配才有800v注意甄别」（claim_id: 0d7ba55bedcedab966d6，明确未拥有，2024-04-09）\n\n**用户要求的两条车主原话**（均为当前拥有车辆且明确亲历的作者）：\n\n1. 「电车呢，充电桩少得可怜，有时候为了找个充电桩，得绕老半天路，找到了还得等好久才能充好电，要是在路上电量告急，那真能急出一身汗来。」（claim_id: 248a31a82f77ddad8a70）\n2. 「为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充了14.1度电，结果到了车上就只有峰值6.7kw，平均6.6kw，我那400w去哪了？\\n从小米自己自己的充电时间看，确实没有7kw」（claim_id: b104b90df98b0e4121a9）\n\n补充说明：三说法中，\"补能便利性\"指向公共补能网络的密度与等待体验（部分与小米自建充电网络无直接关系），\"充电速度与功率兑现\"指向车辆充电功率与速度的实际表现，\"平台配置提示\"属购车前的甄别提醒而非使用中的不满——三类问题性质不同，不应合并为单一结论。\n\n## 四、限制与不确定性\n\n- **集合边界**：议题级占比来自全量声明级指标（议题聚合，可代表全部已声明观点）；车主状态切分表与第三节的引文来自精选观点样本（core/potential 子集），不代表全部用户声音，两类数据不可混用。\n- **同一议题的两种计数口径**：议题级占比（观点级，13÷64=20.3%）与帖子级计数（61 帖中 13 帖）分母不同，不能互相换算或替换表述。\n- **样本体量小**：充电与补能仅 64 条观点、13 条负面，在全部议题中属偏小量级，占比的置信区间宽；单车系单议题结论不宜外推到整个新能源市场或其他车型。\n- **负面原文样本更薄**：可取得带 claim_id 的负面原文仅 4 条（4 个帖子），\"主要集中什么问题\"的归组属内容归纳，仅作线索，不能作为问题分布的比例依据。\n- **月度切片的日期边界存在一处不一致**：月度分布中出现 2026-10 的 2 条观点，晚于覆盖声明所述精选观点日期上限（2026-09-29），应为按月字段与精选表日期字段的口径差异，已如实标注，不影响议题级总量。\n- **未覆盖维度**：本次未对充电场景细分（家充/公桩/超充/换电）、具体充电桩品牌或地区做切分，当前数据未提供相应维度；价格与时间成本、冬季充电衰减等也无法从现有数据中分离。\n\n## 五、待验证问题\n\n1. \"补能便利性\"与\"充电速度/功率兑现\"两类负面各占多少？现有可引用的负面原文仅 4 条，无法给出比例，需扩大负面样本后再归类计数。\n2. 车端功率低于桩端标称（桩端显示 7kW、车端峰值 6.6kW）是否为普遍现象？需结合车桩匹配实测数据或售后技术口径核验。\n3. 普通版 400V 与高配 800V 的差异是否构成购车决策中的实质性负面因素？当前仅 1 条购车前提示，需在购车决策阶段话题中单独取证。\n4. 2024-04（3/5）与 2026-01（2/2）两个月份负面相对集中，是否对应特定事件或批次？单月样本极薄，需结合当期舆情事件与交付节奏进一步核对。\n\n---\n数据版本：semantic-2026-11-03.4",
+  "key_findings": [
+   "充电与补能议题负面观点占比 20.3%（13/64 条观点，模型口径，观点级；全量声明级指标一致）；帖子级为 61 个帖子中 13 个含负面反馈",
+   "充电与补能排在负面观点占比降序的第 9 位，低于可靠性与故障 55.1%（54/98）、服务与交付 47.0%（62/132）、空间与舒适性 43.4%（131/302），属中下水平",
+   "该议题负面说法集中在两类：补能便利性（找桩难、到桩等待久、里程焦虑）与充电速度/功率兑现（4C 桩从 75% 充至 95% 用时超过半小时；桩端 7kW 而车端峰值 6.6kW 的疑问）；另有购车前对普通版 400V、高配 800V 的配置甄别提示",
+   "负面反馈在时间上分散，13 条负面观点涉及多个月份、单月最多 3 条（2024-04，3/5 条观点），各月观点条数都很少，不构成趋势",
+   "按车主状态切分（模型口径）：当前拥有 10 条观点中 3 条负面、无法判断 47 条中 9 条负面；各子组样本都很薄，不能据此推断车主与非车主的差异"
+  ],
+  "publication_status": "pending_review",
+  "data_version": "semantic-2026-11-03.4",
+  "charts": [],
+  "evidence_index": [
+   {
+    "claim_id": "0d7ba55bedcedab966d6",
+    "url": "https://club.autohome.com.cn/bbs/thread/25853344b45d019a/107970343-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2024-04-09T01:18:05+08:00",
+    "title": "不懂就问！26w适合女生开的纯电轿跑极限三选一",
+    "aspect": "充电与补能",
+    "sentiment": "负面",
+    "ownership": "明确未拥有",
+    "experience": "无法判断"
+   },
+   {
+    "claim_id": "248a31a82f77ddad8a70",
+    "url": "https://club.autohome.com.cn/bbs/thread/e48a9d230a4e968a/110498240-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2025-01-22T14:13:54+08:00",
+    "title": "小米su7用车感受",
+    "aspect": "充电与补能",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "87e84e35bd54969cfd18",
+    "url": "https://club.autohome.com.cn/bbs/thread/e3322fb90b3349d5/114085737-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2026-01-08T22:14:32+08:00",
+    "title": "在北京租一天SU7去慕田峪长城真实感受！",
+    "aspect": "充电与补能",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   },
+   {
+    "claim_id": "b104b90df98b0e4121a9",
+    "url": "https://club.autohome.com.cn/bbs/thread/a3f7ae73d505588a/114155185-1.html?bbsid=6962#pvareaid=6830286",
+    "date": "2026-01-16T21:50:28+08:00",
+    "title": "为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充",
+    "aspect": "充电与补能",
+    "sentiment": "负面",
+    "ownership": "当前拥有",
+    "experience": "明确亲历"
+   }
+  ],
+  "final_message": "小米 SU7 在充电与补能议题上共 64 条观点，其中 13 条负面，负面观点占比 20.3%（观点级、模型口径），在全部议题中排第 9 位，属中下水平。可引用的 4 条负面原文指向两类问题：公共补能便利性（找桩难、到桩久、里程焦虑）与充电速度/功率兑现（4C 桩 75%→95% 用时超半小时、桩端 7kW 而车端峰值 6.6kW），另有 1 条购车前的 400V/800V 配置甄别提示；报告已按你的要求附上两条当前车主的原话（claim_id: 248a31a82f77ddad8a70、b104b90df98b0e4121a9）。需提示的是，该议题负面原文仅 4 条、月度与车主状态切分样本都很薄，问题归类只作线索而非比例依据，报告已提交待复核（report_id: 9b1c89f6bb69）。",
+  "tool_log": [
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/deep-analysis/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/plan-drafting/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-40 of 40 @@\n---\nname: deep-analysis\ndescription: 深度数据分析主工作流（入口）：任务需要产出基于数据的分析报告时从本技能开始。单点事实问答、闲聊、口径解释不要使用本技能。\n---\n\n# 深度数据分析工作流（主入口）\n\n## 角色与读者\n\n你是数据分析执行者，产出面向业务负责人与研究人员的中文报告。输出标准：每个数字可核验、口径清楚、限制如实、失败不伪装。\n\n## 核心流程（四阶段，完成一步再进入下一步）\n\n开场消息的任务简报已附数据目录（列、枚举、口径分区）与预置基准——**先读简报，不重新探索**；仅当简报缺失或需复核时调用一次 `semantic_overview`。\n\n**阶段 0 分析计划**\n- 提交分析草案（字段契约见 `submit_analysis_plan` 工具说明）；拆解、映射与自查读 `plan-drafting`。\n- 一个工作项 = 计划可选的一个方法 + 可选议题；仅当计划内方法确实无法完成必要分析时才设 `use_python=true`。\n\n**阶段 1-2 执行**\n- 执行循环、解读三关、失败与空结果处置、图表同源：读 `execute-plan`。\n- 每个获批 workstream 至少执行一次；计划标注了证据需求的工作项必须取得带 `claim_id` 的证据。\n\n**"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-38 of 38 @@\n---\nname: plan-drafting\ndescription: 起草分析计划（计划阶段必读）。何时读：调用 submit_analysis_plan 之前——如何从研究问题拆出 workstreams、如何映射方法、提交前如何自查。何时不读：执行与报告阶段。误用反例：把本文件当方法目录——方法语义与字段契约在 submit_analysis_plan 工具说明，议题枚举与口径分区在任务简报。\n---\n\n# 起草分析计划\n\n## 角色与读者\n\n服务对象：处于计划阶段的 Agent。输入：用户研究问题 + 任务简报（覆盖声明 / 数据目录 / 预置基准）。输出标准：一次通过确定性校验的完整草案——覆盖用户问题的全部子问题与比较意图。\n\n## 起草流程（按序执行，完成一步再进入下一步）\n\n1. **读任务简报**：研究请求、覆盖声明、数据目录（枚举清单）、预置基准。议题名、时间范围、品牌口径一律抄自简报，不凭记忆或样例猜测。需要再看数据结构时用 `semantic_overview`；代码分析只属于执行阶段。\n2. **探索预览（按需，至多一次）**：拆解前对候选议题调 `semantic_overview(aspects=[...])` 预览数据支撑——样本量 <5 条的议题须在大纲/报告标注\"支撑不足\"或直接剔除；预览不产生可引"
+   },
+   {
+    "tool": "semantic_overview",
+    "args": "{}"
+   },
+   {
+    "tool": "semantic_overview",
+    "output": "{\"metrics\": {\"columns\": [\"aspect\", \"claims\", \"posts\", \"positive\", \"negative\", \"neutral\", \"other\", \"negative_posts\", \"negative_share\", \"caliber_note\"], \"row_count\": 16, \"sample\": [{\"aspect\": \"价格与成本\", \"claims\": 144, \"posts\": 134, \"positive\": 91, \"negative\": 42, \"neutral\": 5, \"other\": 6, \"negative_posts\": 40, \"negative_share\": 0.2916666666666667, \"caliber_note\": \"声明级：negative/claims；帖子级：negative_posts/posts\"}, {\"aspect\": \"充电与补能\", \"claims\": 64, \"posts\": 61, \"positive\": 38, \"negative\": 13, \"neutral\": 13, \"other\": 0, \"negative_posts\": 13, \"negative_share\": 0.203125, \"caliber_note\": \"声明级：negative/cla"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "args": "{'plan_json': '{\"coverage\":\"先取充电与补能议题的负面观点占比（模型口径），再用16个议题的负面占比排序给出相对位置，然后看该议题负面说法的月度分布与按用户拥有状态的分布，最后取带 claim_id 的负面原话回答\\\\\"主要集中什么问题\\\\\"并给出2条车主原话；全区间 2023-12-24~2026-09-29，主体为小米/SU7。\",\"use_python\":false,\"workstreams\":[{\"id\":\"w1\",\"question\":\"充电与补能议题的负面观点占比是多少（负面观点条数/观点条数）\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"充电与补能\"},\"limit\":5}},{\"id\":\"w2\",\"question\":\"16个议题的负面观点占比排序，用于定位充电与补能议题的相对高低与参照基准\",\"aspect\":null,\"method\":\"semantic_aggregate\",\"params\":{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"]"
+   },
+   {
+    "tool": "submit_analysis_plan",
+    "output": "{\"accepted\": true, \"plan\": {\"coverage\": \"先取充电与补能议题的负面观点占比（模型口径），再用16个议题的负面占比排序给出相对位置，然后看该议题负面说法的月度分布与按用户拥有状态的分布，最后取带 claim_id 的负面原话回答\\\"主要集中什么问题\\\"并给出2条车主原话；全区间 2023-12-24~2026-09-29，主体为小米/SU7。\", \"workstreams\": [{\"id\": \"w1\", \"question\": \"充电与补能议题的负面观点占比是多少（负面观点条数/观点条数）\", \"dimension\": \"other\", \"aspect\": null, \"method\": \"semantic_aggregate\", \"requires_evidence\": false, \"params\": {\"metrics\": [\"negativeShare\", \"negative\", \"claims\"], \"dimensions\": [\"aspect\"], \"filters\": {\"aspect\": \"充电与补能\"}, \"limit\": 5}}, {\"id\": \"w2\", \"question\": \"16个议题的负面观点占比排序，用于定位充电与补能议题的相对高低与参照基准\", \"dimension\": \"other\", \"aspect\": n"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/execute-plan/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-42 of 42 @@\n---\nname: execute-plan\ndescription: 执行已获批的分析计划（执行阶段必读）。何时读：拿到获批计划、开始逐项执行时——执行循环、失败与空结果处置、解读三关（事实/集合/分母）、图表同源都在这里。何时不读：起草计划（用 plan-drafting）；撰写报告与数字表述（用 report-authoring）。误用反例：把本文件当方法目录——方法契约在工具说明，具体方法在计划里已经选定。\n---\n\n# 执行分析计划\n\n## 角色与读者\n\n服务对象：处于执行阶段的 Agent。输入：已获批的计划（workstreams 列表）。输出标准：每项 workstream 要么有可核验的执行结果，要么有如实记录的放弃原因——没有第三种状态。\n\n## 执行循环（逐项执行，完成一项再取下一项）\n\n1. **取项执行**：按该项在计划里声明的 method 调用对应工具，参数从计划原样抄写。计划边界与工具边界由工具强制；此处只提醒一条判断：`python_analyze` 是白名单之外的交叉与补充，不替代计划声明的方法。\n2. **取证**（计划标注了证据需求的工作项，或任何需要引文佐证结论的时刻）：走哪个工具、怎么去重、引文怎么挑，读 `reference/collect-evidence.md`。\n3. **解读三关**"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"aspect\"],\"filters\":{\"aspect\":\"充电与补能\"},\"limit\":5}'}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"negativeShare\",\"claims\",\"negative\"],\"dimensions\":[\"aspect\"],\"order\":[{\"field\":\"negativeShare\",\"dir\":\"desc\"}],\"limit\":16}'}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"time_month\"],\"filters\":{\"aspect\":\"充电与补能\"},\"order\":[{\"field\":\"time_month\",\"dir\":\"asc\"}],\"limit\":60}'}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "args": "{'params_json': '{\"metrics\":[\"negativeShare\",\"negative\",\"claims\"],\"dimensions\":[\"ownership\"],\"filters\":{\"aspect\":\"充电与补能\"},\"limit\":5}'}"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/execute-plan/reference/collect-evidence.md', 'limit': 1000}"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"negativeShare\", \"negative\", \"claims\"], \"dimensions\": [\"aspect\"], \"filters\": {\"aspect\": \"充电与补能\"}, \"limit\": 5}, \"sql\": \"SELECT t0.\\\"aspect\\\" AS \\\"aspect\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"negativeShare\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"negative\\\", COUNT(*) AS \\\"claims\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population WHERE population = ?) AND (t0.\\\"aspect\\\" IS NULL OR t0.\\\"aspect\\\" NOT IN (?, ?)) AND t0.\\\"aspe"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"negativeShare\", \"claims\", \"negative\"], \"dimensions\": [\"aspect\"], \"order\": [{\"field\": \"negativeShare\", \"dir\": \"desc\"}], \"limit\": 16}, \"sql\": \"SELECT t0.\\\"aspect\\\" AS \\\"aspect\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"negativeShare\\\", COUNT(*) AS \\\"claims\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"negative\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population WHERE population = ?) AND (t0.\\\"aspect\\\" IS NULL OR t0.\\\"aspect\\\" NOT I"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"negativeShare\", \"negative\", \"claims\"], \"dimensions\": [\"time_month\"], \"filters\": {\"aspect\": \"充电与补能\"}, \"order\": [{\"field\": \"time_month\", \"dir\": \"asc\"}], \"limit\": 60}, \"sql\": \"SELECT t0.\\\"month\\\" AS \\\"time_month\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"negativeShare\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"negative\\\", COUNT(*) AS \\\"claims\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population WHERE population = ?) AND (t0.\\\"aspe"
+   },
+   {
+    "tool": "run_semantic_aggregate",
+    "output": "{\"method\": \"semantic_aggregate\", \"params\": {\"metrics\": [\"negativeShare\", \"negative\", \"claims\"], \"dimensions\": [\"ownership\"], \"filters\": {\"aspect\": \"充电与补能\"}, \"limit\": 5}, \"sql\": \"SELECT t1.\\\"ownership_status\\\" AS \\\"ownership\\\", (1.0 * COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) / NULLIF(COUNT(*), 0)) AS \\\"negativeShare\\\", COUNT(CASE WHEN t0.\\\"sentiment\\\" = '负面' THEN 1 END) AS \\\"negative\\\", COUNT(*) AS \\\"claims\\\"\\nFROM \\\"semantic_claim\\\" AS t0\\nLEFT JOIN \\\"semantic_post\\\" AS t1 ON t1.\\\"post_id\\\" = t0.\\\"post_id\\\"\\nWHERE t0.\\\"claim_id\\\" IN (SELECT claim_id FROM semantic_population WHERE po"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-37 of 37 @@\n# 取证：需要引文时\n\n## 何时用\n\n计划标注了证据需求的工作项，或任何要引用原话佐证结论的时刻。\n\n## 前提\n\n计划声明的是**证据需求**（服务端已推导并标注），不是具体取证工具。在下面三种中**任选其一**：\n\n| 工具 | 返回什么 | 何时用 |\n|---|---|---|\n| `top_negative_claims` | 议题的负向说法列表（claim_id + 短引文） | 要看\"负向声音的清单\"，按议题看模式 |\n| `get_negative_evidence` | 议题的负面原文（quote/title/url/date，带 claim_id） | 报告要引用原话，需要完整引文与出处 |\n| `search_claims` | 按结论关键词语义召回，不限情感 | 需要正面/中性对照，或按具体说法找样本 |\n\n## 规则\n\n- **同一议题只取一次**：三种工具返回的集合高度重叠，重复取证只会得到重复引文；要换视角就换问题，不是换工具。\n- **议题必须在计划内**：越界会被拒（`evidence_not_in_plan`），这是授权闸，不是故障。\n- **证据只说明\"有人这样说\"**：要数量就回到统计方法。\n- **覆盖如实**：证据只覆盖精选子集，表述规则见报告阶段的口径节。\n\n## 代表引文怎么选（最容易出"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "args": "{'aspect': '充电与补能', 'limit': 20}"
+   },
+   {
+    "tool": "get_negative_evidence",
+    "output": "{\"data\": [{\"claim_id\": \"0d7ba55bedcedab966d6\", \"aspect\": \"充电与补能\", \"sentiment\": \"负面\", \"content\": \"作者提醒小米SU7普通版采用400V平台，只有高配版本才配备800V平台，需注意甄别。\", \"quote\": \"普通版400v平台高配才有800v注意甄别\", \"url\": \"https://club.autohome.com.cn/bbs/thread/25853344b45d019a/107970343-1.html?bbsid=6962#pvareaid=6830286\", \"title\": \"不懂就问！26w适合女生开的纯电轿跑极限三选一\", \"date\": \"2024-04-09T01:18:05+08:00\", \"journey\": \"购车前\", \"ownership\": \"明确未拥有\", \"experience\": \"无法判断\", \"statement\": \"评价判断\", \"comparison\": null, \"usage_context\": null, \"source_type\": \"精选观点证据\", \"source_set\": \"curated\"}, {\"claim_id\": \"248a31a82f77ddad8a70\", \"aspect\": \"充电与补能\", \"sent"
+   },
+   {
+    "tool": "read_file",
+    "args": "{'file_path': '/report-authoring/SKILL.md', 'limit': 1000}"
+   },
+   {
+    "tool": "read_file",
+    "output": "@@ lines 1-87 of 87 @@\n---\nname: report-authoring\ndescription: 报告撰写与提交（报告阶段必读）。何时读：调用 submit_report 之前——五段结构、数字口径与引文规则、提交前的完成标准。何时不读：选择与执行分析方法（用 execute-plan）；起草计划（用 plan-drafting）。误用反例：把本文件当证据获取说明——怎么取证见 `execute-plan` 技能的取证参考。\n---\n\n# 报告撰写与提交\n\n## 角色与读者\n\n服务对象：准备提交报告的 Agent。输出标准：通过 report_gate 的五段结构中文报告——每个数字可核验、每条引用可回溯、面向业务负责人说业务语言。先结论后依据，长度上限以服务端门禁为准（超限时返回具体修订要求）。\n\n## 撰写流程\n\n1. **搭五段骨架**（顺序固定）：\n   1. **结论摘要**：先回答用户问题，3–5 条，每条一句结论 + 带口径的核心数字；只写有证据支撑的。小样本（n < 30）句尾标「（置信度：低，n=12）」。\n   2. **分项事实**：每个 workstream 一小节，数字必须来自工具或代码结果并带口径。\n   3. **证据与归组**：观点归组与代表引文，遵守下文「证据与引文」。\n   4. **限制与不确定性**：数据集合边界、"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'title': '小米 SU7 充电与补能议题负面反馈分析（2023-12-24 至 2026-09-29 全区间）', 'key_findings': '[\"充电与补能议题负面观点占比 20.3%（13/64 条观点，模型口径，全量声明级）；帖子级为 61 个帖子中 13 个含负面反馈\",\"在 16 个议题中，充电与补能的负面占比排第 9 位（20.3%），明显低于可靠性与故障 55.1%、服务与交付 47.0%、空间与舒适性 43.4%，也低于全议题最高的三类\",\"该议题负面说法集中在两类：补能便利性（找桩难、等待久、里程焦虑）与充电速度/功率兑现（4C 桩充 75%→95% 用时 30 多分钟、桩端 7kW 而车端峰值 6.7kW）；第三类为购车前对普通版 400V 平台与高配 800V 的配置甄别提示\",\"负面反馈在时间上高度分散：13 条负面观点分布在 10 个月份，单月最多 3 条（2024-04，3/5 条观点），月度样本过薄，不构成趋势\",\"按车主状态切分（模型口径）当前拥有 10 条观点中 3 条负面（30.0%）、无法判断 47 条中 9 条负面（19.1%），子组均小于 30 条，置信度低\"]', 'markdown': '## 一、结论摘要\\n\\n**分析主体与品牌范围**：本次分析主体为小米 SU7（快照中其他品牌仅为帖子共现的对比信息，不作为分析对象"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"正文必须明确写出当前数据版本（semantic-2026-11-03.4），如在页脚写「数据版本：semantic-2026-11-03.4」\", \"报告包含内部实现词（不得出现在用户可见文本）：语义层\", \"报告包含未在分析工具结果中找到的数字：16, 38, 16, 15, 16, 16, 25, 15, 73%, 16, 819, 16, 16。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [\"建议补充章节：归因分析（按计划类型提示，不阻断提交）\"], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_provenance\"]}, \"attempt\": 1, \"attempts_left\": 3}"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"充电与补能议题负面观点占比 20.3%（13/64 条观点，模型口径，观点级；全量声明级指标一致）；帖子级为 61 个帖子中 13 个含负面反馈\",\"充电与补能排在负面观点占比降序的第 9 位，低于可靠性与故障 55.1%（54/98）、服务与交付 47.0%（62/132）、空间与舒适性 43.4%（131/302），属中下水平\",\"该议题负面说法集中在两类：补能便利性（找桩难、到桩等待久、里程焦虑）与充电速度/功率兑现（4C 桩从 75% 充至 95% 用时超过半小时；桩端 7kW 而车端峰值 6.6kW 的疑问）；另有购车前对普通版 400V、高配 800V 的配置甄别提示\",\"负面反馈在时间上分散，13 条负面观点涉及多个月份、单月最多 3 条（2024-04，3/5 条观点），各月观点条数均在 30 条以下，不构成趋势\",\"按车主状态切分（模型口径）：当前拥有 10 条观点中 3 条负面、无法判断 47 条中 9 条负面；各子组样本均很薄，不能据此推断车主与非车主的差异\"]', 'markdown': '## 一、结论摘要\\n\\n**分析主体与品牌范围**：本次分析主体为小米 SU7（快照中出现的其他品牌仅为帖子共现的对比信息，不作为分析对象）；时间范围为全区间 2023-12-24 至 2026-09-29。\\n\\n1. **充电"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"error\": \"report_gate_failed\", \"gate\": {\"ok\": false, \"errors\": [\"报告包含未在分析工具结果中找到的数字：2.4。修正：只引用已验证步骤结果中的数字（报告中的占比可按源数值四舍五入到一位小数），或先补充相应分析步骤\"], \"warnings\": [\"建议补充章节：归因分析（按计划类型提示，不阻断提交）\"], \"checks\": [\"required_sections\", \"data_version\", \"brand_scope_declaration\", \"claim_ids\", \"verified_analysis_steps\", \"empty_result_explained\", \"internal_terms\", \"key_findings\", \"numeric_provenance\"]}, \"attempt\": 2, \"attempts_left\": 2}"
+   },
+   {
+    "tool": "submit_report",
+    "args": "{'key_findings': '[\"充电与补能议题负面观点占比 20.3%（13/64 条观点，模型口径，观点级；全量声明级指标一致）；帖子级为 61 个帖子中 13 个含负面反馈\",\"充电与补能排在负面观点占比降序的第 9 位，低于可靠性与故障 55.1%（54/98）、服务与交付 47.0%（62/132）、空间与舒适性 43.4%（131/302），属中下水平\",\"该议题负面说法集中在两类：补能便利性（找桩难、到桩等待久、里程焦虑）与充电速度/功率兑现（4C 桩从 75% 充至 95% 用时超过半小时；桩端 7kW 而车端峰值 6.6kW 的疑问）；另有购车前对普通版 400V、高配 800V 的配置甄别提示\",\"负面反馈在时间上分散，13 条负面观点涉及多个月份、单月最多 3 条（2024-04，3/5 条观点），各月观点条数都很少，不构成趋势\",\"按车主状态切分（模型口径）：当前拥有 10 条观点中 3 条负面、无法判断 47 条中 9 条负面；各子组样本都很薄，不能据此推断车主与非车主的差异\"]', 'markdown': '## 一、结论摘要\\n\\n**分析主体与品牌范围**：本次分析主体为小米 SU7（快照中出现的其他品牌仅为帖子共现的对比信息，不作为分析对象）；时间范围为全区间 2023-12-24 至 2026-09-29。\\n\\n1. **充电与补能的负面"
+   },
+   {
+    "tool": "submit_report",
+    "output": "{\"report_id\": \"9b1c89f6bb69\", \"status\": \"pending_review\", \"saved\": \"D:\\\\Desktop\\\\Competitions\\\\new_energy_data_analysis_agent\\\\offline_analysis_pipeline\\\\08_semantic_services\\\\reports\\\\agent\\\\9b1c89f6bb69\", \"next_step\": \"由非作者队友复核并通过 report_publisher.py 发布。\"}"
+   }
+  ],
+  "tool_errors": 0,
+  "metrics": {
+   "successful_tool_calls": 10,
+   "tool_errors": 0,
+   "code_failures": 0,
+   "submit_attempts": 3,
+   "gate_rejections": 2
+  },
+  "elapsed_ms": 124121
+ },
+ "error": null,
+ "wall_s": 141.6
+}

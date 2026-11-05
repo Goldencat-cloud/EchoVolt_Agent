@@ -1,0 +1,299 @@
+{
+  "schema_version": "2.3",
+  "post_id": "30fcc89c68d070b4",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车用户将能够使用蔚来、小鹏、理想这三家企业的充电桩"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "蔚来",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车用户将能够使用蔚来、小鹏、理想这三家企业的充电桩"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小鹏",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车用户将能够使用蔚来、小鹏、理想这三家企业的充电桩"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "理想",
+      "entity_level": "品牌",
+      "brand": "理想",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车用户将能够使用蔚来、小鹏、理想这三家企业的充电桩"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "充电与补能",
+      "content": "作者陈述小米与蔚来、小鹏、理想达成充电网络合作，小米汽车用户可使用这三家品牌的充电桩。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米与蔚小理合作充电网络对车主有着多方面的积极影响...小米汽车用户将能够使用蔚来、小鹏、理想这三家企业的充电桩"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+  },
+  {
+    "id": "C2",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "主要讨论对象"
+      }
+    ],
+    "related_event_id": "E1",
+    "event_relation": "明确影响判断",
+    "aspect": "充电与补能",
+    "content": "作者认为该合作提升了小米汽车用户的充电便利性，扩展了充电网络覆盖场景，减少了寻找充电桩的时间和里程焦虑。",
+    "sentiment": "正面",
+    "journey_stage": "非个人旅程或泛行业讨论",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "这一合作提升了充电便利性...大幅扩展可用的充电网络...可以有效减少用户寻找充电桩的时间和里程焦虑"
+      }
+    ],
+    "confidence": 0.9,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "不适用",
+    "sentiment_intensity": "中",
+    "usage_context": null
+  },
+  {
+    "id": "C3",
+    "claim_type": "产品体验与评价",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "主要讨论对象"
+      }
+    ],
+    "related_event_id": "E1",
+    "event_relation": "明确影响判断",
+    "aspect": "智能座舱与车机",
+    "content": "作者指出车主可通过小米汽车APP实时查看各品牌充电场站动态数据，从而方便规划行程并提高充电效率。",
+    "sentiment": "正面",
+    "journey_stage": "非个人旅程或泛行业讨论",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "车主还可以通过小米汽车APP实时查看各品牌充电场站的动态数据...从而更方便地规划行程，提高充电效率"
+      }
+    ],
+    "confidence": 0.9,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "不适用",
+    "sentiment_intensity": "中",
+    "usage_context": null
+  },
+  {
+    "id": "C4",
+    "claim_type": "行业与政策观点",
+    "target_products": [
+      {
+        "product_id": "P1",
+        "role": "主要讨论对象"
+      },
+      {
+        "product_id": "P2",
+        "role": "主要讨论对象"
+      },
+      {
+        "product_id": "P3",
+        "role": "主要讨论对象"
+      },
+      {
+        "product_id": "P4",
+        "role": "主要讨论对象"
+      }
+    ],
+    "related_event_id": "E1",
+    "event_relation": "明确影响判断",
+    "aspect": "价格与成本",
+    "content": "作者认为该合作有助于提高充电桩利用率、降低运营成本，避免重复建设，减轻因充电站造价高、使用效率低带来的压力。",
+    "sentiment": "正面",
+    "journey_stage": "非个人旅程或泛行业讨论",
+    "evidence": [
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "这一合作有助于提高充电桩的利用率和降低运营成本...避免了重复建设的资源浪费...可以减少因充电站造价高、使用效率低带来的压力"
+      }
+    ],
+    "confidence": 0.9,
+    "statement_type": "推断解释",
+    "comparison": null,
+    "experience_basis": "不适用",
+    "sentiment_intensity": "中",
+    "usage_context": null
+  },
+  {
+    "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者高度评价此次合作，认为其为新能源汽车行业合作共赢的新起点，能提升品牌影响力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "可以高度评价这一合作为新能源汽车行业合作共赢的新起点"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+  }
+],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米与蔚小理合作充电网络",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米与蔚小理合作充电网络"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "配文宣布小米汽车携手蔚来正式开启充电补能网络合作"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米汽车与蔚来、小鹏、理想达成充电补能网络合作，相关品牌充电桩入驻小米充电地图。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了小米与蔚来、小鹏、理想合作构建充电网络的行业事件。作者认为此举提升了小米车主的充电便利性和APP功能体验，同时帮助车企降低成本、提高效率，是行业合作共赢的新起点。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

@@ -1,0 +1,369 @@
+{
+  "schema_version": "2.3",
+  "post_id": "5525a966b8486eb1",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7绿化带争议"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7 Ultra版零百加速2.78秒"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "保时捷Taycan Turbo",
+      "entity_level": "具体配置",
+      "brand": "保时捷",
+      "series": "Taycan",
+      "model_year": null,
+      "version": "Turbo",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "对比保时捷Taycan Turbo的前265/后315mm明显偏窄"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "就像特斯拉Autopilot致死案的判例所示"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者观察到网络上关于小米SU7“上绿化带”的调侃和“绿化带战神”标签盛行，担忧这种网络狂欢式的讨论掩盖了事故问题的本质。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近逛论坛，总能刷到\"小米SU7又上绿化带了\"的调侃...担心网络狂欢式的讨论掩盖了问题本质"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者引用数据显示，截至2025年4月，小米SU7累计交付25.5万辆，公开可查事故约23起，其中“上绿化带”单方事故占比约60%；其人员伤亡率为0.002%，低于新能源汽车行业均值0.007%及部分主流燃油车型。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "截至2025年4月，小米SU7累计交付25.5万辆，公开可查的事故约23起，其中涉及\"上绿化带\"的单方事故占比约60%。从事故率来看，其人员伤亡率仅0.002%，远低于新能源汽车行业均值0.007%，甚至优于部分主流燃油车型。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者指出小米SU7存在“超跑级性能”与“家用车用户”的适配断层。以Ultra版为例，其零百加速2.78秒、扭矩超800N·m，但轮胎宽度（前245/后275mm）较保时捷Taycan Turbo（前265/后315mm）偏窄，且采用舒适取向街道胎和悬架，导致湿滑路面或急加速时易突破抓地力极限，引发甩尾。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7 Ultra版零百加速2.78秒，峰值扭矩超800N·m...对比保时捷Taycan Turbo的前265/后315mm明显偏窄，且采用偏向舒适的街道胎，悬架刚度也为日常通勤调校。这种\"动力强、抓地弱\"的组合...尤其在湿滑路面或弯道，深踩电门瞬间就可能突破后轮抓地力，导致转向过度甩尾"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P3",
+            "aspect": "驾驶与操控",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "前245/后275mm的轮胎宽度，对比保时捷Taycan Turbo的前265/后315mm明显偏窄"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "湿滑路面或弯道行驶，深踩电门。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "尤其在湿滑路面或弯道，深踩电门瞬间就可能突破后轮抓地力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为小米SU7默认开启的强能量回收单踏板模式增加了误操作风险，使驾驶员在紧急情况下可能混淆“松电门减速”与“踩刹车”的逻辑，导致误操作概率提升。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "单踏板模式则进一步增加了误操作风险。小米默认开启的强能量回收，让\"松电门=减速\"成为驾驶习惯，但紧急情况下，部分用户会混淆逻辑——要么以为松电门就能减速而不踩刹车，要么慌乱中把电门当刹车深踩。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "紧急情况下的驾驶操作。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "但紧急情况下，部分用户会混淆逻辑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者列举了多起涉及小米SU7的事故案例，包括南京9·16试驾事故（湿滑路面操作不当）、河南临颍事故（133km/h越实线超车致4死2伤，驾驶员全责）以及女网红穿高跟鞋驾驶冲入绿化带，以此论证用户驾驶行为不当是事故主因之一。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "南京9·16试驾事故中，就出现了路面湿滑状态下操作不当导致车辆冲绿岛的情况。...河南临颍一起事故中，驾驶员以133km/h越实线超车，与对向车辆碰撞致4死2伤，法院最终认定其负全责。还有女网红穿高跟鞋驾驶SU7冲进绿化带"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "涵盖多种场景：湿滑路面试驾、高速公路超速超车、城市道路违规驾驶。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "南京9·16试驾事故中，就出现了路面湿滑状态下操作不当导致车辆冲绿岛的情况。...河南临颍一起事故中，驾驶员以133km/h越实线超车"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者指出小米SU7标准版采用纯视觉方案，AEB功能无法识别施工锥桶、水马等低矮障碍物，且脱手警告接管窗口仅2-3秒，远低于国标建议的10秒，存在辅助驾驶被误认为自动驾驶的认知偏差风险。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米SU7标准版采用纯视觉方案，没有激光雷达，其AEB功能仅对车辆、行人、二轮车生效，无法识别施工锥桶、水马等低矮障碍物。小米系统的脱手警告接管窗口仅2-3秒，远低于国标建议的10秒。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者认为虽然部分事故被定性为单方交通事故，但车企仍需为系统可预见的风险承担责任，并引用特斯拉Autopilot致死案判例作为类比，强调车企在设计和安全冗余方面的责任不可免除。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "铜陵市应急管理局已将安徽事故定性为\"单方交通事故\"，但这不能免除车企责任——就像特斯拉Autopilot致死案的判例所示，即便驾驶员有操作失误，车企仍需为系统可预见的风险承担责任。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7“绿化带战神”舆论争议",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最近逛论坛，总能刷到\"小米SU7又上绿化带了\"的调侃，配上冲击力十足的事故视频，\"绿化带战神\"的标签越贴越牢。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "近期网络上流传大量小米SU7冲撞绿化带的事故视频，形成了“绿化带战神”的负面舆论标签。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "非个人旅程或泛行业讨论",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "作为汽车之家老用户，看着一款现象级车型陷入安全争议..."
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子针对小米SU7频发的“冲绿化带”事故及由此引发的“绿化带战神”舆论进行理性拆解。作者引用事故率数据反驳“高风险”标签，并从车辆性能与配置适配、用户驾驶行为、智能驾驶认知偏差及安全冗余设计四个维度分析事故成因，最后强调车企需为系统可预见风险承担责任。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

@@ -1,0 +1,402 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4bab71854ea0668a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7上市发布会"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "比亚迪",
+      "entity_level": "品牌",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "发布者认证为“比亚迪汽车”"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "理想",
+      "entity_level": "品牌",
+      "brand": "理想",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "理想汽车官方微博"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "小鹏",
+      "entity_level": "品牌",
+      "brand": "小鹏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "小鹏汽车官方账号"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "长城",
+      "entity_level": "品牌",
+      "brand": "长城",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "长城汽车官方微博"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "深蓝",
+      "entity_level": "品牌",
+      "brand": "深蓝",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "发布者认证账号为“深蓝汽车”"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "阿维塔",
+      "entity_level": "品牌",
+      "brand": "阿维塔",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I5",
+          "source_type": "image_summary",
+          "quote": "发布者认证账号为“阿维塔”"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P8",
+      "name": "蔚来",
+      "entity_level": "品牌",
+      "brand": "蔚来",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "比亚迪、蔚来、小鹏、理想、华为等中国新能源汽车先行者"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "P9",
+      "name": "华为",
+      "entity_level": "品牌",
+      "brand": "华为",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "比亚迪、蔚来、小鹏、理想、华为等中国新能源汽车先行者"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "多家车企（包括比亚迪、理想、小鹏、长城、深蓝、阿维塔）在社交媒体上公开表示欢迎小米汽车入场。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "众多车企纷纷欢迎小米汽车入场，包括长城、理想、小鹏等各大车企。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "配文内容为：“欢迎@小米汽车 入场..."
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "正文内容为“欢迎@小米汽车 入场！..."
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "文案内容为“欢迎小米汽车入场！..."
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "动态正文写道：“欢迎@小米汽车 入场！..."
+        },
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "配文内容为：“终于等到‘mi’ 欢迎@小米汽车 入场！..."
+        },
+        {
+          "block_id": "I5",
+          "source_type": "image_summary",
+          "quote": "文案内容为：“向前，登塔，一起摘星 欢迎@小米汽车 入场！..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "小米汽车将于3月28日晚间19:00举办小米SU7上市发布会。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3月28日，小米汽车于晚间19:00举办小米SU7上市发布会。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "去年12月，小米汽车召开首场技术发布会，并向比亚迪、蔚来、小鹏、理想、华为等企业致敬。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在去年12月份，小米汽车召开首场技术发布会，小米汽车向比亚迪、蔚来、小鹏、理想、华为等中国新能源汽车先行者致敬。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E3",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "雷军表示小米汽车是其个人生涯最后一次创业，造车三年间每天战战兢兢；小米汽车短期目标是成为纯电豪华前三，长期目标是用15到20年时间成为全球前五的车企。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "雷军表示， 小米汽车是他个人生涯中的最后一次创业，在宣布造车的过去3年时间中，每一天都是战战兢兢。 小米汽车当前目标是成为纯电豪华前三，长期目标则是用15到20年的时间成为全球前五的车企。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7上市发布会",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-03-28",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3月28日，小米汽车于晚间19:00举办小米SU7上市发布会。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米汽车于2024年3月28日晚举办小米SU7上市发布会。"
+    },
+    {
+      "id": "E2",
+      "name": "小米汽车首场技术发布会",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "在去年12月份，小米汽车召开首场技术发布会"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "小米汽车于去年12月召开首场技术发布会。"
+    },
+    {
+      "id": "E3",
+      "name": "雷军阐述小米汽车战略目标",
+      "event_type": "企业与品牌动态",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "雷军表示， 小米汽车是他个人生涯中的最后一次创业...小米汽车当前目标是成为纯电豪华前三，长期目标则是用15到20年的时间成为全球前五的车企。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "雷军公开表示小米汽车是其最后一次创业，并阐述了成为纯电豪华前三及全球前五车企的战略目标。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了小米SU7上市发布会前夕，多家国内主流车企（如比亚迪、理想、小鹏、长城等）通过社交媒体公开欢迎小米汽车入场的行业动态。文章还回顾了小米汽车此前的技术发布会及雷军关于公司战略目标的表态。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

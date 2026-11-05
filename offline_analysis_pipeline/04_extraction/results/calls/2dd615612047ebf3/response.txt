@@ -1,0 +1,298 @@
+{
+  "schema_version": "2.3",
+  "post_id": "2dd615612047ebf3",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra Prototype",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra Prototype",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 Ultra Prototype原型车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Ultra量产版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra量产版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 Ultra量产版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7提供了CLTC续航、预估续航两种不同的续航里程显示方式"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "官方称将在11月15日的广州车展上首次展示在纽北完成圈速挑战的小米SU7 Ultra Prototype原型车，该车保持纽北圈速挑战完成后的真实车辆状态，未进行美化。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在11月15日举办的广州车展上，我们将首次向大家展示，刚刚在纽北完成圈速挑战荣耀而归的小米SU7 Ultra Prototype原型车...我们甚至没有对车辆进行美化，将保持纽北圈速挑战完成后的真实车辆状态。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "官方称小米SU7 Ultra量产版将在广州车展上首次与大家见面。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "此外本次车展上，小米SU7 Ultra量产版也将首次与大家见面"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "官方称雷军将参加11月15日广州车展媒体日，并在发布会上汇报小米汽车最新技术进展；此外11月14日雷军将举办智能驾驶体验直播，首次展示小米SU7端到端全场景智能驾驶。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "雷军将会参加此次11月15日广州车展媒体日，届时也将在车展发布会上，跟大家汇报小米汽车一系列最新的技术进展。 此外11月14日，雷军也将举办一场智能驾驶体验直播，首次向大家展示小米SU7端到端全场景智能驾驶"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "官方解释表显续航下降里程多于实际行驶里程是因为车机显示数据不一定能100%表达真实续航情况，存在区别。小米SU7提供CLTC续航和预估续航两种显示方式，其中预估续航综合考虑了高温、低温和激烈驾驶等工况，能实现更精准的续航预估。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车机显示的续航数据并不一定能100%表达真实的续航情况，会存在一定的区别。 小米SU7提供了CLTC续航、预估续航两种不同的续航里程显示方式。其中预估续航，针对气温差异和驾驶习惯差异，综合考虑了高温、低温和激烈驾驶等工况，能实现更精准的续航预估。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "官方称小米SU7三个配置版本分别提供了700km、830km及800km的官方续航里程。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7三个配置版本，分别提供了700km、830km及800km的官方续航里程"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "官方建议如果车辆行驶达到2万公里，需到服务中心进行全方位检查和保养；如果提车未超过1年或行驶未达2万公里，暂时不需要回店检查/保养。在特定恶劣环境或特殊用途下可能需要增加保养项目或缩短间隔。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "如果您的爱车已经行驶了2万公里，建议到小米汽车服务中心进行一次全方位的检查和保养； 提车没有超过1年或行驶2万公里，暂时不需要回店进行检查/保养； 如果车辆需要经常行驶在以下恶劣环境中，可能需要增加额外的保养项目或缩短保养间隔"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "广州车展小米SU7 Ultra展示",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-11-15",
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在11月15日举办的广州车展上，我们将首次向大家展示...小米SU7 Ultra Prototype原型车...小米SU7 Ultra量产版也将首次与大家见面"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "官方预告将在11月15日广州车展上首次展示小米SU7 Ultra Prototype原型车和小米SU7 Ultra量产版。"
+    },
+    {
+      "id": "E2",
+      "name": "雷军出席广州车展及智能驾驶直播",
+      "event_type": "企业与品牌动态",
+      "event_time": "2024-11-15",
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "雷军将会参加此次11月15日广州车展媒体日...此外11月14日，雷军也将举办一场智能驾驶体验直播"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "官方预告雷军将参加11月15日广州车展媒体日，并于11月14日举办智能驾驶体验直播。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "该帖子为小米SU7热点问题的官方解答（第八十九期）。内容主要包括：预告在广州车展上展示小米SU7 Ultra原型车及量产版，确认雷军将出席车展并举办智能驾驶直播，解释车机续航显示与实际差异的原因及两种续航显示模式的区别，并提供车辆保养周期的官方建议。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

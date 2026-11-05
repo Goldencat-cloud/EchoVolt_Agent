@@ -1,0 +1,40 @@
+{
+  "contract_version": "tool-contract-2-semantic",
+  "envelope_keys": ["data", "caliber", "data_version", "snapshot_hash", "n", "warnings", "truncated"],
+  "version_fields": ["data_version", "snapshot_hash"],
+  "error_codes": [
+    {"tool": "query_stats", "input": {"aspect": "不存在的议题"}, "error": "unsupported aspect"},
+    {"tool": "query_claims", "input": {"limit": 21}, "error": "limit must be 1..20 and offset must be non-negative"},
+    {"tool": "query_claims", "input": {"limit": 0}, "error": "limit must be 1..20 and offset must be non-negative"},
+    {"tool": "query_claims", "input": {"offset": -1}, "error": "limit must be 1..20 and offset must be non-negative"}
+  ],
+  "sample_inputs": {
+    "query_stats": {"aspect": "空间与舒适性"},
+    "query_claims": {"aspect": "空间与舒适性", "sentiment": "负面", "limit": 5, "offset": 0}
+  },
+  "expected_warnings": {
+    "query_stats": [],
+    "query_claims": ["curated_evidence_subset_not_all_claims"]
+  },
+  "semantic_method": {
+    "method": "semantic_aggregate",
+    "params": ["metrics", "dimensions", "filters", "time", "order", "population", "limit"],
+    "caliber_marker": "模型口径",
+    "tool_errors": {
+      "semantic_query_rejected": "指标/维度/口径取值越界，或同一查询内指标口径不一致",
+      "analysis_step_not_in_plan": "参数组合与已批准计划中的 semantic_aggregate 工作项不一致",
+      "analysis_verification_failed": "verifier 复算不通过，结果不可引用"
+    }
+  },
+  "plan_samples": {
+    "semantic": {
+      "coverage": "契约样例：语义层聚合计划，议题写在 filters 里",
+      "use_python": false,
+      "workstreams": [
+        {"id": "w1", "question": "各议题负面观点占比排序", "aspect": null,
+         "method": "semantic_aggregate",
+         "params": {"metrics": ["negativeShare", "claims"], "dimensions": ["aspect"]}}
+      ]
+    }
+  }
+}

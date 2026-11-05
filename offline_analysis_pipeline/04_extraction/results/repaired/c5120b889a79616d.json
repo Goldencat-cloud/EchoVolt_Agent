@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.3",
+  "post_id": "c5120b889a79616d",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者认为对于小刮小碰可以通过抛光解决，而对于较大的损伤，贴车衣也没有作用。",
+      "sentiment": "负面",
+      "journey_stage": "无法判断",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小刮小碰，抛光即可，大的，车衣也没用。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者针对是否需要贴车衣提出疑问，并给出了自己的看法：轻微划痕可通过抛光修复，严重损伤则车衣也无法起到保护作用。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "低"
+}

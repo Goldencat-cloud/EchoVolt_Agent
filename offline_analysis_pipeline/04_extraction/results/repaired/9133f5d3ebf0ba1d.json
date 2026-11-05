@@ -1,0 +1,295 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9133f5d3ebf0ba1d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米汽车",
+      "entity_level": "品牌",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "戏谑小米汽车"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "宝马X5",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "X5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "宝马X5车主可以买小米，但小米车主买不起X5"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "宝马",
+      "entity_level": "品牌",
+      "brand": "宝马",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "大方肯定宝马是伟大车企"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "博主转发的上海宝诚中环宝马5S店主播直播录屏中，该主播使用“大米汽车”、“杂粮品牌”等词汇戏谑小米汽车，并以“180天的速成鸡可以吃，但180天造的车不敢开”进行类比，暗示小米造车周期短、质量不可靠。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "该销售主播多次用“大米汽车”、“杂粮品牌”来戏谑小米汽车，更抛出了一个荒谬的类比：“180天的速成鸡可以吃，但180天造的车不敢开”，借此暗讽小米造车周期短、质量不可靠。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "该宝马销售主播声称在路上看到开小米汽车的车主会“踩油门追上去看看长相”，并断言“宝马X5车主可以买小米，但小米车主买不起X5”，被作者评价为越界的人身攻击和傲慢。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这位主播声称，在路上看到开小米汽车的，都会“踩油门追上去看看长相”，甚至断言“宝马X5车主可以买小米，但小米车主买不起X5”。 这种拿车型来给消费者划分三六九等、甚至评判长相的做法，迅速引爆了网友的怒火。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "小米产业投资部合伙人潘九堂公开回应，肯定宝马是伟大车企，并透露小米汽车上市后，包括欧洲、日韩在内的顶尖车企及豪华品牌高层曾组团来交流并表达过合作意向。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "他没有选择互撕，而是大方肯定宝马是伟大车企...他透露小米汽车上市后，包括欧洲、日韩在内的顶尖车企及豪华品牌高层，都曾组团来交流并表达过合作意向。"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "正文内容主要表达了对宝马品牌的赞赏（称其为伟大的车企），并提到小米汽车上市后受到欧洲/日韩顶尖车企高层的关注与交流。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "潘九堂呼吁大家多试驾、多对比，强调“车好不好，开一开、问问真实车主才最有说服力”，将选择权交给市场。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "最后，潘九堂把选择权交给了市场，呼吁大家多试驾、多对比，强调“车好不好，开一开、问问真实车主才最有说服力”。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "引用了潘九堂的话：“欢迎大家多试驾、多对比”、“亲自开一开、问问真实车主，才最有说服力”。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "作者认为国内新能源汽车的强势崛起让传统豪华品牌市场份额感受到巨大压力，并指出靠贬低对手、攻击消费者来寻找心理优势是最下策，真正自信的品牌应靠产品力说话。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "客观来看，国内新能源汽车的强势崛起，确实让传统豪华品牌的市场份额感受到了巨大压力。但面对竞争，靠贬低对手、甚至攻击消费者来寻找心理优势，绝对是最下策。真正自信的品牌，永远是靠产品力说话。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "宝马销售主播直播贬低小米汽车及车主",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "有博主在2026年3月转发了一段上海宝诚中环宝马5S店主播此前的直播录屏（视频最早出自2025年10月）。在这段直播中，该销售主播多次用“大米汽车”、“杂粮品牌”来戏谑小米汽车"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这位主播声称，在路上看到开小米汽车的，都会“踩油门追上去看看长相”，甚至断言“宝马X5车主可以买小米，但小米车主买不起X5”。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "上海宝诚中环宝马5S店主播在直播中使用不当言辞戏谑小米汽车，并对小米车主进行人身攻击和消费能力歧视，引发网络热议。"
+    },
+    {
+      "id": "E2",
+      "name": "小米高管潘九堂公开回应宝马销售言论",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "事件发酵后不到三小时，小米产业投资部合伙人潘九堂就做出了公开回应。"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "发帖人昵称为“潘九堂”，发布时间为26-3-10 09:16...正文内容主要表达了对宝马品牌的赞赏（称其为伟大的车企）"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "针对宝马销售主播的不当言论，小米产业投资部合伙人潘九堂在社交媒体上公开回应，肯定宝马品牌，披露国际车企交流情况，并呼吁通过试驾和真实车主反馈来评价车辆。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了宝马销售主播在直播中贬低小米汽车及车主引发的舆论风波，以及小米高管潘九堂的公开回应。作者批评了销售人员的傲慢与人身攻击，并认为新能源汽车崛起给传统豪华品牌带来压力，品牌应依靠产品力而非贬低对手。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

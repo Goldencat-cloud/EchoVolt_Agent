@@ -1,0 +1,226 @@
+{
+  "post_id": "4be6f515de74bf9e",
+  "state": "CONTRACT_PASS",
+  "cache_key": "d9655699a9757eb5653e97d2610ee925955f9fe53f4a4f2d5706b65273e7f748",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "4be6f515de74bf9e",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P2",
+        "name": "极氪007",
+        "entity_level": "车系",
+        "brand": "极氪",
+        "series": "007",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "极氪007"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "品牌与口碑",
+        "content": "作者指出小米SU7与极氪007发生了对撞事件，并认为无论哪方获胜都会带来巨大的流量热度。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这场小米SU7和极氪007的对撞不管是哪方赢了都势必是一场很大的流量热度"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "明确影响判断",
+        "aspect": "安全与质量",
+        "content": "作者根据照片观察，认为在对撞中两车乘员舱均保持安全环境，但驾驶舱侵入和车身吸能均有不同程度损伤，形容双方表现“坚如磐石”且势均力敌。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "双方的乘员坐仓都保持着安全的环境...都可以用坚如磐石来形容"
+          }
+        ],
+        "confidence": 0.85,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "安全与质量",
+              "relation": "相当",
+              "evidence": [
+                {
+                  "block_id": "T2",
+                  "source_type": "text",
+                  "quote": "双方的车辆都是势均力敌"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "明确影响判断",
+        "aspect": "品牌与口碑",
+        "content": "作者认为此次对撞对刚上市的小米SU7更具参考意义，是一次“证明”，并认为小米SU7因此获得了一波流量热度。",
+        "sentiment": "正面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "依然来说对小米SU7更具有参考意义...为小米SU7来了一次“证明”"
+          },
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "小米SU7确实是又有了一波流量热度"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7与极氪007对撞事件",
+        "event_type": "品牌传播与公共舆论",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1",
+          "P2"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这场小米SU7和极氪007的对撞"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "图片展示了两辆轿车正在进行车头对撞测试的场景"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米SU7与极氪007发生车头对撞，引发关于车辆安全性和品牌流量的讨论。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子讨论了小米SU7与极氪007的对撞事件，作者认为两者在安全性上势均力敌，但该事件为小米SU7带来了显著的流量热度和品牌关注度。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [],
+  "original_errors": [
+    "claims/C2/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10729,
+    "completion_tokens": 1745,
+    "total_tokens": 12474,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 8.103023100004066,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,86 @@
+{
+  "post_id": "91aad126cd134ca2",
+  "state": "FAILED",
+  "cache_key": "20b64008d9cf83a72bc30abd224ce965f17aaff2b3a3e5954de70a046362dbe0",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "91aad126cd134ca2",
+    "products": [],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为车辆在舒适模式下将动能回收设置为较低数值（约20），或在运动模式下将动能回收调至50时，驾驶感受非常舒服，不会让副驾驶感到头晕，因此喜欢这种单踏板模式的设置方式。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我最近发现了一个非常大的优点，那就是在它开舒适模式下，可以把单踏板模式设置成数值比较小，也就是所谓的动能回收设置到20左右但是当在你把模式换成运动模式的情况下，你把动能回收调到50，开起来非常的舒服，也不会让副驾驶有头晕的感觉，让我非常喜欢单踏板模式"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在舒适模式和运动模式下分别调节动能回收数值进行驾驶体验。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "在它开舒适模式下...当你把模式换成运动模式的情况下"
+            }
+          ]
+        }
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我最近发现了一个非常大的优点"
+        }
+      ],
+      "confidence": 0.9,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "车主分享了关于车辆单踏板模式和动能回收设置的积极体验，指出在特定模式（舒适/运动）下调节动能回收数值能获得舒适的驾驶感，且不影响乘客舒适度。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "C1/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "C1/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10162,
+    "completion_tokens": 614,
+    "total_tokens": 10776,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 3.1363996000000043,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>[[PAGE_TITLE]]</title>
+<style>
+:root{
+ --paper:#faf9f6;--ink:#23282c;--soft:#4a545c;--muted:#8b949b;
+ --hair:#e3e0d8;--accent:#14547a;--red:#b03a2e;--green:#1e6e48;--amber:#a3691b;
+ --serif:Georgia,'Times New Roman','Source Han Serif SC','Noto Serif SC',STSong,SimSun,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);line-height:1.9;font-size:15.5px;
+ font-family:system-ui,-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;
+ -webkit-font-smoothing:antialiased}
+nav{position:fixed;top:0;left:0;bottom:0;width:212px;padding:30px 18px;overflow-y:auto;
+ border-right:1px solid var(--hair);font-size:13px;z-index:5}
+nav .brand{font-family:var(--serif);font-weight:700;font-size:15px;margin-bottom:18px;color:var(--ink)}
+nav a{display:block;padding:4px 0 4px 12px;color:var(--soft);text-decoration:none;margin:3px 0;
+ border-left:2px solid transparent;line-height:1.5}
+nav a:hover{color:var(--accent)}
+nav a.active{color:var(--accent);border-left-color:var(--accent);font-weight:600}
+main{margin-left:212px;padding:44px 52px 110px;max-width:880px}
+@media(max-width:980px){nav{display:none}main{margin:0;padding:24px 18px 80px}}
+section{margin:0 0 64px}
+/* ---- cover: typographic, editorial ---- */
+.cover{padding:8px 0 30px;margin-bottom:26px}
+.cover .rule{height:3px;background:var(--ink);margin-bottom:34px}
+.cover .kicker{font-size:12.5px;font-weight:600;letter-spacing:.22em;color:var(--accent);margin-bottom:16px}
+.cover h1{font-family:var(--serif);font-size:2.55em;line-height:1.3;font-weight:700;
+ margin:0 0 12px;color:var(--ink)}
+.cover .sub{font-size:1.08em;color:var(--soft);max-width:36em}
+.cover .chips{margin-top:18px;font-size:.8em;color:var(--muted)}
+.statstrip{display:flex;flex-wrap:wrap;margin-top:30px;border-top:1px solid var(--hair);
+ border-bottom:1px solid var(--hair)}
+.stat{flex:1 1 130px;padding:16px 18px;border-right:1px solid var(--hair)}
+.stat:last-child{border-right:none}
+.stat b{display:block;font-family:var(--serif);font-size:1.65em;line-height:1.2;color:var(--accent);
+ font-variant-numeric:tabular-nums;font-weight:600}
+.stat span{font-size:.74em;color:var(--muted)}
+/* ---- headings & sections ---- */
+h2{font-family:var(--serif);font-size:1.5em;font-weight:700;color:var(--ink);
+ margin:0 0 18px;padding-top:22px;border-top:2px solid var(--ink);line-height:1.45}
+h2 .no{font-family:system-ui,sans-serif;font-size:.62em;font-weight:600;color:var(--accent);
+ letter-spacing:.12em;display:block;margin-bottom:6px}
+section:first-of-type h2,section#summary-block h2{border-top:none;padding-top:0}
+.lead{color:var(--soft);margin:0 0 20px;font-size:1.01em}
+/* ---- finding / implication ---- */
+.finding,.impl{margin:18px 0;padding:4px 0 4px 20px}
+.finding{border-left:3px solid var(--accent)}
+.impl{border-left:3px solid #b9c3c9}
+.finding .fl,.impl .fl{display:block;font-size:11.5px;font-weight:700;letter-spacing:.2em;
+ margin-bottom:6px}
+.finding .fl{color:var(--accent)}.impl .fl{color:var(--muted)}
+.finding{font-size:1.04em;color:var(--ink)}
+.impl{color:var(--soft)}
+.concl{margin:16px 0;padding:6px 0 6px 20px;border-left:3px solid var(--green);color:var(--ink)}
+.concl .sid{display:inline-block;font-size:.76em;font-weight:700;color:var(--green);
+ margin-right:9px;letter-spacing:.08em}
+.note{color:var(--muted);font-size:.84em;font-style:italic;margin:12px 0;line-height:1.7}
+/* ---- tables: booktabs ---- */
+table{border-collapse:collapse;margin:18px 0;width:100%;font-size:.9em}
+thead tr{border-top:2px solid var(--ink);border-bottom:1.5px solid var(--ink)}
+th{padding:8px 12px;text-align:left;font-weight:600;font-size:.86em;color:var(--ink);letter-spacing:.03em}
+tbody tr{border-bottom:1px solid var(--hair)}
+tbody tr:last-child{border-bottom:2px solid var(--ink)}
+td,th{padding:8px 12px}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+td.warn{color:var(--red);font-weight:600}
+tr:hover td{background:#f2f0ea}
+/* ---- figures ---- */
+figure{margin:20px 0;padding:0}
+figure svg{width:100%;height:auto;border:1px solid var(--hair);border-radius:4px}
+figcaption{font-size:.82em;color:var(--muted);margin-top:8px;line-height:1.7}
+/* ---- details ---- */
+details{margin:14px 0;padding:10px 2px 12px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+summary{cursor:pointer;font-weight:600;color:var(--accent);font-size:.95em}
+details p{margin:12px 0 2px;white-space:pre-line;color:var(--soft)}
+/* ---- tabs ---- */
+.tabs{display:flex;gap:22px;margin:14px 0 4px;border-bottom:1px solid var(--hair)}
+.tabs button{border:none;background:none;padding:8px 2px;cursor:pointer;font-size:.92em;
+ color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button.on{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+.pane{display:none}.pane.on{display:block}
+/* ---- cases ---- */
+.filterbar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.filterbar button{border:1px solid var(--hair);background:none;border-radius:15px;padding:3px 14px;
+ cursor:pointer;font-size:.84em;color:var(--soft)}
+.filterbar button.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.case{background:#fff;border:1px solid var(--hair);border-radius:6px;padding:16px 22px;margin:14px 0}
+.case .hd{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.case .hd b{font-size:1em}
+.badge{display:inline-block;font-size:.72em;border-radius:3px;padding:1px 9px;margin-left:6px;vertical-align:1px}
+.b-a{background:#e7eef3;color:var(--accent)}.b-n{background:#f9ebe8;color:var(--red)}
+.b-p{background:#e9f2ec;color:var(--green)}.b-s{background:#f0ede4;color:#7a6a3a}
+blockquote{border-left:2px solid var(--hair);margin:12px 0;padding:4px 18px;color:var(--soft);
+ font-size:.97em}
+.case .meta{font-size:.8em;color:var(--muted)}
+.case .need{font-size:.92em;margin-top:8px}
+.case .bd{font-size:.8em;color:var(--muted);margin-top:4px}
+/* ---- recommendations ---- */
+.rec{background:#fff;border:1px solid var(--hair);border-left:3px solid var(--hair);
+ border-radius:4px;padding:15px 22px;margin:13px 0}
+.rec.p1{border-left-color:var(--red)}.rec.p2{border-left-color:var(--amber)}
+.rec .p{display:inline-block;font-size:.72em;font-weight:700;margin-right:9px;letter-spacing:.08em;
+ color:var(--muted)}
+.p1 .p{color:var(--red)}.p2 .p{color:var(--amber)}
+.rec .ev{font-size:.88em;color:var(--soft);margin-top:6px}
+.rec .bd{font-size:.79em;color:var(--muted);margin-top:4px}
+a{color:var(--accent)}
+.footer{margin-top:56px;font-size:.78em;color:var(--muted);border-top:1px solid var(--hair);padding-top:16px}
+</style>
+</head>
+<body>
+<nav id="toc"><div class="brand">[[NAV_BRAND]]</div>[[TOC]]</nav>
+<main>
+[[COVER]]
+[[SUMMARY]]
+[[SECTIONS]]
+[[APPENDIX]]
+<div class="footer">[[FOOTER]]</div>
+</main>
+<script>
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.tabs button');if(!b)return;
+  const group=b.closest('.tabs');
+  group.querySelectorAll('button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');
+  const scope=b.closest('section');
+  scope.querySelectorAll('.pane').forEach(p=>p.classList.toggle('on',p.id===b.dataset.pane));
+});
+const cl=document.getElementById('casefilter');
+if(cl){cl.addEventListener('click',e=>{
+  const b=e.target.closest('button');if(!b)return;
+  cl.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+  document.querySelectorAll('.case').forEach(c=>c.style.display=(b.dataset.v===''||c.dataset.aspect===b.dataset.v)?'':'none');
+});}
+const links=[...document.querySelectorAll('#toc a')];
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id));}});},{rootMargin:'-15% 0px -75% 0px'});
+document.querySelectorAll('main section').forEach(s=>io.observe(s));
+</script>
+</body>
+</html>

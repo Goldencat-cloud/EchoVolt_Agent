@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.3",
+  "post_id": "863330530b5f545a",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者询问在广东佛山地区办理汽车置换补贴时，是否需要等待新车上牌后才能出售旧车，或者是否可以先行出售旧车。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这个补贴需要等新车下地再卖旧车吗？还是可以先买旧车？广东佛山这边的"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "提问",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "图片说明描述的聊天记录中，客服表示置换补贴申请中旧车出售与新车上牌没有先后顺序限制，且目前规定只要在同一年度内即可。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "客服回复称：“这个没有先后顺序的哈”...“目前的置换没有这样规定”，并补充道：“只要是同一年度内”。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "买车置换领补贴"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "楼主询问在广东佛山进行汽车置换补贴申请时，旧车出售与新车上牌是否存在先后顺序或时间间隔限制。配图展示了与客服的沟通记录，客服回应称两者无先后顺序，且只需在同一年度内操作即可。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

@@ -1,0 +1,164 @@
+{
+  "schema_version": "2.3",
+  "post_id": "0177cef765bd92e0",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的表现真的令人振奋啊"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "据称本次测试共有50多款热门新能源车型参与，其中许多是冬季首次测试。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "据说这次总共有50+款热门新能源车型，其中好多部分是冬季首测"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "续航与能耗",
+      "content": "作者认为小米SU7在测试中表现令人振奋，其纯电续航达成率为91%，并获得了当日超热纯电轿车组冠军。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7的表现真的令人振奋啊，纯电续航有91%！获得了当日超热纯电轿车组冠军。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "品牌与口碑",
+      "content": "作者转述雷军在社交媒体上回应测试结果，称“我简单看了一下结果，表现还行！”。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军在社交媒体上回应“我简单看了一下结果，表现还行！”"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "新能源车型冬季测试",
+      "event_type": "其他",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "据说这次总共有50+款热门新能源车型，其中好多部分是冬季首测"
+        }
+      ],
+      "confidence": 0.8
+    ,
+      "summary": "一项涉及50多款热门新能源车型的冬季测试活动，部分车型为首测。"
+    },
+    {
+      "id": "E2",
+      "name": "雷军回应小米SU7测试结果",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军在社交媒体上回应“我简单看了一下结果，表现还行！”"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "雷军在社交媒体上公开回应了关于小米SU7的测试结果。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子转述了一项涉及50多款新能源车型的冬季测试，指出小米SU7在该测试中表现优异，获得纯电轿车组冠军，并引用了雷军的回应。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

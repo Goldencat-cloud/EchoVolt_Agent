@@ -1,0 +1,579 @@
+{
+  "schema_version": "2.3",
+  "post_id": "3d12863fec638acb",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2024款四驱超长续航高阶智驾Max版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "比亚迪海豹EV",
+      "entity_level": "具体配置",
+      "brand": "比亚迪",
+      "series": "海豹",
+      "model_year": null,
+      "version": "EV",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "全新的比亚迪海豹EV"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "深蓝SL03",
+      "entity_level": "具体配置",
+      "brand": "深蓝",
+      "series": "SL03",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "深蓝SL03的高配版本"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "特斯拉Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": "后驱版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "二手特斯拉Model 3后驱版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "极氪001",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": "入门版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "二手极氪001的入门版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "本田雅阁",
+      "entity_level": "车系",
+      "brand": "本田",
+      "series": "雅阁",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "用雅阁的价钱"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者指出2024款小米SU7 Max新车指导价为29.99万元，而文中提到的二手车辆标价18.18万元，行驶里程3.7万公里，两年间价格下跌超过10万元。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2024款四驱超长续航高阶智驾Max版，新车指导价29.99万。眼前这台，表显3.7万公里，贴着18.18万的标签。两年时间，一台当年刷屏的“Dream Car”身价跌了十多万。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为该车双电机四驱、2.78秒破百的性能数据极具吸引力，且设计成功，白色车身搭配黑色装饰件视觉效果良好。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "它的好，数据不会骗人。双电机四驱，2.78秒破百...设计是成功的，白色车身配上黑色装饰件，停在哪儿都精神。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出该车百公里电耗13.7度，家充成本极低，但考虑到电池老化，实际续航可能低于标称的800公里，尤其在冬季和激烈驾驶下会进一步打折。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "用车成本低，百公里电耗13.7度，家充几乎不要钱。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "3.7万公里后，电池实际容量还剩多少？标称800公里续航，现在实际能稳定跑出500多就算不错，冬天和激烈驾驶会打折更厉害。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者推测在冬季和激烈驾驶条件下，车辆实际续航会显著低于标称值。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "冬天和激烈驾驶会打折更厉害"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为2024款的Xiaomi HAD智驾和澎湃OS在2026年看来，由于芯片算力和软件迭代速度的限制，已与最新顶尖车型存在“代差”，虽仍好用但不再具备先锋优势。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2024年的Xiaomi HAD智驾和澎湃OS，在2026年看，芯片算力和软件迭代速度，已经和最新的顶尖车型有“代差”。它依然好用，但不再是“先锋”。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者担忧作为新品牌，小米SU7车身线条复杂，发生刮蹭后覆盖件的维修周期和费用可能高于成熟品牌，增加了后期维护的不确定性。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新品牌的维修便利性。车身线条复杂，一旦发生刮蹭，覆盖件的维修周期和费用可能高于成熟品牌。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者指出该车虽为中大型车尺寸，但受流线造型影响，后排头部空间和后备箱实用性有所妥协，定位为“驾驶者之车”，不适合作为满载家庭出行的唯一车辆。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "空间是“驾驶者之车”。中大型车的尺寸，但为了流线造型，后排头部空间和后备箱实用性，是为设计和性能做出的妥协。它不适合作为满载家庭出行的唯一车辆。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者分析了该车型的贬值曲线，认为当前节省的11万元是新品牌首批车型面临竞争和技术迭代的代价，未来出手时可能继续面临较快贬值。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "恐怖的贬值曲线。你省下的11万，正是其作为新品牌首批车型、面临激烈市场竞争和快速技术迭代所付出的代价。你未来卖出时，可能还要面对较快的贬值。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者将18万元的二手SU7 Max与同价位的新车比亚迪海豹EV或深蓝SL03高配进行比较，认为后者拥有全新电池、最新车机、完整质保和更实用空间，但性能和设计不如SU7 Max。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同价位新车：18万，你可以买到全新的比亚迪海豹EV或深蓝SL03的高配版本。你得到的是全新的电池、最新的车机、完整的原厂质保，以及更实用的空间。但性能和SU7 Max有巨大差距，设计也更偏家用。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "动力与性能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "但性能和SU7 Max有巨大差距"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "动力与性能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "但性能和SU7 Max有巨大差距"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "以及更实用的空间"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P1",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "以及更实用的空间"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者将18万元的二手SU7 Max与同价位的二手特斯拉Model 3后驱版及极氪001入门版进行比较，认为SU7 Max拥有前者无法比拟的狂暴加速和更高设计颜值，但对手在品牌、超充网络或底盘实用性上各有优势。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同价位性能二手车：18万区间，你可以找到二手特斯拉Model 3后驱版（品牌和超充网络无敌，但性能普通），或者二手极氪001的入门版（猎装造型实用，底盘好）。选择SU7 Max，你获得的是它们都无法比拟的狂暴加速和更高的设计颜值。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P4",
+          "P5"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "动力与性能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "选择SU7 Max，你获得的是它们都无法比拟的狂暴加速"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P5",
+            "aspect": "动力与性能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "选择SU7 Max，你获得的是它们都无法比拟的狂暴加速"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P4",
+            "object_product_id": "P1",
+            "aspect": "品牌与口碑",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "品牌和超充网络无敌"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者表达了个人的购车倾向：如果将驾驶乐趣和设计颜值放在首位，且有家充桩并能接受技术非最新，会选择购买该车；如果需要承担全家出行、追求省心可靠和最新科技，则会选择更新的车型。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "如果我把驾驶乐趣和设计颜值放在首位，日常通勤有家充桩，且能坦然接受它不是最新科技的事实，我会冲。...但如果我需要一辆承担全家出行、追求省心可靠和最新科技的车，我会选择更新的车型。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者假设在日常通勤有家充桩的场景下，优先考虑驾驶乐趣和设计颜值。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "日常通勤有家充桩"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "如果我把驾驶乐趣和设计颜值放在首位...我会冲。"
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": "18万",
+    "preferences": [
+      "重视驾驶乐趣",
+      "重视设计颜值",
+      "日常通勤有家充桩"
+    ]
+  },
+  "post_summary": "帖子探讨以18万元购买二手2024款小米SU7 Max的性价比，分析了其在性能、设计上的优势以及在电池续航、智能驾驶代差、维修成本和贬值方面的潜在风险。通过与同价位新车及二手竞品对比，作者给出了基于个人偏好（侧重性能与颜值 vs 侧重实用与省心）的购车建议。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

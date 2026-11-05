@@ -1,0 +1,242 @@
+{
+  "schema_version": "2.3",
+  "post_id": "f6bc65f31e332cbd",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "自古红蓝出CP，尤其SU7更绝配！"
+        },
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米SU7的外形设计，辨识度是真的高。"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者经过三个多月等待后提车，实际交付时间比订单显示提前一周，对此感到惊喜。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车了~3个多月的等待，是值得的。 眼看着SU7产量上来，交付越来越多、越来越快。我就比订单显示要提前一周，感觉有被惊喜到。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为SU7颜值高、车漆质感好，特别是自己选择的“外蓝内红”配色非常经典且令人称赞。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "不过，SU7颜值高，车漆质感也好，每个颜色都好看的。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "本人选的是海湾蓝，外蓝内红，经典配色。 自古红蓝出CP，SU7的配色和质感，是真的赞！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为SU7外形辨识度高，水滴大灯设计优于同级竞品的“眯眯眼”设计，符合年轻人审美。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米SU7的外形设计，辨识度是真的高。...就SU7这水滴大灯，远比其他同级的眯眯眼好看太多了，辨识度也高。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为SU7的红黑内饰搭配不错，皮质触感柔软细腻，座椅舒适且包裹性好。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "内饰这种红黑搭配的感觉其实还不错，没有全部红彤彤的。皮质触感柔软细腻，座椅也舒服，包裹性不错。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为SU7的智能互联是大亮点，计划将其与新装的智能家居连接，体验人车家生态。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "SU7另一个大亮点就是智能互联了，刚给家里搞了一套智能家居，回头就给连上。体验一下，人车家生态的快乐~"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者与女友一同提车，收到了鲜花，满足了女友对仪式感的期待。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "今天带着女朋友一块来提车的，还收到了一束花。香车有了，美女，有了。 女朋友想要的仪式感，也有了！！！"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "交付与上手",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "提车了~3个多月的等待，是值得的。"
+      },
+      {
+        "block_id": "T7",
+        "source_type": "text",
+        "quote": "心心念念的SU7到手，当然是要先来炫一波了。"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车辆外观设计",
+      "喜欢红蓝/红黑撞色内饰"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7提车经历，表达了对交付效率、车辆外观配色（海湾蓝外红内）、内饰质感及智能互联功能的满意，并记录了与女友提车的仪式感。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "case-14",
+  "source": "synthetic",
+  "note": "空 rows",
+  "input": {
+    "question": "空结果怎么处理？",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "method",
+      "aspect": "可靠性",
+      "result": {
+        "rows": []
+      }
+    }
+  ],
+  "final_text": "该议题没有可用行。",
+  "expected": {
+    "answer": "该议题没有可用行。",
+    "stats": [],
+    "evidence": [],
+    "applied_filters": {
+      "aspects": [
+        "可靠性"
+      ]
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 1
+  }
+}

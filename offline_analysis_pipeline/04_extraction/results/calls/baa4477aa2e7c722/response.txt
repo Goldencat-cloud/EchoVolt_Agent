@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.3",
+  "post_id": "baa4477aa2e7c722",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米su7pro购车权益转让"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米su7pro购车权益转让"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者因资金问题无法继续购车，决定以3800元的价格转让小米SU7 Pro的购车权益，并愿意陪同受让人完成提车及上牌流程。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "转让价格：3800"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但是现在由于资金问题不能购车，现在转让购买权益，可陪同做完全程，提车，上牌"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者于2024年7月23日支付了5000元定金，目前订单状态为生产中，预计还需5至8周交付。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2024.07.23交了5000定金，还有5到8周可以交车"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "2024.07.23交了5000定金"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "但是由于资金问题不能购车"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "注重车辆外观颜色、内饰及其他配置的个性化选择"
+    ]
+  },
+  "post_summary": "作者因资金周转困难，转让已支付定金的2024款小米SU7 Pro购车权益，转让价为3800元。文中提供了详细的车辆配置、订单生产进度及交付地点信息，并承诺协助受让人完成后续提车及上牌手续。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "高"
+}

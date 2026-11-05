@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a7a83fe25aae8d5c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "展示了小米SU7系列车型的官方配置与价格详情页面"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "SU7 Pro：起售价¥245,900"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "SU7 Max：起售价¥299,900"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子包含一张展示小米SU7系列配置与价格的截图，以及简短文字“忍不住了”。图片说明描述了不同版本的价格和参数，但未提供作者明确的购车决策或体验信息。",
+  "post_topic": "其他",
+  "analysis_value": "低"
+}

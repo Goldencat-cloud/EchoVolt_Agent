@@ -1,0 +1,9 @@
+.su7-report { gap: 40px; }
+.su7-report section { display: grid; gap: 26px; min-width: 0; }
+.su7-report .case-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.su7-report select { font: inherit; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); }
+.su7-report .case-details { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.su7-report .case-details summary { cursor: pointer; color: var(--text); }
+.su7-report .case-details blockquote { margin: 18px 0; padding: 4px 18px; border-left: 3px solid var(--secondary); white-space: pre-wrap; line-height: 1.75; overflow-wrap: anywhere; }
+.su7-report .case-details p { font-size: 14px; color: var(--secondary); overflow-wrap: anywhere; }
+.su7-report .case-details a { color: inherit; }

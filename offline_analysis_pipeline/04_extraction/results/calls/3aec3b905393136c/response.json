@@ -1,0 +1,351 @@
+{
+  "schema_version": "2.3",
+  "post_id": "3aec3b905393136c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "百公里速度会是小米 SU7 Ultra 车型的卖点吗？"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "从发布su7开始"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "仰望U9",
+      "entity_level": "车系",
+      "brand": "仰望",
+      "series": "U9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "仰望 U9 系列"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "极氪001 FR",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": "FR",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "极氪 001 FR 系列"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "保时捷911",
+      "entity_level": "车系",
+      "brand": "保时捷",
+      "series": "911",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "到比较常见的911"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "布加迪威龙",
+      "entity_level": "车系",
+      "brand": "布加迪",
+      "series": "威龙",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "从顶级的布加迪威龙"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "迈凯伦",
+      "entity_level": "品牌",
+      "brand": "迈凯伦",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "迈凯轮"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米SU7 Ultra的百公里加速性能是企业展现科研实力的手段，旨在向市场传达其在汽车研发上不输老牌车企的信号，从而提升品牌形象。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米 SU7 Ultra 车型1.9秒的百公里加速...向市场穿搭了一个信息：小米在汽车研发上，不输国内乃至世界上任何一家老牌车企。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者指出小米品牌长期受限于“高性价比”认知，而小米SU7 Ultra凭借80万定价和极致性能，有助于摆脱该标签，确立高端品牌形象。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "高性价比，成就了小米，却也成了小米品牌的一道桎梏...80万的Ultra终于和性价比没什么关系了...有助于提升小米汽车的品牌定位"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7 Ultra具备接近或超越传统超跑的百公里加速性能，且价格远低于超跑，因此被视为顶级跑车的“平替”，能激发消费者兴趣。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "如果一辆几十万的车型就能够拥有接近超跑甚至超越超跑的百公里加速性能，那么这将是这些顶级跑车的最佳“平替”"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者分析认为，拥有高性能豪车能满足部分消费者的身份标识需求和心理满足感，使其获得关注和羡慕，这是小米SU7 Ultra吸引特定人群的心理动因。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "有一辆80万+、百公里加速1.9秒的网红车，就意味着自己拥有强大的经济实力，能够在网络上、在现实中获得极大关注"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者将小米SU7 Ultra与仰望U9、极氪001 FR进行类比，指出这些高性能车型虽售价高昂，但因稀缺性和高性能成为身份标识，小米SU7 Ultra同样具备此属性。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "例如，仰望 U9 系列和极氪 001 FR 系列等车型...对于小米 SU7 Ultra 车型来说也同样如此"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3",
+          "P4"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "品牌与口碑",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T7",
+                "source_type": "text",
+                "quote": "对于小米 SU7 Ultra 车型来说也同样如此"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P4",
+            "aspect": "品牌与口碑",
+            "relation": "相当",
+            "evidence": [
+              {
+                "block_id": "T7",
+                "source_type": "text",
+                "quote": "对于小米 SU7 Ultra 车型来说也同样如此"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 Ultra发布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这次发布Ultra"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "文中提及小米发布了SU7 Ultra车型，并讨论了其百公里加速性能作为卖点的意义。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "文章分析了小米SU7 Ultra将百公里加速作为核心卖点对企业和市场的意义。作者认为这不仅展示了小米的研发实力，帮助品牌摆脱“高性价比”标签走向高端，还满足了消费者对高性能“平替”及身份标识的心理需求。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

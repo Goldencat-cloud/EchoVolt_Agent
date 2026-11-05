@@ -1,0 +1,160 @@
+{
+  "schema_version": "2.3",
+  "post_id": "997623ec6199f07a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7 Pro版不只是续航达到830公里"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "Model 3",
+      "entity_level": "具体配置",
+      "brand": "特斯拉",
+      "series": "Model 3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "又看过毛豆3之后"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为在相同售价下，小米SU7 Pro版的综合性价比高于Model 3，具体表现为小米SU7 Pro版续航更长且标配高阶领航，而Model 3续航较短且需付费选装相关功能。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "同样24.59万的售价，小米SU7 Pro版不只是续航达到830公里，连高阶领航都给配齐了。但是毛豆这边续航606公里，拨杆换挡、高速领航选装少说要3W。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "配置与功能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "小米SU7 Pro版不只是续航达到830公里，连高阶领航都给配齐了。但是毛豆这边续航606公里，拨杆换挡、高速领航选装少说要3W。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在车展现场对比两款车型。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "直到今天车展上再见小米SU7，又看过毛豆3之后"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者经过对比后决定购买小米SU7 Pro版，认为其相比Model 3更具吸引力，且Pro版比MAX版更符合个人需求。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这回下定真不带一丝犹豫"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我觉得Pro版更适合我，所以定了中配"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "已订未提",
+    "current_journey_stage": "订购与成交",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "所以定了中配"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "注重性价比",
+      "偏好Pro版配置"
+    ]
+  },
+  "post_summary": "作者在车展上重新对比了小米SU7 Pro和Model 3，认为小米SU7 Pro在同价位下续航和配置优势明显，因此果断下单购买了小米SU7 Pro版。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

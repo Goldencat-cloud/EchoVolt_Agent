@@ -1,0 +1,198 @@
+{
+  "schema_version": "2.3",
+  "post_id": "4f07304e0adcf900",
+  "products": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "作者指出工信部出台新规，要求将此前宣传的“高阶智驾”、“自动泊车”等功能统一归类或更名为“辅助驾驶”，并禁止远程代客泊车、一键召唤等功能，规定需达到L3级别才能重新开放部分功能。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "工信部出文件智驾新规落地，什么之前的高阶智驾自动泊车和无人驾驶都改成辅助驾驶了"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "像什么远程代客泊车6月份之前都得关闭、更别说什么一键召唤，远程遥控，都是禁止的。人在车可以动，人不在车不许动。什么时候达到L3级别才能重新开放"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为此次新规是对汽车行业的一次“大换血”，将迫使依赖夸大宣传智驾能力的车企面临淘汰或业务萎缩，使技术水平真实暴露在市场视野中。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "算是让新能源车企来了一次大换血，以前靠吹嘘智驾的车企都估计快要凉了"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "没有了智驾，各大车企的技术水平完整暴露在公共视野之下，有不少浑水摸鱼的企业也会迎来洗牌"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者评价当前的辅助驾驶功能在高速、快速路等车辆较少的场景下开启自适应巡航较为方便实用，但在市区行驶时仍需依靠驾驶员自身的反应能力。",
+      "sentiment": "正负混合",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "像在高速、快速路、高架桥车辆少的时候开启自适应巡航跟车其实还是很方便的。要是在市区行驶真的是要靠自己反应能力"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在高速、快速路、高架桥车辆少时开启自适应巡航；或在市区行驶。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "像在高速、快速路、高架桥车辆少的时候开启自适应巡航跟车其实还是很方便的。要是在市区行驶真的是要靠自己反应能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者批评行业内普遍存在“智驾”概念的文字游戏和过度宣传现象，认为这种营销手段导致了消费者预期与实际功能的巨大落差。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "都喜欢玩点文字游戏戴高帽子那么好大家都别玩了。智驾乱套是一方面"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在的“智驾”和咱们普通消费者心理的预期真的是太大了，这种智驾确实是过度宣传了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "故障与风险",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者指出部分车主在使用辅助驾驶时存在开车睡觉、玩游戏、脱手等危险行为，一旦发生事故容易引发责任纠纷，因此强调车主才是行车安全的第一责任人。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "很多车主自己作的开车睡觉、玩游戏，双手离开方向盘、看电视的没出事算是运气好，出事了开始跟车企扯皮到底谁负责呢？"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车企表示是辅助驾驶，行车安全自己才是第一责任人"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "工信部智能网联汽车产品准入及软件在线升级管理新规",
+      "event_type": "政策法规与行业标准",
+      "event_time": "2025-04-16",
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "会议围绕《关于进一步加强智能网联汽车产品准入、召回和软件在线升级管理的通知》听取企业落实情况及建议"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "工信部出文件智驾新规落地"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "工信部装备工业一司召开会议，部署加强智能网联汽车产品准入、召回和软件在线升级管理，要求企业明确功能边界，严禁夸大宣传。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子讨论了工信部针对智能网联汽车出台的新规，批评了车企此前对“智驾”概念的过度宣传和文字游戏。作者认为新规有助于规范行业，消除虚假宣传，但也指出了车主滥用辅助驾驶功能带来的安全风险和责任界定问题。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "中"
+}

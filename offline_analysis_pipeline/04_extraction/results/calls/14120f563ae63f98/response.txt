@@ -1,0 +1,243 @@
+{
+  "schema_version": "2.3",
+  "post_id": "14120f563ae63f98",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7标准版的自动泊车功能故障并引发车辆损伤"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米手机",
+      "entity_level": "未明确",
+      "brand": "小米",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "我之前小米手机的一些小毛病来说"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "智能驾驶",
+      "content": "作者称小米SU7标准版发生自动泊车功能故障并引发车辆损伤，小米官方表示愿意承担全部维修费用。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7标准版的自动泊车功能故障并引发车辆损伤，小米官方迅速表示愿意承担全部维修费用"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "服务与交付",
+      "content": "作者认为小米官方迅速承担全责的做法很赞，体现了责任心，并指出这与以往小米产品售后积极跟进的风格一致。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这一点真的很赞"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "我回想起以往小米产品遇到问题时，其售后服务都能积极跟进处理，这次在汽车上也不例外。雷总有责任心！！"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者回忆自己之前使用小米手机遇到小毛病时，售后人员热心帮助解决，提供了快速维修或合理换机方案，因此对售后评价很高。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "我之前小米手机的一些小毛病来说，售后人员很热心的帮忙解决，要么快速维修，要么给出合理的换机方案。售后没的说！！牛"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者认为相比其他车企可能在类似问题上推诿或流程繁琐，小米干脆承担全责显得更有担当，并提到有人评价小米善于笼络人心。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "相比其他车企，在面对类似问题时，有些车企可能会推诿责任或者处理流程繁琐漫长。小米这样干脆地承担全责，确实显得很有担当，也难怪会有人说小米很会笼络人心！"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者表示对小米的信心并未因此次泊车故障动摇，相信小米会研究原因并优化功能，且会继续支持小米产品。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "我对小米的信心并没有因为这次泊车故障而动摇。我相信他们会深入研究故障原因，优化自动泊车功能，防止类似情况再次发生。"
+        },
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "我也会一如既往地支持小米的产品"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7标准版自动泊车故障及官方担责",
+      "event_type": "质量与召回",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7标准版的自动泊车功能故障并引发车辆损伤，小米官方迅速表示愿意承担全部维修费用"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "summary": "小米SU7标准版发生自动泊车功能故障导致车辆损伤，小米官方表示愿意承担全部维修费用。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我也是个忠实的米粉，家里几乎被小米的产品包围了"
+      }
+    ],
+    "confidence": 0.3
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者作为忠实米粉，针对小米SU7标准版自动泊车故障事件中官方承担全责一事表达了正面评价。作者结合过往小米手机的良好售后经历，认为小米在服务上很有担当，并表示对该品牌的信心未受影响，将继续支持。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

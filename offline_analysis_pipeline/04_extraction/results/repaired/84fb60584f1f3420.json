@@ -1,0 +1,212 @@
+{
+  "schema_version": "2.3",
+  "post_id": "84fb60584f1f3420",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新一代SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这个方案就是新一代SU7 “轻松还”金融方案。"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "前景展示了一辆白色的新一代SU7轿车。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "新一代SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在雷军随后的海报中，其以新一代SU7标准版为例，列举了每月需要负担月供。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "标准版价格21.99万元"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "文章指出雷军推出了针对新一代SU7的“轻松还”金融方案，宣称首付4.99万起，月供低至538元，每满一年还部分本金，5年还清。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军是这样说的：首付4.99万起，月供低至538元，每满一年还部分本金，5年还清。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者认为该金融方案虽然表面月供低，但每年第12期需偿还超过34000元的大额资金，且小米未公布真实利率，因此认为该方案并不轻松，是一种避重就轻的取巧式表述。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "538元每月是没错，但每年的第12期，都有一笔大额的资金需要偿还，该金额超过34000元。"
+        },
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米没有公布该金融方案的真实利率...但小编认为，小米这个“轻松还”的金融方案一点也不轻松。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "作者认为车企通过配套金融方案提前收割潜在购买群体，类似于房地产按揭，可能导致过度收割从而损害行业根基，并呼吁监管防范。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "车企通过配套的金融方案，也意图在提前收割潜在的购买群体。...过度收割可能会导致连根拔起的局面，监管不可不防。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者批评车企应将精力放在汽车品控而非研究年轻人收入结构，认为人为降低购买门槛会将不理智的年轻人拉下海。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "作为车企，应该将更多的精力放在汽车品控上，而不是把精力放在研究年轻人收入结构和钱袋上；更不能为了促进销售，人为地降低购买门槛，妄图将更多的不理智的年轻人拉下海。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米发布新一代SU7“轻松还”金融方案",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "7月伊始，雷总就高调宣布了一个为粉丝量身定做的方案。 这个方案就是新一代SU7 “轻松还”金融方案。"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "副标题宣传全新上线的「轻松还」金融方案。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米汽车宣布推出新一代SU7的“轻松还”金融方案，主打低首付和低月供，旨在吸引年轻消费群体。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "文章分析了小米为新一代SU7推出的“轻松还”金融方案，指出其虽宣传低月供但存在高额年度还款和未公开真实利率的问题。作者批评该方案是车企利用金融手段提前收割消费者的行为，认为车企应更注重产品品质而非营销套路。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

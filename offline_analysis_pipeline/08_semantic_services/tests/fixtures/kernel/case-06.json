@@ -1,0 +1,83 @@
+{
+  "id": "case-06",
+  "source": "synthetic",
+  "note": "两个方法步骤",
+  "input": {
+    "question": "可靠性和空间哪个负面更多？",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "method",
+      "aspect": "可靠性",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "可靠性",
+            "negative_share": 0.42,
+            "negative": 21,
+            "total_claims": 84
+          }
+        ]
+      }
+    },
+    {
+      "kind": "method",
+      "aspect": "空间与舒适性",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "空间与舒适性",
+            "negative_share": 0.31,
+            "negative": 13,
+            "total_claims": 52
+          }
+        ]
+      }
+    }
+  ],
+  "final_text": "可靠性负面占比 42%，高于空间的 31%。",
+  "expected": {
+    "answer": "可靠性负面占比 42%，高于空间的 31%。",
+    "stats": [
+      {
+        "aspect": "可靠性",
+        "negative_share": 0.42,
+        "negative": 21,
+        "total_claims": 84,
+        "negativeShare": 0.42,
+        "negative_claims": 21
+      },
+      {
+        "aspect": "空间与舒适性",
+        "negative_share": 0.31,
+        "negative": 13,
+        "total_claims": 52,
+        "negativeShare": 0.31,
+        "negative_claims": 13
+      }
+    ],
+    "evidence": [],
+    "applied_filters": {
+      "aspects": [
+        "可靠性",
+        "空间与舒适性"
+      ]
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 2
+  }
+}

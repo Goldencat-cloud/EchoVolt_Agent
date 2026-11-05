@@ -1,0 +1,251 @@
+{
+  "schema_version": "2.3",
+  "post_id": "191d79453c97a7af",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "原本工作人员给我安排了6点闭展后试驾su7的"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米YU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "YU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "YU7的队伍更是长到离谱"
+        },
+        {
+          "block_id": "I2",
+          "source_type": "image_summary",
+          "quote": "左下角是一辆绿色的小米YU7 SUV实车展示"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者在车展期间体验了小米展台的服务，认为服务非常好，包括提供矿泉水、一对一服务、休息室饮料以及提出送车上门试驾的方案。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "服务没的说，每个进去的客人都发一瓶矿泉水，工作人员全程一对一服务，到休息室还有饮料提供...说可以送车上门试驾。真的太到位了"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在粤港澳大湾区车展的小米展台体验服务。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "粤港澳大湾区车展 奔着小米买了张票去看展"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者表示小米的服务让他产生了订车的想法，但最终因经济原因（“钱包拦住了我”）没有下单。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "搞得我都想订车了，好在钱包拦住了我"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者乘坐多款电动汽车后，对其人性化功能、便利功能和舒适感受印象深刻。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一坐进电车给我的感觉就是各种人性化功能，便利功能，舒适感受"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在车展现场乘坐多台电动汽车。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "后面也坐了几台百万性能猛兽"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者观察到小米展区人气极高，特别是YU7车型的排队人数非常多，形容其为“顶流”。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米真无愧顶流，展区都是人从众…… YU7的队伍更是长到离谱，里三圈外三圈"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在粤港澳大湾区车展现场观察小米展台人流。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "今天过来深圳国际会展中心看车展"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者希望小米品牌能够参加香港的车展。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "香港车展希望小米能参加!!!"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "希望小米也能参加香港的车博会!"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "搞得我都想订车了，好在钱包拦住了我"
+      }
+    ],
+    "confidence": 0.9
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视售后服务体验",
+      "关注车辆人性化与便利性功能"
+    ]
+  },
+  "post_summary": "作者分享了在粤港澳大湾区车展参观小米展台的经历，高度赞扬了小米的现场服务和送车上门试驾方案，虽因预算限制未订车，但对小米的人气和服务印象深刻，并表达了希望小米参加香港车展的愿望。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

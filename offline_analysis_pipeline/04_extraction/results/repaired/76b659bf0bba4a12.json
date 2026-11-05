@@ -1,0 +1,238 @@
+{
+  "schema_version": "2.3",
+  "post_id": "76b659bf0bba4a12",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7订单买智界S7 华为门店减5千元"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "智界S7",
+      "entity_level": "车系",
+      "brand": "智界",
+      "series": "S7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7订单买智界S7 华为门店减5千元"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "媒体称智界针对持有小米SU7订单的用户推出5000元现金补贴政策，旨在吸引潜在买家。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "日前，有媒体报道称，为了“截胡”小米的订单，智界拿出5000元现金补贴给下了小米SU7订单的车主。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "华为工作人员证实，全国鸿蒙智行签约门店可为持有小米SU7锁单页面的客户提供5000元购车抵扣，该政策持续至5月底。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "华为工作人员表示：“ 确实有这样的政策。全国的鸿蒙智行签约门店，都能为客户申请 ”"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7上市以来，华为各大门店就推出了这项临时政策，将持续到5月底。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "工作人员透露，已有小米SU7车主因等待提车时间长而转投智界S7，利用该政策减免了5000元尾款。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "我们门店就有一位小米SU7车主不愿意再等下去。他上周来支付了智界S7的尾款，直接减免了5000元"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章指出小米SU7与智界S7在定位、尺寸、配置及续航等方面高度重合，且两者价格区间存在重叠。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米SU7与智界S7在多方面高度重合...智界S7定价24.98-34.98万元，小米SU7定价21.59-29.9万元，部分车型的价格区间重叠"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "价格与成本",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "智界S7定价24.98-34.98万元，小米SU7定价21.59-29.9万元，部分车型的价格区间重叠"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "智界S7推出针对小米SU7订单用户的5000元补贴政策",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "智界拿出5000元现金补贴给下了小米SU7订单的车主"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "确实有这样的政策。全国的鸿蒙智行签约门店，都能为客户申请"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "智界S7在全国鸿蒙智行签约门店推出临时政策，为持有小米SU7锁单页面的用户提供5000元购车抵扣，该政策自小米SU7上市后开始实施，预计持续到5月底。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了智界S7针对小米SU7订单用户推出的5000元现金补贴政策。文中引用了媒体消息及华为门店工作人员的证实，说明了政策的适用范围、持续时间及具体操作方式，并分析了小米SU7与智界S7在产品定位、价格及配置上的竞争关系。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

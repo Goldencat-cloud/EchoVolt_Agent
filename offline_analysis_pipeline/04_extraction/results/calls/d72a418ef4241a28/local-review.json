@@ -1,0 +1,177 @@
+{
+  "post_id": "d72a418ef4241a28",
+  "state": "FAILED",
+  "cache_key": "734d6b7c07bb91ed3c46a5c088b6e8e17d6c333709ba9756e982de63ef58cc16",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "d72a418ef4241a28",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "最近网络上有一起小米SUV7侧翻起火的事故广泛传播"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "安全与质量",
+        "content": "作者转述网络上传播的小米SU7侧翻起火事故，称路人伸出援手抢救车内人员。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "最近网络上有一起小米SUV7侧翻起火的事故广泛传播，还好路人伸出的援助之手，全力抢救车内人员。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "转述信息",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者认为即使车辆性能好，也必须谨慎驾驶，因为“10次事故9次快”。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "10次事故9次快，车辆性能再好，也要谨慎驾驶。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "技术与产品机制",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者建议在车内常备破窗锤以便紧急逃生，并使用车载灭火器在车辆刚起火时进行扑救。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "然后在车内顺手的地方常备一把破窗锤，发生事故应急的时候可以破窗逃生。最后就是车载灭火器不能忘记用，车辆刚起火的时候可以用灭火器及时扑救。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7侧翻起火事故",
+        "event_type": "交通事故与公共安全",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "最近网络上有一起小米SUV7侧翻起火的事故广泛传播"
+          },
+          {
+            "block_id": "I0",
+            "source_type": "image_summary",
+            "quote": "图片展示了一起严重的交通事故现场...小米SU7发生车祸...整车侧翻伴有明火"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "一起小米SU7侧翻起火的事故在网络上传播，图片说明描述了事故现场及路人救援情况。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子针对网络上流传的小米SU7侧翻起火事故，强调了安全驾驶的重要性，并提供了关于事故自救的建议，如保持冷静、使用破窗锤和车载灭火器。",
+    "post_topic": "外部事件与品牌舆论",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "claims/C3/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C2/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10257,
+    "completion_tokens": 1367,
+    "total_tokens": 11624,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 6.520239399993443,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

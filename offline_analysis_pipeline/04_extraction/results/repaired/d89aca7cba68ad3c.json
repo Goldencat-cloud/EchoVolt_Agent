@@ -1,0 +1,169 @@
+{
+  "schema_version": "2.3",
+  "post_id": "d89aca7cba68ad3c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Ultra",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Ultra",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "涉事车辆为一辆小米SU7 Ultra"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "2026年6月7日，一辆小米SU7 Ultra在江西南昌英雄大桥发生起火，火情由消防部门控制，未造成人员伤亡。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "2026年6月7日，一辆小米SU7 Ultra在江西省南昌市英雄大桥发生起火，火情随后由消防部门及时控制。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "小米官方通报称，经现场调查及后台数据分析，事发前车辆动力电池全程处于正常工作状态，未出现热失控信号，初步排除电池自燃引发火灾的可能。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "现场调查及后台实时数据显示，事发前车辆的动力电池全程处于正常工作状态。 无热失控信号： 后台未监测到任何热失控信号，由此 初步排除了动力电池自燃引发火情的可能 。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "小米江西车友俱乐部负责人透露，车友群内部曾推测火灾并非由电池自燃引起，而是怀疑车主后期改装音响导致线路短路起火。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "小米江西车友俱乐部相关负责人在接受采访时曾透露，车友群内部根据现场火势特征，曾推测火灾并非由电池自燃引起，而是怀疑该车车主后期改装了音响，因线路问题导致了短路起火。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "政策与市场",
+      "content": "作者指出，根据《中华人民共和国消防法》，车辆火灾事故的起火原因和责任认定法定权力归属于消防救援机构，车企作为事故当事方，其单方通过后台数据得出的结论不具备最终法律效力，因此使用“初步排除”的表述是严谨的。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "根据《中华人民共和国消防法》第五十一条规定，公共场所及车辆火灾事故的起火原因、责任认定， 其法定权力100%归属于消防救援机构 。 车企属于事故当事方： 无论是小米还是其他汽车品牌，在火灾调查中均属于事故当事方或技术协助方，其单方面通过后台数据得出的结论不具备最终的法律效力。因此，小米在通报中准确使用了“初步排除”及“具体原因待消防部门勘察鉴定后确认”的严谨表述。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "南昌小米SU7 Ultra起火事件及官方通报",
+      "event_type": "质量与召回",
+      "event_time": "2026-06-07",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "2026年6月7日，一辆小米SU7 Ultra在江西省南昌市英雄大桥发生起火"
+        }
+      ],
+      "confidence": 0.98,
+      "summary": "2026年6月7日，一辆小米SU7 Ultra在江西南昌英雄大桥起火，未造成人员伤亡。小米官方于6月8日发布通报，称后台数据显示电池无热失控信号，初步排除电池自燃，最终原因待消防部门鉴定。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子报道了2026年6月7日发生在江西南昌的一起小米SU7 Ultra起火事件。文章引述了小米官方通报，称后台数据初步排除电池自燃，并介绍了车友圈关于改装导致短路的猜测。最后，作者从法律角度分析了车企为何只能给出“初步排除”而非最终定论的原因。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

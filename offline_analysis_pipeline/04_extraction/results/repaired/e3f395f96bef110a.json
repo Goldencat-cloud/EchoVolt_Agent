@@ -1,0 +1,193 @@
+{
+  "schema_version": "2.3",
+  "post_id": "e3f395f96bef110a",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新一代小米su7 标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我买的是新一代小米su7 标准版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "小米su7 max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": "max",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "或者加点钱上max"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买了新一代小米su7标准版，并表示如果再选一次也会选择该配置或不后悔购买。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我买的是新一代小米su7 标准版。再选一次，我也还会选这个配置...总之不后悔买小米su7"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为新一代小米su7最值得买的配置是科技舒享套装，理由是6500元的价格包含了56寸HUD、电吸门、电动方向盘等高价值功能。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新一代小米su7最值得买的配置应该是科技舒享套装吧，6500元就能选到56寸hud、电吸门、电动方向盘..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者指出HUD存在遮挡视野的问题，不太习惯使用。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "虽然hud用不习惯挡视野"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为电吸门和电动方向盘非常实用，因为每天都会用到。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特别是电吸门和电动方向盘，每天上下车都在用"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在日常上下车过程中使用。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "每天上下车都在用"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我买的是新一代小米su7 标准版"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "每天上下车都在用"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视电吸门和电动方向盘等便利配置"
+    ]
+  },
+  "post_summary": "车主分享了对新一代小米SU7标准版的购买心得，推荐科技舒享套装，认为其性价比极高，尤其是电吸门和电动方向盘非常实用，尽管HUD存在遮挡视野的小缺点，但整体不后悔购买。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

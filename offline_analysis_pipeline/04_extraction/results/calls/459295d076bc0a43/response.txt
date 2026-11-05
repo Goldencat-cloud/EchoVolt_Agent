@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.3",
+  "post_id": "459295d076bc0a43",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2024款 后驱超长续航高阶智驾Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2024",
+      "version": "后驱超长续航高阶智驾Pro",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7 2024款 后驱超长续航高阶智驾Pro"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米汽车 小米SU7 2024款 后驱超长续航高阶智驾Pro版"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "ARCFOX S5T",
+      "entity_level": "具体配置",
+      "brand": "ARCFOX",
+      "series": "S5T",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "后备箱盖左下角贴有“ARCFOX”品牌Logo，右下角标有“S5T”字样，表明其车型身份。"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "帖子描述了一辆小米SU7 2024款后驱超长续航高阶智驾Pro版的车辆状况，包括VIN码、表显里程0.90万公里、2025-03首次上牌、830km续航里程，以及铁件原版原漆但更换了前杠杠皮和后盖中间尾灯。",
+      "sentiment": "中性",
+      "journey_stage": "无法判断",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "VIN码: HXMM3R019SA072062 0.90万公里表显里程 2025-03首次上牌 830km续航里程 铁件原版原漆，更换:前杠杠皮、后盖中间尾灯"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "图片说明描述了车辆中控屏显示的能耗统计数据，生涯总计累计行驶里程9,291 km，总耗电1,614 kWh，平均行驶能耗15.7 kWh/100km。",
+      "sentiment": "中性",
+      "journey_stage": "无法判断",
+      "evidence": [
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "生涯总计：累计行驶里程9,291 km，总耗电1,614 kWh，总速耗电147 kWh，平均行驶能耗15.7 kWh/100km。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子展示了一辆小米SU7 2024款后驱超长续航高阶智驾Pro版的详细信息，包括车辆外观、内饰、能耗数据及车况描述（如里程、上牌时间及部分部件更换情况）。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

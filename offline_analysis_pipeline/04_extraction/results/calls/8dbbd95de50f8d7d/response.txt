@@ -1,0 +1,252 @@
+{
+  "schema_version": "2.3",
+  "post_id": "8dbbd95de50f8d7d",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "粉丝乘小米SU7命陨高速"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7标准版搭载的纯视觉感知方案"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "文章称2025年3月29日深夜，一辆激活NOA智能辅助驾驶的小米SU7在安徽德上高速池祁段施工路段以116km/h时速撞击隔离带水泥桩，碰撞后30秒内电池爆燃，导致车内三人死亡。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025年3月29日深夜，安徽德上高速池祁段的施工路段，一辆激活NOA智能辅助驾驶系统的小米SU7以116km/h的时速冲向隔离带水泥桩。碰撞后30秒内，电池爆燃吞噬了车内三名年轻生命。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "智能驾驶",
+      "content": "文章指出事故暴露出智能驾驶技术在复杂路况下的核心矛盾，包括系统预警与干预是否及时有效、纯视觉方案对低反射率物体识别距离是否达标，以及人机交互设计中是否存在“接管无效”的时间差。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这场事故暴露出智能驾驶技术的核心矛盾：在复杂路况下，系统的预警与干预是否足够及时有效？...SU7标准版搭载的纯视觉感知方案在夜间强光干扰下，对低反射率物体的识别距离是否达标？人机交互设计是否存在\"接管无效\"的时间差？"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "安全与质量",
+      "content": "文章批评小米SU7在碰撞后迅速爆燃，与其宣传的“电芯倒置”技术形成反差，并质疑SU7标准版未配备该技术是否意味着车企在不同配置车型中降低了安全标准以控制成本。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "值得关注的是，SU7标准版未配备电芯倒置技术，而这一设计被小米宣传为\"极端情况下最大程度保证乘员舱安全\"的核心技术。这一配置差异引发争议：车企是否在不同配置车型中降低安全标准以控制成本？"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "明确影响判断",
+      "aspect": "安全与质量",
+      "content": "文章指出事故车辆碰撞后车门未能及时解锁，隐藏式门把手依赖电控系统且小电瓶位于易损区域，导致断电后车门锁死，这与官方声明中“机械应急拉手可断电开启”的说法存在矛盾，暴露出车企在安全文化建设和使用安全培训上的缺失。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "调查发现，SU7的隐藏式门把手依赖电控系统，而小电瓶设计在右前方碰撞易损区域。...这种\"设计安全\"与\"使用安全\"的割裂，暴露出车企在安全文化建设上的重大缺失。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "文章认为新能源汽车安全标准体系严重滞后于技术发展，现行国标对智能驾驶测试时速上限仅为60km/h，且电池安全标准仅要求单体针刺不起火，缺乏对整包碰撞后热失控防护的强制要求，导致车企在追求续航与成本时忽视安全底线。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "行业专家指出，新能源汽车安全标准体系已严重滞后于技术发展。...以电池安全为例，国标仅要求单体电池针刺不起火，对整包碰撞后的热失控防护并无强制要求。这种\"头痛医头\"的监管模式，使得车企在追求续航与成本的竞赛中，不自觉地将安全底线一再推后。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "文章批评小米在事故后的回应被舆论视为“冷冰冰的技术甩锅”，因其声明未提及AEB系统是否触发、电池热失控具体原因及车门解锁机制失效细节，且认为车企对智能驾驶的宣传存在“过度承诺”和“诱导性营销”，加剧了消费者的认知偏差。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但这种回应被舆论批评为\"冷冰冰的技术甩锅\"。...消费者对\"智驾安全\"的认知偏差，是否源于车企的\"诱导性营销\"？"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "安徽德上高速小米SU7致死事故",
+      "event_type": "交通事故与公共安全",
+      "event_time": "2025-03-29",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025年3月29日深夜，安徽德上高速池祁段的施工路段，一辆激活NOA智能辅助驾驶系统的小米SU7以116km/h的时速冲向隔离带水泥桩。碰撞后30秒内，电池爆燃吞噬了车内三名年轻生命。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "2025年3月29日深夜，一辆激活NOA的小米SU7在安徽德上高速池祁段施工路段以116km/h撞击隔离桩，随后电池爆燃致车内三人死亡。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "文章详细复盘了2025年3月29日安徽高速一起小米SU7致死事故，深入剖析了智能驾驶“信任陷阱”、电池热失控风险、车门锁死设计及监管标准滞后等问题。作者批评车企在安全宣传上存在过度承诺，呼吁建立车企、道路与监管三位一体的安全防控体系。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

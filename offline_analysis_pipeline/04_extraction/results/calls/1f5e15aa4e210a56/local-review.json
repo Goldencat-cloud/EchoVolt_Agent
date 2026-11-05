@@ -1,0 +1,636 @@
+{
+  "post_id": "1f5e15aa4e210a56",
+  "state": "CONTRACT_PASS",
+  "cache_key": "fdcff24763f5a383a6c2f173e7bb08a0b81e0bca561acba9af265fbed1dc60c5",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "1f5e15aa4e210a56",
+    "products": [
+      {
+        "id": "P1",
+        "name": "MG 07",
+        "entity_level": "具体配置",
+        "brand": "MG",
+        "series": "07",
+        "model_year": null,
+        "version": "610km旗舰版",
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "【深度体验】等了2小时才试驾上MG 07，这台车到底值不值得冲？"
+          },
+          {
+            "block_id": "T28",
+            "source_type": "text",
+            "quote": "试驾车型和展车停放的是一个版本，都是续航610km旗舰版"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "轮毂撞车小米SU7轮毂"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "日产N7",
+        "entity_level": "车系",
+        "brand": "日产",
+        "series": "N7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "隔壁日产N7"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "尚界Z7",
+        "entity_level": "车系",
+        "brand": "尚界",
+        "series": "Z7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "尚界Z7车窗都是双层玻璃"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P5",
+        "name": "保时捷帕拉梅拉",
+        "entity_level": "车系",
+        "brand": "保时捷",
+        "series": "帕拉梅拉",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "车侧像保时捷的帕拉梅拉"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为MG 07外观颜值高，溜背轿跑设计符合年轻审美，但也指出其设计存在模仿嫌疑，如车侧像保时捷帕拉梅拉，轮毂类似小米SU7。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "说好听点，这车颜值在线、好看...说难听点，看了外观，总感觉有点模仿、抄袭的意思，车侧像保时捷的帕拉梅拉...轮毂撞车小米SU7轮毂"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者称赞MG 07拥有大容量电动前备箱（168L）和后备箱下沉储物空间，认为储物空间表现出色。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "有电动前备箱，面积挺大...另一个后备型还有很深下沉储物空间"
+          },
+          {
+            "block_id": "T13",
+            "source_type": "text",
+            "quote": "这是那个下沉储物空间，目测老大了...储物空间这块，MG玩的确实溜"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为MG 07配备的30L双温区大冰箱（可冷藏冷冻）是亮点，实用性高。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "免费赠送超大30L冰箱，不仅冷热可调，还可以冷冻"
+          },
+          {
+            "block_id": "T14",
+            "source_type": "text",
+            "quote": "必须夸下这车的大冰箱，温度还可以区分控制，太爽了，冷藏还能冷冻"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为MG 07副驾零重力座椅体验不错，适合午睡，且选装的多功能化妆台（小桌板+化妆镜）设计用心。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "副驾驶具备零重力的基础上...变更了小桌板和化妆镜，也是个新鲜选装配置，还不错"
+          },
+          {
+            "block_id": "T23",
+            "source_type": "text",
+            "quote": "副驾的零重力座椅，我感受下来还不错，适合在车上午睡"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为MG 07性价比高，14万上下价格提供600+续航、激光雷达等高阶配置，在同级别中极具吸引力。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "就是性价比高，续航600+价格14万上下，有激光雷达、零重力座椅、大冰箱等等，可以说综合实力是我认为这个级别里边，很有吸引力的一款车型"
+          },
+          {
+            "block_id": "T33",
+            "source_type": "text",
+            "quote": "14万上下的价格，续航 600+，激光雷达、零重力座椅、大冰箱、CDC电磁悬架，配置和性价比都可以"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者批评MG 07无边框车门使用单层玻璃，认为隔音效果不佳，不如竞品（日产N7、小米SU7、尚界Z7）的双层玻璃。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "无边框车门没得说，用单层玻璃不够意思，我没记错的话隔壁日产N7、小米SU7、尚界Z7车窗都是双层玻璃，高速和颠簸路段的隔音差距不用多说"
+          },
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "无边框车门，用的是单层玻璃，感觉差点意思"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P2",
+              "aspect": "空间与舒适性",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "隔壁日产N7、小米SU7、尚界Z7车窗都是双层玻璃，高速和颠簸路段的隔音差距不用多说"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P3",
+              "aspect": "空间与舒适性",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "隔壁日产N7、小米SU7、尚界Z7车窗都是双层玻璃，高速和颠簸路段的隔音差距不用多说"
+                }
+              ]
+            },
+            {
+              "subject_product_id": "P1",
+              "object_product_id": "P4",
+              "aspect": "空间与舒适性",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T3",
+                  "source_type": "text",
+                  "quote": "隔壁日产N7、小米SU7、尚界Z7车窗都是双层玻璃，高速和颠簸路段的隔音差距不用多说"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为MG 07的透光天幕调节速度慢，隔热效果存疑，认为是“智商税”，不如后期加装遮阳面板。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "会有部分人不喜欢透光天幕这个配置...给感觉就是智商税，夏天不热才怪...真不如后期加装遮阳面板效果好"
+          },
+          {
+            "block_id": "T25",
+            "source_type": "text",
+            "quote": "感光天幕，调节过程变得老慢了，又鸡肋又是智商税，真是一言难尽"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出MG 07后排中间没有预留升降头枕，认为这是不必要的配置阉割。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "后排中间没有预留升降头枕，我觉得不应该阉割"
+          },
+          {
+            "block_id": "T26",
+            "source_type": "text",
+            "quote": "就是后排中间没有调节头枕，多少差点意思...这些实用配置不该阉割"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者试驾后认为MG 07底盘悬架表现良好，过减速带韧性好，动力输出直接，市区加速轻松，整体驾驶感受舒适。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T29",
+            "source_type": "text",
+            "quote": "这车底盘悬架表现的还可以...路过减速带整车韧性还可以，基本挑不出啥毛病"
+          },
+          {
+            "block_id": "T31",
+            "source_type": "text",
+            "quote": "正常标准模式下，开着更舒服、轻松点...提速也很快，动力输出也很直接，市区加速超出完全没问题"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在经销商处进行约20分钟的试驾，体验了标准模式和运动模式下的驾驶感受。",
+          "evidence": [
+            {
+              "block_id": "T28",
+              "source_type": "text",
+              "quote": "试驾时常有20分钟左右"
+            },
+            {
+              "block_id": "T31",
+              "source_type": "text",
+              "quote": "正常标准模式下...切换运动模式"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者体验了MG 07搭载的Momenta R7辅助驾驶系统，认为其表现规矩、听话，能有效减轻市区和高速驾驶的疲劳，并体验了自动泊车功能。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T30",
+            "source_type": "text",
+            "quote": "红绿灯自动停车，自动打灯变道...感受跟老司机没啥区别...自动泊车功能...确实丝滑"
+          },
+          {
+            "block_id": "T32",
+            "source_type": "text",
+            "quote": "给我感受属于听话、开着很规矩的感觉，整体市区和高速缓解下疲劳没有问题"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在试驾过程中体验了辅助驾驶和自动泊车功能。",
+          "evidence": [
+            {
+              "block_id": "T30",
+              "source_type": "text",
+              "quote": "从上车开始销售打开了辅助驾驶...体验了自动泊车功能"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者认为MG 07配备的AI预瞄CDC智能电磁悬架在该价位段较为罕见，能通过激光雷达预判路况并调整悬架软硬，提升舒适性。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T32",
+            "source_type": "text",
+            "quote": "这车有AI预瞄的CDC智能电磁悬架，这个价位能有这个配置不多见...悬架就会自行调软一点，这点对车内乘客会有感受"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C12",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者总结MG 07配置丰富且性价比高，推荐想要高颜值、高配置纯电轿跑的用户去店里体验，并对即将上市的800+续航版本表示期待。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T33",
+            "source_type": "text",
+            "quote": "MG 07值得去店里看看...另外续航800+版本，交付要等10月份了， 期待21号成都上市"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "MG 07成都上市发布会",
+        "event_type": "产品发布与上市",
+        "event_time": null,
+        "event_status": "计划或预告",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T33",
+            "source_type": "text",
+            "quote": "期待21号成都上市"
+          }
+        ],
+        "confidence": 0.9,
+        "summary": "作者提到MG 07将于21日在成都正式上市，并期待价格有惊喜。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "明确未拥有",
+      "current_journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上周末，去看了上汽名爵新出的MG 07，这款车静态+动态体验完后"
+        },
+        {
+          "block_id": "T28",
+          "source_type": "text",
+          "quote": "我是等了快2个小时才轮到我"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "重视车辆颜值",
+        "重视储物空间",
+        "重视高性价比配置"
+      ]
+    },
+    "post_summary": "作者分享了MG 07的深度试驾体验，认为该车颜值高、储物空间大、配置丰富（如大冰箱、CDC悬架）且性价比高，但也指出了单层玻璃隔音差、天幕鸡肋等缺点。作者推荐潜在买家到店体验，并期待其正式上市。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "C11/comparison/0/evidence/0:non_contiguous_quote",
+    "C11/comparison/1/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 19658,
+    "completion_tokens": 5607,
+    "total_tokens": 25265,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 17664
+    }
+  },
+  "elapsed_s": 23.76146069999959,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

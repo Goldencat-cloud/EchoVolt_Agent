@@ -1,0 +1,164 @@
+{
+  "schema_version": "2.3",
+  "post_id": "fd7dd3c57160bed4",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "由小米SU7侧翻施救想到的车辆侧翻如何自救"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7一次上热搜，上一次是SU7坠崖。"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "安全与质量",
+      "content": "作者认为小米SU7在近期发生的侧翻和坠崖事故中展现了较高的安全性能，指出车辆防撞表现超强且暂无电池起火报告。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这两次不幸的万幸是驾乘人员没有人亡，而车辆都呈现了超强的防撞安全表现，并且目前还没有接到电池起火的报告，说明了小米SU7的安全性能非常高。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者提供了车辆侧翻后的自救指南，包括保持冷静、检查伤情、拨打救援、发出求救信号、迅速撤离至安全地点以及避免在起火时抢救财物。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "如果遇到驾车侧翻，如果人员没有昏迷，第一要先冷静...二是快速确认受伤的位置...三是如果能拨打救援电话要马上拨打救援电话...四是现场呼救...如果能自己逃到车外，要迅速撤离。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "作者给出了针对施救人员的建议，包括观察火情、小心破窗以减少二次伤害、优先解除安全带、保持冷静以避免危及自身安全以及在起火时使用灭火器等工具。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "对于施救人员，要第一时间观察是否有车辆起火的情况。采取破窗...但是要减少玻璃飞溅对车内受伤者的二次伤害。如果施救者手中有利器，必须第一时间割断安全带或者解除安全带。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7侧翻事故",
+      "event_type": "交通事故与公共安全",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "这次是事故是相撞引起车辆侧翻，并不是爆胎或操作不小心引起的。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "图片展示了一起严重的交通事故现场。画面中心是一辆深色（黑色或深灰色）轿车，其前部遭受毁灭性撞击..."
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "一起由碰撞引起的小米SU7侧翻事故，事故现场车辆受损严重，周围群众协助救出伤者。"
+    },
+    {
+      "id": "E2",
+      "name": "小米SU7坠崖事故",
+      "event_type": "交通事故与公共安全",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "上一次是SU7坠崖。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "此前发生的一起小米SU7坠崖事故，文中提及该事故中驾乘人员无人死亡。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子由小米SU7侧翻事故引发，作者首先肯定了车辆在事故中的安全表现，随后详细分享了车辆侧翻后的自救方法及施救人员应注意的事项，旨在普及安全知识。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

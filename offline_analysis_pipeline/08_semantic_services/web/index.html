@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#081226"><title>AutoInsight · 新能源洞察工作台</title>
+  <link rel="icon" type="image/png" href="/static/logo-mark.png">
+  <link rel="stylesheet" href="/static/tokens.css?v=20261028-2">
+  <link rel="stylesheet" href="/static/styles.css?v=20261028-3">
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <div class="shell">
+    <aside id="sidebar" class="sidebar" aria-label="工作台导航">
+      <div class="sidebar-inner">
+        <div class="sidebar-head">
+          <a class="brand" href="#/chat" aria-label="AutoInsight 首页"><img class="brand-mark" src="/static/logo-mark.png" alt="" width="34" height="34"><span><strong>AutoInsight</strong><small>新能源洞察工作台</small></span></a>
+          <button type="button" id="sidebar-collapse" class="btn-icon sidebar-collapse" aria-label="收起侧栏" aria-controls="sidebar" aria-expanded="true" title="收起侧栏"><span aria-hidden="true">«</span></button>
+        </div>
+        <button type="button" id="new-chat" class="btn-new">＋ 新建对话</button>
+        <nav class="sidebar-nav" aria-label="报告与对话">
+          <button type="button" class="nav-item" data-nav="official"><span class="nav-ico" aria-hidden="true">▤</span>官方报告</button>
+          <button type="button" class="nav-item" data-nav="library"><span class="nav-ico" aria-hidden="true">▦</span>我的报告<span id="library-badge" class="nav-badge" hidden></span></button>
+          <hr class="nav-divider">
+          <h2 class="nav-title">对话历史</h2>
+          <ul id="session-list" class="nav-sublist"></ul>
+        </nav>
+        <div class="sidebar-foot"><span class="version"><i aria-hidden="true"></i><span>演示数据 · <span class="gold">临时样本</span></span></span></div>
+      </div>
+    </aside>
+    <div id="sidebar-mask" class="sidebar-mask" hidden></div>
+    <div class="main-col">
+      <button type="button" id="sidebar-expand" class="btn-icon sidebar-expand" aria-label="展开侧栏" aria-controls="sidebar" aria-expanded="false" title="展开侧栏"><span aria-hidden="true">»</span></button>
+      <header class="topbar">
+        <button type="button" id="menu-btn" class="btn-icon" aria-expanded="false" aria-controls="sidebar" aria-label="打开导航菜单"><span aria-hidden="true">☰</span></button>
+        <span id="view-title" class="view-title">对话分析</span>
+        <span class="spacer"></span>
+        <span id="doc-status" class="doc-status" role="status"></span>
+      </header>
+      <main id="main" class="workspace" data-active-pane="chat" tabindex="-1">
+        <section id="chat-pane" class="view-pane" aria-label="提问与分析">
+          <h1 class="sr-only">提问与分析</h1>
+          <button type="button" id="chat-menu" class="btn-icon chat-menu-float" aria-controls="sidebar" aria-expanded="false" aria-label="打开导航菜单"><span aria-hidden="true">☰</span></button>
+          <div id="chat-log"></div>
+          <!-- 读屏专用播报区：只播报状态摘要，避免整个对话流被当作 live region 反复重读（5.1） -->
+          <div id="live-status" class="sr-only" role="status" aria-live="polite"></div>
+          <form id="chat-form" data-ask data-target="#chat-log">
+
+            <label class="sr-only" for="question">你的问题</label>
+            <div class="composer">
+              <div class="composer-box">
+                <div id="composer-suggest" class="composer-suggest" role="listbox" aria-label="报告候选" hidden></div>
+                <div id="composer-quote" class="composer-quote" hidden></div>
+                <input id="question" name="question" maxlength="500" placeholder="向 AutoInsight 提出研究问题…（输入 @ 引用报告提问）" autocomplete="off" required
+                       role="combobox" aria-expanded="false" aria-controls="composer-suggest" aria-autocomplete="list">
+                <div class="composer-row">
+                  <button type="button" class="chip" data-deep-toggle><span class="chip-ico" aria-hidden="true">◈</span>深度分析</button>
+                  <span class="composer-spacer"></span>
+                  <button class="btn-send" type="submit" aria-label="发送问题"><span aria-hidden="true">↑</span></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
+        <div id="result-divider" class="result-divider" role="separator" aria-orientation="vertical" aria-label="调整报告分栏宽度" tabindex="0" hidden></div>
+        <section id="official-pane" class="view-pane" aria-label="官方报告">
+          <div id="official-view" class="cards-view"></div>
+        </section>
+        <section id="library-pane" class="view-pane" aria-label="我的报告">
+          <div id="library-view" class="cards-view"></div>
+        </section>
+        <section id="result-pane" class="view-pane" aria-label="分析报告结果">
+          <button type="button" id="result-close" class="btn-icon result-close" data-close-result aria-label="关闭结果视图"><span aria-hidden="true">✕</span></button>
+          <div id="result-view" class="result-view"></div>
+        </section>
+        <section id="doc-pane" class="view-pane" aria-label="官方报告阅读">
+          <iframe id="report-frame" src="/report/full" title="已发布研究报告"></iframe>
+          <button type="button" id="ask-researcher" class="btn-ghost ask-researcher"><span aria-hidden="true">✦</span> 问研究员</button>
+        </section>
+      </main>
+    </div>
+  </div>
+  <div id="quotes-panel" class="overlay" hidden>
+    <div class="overlay-card" role="dialog" aria-modal="true" aria-label="划词笔记">
+      <header class="overlay-head">
+        <h2>划词笔记</h2>
+        <span class="result-meta">在报告中划选文字记录的问题</span>
+        <button type="button" id="quotes-close" class="btn-icon" aria-label="关闭划词笔记"><span aria-hidden="true">✕</span></button>
+      </header>
+      <div id="quotes-list" class="quotes-list"></div>
+    </div>
+  </div>
+  <script src="/static/app.js?v=20261028-4" defer></script>
+</body></html>

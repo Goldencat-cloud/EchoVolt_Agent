@@ -1,0 +1,17 @@
+{
+  "name": "autoinsight-frontend",
+  "private": true,
+  "description": "AutoInsight 前端工具链（无构建依赖；app.js 为直接被服务端托管的传统脚本）",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write \"*.css\" \"*.js\" \"tests/*.mjs\" --ignore-path .gitignore",
+    "format:check": "prettier --check \"*.css\" \"*.js\" \"tests/*.mjs\" --ignore-path .gitignore",
+    "test:e2e": "node tests/frontend-smoke.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0",
+    "playwright": "^1.45.0"
+  }
+}

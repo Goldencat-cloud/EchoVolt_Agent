@@ -1,0 +1,380 @@
+{
+  "schema_version": "2.3",
+  "post_id": "6c68d193c53a1c40",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "去试驾了小米SU7两次，说说感受吧"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "坐垫感觉比特斯拉的还要短半截"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "极氪007",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "007",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一个极氪007"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "极氪001",
+      "entity_level": "车系",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新出的001 800V"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "智己L6",
+      "entity_level": "车系",
+      "brand": "智己",
+      "series": "L6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "还一个是还没发布的智己L6"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者身高185cm，试驾小米SU7时发现后排头部空间紧张（距天窗一指多），前后排坐垫较短导致大腿悬空，乘坐姿势别扭且驾驶时有硌屁股感，因此认为空间是该车型的短板。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "本人光脚185，坐后排，头顶距离天窗就一指多，坐垫感觉比特斯拉的还要短半截，前后排都短，大腿悬空，坐起来感觉很别扭，我开得时候全程有种硌屁股的感觉，空间绝对是SU7的短板"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者身高185cm，在试驾过程中体验了后排乘坐空间和前排驾驶坐姿。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "本人光脚185，坐后排...我开得时候"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者对小米SU7的颜值和配置表示满意，并表达了对该车外形的喜爱。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "SU7颜值、配置都挺满意"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "我是真喜欢小跑，也喜欢小米这车的外形"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认可小米SU7 21万元起的售价，但因空间问题最终未下订，目前处于犹豫观望状态。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "21W起售还是要叫一声雷总"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但最后还是没下订，主要原因还是空间"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在看来只能再犹豫下了"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者关注极氪007的新款后驱版，指出其具备800V架构及丰富的配置（如座椅按摩加热通风记忆、HUD、后排靠背电动调节），价格约21万，并主观推测该车型可能是针对小米SU7推出的竞争产品。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "极氪007刚出了一个后驱版，800V的，配置也是相当的高，前排座椅按摩加热通风记忆都有，HUD也有，后排靠背电动调节都有，21万（怎么感觉极氪007就是冲着小米SU7去的）"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": {
+        "product_ids": [
+          "P3",
+          "P1"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P3",
+            "object_product_id": "P1",
+            "aspect": "配置与功能",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "怎么感觉极氪007就是冲着小米SU7去的"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者转述称不少人对新款极氪001 800V版本的电耗偏高有反馈，因此决定继续观察。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "新出的001 800V不少人反应电耗高，那就再观察下"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者提及尚未发布的智己L6，转述称该车可能有800V架构、标配后轮转向和固态电池，对其用料表示惊讶但持怀疑态度，计划等待发布后再评估。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "还一个是还没发布的智己L6，那车也挺帅，也有800V，听说标配后轮转向和固态电池，是真舍得堆料啊，不知道真假，反正等等吧"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者目前的购车策略是等待小米SU7首批车主反馈用车问题，同时计划再次试驾极氪007并等待智己L6发布，打算在三者都体验或了解清楚后再进行对比决策。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现在这么卷，等SU7第一批车主提车用车看看有啥问题，顺便再去试驾下极氪007，等等智己L6，到时候都试过再比对比吧"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "去试驾了小米SU7两次"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "但最后还是没下订"
+      }
+    ],
+    "confidence": 0.95,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视车内空间（特别是后排头部和腿部空间）",
+      "偏好高颜值车型",
+      "关注800V高压平台及丰富配置"
+    ]
+  },
+  "post_summary": "作者分享了对小米SU7的两次试驾体验，虽然认可其颜值、配置和21万起的价格，但因身高185cm导致的后排空间局促和坐姿不适而未下订。目前作者在小米SU7、极氪007和智己L6之间犹豫，计划等待更多市场反馈和实车体验后再做决定。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

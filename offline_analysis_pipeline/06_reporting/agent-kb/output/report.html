@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>小米 SU7 用户声音分析报告</title>
+<style>
+:root{
+ --paper:#faf9f6;--ink:#23282c;--soft:#4a545c;--muted:#8b949b;
+ --hair:#e3e0d8;--accent:#14547a;--red:#b03a2e;--green:#1e6e48;--amber:#a3691b;
+ --serif:Georgia,'Times New Roman','Source Han Serif SC','Noto Serif SC',STSong,SimSun,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);line-height:1.9;font-size:15.5px;
+ font-family:system-ui,-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;
+ -webkit-font-smoothing:antialiased}
+nav{position:fixed;top:0;left:0;bottom:0;width:212px;padding:30px 18px;overflow-y:auto;
+ border-right:1px solid var(--hair);font-size:13px;z-index:5}
+nav .brand{font-family:var(--serif);font-weight:700;font-size:15px;margin-bottom:18px;color:var(--ink)}
+nav a{display:block;padding:4px 0 4px 12px;color:var(--soft);text-decoration:none;margin:3px 0;
+ border-left:2px solid transparent;line-height:1.5}
+nav a:hover{color:var(--accent)}
+nav a.active{color:var(--accent);border-left-color:var(--accent);font-weight:600}
+main{margin-left:212px;padding:44px 52px 110px;max-width:880px}
+@media(max-width:980px){nav{display:none}main{margin:0;padding:24px 18px 80px}}
+section{margin:0 0 64px}
+/* ---- cover: typographic, editorial ---- */
+.cover{padding:8px 0 30px;margin-bottom:26px}
+.cover .rule{height:3px;background:var(--ink);margin-bottom:34px}
+.cover .kicker{font-size:12.5px;font-weight:600;letter-spacing:.22em;color:var(--accent);margin-bottom:16px}
+.cover h1{font-family:var(--serif);font-size:2.55em;line-height:1.3;font-weight:700;
+ margin:0 0 12px;color:var(--ink)}
+.cover .sub{font-size:1.08em;color:var(--soft);max-width:36em}
+.cover .chips{margin-top:18px;font-size:.8em;color:var(--muted)}
+.statstrip{display:flex;flex-wrap:wrap;margin-top:30px;border-top:1px solid var(--hair);
+ border-bottom:1px solid var(--hair)}
+.stat{flex:1 1 130px;padding:16px 18px;border-right:1px solid var(--hair)}
+.stat:last-child{border-right:none}
+.stat b{display:block;font-family:var(--serif);font-size:1.65em;line-height:1.2;color:var(--accent);
+ font-variant-numeric:tabular-nums;font-weight:600}
+.stat span{font-size:.74em;color:var(--muted)}
+/* ---- headings & sections ---- */
+h2{font-family:var(--serif);font-size:1.5em;font-weight:700;color:var(--ink);
+ margin:0 0 18px;padding-top:22px;border-top:2px solid var(--ink);line-height:1.45}
+h2 .no{font-family:system-ui,sans-serif;font-size:.62em;font-weight:600;color:var(--accent);
+ letter-spacing:.12em;display:block;margin-bottom:6px}
+section:first-of-type h2,section#summary-block h2{border-top:none;padding-top:0}
+.lead{color:var(--soft);margin:0 0 20px;font-size:1.01em}
+/* ---- finding / implication ---- */
+.finding,.impl{margin:18px 0;padding:4px 0 4px 20px}
+.finding{border-left:3px solid var(--accent)}
+.impl{border-left:3px solid #b9c3c9}
+.finding .fl,.impl .fl{display:block;font-size:11.5px;font-weight:700;letter-spacing:.2em;
+ margin-bottom:6px}
+.finding .fl{color:var(--accent)}.impl .fl{color:var(--muted)}
+.finding{font-size:1.04em;color:var(--ink)}
+.impl{color:var(--soft)}
+.concl{margin:16px 0;padding:6px 0 6px 20px;border-left:3px solid var(--green);color:var(--ink)}
+.concl .sid{display:inline-block;font-size:.76em;font-weight:700;color:var(--green);
+ margin-right:9px;letter-spacing:.08em}
+.note{color:var(--muted);font-size:.84em;font-style:italic;margin:12px 0;line-height:1.7}
+/* ---- tables: booktabs ---- */
+table{border-collapse:collapse;margin:18px 0;width:100%;font-size:.9em}
+thead tr{border-top:2px solid var(--ink);border-bottom:1.5px solid var(--ink)}
+th{padding:8px 12px;text-align:left;font-weight:600;font-size:.86em;color:var(--ink);letter-spacing:.03em}
+tbody tr{border-bottom:1px solid var(--hair)}
+tbody tr:last-child{border-bottom:2px solid var(--ink)}
+td,th{padding:8px 12px}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+td.warn{color:var(--red);font-weight:600}
+tr:hover td{background:#f2f0ea}
+/* ---- figures ---- */
+figure{margin:20px 0;padding:0}
+figure svg{width:100%;height:auto;border:1px solid var(--hair);border-radius:4px}
+figcaption{font-size:.82em;color:var(--muted);margin-top:8px;line-height:1.7}
+/* ---- details ---- */
+details{margin:14px 0;padding:10px 2px 12px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+summary{cursor:pointer;font-weight:600;color:var(--accent);font-size:.95em}
+details p{margin:12px 0 2px;white-space:pre-line;color:var(--soft)}
+/* ---- tabs ---- */
+.tabs{display:flex;gap:22px;margin:14px 0 4px;border-bottom:1px solid var(--hair)}
+.tabs button{border:none;background:none;padding:8px 2px;cursor:pointer;font-size:.92em;
+ color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button.on{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+.pane{display:none}.pane.on{display:block}
+/* ---- cases ---- */
+.filterbar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.filterbar button{border:1px solid var(--hair);background:none;border-radius:15px;padding:3px 14px;
+ cursor:pointer;font-size:.84em;color:var(--soft)}
+.filterbar button.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.case{background:#fff;border:1px solid var(--hair);border-radius:6px;padding:16px 22px;margin:14px 0}
+.case .hd{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.case .hd b{font-size:1em}
+.badge{display:inline-block;font-size:.72em;border-radius:3px;padding:1px 9px;margin-left:6px;vertical-align:1px}
+.b-a{background:#e7eef3;color:var(--accent)}.b-n{background:#f9ebe8;color:var(--red)}
+.b-p{background:#e9f2ec;color:var(--green)}.b-s{background:#f0ede4;color:#7a6a3a}
+blockquote{border-left:2px solid var(--hair);margin:12px 0;padding:4px 18px;color:var(--soft);
+ font-size:.97em}
+.case .meta{font-size:.8em;color:var(--muted)}
+.case .need{font-size:.92em;margin-top:8px}
+.case .bd{font-size:.8em;color:var(--muted);margin-top:4px}
+/* ---- recommendations ---- */
+.rec{background:#fff;border:1px solid var(--hair);border-left:3px solid var(--hair);
+ border-radius:4px;padding:15px 22px;margin:13px 0}
+.rec.p1{border-left-color:var(--red)}.rec.p2{border-left-color:var(--amber)}
+.rec .p{display:inline-block;font-size:.72em;font-weight:700;margin-right:9px;letter-spacing:.08em;
+ color:var(--muted)}
+.p1 .p{color:var(--red)}.p2 .p{color:var(--amber)}
+.rec .ev{font-size:.88em;color:var(--soft);margin-top:6px}
+.rec .bd{font-size:.79em;color:var(--muted);margin-top:4px}
+a{color:var(--accent)}
+.footer{margin-top:56px;font-size:.78em;color:var(--muted);border-top:1px solid var(--hair);padding-top:16px}
+</style>
+</head>
+<body>
+<nav id="toc"><div class="brand">SU7 用户声音分析</div><a href='#s-method'>研究方法与数据</a><a href='#F1'>F1 话题声量与情感</a><a href='#F2'>F2 用户分层与身份</a><a href='#F3'>F3 旅程关注差异</a><a href='#F4'>F4 竞品关联提及</a><a href='#F5'>F5 典型用户原声</a><a href='#s-rec'>建议与优先级</a><a href='#appendix'>附录</a></nav>
+<main>
+<div class='cover'><div class='rule'></div><div class='kicker'>用户研究 · 社媒聆听</div><h1>小米 SU7 用户声音分析报告</h1><div class='sub'>外观声量居首，舒适性是负面声量占比最高的议题（临时版）</div><div class='chips'>数据：上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质 · 样本期 2022-10-28 至 2026-10-03 · 生成于 2026-10-22T08:06:29+00:00</div><div class='statstrip'><div class='stat'><b>9,529</b><span>论坛帖子</span></div><div class='stat'><b>26,936</b><span>用户观点</span></div><div class='stat'><b>3,356</b><span>体验与风险类观点</span></div><div class='stat'><b>43.4%</b><span>舒适性负面声量占比</span></div><div class='stat'><b>55.1%</b><span>可靠性负面声量占比</span></div><div class='stat'><b>11</b><span>典型用户原声</span></div></div></div>
+<section id='summary-block'><h2>核心发现</h2><div class='concl'><span class='sid'>F1</span>话题声量与负面声量占比呈显著分离：外观与内饰声量居首（717 条观点）而负面占比仅 8.8%；空间与舒适性兼具基数与高负面占比（43.4%，131/302 条）。</div><div class='concl'><span class='sid'>F2</span>车主身份标签存在系统性局限（过半帖子身份无法判断，候选中混入试驾、租车与他人车辆情形），车主满意度类结论在当前数据条件下不可测。</div><div class='concl'><span class='sid'>F3</span>购车前与使用阶段的关注结构发生明显转移：价格与成本从购车前的 92 条降至使用阶段 6 条；已订购未交付群体的服务与交付负面占比达 61.1%，为全程焦虑峰值。</div><div class='concl'><span class='sid'>F4</span>比较话语集中于少数参照车型：特斯拉 Model 3 以 201 帖关联提及居首；提及频次反映心智参照，不构成竞品优劣结论。</div><p class='note'>各项发现的证据与含义见下文对应章节；口径与使用边界见附录。</p></section>
+<section id='s-method'><h2>研究方法与数据</h2><p class='lead'>本章说明数据来源、样本构成与统计口径，供解读后续各项发现时参照；阅读中无需记忆，各发现处的斜体提示可随时对照。</p><table><tbody><tr><td>论坛帖子</td><td class='num'>9,529</td></tr><tr><td>用户观点表达</td><td class='num'>26,936</td></tr><tr><td>产品提及</td><td class='num'>15,002</td></tr><tr><td>样本时间范围</td><td class='num'>2022-10-28 至 2026-10-03</td></tr><tr><td>体验与风险表达（主分析集）</td><td class='num'>3,356</td></tr><tr><td>引文可定位检查</td><td class='num'>22,971 通过（85.3%），3,965 待复核</td></tr></tbody></table>
+<p>数据来自汽车之家论坛公开帖子的结构化分析：每条用户观点（下称"观点"）标注所属话题、情感倾向、用户旅程阶段与原文证据。核心分析样本的筛选条件为：SU7 为唯一可确认主要讨论对象、非比较类观点、证据全部通过回溯校验、类型为体验或风险，共 1,810 帖 / 3,356 条。</p>
+<p class='note'>核心口径：观点数不等于发言人数；负面声量占比 = 该话题内负面观点 ÷ 该话题全部观点（含中性及混合评价），不是"不满意用户比例"。</p>
+<p>样本按持有状态与经历条件划分为嵌套的用户分层群体（从"提及 SU7"逐层收窄至"当前车主且亲历使用"），各群体分别统计、互不合并；引用任何数字时须使用其所属群体口径。</p>
+<details><summary>分析方法说明：统计如何产生</summary><p>本报告的统计由构建脚本对上游结构化数据做固定口径的聚合计算（话题分布、用户分层、旅程对比、竞品提及等），相同数据重复运行结果完全一致；观点抽取与情感标注由上游分析管线在数据冻结时完成并留有版本记录。</p><p>各发现的解读与建议为人工撰写，与统计数字分离存放：数据更新时统计自动重算，解读部分单独复核。</p><p>每条观点的原文引文经证据回溯校验：22,971 条通过（85.3%），3,965 条待复核；未通过可能是引文省略或改写，不等于抽取错误。该检查验证证据可追溯性，不测量语义标注准确率。</p></details>
+<details><summary>数据质量与局限</summary><p>帖子层面的车主身份标签为模型推断：9,529 帖中 6877 帖无法判断身份，候选群体经人工回读复核存在标签误差。上游 12 项数据校验全部通过，原始文件哈希未变。</p><p>本数据为历史快照，涉及现行产品状态的问题须另行核验；报告为临时产物，尚未经评审验收。</p></details></section><section id='F1'><h2><span class='no'>1</span>话题声量与负面声量占比呈显著分离</h2><div class='finding'><span class='fl'>发现</span>声量最高的话题不是负面声量占比最高的话题；两个维度需要分别解读，改进优先级的判断同时依赖两者。</div><div class='tabs'><button data-pane='F1-pane-0-0' class='on'>按声量排序</button><button data-pane='F1-pane-0-1' class=''>按负面声量占比排序</button></div><div class='pane on' id='F1-pane-0-0'><figure><svg xmlns="http://www.w3.org/2000/svg" width="760" height="610" viewBox="0 0 760 610" font-family="system-ui,sans-serif" font-size="13">
+<title>方面×情感：按热度排序</title>
+<rect width="760" height="610" fill="#ffffff"/>
+<text x="12" y="26" font-size="15" font-weight="bold" fill="#263238">方面×情感：按热度排序</text>
+<text x="142" y="66.4" text-anchor="end" fill="#37474f">外观与内饰</text>
+<rect x="150.0" y="52" width="376.9" height="20" fill="#2e7d32" rx="2"><title>外观与内饰 positive:575</title></rect>
+<text x="338.5" y="66.0" text-anchor="middle" font-size="11" fill="#fff">575</text>
+<rect x="526.9" y="52" width="41.3" height="20" fill="#c62828" rx="2"><title>外观与内饰 negative:63</title></rect>
+<text x="547.6" y="66.0" text-anchor="middle" font-size="11" fill="#fff">63</text>
+<rect x="568.2" y="52" width="32.1" height="20" fill="#78909c" rx="2"><title>外观与内饰 neutral:49</title></rect>
+<text x="584.3" y="66.0" text-anchor="middle" font-size="11" fill="#fff">49</text>
+<rect x="600.3" y="52" width="19.7" height="20" fill="#cfd8dc" rx="2"><title>外观与内饰 other:30</title></rect>
+<text x="610.2" y="66.0" text-anchor="middle" font-size="11" fill="#fff">30</text>
+<text x="626.0" y="66.0" font-size="11" fill="#455a64">8.8%</text>
+<text x="142" y="97.4" text-anchor="end" fill="#37474f">空间与舒适性</text>
+<rect x="150.0" y="83" width="77.4" height="20" fill="#2e7d32" rx="2"><title>空间与舒适性 positive:118</title></rect>
+<text x="188.7" y="97.0" text-anchor="middle" font-size="11" fill="#fff">118</text>
+<rect x="227.4" y="83" width="85.9" height="20" fill="#c62828" rx="2"><title>空间与舒适性 negative:131</title></rect>
+<text x="270.3" y="97.0" text-anchor="middle" font-size="11" fill="#fff">131</text>
+<rect x="313.2" y="83" width="11.8" height="20" fill="#78909c" rx="2"><title>空间与舒适性 neutral:18</title></rect>
+<rect x="325.0" y="83" width="22.9" height="20" fill="#cfd8dc" rx="2"><title>空间与舒适性 other:35</title></rect>
+<text x="336.5" y="97.0" text-anchor="middle" font-size="11" fill="#fff">35</text>
+<text x="354.0" y="97.0" font-size="11" fill="#455a64">43.4%</text>
+<text x="142" y="128.4" text-anchor="end" fill="#37474f">智能座舱与车机</text>
+<rect x="150.0" y="114" width="154.7" height="20" fill="#2e7d32" rx="2"><title>智能座舱与车机 positive:236</title></rect>
+<text x="227.4" y="128.0" text-anchor="middle" font-size="11" fill="#fff">236</text>
+<rect x="304.7" y="114" width="15.1" height="20" fill="#c62828" rx="2"><title>智能座舱与车机 negative:23</title></rect>
+<text x="312.2" y="128.0" text-anchor="middle" font-size="11" fill="#fff">23</text>
+<rect x="319.8" y="114" width="20.3" height="20" fill="#78909c" rx="2"><title>智能座舱与车机 neutral:31</title></rect>
+<text x="329.9" y="128.0" text-anchor="middle" font-size="11" fill="#fff">31</text>
+<rect x="340.1" y="114" width="7.2" height="20" fill="#cfd8dc" rx="2"><title>智能座舱与车机 other:11</title></rect>
+<text x="353.3" y="128.0" font-size="11" fill="#455a64">7.6%</text>
+<text x="142" y="159.4" text-anchor="end" fill="#37474f">品牌与口碑</text>
+<rect x="150.0" y="145" width="142.2" height="20" fill="#2e7d32" rx="2"><title>品牌与口碑 positive:217</title></rect>
+<text x="221.1" y="159.0" text-anchor="middle" font-size="11" fill="#fff">217</text>
+<rect x="292.2" y="145" width="29.5" height="20" fill="#c62828" rx="2"><title>品牌与口碑 negative:45</title></rect>
+<text x="307.0" y="159.0" text-anchor="middle" font-size="11" fill="#fff">45</text>
+<rect x="321.7" y="145" width="7.2" height="20" fill="#78909c" rx="2"><title>品牌与口碑 neutral:11</title></rect>
+<rect x="329.0" y="145" width="11.8" height="20" fill="#cfd8dc" rx="2"><title>品牌与口碑 other:18</title></rect>
+<text x="346.8" y="159.0" font-size="11" fill="#455a64">15.5%</text>
+<text x="142" y="190.4" text-anchor="end" fill="#37474f">配置与功能</text>
+<rect x="150.0" y="176" width="102.9" height="20" fill="#2e7d32" rx="2"><title>配置与功能 positive:157</title></rect>
+<text x="201.5" y="190.0" text-anchor="middle" font-size="11" fill="#fff">157</text>
+<rect x="252.9" y="176" width="38.7" height="20" fill="#c62828" rx="2"><title>配置与功能 negative:59</title></rect>
+<text x="272.3" y="190.0" text-anchor="middle" font-size="11" fill="#fff">59</text>
+<rect x="291.6" y="176" width="42.0" height="20" fill="#78909c" rx="2"><title>配置与功能 neutral:64</title></rect>
+<text x="312.6" y="190.0" text-anchor="middle" font-size="11" fill="#fff">64</text>
+<rect x="333.5" y="176" width="2.6" height="20" fill="#cfd8dc" rx="2"><title>配置与功能 other:4</title></rect>
+<text x="342.2" y="190.0" font-size="11" fill="#455a64">20.8%</text>
+<text x="142" y="221.4" text-anchor="end" fill="#37474f">续航与能耗</text>
+<rect x="150.0" y="207" width="114.1" height="20" fill="#2e7d32" rx="2"><title>续航与能耗 positive:174</title></rect>
+<text x="207.0" y="221.0" text-anchor="middle" font-size="11" fill="#fff">174</text>
+<rect x="264.1" y="207" width="20.3" height="20" fill="#c62828" rx="2"><title>续航与能耗 negative:31</title></rect>
+<text x="274.2" y="221.0" text-anchor="middle" font-size="11" fill="#fff">31</text>
+<rect x="284.4" y="207" width="34.7" height="20" fill="#78909c" rx="2"><title>续航与能耗 neutral:53</title></rect>
+<text x="301.8" y="221.0" text-anchor="middle" font-size="11" fill="#fff">53</text>
+<rect x="319.1" y="207" width="6.6" height="20" fill="#cfd8dc" rx="2"><title>续航与能耗 other:10</title></rect>
+<text x="331.7" y="221.0" font-size="11" fill="#455a64">11.6%</text>
+<text x="142" y="252.4" text-anchor="end" fill="#37474f">驾驶与操控</text>
+<rect x="150.0" y="238" width="100.9" height="20" fill="#2e7d32" rx="2"><title>驾驶与操控 positive:154</title></rect>
+<text x="200.5" y="252.0" text-anchor="middle" font-size="11" fill="#fff">154</text>
+<rect x="250.9" y="238" width="24.3" height="20" fill="#c62828" rx="2"><title>驾驶与操控 negative:37</title></rect>
+<text x="263.1" y="252.0" text-anchor="middle" font-size="11" fill="#fff">37</text>
+<rect x="275.2" y="238" width="16.4" height="20" fill="#78909c" rx="2"><title>驾驶与操控 neutral:25</title></rect>
+<text x="283.4" y="252.0" text-anchor="middle" font-size="11" fill="#fff">25</text>
+<rect x="291.6" y="238" width="4.6" height="20" fill="#cfd8dc" rx="2"><title>驾驶与操控 other:7</title></rect>
+<text x="302.2" y="252.0" font-size="11" fill="#455a64">16.6%</text>
+<text x="142" y="283.4" text-anchor="end" fill="#37474f">安全与质量</text>
+<rect x="150.0" y="269" width="63.6" height="20" fill="#2e7d32" rx="2"><title>安全与质量 positive:97</title></rect>
+<text x="181.8" y="283.0" text-anchor="middle" font-size="11" fill="#fff">97</text>
+<rect x="213.6" y="269" width="43.3" height="20" fill="#c62828" rx="2"><title>安全与质量 negative:66</title></rect>
+<text x="235.2" y="283.0" text-anchor="middle" font-size="11" fill="#fff">66</text>
+<rect x="256.8" y="269" width="14.4" height="20" fill="#78909c" rx="2"><title>安全与质量 neutral:22</title></rect>
+<text x="264.1" y="283.0" text-anchor="middle" font-size="11" fill="#fff">22</text>
+<rect x="271.3" y="269" width="2.0" height="20" fill="#cfd8dc" rx="2"><title>安全与质量 other:3</title></rect>
+<text x="279.2" y="283.0" font-size="11" fill="#455a64">35.1%</text>
+<text x="142" y="314.4" text-anchor="end" fill="#37474f">智能驾驶</text>
+<rect x="150.0" y="300" width="57.7" height="20" fill="#2e7d32" rx="2"><title>智能驾驶 positive:88</title></rect>
+<text x="178.8" y="314.0" text-anchor="middle" font-size="11" fill="#fff">88</text>
+<rect x="207.7" y="300" width="27.5" height="20" fill="#c62828" rx="2"><title>智能驾驶 negative:42</title></rect>
+<text x="221.5" y="314.0" text-anchor="middle" font-size="11" fill="#fff">42</text>
+<rect x="235.2" y="300" width="8.5" height="20" fill="#78909c" rx="2"><title>智能驾驶 neutral:13</title></rect>
+<rect x="243.7" y="300" width="5.9" height="20" fill="#cfd8dc" rx="2"><title>智能驾驶 other:9</title></rect>
+<text x="255.6" y="314.0" font-size="11" fill="#455a64">27.6%</text>
+<text x="142" y="345.4" text-anchor="end" fill="#37474f">价格与成本</text>
+<rect x="150.0" y="331" width="59.7" height="20" fill="#2e7d32" rx="2"><title>价格与成本 positive:91</title></rect>
+<text x="179.8" y="345.0" text-anchor="middle" font-size="11" fill="#fff">91</text>
+<rect x="209.7" y="331" width="27.5" height="20" fill="#c62828" rx="2"><title>价格与成本 negative:42</title></rect>
+<text x="223.4" y="345.0" text-anchor="middle" font-size="11" fill="#fff">42</text>
+<rect x="237.2" y="331" width="3.3" height="20" fill="#78909c" rx="2"><title>价格与成本 neutral:5</title></rect>
+<rect x="240.5" y="331" width="3.9" height="20" fill="#cfd8dc" rx="2"><title>价格与成本 other:6</title></rect>
+<text x="250.4" y="345.0" font-size="11" fill="#455a64">29.2%</text>
+<text x="142" y="376.4" text-anchor="end" fill="#37474f">动力与性能</text>
+<rect x="150.0" y="362" width="80.6" height="20" fill="#2e7d32" rx="2"><title>动力与性能 positive:123</title></rect>
+<text x="190.3" y="376.0" text-anchor="middle" font-size="11" fill="#fff">123</text>
+<rect x="230.6" y="362" width="2.6" height="20" fill="#c62828" rx="2"><title>动力与性能 negative:4</title></rect>
+<rect x="233.2" y="362" width="5.2" height="20" fill="#78909c" rx="2"><title>动力与性能 neutral:8</title></rect>
+<rect x="238.5" y="362" width="1.3" height="20" fill="#cfd8dc" rx="2"><title>动力与性能 other:2</title></rect>
+<text x="245.8" y="376.0" font-size="11" fill="#455a64">2.9%</text>
+<text x="142" y="407.4" text-anchor="end" fill="#37474f">服务与交付</text>
+<rect x="150.0" y="393" width="30.2" height="20" fill="#2e7d32" rx="2"><title>服务与交付 positive:46</title></rect>
+<text x="165.1" y="407.0" text-anchor="middle" font-size="11" fill="#fff">46</text>
+<rect x="180.2" y="393" width="40.6" height="20" fill="#c62828" rx="2"><title>服务与交付 negative:62</title></rect>
+<text x="200.5" y="407.0" text-anchor="middle" font-size="11" fill="#fff">62</text>
+<rect x="220.8" y="393" width="14.4" height="20" fill="#78909c" rx="2"><title>服务与交付 neutral:22</title></rect>
+<text x="228.0" y="407.0" text-anchor="middle" font-size="11" fill="#fff">22</text>
+<rect x="235.2" y="393" width="1.3" height="20" fill="#cfd8dc" rx="2"><title>服务与交付 other:2</title></rect>
+<text x="242.5" y="407.0" font-size="11" fill="#455a64">47.0%</text>
+<text x="142" y="438.4" text-anchor="end" fill="#37474f">可靠性与故障</text>
+<rect x="150.0" y="424" width="7.9" height="20" fill="#2e7d32" rx="2"><title>可靠性与故障 positive:12</title></rect>
+<rect x="157.9" y="424" width="35.4" height="20" fill="#c62828" rx="2"><title>可靠性与故障 negative:54</title></rect>
+<text x="175.6" y="438.0" text-anchor="middle" font-size="11" fill="#fff">54</text>
+<rect x="193.3" y="424" width="17.0" height="20" fill="#78909c" rx="2"><title>可靠性与故障 neutral:26</title></rect>
+<text x="201.8" y="438.0" text-anchor="middle" font-size="11" fill="#fff">26</text>
+<rect x="210.3" y="424" width="3.9" height="20" fill="#cfd8dc" rx="2"><title>可靠性与故障 other:6</title></rect>
+<text x="220.2" y="438.0" font-size="11" fill="#455a64">55.1%</text>
+<text x="142" y="469.4" text-anchor="end" fill="#37474f">充电与补能</text>
+<rect x="150.0" y="455" width="24.9" height="20" fill="#2e7d32" rx="2"><title>充电与补能 positive:38</title></rect>
+<text x="162.5" y="469.0" text-anchor="middle" font-size="11" fill="#fff">38</text>
+<rect x="174.9" y="455" width="8.5" height="20" fill="#c62828" rx="2"><title>充电与补能 negative:13</title></rect>
+<rect x="183.4" y="455" width="8.5" height="20" fill="#78909c" rx="2"><title>充电与补能 neutral:13</title></rect>
+<text x="198.0" y="469.0" font-size="11" fill="#455a64">20.3%</text>
+<text x="142" y="500.4" text-anchor="end" fill="#37474f">其他</text>
+<rect x="150.0" y="486" width="15.7" height="20" fill="#2e7d32" rx="2"><title>其他 positive:24</title></rect>
+<text x="157.9" y="500.0" text-anchor="middle" font-size="11" fill="#fff">24</text>
+<rect x="165.7" y="486" width="8.5" height="20" fill="#c62828" rx="2"><title>其他 negative:13</title></rect>
+<rect x="174.3" y="486" width="9.8" height="20" fill="#78909c" rx="2"><title>其他 neutral:15</title></rect>
+<rect x="184.1" y="486" width="1.3" height="20" fill="#cfd8dc" rx="2"><title>其他 other:2</title></rect>
+<text x="191.4" y="500.0" font-size="11" fill="#455a64">24.1%</text>
+<text x="142" y="531.4" text-anchor="end" fill="#37474f">技术原理</text>
+<rect x="150.0" y="517" width="0.7" height="20" fill="#2e7d32" rx="2"><title>技术原理 positive:1</title></rect>
+<text x="156.7" y="531.0" font-size="11" fill="#455a64">0.0%</text>
+<rect x="12" y="570" width="12" height="12" fill="#2e7d32" rx="2"/>
+<text x="30" y="580" font-size="12" fill="#455a64">正面</text>
+<rect x="84" y="570" width="12" height="12" fill="#c62828" rx="2"/>
+<text x="102" y="580" font-size="12" fill="#455a64">负面</text>
+<rect x="156" y="570" width="12" height="12" fill="#78909c" rx="2"/>
+<text x="174" y="580" font-size="12" fill="#455a64">中性</text>
+<rect x="228" y="570" width="12" height="12" fill="#cfd8dc" rx="2"/>
+<text x="246" y="580" font-size="12" fill="#455a64">其他</text>
+<text x="12" y="600" font-size="11" fill="#90a4ae">条长=表达数，右端数字=负面占比。分母为该方面全部表达，负面占比≠负面人数比例。来源：aspect-sentiment.csv</text>
+</svg><figcaption>条长为观点数，条内色块为情感构成（绿=正面、红=负面、灰=中性），条末数字为负面声量占比。来源：aspect-sentiment.csv</figcaption></figure></div><div class='pane ' id='F1-pane-0-1'><figure><svg xmlns="http://www.w3.org/2000/svg" width="760" height="610" viewBox="0 0 760 610" font-family="system-ui,sans-serif" font-size="13">
+<title>方面×情感：按负面占比排序</title>
+<rect width="760" height="610" fill="#ffffff"/>
+<text x="12" y="26" font-size="15" font-weight="bold" fill="#263238">方面×情感：按负面占比排序</text>
+<text x="142" y="66.4" text-anchor="end" fill="#37474f">可靠性与故障</text>
+<rect x="150.0" y="52" width="7.9" height="20" fill="#2e7d32" rx="2"><title>可靠性与故障 positive:12</title></rect>
+<rect x="157.9" y="52" width="35.4" height="20" fill="#c62828" rx="2"><title>可靠性与故障 negative:54</title></rect>
+<text x="175.6" y="66.0" text-anchor="middle" font-size="11" fill="#fff">54</text>
+<rect x="193.3" y="52" width="17.0" height="20" fill="#78909c" rx="2"><title>可靠性与故障 neutral:26</title></rect>
+<text x="201.8" y="66.0" text-anchor="middle" font-size="11" fill="#fff">26</text>
+<rect x="210.3" y="52" width="3.9" height="20" fill="#cfd8dc" rx="2"><title>可靠性与故障 other:6</title></rect>
+<text x="220.2" y="66.0" font-size="11" fill="#455a64">55.1%</text>
+<text x="142" y="97.4" text-anchor="end" fill="#37474f">服务与交付</text>
+<rect x="150.0" y="83" width="30.2" height="20" fill="#2e7d32" rx="2"><title>服务与交付 positive:46</title></rect>
+<text x="165.1" y="97.0" text-anchor="middle" font-size="11" fill="#fff">46</text>
+<rect x="180.2" y="83" width="40.6" height="20" fill="#c62828" rx="2"><title>服务与交付 negative:62</title></rect>
+<text x="200.5" y="97.0" text-anchor="middle" font-size="11" fill="#fff">62</text>
+<rect x="220.8" y="83" width="14.4" height="20" fill="#78909c" rx="2"><title>服务与交付 neutral:22</title></rect>
+<text x="228.0" y="97.0" text-anchor="middle" font-size="11" fill="#fff">22</text>
+<rect x="235.2" y="83" width="1.3" height="20" fill="#cfd8dc" rx="2"><title>服务与交付 other:2</title></rect>
+<text x="242.5" y="97.0" font-size="11" fill="#455a64">47.0%</text>
+<text x="142" y="128.4" text-anchor="end" fill="#37474f">空间与舒适性</text>
+<rect x="150.0" y="114" width="77.4" height="20" fill="#2e7d32" rx="2"><title>空间与舒适性 positive:118</title></rect>
+<text x="188.7" y="128.0" text-anchor="middle" font-size="11" fill="#fff">118</text>
+<rect x="227.4" y="114" width="85.9" height="20" fill="#c62828" rx="2"><title>空间与舒适性 negative:131</title></rect>
+<text x="270.3" y="128.0" text-anchor="middle" font-size="11" fill="#fff">131</text>
+<rect x="313.2" y="114" width="11.8" height="20" fill="#78909c" rx="2"><title>空间与舒适性 neutral:18</title></rect>
+<rect x="325.0" y="114" width="22.9" height="20" fill="#cfd8dc" rx="2"><title>空间与舒适性 other:35</title></rect>
+<text x="336.5" y="128.0" text-anchor="middle" font-size="11" fill="#fff">35</text>
+<text x="354.0" y="128.0" font-size="11" fill="#455a64">43.4%</text>
+<text x="142" y="159.4" text-anchor="end" fill="#37474f">安全与质量</text>
+<rect x="150.0" y="145" width="63.6" height="20" fill="#2e7d32" rx="2"><title>安全与质量 positive:97</title></rect>
+<text x="181.8" y="159.0" text-anchor="middle" font-size="11" fill="#fff">97</text>
+<rect x="213.6" y="145" width="43.3" height="20" fill="#c62828" rx="2"><title>安全与质量 negative:66</title></rect>
+<text x="235.2" y="159.0" text-anchor="middle" font-size="11" fill="#fff">66</text>
+<rect x="256.8" y="145" width="14.4" height="20" fill="#78909c" rx="2"><title>安全与质量 neutral:22</title></rect>
+<text x="264.1" y="159.0" text-anchor="middle" font-size="11" fill="#fff">22</text>
+<rect x="271.3" y="145" width="2.0" height="20" fill="#cfd8dc" rx="2"><title>安全与质量 other:3</title></rect>
+<text x="279.2" y="159.0" font-size="11" fill="#455a64">35.1%</text>
+<text x="142" y="190.4" text-anchor="end" fill="#37474f">价格与成本</text>
+<rect x="150.0" y="176" width="59.7" height="20" fill="#2e7d32" rx="2"><title>价格与成本 positive:91</title></rect>
+<text x="179.8" y="190.0" text-anchor="middle" font-size="11" fill="#fff">91</text>
+<rect x="209.7" y="176" width="27.5" height="20" fill="#c62828" rx="2"><title>价格与成本 negative:42</title></rect>
+<text x="223.4" y="190.0" text-anchor="middle" font-size="11" fill="#fff">42</text>
+<rect x="237.2" y="176" width="3.3" height="20" fill="#78909c" rx="2"><title>价格与成本 neutral:5</title></rect>
+<rect x="240.5" y="176" width="3.9" height="20" fill="#cfd8dc" rx="2"><title>价格与成本 other:6</title></rect>
+<text x="250.4" y="190.0" font-size="11" fill="#455a64">29.2%</text>
+<text x="142" y="221.4" text-anchor="end" fill="#37474f">智能驾驶</text>
+<rect x="150.0" y="207" width="57.7" height="20" fill="#2e7d32" rx="2"><title>智能驾驶 positive:88</title></rect>
+<text x="178.8" y="221.0" text-anchor="middle" font-size="11" fill="#fff">88</text>
+<rect x="207.7" y="207" width="27.5" height="20" fill="#c62828" rx="2"><title>智能驾驶 negative:42</title></rect>
+<text x="221.5" y="221.0" text-anchor="middle" font-size="11" fill="#fff">42</text>
+<rect x="235.2" y="207" width="8.5" height="20" fill="#78909c" rx="2"><title>智能驾驶 neutral:13</title></rect>
+<rect x="243.7" y="207" width="5.9" height="20" fill="#cfd8dc" rx="2"><title>智能驾驶 other:9</title></rect>
+<text x="255.6" y="221.0" font-size="11" fill="#455a64">27.6%</text>
+<text x="142" y="252.4" text-anchor="end" fill="#37474f">其他</text>
+<rect x="150.0" y="238" width="15.7" height="20" fill="#2e7d32" rx="2"><title>其他 positive:24</title></rect>
+<text x="157.9" y="252.0" text-anchor="middle" font-size="11" fill="#fff">24</text>
+<rect x="165.7" y="238" width="8.5" height="20" fill="#c62828" rx="2"><title>其他 negative:13</title></rect>
+<rect x="174.3" y="238" width="9.8" height="20" fill="#78909c" rx="2"><title>其他 neutral:15</title></rect>
+<rect x="184.1" y="238" width="1.3" height="20" fill="#cfd8dc" rx="2"><title>其他 other:2</title></rect>
+<text x="191.4" y="252.0" font-size="11" fill="#455a64">24.1%</text>
+<text x="142" y="283.4" text-anchor="end" fill="#37474f">配置与功能</text>
+<rect x="150.0" y="269" width="102.9" height="20" fill="#2e7d32" rx="2"><title>配置与功能 positive:157</title></rect>
+<text x="201.5" y="283.0" text-anchor="middle" font-size="11" fill="#fff">157</text>
+<rect x="252.9" y="269" width="38.7" height="20" fill="#c62828" rx="2"><title>配置与功能 negative:59</title></rect>
+<text x="272.3" y="283.0" text-anchor="middle" font-size="11" fill="#fff">59</text>
+<rect x="291.6" y="269" width="42.0" height="20" fill="#78909c" rx="2"><title>配置与功能 neutral:64</title></rect>
+<text x="312.6" y="283.0" text-anchor="middle" font-size="11" fill="#fff">64</text>
+<rect x="333.5" y="269" width="2.6" height="20" fill="#cfd8dc" rx="2"><title>配置与功能 other:4</title></rect>
+<text x="342.2" y="283.0" font-size="11" fill="#455a64">20.8%</text>
+<text x="142" y="314.4" text-anchor="end" fill="#37474f">充电与补能</text>
+<rect x="150.0" y="300" width="24.9" height="20" fill="#2e7d32" rx="2"><title>充电与补能 positive:38</title></rect>
+<text x="162.5" y="314.0" text-anchor="middle" font-size="11" fill="#fff">38</text>
+<rect x="174.9" y="300" width="8.5" height="20" fill="#c62828" rx="2"><title>充电与补能 negative:13</title></rect>
+<rect x="183.4" y="300" width="8.5" height="20" fill="#78909c" rx="2"><title>充电与补能 neutral:13</title></rect>
+<text x="198.0" y="314.0" font-size="11" fill="#455a64">20.3%</text>
+<text x="142" y="345.4" text-anchor="end" fill="#37474f">驾驶与操控</text>
+<rect x="150.0" y="331" width="100.9" height="20" fill="#2e7d32" rx="2"><title>驾驶与操控 positive:154</title></rect>
+<text x="200.5" y="345.0" text-anchor="middle" font-size="11" fill="#fff">154</text>
+<rect x="250.9" y="331" width="24.3" height="20" fill="#c62828" rx="2"><title>驾驶与操控 negative:37</title></rect>
+<text x="263.1" y="345.0" text-anchor="middle" font-size="11" fill="#fff">37</text>
+<rect x="275.2" y="331" width="16.4" height="20" fill="#78909c" rx="2"><title>驾驶与操控 neutral:25</title></rect>
+<text x="283.4" y="345.0" text-anchor="middle" font-size="11" fill="#fff">25</text>
+<rect x="291.6" y="331" width="4.6" height="20" fill="#cfd8dc" rx="2"><title>驾驶与操控 other:7</title></rect>
+<text x="302.2" y="345.0" font-size="11" fill="#455a64">16.6%</text>
+<text x="142" y="376.4" text-anchor="end" fill="#37474f">品牌与口碑</text>
+<rect x="150.0" y="362" width="142.2" height="20" fill="#2e7d32" rx="2"><title>品牌与口碑 positive:217</title></rect>
+<text x="221.1" y="376.0" text-anchor="middle" font-size="11" fill="#fff">217</text>
+<rect x="292.2" y="362" width="29.5" height="20" fill="#c62828" rx="2"><title>品牌与口碑 negative:45</title></rect>
+<text x="307.0" y="376.0" text-anchor="middle" font-size="11" fill="#fff">45</text>
+<rect x="321.7" y="362" width="7.2" height="20" fill="#78909c" rx="2"><title>品牌与口碑 neutral:11</title></rect>
+<rect x="329.0" y="362" width="11.8" height="20" fill="#cfd8dc" rx="2"><title>品牌与口碑 other:18</title></rect>
+<text x="346.8" y="376.0" font-size="11" fill="#455a64">15.5%</text>
+<text x="142" y="407.4" text-anchor="end" fill="#37474f">续航与能耗</text>
+<rect x="150.0" y="393" width="114.1" height="20" fill="#2e7d32" rx="2"><title>续航与能耗 positive:174</title></rect>
+<text x="207.0" y="407.0" text-anchor="middle" font-size="11" fill="#fff">174</text>
+<rect x="264.1" y="393" width="20.3" height="20" fill="#c62828" rx="2"><title>续航与能耗 negative:31</title></rect>
+<text x="274.2" y="407.0" text-anchor="middle" font-size="11" fill="#fff">31</text>
+<rect x="284.4" y="393" width="34.7" height="20" fill="#78909c" rx="2"><title>续航与能耗 neutral:53</title></rect>
+<text x="301.8" y="407.0" text-anchor="middle" font-size="11" fill="#fff">53</text>
+<rect x="319.1" y="393" width="6.6" height="20" fill="#cfd8dc" rx="2"><title>续航与能耗 other:10</title></rect>
+<text x="331.7" y="407.0" font-size="11" fill="#455a64">11.6%</text>
+<text x="142" y="438.4" text-anchor="end" fill="#37474f">外观与内饰</text>
+<rect x="150.0" y="424" width="376.9" height="20" fill="#2e7d32" rx="2"><title>外观与内饰 positive:575</title></rect>
+<text x="338.5" y="438.0" text-anchor="middle" font-size="11" fill="#fff">575</text>
+<rect x="526.9" y="424" width="41.3" height="20" fill="#c62828" rx="2"><title>外观与内饰 negative:63</title></rect>
+<text x="547.6" y="438.0" text-anchor="middle" font-size="11" fill="#fff">63</text>
+<rect x="568.2" y="424" width="32.1" height="20" fill="#78909c" rx="2"><title>外观与内饰 neutral:49</title></rect>
+<text x="584.3" y="438.0" text-anchor="middle" font-size="11" fill="#fff">49</text>
+<rect x="600.3" y="424" width="19.7" height="20" fill="#cfd8dc" rx="2"><title>外观与内饰 other:30</title></rect>
+<text x="610.2" y="438.0" text-anchor="middle" font-size="11" fill="#fff">30</text>
+<text x="626.0" y="438.0" font-size="11" fill="#455a64">8.8%</text>
+<text x="142" y="469.4" text-anchor="end" fill="#37474f">智能座舱与车机</text>
+<rect x="150.0" y="455" width="154.7" height="20" fill="#2e7d32" rx="2"><title>智能座舱与车机 positive:236</title></rect>
+<text x="227.4" y="469.0" text-anchor="middle" font-size="11" fill="#fff">236</text>
+<rect x="304.7" y="455" width="15.1" height="20" fill="#c62828" rx="2"><title>智能座舱与车机 negative:23</title></rect>
+<text x="312.2" y="469.0" text-anchor="middle" font-size="11" fill="#fff">23</text>
+<rect x="319.8" y="455" width="20.3" height="20" fill="#78909c" rx="2"><title>智能座舱与车机 neutral:31</title></rect>
+<text x="329.9" y="469.0" text-anchor="middle" font-size="11" fill="#fff">31</text>
+<rect x="340.1" y="455" width="7.2" height="20" fill="#cfd8dc" rx="2"><title>智能座舱与车机 other:11</title></rect>
+<text x="353.3" y="469.0" font-size="11" fill="#455a64">7.6%</text>
+<text x="142" y="500.4" text-anchor="end" fill="#37474f">动力与性能</text>
+<rect x="150.0" y="486" width="80.6" height="20" fill="#2e7d32" rx="2"><title>动力与性能 positive:123</title></rect>
+<text x="190.3" y="500.0" text-anchor="middle" font-size="11" fill="#fff">123</text>
+<rect x="230.6" y="486" width="2.6" height="20" fill="#c62828" rx="2"><title>动力与性能 negative:4</title></rect>
+<rect x="233.2" y="486" width="5.2" height="20" fill="#78909c" rx="2"><title>动力与性能 neutral:8</title></rect>
+<rect x="238.5" y="486" width="1.3" height="20" fill="#cfd8dc" rx="2"><title>动力与性能 other:2</title></rect>
+<text x="245.8" y="500.0" font-size="11" fill="#455a64">2.9%</text>
+<text x="142" y="531.4" text-anchor="end" fill="#37474f">技术原理</text>
+<rect x="150.0" y="517" width="0.7" height="20" fill="#2e7d32" rx="2"><title>技术原理 positive:1</title></rect>
+<text x="156.7" y="531.0" font-size="11" fill="#455a64">0.0%</text>
+<rect x="12" y="570" width="12" height="12" fill="#2e7d32" rx="2"/>
+<text x="30" y="580" font-size="12" fill="#455a64">正面</text>
+<rect x="84" y="570" width="12" height="12" fill="#c62828" rx="2"/>
+<text x="102" y="580" font-size="12" fill="#455a64">负面</text>
+<rect x="156" y="570" width="12" height="12" fill="#78909c" rx="2"/>
+<text x="174" y="580" font-size="12" fill="#455a64">中性</text>
+<rect x="228" y="570" width="12" height="12" fill="#cfd8dc" rx="2"/>
+<text x="246" y="580" font-size="12" fill="#455a64">其他</text>
+<text x="12" y="600" font-size="11" fill="#90a4ae">条长=表达数，右端数字=负面占比。故障/交付类话题天然收录更多负面，不能反推故障最多。来源：aspect-sentiment.csv</text>
+</svg><figcaption>同组数据按负面声量占比降序排列。故障与交付类话题的负面占比受发帖动机自选择影响，解读时须结合基数。来源：aspect-sentiment.csv</figcaption></figure></div>
+<table><tr><th>议题</th><th class='num'>帖数</th><th class='num'>表达</th><th class='num'>正面</th><th class='num'>负面</th><th class='num'>中性</th><th class='num'>其他</th><th class='num'>负面占比</th></tr><tr><td>外观与内饰</td><td class='num'>635</td><td class='num'>717</td><td class='num'>575</td><td class='num'>63</td><td class='num'>49</td><td class='num'>30</td><td class='num '>8.8%</td></tr><tr><td>空间与舒适性</td><td class='num'>239</td><td class='num'>302</td><td class='num'>118</td><td class='num'>131</td><td class='num'>18</td><td class='num'>35</td><td class='num warn'>43.4%</td></tr><tr><td>智能座舱与车机</td><td class='num'>278</td><td class='num'>301</td><td class='num'>236</td><td class='num'>23</td><td class='num'>31</td><td class='num'>11</td><td class='num '>7.6%</td></tr><tr><td>品牌与口碑</td><td class='num'>282</td><td class='num'>291</td><td class='num'>217</td><td class='num'>45</td><td class='num'>11</td><td class='num'>18</td><td class='num '>15.5%</td></tr><tr><td>配置与功能</td><td class='num'>258</td><td class='num'>284</td><td class='num'>157</td><td class='num'>59</td><td class='num'>64</td><td class='num'>4</td><td class='num '>20.8%</td></tr><tr><td>续航与能耗</td><td class='num'>238</td><td class='num'>268</td><td class='num'>174</td><td class='num'>31</td><td class='num'>53</td><td class='num'>10</td><td class='num '>11.6%</td></tr><tr><td>驾驶与操控</td><td class='num'>205</td><td class='num'>223</td><td class='num'>154</td><td class='num'>37</td><td class='num'>25</td><td class='num'>7</td><td class='num '>16.6%</td></tr><tr><td>安全与质量</td><td class='num'>168</td><td class='num'>188</td><td class='num'>97</td><td class='num'>66</td><td class='num'>22</td><td class='num'>3</td><td class='num warn'>35.1%</td></tr><tr><td>智能驾驶</td><td class='num'>143</td><td class='num'>152</td><td class='num'>88</td><td class='num'>42</td><td class='num'>13</td><td class='num'>9</td><td class='num '>27.6%</td></tr><tr><td>价格与成本</td><td class='num'>134</td><td class='num'>144</td><td class='num'>91</td><td class='num'>42</td><td class='num'>5</td><td class='num'>6</td><td class='num '>29.2%</td></tr><tr><td>动力与性能</td><td class='num'>137</td><td class='num'>137</td><td class='num'>123</td><td class='num'>4</td><td class='num'>8</td><td class='num'>2</td><td class='num '>2.9%</td></tr><tr><td>服务与交付</td><td class='num'>122</td><td class='num'>132</td><td class='num'>46</td><td class='num'>62</td><td class='num'>22</td><td class='num'>2</td><td class='num warn'>47.0%</td></tr><tr><td>可靠性与故障</td><td class='num'>90</td><td class='num'>98</td><td class='num'>12</td><td class='num'>54</td><td class='num'>26</td><td class='num'>6</td><td class='num warn'>55.1%</td></tr><tr><td>充电与补能</td><td class='num'>61</td><td class='num'>64</td><td class='num'>38</td><td class='num'>13</td><td class='num'>13</td><td class='num'>0</td><td class='num '>20.3%</td></tr><tr><td>其他</td><td class='num'>53</td><td class='num'>54</td><td class='num'>24</td><td class='num'>13</td><td class='num'>15</td><td class='num'>2</td><td class='num '>24.1%</td></tr><tr><td>技术原理</td><td class='num'>1</td><td class='num'>1</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='num'>0</td><td class='num '>0.0%</td></tr></table>
+<p class='note'>同帖可涉及多个话题，话题帖数不可相加；故障与交付类话题天然更易收录负面内容，其高负面占比不能反推故障水平。</p><div class='impl'><span class='fl'>研究含义</span>外观与内饰声量居首（717 条观点、635 帖）而负面占比仅 8.8%，是口碑传播的主要载体；可靠性与故障（55.1%）、服务与交付（47.0%）负面占比最高但基数有限（98 条、132 条）。空间与舒适性兼具一定基数与高负面占比（43.4%，131/302 条、113 帖），且负面观点可细分为腿部支撑、坐姿适配、噪声等具体问题——是当前最值得优先拆解的改进话题。</div></section>
+<section id='F2'><h2><span class='no'>2</span>样本随车主身份筛选逐层收窄，车主满意度不可直接测得</h2><div class='finding'><span class='fl'>发现</span>从"提及 SU7"到"当前车主且亲历使用"，样本逐层收窄约 40 倍；身份标签的系统性误差使"真实车主满意度"无法从本数据测得。</div><figure><svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" font-family="system-ui,sans-serif" font-size="13">
+<title>Cohort 漏斗</title>
+<rect width="760" height="320" fill="#ffffff"/>
+<text x="12" y="26" font-size="15" font-weight="bold" fill="#263238">用户群漏斗：从“沾边讨论”到“当前拥有且亲历”</text>
+<text x="242" y="63.4" text-anchor="end" fill="#37474f">全部关联SU7</text>
+<rect x="250" y="48" width="420.0" height="22" fill="#1565c0" rx="3"/>
+<text x="676.0" y="63.4" fill="#455a64">6,058 帖</text>
+<text x="242" y="97.4" text-anchor="end" fill="#37474f">SU7主对象且引文通过（无比较）</text>
+<rect x="250" y="82" width="234.1" height="22" fill="#1565c0" rx="3"/>
+<text x="490.1" y="97.4" fill="#455a64">3,377 帖</text>
+<text x="242" y="131.4" text-anchor="end" fill="#37474f">产品体验或风险</text>
+<rect x="250" y="116" width="125.5" height="22" fill="#1565c0" rx="3"/>
+<text x="381.5" y="131.4" fill="#455a64">1,810 帖</text>
+<text x="242" y="165.4" text-anchor="end" fill="#37474f">明确亲历体验或风险</text>
+<rect x="250" y="150" width="32.2" height="22" fill="#1565c0" rx="3"/>
+<text x="288.2" y="165.4" fill="#455a64">465 帖</text>
+<text x="242" y="199.4" text-anchor="end" fill="#37474f">当前拥有且亲历使用</text>
+<rect x="250" y="184" width="10.3" height="22" fill="#1565c0" rx="3"/>
+<text x="266.3" y="199.4" fill="#455a64">148 帖</text>
+<text x="242" y="233.4" text-anchor="end" fill="#37474f">明确未拥有的购车前表达</text>
+<rect x="250" y="218" width="17.7" height="22" fill="#1565c0" rx="3"/>
+<text x="273.7" y="233.4" fill="#455a64">255 帖</text>
+<text x="242" y="267.4" text-anchor="end" fill="#37474f">已订未提表达</text>
+<rect x="250" y="252" width="5.3" height="22" fill="#1565c0" rx="3"/>
+<text x="261.3" y="267.4" fill="#455a64">76 帖</text>
+<text x="12" y="310" font-size="11" fill="#90a4ae">横条=帖数。来源：summary.json.cohorts｜漏斗图自左向右逐层收窄，表达数不可跨层相加</text>
+</svg><figcaption>横条为帖数。层间样本留存率为相对上一层的比例（派生值）。来源：summary.json</figcaption></figure>
+<table><tr><th>用户群体</th><th class='num'>帖数</th><th class='num'>表达数</th><th class='num'>相对上一层保留率</th></tr><tr><td>全部关联SU7</td><td class='num'>6,058</td><td class='num'>18,087</td><td class='num'>—</td></tr><tr><td>SU7主对象且引文通过（无比较）</td><td class='num'>3,377</td><td class='num'>7,024</td><td class='num'>55.7%</td></tr><tr><td>产品体验或风险</td><td class='num'>1,810</td><td class='num'>3,356</td><td class='num'>53.6%</td></tr><tr><td>明确亲历体验或风险</td><td class='num'>465</td><td class='num'>942</td><td class='num'>25.7%</td></tr><tr><td>当前拥有且亲历使用</td><td class='num'>148</td><td class='num'>297</td><td class='num'>31.8%</td></tr><tr><td>明确未拥有的购车前表达</td><td class='num'>255</td><td class='num'>522</td><td class='num'>172.3%</td></tr><tr><td>已订未提表达</td><td class='num'>76</td><td class='num'>140</td><td class='num'>29.8%</td></tr></table>
+<table><tr><th>持有标识</th><th class='num'>帖数</th></tr><tr><td>仅试驾或借用</td><td class='num'>26</td></tr><tr><td>已订未提</td><td class='num'>408</td></tr><tr><td>当前拥有</td><td class='num'>1514</td></tr><tr><td>无法判断</td><td class='num'>6877</td></tr><tr><td>明确未拥有</td><td class='num'>680</td></tr><tr><td>曾拥有但已出售或退订</td><td class='num'>24</td></tr></table>
+<details><summary>身份标签的误差证据</summary><p>"当前车主且亲历使用"候选（148 帖 / 297 条）经定向回读复核，发现试驾观察、短期租车及其他品牌车主等非持有情形；如"年轻人的第一台小米 SU7"原文写明驾驶他牌车辆并简单试驾。候选中 190 条正面观点不构成满意率。报告保留原始标签用于定位误差，不静默改写源数据。</p></details><div class='impl'><span class='fl'>研究含义</span>本报告全部结论按对应群体口径表述，不外推至"所有车主"；涉及满意度、故障率的问题须依赖售后服务数据或专门研究，论坛语料只能提供方向性线索。</div></section>
+<section id='F3'><h2><span class='no'>3</span>购车前与使用阶段的关注结构发生系统性转移</h2><div class='finding'><span class='fl'>发现</span>价格与价值是购车决策期的核心关切，进入使用阶段后关注重心转向舒适性与细节体验；服务焦虑在已订购未交付阶段达到峰值。</div><figure><svg xmlns="http://www.w3.org/2000/svg" width="760" height="492" viewBox="0 0 760 492" font-family="system-ui,sans-serif" font-size="13">
+<title>购前 vs 用车：关注点转移</title>
+<rect width="760" height="492" fill="#ffffff"/>
+<text x="12" y="26" font-size="15" font-weight="bold" fill="#263238">同一方面，购前与用车人群的表达数对比</text>
+<text x="142" y="69.6" text-anchor="end" fill="#37474f">外观与内饰</text>
+<rect x="150" y="52" width="470.0" height="14" fill="#1565c0" rx="2"><title>外观与内饰 购前:117</title></rect>
+<text x="626.0" y="62.5" font-size="11" fill="#546e7a">购前 117</text>
+<rect x="150" y="70" width="273.2" height="14" fill="#ef6c00" rx="2"><title>外观与内饰 用车:68</title></rect>
+<text x="429.2" y="80.5" font-size="11" fill="#546e7a">用车 68</text>
+<text x="142" y="111.6" text-anchor="end" fill="#37474f">价格与成本</text>
+<rect x="150" y="94" width="369.6" height="14" fill="#1565c0" rx="2"><title>价格与成本 购前:92</title></rect>
+<text x="525.6" y="104.5" font-size="11" fill="#546e7a">购前 92</text>
+<rect x="150" y="112" width="24.1" height="14" fill="#ef6c00" rx="2"><title>价格与成本 用车:6</title></rect>
+<text x="180.1" y="122.5" font-size="11" fill="#546e7a">用车 6</text>
+<text x="142" y="153.6" text-anchor="end" fill="#37474f">智能座舱与车机</text>
+<rect x="150" y="136" width="164.7" height="14" fill="#1565c0" rx="2"><title>智能座舱与车机 购前:41</title></rect>
+<text x="320.7" y="146.5" font-size="11" fill="#546e7a">购前 41</text>
+<rect x="150" y="154" width="148.6" height="14" fill="#ef6c00" rx="2"><title>智能座舱与车机 用车:37</title></rect>
+<text x="304.6" y="164.5" font-size="11" fill="#546e7a">用车 37</text>
+<text x="142" y="195.6" text-anchor="end" fill="#37474f">配置与功能</text>
+<rect x="150" y="178" width="156.7" height="14" fill="#1565c0" rx="2"><title>配置与功能 购前:39</title></rect>
+<text x="312.7" y="188.5" font-size="11" fill="#546e7a">购前 39</text>
+<rect x="150" y="196" width="88.4" height="14" fill="#ef6c00" rx="2"><title>配置与功能 用车:22</title></rect>
+<text x="244.4" y="206.5" font-size="11" fill="#546e7a">用车 22</text>
+<text x="142" y="237.6" text-anchor="end" fill="#37474f">空间与舒适性</text>
+<rect x="150" y="220" width="152.6" height="14" fill="#1565c0" rx="2"><title>空间与舒适性 购前:38</title></rect>
+<text x="308.6" y="230.5" font-size="11" fill="#546e7a">购前 38</text>
+<rect x="150" y="238" width="176.8" height="14" fill="#ef6c00" rx="2"><title>空间与舒适性 用车:44</title></rect>
+<text x="332.8" y="248.5" font-size="11" fill="#546e7a">用车 44</text>
+<text x="142" y="279.6" text-anchor="end" fill="#37474f">品牌与口碑</text>
+<rect x="150" y="262" width="140.6" height="14" fill="#1565c0" rx="2"><title>品牌与口碑 购前:35</title></rect>
+<text x="296.6" y="272.5" font-size="11" fill="#546e7a">购前 35</text>
+<rect x="150" y="280" width="48.2" height="14" fill="#ef6c00" rx="2"><title>品牌与口碑 用车:12</title></rect>
+<text x="204.2" y="290.5" font-size="11" fill="#546e7a">用车 12</text>
+<text x="142" y="321.6" text-anchor="end" fill="#37474f">续航与能耗</text>
+<rect x="150" y="304" width="112.5" height="14" fill="#1565c0" rx="2"><title>续航与能耗 购前:28</title></rect>
+<text x="268.5" y="314.5" font-size="11" fill="#546e7a">购前 28</text>
+<rect x="150" y="322" width="72.3" height="14" fill="#ef6c00" rx="2"><title>续航与能耗 用车:18</title></rect>
+<text x="228.3" y="332.5" font-size="11" fill="#546e7a">用车 18</text>
+<text x="142" y="363.6" text-anchor="end" fill="#37474f">智能驾驶</text>
+<rect x="150" y="346" width="100.4" height="14" fill="#1565c0" rx="2"><title>智能驾驶 购前:25</title></rect>
+<text x="256.4" y="356.5" font-size="11" fill="#546e7a">购前 25</text>
+<rect x="150" y="364" width="72.3" height="14" fill="#ef6c00" rx="2"><title>智能驾驶 用车:18</title></rect>
+<text x="228.3" y="374.5" font-size="11" fill="#546e7a">用车 18</text>
+<text x="142" y="405.6" text-anchor="end" fill="#37474f">驾驶与操控</text>
+<rect x="150" y="388" width="100.4" height="14" fill="#1565c0" rx="2"><title>驾驶与操控 购前:25</title></rect>
+<text x="256.4" y="398.5" font-size="11" fill="#546e7a">购前 25</text>
+<rect x="150" y="406" width="116.5" height="14" fill="#ef6c00" rx="2"><title>驾驶与操控 用车:29</title></rect>
+<text x="272.5" y="416.5" font-size="11" fill="#546e7a">用车 29</text>
+<rect x="12" y="452" width="12" height="12" fill="#1565c0" rx="2"/><text x="30" y="462" font-size="12" fill="#455a64">明确未拥有（购车前）</text><rect x="210" y="452" width="12" height="12" fill="#ef6c00" rx="2"/><text x="228" y="462" font-size="12" fill="#455a64">当前拥有且亲历</text>
+<text x="12" y="482" font-size="11" fill="#90a4ae">表达数。两个用户群独立、不可相加；购前样本小，比例波动大。来源：profiles.json</text>
+</svg><figcaption>同一话题在两个群体中的观点数对比（悬停查看数值）。两组独立统计、不可相加。来源：profiles.json</figcaption></figure>
+<table><tr><th>议题</th><th class='num'>购车前表达</th><th class='num'>购车前负面占比</th><th class='num'>使用阶段表达</th><th class='num'>使用阶段负面占比</th></tr><tr><td>外观与内饰</td><td class='num'>117</td><td class='num'>7.7%</td><td class='num'>68</td><td class='num'>8.8%</td></tr><tr><td>价格与成本</td><td class='num'>92</td><td class='num'>34.8%</td><td class='num'>6</td><td class='num'>33.3%</td></tr><tr><td>空间与舒适性</td><td class='num'>38</td><td class='num'>50.0%</td><td class='num'>44</td><td class='num'>47.7%</td></tr><tr><td>服务与交付</td><td class='num'>19</td><td class='num'>52.6%</td><td class='num'>9</td><td class='num'>33.3%</td></tr><tr><td>续航与能耗</td><td class='num'>28</td><td class='num'>14.3%</td><td class='num'>18</td><td class='num'>11.1%</td></tr><tr><td>智能座舱与车机</td><td class='num'>41</td><td class='num'>7.3%</td><td class='num'>37</td><td class='num'>13.5%</td></tr><tr><td>动力与性能</td><td class='num'>19</td><td class='num'>5.3%</td><td class='num'>6</td><td class='num'>0.0%</td></tr><tr><td>驾驶与操控</td><td class='num'>25</td><td class='num'>20.0%</td><td class='num'>29</td><td class='num'>10.3%</td></tr></table>
+<p class='note'>购车前群体样本较小（255 帖 / 522 条），比例仅用于方向判断，不作精度比较。</p><div class='impl'><span class='fl'>研究含义</span>购车前群体对价格与成本的负面声量占比达 34.8%，且诉求具体（如将随车权益折现、关注本地售后可达性），指向价值沟通与购车服务信息设计；车主群体负面评价集中于空间与舒适性（47.7%），对动力（6/6 正面）与操控（24/29 正面）评价积极。已订购未交付群体服务与交付负面占比 61.1%（11/18），交付等待期是服务沟通的关键窗口。</div></section>
+<section id='F4'><h2><span class='no'>4</span>比较话语集中于少数参照车型</h2><div class='finding'><span class='fl'>发现</span>用户在讨论 SU7 时的心智参照高度集中：特斯拉 Model 3 的关联提及频次显著高于其余车型。</div><table><tr><th>车系</th><th class='num'>共提及帖数</th></tr><tr><td>特斯拉 Model 3</td><td class='num'>201</td></tr><tr><td>极氪 001</td><td class='num'>73</td></tr><tr><td>极氪 007</td><td class='num'>63</td></tr><tr><td>比亚迪 汉</td><td class='num'>38</td></tr><tr><td>保时捷 Taycan</td><td class='num'>31</td></tr><tr><td>尚界 Z7</td><td class='num'>29</td></tr><tr><td>特斯拉 Model S</td><td class='num'>28</td></tr><tr><td>阿维塔 12</td><td class='num'>27</td></tr></table>
+<p class='note'>白名单规则：SU7 加上关联提及去重帖数最多的 8 个非小米车系（≥10 帖）。提及覆盖：10,392 条（范围外 3,686、未解决 734、排除 190）。</p><div class='impl'><span class='fl'>研究含义</span>Model 3（201 帖）与极氪 001/007 是主要的比较参照对象，竞品沟通与对标分析可优先覆盖该组车型。关联提及频次反映心智参照强度，比较类观点按原文保留，不以整体情感为任何车型打分；品牌级提及不计入具体车系。</div></section>
+<section id='F5'><h2><span class='no'>5</span>典型用户原声：从统计信号到具体场景</h2><div class='finding'><span class='fl'>发现</span>以下 11 个案例将统计信号落到具体场景。每条区分用户原话与分析推导，并标注证据边界；目的抽样，非随机样本，未经语义标注验收。</div><div class='filterbar' id='casefilter'><button data-v='' class='on'>全部议题</button><button data-v='价格与成本'>价格与成本</button><button data-v='充电与补能'>充电与补能</button><button data-v='品牌与口碑'>品牌与口碑</button><button data-v='智能座舱与车机'>智能座舱与车机</button><button data-v='智能驾驶'>智能驾驶</button><button data-v='服务与交付'>服务与交付</button><button data-v='空间与舒适性'>空间与舒适性</button><button data-v='续航与能耗'>续航与能耗</button></div><div class='case' data-aspect='空间与舒适性'><div class='hd'><span><b>1. 后排支撑与长途舒适</b><span class='badge b-a'>空间与舒适性</span><span class='badge b-n'>负面</span><span class='badge b-s'>试驾体验，不是SU7持有证明</span></span><span class='meta'>2024-10-16</span></div><blockquote>后排座椅对大腿的支撑性不佳，而且座椅有点偏硬，长期乘坐可能不舒适</blockquote><div class='need'><b>改进假设：</b>让不同身高的后排乘客在长时间乘坐中获得足够腿部支撑。</div><div class='bd'><b>证据边界：</b>分析推导；长途后果在这条原文中是预期，不是已发生的长期体验。 · <a href='https://club.autohome.com.cn/bbs/thread/0e9d99b0abd6f19a/109466958-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='空间与舒适性'><div class='hd'><span><b>2. 后排身高适配</b><span class='badge b-a'>空间与舒适性</span><span class='badge b-n'>负面</span><span class='badge b-s'>自述主力用车；叙事真实性未核验</span></span><span class='meta'>2026-03-17</span></div><blockquote>后排空间对1米8以上的朋友不算宽裕</blockquote><div class='need'><b>改进假设：</b>看车与试驾环节提供可感知的身高—坐姿适配信息。</div><div class='bd'><b>证据边界：</b>分析推导；不能由单帖推成所有高个乘客结论。 · <a href='https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='智能座舱与车机'><div class='hd'><span><b>3. HUD可读性与信息提前量</b><span class='badge b-a'>智能座舱与车机</span><span class='badge b-n'>负面</span><span class='badge b-s'>主观体验；持有状态不单独确证</span></span><span class='meta'>2024-05-06</span></div><blockquote>SU7 MAX 的 HUD 是一个很大的槽点。
+
+第一感受就是不太清晰，有点模糊。或者说分辨率很低。
+
+导致显示效果低，有些让人晕。虽然不至于挡车与人的视线，但如果前面路况不好，会影响看路上的一些情况，比如坑洼之类的，这个 HUD 基本可以完美挡住。</blockquote><div class='need'><b>改进假设：</b>让驾驶员在复杂道路和连续分叉路口看得清、看得早，减少遮挡感。</div><div class='bd'><b>证据边界：</b>分析推导；分辨率低是作者解释，不是测量结论。 · <a href='https://club.autohome.com.cn/bbs/thread/79aba2b132c3f554/108175112-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='智能座舱与车机'><div class='hd'><span><b>4. 导航中语音响应</b><span class='badge b-a'>智能座舱与车机</span><span class='badge b-n'>负面</span><span class='badge b-s'>自述使用体验</span></span><span class='meta'>2026-03-17</span></div><blockquote>澎湃OS偶尔会有点“小脾气”，导航时语音唤醒会慢半拍</blockquote><div class='need'><b>改进假设：</b>保留自然语音交互优势，同时提高导航任务下响应的一致性。</div><div class='bd'><b>证据边界：</b>分析推导；未测量延迟，也未确认软件版本。 · <a href='https://club.autohome.com.cn/bbs/thread/4d2d1ce29103cdc6/114603672-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='智能驾驶'><div class='hd'><span><b>5. 遥控泊车中断</b><span class='badge b-a'>智能驾驶</span><span class='badge b-n'>负面</span><span class='badge b-s'>自述一次尝试</span></span><span class='meta'>2025-09-15</span></div><blockquote>我试过一次，中途蓝牙突然断了，结果车子直接停在半道不动了，吓得我赶紧走过去看。所以提醒大家，用这功能一定要等车完全停稳、停好之后再离开，不然真有风险。</blockquote><div class='need'><b>改进假设：</b>连接中断时清楚说明车辆状态、停止原因及下一步恢复方式。</div><div class='bd'><b>证据边界：</b>分析推导；风险判断来自作者，不认定技术缺陷或事故原因。 · <a href='https://club.autohome.com.cn/bbs/thread/e024a801eee64c1f/112892669-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='智能驾驶'><div class='hd'><span><b>6. 自动泊车与售后责任</b><span class='badge b-a'>智能驾驶</span><span class='badge b-n'>负面</span><span class='badge b-s'>单方事故归因陈述</span></span><span class='meta'>2026-07-07</span></div><blockquote>这是小米su7自动泊车出现的尾部撞损</blockquote><div class='need'><b>改进假设：</b>为泊车争议提供可回查的过程记录、功能边界和清晰责任处理流程。</div><div class='bd'><b>证据边界：</b>分析推导；碰撞过程、责任、图中位置均未核验。 · <a href='https://club.autohome.com.cn/bbs/thread/9f09473f23bafc55/115561944-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='充电与补能'><div class='hd'><span><b>7. 充电功率信息解释</b><span class='badge b-a'>充电与补能</span><span class='badge b-n'>负面</span><span class='badge b-s'>带数值的用户疑问</span></span><span class='meta'>2026-01-16</span></div><blockquote>为什么充电桩显示7kw，一直是稳定充的，国家电网也是2小时充了14.1度电，结果到了车上就只有峰值6.7kw，平均6.6kw，我那400w去哪了？
+
+从小米自己自己的充电时间看，确实没有7kw</blockquote><div class='need'><b>改进假设：</b>在桩端、车辆端及计费数据间提供清晰的口径与损耗解释。</div><div class='bd'><b>证据边界：</b>分析推导；没有测量或账单验证。 · <a href='https://club.autohome.com.cn/bbs/thread/a3f7ae73d505588a/114155185-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='续航与能耗'><div class='hd'><span><b>8. 冬季租车的补能预期</b><span class='badge b-a'>续航与能耗</span><span class='badge b-n'>负面</span><span class='badge b-s'>明确租车一天，不是长期持有</span></span><span class='meta'>2026-01-08</span></div><blockquote>因为今天北京早上最低温度零下9度，下午最热温度6度，所以取暖的情况下，百公里大约电耗19度电。
+
+一天下来大约跑了165公里，充电花费89元。每公里也要5毛2的电费。
+
+但是今天每公里花费5毛2电费，着实不省钱。</blockquote><div class='need'><b>改进假设：</b>按温度、暖风、路线和补能方式展示可理解的用车成本预期。</div><div class='bd'><b>证据边界：</b>分析推导；公充账单不等于同一行程的真实耗电。 · <a href='https://club.autohome.com.cn/bbs/thread/e3322fb90b3349d5/114085737-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='品牌与口碑'><div class='hd'><span><b>9. 交付承诺一致性</b><span class='badge b-a'>品牌与口碑</span><span class='badge b-n'>负面</span><span class='badge b-s'>自述提车争议</span></span><span class='meta'>2025-12-15</span></div><blockquote>这早已不是几件礼品的小事，而是一种被轻视、被区别对待的感受。
+
+我希望小米汽车能对此给出一个真正合理、诚恳的解释和补救措施。</blockquote><div class='need'><b>改进假设：</b>把销售承诺、提前提车条件与交付清单提前说清，并保持执行一致。</div><div class='bd'><b>证据边界：</b>作者明确要求解释与补救；具体流程方案为分析推导。 · <a href='https://club.autohome.com.cn/bbs/thread/de660a335338f489/113849811-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='服务与交付'><div class='hd'><span><b>10. 售后可达性影响购车顾虑</b><span class='badge b-a'>服务与交付</span><span class='badge b-n'>负面</span><span class='badge b-s'>未购者的历史顾虑</span></span><span class='meta'>2024-03-29</span></div><blockquote>离我最近的小米提车交付店在北京1000多公里买台车只能用板车拉回来，在自己的城市开有点什么小毛病都没售后处理的地方，还有就是维修时效，眼下小米售后这一块就还没落实</blockquote><div class='need'><b>改进假设：</b>在购车前明确当地服务覆盖、故障送修路径及预计处理时效。</div><div class='bd'><b>证据边界：</b>分析推导；须按用户城市和当下服务覆盖再验证。 · <a href='https://club.autohome.com.cn/bbs/thread/013c71a6c3d9fc56/107897049-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div><div class='case' data-aspect='价格与成本'><div class='hd'><span><b>11. 权益形式与实用价值</b><span class='badge b-a'>价格与成本</span><span class='badge b-n'>负面</span><span class='badge b-s'>未购者的权益偏好</span></span><span class='meta'>2024-03-29</span></div><blockquote>1.冰箱2000元，你花个2-300在TB上面买个冰箱不好么？带滚轮和拉杆箱的，可以在下车后去公园，去其他地方携带方便，容量也大啊，建议给个折现吧。</blockquote><div class='need'><b>改进假设：</b>提供与个人使用场景匹配、可理解的权益选择。</div><div class='bd'><b>证据边界：</b>作者明确提出折现；不是所有用户都偏好现金优惠。 · <a href='https://club.autohome.com.cn/bbs/thread/170a414efc11ae8f/107896577-1.html' target='_blank' rel='noopener'>原帖链接</a></div></div>
+<p class='note'>案例价值在于揭示话题内部的具体障碍："后排不舒适"可拆解为身高适配与腿部支撑，"功能不好用"可拆解为可读性、响应及时性与中断后的状态说明。改进假设均为分析推导，不是用户原话。</p><div class='impl'><span class='fl'>研究含义</span>案例与统计互为印证：后排舒适性（案例 1、2）、交付承诺（案例 9）、HUD 可读性（案例 3）分别对应 F1 与 F3 的高负面占比信号；引用案例时须连同表达性质与证据边界一并呈现。</div></section><section id='s-rec'><h2>建议与优先级</h2><p class='lead'>以下建议按证据集中度排序，表述为值得优先调查与验证的改进方向。历史数据不证明现行产品状态，落地前须结合当前产品与配置核对。</p><div class='rec p1'><span class='p'>P1</span><b>排查后排长途乘坐舒适性</b><div class='ev'><b>依据：</b>空间与舒适性负面声量占比 43.4%（131/302 条，113 帖）；典型原声指向后排腿部支撑不足与座椅偏硬、高个乘客空间受限（案例 1、2）。</div><div class='bd'><b>边界：</b>负面声量占比为表达口径；本条确立调查优先级，不构成已证实的缺陷结论。</div></div>
+<div class='rec p1'><span class='p'>P1</span><b>保障交付承诺的一致执行</b><div class='ev'><b>依据：</b>已订购未交付群体服务与交付负面占比 61.1%；整体服务与交付负面 47.0%；典型原声显示交付赠品承诺未兑现被感知为区别对待（案例 9）。</div><div class='bd'><b>边界：</b>依据为用户单方陈述，非服务流程审计结论。</div></div>
+<div class='rec p2'><span class='p'>P2</span><b>改善 HUD 可读性与连续路口信息提示</b><div class='ev'><b>依据：</b>典型原声集中反映显示模糊、视觉负担及连续分叉路口提示不足（案例 3）；同帖对空气悬架与座椅持正面评价，负面指向具体功能而非整体体验。</div><div class='bd'><b>边界：</b>"分辨率低"为用户主观解释，非测量结论。</div></div>
+<div class='rec p2'><span class='p'>P2</span><b>提升购车前服务信息透明度</b><div class='ev'><b>依据：</b>未购车群体服务与交付负面占比 52.6%；典型原声对本地维修网点距离与维修时效存在明确顾虑（案例 10）。</div><div class='bd'><b>边界：</b>须按用户所在城市与当前服务网络覆盖另行核验。</div></div>
+<div class='rec p2'><span class='p'>P2</span><b>补全补能信息口径与场景化成本说明</b><div class='ev'><b>依据：</b>典型原声包含充电桩与车端功率显示差异的疑问，以及冬季低温场景下用车成本的困惑（案例 7、8）。</div><div class='bd'><b>边界：</b>未测量、未核账；属于信息解释与预期管理问题，非质量缺陷指控。</div></div>
+<div class='rec p2'><span class='p'>P2</span><b>提供与使用场景匹配的权益形式</b><div class='ev'><b>依据：</b>典型原声明确提出将随车冰箱权益折现的诉求（案例 11）。</div><div class='bd'><b>边界：</b>个体偏好表达，不外推为普遍需求。</div></div>
+<div class='concl'>优先级来自证据集中度与具体性：兼具基数、负面占比与可拆解场景的话题（后排舒适性）优先于基数有限的话题；交付与服务类话题基数虽小，但情感强度高且发生在决策关键期，同列优先。</div></section>
+<section id='appendix'><h2>附录</h2><details><summary>A · 处理流程与复现</summary><p>报告全部数字与图表由构建脚本从冻结数据自动生成：构建（builder）从上游数据计算统计答案册并绘制图表，渲染（render）将章节注册表与答案册合成为人类版与机器可读版两份成品，校验（verify）强制两份成品的数字与答案册一致。</p><p>复现方式：在 agent-kb 目录执行 python run.py all（Python 3.11+，仅标准库）。数据来源哈希与生成参数见 output/data-version.json，最近一次校验结果见 evidence/verify-latest.json。</p><p>配套的机器可读知识库为 output/report.md，含完整口径定义与使用边界清单，供问答系统引用。</p></details><details><summary>B · 术语表</summary><p>用户观点：从原帖抽取的单条结构化陈述；观点数不等于发言人数。
+声量：某话题下的观点数量，用于衡量讨论热度。
+负面声量占比：该话题内负面观点占全部观点的比例，不是不满意用户比例。
+用户分层群体：按持有状态与经历条件划分的样本子集，层层嵌套，各群体数值不可相加。
+证据回溯校验：验证每条观点的原文引文能在原帖中定位，不测量语义标注准确率。
+车主身份标签：帖子层面的模型推断标签，不构成对作者真实身份的证明。
+关联提及：同一帖文中与其他车系共同出现的提及，用于识别比较参照对象。</p></details><details><summary>C · 使用边界</summary><p>本报告不能回答：真实车主满意度、产品故障率、购买转化率、现行产品规格与服务网络现状、因果性结论、竞品优劣排名。</p><p>数据为历史快照（2022-10-28 至 2026-10-03），涉及现状的问题须结合最新信息核验。</p></details></section>
+<div class="footer">由构建脚本从冻结数据自动生成，数字经一致性校验 · 与机器可读知识库 report.md 同源 · 生成时间 2026-10-22T08:06:29+00:00</div>
+</main>
+<script>
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.tabs button');if(!b)return;
+  const group=b.closest('.tabs');
+  group.querySelectorAll('button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');
+  const scope=b.closest('section');
+  scope.querySelectorAll('.pane').forEach(p=>p.classList.toggle('on',p.id===b.dataset.pane));
+});
+const cl=document.getElementById('casefilter');
+if(cl){cl.addEventListener('click',e=>{
+  const b=e.target.closest('button');if(!b)return;
+  cl.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+  document.querySelectorAll('.case').forEach(c=>c.style.display=(b.dataset.v===''||c.dataset.aspect===b.dataset.v)?'':'none');
+});}
+const links=[...document.querySelectorAll('#toc a')];
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id));}});},{rootMargin:'-15% 0px -75% 0px'});
+document.querySelectorAll('main section').forEach(s=>io.observe(s));
+</script>
+</body>
+</html>

@@ -1,0 +1,504 @@
+{
+  "schema_version": "2.3",
+  "post_id": "91c3dc5086ac03b9",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7提车分享已经用车体验"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "SU7 Max"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "极氪001",
+      "entity_level": "具体配置",
+      "brand": "极氪",
+      "series": "001",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "那段时间我试驾了极氪001和智己L6。"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "智己L6",
+      "entity_level": "具体配置",
+      "brand": "智己",
+      "series": "L6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "那段时间我试驾了极氪001和智己L6。"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者选择在广州提车，原因是相比深圳同配置保险便宜一千多元。",
+      "sentiment": "正面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "今年6月初，我特意跑到广州提的车——原因很简单，对比了身边在深圳提车的朋友，同配置下广州的保险便宜了一千多块。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者选装了霞光紫车漆和20寸梅花轮毂，Nappa真皮内饰免费赠送，对整体价格感到满意。",
+      "sentiment": "正面",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "而且当时选装了霞光紫车漆和20寸梅花轮毂，内饰Nappa真皮还是免费送的，整体算下来非常满意。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者因市区通勤需纯电且回乡需500km以上续航，试驾后放弃极氪001（担心背刺及高速电耗高）和智己L6（功能不完善），最终选择小米SU7。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "因为日常基本在市区通勤，第一选择肯定是纯电车，但每年还得回几趟粤北老家，所以对续航有硬性要求——至少500公里以上。那段时间我试驾了极氪001和智己L6。极氪001配置确实高，空间也大，但“背刺”事件让我心里打鼓，再加上网上普遍反映高速电耗偏高，最终还是忍痛放弃；智己L6试驾时刚好赶上新版本刚上市，很多功能还不完善，很多功能属于半成品状态，体验感一般。反倒是小米SU7，虽然网上争议不少，但销量一直稳居前列。试驾完之后，底盘扎实、加速迅猛、车机流畅，尤其是和手机生态联动太顺了，那一刻我就知道：就是它了。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "其他",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "极氪001配置确实高，空间也大，但“背刺”事件让我心里打鼓，再加上网上普遍反映高速电耗偏高，最终还是忍痛放弃"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "其他",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "智己L6试驾时刚好赶上新版本刚上市，很多功能还不完善，很多功能属于半成品状态，体验感一般。反倒是小米SU7...那一刻我就知道：就是它了。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者日常市区通勤，每年回粤北老家，对续航有500公里以上要求。",
+        "evidence": [
+          {
+            "block_id": "T4",
+            "source_type": "text",
+            "quote": "因为日常基本在市区通勤，第一选择肯定是纯电车，但每年还得回几趟粤北老家，所以对续航有硬性要求——至少500公里以上。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者对交付流程满意，工作人员耐心讲解功能并提供午餐，但上牌代办仍需自行前往车管所。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "交付小姐姐特别耐心，一项项讲解车辆功能，从哨兵模式到自动泊车，再到能量回收调节，事无巨细。最让我感动的是，到了午饭时间，他们居然还给我点了一份午餐！整个流程顺畅又有温度。唯一的小遗憾是上牌服务——虽然花了388元买了代办，但还是要自己去车管所验车和选号，不过全程只需配合，也算省心。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者在封闭路段尝试弹射起步，感觉推背感强，加速迅猛。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "我三天就跑满了，迫不及待在封闭路段试了弹射起步，推背感直接拉满，爽到飞起！"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": {
+        "summary": "在封闭路段进行弹射起步测试。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "迫不及待在封闭路段试了弹射起步"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者身高175cm，认为车内空间合适，座椅支撑性好，长途驾驶腰部不酸痛。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "空间对我来说刚刚好，175cm身高坐进去很舒服，座椅支撑也不错，长途开下来腰不酸。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者身高175cm，进行长途驾驶。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "175cm身高坐进去很舒服，座椅支撑也不错，长途开下来腰不酸。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者日常市区通勤电耗约20kWh/100km，国庆期间高速加山路最低电耗16.5kWh/100km，续航达成率超80%，对此表示满意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "日常市区通勤电耗大概在20kWh/100km左右，国庆回老家跑高速+山路，最低做到过16.5kWh，续航达成率超80%，非常满意。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "日常市区通勤；国庆期间回老家跑高速和山路。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "日常市区通勤电耗大概在20kWh/100km左右，国庆回老家跑高速+山路"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者指出哨兵模式夜间耗电较多，一晚掉电3%-5%，不开启又不放心，视为一种矛盾体验。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "不过哨兵模式确实费电，一晚上能掉3%-5%的电量，不开又总觉得不安心……真是甜蜜的烦恼。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "夜间开启哨兵模式。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "哨兵模式确实费电，一晚上能掉3%-5%的电量"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者更换小米17 Pro Max后，发现手机与车机生态联动（投屏、反向操控、无缝流转）优势明显，优于之前使用iPhone CarPlay的体验。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "我之前用的是iPhone，CarPlay连接非常丝滑；后来换了小米17 Pro Max，才发现新天地——手机可以直接投屏到车机，还能反向操控，导航、音乐无缝流转，生态优势真的明显。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "社交表达与无实质主张",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者将车辆改装为《崩坏3》主题痛车，并分享由此获得的社交成就感和车友群互动体验。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T11",
+          "source_type": "text",
+          "quote": "三个月前我完成了人生第一台痛车改装：全车哑光蓝底，贴上了《崩坏3》希儿和布洛妮娅的角色图。...每次停在商场都有人拍照，车友群也纷纷点赞，成就感爆棚！"
+        },
+        {
+          "block_id": "T15",
+          "source_type": "text",
+          "quote": "这半年里，我还参加了好几次本地车友聚会，认识了一群志同道合的朋友。大家聊驾驶、聊改装、聊用车技巧，氛围特别温馨。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者建议潜在买家亲自试驾，认为Max版性价比高（四驱、双电机、激光雷达），适合小米手机用户，并建议比价提车及加入车友群。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T16",
+          "source_type": "text",
+          "quote": "最后想对还在观望的车友说几句：别只看网上的黑料，亲自去试驾一次，感受才最真实；Max版真的很值，四驱+双电机+激光雷达，未来几年都不会落伍；如果你用小米手机，那简直是天作之合；提车时不妨多比比不同城市的报价，说不定能省下一笔；最重要的是，加入车友群，你会发现这不仅是一台车，更是一个温暖的圈子。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T8",
+        "source_type": "text",
+        "quote": "用车这半年，SU7 Max完全没让我失望。"
+      },
+      {
+        "block_id": "T11",
+        "source_type": "text",
+        "quote": "三个月前我完成了人生第一台痛车改装"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视续航（至少500公里以上）",
+      "偏好纯电车型",
+      "重视手机与车机生态联动",
+      "喜欢个性化改装（痛车）"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 Max的提车经过及半年用车体验。文中详述了在广州提车以节省保险费用、选装配置及交付服务的细节。作者对比了极氪001和智己L6，最终因续航、底盘及生态联动选择SU7 Max。用车期间，作者对加速、空间、能耗及车机互联表示满意，但也指出了哨兵模式费电的问题。此外，作者分享了将车辆改装为二次元痛车及参与车友聚会的经历，并向潜在买家提供了购买建议。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

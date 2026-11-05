@@ -1,0 +1,17 @@
+# 数据与媒体统一走 Git LFS：仓库以"数据可复现"为目标，文本代码仍走普通对象库。
+*.csv     filter=lfs diff=lfs merge=lfs -text
+*.jsonl   filter=lfs diff=lfs merge=lfs -text
+*.gz      filter=lfs diff=lfs merge=lfs -text
+*.sqlite3 filter=lfs diff=lfs merge=lfs -text
+*.db      filter=lfs diff=lfs merge=lfs -text
+*.jpg     filter=lfs diff=lfs merge=lfs -text
+*.jpeg    filter=lfs diff=lfs merge=lfs -text
+*.png     filter=lfs diff=lfs merge=lfs -text
+*.pdf     filter=lfs diff=lfs merge=lfs -text
+*.doc     filter=lfs diff=lfs merge=lfs -text
+*.docx    filter=lfs diff=lfs merge=lfs -text
+*.xlsx    filter=lfs diff=lfs merge=lfs -text
+*.zip     filter=lfs diff=lfs merge=lfs -text
+
+# 无扩展名的原始抓取块（sha256 命名）
+offline_analysis_pipeline/data/stock/raw/** filter=lfs diff=lfs merge=lfs -text

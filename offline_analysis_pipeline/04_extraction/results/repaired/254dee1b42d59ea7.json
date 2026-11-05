@@ -1,0 +1,298 @@
+{
+  "schema_version": "2.3",
+  "post_id": "254dee1b42d59ea7",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "开 小米 su7max，满半年记录"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者记录车辆行驶2万公里后的能耗情况，总平均能耗为16.8kWh/100km，预计随天气变凉降至16.5左右；高速续航约500-550km，市区续航650km以上。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "开了20000公里了...总计到目前百公里16.8，预计随着广东的天气变凉，还能到16.5左右吧。跑高速500-550，市区应该650+"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "生涯总计：总行驶里程 20,000 km，总耗电量 3,509 kWh，总怠速耗电量 136 kWh，平均行驶能耗 16.8 kWh/100km。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "在广东地区使用，涵盖高速和市区路况，经历天气由热转凉的过程。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "预计随着广东的天气变凉"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者称近4个月仅补过一次胎，摆脱了之前频繁扎钉的情况；期间发生过一次OTA导致的喇叭故障，经售后免费拖车至深圳维修更换后解决，总体认为半年内质量问题尚可接受。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "摆脱了之前扎钉的魔咒，这4个月只补了一次胎...中间出了一次OTA问题，把喇叭烧了，免费拉了板车去深圳修，售后更换后也没事了。总体半年下来没什么其他问题，质量还算过得去。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "车辆使用半年期间，涉及日常行驶及一次售后维修经历。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "总体半年下来"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者参与了城区NOA先锋计划，累计智驾里程7400公里，泊车使用800余次。作者认为高速、高架及泊车功能的智驾表现值得信赖，但城区NOA目前落后第一梯队较多，实用性较差，需等待后续OTA优化。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "目前总体高速+高架+泊车还是可以相信su7自己来的，城区NOA目前落后第一梯队还是很多，是真的没法用[受虐滑稽]继续等后续的OTA吧。"
+        },
+        {
+          "block_id": "I4",
+          "source_type": "image_summary",
+          "quote": "'智驾总里程'为7394 km... '智能泊车辅助'使用了720次，'代客泊车辅助'使用了94次。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "在城市道路、高速、高架及泊车场景中使用智能驾驶功能。",
+        "evidence": [
+          {
+            "block_id": "T5",
+            "source_type": "text",
+            "quote": "高速+高架+泊车...城区NOA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者表示经过几个月的系统升级，车机增加了许多便利性功能，对其使用情况感到比较满意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "车机随着几个月的升级也添加了很多便利性的功能，使用下来还是比较满意。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者参加了秋季免费检测活动，享受了洗车、充电等服务，认为服务质量不错，但对赠送的杯子颜色与车身颜色不符表示遗憾。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "秋季做了免费的检测，到服务中心连吃带拿，洗车充电，服务确实还可以，可惜送的杯子不是跟我的车一个颜色。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "前往服务中心参加秋季免费检测活动。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "到服务中心连吃带拿"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者购买了底盘灯、头枕、气门芯和香氛机等配件，认为底盘灯视觉效果较好，其他配件吸引力一般。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "配件入手了底盘灯、头枕、气门芯和香氛机，其他还是觉得没什么吸引到的点，底盘灯和车友装装X还是挺帅的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者观察到随着交付量增加，路上看到同款车型的频率提高，并发现自己所选的“流星蓝”配色在车主群体中较为冷门。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "随着交车越来越多，车友也多了起来了。每天在路上都能看到，只是妹想到我的流星蓝居然成了最冷门的颜色"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "开 小米 su7max，满半年记录"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "开了20000公里了"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "车主分享小米SU7 Max使用半年的记录，包括2万公里的能耗数据、一次OTA引发的喇叭故障及售后处理、智能驾驶（特别是城区NOA）的体验评价、车机升级满意度、配件改装以及秋季服务活动体验。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

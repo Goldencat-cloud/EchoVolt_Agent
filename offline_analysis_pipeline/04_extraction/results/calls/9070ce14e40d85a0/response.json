@@ -1,0 +1,600 @@
+{
+  "schema_version": "2.3",
+  "post_id": "9070ce14e40d85a0",
+  "products": [
+    {
+      "id": "P1",
+      "name": "智己L6",
+      "entity_level": "车系",
+      "brand": "智己",
+      "series": "L6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预售23-33万的智己L6"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米su7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "su7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "流量王者小米su7"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者认为智己L6在电池技术和续航里程上优于小米su7，指出智己L6使用固态电池（真假存疑）且CLTC续航超1000公里，而小米su7最长续航为830公里。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "使用了133度的固态电池...CLTC续航上，智己L6更是来到了1000公里以上的水平了，反观小米su7最长的续航也就830公里"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "续航与能耗",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "CLTC续航上，智己L6更是来到了1000公里以上的水平了，反观小米su7最长的续航也就830公里"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者认为在双电机四驱版本中，智己L6的动力参数（579KW）和百公里加速成绩（2.74秒）优于小米su7（495KW，2.78秒）。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "在双电机四驱上面，小米su7的495KW与智己L6的579KW，差了可就不是一点了。百公里加速引以为傲的小米2.78秒，也逊色于智己L6的2.74秒。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "动力与性能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T3",
+                "source_type": "text",
+                "quote": "在双电机四驱上面，小米su7的495KW与智己L6的579KW，差了可就不是一点了。百公里加速引以为傲的小米2.78秒，也逊色于智己L6的2.74秒。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者认为智己L6在智能驾驶硬件配置上优于小米su7，指出智己L6全系标配更高算力芯片和激光雷达，而小米su7入门版仅为纯视觉方案。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "小米su7入门版用的是84tops的OrinX上一代的芯片，没有激光雷达...但是智己L6全系标配了254tops的OrinX最新芯片，再加上激光雷达，这一点智己L6真是完胜了。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "智能驾驶",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "小米su7入门版用的是84tops的OrinX上一代的芯片，没有激光雷达...但是智己L6全系标配了254tops的OrinX最新芯片，再加上激光雷达，这一点智己L6真是完胜了。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为在人车家智能互联生态方面，小米su7优于智己L6。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "但是智己L6相对于小米su7人车家智能互联的生态方面，肯定还是有一些差距的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "智能座舱与车机",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "但是智己L6相对于小米su7人车家智能互联的生态方面，肯定还是有一些差距的。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者认为智己L6具备小米su7不具备的四轮转向系统，能在狭窄地方实现更小转弯半径，操控优势明显。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "智己L6全系标配灵蜥底盘、智慧四轮转向系统...这一点上小米则是不具备的。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "驾驶与操控",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T6",
+                "source_type": "text",
+                "quote": "智己L6全系标配灵蜥底盘、智慧四轮转向系统...这一点上小米则是不具备的。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者批评智己L6未提供冰箱和大沙发等流行配置，仅增加扶手箱出风口显得鸡肋，并建议参考小米的选配模式。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T7",
+          "source_type": "text",
+          "quote": "智己依旧保持高傲的姿态，我就不配...给我增加一个空调的出风口，让我感觉稍微有点鸡肋了"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为智己L6的后排座椅舒适度优于小米su7，指出小米su7坐垫短平且靠背不可调，而智己L6有腿部支撑且靠背可调。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "小米su7坐垫短且平，靠背角度也不能调节，而智己L6的座垫往里倾斜...相比较之下智己L6还是更加的舒适一些。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T8",
+                "source_type": "text",
+                "quote": "小米su7坐垫短且平，靠背角度也不能调节，而智己L6的座垫往里倾斜...相比较之下智己L6还是更加的舒适一些。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为小米su7的前备箱空间优于智己L6，可容纳20寸行李箱，而智己L6前备箱仅能放应急设备。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T10",
+          "source_type": "text",
+          "quote": "前备箱空间小米su7更胜一筹，可放一个20寸的行李箱，而智己L6的前备箱也就放个应急设备三角牌"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "空间与舒适性",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T10",
+                "source_type": "text",
+                "quote": "前备箱空间小米su7更胜一筹，可放一个20寸的行李箱，而智己L6的前备箱也就放个应急设备三角牌"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为智己L6外观设计更具原创性和家族风格，而小米su7外观常被诟病，但两者颜值不相上下。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "小米su7的外观一直被人诟病，相比较之下，智己L6更有原创性...个人认为颜值上也不相上下。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T12",
+                "source_type": "text",
+                "quote": "小米su7的外观一直被人诟病，相比较之下，智己L6更有原创性...个人认为颜值上也不相上下。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "作者指出小米su7的车身尺寸和轴距略大于智己L6。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T12",
+          "source_type": "text",
+          "quote": "智己L6车身尺寸4931X1960X1474mm，而小米su7车身尺寸4997X1963X1455mm，相比较之下小米su7更大一些，随之而来轴距也来到了3000mm，比智己L6大了50mm。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P2",
+            "object_product_id": "P1",
+            "aspect": "其他",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T12",
+                "source_type": "text",
+                "quote": "智己L6车身尺寸4931X1960X1474mm，而小米su7车身尺寸4997X1963X1455mm，相比较之下小米su7更大一些，随之而来轴距也来到了3000mm，比智己L6大了50mm。"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "无法判断",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为小米凭借庞大用户基础和良好口碑取得了良好的初始销量，而智己因品牌知名度低及发布会失误导致处境被动，若定价高于小米则销量堪忧。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T14",
+          "source_type": "text",
+          "quote": "小米SU7...27分钟5万大定...反观智己...对于知名度本就不高的智己，更是泼了一碰冷水...如果定价如果比小米汽车高，估计销量堪忧了"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "预售23-33万的智己L6相比流量王者小米su7，都有哪些优缺点呢？"
+      }
+    ],
+    "confidence": 0.6,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子详细对比了智己L6与小米su7在电池续航、动力性能、智能驾驶、车机生态、底盘操控、后排舒适性、前备箱空间、外观设计及品牌影响力等多个维度的优劣势。作者认为智己L6在硬件配置和操控上占优，但小米su7在生态和前备箱空间上有优势，并对智己L6的最终定价和市场前景表示担忧。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "高"
+}

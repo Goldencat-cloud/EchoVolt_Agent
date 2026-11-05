@@ -1,0 +1,182 @@
+{
+  "schema_version": "2.3",
+  "post_id": "8d76b57ddbeb45e9",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米SU7标准版"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "方程豹豹5",
+      "entity_level": "具体配置",
+      "brand": "方程豹",
+      "series": "豹5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "方程豹豹5"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "特斯拉"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "宝骏",
+      "entity_level": "品牌",
+      "brand": "宝骏",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "宝骏"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "背景提及对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "背景提及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者认为车企主动召回是好事，体现了企业对自身错误的认知和担当，有利于解决隐患、保障消费者权益，并促进汽车行业规范化。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车企召回这事，我觉得是好事儿...这最起码体现了企业对自身错误的认知，有这份担当就不容易。"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "召回虽然麻烦，但能及时解决隐患，保障咱车主的安全和权益。这也说明汽车行业越来越规范..."
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为如果车企发现问题却隐瞒不报，是对消费者不负责任的表现。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "要是发现问题还藏着掖着，那才是对消费者不负责任呢。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "多家车企实施产品召回",
+      "event_type": "质量与召回",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "甭管是小米SU7标准版、方程豹豹5，还是特斯拉、宝骏这些品牌召回部分车型，都说明他们发现了问题。"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "作者提及小米SU7标准版、方程豹豹5、特斯拉、宝骏等品牌进行了部分车型的召回，指出这表明企业发现了问题。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者针对近期多家车企（包括小米SU7、方程豹豹5等）进行产品召回的现象发表评论，认为主动召回体现了企业的责任担当，有助于消除安全隐患并推动行业规范化，相比之下隐瞒问题才是对消费者不负责任。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

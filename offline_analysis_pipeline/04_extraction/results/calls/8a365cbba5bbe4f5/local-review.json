@@ -1,0 +1,420 @@
+{
+  "post_id": "8a365cbba5bbe4f5",
+  "state": "CONTRACT_PASS",
+  "cache_key": "a25c9adc4ae24d9deafb9a7e5ecd77fb9250452055bc2d46f3de9908c5d61894",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "8a365cbba5bbe4f5",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 2024款 700km 后驱长续航智驾版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "700km 后驱长续航智驾版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相关车型:小米SU7 2024款 700km 后驱长续航智驾版"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "帕拉梅拉",
+        "entity_level": "车系",
+        "brand": null,
+        "series": "帕拉梅拉",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "买不起帕拉梅拉没关系"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为小米SU7性价比高，相比同级电动车配置性能不逊色但价格更亲民，是其选择该车的主要原因之一。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "**性价比高：** 相比其他同级别电动车，SU7标准版在配置和性能上毫不逊色，但价格却更加亲民，堪称“价格屠夫”。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者喜欢小米SU7简约大气、充满科技感的外观设计，认为符合其审美。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "**颜值在线：** SU7的外观设计简约大气，充满科技感，非常符合我的审美。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者看好小米SU7的智能座舱和自动驾驶辅助系统，认为能带来全新驾驶体验。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "**智能体验：** 小米在智能生态方面的优势毋庸置疑，SU7搭载的智能座舱和自动驾驶辅助系统，相信能带来全新的驾驶体验。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者作为多年米粉，对小米品牌有信任和喜爱，这也是选择SU7的重要原因。",
+        "sentiment": "正面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "**品牌情怀：** 作为多年的米粉，对小米品牌的信任和喜爱也是我选择SU7的重要原因。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者列出购车费用：车价21.59万元，保险约4000元，上牌费500元。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "* **车价：** 21.59万元 * **保险：** 约4000元（根据个人选择险种不同有所差异） * **上牌费：** 500元"
+          }
+        ],
+        "confidence": 0.98,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者描述了提车过程：支付5000元定金，等待一个月后收到通知，在交付中心验车、付款、上牌并完成简单交车仪式。",
+        "sentiment": "中性",
+        "journey_stage": "交付与上手",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "* **预定：** 在小米汽车APP上完成了预定，支付了5000元定金。 * **等待：** 经过一个月的等待，终于收到了提车通知。 * **验车：** 在交付中心工作人员的陪同下，仔细检查了车辆外观、内饰、功能等，确认无误后签字确认。 * **付款：** 支付了剩余车款和保险费用。 * **上牌：** 在交付中心完成了上牌手续，拿到了临牌。 * **交车仪式：** 工作人员为我准备了简单的交车仪式，并详细讲解了车辆使用注意事项。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为SU7实车比图片更漂亮，流线型车身、犀利前脸和贯穿式尾灯令人眼前一亮。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "* **外观：** SU7实车比图片上更加漂亮，流线型的车身、犀利的前脸、贯穿式的尾灯，都让人眼前一亮。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者评价SU7内饰简约时尚，用料扎实，做工精细，大尺寸中控屏和全液晶仪表盘科技感十足。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "* **内饰：** 内饰设计简约时尚，用料扎实，做工精细，大尺寸中控屏和全液晶仪表盘科技感十足。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C9",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为SU7车内空间宽敞，前后排座椅舒适，后备箱空间满足日常使用。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "* **空间：** 车内空间宽敞，前后排座椅舒适度都不错，后备箱空间也足够日常使用。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C10",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为SU7标准版动力表现中规中矩，但日常驾驶够用，加速平顺，操控灵活。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "* **动力：** 标准版动力表现中规中矩，但日常驾驶完全够用，加速平顺，操控灵活。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在日常驾驶场景中体验车辆动力和操控。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "日常驾驶完全够用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C11",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为SU7智能座舱功能丰富，语音识别准确，自动驾驶辅助系统实用，提升了驾驶安全性和便利性。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "* **智能：** 智能座舱功能丰富，语音识别准确度高，自动驾驶辅助系统也很实用，大大提升了驾驶安全性和便利性。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车过程 ... 用车初体"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": [
+        "高性价比",
+        "外观设计简约大气、科技感",
+        "智能座舱与自动驾驶辅助",
+        "小米品牌信任"
+      ]
+    },
+    "post_summary": "作者作为米粉，因性价比、颜值、智能体验和品牌情怀选择小米SU7 2024款 700km 后驱长续航智驾版。帖子详细记录了购车费用、提车过程以及对实车外观、内饰、空间、动力和智能功能的正面初步体验。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "user_context/evidence/0:non_contiguous_quote",
+    "user_context/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 11320,
+    "completion_tokens": 3715,
+    "total_tokens": 15035,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 15.559498500006157,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

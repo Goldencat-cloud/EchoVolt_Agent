@@ -1,0 +1,83 @@
+{
+  "id": "case-18",
+  "source": "synthetic",
+  "note": "跨议题比较",
+  "input": {
+    "question": "空间和充电一起看",
+    "history": [],
+    "session": {}
+  },
+  "steps": [
+    {
+      "kind": "method",
+      "aspect": "空间与舒适性",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "空间与舒适性",
+            "negative_share": 0.31,
+            "negative": 13,
+            "total_claims": 52
+          }
+        ]
+      }
+    },
+    {
+      "kind": "method",
+      "aspect": "充电",
+      "method": "negative_share_by_aspect",
+      "result": {
+        "rows": [
+          {
+            "aspect": "充电",
+            "negative_share": 0.27,
+            "negative": 9,
+            "total_claims": 36
+          }
+        ]
+      }
+    }
+  ],
+  "final_text": "空间 31%、充电 27%，空间更高。",
+  "expected": {
+    "answer": "空间 31%、充电 27%，空间更高。",
+    "stats": [
+      {
+        "aspect": "空间与舒适性",
+        "negative_share": 0.31,
+        "negative": 13,
+        "total_claims": 52,
+        "negativeShare": 0.31,
+        "negative_claims": 13
+      },
+      {
+        "aspect": "充电",
+        "negative_share": 0.27,
+        "negative": 9,
+        "total_claims": 36,
+        "negativeShare": 0.27,
+        "negative_claims": 9
+      }
+    ],
+    "evidence": [],
+    "applied_filters": {
+      "aspects": [
+        "空间与舒适性",
+        "充电"
+      ]
+    },
+    "data_version": "上一版本数据（V2.3 抽取 + AUTO-018 V2 delivery-r3），占位性质",
+    "snapshot_hash": "ba7dc3feac35",
+    "warnings": [],
+    "citations": {
+      "cited": [],
+      "valid": [],
+      "unknown": [],
+      "sections": []
+    },
+    "report_hits": [],
+    "tool_errors": 0,
+    "successful_tool_calls": 2
+  }
+}

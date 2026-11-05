@@ -1,0 +1,735 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ccd9855207a0e30c",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米新一代SU7",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "新一代",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米新一代SU7与宝马新世代i3的“隔空角力”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "宝马新世代i3",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "i3",
+      "model_year": null,
+      "version": "新世代",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米新一代SU7与宝马新世代i3的“隔空角力”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "蔚来ES9",
+      "entity_level": "具体配置",
+      "brand": "蔚来",
+      "series": "ES9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "蔚来ES9与别克世纪的“优雅互蹭”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "别克世纪",
+      "entity_level": "具体配置",
+      "brand": "别克",
+      "series": "世纪",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "蔚来ES9与别克世纪的“优雅互蹭”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "理想i6",
+      "entity_level": "具体配置",
+      "brand": "理想",
+      "series": "i6",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "理想i6与东风日产NX8的“公开骂战”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "东风日产NX8",
+      "entity_level": "具体配置",
+      "brand": "东风日产",
+      "series": "NX8",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "理想i6与东风日产NX8的“公开骂战”"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "零跑D19",
+      "entity_level": "具体配置",
+      "brand": "零跑",
+      "series": "D19",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "零跑D19以21.98万元起的售价杀入战场"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P8",
+      "name": "问界M9",
+      "entity_level": "具体配置",
+      "brand": "问界",
+      "series": "M9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "直接挑战问界M9和理想L9的价格体系"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P9",
+      "name": "理想L9",
+      "entity_level": "具体配置",
+      "brand": "理想",
+      "series": "L9",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "直接挑战问界M9和理想L9的价格体系"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P10",
+      "name": "比亚迪第二代刀片电池",
+      "entity_level": "具体配置",
+      "brand": "比亚迪",
+      "series": null,
+      "model_year": null,
+      "version": "第二代",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "略微反超比亚迪第二代刀片电池的表现"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P8",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P9",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "文章认为本届北京车展竞争烈度为历年之最，并通过小米SU7与宝马i3、蔚来ES9与别克世纪、理想i6与东风日产NX8等多组车型的对抗，揭示了新势力与传统品牌在电动时代定义权、高端出行话语权及合资与新势力竞争等方面的行业新趋势。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "本届北京车展呈现出的竞争烈度，堪称历年之最。小米新一代SU7与宝马新世代i3的“隔空角力”，代表了新势力与百年豪门在电动时代的定义权之争；蔚来ES9与别克世纪的“优雅互蹭”，则是高端出行话语权的重新划分；理想i6与东风日产NX8的“公开骂战”，更将合资品牌与新势力的竞争推向了台面。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P7",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P8",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P9",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "文章指出零跑D19以21.98万元起的售价进入六座旗舰SUV市场，直接挑战问界M9和理想L9的价格体系，使“9系旗舰”竞争更加白热化。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "而在六座旗舰SUV领域，零跑D19以21.98万元起的售价杀入战场，直接挑战问界M9和理想L9的价格体系，让“9系旗舰”的竞争更加白热化。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": {
+        "product_ids": [
+          "P7",
+          "P8",
+          "P9"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P7",
+            "object_product_id": "P8",
+            "aspect": "价格与成本",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "零跑D19以21.98万元起的售价杀入战场，直接挑战问界M9和理想L9的价格体系"
+              }
+            ]
+          },
+          {
+            "subject_product_id": "P7",
+            "object_product_id": "P9",
+            "aspect": "价格与成本",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "零跑D19以21.98万元起的售价杀入战场，直接挑战问界M9和理想L9的价格体系"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "政策与市场",
+      "content": "文章引述券商研报分析，指出本届车展呈现三大核心趋势：5.2米以上大六座SUV供给激增、800V+大电池逐渐成为30万级别车型标配、AI成为车型核心卖点与营销主线。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "据券商研报分析，本届车展呈现三大核心趋势：5.2米以上大六座SUV供给激增、800V+大电池逐渐成为30万级别车型标配、AI成为车型核心卖点与营销主线。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P10",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "充电与补能",
+      "content": "文章报道宁德时代在发布会上提出“换电是补能效率最高、体验最好的方式，没有之一”的论断，并展示6分钟满电的快充技术，该技术表现略微反超比亚迪第二代刀片电池。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月21日，宁德时代的一场发布会引爆行业讨论。其抛出“换电是补能效率最高、体验最好的方式，没有之一”的论断，并展示了6分钟满电的快充技术，略微反超比亚迪第二代刀片电池的表现。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P10",
+          "P11"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P11",
+            "object_product_id": "P10",
+            "aspect": "充电与补能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "展示了6分钟满电的快充技术，略微反超比亚迪第二代刀片电池的表现"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "文章指出随着电池增大和快充普及，增程器使用频率降低，其每年一次的保养成本是否值得正成为消费者重新考量的问题，即增程技术进入“黄昏期”的讨论愈演愈烈。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "与此同时，关于增程技术进入“黄昏期”的讨论也愈演愈烈。有分析指出，当电池越来越大、快充越来越普及，增程器的使用频率持续降低，为其付出每年一次保养成本是否值得，正在成为消费者重新考量的问题。"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E3",
+      "event_relation": "明确影响判断",
+      "aspect": "政策与市场",
+      "content": "文章认为在购置税优惠阶梯式退坡与油价持续攀升的双重作用下，消费者的购车决策模型正在被重塑。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在政策层面，购置税优惠阶梯式退坡与油价持续攀升的双重作用下，消费者的购车决策模型正在被重塑。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "事实与信息传播",
+      "target_products": [],
+      "related_event_id": "E4",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "文章报道自2026年3月1日起，公共充电设施全面取消固定峰谷电价机制，转为市场化动态定价。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "自2026年3月1日起，公共充电设施全面取消固定峰谷电价机制，转为市场化动态定价。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": "E4",
+      "event_relation": "明确影响判断",
+      "aspect": "价格与成本",
+      "content": "文章引用一位北京车主的实测数据称，此前充满一次电约需50元，而在高峰时段已升至80多元，单次支出增加超过30元。",
+      "sentiment": "负面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一位北京车主的实测数据显示，此前充满一次电约需50元，而今在高峰时段已升至80多元，单次支出增加超过30元。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "北京地区，高峰时段充电。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "一位北京车主的实测数据显示...而今在高峰时段已升至80多元"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "文章指出充电服务费从早期的0.3元/度压至不足0.1元/度，部分场站出现“零服务费”，低于多数场站保本线，形成“用户端涨价、运营商亏损”的局面，折射出充电行业盈利模式单一的困境。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "与此同时，充电服务费从早期的0.3元/度一路压至不足0.1元/度，部分场站甚至出现“零服务费”，远低于多数场站保本线。这种“用户端涨价、运营商亏损”的尴尬局面，折射出当前充电行业盈利模式单一的深层困境。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "政策与市场",
+      "content": "文章分析高速公路沿线充电设施陷入困局：使用率偏低导致闲置，为覆盖成本而提价，提价又加剧用户等待时间，进而催生新建站点需求，形成难以打破的循环。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "高速公路沿线的充电设施更陷入一种典型困局：使用率偏低导致闲置，为覆盖成本而提价，提价又加剧用户等待时间，进而催生新建站点需求，形成难以打破的循环。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "高速公路沿线充电场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "高速公路沿线的充电设施更陷入一种典型困局"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim_type": "技术与产品机制",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "文章引述中国电力企业联合会副秘书长刘永东提出的充电行业AI应用三大方向：优化场站选址与容量配置、实时诊断设备故障实现预防性维护、支撑车桩网协同互动与市场化运营。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "中国电力企业联合会副秘书长刘永东提出了充电行业AI应用的三大方向：优化场站选址与容量配置、实时诊断设备故障实现预防性维护、支撑车桩网协同互动与市场化运营。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "文章报道星星充电的AI数字员工在场站图片异常巡检中，单站时间从35分钟降至20秒，准确率提升至95%；特来电计划在未来1-2年内实现L4智能运营目标。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "实践中，星星充电的AI数字员工在场站图片异常巡检中，单站时间从35分钟降至20秒，准确率提升至95%；特来电计划在未来1-2年内实现L4智能运营目标，让系统在充电运营中起主导作用。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C13",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "技术原理",
+      "content": "文章引述欣旺达创始人王明旺在技术日上的观点，认为人工智能与电池的融合已从优化选项变为决定未来十年产业格局的“生存之战”，AI正在重构充电设施从选址、运维到电力市场参与的每一个环节。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "欣旺达创始人王明旺在技术日上直言：“AI不是选择题，是生存题。”他指出，人工智能与电池的融合已从“锦上添花”的优化选项，变为决定未来十年产业格局的“生存之战”。这一判断同样适用于充电设施领域——AI正在重构从选址、运维到电力市场参与的每一个环节。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C14",
+      "claim_type": "产品体验与评价",
+      "target_products": [],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "文章介绍驴充充定位为“只做安全可靠的充电桩”，宣称其自研“电子漏保技术”能在0.05秒内响应异常电流，产品合格率提升至99.8%以上，并为每台交付充电桩投保5000万元产品责任险，已服务超8400万用户。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "驴充充以“只做安全可靠的充电桩”为全新定位...自研的“电子漏保技术”能在0.05秒内响应异常电流...产品合格率提升至99.8%以上...驴充充为每一台交付的充电桩投保5000万元产品责任险...目前，驴充充已服务全国超8400万用户"
+        }
+      ],
+      "confidence": 0.85,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "2026北京车展",
+      "event_type": "展会与行业活动",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一、北京车展“神仙打架”：四大对抗揭示行业新趋势 本届北京车展呈现出的竞争烈度，堪称历年之最。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "2026年北京车展举行，多家车企展出新款车型，竞争态势激烈。"
+    },
+    {
+      "id": "E2",
+      "name": "宁德时代发布会",
+      "event_type": "技术与软件更新",
+      "event_time": "2026-04-21",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P10"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "4月21日，宁德时代的一场发布会引爆行业讨论。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "宁德时代于4月21日举行发布会，提出换电优势论断并展示快充技术。"
+    },
+    {
+      "id": "E3",
+      "name": "购置税优惠退坡与油价上涨",
+      "event_type": "政策法规与行业标准",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在政策层面，购置税优惠阶梯式退坡与油价持续攀升的双重作用下"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "购置税优惠实施阶梯式退坡，同时油价持续攀升。"
+    },
+    {
+      "id": "E4",
+      "name": "公共充电设施电价机制改革",
+      "event_type": "政策法规与行业标准",
+      "event_time": "2026-03-01",
+      "event_status": "已发生",
+      "related_product_ids": [],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "自2026年3月1日起，公共充电设施全面取消固定峰谷电价机制，转为市场化动态定价。"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "自2026年3月1日起，公共充电设施取消固定峰谷电价，改为市场化动态定价。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "本文分析了2026年新能源行业的多项动态，包括北京车展上各品牌间的激烈竞争、宁德时代发布会引发的换电与增程技术路线讨论、公共充电电价市场化改革带来的成本变化，以及AI技术在充电运营和电池领域的深度应用。",
+  "post_topic": "行业政策与市场",
+  "analysis_value": "高"
+}

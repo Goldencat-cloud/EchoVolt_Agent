@@ -1,0 +1,45 @@
+{
+  "posts": 9529,
+  "mentions": 15002,
+  "taxonomy_nodes_excluding_root": 673,
+  "node_counts_by_level": {
+    "root": 1,
+    "brand": 125,
+    "series": 541,
+    "configuration": 7
+  },
+  "mention_counts_by_level": {
+    "series": 10740,
+    "unresolved": 924,
+    "brand": 3118,
+    "configuration": 220
+  },
+  "status_counts": {
+    "mapped": 14078,
+    "unresolved": 734,
+    "excluded": 190
+  },
+  "methods": {
+    "own_named_target_with_alias_support": 9862,
+    "null": 734,
+    "brand_name_only": 2563,
+    "forum_alias": 23,
+    "own_explicit_name": 287,
+    "forum_implicit_target": 105,
+    "forum_context_alias": 574,
+    "own_explicit_brand": 383,
+    "non_vehicle_or_group": 190,
+    "explicit_brand_override": 131,
+    "existing_supported_series": 40,
+    "brand_only_generic_vehicle": 37,
+    "title_and_post_coreference": 24,
+    "post_coreference": 7,
+    "corpus_model_alias": 31,
+    "colloquial_alias": 5,
+    "colloquial_brand_only": 6
+  },
+  "needs_review_mentions": 1514,
+  "claim_product_links": 29212,
+  "newly_mapped_from_v1": 3169,
+  "catalog_linked_mentions": 220
+}

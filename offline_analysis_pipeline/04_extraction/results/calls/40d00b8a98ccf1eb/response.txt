@@ -1,0 +1,443 @@
+{
+  "schema_version": "2.3",
+  "post_id": "40d00b8a98ccf1eb",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "雷军正式公布小米SU7价格"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7标准版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "标准版",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7标准版21.59万"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P3",
+      "name": "小米SU7 PRO版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "PRO版",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "PRO版24.59万"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P4",
+      "name": "小米SU7 MAX版",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "MAX版",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "顶配MAX高性能双电机四驱版29.99万"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "文章报道了在3月28日晚的小米汽车上市发布会上，雷军正式公布了小米SU7的价格。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在3月28日晚小米汽车上市发布会上，雷军正式公布小米SU7价格。"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章列出小米SU7标准版售价为21.59万元，并介绍了其后驱模式、5.28s零百加速、700公里CLTC续航、73度磷酸铁锂电池及Xiaom Pilot Pro智能驾驶等配置。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "小米SU7标准版21.59万，采用后驱模式，零百加速5.28s，最高时速210km/h，73度磷酸铁锂电池，具备700公里CLTC续航，15分钟补能350公里，配置前排座椅加热/严风，后排座椅加热，高品质10喇叭音响，Xiaom Pilot Pro智能驾驶。"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章列出小米SU7 PRO版售价为24.59万元，并介绍了其5.7s零百加速、850km CLIC续航、94.3度宁德神行电池及Xiaom Pilot Max激光雷达智驾等配置。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "PRO版24.59万，零百加速5.7秒，最高时速210km/h，94.3度宁德神行电池，具备850km CLIC续航，94.5kWh宁衫时代神行电池15分钟补能 550km，配置前排座椅加热/严风，后排座椅加热，高品质10喇叭音响，Xiaom Pilot Max激光雷达智驾。"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章列出小米SU7 MAX版售价为29.99万元，并介绍了其2.7s零百加速、800公里CLTC续航、101度宁德时代麒麟电池、871伏碳化硅高压平台及空气弹簧、CDC减震器等高性能配置。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "顶配MAX高性能双电机四驱版29.99万，零百加速2.7s，最高时速265km/h，101度宁德时代麒麟电池，具备871伏碳化硅高压平台，800公里CLTC续航，15分钟补能510公里，56英寸HUD抬头显示，豪华25音响扬声器，配置前排座椅加热/严风，后排座椅加热，顶棚麂皮绒材质，布雷博卡钳，空气弹簧，CDC减震器，还有电动尾翼，驾驶位主动侧翼支撑。"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章介绍4月30日前大定可享受至高价值16000元的配置免费升级，包含Nappa真皮座椅、车载智能冰箱、豪华25扬声器音响等，并享有智驾增强功能终身免费。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "4月30日前大定享至高价值16000 元配置免费升级，包含Nappa真皮座椅,车载智能冰箱，豪华25扬声器音响。享Xiaomi Pilot Pro智驾增强功能终身免费"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "文章指出标准版和MAX版本将于四月底开始交付，PRO版本将于五月底开始交付。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "标准版、 MAX版本四月底开始交付，五月底PRO版本开始交付。"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "statement_type": "事实陈述",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "文章认为小米SU7价格均低于原先市场预测价格，且小米汽车的上市象征着新能源汽车市场迎来了一位强有力的竞争者。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "此外还有价格相同的小米SU7汽车创始版，均低于原先市场预测价格。 小米SU7包含4大色系9种颜色...小米汽车的上市不仅意味着这家科技公司将业务拓展到了全新的领域，也象征着新能源汽车市场迎来了一位强有力的竞争者。"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "评价判断",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "车314创始人吴茂林评价小米SU7造车不错，试驾体验整体调教优秀，行驶品质良好，滑行感觉平滑，智能驾驶和互联做得好，认为其能放入第一阵营序列。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "车314创始人吴茂林认为：小米su7造的真不错，试驾体验整体调教优秀，行驶品质良好，在行驶当中松开油门滑行的感觉像油车一样非常平滑。此外，试驾中小米汽车在智能驾驶、智能互联方面做的很好。吴茂林强调这款车绝对能放到第一阵营序列，没有犯一些初涉汽车行业企业的一些小毛病，老司机上手很容易适应！"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "转述信息",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": "强",
+    "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "30秒懂车联合创始人吴广和马萌对小米汽车持谨慎态度，认为小米后续能否站稳市场具有不确定性，需借鉴车圈玩法，且批评其将“浮夸”带入汽车行业，希望其埋头造车。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "30秒懂车联合创始人吴广表示：小米进军汽车市场无疑给行业带来了不小的冲击，小米后续能否站稳市场具有不确定性。他特别指出：市场营销是个长情行业，要怀着敬畏的心态考虑长期健康发展，对于做IT手机起家的小米，这方面还要多借鉴车圈玩法。吴广认为小米有60%的几率在内卷的车圈生存下去。此外，汽车行业的供应链、生产、销售等环节与消费电子行业存在较大差异，小米汽车需要在这些方面进行深入的探索和实践。 汽车新媒体【蜗牛车志】创始人，原晶报副总经理马萌持有同样观点，马萌坦言：对于数码企业进军汽车行业乐见其成，他们也确实为这个行业带来新气象，但不喜欢的是，好像也把本来不属于这个行业的各种“浮夸”带了进来。马萌希望小米能埋头造车，好好卖车。"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "转述信息",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "部分受访市民表示担忧，认为现场无法开门体验，外观上看车身长度不短但隔着玻璃看内部空间有限，对有孩子的家庭用户需谨慎购买。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "也有一些市民对小米汽车的未来发展表示担忧。他们认为，到了现场无法打开车门坐进车内体验，外观上看总体感觉车身长度不短，隔着玻璃看内部空间有限，对于有孩子的家庭用户来说，需要谨慎购买。"
+        }
+      ],
+      "confidence": 0.85
+    	,
+    "statement_type": "转述信息",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": "中",
+    "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "其他",
+      "content": "市民汪先生表示希望小米推出SUV车型。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "“要是小米出SUV就好了“，市民汪先生表示。"
+        }
+      ],
+      "confidence": 0.9
+    	,
+    "statement_type": "转述信息",
+    "comparison": null,
+    "experience_basis": "明确非亲历",
+    "sentiment_intensity": null,
+    "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米汽车上市发布会",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-03-28",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "在3月28日晚小米汽车上市发布会上，雷军正式公布小米SU7价格。"
+        }
+      ],
+      "confidence": 0.95
+    	,
+    "summary": "3月28日晚，小米举办汽车上市发布会，雷军正式公布小米SU7系列各版本价格及配置信息。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "本文报道了小米汽车上市发布会，详细介绍了小米SU7标准版、PRO版和MAX版的价格、核心配置及交付时间。文章还记录了现场市民的初步反馈，包括对空间的担忧和对SUV车型的期待，并汇总了车圈资深人士对小米汽车进入汽车行业后的竞争力和市场前景的不同看法，既有对其造车品质和智能体验的高度认可，也有对其长期发展和营销风格的谨慎质疑。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "高"
+}

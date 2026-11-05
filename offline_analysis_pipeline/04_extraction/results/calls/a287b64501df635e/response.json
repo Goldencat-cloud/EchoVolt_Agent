@@ -1,0 +1,720 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a287b64501df635e",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米 SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米 SU7：3月28日上市"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "2025款路虎卫士",
+      "entity_level": "具体配置",
+      "brand": "路虎",
+      "series": "卫士",
+      "model_year": "2025",
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款路虎卫士：11月5日上市"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "2025款吉利熊猫",
+      "entity_level": "具体配置",
+      "brand": "吉利",
+      "series": "熊猫",
+      "model_year": "2025",
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款吉利熊猫：11月5日上市"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P4",
+      "name": "名爵 MG ES5",
+      "entity_level": "车系",
+      "brand": "名爵",
+      "series": "MG ES5",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "全新名爵 MG ES5：11月6日上市"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P5",
+      "name": "比亚迪夏",
+      "entity_level": "车系",
+      "brand": "比亚迪",
+      "series": "夏",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比亚迪夏：预计11月发布"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P6",
+      "name": "方程豹豹8",
+      "entity_level": "车系",
+      "brand": "方程豹",
+      "series": "豹8",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "方程豹豹8：预计11月发布"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P7",
+      "name": "2025款雷克萨斯 ES",
+      "entity_level": "具体配置",
+      "brand": "雷克萨斯",
+      "series": "ES",
+      "model_year": "2025",
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款雷克萨斯 ES：预计11月发布"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P8",
+      "name": "2025款奔驰 GLC",
+      "entity_level": "具体配置",
+      "brand": "奔驰",
+      "series": "GLC",
+      "model_year": "2025",
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款奔驰 GLC：预计11月发布"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P9",
+      "name": "新款奥迪 A3L",
+      "entity_level": "具体配置",
+      "brand": "奥迪",
+      "series": "A3L",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "新款奥迪 A3L：中期改款车型11月1日上市"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P10",
+      "name": "阿维塔12增程版",
+      "entity_level": "具体配置",
+      "brand": "阿维塔",
+      "series": "12",
+      "model_year": null,
+      "version": "增程版",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "阿维塔12增程版：预计11月发布"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称小米SU7于3月28日上市，定位C级车，轴距3米，5座布局，提供400/800V平台，CLTC纯电续航700/830/800km，有后驱和四驱版本，中配带高阶智驾，指导价格21.59-29.99万。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米 SU7：3月28日上市，定位 C 级车，轴距达3米，5座布局，提供400/800V 平台，CLTC 纯电续航里程700/830/800km，有后驱和四驱版本，中配带高阶智驾，指导价格21.59-29.99万。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E2",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称2025款路虎卫士于11月5日上市，推出2款车型，售价分别为126.6万元和146.6万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款路虎卫士：11月5日上市，推出2款车型，售价分别为126.6万元和146.6万元。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E3",
+      "event_relation": "事件事实",
+      "aspect": "其他",
+      "content": "帖子称2025款吉利熊猫于11月5日上市，包括吉利熊猫卡丁和吉利熊猫骑士。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款吉利熊猫：11月5日上市，包括吉利熊猫卡丁和吉利熊猫骑士。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P4",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E4",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称全新名爵 MG ES5于11月6日上市，定位为纯电动紧凑型SUV，售价区间11.69-14.69万元。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "全新名爵 MG ES5：11月6日上市，定位为纯电动紧凑型SUV，售价区间11.69-14.69万元 。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P5",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E5",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称比亚迪夏预计11月发布，为中大型MPV，经典七座布局，有五代DM混动技术加持，纯电续航80至145公里，预计售价30万。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比亚迪夏：预计11月发布，中大型 MPV，经典七座布局，有五代 DM 混动技术加持，纯电续航80至145公里，预计售价30万。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P6",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E6",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称方程豹豹8预计11月发布，为大型SUV，提供6/7座灵活布局，搭载华为乾智驾ADS3.0，预计售价40-50万。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "方程豹豹8：预计11月发布，大型 SUV，提供6/7座灵活布局，搭载华为乾智驾 ADS3.0，预计售价40-50万。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P7",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E7",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称2025款雷克萨斯ES预计11月发布，预计指导价29万起，配备15英寸中控屏，外观调整明显，前中网网格状布局，日行灯位置变化，动力有2.0升、2.5升、2.5升油电混合动力可选。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款雷克萨斯 ES：预计11月发布，预计指导价29万起，配备15英寸中控屏，外观调整明显，前中网网格状布局，日行灯位置变化，动力有2.0升、2.5升、2.5升油电混合动力可选。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P8",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E8",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称2025款奔驰GLC预计11月发布，预计指导价42.78万起，升级第三代MBUX车机系统，采用高通骁龙8285座舱芯片，全系标配360全景影像和行车记录仪。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款奔驰 GLC：预计11月发布，预计指导价42.78万起，升级第三代 MBUX 车机系统，采用高通骁龙8285座舱芯片，全系标配360全景影像和行车记录仪。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C9",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P9",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E9",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称新款奥迪A3L中期改款车型11月1日上市，预计价格20.31万起，外观细节调整，新大灯造型，还有黑色装饰套件版本，内部更换三辐式方向盘，调整空调出风口。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "新款奥迪 A3L：中期改款车型11月1日上市，预计价格20.31万起，外观细节调整，新大灯造型，还有黑色装饰套件版本，内部更换三辐式方向盘，调整空调出风口。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C10",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P10",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E10",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称阿维塔12增程版预计11月发布，预计售价24.99万，搭载39.05kWh电池，纯电续航245公里，综合续航1155公里，配备华为乾智驾ADS3.0系统。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "阿维塔12增程版：预计11月发布，预计售价24.99万，搭载39.05kWh 电池，纯电续航245公里，综合续航1155公里，配备华为乾智驾 ADS3.0系统。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "事实与信息传播",
+      "target_products": [
+        {
+          "product_id": "P11",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E11",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "帖子称腾势Z9预售价区间33.98万至41.98万元，11月上市并交付，插电混合版由2.0T发动机和三台电机组成动力系统，纯电版本则由三台电机提供动力。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "腾势 Z9：预售价区间33.98万至41.98万元，11月上市并交付，插电混合版由2.0T 发动机和三台电机组成动力系统，纯电版本则由三台电机提供动力。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7上市",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-03-28",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米 SU7：3月28日上市"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "小米SU7于3月28日上市。"
+    },
+    {
+      "id": "E2",
+      "name": "2025款路虎卫士上市",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-11-05",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款路虎卫士：11月5日上市"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "2025款路虎卫士于11月5日上市。"
+    },
+    {
+      "id": "E3",
+      "name": "2025款吉利熊猫上市",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-11-05",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P3"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款吉利熊猫：11月5日上市"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "2025款吉利熊猫于11月5日上市。"
+    },
+    {
+      "id": "E4",
+      "name": "名爵MG ES5上市",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-11-06",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P4"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "全新名爵 MG ES5：11月6日上市"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "名爵MG ES5于11月6日上市。"
+    },
+    {
+      "id": "E5",
+      "name": "比亚迪夏发布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P5"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "比亚迪夏：预计11月发布"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "比亚迪夏预计11月发布。"
+    },
+    {
+      "id": "E6",
+      "name": "方程豹豹8发布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P6"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "方程豹豹8：预计11月发布"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "方程豹豹8预计11月发布。"
+    },
+    {
+      "id": "E7",
+      "name": "2025款雷克萨斯ES发布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P7"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款雷克萨斯 ES：预计11月发布"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "2025款雷克萨斯ES预计11月发布。"
+    },
+    {
+      "id": "E8",
+      "name": "2025款奔驰GLC发布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P8"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025款奔驰 GLC：预计11月发布"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "2025款奔驰GLC预计11月发布。"
+    },
+    {
+      "id": "E9",
+      "name": "新款奥迪A3L上市",
+      "event_type": "产品发布与上市",
+      "event_time": "2024-11-01",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P9"
+      ],
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "新款奥迪 A3L：中期改款车型11月1日上市"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "新款奥迪A3L中期改款车型11月1日上市。"
+    },
+    {
+      "id": "E10",
+      "name": "阿维塔12增程版发布",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P10"
+      ],
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "阿维塔12增程版：预计11月发布"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "阿维塔12增程版预计11月发布。"
+    },
+    {
+      "id": "E11",
+      "name": "腾势Z9上市",
+      "event_type": "产品发布与上市",
+      "event_time": null,
+      "event_status": "计划或预告",
+      "related_product_ids": [
+        "P11"
+      ],
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "腾势 Z9：预售价区间33.98万至41.98万元，11月上市并交付"
+        }
+      ],
+      "confidence": 0.95,
+      "summary": "腾势Z9预计11月上市并交付。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子汇总了2024年部分汽车品牌的发布与上市信息，涵盖小米、路虎、吉利、名爵、比亚迪、方程豹、雷克萨斯、奔驰、奥迪、阿维塔及腾势等品牌的多款车型，包括上市时间、价格区间、核心配置及技术亮点。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

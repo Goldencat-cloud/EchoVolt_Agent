@@ -1,0 +1,159 @@
+{
+  "post_id": "6380c8defeb94a62",
+  "state": "FAILED",
+  "cache_key": "b464a8c5a437ac41c553e25ef3e7f9c5f7991b0cf1f1ee7761a032ca2c65a398",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "6380c8defeb94a62",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米SU7端到端智驾首试"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7刚上市八个月就发布了“端到端”智驾"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "外部事件与舆论",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "事件涉及对象"
+          }
+        ],
+        "related_event_id": "E1",
+        "event_relation": "事件事实",
+        "aspect": "智能驾驶",
+        "content": "作者指出小米SU7在上市后八个月发布了“端到端”智驾功能，并提到该功能据称能实现“车位到车位”。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7刚上市八个月就发布了“端到端”智驾，据说能实现“车位到车位”"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能驾驶",
+        "content": "作者计划在广州城区路段实地感受小米SU7端到端智驾的实际表现，并探讨其技术概念。",
+        "sentiment": "中性",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "那我们一起去广州的城区路段感受一下，顺便聊聊什么是“端到端”。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": null,
+        "usage_context": {
+          "summary": "计划在广州城区路段进行体验。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "我们去广州的城区路段感受一下"
+            }
+          ]
+        }
+      }
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "name": "小米SU7发布端到端智驾",
+        "event_type": "技术与软件更新",
+        "event_time": null,
+        "event_status": "已发生",
+        "related_product_ids": [
+          "P1"
+        ],
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米SU7刚上市八个月就发布了“端到端”智驾"
+          }
+        ],
+        "confidence": 0.95,
+        "summary": "小米SU7在上市后八个月发布了“端到端”智驾功能，据称可实现“车位到车位”功能。"
+      }
+    ],
+    "user_context": {
+      "ownership_status": "无法判断",
+      "current_journey_stage": "无法判断",
+      "evidence": [],
+      "confidence": 0.0,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "帖子介绍了小米SU7发布“端到端”智驾功能的背景，并表达了作者将在广州城区路段实地体验该功能及探讨其技术概念的意图。",
+    "post_topic": "产品功能与技术",
+    "analysis_value": "中"
+  },
+  "errors": [
+    "claims/C2/evidence/0:non_contiguous_quote",
+    "C2/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "claims/C2/evidence/0:non_contiguous_quote",
+    "C2/usage_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 10042,
+    "completion_tokens": 1147,
+    "total_tokens": 11189,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 5.01860470000247,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

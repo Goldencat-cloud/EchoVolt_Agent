@@ -1,0 +1,291 @@
+{
+  "post_id": "a09595dba813b161",
+  "state": "CONTRACT_PASS",
+  "cache_key": "ca3cd66542db25ebce9757dd6510b3f8dbc23951f9b3249cca02457819f016b9",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "a09595dba813b161",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7",
+        "entity_level": "车系",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T0",
+            "source_type": "text",
+            "quote": "小米Su7用车初体验"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "整体来说，小米SU7颜值高、性能强、智能拉满、用车成本低，兼顾颜值、家用和驾驶乐趣，作为日常通勤主力车，体验非常到位。"
+          }
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为该车驾驶感受好开、轻快、省心，转向轻盈精准，低速灵活无笨重感，动力输出线性平顺，运动模式下加速干脆，驾驶乐趣高于传统燃油车。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第一感受就是好开、轻快、省心。整车转向很轻、手感精准，低速挪车、小区掉头非常灵活，完全没有大车笨重感。电门输出线性平顺，日常舒适模式代步非常温柔，不会有突兀顿挫；切换运动模式动力随叫随到，提速干脆利落，超车信心十足，驾驶乐趣远超传统燃油车。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为智能体验是最大亮点，车机流畅不卡顿，语音识别灵敏，手机生态互联实现导航、音乐同步及远程控制，体验便捷无感。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "智能体验是最大亮点。MIUI车机丝滑不卡顿，语音识别灵敏，开窗、调温、导航全程动口就行。小米手机生态无缝流转，上车自动接续导航、同步歌单，出门前远程预开空调、通风，上车即是舒适温度，智能化体验真的做到了无感便捷。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者认为相比之前的燃油车，该车日常通勤用电成本低，家充费用极低，且无需频繁保养，养车非常省钱。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "用车成本下降非常明显。相比之前燃油车，电车日常通勤几乎没有压力，家充谷电便宜，通勤电费可以忽略不计，没有频繁保养开销，日常养车非常省钱。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者进行日常通勤，使用家庭充电桩谷电充电。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "电车日常通勤几乎没有压力，家充谷电便宜"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "充电与补能",
+        "content": "作者提到该车具备800V高压快充，长途补能速度快，无需长时间等待。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "800V高压快充加持，偶尔长途补能也很快，不用长时间等待。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "事实陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者偶尔进行长途出行补能。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "偶尔长途补能也很快"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者指出该车底盘偏运动调校，滤震偏硬，过减速带颠簸感明显；高速风噪和胎噪相比豪华燃油车稍大；溜背造型导致后排头部空间一般，更适合个人或双人代步。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "当然新车也有属于运动轿跑的小取舍。底盘偏运动调校，滤震偏硬，过减速带颠簸感略明显；高速风噪、胎噪相比豪华燃油车稍大，溜背造型后排头部空间一般，更适合日常个人、双人代步。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在过减速带及高速行驶时感受到颠簸和噪音，并评估了后排空间。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "过减速带颠簸感略明显；高速风噪、胎噪相比豪华燃油车稍大，溜背造型后排头部空间一般"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者总结该车颜值高、性能强、智能配置丰富且用车成本低，兼顾家用和驾驶乐趣，作为日常通勤主力车体验到位。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "整体来说，小米SU7颜值高、性能强、智能拉满、用车成本低，兼顾颜值、家用和驾驶乐趣，作为日常通勤主力车，体验非常到位。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": {
+          "summary": "作者将其作为日常通勤主力车使用。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "作为日常通勤主力车，体验非常到位。"
+            }
+          ]
+        }
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一感受就是好开、轻快、省心。"
+        },
+        {
+          "block_id": "I3",
+          "source_type": "image_summary",
+          "quote": "恭喜您成为 新一代小米SU7 车主"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": null,
+      "preferences": []
+    },
+    "post_summary": "作者分享了小米SU7的初期用车体验，高度评价其驾驶操控、智能座舱互联性及低廉的用车成本。同时也指出了底盘偏硬、高速噪音较大及后排头部空间受限等运动轿跑的固有取舍，总体认为该车适合作为日常通勤主力车。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "C3:comparison_unknown_product",
+    "C5/usage_context/evidence/0:non_contiguous_quote",
+    "C5:comparison_unknown_product"
+  ],
+  "usage": {
+    "prompt_tokens": 10742,
+    "completion_tokens": 2629,
+    "total_tokens": 13371,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    }
+  },
+  "elapsed_s": 11.23762609998812,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

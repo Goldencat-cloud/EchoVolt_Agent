@@ -1,0 +1,455 @@
+{
+  "post_id": "2f339af16bb8efeb",
+  "state": "CONTRACT_PASS",
+  "cache_key": "5afde79710c82d0e308439d4381211049a883934e78aaeddea78a96a19110bb4",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "2f339af16bb8efeb",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 Max",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2024",
+        "version": "Max",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相关车型:小米SU7 2024款 800km 四驱超长续航高阶智驾Max版"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "特斯拉Model 3",
+        "entity_level": "车系",
+        "brand": "特斯拉",
+        "series": "Model 3",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "特斯拉model3：第二满意的车型"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "小鹏P7+",
+        "entity_level": "车系",
+        "brand": "小鹏",
+        "series": "P7+",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小鹏P7+：max旗舰款标价20.88万"
+          }
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者预算约30万元，因家庭可安装充电桩且主要单人通勤，决定购买电动汽车，并最终选择了小米SU7 Max。",
+        "sentiment": "正面",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "预算30w左右，每日通勤50公里，主要一个人开，偶尔副驾坐人，家里可以装充电桩，所以肯定买电车"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米Su7max：最满意的车型"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小米SU7 Max的动力强劲，方向盘和踏板反馈灵敏，适合喜欢驾驶的人群，并形容其狂暴模式下的加速体验非常刺激。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "方向盘和油门刹车的反馈都特别灵敏，适合喜好驾驶的人买"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "开启狂暴模式后的加速体验非常刺激，跟坐过山车一样"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者非常满意小米SU7 Max的外观设计，认为其帅气且回头率高，但也指出车漆不耐脏，需要频繁清洗。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "整体车辆外观就一个字，帅"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "这个车漆虽然是我最爱的颜色，但是有点不耐脏...现在基本上一周要洗一次车"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "智能座舱与车机",
+        "content": "作者认为小米SU7 Max的车机系统流畅，功能丰富且支持高度自定义，内饰材质相比低配车型更显高级，但相比豪华品牌仍有差距。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "车机和中控都很流畅...整个车机有非常多的设置可以自行DIY"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "max的内饰有鹿皮绒，相比较标准和pro显得高级一些，但是和奔驰那些内饰还是没得比，略显低级"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者实测小米SU7 Max的日常电耗在15-20kWh/100km之间，会根据季节、天气及个人习惯波动。",
+        "sentiment": "中性",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "电耗基本上max15-20之间，根据季节天气温度和个人用车习惯来变化"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C6",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "安全与质量",
+        "content": "作者表达了对小米SU7 Max潜在安全隐患的担忧，原因是网络上流传许多关于该车型甩尾失控的视频。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "安全隐患也有一部分担忧（网上很多甩尾失控的视频）"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确非亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "服务与交付",
+        "content": "作者抱怨小米的售后服务网点太少，部分省份需前往省会城市进行售后，且收费标准较高，认为提车后的服务态度不佳。",
+        "sentiment": "负面",
+        "journey_stage": "维修与售后",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "售后服务点太少了，有的省份还要跑好远去省会售后，并且收费也贵，真正的提了车就不认人了"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C8",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P2",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者在试驾对比中发现，特斯拉Model 3的后排空间较小，父母乘坐时感到腿部伸展受限，而小米SU7 Max在前排空间上表现宽敞舒适。",
+        "sentiment": "正负混合",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "坐在后排的父母嫌弃后排空间太小，脚伸不开"
+          },
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "空间的话后排没怎么做过人，仅针对前排两个位置来说是想当宽敞的"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P2"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P2",
+              "object_product_id": "P1",
+              "aspect": "空间与舒适性",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "坐在后排的父母嫌弃后排空间太小，脚伸不开"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者试驾特斯拉Model 3时，父母坐在后排。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "坐在后排的父母嫌弃后排空间太小"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          },
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为小鹏P7+虽然性价比高、座椅舒适且适合家用，但由于其单电机驱动导致的加速性能较弱，无法满足作者的驾驶乐趣需求，因此未被选中。",
+        "sentiment": "中性",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "只有单电机百公里加速5.9秒，肯定不如上面这两款车了，主要还是无法满足驾驶需求没有选择这款"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": {
+          "product_ids": [
+            "P1",
+            "P3"
+          ],
+          "relations": [
+            {
+              "subject_product_id": "P3",
+              "object_product_id": "P1",
+              "aspect": "驾驶与操控",
+              "relation": "弱于",
+              "evidence": [
+                {
+                  "block_id": "T1",
+                  "source_type": "text",
+                  "quote": "只有单电机百公里加速5.9秒，肯定不如上面这两款车了"
+                }
+              ]
+            }
+          ]
+        },
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "#提车作业# 小米Su7max提车啦"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车过程 1.到达交付中心开始验车"
+        }
+      ],
+      "confidence": 0.98,
+      "age": null,
+      "budget": "30w左右",
+      "preferences": [
+        "注重驾驶乐趣与操控感",
+        "偏好帅气的外观设计",
+        "需要家充桩条件"
+      ]
+    },
+    "post_summary": "车主分享小米SU7 Max提车作业，详细记录了选车理由、费用明细及提车流程。作者高度评价其动力、操控和外观，认为其是同价位极致性价比之选，但也指出了车漆不耐脏、内饰质感稍逊、售后网点少及网络传言的安全隐患等不足。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [],
+  "original_errors": [
+    "user_context/evidence/1:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12367,
+    "completion_tokens": 3792,
+    "total_tokens": 16159,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 28.243707999994513,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

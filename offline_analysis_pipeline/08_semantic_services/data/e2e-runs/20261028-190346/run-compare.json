@@ -1,0 +1,52 @@
+{
+ "scenario": "compare",
+ "question": "充电补能和空间舒适性相比，哪个议题的负面反馈更多？",
+ "start_http": 202,
+ "start_payload": {
+  "job_id": "187a196e97724fc282663d0dfbfc2de6",
+  "status": "running",
+  "status_url": "/api/agent/report/187a196e97724fc282663d0dfbfc2de6",
+  "request_id": "4e1ceafbc7ba"
+ },
+ "timeline": [
+  {
+   "t": 3.0,
+   "status": "running",
+   "phase": "澄清中"
+  },
+  {
+   "t": 6.0,
+   "status": "clarifying",
+   "phase": "澄清中"
+  }
+ ],
+ "clarify_count": 3,
+ "outline": null,
+ "regenerate_used": 0,
+ "job_id": "187a196e97724fc282663d0dfbfc2de6",
+ "clarify_questions": [
+  {
+   "field": "topic",
+   "question": "请界定“充电补能”与“空间舒适性”各自纳入的负面反馈议题维度/使用场景范围（例如充电速度、充电桩兼容、能耗；乘坐空间、储物空间、座椅舒适、NVH等），以便形成可审查的分析计划。"
+  }
+ ],
+ "clarify_responses": [
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "topic"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "topic"
+  },
+  {
+   "http": 202,
+   "answer": "覆盖公共快充与家充场景，限中国地区车主真实体验，按现有议题分类统计频次与占比即可，全文共 3 条原文佐证并附链接。",
+   "field": "topic"
+  }
+ ],
+ "fatal": "clarify_loop_no_cap",
+ "wall_s": 15.1
+}

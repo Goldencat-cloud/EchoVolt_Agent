@@ -1,0 +1,220 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a2bec7263052ef37",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "璀璨洋红版小米SU7：年轻人的颜值暴击，把晚霞穿在身上"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "P2",
+      "name": "BBA",
+      "entity_level": "品牌",
+      "brand": "BBA",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "30万预算，买BBA只能当‘街车小弟’，选SU7却能做‘整条街最靓的仔’！"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "文章认为小米SU7璀璨洋红版车漆在不同光线下呈现独特视觉效果，配合撞色轮毂和刹车卡钳，极具视觉冲击力和时尚感。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车漆在不同光线下呈现出“覆盆子果酱混金箔”的璀璨效果——阳光下紫调蔓延如晚霞，树荫中则沉淀出红酒般的醇厚质感...车身同色轮毂与明黄色Brembo刹车卡钳的撞色搭配，将运动张力拉满"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "文章指出小米SU7在设计上兼顾商务与潮流，内饰采用仿木纹中控和Nappa真皮座椅，旨在满足年轻人双面生活的需求。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "20英寸专属米型轮圈以枪灰色与璀璨洋红拼色...内饰则主打“反差萌”，米灰色仿木纹中控台营造居家氛围，限时赠送的Nappa真皮座椅又暗藏低调奢华"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "文章引用网友观点，认为在30万预算下，购买BBA车型显得普通，而选择小米SU7能获得更高的辨识度和时尚感。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T4",
+          "source_type": "text",
+          "quote": "正如网友调侃：“30万预算，买BBA只能当‘街车小弟’，选SU7却能做‘整条街最靓的仔’！”"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "品牌与口碑",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T4",
+                "source_type": "text",
+                "quote": "买BBA只能当‘街车小弟’，选SU7却能做‘整条街最靓的仔’"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "文章认为小米SU7的成功源于其对年轻消费心理的洞察，通过个性化设计和合理定价，证明了“好看”也是核心竞争力。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "小米SU7璀璨洋红版的成功，绝非仅靠“脸”。其背后是小米对年轻消费心理的精准洞察——既要极致个性化，又要拒绝“智商税”...在年轻人心中，“好看”本身就是硬实力"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7推出璀璨洋红限定色",
+      "event_type": "产品发布与上市",
+      "event_time": "2025-02-16",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "2025年2月16日 ... 这款为庆祝小米15周年推出的限定色"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米为庆祝15周年推出了小米SU7璀璨洋红限定色。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "这是一篇关于小米SU7璀璨洋红版的营销软文或评测文章。文章详细描述了该车型的外观设计、车漆工艺、内饰细节以及针对年轻群体的营销策略，并通过与BBA车型的对比，强调了其在个性化和性价比方面的优势。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "中"
+}

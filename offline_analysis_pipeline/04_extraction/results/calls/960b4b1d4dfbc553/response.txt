@@ -1,0 +1,226 @@
+{
+  "schema_version": "2.3",
+  "post_id": "960b4b1d4dfbc553",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 GT",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "GT",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "小米SU7 GT定价曝光"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "小米新款SU7 GT"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "顺带还有23.35万的入门版本"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "价格与成本",
+      "content": "作者称小米SU7 GT起售价为38.99万元，且存在23.35万元的入门版本，这一价格超出了作者及周围车友此前对千匹动力性能车起步价需40万以上的预判。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "原先身边车友闲聊，都预判千匹动力的性能车，起步价怎么也要四十万往上，结果GT版38.99万起售，顺带还有23.35万的入门版本"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "价格与成本",
+      "content": "作者认为小米的定价策略降低了性能车门槛，使其有机会入手，因此计划在空闲时间去实体店体验，将其视为一个新的购车选择。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "原本我还在纠结选燃油车还是别家电车，看完这个定价，已经计划抽空去实体店体验，不得不说，这波定价真的给了一个新选择。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "意向决策",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为小米SU7 GT相比同级别的进口或国产性能电动车价格便宜许多，使得普通消费者也能负担得起高性能车型。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "而主打性能的GT版本，千匹马力的硬核配置，对比同级别进口、国产性能电车，便宜了一大截，让喜欢提速、爱玩车的普通人也有机会入手。"
+        }
+      ],
+      "confidence": 0.85
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者认为相较于其他车企依靠品牌溢价抬高价格，小米没有跟风涨价，而是兼顾家用和性能需求，提供了较高的性价比。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T5",
+          "source_type": "text",
+          "quote": "纵观现在的汽车市场，很多车企一味抬高溢价，靠着品牌卖高价。小米没有跟风涨价，兼顾家用车主和性能爱好者的需求，性价比做得很实在。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7 GT及入门版定价公布",
+      "event_type": "价格与销售政策",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1",
+        "P2"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "刷到小米新款SU7 GT的售价消息时...结果GT版38.99万起售，顺带还有23.35万的入门版本"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "小米公布了新款SU7 GT的售价，GT版起售价为38.99万元，同时推出了23.35万元的入门版本。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T2",
+        "source_type": "text",
+        "quote": "我就是普通上班族，平时关注车子主要用来日常通勤"
+      },
+      {
+        "block_id": "T5",
+        "source_type": "text",
+        "quote": "原本我还在纠结选燃油车还是别家电车"
+      }
+    ],
+    "confidence": 0.9
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "日常通勤",
+      "节假日自驾出游",
+      "高性价比"
+    ]
+  },
+  "post_summary": "作者对小米SU7 GT 38.99万元的起售价及23.35万元的入门版感到意外，认为其打破了性能车高昂价格的固有印象。作者指出该定价极具竞争力，降低了性能车门槛，并计划前往实体店体验，视其为新的购车选择。",
+  "post_topic": "价格成本与交易",
+  "analysis_value": "中"
+}

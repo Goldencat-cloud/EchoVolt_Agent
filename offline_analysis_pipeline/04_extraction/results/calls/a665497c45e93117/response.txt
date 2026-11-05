@@ -1,0 +1,165 @@
+{
+  "schema_version": "2.3",
+  "post_id": "a665497c45e93117",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "之前把自己的小米SU7贴成了痛车"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "SU7 1:18 合金车模",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "于是买了官方那个1:18的模型"
+        },
+        {
+          "block_id": "I1",
+          "source_type": "image_summary",
+          "quote": "商品名称为“SU7 1:18 合金车模 霞光紫”"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者将自己的小米SU7改装为痛车，并对改装效果表示满意。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "之前把自己的小米SU7贴成了痛车，效果还不错，自己也挺满意"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购买了官方1:18模型，认为499元的价格不算便宜，但因是正版且做工尚可而决定购买。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "499的价格说实话不算便宜...但毕竟是正版，做工还行"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者委托工作室对模型进行喷漆改色以还原真车痛车效果，认为整体效果还行，漆面平整且细节吻合。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "整体效果还行，漆面处理得比较平整，细节也对得上"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "之前把自己的小米SU7贴成了痛车"
+      },
+      {
+        "block_id": "T4",
+        "source_type": "text",
+        "quote": "真车在外面跑，小车在屋里放着"
+      }
+    ],
+    "confidence": 0.95
+  ,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "喜欢二次元/痛车文化",
+      "注重物品与爱车的视觉呼应"
+    ]
+  },
+  "post_summary": "作者分享了自己将小米SU7改装为痛车后，又购买并定制同款1:18模型的过程。虽然花费不少，但作者对模型还原真车外观的效果感到满意，享受这种将爱好融入生活的乐趣。",
+  "post_topic": "社群互动与生活分享",
+  "analysis_value": "中"
+}

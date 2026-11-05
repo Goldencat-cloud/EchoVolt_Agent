@@ -1,0 +1,15 @@
+# 事件聚合工具（product-timeline-research）运行依赖
+# 安装：pip install -r requirements.txt（建议 Python 3.11+，实测 3.13 可跑）
+
+# 检索：火山引擎 REST 客户端
+httpx>=0.27
+# 配置：读取 .env
+python-dotenv>=1.0
+# MCP 工具服务（mcp_server 以 stdio / streamable-http 暴露 product_timeline_research）
+mcp>=1.0,<2
+# 端到端验证脚本通过 MCP 客户端拉起本工具
+langchain-mcp-adapters>=0.1
+# 分析/评估脚本读取清洗语料
+pandas>=2.0
+# 单元测试
+pytest>=8.0

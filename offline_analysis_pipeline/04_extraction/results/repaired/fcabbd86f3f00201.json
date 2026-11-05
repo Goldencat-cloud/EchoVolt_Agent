@@ -1,0 +1,266 @@
+{
+  "schema_version": "2.3",
+  "post_id": "fcabbd86f3f00201",
+  "products": [
+    {
+      "id": "P1",
+      "name": "新能源汽车",
+      "entity_level": "未明确",
+      "brand": null,
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "下 雨天到底能不能给新能源汽车充电"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "转述消防人员建议，新能源车主遇突发雷电、暴雨天气，最好暂停户外充电，待天气平稳后再进行充电操作。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "消防人员建议， 新能源车主遇突发雷电、暴雨天气，最好暂停户外充电，待天气平稳，再开展充电操作。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "突发雷电、暴雨天气下的户外充电场景。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "遇突发雷电、暴雨天气"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "转述消防人员提醒，雷电产生的感应电压可能损坏电池管理系统，甚至诱发内部短路；暴雨天若充电区域积水深度超过底盘电池组高度后不要充电。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "雷电产生的感应电压可能损坏电池管理系统，甚至诱发内部短路，最好避免在雷电天气中充电，新能源汽车电池组虽有防水设计，但暴雨天若充电区域积水，积水深度超过底盘电池组高度后不要充电。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "雷电天气及暴雨天充电区域积水的场景。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "雷电天气中充电...暴雨天若充电区域积水"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "建议在夏季高温天气下，尽量选择清晨、傍晚和夜间气温较低时段充电，户外充电优先挑选带遮阳棚的充电桩；不建议车辆在长途行驶或长时间暴晒后直接插枪充电，应等待电池温度回落至正常后再充电。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "尽量选择清晨、傍晚和夜间气温较低时段充电，户外充电优先挑选带遮阳棚的充电桩。特别需要注意的是，不建议车辆在长途行驶或长时间暴晒后直接插枪充电，应该等到车辆完成自检、电池温度回落至正常后，再进行充电。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "夏季高温天气，特别是长途行驶或长时间暴晒后的充电场景。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "夏季为新能源车辆充电还需注意高温天气...长途行驶或长时间暴晒后"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "指出电池热失控从冒烟到明火仅数十秒，逃生窗口期极短，因此车主不应长时间停留在车内或关窗开空调休息，应在充电桩附近等候并留意状态。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "电池一旦热失控，从冒烟到明火仅数十秒，逃生窗口期极短。车主应在充电桩附近等候，实时留意车辆、充电桩状态。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "日常充电过程中的等待场景。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "日常充电过程中"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "说明主流车企搭载的电池热管理系统会在电池温度超过安全阈值时自动降低充电功率或切断电源；若发现焦糊味、异响、冒烟或外壳异常发烫，应立即终止充电、断电撤离并报警。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "目前，主流车企大都搭载了电池热管理系统和保护机制，一旦电池温度超过安全阈值，会自动降低充电功率，甚至直接切断充电电源。万一充电时闻到焦糊异味、听见异响、看到车身或充电枪冒烟，或感到外壳异常发烫，应立即终止充电，断开电源后迅速撤离至安全区域，并第一时间拨打火警、场站运维电话。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "充电过程中出现异常状况的场景。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "万一充电时闻到焦糊异味..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "安全与质量",
+      "content": "解释雷雨天气行车时，由于车身金属框架形成的“法拉第笼”效应，车内相对安全，因此不要轻易下车；同时提醒不要将车停在空地、高地、树下或高大烟囱下以防引雷。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T3",
+          "source_type": "text",
+          "quote": "雷雨天气行车时，尤其在高速公路上，要注意千万别轻易下车。如若雷电击中汽车，电流会经车身表面传到地面，在车内反而安全。这是因为车身的金属框架会形成类似“法拉第笼”效应...切记不要将车停在空地或是高地上，也不要停在树下、高大的烟囱下，这样容易引雷。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "雷雨天气行车及停车场景。",
+        "evidence": [
+          {
+            "block_id": "T3",
+            "source_type": "text",
+            "quote": "雷雨天气行车时"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "帖子科普了新能源汽车在雷电、暴雨及高温天气下的充电安全知识。文章转述了消防人员的建议，指出极端天气下充电可能损坏电池管理系统或引发短路，并提供了夏季高温充电的最佳时段、电池热失控的应急处理方法以及雷雨天气行车的“法拉第笼”安全原理。",
+  "post_topic": "产品功能与技术",
+  "analysis_value": "中"
+}

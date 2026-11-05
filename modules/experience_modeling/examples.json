@@ -1,0 +1,73 @@
+{
+  "source_id": "POST_890",
+  "experiences": [
+    {
+      "experience_id": "ER_0001",
+      "experience_type": "actual_experience",
+      "journey_stage": "ownership_use",
+      "user_id": "U102",
+      "product_id": "MODEL_X_2026",
+      "target_attribute": {
+        "label": "range",
+        "raw_term": "续航"
+      },
+      "description": "用户报告冬季高速行驶时续航约250公里。",
+      "context": {
+        "scenario": "冬季高速"
+      },
+      "evaluation": {
+        "sentiment": "negative",
+        "sentiment_score": -0.85,
+        "text": "太差了"
+      },
+      "extraction_confidence": 0.94,
+      "evidence": {
+        "source_id": "POST_890",
+        "quote": "冬天跑高速，续航只有250公里，太差了。"
+      }
+    },
+    {
+      "experience_id": "ER_0002",
+      "experience_type": "anticipated_experience",
+      "journey_stage": "pre_purchase",
+      "target_attribute": {
+        "label": "range",
+        "raw_term": "冬季高速续航"
+      },
+      "description": "用户购车前担心冬季高速续航不足。",
+      "context": {
+        "scenario": "冬季高速"
+      },
+      "evaluation": {
+        "sentiment": "negative",
+        "sentiment_score": -0.55,
+        "text": "担心不够用"
+      },
+      "extraction_confidence": 0.91,
+      "evidence": {
+        "source_id": "POST_891",
+        "quote": "还没买这辆车，担心冬季高速续航不够。"
+      }
+    },
+    {
+      "experience_id": "ER_0003",
+      "experience_type": "actual_experience",
+      "journey_stage": "ownership_use",
+      "target_attribute": {
+        "label": "infotainment",
+        "raw_term": "车机"
+      },
+      "description": "用户报告车机有时卡顿，但语音功能较好用。",
+      "evaluation": {
+        "sentiment": "mixed",
+        "sentiment_score": 0.05,
+        "text": "车机有时候卡，但语音挺好用"
+      },
+      "extraction_confidence": 0.82,
+      "evidence": {
+        "source_id": "POST_892",
+        "quote": "车机有时候卡，但语音挺好用。"
+      }
+    }
+  ]
+}

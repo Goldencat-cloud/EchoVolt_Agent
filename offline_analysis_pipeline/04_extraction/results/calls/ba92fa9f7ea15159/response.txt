@@ -1,0 +1,191 @@
+{
+  "schema_version": "2.3",
+  "post_id": "ba92fa9f7ea15159",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "对于小米SU7高速碰撞事件的一些看法"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "事件涉及对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "事件事实",
+      "aspect": "安全与质量",
+      "content": "作者转述国家应急管理部发布的简讯，称3月29日一辆开启NOA智能辅助的小米SU7在德上高速公路池祁段发生严重交通事故，导致3人死亡。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "突然在网上看到了国家应急管理部在4月1号发布的一篇简讯，就提及了小米米SU7高速碰撞事件的看法。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "3月29日，一辆开启NOA智能辅助的小米SU7在德上高速公路池祁段行驶过程中发生严重交通事故，导致3人不幸身亡。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "智能驾驶",
+      "content": "作者认为智能辅助驾驶功能普及后，部分用户产生依赖甚至错误地将其视为“无人驾驶”，从而出现手离方向盘、分心睡觉等危险行为。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "第一，智能辅助驾驶功能成为“标配”，产生依赖性，甚至错误地将其视为“无人驾驶”，出现手离方向盘、分心睡觉等危险行为。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "技术与产品机制",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "智能驾驶",
+      "content": "作者指出目前市场提供的智能辅助驾驶功能最高仅属于L2级，强调智驾仅是辅助，系统无法完全替代人类判断，驾驶员必须握紧方向盘。",
+      "sentiment": "中性",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "第二，目前市场提供的智能辅助驾驶功能，最多也只属于L2级。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "第四，智驾仅是辅助，路况瞬息万变，系统无法完全替代人类判断。 第五，驾驶员也必须握紧自己的方向盘。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "行业与政策观点",
+      "target_products": [],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者批评车企在宣传中刻意夸大技术实力，如宣称“全宇宙最好”、“5000万内最好”等，认为这种营销方式幼稚且容易误导消费者，呼吁回归理智。",
+      "sentiment": "负面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "而且还提到了车企不能刻意的夸大宣传，现在很多发布会车企都喜欢去渲染自家的技术到底有多牛，仿佛是全宇宙最厉害。"
+        },
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "这就和之前有一段时间，一天到晚说自己是5,000万内最好的车，10,000万以内最好的车，这个东西听起来就像两个幼儿园的小孩在吵架一样"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "国家应急管理部通报小米SU7高速碰撞事故",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": "2025-04-01",
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "突然在网上看到了国家应急管理部在4月1号发布的一篇简讯，就提及了小米米SU7高速碰撞事件的看法。"
+        },
+        {
+          "block_id": "I0",
+          "source_type": "image_summary",
+          "quote": "发布者认证为“应急管理部”，发布时间为2025年4月1日19:10。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "summary": "国家应急管理部于2025年4月1日发布简讯，通报一起小米SU7开启NOA智能辅助时在高速公路上发生的致死事故，并强调L2级辅助驾驶不能替代人类驾驶责任。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "无法判断",
+    "evidence": [],
+    "confidence": 0.0,
+    "age": null,
+    "budget": null,
+    "preferences": []
+  },
+  "post_summary": "作者针对国家应急管理部关于小米SU7高速碰撞事故的通报发表看法，指出智能辅助驾驶易被误用为无人驾驶，强调L2级系统的局限性及驾驶员责任，并批评车企夸大宣传的现象。",
+  "post_topic": "外部事件与品牌舆论",
+  "analysis_value": "中"
+}

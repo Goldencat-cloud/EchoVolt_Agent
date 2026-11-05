@@ -1,0 +1,11 @@
+runtime/
+local-config/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+*.sqlite3-wal
+*.sqlite3-shm
+writer.lock
+.env
+secrets/

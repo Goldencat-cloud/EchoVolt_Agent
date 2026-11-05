@@ -1,0 +1,151 @@
+{
+  "schema_version": "2.3",
+  "post_id": "aabad5828ee85196",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "领克Z10与小米su7"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P2",
+      "name": "领克Z10",
+      "entity_level": "车系",
+      "brand": "领克",
+      "series": "Z10",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "领克Z10与小米su7"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者喜欢小米SU7是因为其能与小米手机及家中大部分小米电器实现生态互联。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "Su7 说实话就是我喜欢它的小米汽车与手机生态实现互联，因为家里电器大多数都是小米的。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7的外观非常像某款保时捷电动车，因此对此感到有些避讳。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "但这车外观的确很像保时捷那辆电动车的外观，还是有点避讳。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P2",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者认为领克Z10目前价格优惠，次顶配版本大约23万元落地，并赠送电吸门、自动尾翼、音响等配置。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "而领克Z10是新出的，现在价格挺优惠的，次顶配版本好像能23万落地，送什么电吸门，自动尾翼，音响等等。"
+        }
+      ],
+      "confidence": 0.9,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "无法判断",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "明确未拥有",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "领克Z10与小米su7。Su7 说实话就是我喜欢它的小米汽车与手机生态实现互联...而这车外观的确很像保时捷那辆电动车的外观，还是有点避讳。而领克Z10是新出的，现在价格挺优惠的..."
+      }
+    ],
+    "confidence": 0.9,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "重视小米生态互联",
+      "关注车辆价格优惠及赠品配置"
+    ]
+  },
+  "post_summary": "作者在小米SU7和领克Z10之间进行购车决策权衡。一方面喜欢SU7的小米生态互联，但对其类似保时捷的外观有所顾虑；另一方面认为新款领克Z10价格优惠且赠送多项配置。",
+  "post_topic": "选购决策与车型比较",
+  "analysis_value": "中"
+}

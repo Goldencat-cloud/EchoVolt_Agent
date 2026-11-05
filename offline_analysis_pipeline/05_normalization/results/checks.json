@@ -1,0 +1,14 @@
+{
+  "source_hashes_unchanged": true,
+  "all_mentions_once": true,
+  "all_nodes_have_valid_parent": true,
+  "taxonomy_node_uniqueness": true,
+  "mention_node_fk": true,
+  "one_deepest_node_per_mention": true,
+  "each_ancestor_once": true,
+  "tree_rollup_consistent": true,
+  "no_null_tuple_entities": true,
+  "no_hypothetical_configs": true,
+  "config_needs_year": true,
+  "human_semantic_acceptance": "not_measured"
+}

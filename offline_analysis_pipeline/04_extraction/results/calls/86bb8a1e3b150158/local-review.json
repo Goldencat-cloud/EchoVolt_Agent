@@ -1,0 +1,474 @@
+{
+  "post_id": "86bb8a1e3b150158",
+  "state": "FAILED",
+  "cache_key": "d6269932bf5d3114877bc1841ee7c6a7af6c04df7d6e0c10c31f9e7ec8cd08a6",
+  "schema_parsed": true,
+  "payload": {
+    "schema_version": "2.3",
+    "post_id": "86bb8a1e3b150158",
+    "products": [
+      {
+        "id": "P1",
+        "name": "小米SU7 2026款 标准版",
+        "entity_level": "具体配置",
+        "brand": "小米",
+        "series": "SU7",
+        "model_year": "2026",
+        "version": "标准版",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "相关车型:小米SU7 2026款 标准版"
+          }
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "P2",
+        "name": "标致408",
+        "entity_level": "车系",
+        "brand": "标致",
+        "series": "408",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我的老标致408是2015年买的"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P3",
+        "name": "极氪007gt",
+        "entity_level": "具体配置",
+        "brand": "极氪",
+        "series": "007",
+        "model_year": null,
+        "version": "gt",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "先试了极氪007gt"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P4",
+        "name": "特斯拉",
+        "entity_level": "品牌",
+        "brand": "特斯拉",
+        "series": null,
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "又看特斯拉"
+          }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "P5",
+        "name": "蔚来ET5T",
+        "entity_level": "具体配置",
+        "brand": "蔚来",
+        "series": "ET5",
+        "model_year": null,
+        "version": "T",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "蔚来ET5T也试了"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "P6",
+        "name": "乐道L60",
+        "entity_level": "具体配置",
+        "brand": "乐道",
+        "series": "L60",
+        "model_year": null,
+        "version": null,
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "乐道L60家用没毛病"
+          }
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "claim_type": "故障与风险",
+        "target_products": [
+          {
+            "product_id": "P2",
+            "role": "作者当前使用对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "可靠性与故障",
+        "content": "作者拥有的标致408行驶近二十万公里后发动机故障，经检查需大修且被认为无维修价值，导致被迫换车。",
+        "sentiment": "负面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "我的老标致408是2015年买的...跑了快二十万公里。前阵子正开着，突然在路上趴窝了，拖去一查，发动机要大修，师傅直摇头说没修的价值了。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C2",
+        "claim_type": "购车与交易决策",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "作者意向购入对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "价格与成本",
+        "content": "作者预算二十万，因旧车故障形成刚性换车需求，虽超出预算但因喜爱外观和驾驶感受，最终决定购买小米SU7标准版。",
+        "sentiment": "中性",
+        "journey_stage": "订购与成交",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "预算二十万...虽然选完配置也超了预算，可架不住真喜欢那外观和开起来的感觉，一咬牙就下单了。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "意向决策",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": null,
+        "usage_context": null
+      },
+      {
+        "id": "C3",
+        "claim_type": "车型比较",
+        "target_products": [
+          {
+            "product_id": "P3",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P4",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P5",
+            "role": "比较参照对象"
+          },
+          {
+            "product_id": "P6",
+            "role": "比较参照对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "其他",
+        "content": "作者在选车过程中对比了多款竞品：极氪007gt操作交互不便，特斯拉标准版动能回收无法关闭不适应，蔚来ET5T坐姿别扭且价格超标，乐道L60缺乏吸引力。",
+        "sentiment": "负面",
+        "journey_stage": "购车前",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "先试了极氪007gt...心里有点打鼓。又看特斯拉...我实在适应不来。蔚来ET5T也试了...怪别扭，而且一算价格超了不少。乐道L60家用没毛病，可总觉得少点心动。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      },
+      {
+        "id": "C4",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "外观与内饰",
+        "content": "作者认为小米SU7外观颜值高，流线和大灯设计审美在线，且外粉内紫的配色搭配非常和谐。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "买小米的人多半就是冲着小米颜值，流线、大灯都审美在线。...外粉内紫简直无敌爆炸和谐。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "强",
+        "usage_context": null
+      },
+      {
+        "id": "C5",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "驾驶与操控",
+        "content": "作者认为标准版动力日常够用，舒适模式平顺适合新手，运动模式响应灵敏有趣味。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "动力虽然是标准版，但我感觉完全够用。平常带家人就放舒适模式...一个人想撒个欢，切到运动模式...挺有乐趣。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在日常家庭出行及个人驾驶场景中体验不同驾驶模式。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "平常带家人就放舒适模式...一个人想撒个欢，切到运动模式"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "空间与舒适性",
+        "content": "作者认为对于两口之家而言，车辆前后排空间及头部空间充足，储物空间（前备箱和后备箱）实用性强。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "空间上肯定比不了SUV，但我这没孩子的两口之家，前后排都宽敞，头顶也够用。最意外的是储物，前备箱能塞个登机箱，后备箱又深又大"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者作为两口之家使用车辆，关注日常乘坐及自驾行李装载。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "我这没孩子的两口之家...出门自驾行李随便放"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "续航与能耗",
+        "content": "作者估算市区开空调电耗约为十三四度，家充成本低，相比旧车节省较多。",
+        "sentiment": "正面",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "电耗我大致估过，市区开空调大概十三四度，家充桩一公里才几分钱，比老408省太多了。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "经历陈述",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "中",
+        "usage_context": {
+          "summary": "作者在市区道路行驶并开启空调。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "市区开空调大概十三四度"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "claim_type": "产品体验与评价",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "配置与功能",
+        "content": "作者指出车辆存在夏季大天幕晒需配遮阳帘、后排坐垫偏短的问题，但考虑到价格可以接受。",
+        "sentiment": "正负混合",
+        "journey_stage": "拥有与日常使用",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "不满意的也有，大天幕夏天确实晒，得自己配遮阳帘，还有后排坐垫能再长点就更舒服了，但想想这个价，也能接受。"
+          }
+        ],
+        "confidence": 0.95,
+        "statement_type": "评价判断",
+        "comparison": null,
+        "experience_basis": "明确亲历",
+        "sentiment_intensity": "弱",
+        "usage_context": {
+          "summary": "作者在夏季使用车辆时感受到天幕带来的热量。",
+          "evidence": [
+            {
+              "block_id": "T1",
+              "source_type": "text",
+              "quote": "大天幕夏天确实晒"
+            }
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "claim_type": "行业与政策观点",
+        "target_products": [
+          {
+            "product_id": "P1",
+            "role": "主要讨论对象"
+          }
+        ],
+        "related_event_id": null,
+        "event_relation": null,
+        "aspect": "品牌与口碑",
+        "content": "作者认为小米品牌倾向于通过降价或增配来‘背刺’老车主，建议非刚需用户等待后续优惠或改款，避免成为冤大头。",
+        "sentiment": "负面",
+        "journey_stage": "非个人旅程或泛行业讨论",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "小米这牌子出了名的爱“背刺”老车主，回头肯定不是降价就是增配。...你要是手里有车开，千万别自己创造需求...愿大家都别当冤大头。"
+          }
+        ],
+        "confidence": 0.9,
+        "statement_type": "推断解释",
+        "comparison": null,
+        "experience_basis": "不适用",
+        "sentiment_intensity": "中",
+        "usage_context": null
+      }
+    ],
+    "events": [],
+    "user_context": {
+      "ownership_status": "当前拥有",
+      "current_journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一冲动提了小米SU7"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "提车过程"
+        }
+      ],
+      "confidence": 0.95,
+      "age": null,
+      "budget": "二十万",
+      "preferences": [
+        "偏好轿车而非SUV",
+        "重视外观颜值",
+        "重视驾驶感受"
+      ]
+    },
+    "post_summary": "作者因旧车标致408故障被迫换车，在对比极氪、特斯拉、蔚来等多款车型后，因喜爱外观和驾驶感，超预算购买了小米SU7 2026款标准版。帖子详细分享了购车费用、提车过程及初期用车体验，肯定了空间、动力和性价比，但也指出了天幕晒和后排坐垫短的缺点，并提醒潜在买家警惕品牌后续的降价增配策略。",
+    "post_topic": "用车体验与产品评价",
+    "analysis_value": "高"
+  },
+  "errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "original_errors": [
+    "user_context/evidence/0:non_contiguous_quote"
+  ],
+  "usage": {
+    "prompt_tokens": 12206,
+    "completion_tokens": 4094,
+    "total_tokens": 16300,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 10304
+    }
+  },
+  "elapsed_s": 17.73683809999784,
+  "http_status": 200,
+  "error_detail": null,
+  "semantic_acceptance": "NOT_MEASURED"
+}

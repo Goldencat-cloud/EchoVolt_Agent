@@ -1,0 +1,587 @@
+{
+  "schema_version": "2.3",
+  "post_id": "95198fa9aeebebe3",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7",
+      "entity_level": "车系",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "静态体验小米SU7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "保时捷",
+      "entity_level": "品牌",
+      "brand": "保时捷",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外观很漂亮，就是保时捷的感觉"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "特斯拉",
+      "entity_level": "品牌",
+      "brand": "特斯拉",
+      "series": null,
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "内饰中规中矩，也就比特斯拉毛坯房要“精致”点"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为小米SU7外观漂亮，感觉像保时捷，虽未明言抄袭但认可其视觉效果；认为蓝色和灰色实车好看，紫色实车效果不如网上惊艳。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "外观很漂亮，就是保时捷的感觉，别说抄不抄，结果是很好看，现场来看，蓝色和灰色更好看，紫色在网上特别漂亮但实车没有惊艳的感觉"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "存在差异但方向不明",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "外观很漂亮，就是保时捷的感觉"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在门店现场静态观察车辆外观。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "现场来看"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者推荐将19寸轮毂升级到20寸以提升美观度，认为21寸轮毂配薄胎不适合家用，易出现颠簸鼓包问题。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "两款轮毂都很漂亮，但这种尺寸轿车，20寸顶天了，选21寸轮毂配超薄胎基本上别想家用，颠簸鼓包，玩玩姿态还行，原车19寸一定建议升到20，帅的不只是一点点"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者不喜欢无边框后视镜的设计，认为其搭配不协调，且担心电机耐用性及维修成本高。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "完全无边框的后视镜，很炫酷，但个人不太喜欢，总觉得怪怪的搭配不协调，后视镜调整时不再是镜片动，而是整个后视镜移动，电机耐用度一年后再看，但起码维修不会便宜"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P2",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为可升降尾翼虽然炫酷但升起角度大，远观不协调，且明确表示不如保时捷帅。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "可升降尾翼炫酷，但升起倾斜度偏大，远处观看不太协调，毫无疑问没保时捷帅"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P2"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P2",
+            "aspect": "外观与内饰",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "毫无疑问没保时捷帅"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C5",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者批评尾部扩散器和排气管设计为败笔，认为其撞色和形状设计臃肿，破坏了运动感。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "尾部扩散器+排气管是败笔，这点发布前看图片就有主观看法了，整体不协调，一大块撞色和形状设计显得特别臃肿，破坏了运动车的感觉"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "强",
+      "usage_context": null
+    },
+    {
+      "id": "C6",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "外观与内饰",
+      "content": "作者认为内饰中规中矩，比特斯拉精致但谈不上豪华，喜欢实体按键、运动方向盘及仪表台螺丝口设计。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "内饰中规中矩，也就比特斯拉毛坯房要“精致”点，谈不上豪华，就是特别简单，运动车应有的单纯。杯架旁的一排实体按键好评，设计非常精致，按键阻尼感很好，个人比较喜欢还特意拍了特写。方向盘也是好评，个人比较喜欢这种运动方向盘，握感舒适，盘子大小合适，不像现在新能源总喜欢把方向盘越做越小没有手感，左右两个旋钮也很运动，可以开启运动++模式（真20秒）。仪表台左右分别有一个1/4螺丝口，这绝对是好评，未来更多的扩展配件可以直接接入，比如手机支架以及各种运动相机，玩摄影的知道这螺口的好处"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "外观与内饰",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "内饰中规中矩，也就比特斯拉毛坯房要“精致”点"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "行业与政策观点",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能座舱与车机",
+      "content": "作者认为手机厂商做车机是对传统车企的降维打击，其他车企无法匹敌。",
+      "sentiment": "正面",
+      "journey_stage": "非个人旅程或泛行业讨论",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "车机不想聊，我一贯观点是，任何手机厂商来做车机，都是降维打击，所有车企都无法匹敌，对，我说的就是在座的各位"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为座椅偏向运动，前排包裹性强但舒适性一般，后排腿部承托不足，不适合追求家用的用户。",
+      "sentiment": "负面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "座椅部分，绝对的运动趋向，前排桶椅设计，包裹性非常强，据说带自动侧翼支撑，驾驶感觉应该能提供很强的支撑性（NANA说的），舒适性很一般，想要家用大沙发的直接划过。后排座椅长度足够但倾斜度有限，对于我的身高，明显感觉腿部承托不够，座椅比前排软些，但跟舒适性不沾边。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者以身高约1.8米的体型体验前后排座椅。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "对于我的身高，明显感觉腿部承托不够"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者反驳网络上关于后排空间小的说法，认为1.8米身高坐后排腿部有两拳空间，三人乘坐不拥挤，但头部空间有限，高个子会感到压抑。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "空间方面需要特别说明，网上一众黑后排空间，但1米8不算高的我，坐后排完全不觉得拥挤，前排正常驾驶座位，我在后排腿部可以获得接近两拳空间（按照我的驾驶习惯调整，图片中前排哥们可能矮了点给我后排过多空间咳咳），可以看到后排同时坐了3个人，都能获得横向纵向的足够空间。头部空间有限，我的身高头部仅仅只有两指空隙，高个长时间坐后排是比较压抑的，更不提夏天直接感受全景天窗的温暖。空间来看，虽然谈不上很宽敞，但同级别C级车的表现，绝不是网络黑子喷的那么不堪。"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者身高1.8米，在前排正常驾驶位情况下体验后排空间。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "1米8不算高的我，坐后排完全不觉得拥挤，前排正常驾驶座位"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者认为音响表现不错但不够通透，适合流行乐和重金属，并认为百万以内没有原厂音响比特斯拉更好的车。",
+      "sentiment": "正负混合",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "音响表现不错，在轿车空间内高瓦数的优势，但感觉不够通透，适合流行乐以及飙车时的重金属，由于音源不确定，暂不下准确结论，跟特斯拉比？不好意思，百万内我没听过原厂比特斯拉好的车"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P3"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P3",
+            "aspect": "配置与功能",
+            "relation": "弱于",
+            "evidence": [
+              {
+                "block_id": "T1",
+                "source_type": "text",
+                "quote": "跟特斯拉比？不好意思，百万内我没听过原厂比特斯拉好的车"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "配置与功能",
+      "content": "作者称赞车内带灯化妆镜尺寸硕大。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "最后单独赞下这个硕大无比的带灯化妆镜，大就是好，好就是大"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C12",
+      "claim_type": "外部事件与舆论",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": "E1",
+      "event_relation": "态度反应",
+      "aspect": "品牌与口碑",
+      "content": "作者佩服雷军，认为小米SU7关注度极高，到店需排队入场和试驾，场面火爆。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "无论你喜不喜欢小米，但你不能不佩服雷总，一款好像很普通也不怎么便宜的电动车，关注度和流量都是绝无仅有的，至少，我试驾这么多车，第一次去店里看车还要跟做核酸一样排队入场的，现场人山人海，试驾需要取号叫好（007号在不在，可以试驾了，过号重新排哈），试驾要排一两个小时，冒犯了，下次见，雷总[裂开]"
+        }
+      ],
+      "confidence": 0.95,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者前往小米门店看车并等待试驾。",
+        "evidence": [
+          {
+            "block_id": "T1",
+            "source_type": "text",
+            "quote": "第一次去店里看车还要跟做核酸一样排队入场的...试驾要排一两个小时"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "name": "小米SU7门店客流火爆",
+      "event_type": "品牌传播与公共舆论",
+      "event_time": null,
+      "event_status": "已发生",
+      "related_product_ids": [
+        "P1"
+      ],
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "现场人山人海，试驾需要取号叫好...试驾要排一两个小时"
+        }
+      ],
+      "confidence": 0.9,
+      "summary": "小米SU7门店客流量极大，看车和试驾均需长时间排队。"
+    }
+  ],
+  "user_context": {
+    "ownership_status": "无法判断",
+    "current_journey_stage": "购车前",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "静态体验小米SU7"
+      },
+      {
+        "block_id": "T1",
+        "source_type": "text",
+        "quote": "我试驾这么多车，第一次去店里看车"
+      }
+    ],
+    "confidence": 0.8,
+    "age": null,
+    "budget": null,
+    "preferences": [
+      "偏好运动风格外观",
+      "重视内饰质感与实体按键",
+      "偏好较大尺寸方向盘"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7的静态体验，详细点评了外观、内饰、空间及配置。作者认为外观漂亮但部分设计（如尾翼、扩散器）存在争议，内饰精致且实用，后排空间优于网络传言但头部空间受限。此外，作者描述了门店极高的客流量和排队现象。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}

@@ -1,0 +1,713 @@
+{
+  "schema_version": "2.3",
+  "post_id": "1cd4a545434e4d40",
+  "products": [
+    {
+      "id": "P1",
+      "name": "小米SU7 2026款 Max",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": "2026",
+      "version": "Max",
+      "evidence": [
+        {
+          "block_id": "T0",
+          "source_type": "text",
+          "quote": "26款灰外紫内max提车作业"
+        },
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "相关车型:小米SU7 2026款 Max"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "P2",
+      "name": "马自达昂克赛拉",
+      "entity_level": "车系",
+      "brand": "马自达",
+      "series": "昂克赛拉",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "第一辆车昂克赛拉开了十一年了也要20w公里了"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "P3",
+      "name": "宝马i3",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "i3",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一开始看的宝马，油车电车都关注了一下，主要是i3这性价比很高哈哈"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P4",
+      "name": "宝马330尊享",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "3系",
+      "model_year": null,
+      "version": "330尊享",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "那我就看了330尊享和530尊享"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P5",
+      "name": "宝马530尊享",
+      "entity_level": "具体配置",
+      "brand": "宝马",
+      "series": "5系",
+      "model_year": null,
+      "version": "530尊享",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "那我就看了330尊享和530尊享"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P6",
+      "name": "奔驰E级",
+      "entity_level": "车系",
+      "brand": "奔驰",
+      "series": "E级",
+      "model_year": null,
+      "version": null,
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "出去看见奔驰在隔壁就还看了一下奔驰e也去试驾了一下"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "P7",
+      "name": "小米SU7 Pro",
+      "entity_level": "具体配置",
+      "brand": "小米",
+      "series": "SU7",
+      "model_year": null,
+      "version": "Pro",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我说试驾一下pro版本和max版本"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者购车预算约为30万元，认为二十多万元的车也挺好开。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "预算是30个左右，我是感觉现在二十多万的车也挺好开的"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "不适用",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C2",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P3",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P4",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P5",
+          "role": "比较参照对象"
+        },
+        {
+          "product_id": "P6",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "品牌与口碑",
+      "content": "作者起初关注宝马i3、330尊享和530尊享，并试驾了奔驰E级，但因家人反对买电车、个人不喜欢SUV以及觉得奔驰E级不合口味等原因，最终放弃了这些车型。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "一开始看的宝马，油车电车都关注了一下，主要是i3这性价比很高哈哈。家里人不同意买电车，感觉不靠谱。，开车比较多对配置上面要求比较高，那我就看了330尊享和530尊享。本人不喜欢suv就直接pass了。过年带家里人去试了一下车。觉得都不错，推荐我买5系比较大气点。当时价格优惠不高我也不急着用车所以没急着定，出去看见奔驰在隔壁就还看了一下奔驰e也去试驾了一下，完全不是我的菜也pass了。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C3",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "由于油价上涨且家中多辆油车每月油费较高，作者母亲同意其去看小米SU7，从而促使作者考虑购买新能源车。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T1",
+          "source_type": "text",
+          "quote": "后来油价一路涨价，我也正好刷到新su7续航测试，感觉有点东西，就给我妈提了一嘴，然后她就说那你去看一下吧。估计是家里三辆油车这加起来油费一个月也不少，松嘴了哈哈。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "推断解释",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C4",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P7",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者试驾小米SU7 Pro和Max后，认为车辆操控性好，不像接近五米长的车那样笨重，动力表现出色，内饰令人喜爱，且静谧性远超燃油车。",
+      "sentiment": "正面",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "我一上手感觉这车挺好开的，这操控感一点也不像快五米的车，动力什么的感觉也很不错，内饰也很喜欢，静谧性真的是碾压油车。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在昆山小米盛晞路店试驾，先在昆山上高架驾驶Pro版，后在小路驾驶Max版，并按Pro路线在高架再次试驾Max版以测试风噪和动力。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "正好3月24号空了我就去昆山小米盛晞路店去试驾一下...然后先试驾了一下pro...然后又去换了max试驾，一开始pro是在昆山高架上开的，max就去下面小路上开了，然后我给销售说我看max有个静谧性座舱，再去高架上试一下试试风噪动力什么的。然后销售也同意了，按pro的路线又走了一遍"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "claim_type": "车型比较",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "主要讨论对象"
+        },
+        {
+          "product_id": "P7",
+          "role": "比较参照对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者对比试驾发现，Max版的提速比Pro版快很多，但风噪和胎噪的区别不明显。",
+      "sentiment": "中性",
+      "journey_stage": "购车前",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "按pro的路线又走了一遍，提速完全快了好多 风噪胎噪其实我是没感觉出来多大区别"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "评价判断",
+      "comparison": {
+        "product_ids": [
+          "P1",
+          "P7"
+        ],
+        "relations": [
+          {
+            "subject_product_id": "P1",
+            "object_product_id": "P7",
+            "aspect": "动力与性能",
+            "relation": "优于",
+            "evidence": [
+              {
+                "block_id": "T2",
+                "source_type": "text",
+                "quote": "按pro的路线又走了一遍，提速完全快了好多"
+              }
+            ]
+          }
+        ]
+      },
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": {
+        "summary": "作者在同一天先后试驾了Pro和Max版本，并在相同的高架路线上进行了对比测试。",
+        "evidence": [
+          {
+            "block_id": "T2",
+            "source_type": "text",
+            "quote": "按pro的路线又走了一遍"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者意向购入对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "价格与成本",
+      "content": "作者最终选择了小米SU7 Max版本，配置为灰外紫内20英寸轮毂，裸车价303900元，加上保险、购置税和上牌费后，整车落地价格为327212.22元。",
+      "sentiment": "中性",
+      "journey_stage": "订购与成交",
+      "evidence": [
+        {
+          "block_id": "T2",
+          "source_type": "text",
+          "quote": "车子就选了max版本的灰外紫内20轮毂，裸车是303900，保险9472.32，购置税13446.9，小米上牌费393。整车落地价格是327212.22元供各位参考。"
+        }
+      ],
+      "confidence": 0.98
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    },
+    {
+      "id": "C7",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "智能驾驶",
+      "content": "作者提车初期发现智能驾驶功能受限，仅有LCC和车道保持，HAD需行驶300公里后才解锁；在大路和高架跟车尚可，但不会自动转弯，且在路口易偏离车道冲向绿化带，需注意接管。",
+      "sentiment": "正负混合",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "路上试了一下智驾也只有lcc和车道保持，had要智驾300km才能解锁，用下来大路高架跟车还行，不会自动自动拐弯什么的，还有就是路口错位的那种老是往绿化带跑，要注意随时接管。"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者提车当天驾驶车辆回家，途中测试了智能驾驶功能。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "提完车就开了八十多公里到家，路上试了一下智驾"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C8",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "动力与性能",
+      "content": "作者指出新手模式限制了动力，需行驶300公里解除；在此期间尝试运动+模式，感觉与普通模式区别不大，仅提速略快。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "新手模式限制动力了，也要300km行驶里程才能解除。这时候感觉运动+也不过如此哈哈哈没感觉出来什么大区别，就是提速什么的比一般车子快一点。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者提车初期，在新手模式下驾驶车辆。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "新手模式限制动力了，也要300km行驶里程才能解除。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C9",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者母亲乘坐车辆前往常熟演出，称赞车辆舒适，特别是副驾腿托较长且配有按摩功能，适合长途舒缓疲劳。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "下午送我妈去常熟演出，路上也试了一下座椅通风和按摩，她说这车真不错，坐着也舒服副驾腿托也长 还有按摩什么的 开长途可以舒缓一下。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "转述信息",
+      "comparison": null,
+      "experience_basis": "明确非亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者驾车送母亲去常熟参加演出，途中母亲体验了座椅通风和按摩功能。",
+        "evidence": [
+          {
+            "block_id": "T6",
+            "source_type": "text",
+            "quote": "下午送我妈去常熟演出，路上也试了一下座椅通风和按摩"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "空间与舒适性",
+      "content": "作者认为车内储物空间不多，但勉强够用，因此倾向于少放物品在车上。",
+      "sentiment": "中性",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T6",
+          "source_type": "text",
+          "quote": "车里储物空间不多凑合够用，也挺好少放点东西在车上"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C11",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "续航与能耗",
+      "content": "作者行驶3333公里后，电耗在16-17kWh/100km左右，认为可以接受。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "也开了3333公里了 电耗16 17左右也能接受"
+        }
+      ],
+      "confidence": 0.95
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": {
+        "summary": "作者累计行驶3333公里后的日常使用情况。",
+        "evidence": [
+          {
+            "block_id": "T8",
+            "source_type": "text",
+            "quote": "也开了3333公里了"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C12",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "驾驶与操控",
+      "content": "作者沉迷于运动+模式的加速体验，曾因不熟悉新手模式下的动力释放习惯，在踩油门时意外达到160km/h，感到速度过快。",
+      "sentiment": "正负混合",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T8",
+          "source_type": "text",
+          "quote": "运动+太上头了总想踩一踩，刚接触新手限制的时候还不知道，习惯性用新手模式踩的力度踩了 直接就160，太快了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": null
+    },
+    {
+      "id": "C13",
+      "claim_type": "产品体验与评价",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "充电与补能",
+      "content": "作者测试了比亚迪闪充、理想液冷桩、鸿蒙智行充电桩以及特来电、快电等不同品牌的充电桩，发现充电速度和价格基本相当，从20%电量充至80%仅需十几到二十分钟，补能速度快。",
+      "sentiment": "正面",
+      "journey_stage": "拥有与日常使用",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "冲电也冲了很多回了，比亚迪闪冲 理想液冷桩 鸿蒙智行的桩也去试了 基本上都差不多，就是价格区别，速度也差不多。我三元里电池一般还剩二十多我就去冲了 冲到80都是十几分钟到二十分钟左右，补能挺快的 其他的特来电 快电什么的也有去试过 360kw 200kw的桩 时间差别不大。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "经历陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "中",
+      "usage_context": {
+        "summary": "作者在日常使用中多次进行充电，通常在电量剩余20%多时开始充电，直至80%。",
+        "evidence": [
+          {
+            "block_id": "T9",
+            "source_type": "text",
+            "quote": "我三元里电池一般还剩二十多我就去冲了 冲到80都是十几分钟到二十分钟左右"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C14",
+      "claim_type": "故障与风险",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "可靠性与故障",
+      "content": "作者提醒新车两侧裙边可能会有从门板内流出的蜡，不易擦拭，需要使用去污蜡处理，随着时间推移可能会消失。",
+      "sentiment": "负面",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "还有个就是新车两边侧裙会有门板里流出来的蜡，自己擦不好擦，要用去污蜡什么得擦一下，等时间长点没了就不会留了"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "事实陈述",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": "弱",
+      "usage_context": null
+    },
+    {
+      "id": "C15",
+      "claim_type": "购车与交易决策",
+      "target_products": [
+        {
+          "product_id": "P1",
+          "role": "作者当前使用对象"
+        }
+      ],
+      "related_event_id": null,
+      "event_relation": null,
+      "aspect": "服务与交付",
+      "content": "作者建议小米店内的393元上牌服务可根据个人情况选择，选择该项服务是为了节省精力。",
+      "sentiment": "中性",
+      "journey_stage": "交付与上手",
+      "evidence": [
+        {
+          "block_id": "T9",
+          "source_type": "text",
+          "quote": "避坑的一个是小米店里的393上牌服务可以不选的，选了就是自己省事，这个看个人选择了。"
+        }
+      ],
+      "confidence": 0.9
+    ,
+      "statement_type": "评价判断",
+      "comparison": null,
+      "experience_basis": "明确亲历",
+      "sentiment_intensity": null,
+      "usage_context": null
+    }
+  ],
+  "events": [],
+  "user_context": {
+    "ownership_status": "当前拥有",
+    "current_journey_stage": "拥有与日常使用",
+    "evidence": [
+      {
+        "block_id": "T0",
+        "source_type": "text",
+        "quote": "26款灰外紫内max提车作业"
+      },
+      {
+        "block_id": "T8",
+        "source_type": "text",
+        "quote": "也开了3333公里了"
+      }
+    ],
+    "confidence": 0.98,
+    "age": null,
+    "budget": "30万左右",
+    "preferences": [
+      "不喜欢SUV",
+      "重视车辆配置",
+      "偏好轿车"
+    ]
+  },
+  "post_summary": "作者分享了小米SU7 2026款Max的提车及用车体验。文章回顾了从考虑宝马、奔驰到最终选择小米SU7的心路历程，详细记录了试驾感受、购车费用（落地约32.7万）及提车过程。用车初期，作者对车辆的操控、静谧性和充电速度表示满意，但也指出了智能驾驶功能的局限性、新手模式下的动力适应问题以及新车侧裙出蜡的小瑕疵。",
+  "post_topic": "用车体验与产品评价",
+  "analysis_value": "高"
+}
