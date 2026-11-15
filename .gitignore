@@ -11,15 +11,22 @@ node_modules/
 local-config/
 
 # 运行产物（可由代码重新生成，不属于数据源）
-offline_analysis_pipeline/08_semantic_services/reports/
-offline_analysis_pipeline/08_semantic_services/.sandbox-tmp/
-offline_analysis_pipeline/08_semantic_services/.local/
-offline_analysis_pipeline/08_semantic_services/*.log
-offline_analysis_pipeline/08_semantic_services/*.log.*
-offline_analysis_pipeline/08_semantic_services/_tmp_*.py
-offline_analysis_pipeline/08_semantic_services/_t*.txt
-offline_analysis_pipeline/08_semantic_services/_test_out.txt
-offline_analysis_pipeline/data/stock/db/backup-*/
+pipeline/service/reports/
+pipeline/service/.sandbox-tmp/
+pipeline/service/.local/
+pipeline/service/*.log
+pipeline/service/*.log.*
+pipeline/service/_tmp_*.py
+pipeline/service/_t*.txt
+pipeline/service/_test_out.txt
+pipeline/service/data/e2e-runs/
+pipeline/service/data/_e2e_logs/
+pipeline/data/runtime/
+pipeline/data/stock/db/backup-*/
+
+# 本地材料：不入库
+PPT材料/
+docs/architecture/
 
 # 操作系统文件
 Thumbs.db

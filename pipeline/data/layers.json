@@ -1,0 +1,17 @@
+{
+  "schema": "echovolt-data-paths/1",
+  "note": "数据位置约定（简单优先）。三个固定位置 + 各阶段自己的 results/。由 tools/quality_gate.py（semantic-freshness）与 docs/ARCHITECTURE.md 引用。",
+  "locations": {
+    "stock-db": "data/stock/db/ingestion.sqlite3",
+    "published-db": "data/published/semantic.db",
+    "stage-results": "<阶段目录>/results/（中间产物留在阶段内，大文件不进 Git）",
+    "source-metadata": "03_media/source_metadata/（源 CSV：002/003/004）",
+    "industry-corpus": "09_industry_kb/corpus/（政策/术语原文）",
+    "live-acceptance": "data/live-acceptance/（live 验收库与响应证据块）"
+  },
+  "rules": {
+    "stock": "唯一采集库；01 写业务表，02 写标注表；其余阶段只读。",
+    "published": "只由 python -m semantic.build 从 stock+04+05 确定性重建；服务只读。",
+    "runtime": "data/runtime/ 为重跑产物落盘区，不进 Git。"
+  }
+}
